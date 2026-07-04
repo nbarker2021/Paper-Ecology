@@ -1,0 +1,2952 @@
+{
+  "schema": "flcr.cam_crystal_memory_bank.v1",
+  "generated_utc": "2026-06-29T22:21:31.536047+00:00",
+  "root": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models",
+  "memory_root": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK",
+  "source_states": [
+    {
+      "kind": "source_state",
+      "name": "MASTER_DOCS_ROUTING_DOCTRINE.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MASTER_DOCS_ROUTING_DOCTRINE.json",
+      "generated_utc": null,
+      "content_address": "1f629405a9cf6a498ab5d95104eaafd6fd0c09fe264a4191b5aa1118200f425c",
+      "summary": "Make the clean master documents the target surface for all paper, code, receipt, and source-discovery work."
+    },
+    {
+      "kind": "source_state",
+      "name": "D_DRIVE_INVENTORY_PAPER_GAP_PASS.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\D_DRIVE_INVENTORY_PAPER_GAP_PASS.json",
+      "generated_utc": "2026-06-29T21:12:50.241649+00:00",
+      "content_address": "f39148172d9a10cb953e9b321c25d0b2471d28d0d9d96b86f5fda6935f98d781",
+      "summary": "missing 203608 artifacts"
+    },
+    {
+      "kind": "source_state",
+      "name": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.json",
+      "generated_utc": "2026-06-29T21:25:51.533292+00:00",
+      "content_address": "58e14fbbe8497834c55f29b6115e20f6db1ed4010c2216791229f3de677640b9",
+      "summary": "2 pairwise packages"
+    },
+    {
+      "kind": "source_state",
+      "name": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.json",
+      "generated_utc": null,
+      "content_address": "ef11a8f8d1f97a888fb41cd6effac2ad15fa88c1d40582a4da2f248ea78c7356",
+      "summary": "Turn every new local discovery into a paired package: internal artifact plus current peer-reviewed external paper, correlation statement, adapted validation/NIST review, crystal faces, paper routes, and obligations."
+    },
+    {
+      "kind": "source_state",
+      "name": "AGENT_DISCOVERY_SYNTHESIS_PASS.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\AGENT_DISCOVERY_SYNTHESIS_PASS.json",
+      "generated_utc": "2026-06-29T22:06:12.296338+00:00",
+      "content_address": "68d249e2ed64fabb7d32996cd48c49a6ede6da60cc837ffe26c12890658c4b85",
+      "summary": "20 local targets; 12 external candidates"
+    },
+    {
+      "kind": "source_state",
+      "name": "EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+      "generated_utc": "2026-06-29T22:06:12.296338+00:00",
+      "content_address": "c7eb23353a32cf80e1edf026151d5a44685298ee86a61aa0032f9bd531ddf79f",
+      "summary": "12 external pairing candidates"
+    },
+    {
+      "kind": "source_state",
+      "name": "SLOT_1_80_GENERALIZED_ONTOLOGY.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SLOT_1_80_GENERALIZED_ONTOLOGY.json",
+      "generated_utc": "2026-06-29T22:13:08.105749+00:00",
+      "content_address": "d6355a0ccc089ef28365dac7a2810fd13eeba9959db7ee220d46de5f1c5c3b9c",
+      "summary": "flcr.slot_1_80_generalized_ontology.v1"
+    },
+    {
+      "kind": "source_state",
+      "name": "EVIDENCE_INTAKE_SCORE_NOTEBOOK.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EVIDENCE_INTAKE_SCORE_NOTEBOOK.json",
+      "generated_utc": "2026-06-29T22:13:08.268905+00:00",
+      "content_address": "24288a947f7b15cf66af92847f256581ec971820203ffe37c984f3cf1b5f4fd2",
+      "summary": "322 scored evidence records"
+    },
+    {
+      "kind": "source_state",
+      "name": "PAPER_ASSEMBLY_AUDIT_PASS.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PAPER_ASSEMBLY_AUDIT_PASS.json",
+      "generated_utc": "2026-06-29T22:13:08.269904+00:00",
+      "content_address": "bf61676d4ca2688c211d2607bf4d7c153f2558b915879427fc74ceb47aa8461c",
+      "summary": "counts {'records': 322, 'assemble': 2, 'reroute_or_repair': 0, 'discovery': 320}"
+    },
+    {
+      "kind": "source_state",
+      "name": "DISCOVERY_AGENT_ASSIGNMENT_MANIFEST.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\DISCOVERY_AGENT_ASSIGNMENT_MANIFEST.json",
+      "generated_utc": "2026-06-29T22:13:08.269904+00:00",
+      "content_address": "68c49bbf5141c0b66fd1face66b48e3c47f60ee7aa3194af85c81cad8e1ae654",
+      "summary": "Assign persistent pipeline roles for finding, pairing, classifying, validating, and assembling evidence into the 1-80 master docs."
+    },
+    {
+      "kind": "source_state",
+      "name": "ARCHIVE_INTAKE_PASS.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ARCHIVE_INTAKE_PASS.json",
+      "generated_utc": "2026-06-29T22:11:57.870958+00:00",
+      "content_address": "4c232044327e1a151cd79f1993276d2ceb35202d5bf41263b144eaa292f04edd",
+      "summary": "flcr.archive_intake_pass.v1"
+    },
+    {
+      "kind": "source_state",
+      "name": "ARCHIVE_EXTRACTION_MANIFEST.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ARCHIVE_EXTRACTION_MANIFEST.json",
+      "generated_utc": "2026-06-29T22:11:57.870958+00:00",
+      "content_address": "fde74a2a9fe0b3fe7eef656b878400bbddd5f5de5ceac77efda6955f2f62ce72",
+      "summary": "flcr.archive_extraction_manifest.v1"
+    },
+    {
+      "kind": "source_state",
+      "name": "CAM_DATABASE_INTAKE_PASS.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_DATABASE_INTAKE_PASS.json",
+      "generated_utc": "2026-06-29T22:20:05.206913+00:00",
+      "content_address": "7acfe03890de30ee487798199c57cb6c56ef6f6a45aab7300337d71aa446a68b",
+      "summary": "flcr.cam_database_intake_pass.v1"
+    },
+    {
+      "kind": "source_state",
+      "name": "CAM_DATABASE_PORT_QUEUE.json",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_DATABASE_PORT_QUEUE.json",
+      "generated_utc": "2026-06-29T22:20:05.206913+00:00",
+      "content_address": "52f0d9e960c6f4980d81eeac8d6422e05c8ead42c098ff622692d25f5aa3b94b",
+      "summary": "flcr.cam_database_port_queue.v1"
+    }
+  ],
+  "crystal_counts": {
+    "package_crystals": 2,
+    "slot_crystals": 76,
+    "decision_crystals": 3,
+    "source_family_crystals": 45,
+    "archive_crystals": 200,
+    "cam_database_crystals": 77,
+    "total": 403
+  },
+  "crystals": [
+    {
+      "kind": "package_crystal",
+      "granularity": "pairwise_package",
+      "content_address": "941d2507b39ea3876c50dc345d74d56908e5ed0b8081bd01188b615e4c5beb59",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\package_crystal\\PEEP_2026_001.941d2507b39e.json",
+      "label": "PEEP-2026-001"
+    },
+    {
+      "kind": "package_crystal",
+      "granularity": "pairwise_package",
+      "content_address": "8d0fdf41d06e258e52aeb5e1861bf13db2f1dbfe4657e9d8459df4162457d881",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\package_crystal\\PEEP_2026_002.8d0fdf41d06e.json",
+      "label": "PEEP-2026-002"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "d29240ad6eed0a5614dbeb5ae8e7e0b3e9dd868555b1294308a1378ad3adec3d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\00.d29240ad6eed.json",
+      "label": "00"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "26c24e0b2ed810ca1847b671ba7434cda7aa522b8219a6ec40dd825c0b9b95a5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\01.26c24e0b2ed8.json",
+      "label": "01"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "9214ef065b721fb9b084147346140503d712a3320cde736b171af2bb70ed53c0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\02.9214ef065b72.json",
+      "label": "02"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "25abb4f5a5d00e24fcec3a5fd0ae5577e04fd5a649e51b3521b7e0648526a71a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\03.25abb4f5a5d0.json",
+      "label": "03"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "6f65dd803ee6c4ac0614638fa547c62029cc5db6b25d8f843fa59b974d3688e7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\04.6f65dd803ee6.json",
+      "label": "04"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "9998db70c7b78c2bd41db8cbc708e73aeac46a809be9633c837d6ff413768eef",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\05.9998db70c7b7.json",
+      "label": "05"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "e229e1e369f9f30587fd98c3205a3169ab42b1f9f1fcce13c15b0514601a71ab",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\06.e229e1e369f9.json",
+      "label": "06"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "72cdf229b7fc3e23fd8e3dc3fde5ab939ab353a7f6333906aeb1c525ca0fb91e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\07.72cdf229b7fc.json",
+      "label": "07"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "18e64dd766bdecdb6d2b5d7275ca15151c1a4747504c3b6f59122eb89e05012c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\08.18e64dd766bd.json",
+      "label": "08"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "c67271a085b6c1734dbdd0ebf2fd2ebdc8f49b962b672f75d9d4ebed201a3cf2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\09.c67271a085b6.json",
+      "label": "09"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "cd39840b2d2aa719434c5b2cdf2385cb53e175ed2e785c60913abf5f88ac6385",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\10.cd39840b2d2a.json",
+      "label": "10"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "47ca0d7a0f66ddd7804b8780b8bed71d88be30de7f876acb04de62dd2b56a719",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\11.47ca0d7a0f66.json",
+      "label": "11"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "95a141d5e2bbc840ad10638d5d445a57757e6d347da413d0e237df622567aa8e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\12.95a141d5e2bb.json",
+      "label": "12"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "52bcbbdcacae34d503f07dffcf90aff980cb46ddae49b7bbda76a6adfda707e0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\13.52bcbbdcacae.json",
+      "label": "13"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "c523c6e934ce3073f1141c879809c41152bb18cbcf31651fced136ee97c44011",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\14.c523c6e934ce.json",
+      "label": "14"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "f3cf406e63b8433b4e64a25991d3d7f59a9c1c143e287079473b155d04bac2ae",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\15.f3cf406e63b8.json",
+      "label": "15"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "783b7260c7b272dee82477cc5f940ac2be46b106cae34e3ff992b5230a5ef11b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\16.783b7260c7b2.json",
+      "label": "16"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "abe533f451688c6eb6eb4dcdea7ec89b00ab994fd74987c816c98ff7ea15a6cc",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\17.abe533f45168.json",
+      "label": "17"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "717578ffed8d687e749949ec06ae967bc9d6b83f4652e6ce98275347163884d8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\18.717578ffed8d.json",
+      "label": "18"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "46ce24ca5daebb0c5a0aa5a67be7ec27cc9317b65a6abbf1510c8e92cc623016",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\19.46ce24ca5dae.json",
+      "label": "19"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "d6229c3e7491ac84b07a09f896927c9bf8652b9ef07b1a73ef69395540ef0036",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\20.d6229c3e7491.json",
+      "label": "20"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "c1acc5ed1a29e91cff3521c8047d1cf2e869752ec5b134022b98722b23d10825",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\21.c1acc5ed1a29.json",
+      "label": "21"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "d04c0fe9eb2efaf0879a53b28b2effafd6be772fc8dfeb98f2f6dd6ec09ff923",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\22.d04c0fe9eb2e.json",
+      "label": "22"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "0bdbdf650fe097f3d0c2d418f489ce8e1f976a2d6286affccf3f2d963324e712",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\23.0bdbdf650fe0.json",
+      "label": "23"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "9275e86f513293af44fdc6b261d3988bf68a11772a62c909cd7751c68bedbbd1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\24.9275e86f5132.json",
+      "label": "24"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "709f12dec81e58c07016985eb002d8c66f13ad7f225cb724734165866eaabd64",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\25.709f12dec81e.json",
+      "label": "25"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "56969da5eb128eed37036d7f89115ce2c4fb16edec480cf43f1fd45ad6f52346",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\26.56969da5eb12.json",
+      "label": "26"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "978375619c00d9638f28d78956fbf0823f098b3e1fcc81c27a50a63e00d41847",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\27.978375619c00.json",
+      "label": "27"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "c4e1c0b538f80f1abae7eb947cab2f92cd5c46032e9629de1aa3b81fc85c899a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\28.c4e1c0b538f8.json",
+      "label": "28"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "418b4359177741f93640b32a20398818128661a1b9cdc67ed3834134605cfbd6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\29.418b43591777.json",
+      "label": "29"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "1b9e5708081b2aff9567ca074fb76dda22acf694a7bcfd878d445917c90ddd46",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\30.1b9e5708081b.json",
+      "label": "30"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "425ca47241f19cb00de20787a842a3ec6987c3eae4e3594789894a1225d705b3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\31.425ca47241f1.json",
+      "label": "31"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "6b6ded4249b7339a6ea39a720f1eaeb0686111047c84216cf2426de3ca23bde5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\32.6b6ded4249b7.json",
+      "label": "32"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "bd1ab86a2c5bc44f93463d24cc68522c9b9bf10c5164d2ad0a297aa88be3057b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\33.bd1ab86a2c5b.json",
+      "label": "33"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "077dc6b0444b84ddfc7cc251f0d19dda10102ef950e81eb3aae676b59222c7fe",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\34.077dc6b0444b.json",
+      "label": "34"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "fc1aececbdb1ebd9bda00dae4d3280dcde35f5017179ecf6c9b9a2dd6f062d4e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\35.fc1aececbdb1.json",
+      "label": "35"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "263959b11013ae400ff19345a038e06d6f71729ded8bc689baf878a517df819a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\36.263959b11013.json",
+      "label": "36"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "1170ab69b07732769fede5c845c35270a99e81a03c2c0c575901192387cdbaea",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\37.1170ab69b077.json",
+      "label": "37"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "b8435418bd6885c04cfcfb6ac3004238d66e5a26f6ac0c0a310e4b424df95e82",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\38.b8435418bd68.json",
+      "label": "38"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "cf415577f919c98df648c7fee47c4d4a345960eff19d148d1e84226670a6c62b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\39.cf415577f919.json",
+      "label": "39"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "60852b968290066ee4127fb51f0920c46c926601c321c4dd1a1ff4ef04417ede",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\40.60852b968290.json",
+      "label": "40"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "7cdbb0708e566e65ac0000f3b0d8605a3fa02e20f8f5dc4ef1b6571fcc4d0656",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\41.7cdbb0708e56.json",
+      "label": "41"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "93f6d77eaf12b783a24067e78a7e487678bc3f248e7ca179fd7ad6db15eee6db",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\43.93f6d77eaf12.json",
+      "label": "43"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "4c9e68e6310d57bac51f89ad6d2bbe901484d73976bb793ff4d98babcdbb07f9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\44.4c9e68e6310d.json",
+      "label": "44"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "d6e7300f62edaba39d37e1cf44573d8c05f2d3213894b64ed01991c67aa2565c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\45.d6e7300f62ed.json",
+      "label": "45"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "d26f70b1749b675566c16b4b5eb922fac5ab29899fca24e55c8c906d9d805577",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\46.d26f70b1749b.json",
+      "label": "46"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "62cedd73dc4e2a66bda55552478448c8fde38c2f008d3d1fbf1db887c50ae51a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\47.62cedd73dc4e.json",
+      "label": "47"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "c3e319fce96c5982eefa7d3f02ab4918f5e46e26531ae254d30b17f3248245fa",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\48.c3e319fce96c.json",
+      "label": "48"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "aea4f5422729cab6d8a30fbebb7f468e5fe0554e09ede847a0ee688c8939b608",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\49.aea4f5422729.json",
+      "label": "49"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "809a233a92d2b7933f58a08b1d87a822df8c395559053401e6756bd191a36e2b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\50.809a233a92d2.json",
+      "label": "50"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "963a8d5bece136ef45c9691eb37428f0c002e5c4e1bb8d92f486eb6047353a9c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\51.963a8d5bece1.json",
+      "label": "51"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "f376bc4a3fc5e2a585b21a15d50f8da80defd8115529b3f18b783c34745c7a1a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\53.f376bc4a3fc5.json",
+      "label": "53"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "7aef2160a91bd14a7f44a8c02a14d070a23539ab642c4dd79391c85772d8dd5f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\54.7aef2160a91b.json",
+      "label": "54"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "85dabba1369c54497141afa2e0c93a9c2e53ea371890eb8dc9564a54d1d8f329",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\55.85dabba1369c.json",
+      "label": "55"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "b744d9f374100644468fcfcb32ff6c62c0cf3154fcd0ea055a9b670a52107e5f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\56.b744d9f37410.json",
+      "label": "56"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "66003f78886e49737c8e5223d74f9242ceb984ae657477560bb7a81bbb529001",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\57.66003f78886e.json",
+      "label": "57"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "2c6f6954442b655425f8592d0a079f0ad617d710e92a068a44b6cfd194fc21c9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\58.2c6f6954442b.json",
+      "label": "58"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "afe883f0e84bc88f28569fdd04fa7d1420b815cab5b163a3be15524f1cf3fb90",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\59.afe883f0e84b.json",
+      "label": "59"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "298f2d6a469fbbfe607a8f0ba0e65703757ca13776a49d004aac077a7b8f8fe1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\60.298f2d6a469f.json",
+      "label": "60"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "77b8c2c6f4e7c638184ca5a1c74d4e4e7b4d5326b2e4b0f3cbb5050c43a8143b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\61.77b8c2c6f4e7.json",
+      "label": "61"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "a21956ab826a635f1640bca86c5a2b59fb9b058f726c2fb387a1a4ccfcb9fbe9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\63.a21956ab826a.json",
+      "label": "63"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "09203d414aabb954a2d3601f342d9d01ad22910559fc3369e82a2eecdfa70a1b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\64.09203d414aab.json",
+      "label": "64"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "005ce1fdbdee54722c4a2b574233c891a4a9c227baec0ccc7f99ff7bb5d30f62",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\65.005ce1fdbdee.json",
+      "label": "65"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "8046ad39f3d9b0db700947638ba85424df36506bb96f8f4fef3af98c9829a302",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\66.8046ad39f3d9.json",
+      "label": "66"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "cea5c47a8880edadae435b24cc8f26c707f00ec15cf6e12d788490ddb3b79beb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\67.cea5c47a8880.json",
+      "label": "67"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "dbbca6a2b3f52eb55e9c106d010c11430b558713cf23264a0833cf8456e4545a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\68.dbbca6a2b3f5.json",
+      "label": "68"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "55f2d7b38e66506a480c04b0eb6de9c025a9701a67c22fc58d77ecabd3bec683",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\69.55f2d7b38e66.json",
+      "label": "69"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "7a467876360beaa8864a1d8f99117921db25ea08adbcc4ffaebbe874d16efc19",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\70.7a467876360b.json",
+      "label": "70"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "60109a894f749ab7a3d4bd8184330c8b074d770a263ca0a7c38066804b73d9ec",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\71.60109a894f74.json",
+      "label": "71"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "15b81faae6a02297c0afeacea70c80f06836d35434fc8ab85f6da95079e3417f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\73.15b81faae6a0.json",
+      "label": "73"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "f5f9116847b52d8156b80c74dfc5c3c3e8f83dc421519badf3071b02869fa3c8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\74.f5f9116847b5.json",
+      "label": "74"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "f5c9dd025416f1b0f9dcb6b5f4803495ec7fb7989f9455a03f42da48f52a1224",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\75.f5c9dd025416.json",
+      "label": "75"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "05733d86e6b989ed1828cd22e826a94670b7c6ecb0d115566066f6d13c104842",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\76.05733d86e6b9.json",
+      "label": "76"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "3c7bdab5ebe3346dc175351018bbd59d63219737d5b4043a855a3ff49015a18a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\77.3c7bdab5ebe3.json",
+      "label": "77"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "975af4f6c394a0800d79da995fd0fa1b4cb603d728722e77fede4ea35ab48d62",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\78.975af4f6c394.json",
+      "label": "78"
+    },
+    {
+      "kind": "slot_crystal",
+      "granularity": "slot",
+      "content_address": "e4fd354afbbd101fd2ba51dabd1e50eb02c52eae9f1410f722d451c568b6b65a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\slot_crystal\\79.e4fd354afbbd.json",
+      "label": "79"
+    },
+    {
+      "kind": "decision_crystal",
+      "granularity": "assembly_decision",
+      "content_address": "348d41d41b8ff94f6526746e105187ec1fe233999278dede123de76c6918fdfb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\decision_crystal\\ASSEMBLE.348d41d41b8f.json",
+      "label": "ASSEMBLE"
+    },
+    {
+      "kind": "decision_crystal",
+      "granularity": "assembly_decision",
+      "content_address": "c3dfe7bb24bafbc2c2b7729c089811dc029966dbdccc8a42ffe98c5dc3aa25c9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\decision_crystal\\DISCOVERY_EXTERNAL_PAIR_REQUIRED.c3dfe7bb24ba.json",
+      "label": "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+    },
+    {
+      "kind": "decision_crystal",
+      "granularity": "assembly_decision",
+      "content_address": "8c5d9587007220c5b6a61833e2054408b63e42416d733664ede99189d53d580e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\decision_crystal\\DISCOVERY_MORE_CONTEXT_REQUIRED.8c5d95870072.json",
+      "label": "DISCOVERY_MORE_CONTEXT_REQUIRED"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "a68b315bc0158be0357e75f72116180ff4ec7b6686a53060a6a27f429f40af75",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\CQE_CMPLX.a68b315bc015.json",
+      "label": "CQE_CMPLX"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "3e37726411a5b8fc2329bc744cca27526e09bef2c6b7e2261e6f1ea02307dc64",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\repo_harvest.3e37726411a5.json",
+      "label": "repo_harvest"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "b514b414f0782b2921d5ab8c57d0c17accab1c526d625829912edd3799fbfb08",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\DockerContainers.b514b414f078.json",
+      "label": "DockerContainers"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "cdec2d3bddfbcdafe3317eff3d2551d18eecf6fbf8fe5281884be38163b24731",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\forge_base.cdec2d3bddfb.json",
+      "label": "forge-base"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "d1509b648ec3f5ecb4c9bcc0c9392402717fafd03c594c6ed839dfaf65b4b6e6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\Paper_Reworks.d1509b648ec3.json",
+      "label": "Paper Reworks"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "49653004e6b55960ed4814df10d560ab29c7940d03417d986cc81434ffc85d79",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\MannyAI.49653004e6b5.json",
+      "label": "MannyAI"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "778bb51f2167377d790638a587a45f1f00b3354c12d88e64c6fb0bab09aa180f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\PaperConsolidation.778bb51f2167.json",
+      "label": "PaperConsolidation"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "97773a7754e692f32fc9605c26c3c31fe07f0b3c343197e3bddb29feea989b0a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\PaneForge.97773a7754e6.json",
+      "label": "PaneForge"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "5e81bc96877018c53265ba72643151c88d483b9620d2236c462eccc8527a0966",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\Claude_Codex_Memory.5e81bc968770.json",
+      "label": "Claude-Codex-Memory"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "d4dfd18fa744c4a12d0fd78d1219dd2f1ce2041608ce4f56af699c4123dada38",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\MasterPaper.d4dfd18fa744.json",
+      "label": "MasterPaper"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "a939045b6f9ce23151dc6d2712539ffe47ff7fdeb10960675c4f87043b5d41f8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_cam_crystal_init_py.a939045b6f9c.json",
+      "label": "tmp_cam_crystal_init.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "4c82c8356b47d4bc168e5f5442d4aacb6873a1bbf1aa93baeacc0842f59ba91b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\CQECMPLX_ProofValidatedSuite.4c82c8356b47.json",
+      "label": "CQECMPLX-ProofValidatedSuite"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "6a7446f7252b61ac382197d4147448165df9ab05a3286b3136a1e23a551bd7ac",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\home.6a7446f7252b.json",
+      "label": "home"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "f2af515bf454edc4cc82beac9afd83bc382bcb3a2172949c7276cc316c2896b0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\FLCR.f2af515bf454.json",
+      "label": "FLCR"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "2ea633d91af406d35731fe06719f203915437ae8b116ef0fac85ee7ad61d7030",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_build_comprehensive_cam_py.2ea633d91af4.json",
+      "label": "tmp_build_comprehensive_cam.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "9bab2186db1bf53a643bb21f456dd5ba73fd2e71393dadf9a32eac3b36067d91",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_build_adaptive_cam_py.9bab2186db1b.json",
+      "label": "tmp_build_adaptive_cam.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "7d408bcefea990a3c0ae4cc2344358c9405dcb7a92290e4324c8e1e890535200",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\d.7d408bcefea9.json",
+      "label": "d"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "1b9ab7f4467a8313be778da5bfd32b19233b8e4ac14d8f40d392ce612dbf6a9c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\kilo.1b9ab7f4467a.json",
+      "label": ".kilo"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "1e2dea04680fcd2c3f30902bb70984659339777d147783198f3b1f47cc644104",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\vscode.1e2dea04680f.json",
+      "label": ".vscode"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "1418f2572e4e6d7969a98afd483b6f819a836b4769c125752645b65b34186dee",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\pythontraining.1418f2572e4e.json",
+      "label": "pythontraining"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "1c89496359771be5b7c3cb04224a4c9423e4df2224a781aa8a65ae27779f779e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_populate_semantic_tables_py.1c8949635977.json",
+      "label": "tmp_populate_semantic_tables.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "8765e4beab715432e0f981b526d8396d38230d25d416d850799852cd3870981e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_populate_bridges_py.8765e4beab71.json",
+      "label": "tmp_populate_bridges.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "deeb0a4a6197b16afd0a00fc9077b0328d9cb1b0a89485ca6bb02563e1d90899",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\tmp_rebuild_survey_db_py.deeb0a4a6197.json",
+      "label": "tmp_rebuild_survey_db.py"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "19a28fb81f356a059ace7ec3d1d9763306e5abc598a66dceb6b1c2f86997ada7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\cursorignore.19a28fb81f35.json",
+      "label": ".cursorignore"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "source_family",
+      "content_address": "d11fe107295b9818e82ae65a0d02aaa18166939e66ec2d63afca7641e9587c4e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\GamingRoot.d11fe107295b.json",
+      "label": ".GamingRoot"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "9b455a0bddec25b7b17c25f22d371d66f810f953e303bdf00e3e10be8eeb5781",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\EVIDENCE_INTAKE_SCORE_NOTEBOOK.9b455a0bddec.json",
+      "label": "EVIDENCE_INTAKE_SCORE_NOTEBOOK.*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "51d27c5c8ac0bb0e98656eb9ecd3ed9be990702fe2e1b0636c87f4319fd49259",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_DRIVE_INVENTORY_PAPER_GAP_PASS_D_CQE_CMPLX_d_drive_unintegrated_inventory_csv.51d27c5c8ac0.json",
+      "label": "D_DRIVE_INVENTORY_PAPER_GAP_PASS.* + D:\\CQE_CMPLX\\d_drive_unintegrated_inventory.csv"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "dcd556e73911936fa3a797186d57a5f10deacc41fe8afe66fcf1c65c3d333d3b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\SLOT_1_80_GENERALIZED_ONTOLOGY.dcd556e73911.json",
+      "label": "SLOT_1_80_GENERALIZED_ONTOLOGY.*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "c85dc42438ed820f8eeb2116a7071fc05b69c5bce4c68c9621577801fe6f64f9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\ORIGINAL_80_DIMENSIONAL_RIBBON_MAP.c85dc42438ed.json",
+      "label": "ORIGINAL_80_DIMENSIONAL_RIBBON_MAP.*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "90491e59beee444e8ce34fcba4768288a6c470a85da14f6f29ea6cb9b8f72f1a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.90491e59beee.json",
+      "label": "ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "4997a7aaf010300c57371cd8889f338c6f4f924550eeda4473280275cff12e12",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\SOURCE_ROUTING_MATRIX_json_SOURCE_PLACEMENT_MATRIX_json.4997a7aaf010.json",
+      "label": "SOURCE_ROUTING_MATRIX.json / SOURCE_PLACEMENT_MATRIX.json"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "17079e0570838179f26ea831af292969f27723e5451adaedf2d75d728d1cca75",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_complete_inventory_json.17079e057083.json",
+      "label": "D:\\CQE_CMPLX\\complete_inventory.json"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "02f8c66f8a1f4cd985c3106fad24af88a10297a9fe6161e9b42d97069defaa4d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_gap_analysis_FINAL_GAP_REPORT_md_master_gap_registry_FINAL_csv.02f8c66f8a1f.json",
+      "label": "D:\\CQE_CMPLX\\gap_analysis\\FINAL_GAP_REPORT.md + master_gap_registry_FINAL.csv"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "91a1a2d58b630ec0018af3e69b1af984b0d3c53c21fb8e194afbbaee5bd223b5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_gap_analysis_paper_review_inventory.91a1a2d58b63.json",
+      "label": "D:\\CQE_CMPLX\\gap_analysis\\paper_review_inventory\\*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "eb6913761ab7ba3f051ec13483e3908fa79b963d89ab35d55b7a5e2b10233db3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_PAPERS_CONTENT_db_PAPERS_LINEAGE_db_PAPERS_LIVE_db.eb6913761ab7.json",
+      "label": "D:\\CQE_CMPLX\\PAPERS_CONTENT.db / PAPERS_LINEAGE.db / PAPERS_LIVE.db"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "d7b10ff3efb9588abc1222ba5dd2e150aaaf8940bbc4164cd743b20f88e8f07c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_TMN_db.d7b10ff3efb9.json",
+      "label": "D:\\CQE_CMPLX\\TMN_*.db"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "43adf3fc48ffdeb39ba10fa5848af583822e344ec6e6e231bffef1804b9bd0cb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_CMPLX_R30_main_CATALOG_csv.43adf3fc48ff.json",
+      "label": "D:\\CQE_CMPLX\\CMPLX-R30-main\\CATALOG\\*.csv"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "b309bd62802ff1cd3618f931a01af4706561a6a18dc7b1e076b998d67de50f15",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\cmplx_morphism_ledger_seed_v0_6_db.b309bd62802f.json",
+      "label": "cmplx_morphism_ledger_seed_v0_6.db"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "409e4b6195c7ed81405b193c5ab7138ad0b9295de2418a374ee699fbba79555d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_CQECMPLX_Formal_Suite_lib_receipts_json.409e4b6195c7.json",
+      "label": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\...\\receipts\\*.json"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "43a4e68689fd2ab1e68987b69ee14c77d81b691ddfa1e3d8145c0d7ccc892e08",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_kernel_staging_papers_suite81_claude_codex_memory_Claude_work_CL_Paper_Evidence_DB_C.43a4e68689fd.json",
+      "label": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-*.md"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "f149007a7509f98d5bb18c1438f52fd1d9594a7fbec79f517d5c3aa1fb2096b8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\lattice_forge_docs_cqe_extracted_formalizations_texts_md.f149007a7509.json",
+      "label": "lattice-forge/docs/cqe/extracted_formalizations/texts/*.md"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "fb7aff50af6eb2ab79e1faa84fdbe31c1607bd83ef1947f2ef11bfc472c9e3e7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_cqekernel_BUILD_SUMMARY_md.fb7aff50af6e.json",
+      "label": "D:\\CQE_CMPLX\\cqekernel\\ + BUILD_SUMMARY.md"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "a37a3cd6a2e0df8705b796a637c1cae38a168c1f621fd58981fbd3709dbe81bd",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\D_CQE_CMPLX_ACTUAL_COMPUTATIONAL_SUBSTRATE_md.a37a3cd6a2e0.json",
+      "label": "D:\\CQE_CMPLX\\ACTUAL_COMPUTATIONAL_SUBSTRATE.md"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "68679511c070fca58cc348f64c32be1ec0c92ad413e0f2a3f12718b097b854ff",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\standard_model_defining_papers.68679511c070.json",
+      "label": "standard_model_defining_papers\\*"
+    },
+    {
+      "kind": "source_family_crystal",
+      "granularity": "local_intake_target",
+      "content_address": "6872152d7b6848cc45aaf18785b08ca930b4e9c075c9c47eb463f7bad4437e99",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\source_family_crystal\\PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE.6872152d7b68.json",
+      "label": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_*"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8c1ba5c29db8f3d5f0b87d4b6450fa0ed852881d483d250ca836e3c60088f8bc",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8c1ba5c29db8.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "137c2872eba889469888104cb6286d7d74fc65ef4542bca3be1846cee3d0840f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.137c2872eba8.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ab93b2f75072bb6107321585bcb8e603891e1cc13c29ad95292f2322a044648a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ab93b2f75072.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c68cddc7590b74766a16c45219ef99fbc451020f7a81dd97dd916e8e01a50e80",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c68cddc7590b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "f39c177f2da1f9e909aadcabab1553e735737c220daecae02a56ddcc888a233e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.f39c177f2da1.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "97d507e80dcd39e682cc6d01fe83d61930a08a8ff3db005c5ba38b0dafdf3f02",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.97d507e80dcd.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "afd656ba1493560a0c11b1068643b3411c7ecae44ec6b9c63da1ac07dd4f14b9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.afd656ba1493.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "de0f1c83baed2e18aa6e6921e04168c5232a8e9f0d0239ed87f2fbdac3f9ab6b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.de0f1c83baed.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b44280492b7852e761aa9fab45f5aae72fc68acb6782940ee23a7ae023eb0ee5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b44280492b78.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "50c7836bc36fd7850aa4246ea0131243fe64101c6a2576c7218cc7b5f13aceb0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.50c7836bc36f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8d65a738cef9891f15b9cf59e1a3f68f4b11a182ffeae4840c88f93c8f9032a5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8d65a738cef9.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0f17a17d30ee1c3b83a619749afe6db0c5357cc35bb876e6331c3cf156d8df1c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0f17a17d30ee.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "92714b9244a4726bd71dccbbfb6b524d41e0459458038c6eb3b7a362cfc4dbad",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.92714b9244a4.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "39682154d628881989e6005f2bc69d88150392f2fef345083f66578997a028fa",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.39682154d628.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ec546e82f86f9ec61b9ba49dd40b37f8fc81b07164e360d87313e944fc2b4d48",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ec546e82f86f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6bd0c1863aa338788d1fb200a1459e5185695aa8307a94ccfb922607e15c569f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6bd0c1863aa3.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "41213cb75b17e14a1817f401d727af0df6993bf7e716959d6f7373dfa5680b19",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.41213cb75b17.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e6cd627030d4850a93dd32b1fdae909b9054aef8f16b3022cb573616d765ef3c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e6cd627030d4.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8d50297536a0b8c06807c9654000fdc1d3b1a7dad81cc12de1708453650b2602",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8d50297536a0.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0de299fb11a3b4b735a91ce3d00bad89a7f7504147c2f986333092f10e9648aa",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0de299fb11a3.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "61c3179602d9d092311670f55b9c3631fab9df31d3e2e4bd50ae1008fb846c4c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.61c3179602d9.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "2e56972e1e23301caf0361be4ded64fc42eb37ecf2920a9e047caf92aa53cbf1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.2e56972e1e23.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "eaae1e79ba5cfeca198ae6314f3f6302b83c8edb33bb60aa6f323cb0f4ca94a1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.eaae1e79ba5c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ce4ce9f58e8b35ef3aed829ad7391a6ab6b5d2a062c93ca2c1924d49df96fd9a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ce4ce9f58e8b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "aa39f3336ecc95accf06b60a3349c14d89640ca4746bb38dcc4fd778e3fa54e7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.aa39f3336ecc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "765fddd247cb27db671ff9982a07615ea6c72e611390df0c6f3350d83f4ff350",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.765fddd247cb.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "20c6988500fc62c8584c7b2761e71beb514b45c721cff8779a26b55995dd3163",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.20c6988500fc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "72b258c329a4e7dd04266f8917bd7bbf7da2334667f12a4ec61d90eb78247bc4",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.72b258c329a4.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "bb760fb94f5ec8d046084ec2640ac6ff0e1a3e5142e00a1d32cb87ea97a17eab",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.bb760fb94f5e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "bb25f70ebeba741bf35bc99434a6f30d7685417537b9dfce07a65975b25fabd8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.bb25f70ebeba.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d5dc02e0eb2f73fa55c1cdf38bfd4e930d54a1de5be881e6832c7f6bfea2e51c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d5dc02e0eb2f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "5c64aea5416c71813d00dbeeb4bfbf5351c160642170bfbf4d9cef7da62f8ccd",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.5c64aea5416c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "57de5d4dc4141ff428874742c7294f8367145b66584a3738fd22a51f926ed660",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.57de5d4dc414.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ee363e247ba5ae0ea916574b11d6ee3d5be620fa3ae40ad35a9ea78a2138224d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ee363e247ba5.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b07736545e7605bbdbceefc5b2c309db1be508f7f0344ca1c13556ed945f7561",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b07736545e76.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9194d9188ae454c5d52c4a31596526b8124afc3822a738c10101705fdedf6b2d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9194d9188ae4.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "36b4a3d356aca3df1d9b89b51a7c0dab405841fa1a2ff95f8e2bb52523cb996f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.36b4a3d356ac.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ae77f0bdb5276f43807ae7d2305b6babb2901020daec6b95656b89227259ce32",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ae77f0bdb527.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7a0eb231a0c2b8ce11ccd18505bf9fe4608df7b3b34d6f8b785e3074f051f2f8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7a0eb231a0c2.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1ae9e98584ed8702249b9e3d26fa0aa65584a34627eb1f8ba480f2376021f8c6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1ae9e98584ed.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "777337c9430e0bc48f6bb5466b5e3d07efa4c2fb4c97c3da4709a4ceab7202e6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.777337c9430e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "10b3fa1883baa89cf1093ee93f5b711ff6aabaaca73d7702cb60bd35071277fa",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.10b3fa1883ba.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a9d18fcd498c823abed2a10401afa4c7de30105a8229598c3b17088ccf32b8d5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a9d18fcd498c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e8303b41bfa3aad732af3451f9a6678a6e621952509c0c0f568baee095e1ae9e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e8303b41bfa3.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "2d2bb7580f33ef21eb80df65944fc4e8d96273e6674365de1f8795d0dd744b3a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.2d2bb7580f33.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "4b335c69ae2566c4f4ee51e8668ad58b5ac7a623bfe95e5c0cdf97df1fc91059",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.4b335c69ae25.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "79d34148c336e6db016c4a97fd14159dfcd162d751940f442c98554e37f37721",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.79d34148c336.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e5be8c5b150007b7277f4494012cd75bc78efe03b5829a85bd67a8b26ba5a001",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e5be8c5b1500.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "3bf2786b7173fb6639a6278f7333f016cc47d46f114b54127b9b0f06845a4b7a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.3bf2786b7173.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a1a23509b2497600e5f2f8214d2a7a2ef890e040583871c0f8f572cc7f794a4b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a1a23509b249.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "cbe9a3c4142a14aa5fdb2275be8574e2ccac0ac0011d27057d47a6cd4d255035",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.cbe9a3c4142a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6f19a9202b8eac96b577eff49a100bbc603037b7270638b5ddc11e69aefd2c7a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6f19a9202b8e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "3202672feb517b9b4a3d3dd12d1bf92dbb8b65d3c42a0762bb4ed65501f66849",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.3202672feb51.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d15e3eaa5ec2fc948c73a6bcff0fd5ecc0793c6ef819641ba761204c7a3e168a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d15e3eaa5ec2.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "745cfe8adfe94209940d4c192afd368cb538bff1bfefd39462025bf89ce9acaa",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.745cfe8adfe9.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "2e0908f42935354c0a71f1d4c263819a0f3e2f2594e55dd43cab0f7a732c0ded",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.2e0908f42935.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7d276d3f9d70da4cb19316b8f2ee60572e1c46d36b036e9235ba1d03381fe91f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7d276d3f9d70.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c2e19bdf6e055ce731c3975dbe4ad25badc59777ed4d61369e0c76348e916e00",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c2e19bdf6e05.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d5e836ccdf8f236896d07a72cdc55afe9ad8e71d9680d3b3f4ca4c3a76dd6dc0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d5e836ccdf8f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "93dad6539d355b640aad4a4a34530ccd7789b3c286b501bb7d100d713d4cdd7c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.93dad6539d35.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "db8b5335e8fde5916f9e7719dbe9bd5a96781cb569d93b921378c915acdda0e9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.db8b5335e8fd.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "74e3b0988e60d20bf0159a8d8ef8bde282ef684f20d57073bfbd75d1811c4de1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.74e3b0988e60.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c60537b826afdde6284014a4f3922fc5b154e1ad79a9cabbfd31fdc2c1bd9309",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c60537b826af.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7c3d384a882b88737d0e1236cbd5c39eade8a9a538e11e7d033f06ac7bc1cf90",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7c3d384a882b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "054bc74e7f76c6dd21b001925f1b84a2dc2ce20080e4b17493e70afa38cd5983",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.054bc74e7f76.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "08d1972ddbb7e479e16752d059bc8dc4b8809ee5ae2c4e8b41a6a64a69f41897",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.08d1972ddbb7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "48af44c03a0460205b74081bf84d212bc4a1f32367030499dbd86dd8c2831e81",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.48af44c03a04.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6dc2c6991a922682ae536a7d444fb05bde06aa43bcbd2a6e624abdfa996bddb9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6dc2c6991a92.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a71433f7c163063f20b29a684e46b3a5ee8c7fb00257cef7105ad709dba981dc",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a71433f7c163.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9f86e3c408e7fab1bfb1c2cd2fbaf18ee57d002377980f0fdd068fc5a7a2338a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9f86e3c408e7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "2e69ea24b1e70d705ab3845559b4fe48c2a6eca2a8d95a9c6bd32a75cb776a06",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.2e69ea24b1e7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7ecc8f5d7c97695c137e940b142171a43746583cd088ff03151e226c52b3de82",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7ecc8f5d7c97.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b9da282a1d5ac1e0cd855a42fcb6f64795eb4fb5e2fdd8ea5c8fa6fd1d068595",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b9da282a1d5a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6d95a204cd04c9687d8e5f96ed7b541099a0124d60319a94ac7971311c4918a7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6d95a204cd04.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "27a3e50e788fed4e15c0bf6f8763f5a28dc219366465d715a4e96d0dbb81dcb4",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.27a3e50e788f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "951f9cbb6f99ae9a39646114fb0500ce2f3b5cd5498d3fbc58fc6ead17d02693",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.951f9cbb6f99.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "04d78898870add0b1c4974f6393164d9314fddd29704b3ea9e0eb66f7ab686f8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.04d78898870a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9a917c0d3f578486b777c1556165b4c140650c9e5bd72bc0633d2dbecc67d4ce",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9a917c0d3f57.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "854402047c150a9d9a0f2e6855a7d6fbddd033b7f66a183891d07c0789865ee3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.854402047c15.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "da8532d2345bba9d3cf9274974e4e47186ea17013a0380c2b3ce693ae8305adf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.da8532d2345b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c74665cee58ebbf0c5c0fa982dba23cc0d1d350791bc198335182d98b78762d6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c74665cee58e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "18579cf76e74041003c9f0743da1e2a5f0b937bd3e6b8feeb140b95ccb9ca559",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.18579cf76e74.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0cde0285677a7f2c5f41ce291cb96292fdee0a27e71f37dc1d67dd79fbe91af7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0cde0285677a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "49b41a5c7fafa16c2229ec91df8b2d25a1f9225797782139296a81368475364e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.49b41a5c7faf.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6e21c8f4cc84f1c981dffb1440d1864f81712f809eb06aa79108e8d524959a18",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6e21c8f4cc84.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "4a92a1feea0c28f2c8f92aa0625b8faf6c402fb6bf5d48723a96ae78c3fc3ce5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.4a92a1feea0c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "52efd7156034769fcfd3181ff15bcf01a74b556108d1da07938116355158f858",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.52efd7156034.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "aeebf043d73a044ce6c30f3f51871867f35323cea458e2752fd88f28d1306a43",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.aeebf043d73a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "368cdeff3b6ad744c201dc70dbadc60b577d1217fedc72233dc9f5936b8ae4ae",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.368cdeff3b6a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "573fee8c3fe10f1f218d866808ace0515dcb89cc80414c7d55df9f0c5a462619",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.573fee8c3fe1.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "dbdd334aa771f7e233f96199a220658aa120c0605c2565dde250de7a590edfeb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.dbdd334aa771.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "13933859bc5995b7fc409c087e9974fa7ec6dff9646d060fb4021f3ca16bd55c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.13933859bc59.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9d0f97d5874d8589e7d7c442bc8e24478ce21af273d742c45811bf0ebec6fbf6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9d0f97d5874d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "44b0de2220f448b6ffa9de8868feac9c3c89e491748e9007c02bcc2967e9ae19",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.44b0de2220f4.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7f121e721e5e26d1e8b1b2526d528f9be5e7da1d3e5c2c1bc6372903a1517c61",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7f121e721e5e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "742dd75633618eaed3bd4930020fedda96261a8de77bee9d3f2806827fe815c4",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.742dd7563361.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "017f12a1e2837c5494dac276482af65acc1650ed1cdbd5fed038169f464854f2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.017f12a1e283.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "2afaa3903059fa7a5c7d6a3bcbfad2cc1dd1e73e52c84378ddf0c718a36f02f7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.2afaa3903059.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0080623ca422c7f66bc677cd9e67d933a2ebef3fcd68138791203c6e2c09f1ab",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0080623ca422.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e156bf1de6fc8edbda8ec44426443cb16679ec29275937bf8dcc4913e44083c7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e156bf1de6fc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8198fa53e99758154ffa3ca1d90c554422f33eb57057e9e328acf616d87c7141",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8198fa53e997.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0ea5694b010223b54ffdc6fcafadfe83e920ac3a0559b23363eca1b096af6858",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0ea5694b0102.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "fa67601a193b5ade857c19d72f434ed3302b25a251b6cb03d7f64a5b29ff79ee",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.fa67601a193b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a3255bb2983d5854bee84af32225fb479eb8b7358d99a8a109e468c209b269c3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a3255bb2983d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "252dbf154a79ae0d9ca0ea4d30c4c4aae9104a97c1aaefdbccfa10f884068f70",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.252dbf154a79.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "bc5fe58f21281340ee412f6bd9422e4c69c6fe74a44860683f58a71045ed796e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.bc5fe58f2128.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "4d698f1035e5426a6234d347ceb118b513641b2237a8638ccac952a2c685e072",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.4d698f1035e5.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "33557006199b43840f392924cc9fa85d1cbe7200b873f9b4205a77b9b309a430",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.33557006199b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d410189b8e2a53de3cd292ec85e9006d78321392fce6e517a7c9e75fe036b53f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d410189b8e2a.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "171e4a1ff38ce12f9794fde1a1f597b9f7ee0e0672a4f99a5a1bfccab1ce1db6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.171e4a1ff38c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "cce30dd5ceb09fb8493e057ea27707037cbee18a206fb86910b4aca6a9976ae2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.cce30dd5ceb0.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "ed0bcddb1a2f1877c7b6a9c3357cd1cf6a39f43efcacfb14682213e835dc1ed5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.ed0bcddb1a2f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0347b6931ab76ac45cc67e7844c88db345a3ed91c81ae3c5c6f2ff82efde987c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0347b6931ab7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7dfbccd494a3585a80bac4471ba9b4921c1cb33973e31fbc9b120143363ec8c3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7dfbccd494a3.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b5bfc7920c676ef5a8db94b69b1bccef27f314b74fd75aad6dbbb9f58e911adf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b5bfc7920c67.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6bc4124844465c24176e1c15776a403f3e61d1609881dc91e2935539712dc757",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6bc412484446.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b607a21a085e1098d005502b71cf5d5b4b57712bb749c312aba5d6f7454e0bbd",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b607a21a085e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1a0e440a9b7b1a633bc4bf3ab3ee17a1a4152f729363266c9bda62ff3f7dc305",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1a0e440a9b7b.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "719753826b4c0a70624181d5d5b916b7d543b2ab010ebfea076c60f9a88f1aca",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.719753826b4c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "823079df6d64a33e5f66f57559d4ad9720c4540eb435b02f5e3ca66858f3322b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.823079df6d64.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1b0e45eaf01d85a1437a6e0513210ab418ac73fc486151a977617e77ab28e17a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1b0e45eaf01d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "94eebcb8720ecb1bff752bc230b2db77af30abae7a0d17fb048ce97fbe29cbb8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.94eebcb8720e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "03388907aa76ab57555d9aac834d1392fec9fd65cfa7f3bb2330a946c2a3a42c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.03388907aa76.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "10db1f1f0bddb628ee2afde20f8151d3cfd244cc6b5fc2cd9046b98e33ab6684",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.10db1f1f0bdd.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "aafce1fdebcf813187cef1023c77143411b1d26350dde51b2607ae758911938b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.aafce1fdebcf.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "38206c6954118628e92de224759eea68af4e76f334b72b3eaac94b7317efc36b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.38206c695411.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8fa086df91aa39c2032d034f5d80d57dbe1b45c6ca3066a0cfd250069b9fe682",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8fa086df91aa.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9a0929aed3d13c993489765d8149a921d901ee05fec153722f8fb6abb9d203a6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9a0929aed3d1.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "59c36517acc93c05c4d3519038d632d27a17f8b1166b64191483ca7245c94b50",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.59c36517acc9.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "29820fc5493c6df9231276fdb16c2df48ac9598cf77ea6ddd89d871950fe0f4e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.29820fc5493c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9c72438e4593c211d5bc4c47d6b278dadcb219ce7ee0c7219b06b4e25c36b5ae",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9c72438e4593.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "5190152efa4cb8b91dd15f131614d04702f49c3e8d9c1571bee90935c4790a06",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.5190152efa4c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7dea2f6fc8adf87d1c4af32c71e4389233430c8d33a89728c91fb0db0aed5968",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7dea2f6fc8ad.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "17cd6d5b4e0c0791fb54fd6607197e7148269a0dade1e7e9f4edbca47d6f274f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.17cd6d5b4e0c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "58a62289f6664407f7e836f5dfbe1cf5f54c20e063a3083aa0ed88dffcc85623",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.58a62289f666.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c940f04eec8d455f4f8ee3977ded4bb3dbe223550825c7245e9a9c2d6d77bc00",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c940f04eec8d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "3a76823e29ebad49defbfd38b0caedc492964cdfbcaa5f5f14ed2097b82a806b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.3a76823e29eb.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "18f52edcb2bef74749587df45e9bd05b556f09895d3c0056327eade1e8b6b1ba",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.18f52edcb2be.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a5615d6b7e369e9d7628ff00c8888e7eabebf62c27c54b13003385631a52106c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a5615d6b7e36.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "36a5b72827c611463f8fa877229cbd2136b1eeb801575d1eeb2123bc49ffb632",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.36a5b72827c6.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "60331708d153249e6db53ddf0ca1e282d68b6ab1d6949d8315b0561f97d7098d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.60331708d153.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8648752ab13ed66d10bb683c828c7c1cfbde8ebc7120569a146d98612b998a37",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8648752ab13e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "5ff6b0a54e9e78678388f43b4fab717ba843ce94ab69edc3af13c21d7af0fb69",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.5ff6b0a54e9e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d5259e0719483fa83c7781cee27506f4a433f8a07d566d6ba7313ed780a0bd68",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d5259e071948.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "3b3625cf0c00cef23d2750173ed471622686983908cce61e5e37d32572a1b35b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.3b3625cf0c00.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e2c59a169b0fa1c72037d66fd400bdc35070a42fb00f093e753a129cf0c09d3f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e2c59a169b0f.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "79c6f2874ca291bf2f1c7af78b600cdfea1abd04db096e91e18da4704f59fade",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.79c6f2874ca2.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e7038a049d387edd1fd35ea9b4a3bd628aa01440e5fd00a03a380573a5da72ff",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e7038a049d38.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1f67d2946cfc516bf2accee7b5e4f89f451a25c893d278aed9021c72a02d6def",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1f67d2946cfc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "03cf2252f504106223094944adc1246a379d85e272f4dda97453bc7d952daf1d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.03cf2252f504.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "fe21c30f0c78f4a8192214c9a692d4af6d3323403cd8c2a6003f0b0dd20d14bf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.fe21c30f0c78.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0cd05a4bc44132a37aef675c231ae7dfb4f5381e96601450fc3917a9399dc26c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0cd05a4bc441.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "69cee3eeb3907e8cb6ba3b5231c53c75b7186eb6ff00e4768a3560404173ef59",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.69cee3eeb390.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "150fc57374fdf242dc6e39c6a79b84862aa2dcf2679c40e14a28c190fa257137",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.150fc57374fd.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "43915d2f6dcd8bb7b218dab306adef3ab3fe976c977996b05af971dcf65b1fda",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.43915d2f6dcd.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "72d7e7b35307c2d72b5c3402d74c9c8437f76c1852653e03a9ad896b5e423aa1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.72d7e7b35307.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "98e3fd277737ff149338e6be57c2a77a2ef77780c0b7686ce8eb07045643ac9d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.98e3fd277737.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "57178c35c0325e9d70ffa9c6a7de9b8e9ba4d2895c3d3958895d192d9012af02",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.57178c35c032.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0e707529aa0c929796ed00e7c7793e8fa56bd5b2c786ed59308873afdc237a5a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0e707529aa0c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8c64d419b405d731b91a6f65eab035f60f8ec5558a24cb8025e0f0b4b017b29e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8c64d419b405.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "58c5379be5b09a4548878321b50bce04c4b152468ea4f951e0012ec455abe552",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.58c5379be5b0.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1c36ca163ec011d8d5d9c763d11733c55c70463ae11ad72f80276e6fa9e225e6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1c36ca163ec0.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "f149ff9299adf3214aa06e8874dd1e0b0e6a59ed05cf2f011e257b1e079dda7e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.f149ff9299ad.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "f8abb5e924b79222c9579cc028f3759701506970743101ad492b045f1e393682",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.f8abb5e924b7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "dbb6d869aa5419f490e7ce1a7239b74bdc0989b961d82557f7785b859d6e03cc",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.dbb6d869aa54.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "83fa34908c8d1807eb39131e86ab1e450910a932315236cf02fe2c83d2174b61",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.83fa34908c8d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7476df04ebe35ba0218f648818e4b78577ed4de04e2696802a60c9363ccb2a38",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7476df04ebe3.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "1fa774c3f3af532496dd2c9ad35d5bf9212f9c621661b0c0c68f90ceb5d17fb8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.1fa774c3f3af.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "286a94fdd0a7621c9f776956690b3a4831be060b1553a196607bfc508e641fd9",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.286a94fdd0a7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "15f31a286f7811195ebf8206566e208c20ba031cee386b0ebb89110539cbd045",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.15f31a286f78.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "28c3af4ab54efc26df5ae9856849ceb15c1de0430334825c78721d5ad3df366f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.28c3af4ab54e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8fa55f388e17245198ddbfecb5fd381a7ecf83733899981c1c8c69fae09d0f89",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8fa55f388e17.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "fbfdf41793ffc282a770cb8399f071aab1b447b2139de81c9dbebe3aa4388cc5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.fbfdf41793ff.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "730539129f1495987229be4e87881a35ade0b66d1381f6719d5013a9d36f86de",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.730539129f14.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "72d420c15c525746777e58c93b66d100b5a15c40b77854725abba99b673b18c6",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.72d420c15c52.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7dc64c178c70b48f1a6851d8b35ee8a006577356c01f69dcf34a145d1d8c9773",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7dc64c178c70.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "c86301e08123a69dd5272d17e0af6ffa09d60887a71f7d9d82b13de537bfdfdf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.c86301e08123.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a78d78928490468bee2a775b56089e4c34bbfca437561f509fab08245dccc757",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a78d78928490.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0f9bdad7286e6c98e59a4513adb1487e34cc5702fb74f20badb39cc18a891569",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0f9bdad7286e.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d62ab184f4be9bbb983fd691608b18d1e1f165dc4bb1bfbf1284647f1d4f4580",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d62ab184f4be.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "469d1f267cc7ad131616212501eb5769c8a2d15d44a7b84887f2d996412bf94b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.469d1f267cc7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "12dbbb404330c7391c68929e26e00288c31517a91321ad2a51923ead0af8f11a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.12dbbb404330.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "e079d7615790e945fbddb45e5c16be100da23deb4c1af8c0b5b417f804f1798f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.e079d7615790.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "b7d4084071813d4666db771dd5b8b843181cbc814a4c1bc059afe9d566d6d3c2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.b7d408407181.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "d99a608da27250ff642408c7cba46e08494b36996411730f5512ed661837803c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.d99a608da272.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "0e2aeaa93b976a54ed355b365983b869ce2ea38a8a5d6373dd1bcf7569368018",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.0e2aeaa93b97.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "7d59cfea327840eb6b40340d3aae5a97ece50bd0f7b6ee4666fa4defa217bb8f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.7d59cfea3278.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "a6f9494082dc642082bb967bcc539417b6bfe9f79ffe5c622cc245ba57ff6b92",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.a6f9494082dc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "4e3ebe4b09ef821cfc9f815057c9928d523037dd42f79419ef2ff6e06ca8635d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.4e3ebe4b09ef.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "479066dee4eeea3e54ca9cfb575a57e69bdd67d90aa6d33bc90d74f2f670ac0f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.479066dee4ee.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "f08c151a1afcb5daa821e2227a7effb5749257bb9eed23548f857d4291456804",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.f08c151a1afc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "344c77d3f3bcaae60b830ded730ee887d4b72197512a0ed64dbead5f508c0cab",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.344c77d3f3bc.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "cdd8fc40a7d5b9178d56595014e26fa0f3fc35746c46c435a9769619938fecd7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.cdd8fc40a7d5.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "17de2fced1246317e1e61ab9968daa96460e8d2081b14526cf4ed1e2f69a559d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.17de2fced124.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "74f1b5415fe7dac5f161740bcc8dc7340d7a3dc7b69e0a06baf7c209bb4973f5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.74f1b5415fe7.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "192fced33b27e2081bb7e6344b9b7602aac192ce882b9e7b72b9d76ebaa54fba",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.192fced33b27.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "9cdb02fcf9598ede92b850a5ba8a7b33cf9370f30427bbced11ea58ff618c943",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.9cdb02fcf959.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "00883e40ff0deff845409f18be59052f3d03da40b1ee2bddb6965c5fa85322ad",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.00883e40ff0d.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "6f90cf62972c67cb7cec22c35fbcf1a85e67eae28371bc7922d6f2bd764bf391",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.6f90cf62972c.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "archive_crystal",
+      "granularity": "archive",
+      "content_address": "8abad30cb5d0bef4df90674130c2a42a8b3ff48410fe4906e68f650ed7bc2082",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\archive_crystal\\archive_crystal.8abad30cb5d0.json",
+      "label": "archive_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "6e79152f3f14e21644b7cce78971469073a9eb9c1fc2b889cf0ea62369b3f2dd",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.6e79152f3f14.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "95d6557b72ada9bd6e9ff1b84d9527bda77e264ab6b61813b0ae63718aebdc3b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.95d6557b72ad.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "961952423324761bb8b75aa5807361887c7ab8e113d91c820ece96f681b2dd7b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.961952423324.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "3c833bb37c2bb0e90c2b2dbfa48343bed0932d3693b96ef52b53c7ca7f8016fb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.3c833bb37c2b.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "a1518ea55e6312e115835d6951a7e0805854f00d0b45c5ffcddc3024d75ab6ad",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.a1518ea55e63.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "f32ec7d7449d654a355ba3a243d075cc666ebb2c06dd6d02ffb52b8e6484433c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.f32ec7d7449d.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "f8f4c548b35c4283cea45f6b60b6298630f34179ca00a30e2ef916a91069231a",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.f8f4c548b35c.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "cab2fc5f4ca25a0b3b90a2da3cdb7217e0513a239aa2cacfbffeae2459eb422d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.cab2fc5f4ca2.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "b52fb9cdbf21f8e13021744c39d5dbe8dd1622e30d070456cddc95523340da34",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.b52fb9cdbf21.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "a57d933bccb1cfe31dd606672d3dc144336d7e5f090b82bc9bfe41f446950c4e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.a57d933bccb1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "570cd4587ce45e5ba7e3ea8cc2e838e243debf6d4551639f7533f719862882b8",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.570cd4587ce4.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "04d73b07feec326ac4f744b9fee5a4db7d96d7d11b62d2a44e6c1f246a5aa187",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.04d73b07feec.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "022d0fe6bfe36935fccb336dbf82aaf5423e0ed22c90df0d9749e0bd975f1c01",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.022d0fe6bfe3.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ead67377ee27e0342d1ccd649b8d1620a26a8313acdd8f2521c15f63e4235050",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ead67377ee27.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "06f4bab1bb38b3f3cd856627458ff6d8fb18bdb52a08ca42572ba801fb2f326b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.06f4bab1bb38.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "60facb6ba34c78faeda5bcc7ee189a75b8d9eccbbeb0bee1c7ba73fbbe7c00ec",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.60facb6ba34c.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "1226f5191e8883df907960aec5b079b60282ffdadea6af28f6751860ba36a2ed",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.1226f5191e88.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "044642d9332edae062f34753d1135eec0afc5c087619de41813fb12cb8c114e2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.044642d9332e.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "cc8a7e8654f1c6ee544412ae1da44eefd0070e33c54f2cdb699f680ffbdec367",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.cc8a7e8654f1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "7961ec493ba51036820cd27c30896b106226220f98cccfc8759953fb2b8fd670",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.7961ec493ba5.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "c2ab681748af57f28dff5c972bb2f9557c07d4cf23687ff2e9f571a48c3576f0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.c2ab681748af.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "fe39b6443ce8632216a2c66a37b79ef2ff9ea0f4d2714a3fb66dc0181cb38ff2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.fe39b6443ce8.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "20f2f079027c0d74abc3f3df4fe912d05c95dfe010ea4fba491d740f54d6333f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.20f2f079027c.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "015f64cf3a85caca3e7b4c80414a482041ae204f79879cd87804cfc90e089c0e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.015f64cf3a85.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "462bbecda65f023530e5aa5e0afc9ccba2804c9c722d920b4306267670cf40e3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.462bbecda65f.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "f869dd62564578f5156b0d10c7efe4a0e617989f9eeffcfaaa6377bc3e744adb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.f869dd625645.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ecf4ff364a610a4d5734a8e91e3edded2a8a13ca2bc58eda0771a6b44a0b25f3",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ecf4ff364a61.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "1415d9f432cb11b4afa148659edf70ea121a4eac9214c0ab8caa3509868de458",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.1415d9f432cb.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "888ccc8cd4036386ee82775d17c7dfad9aafc423a5c4a99ac9dd600c08f30581",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.888ccc8cd403.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "3070d79a328ef73c09026f2df0dcd65cf52d93b36ce1356d5396ceec4402fe8e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.3070d79a328e.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "67dc09b75be0a93ee42c52d2248c172490a7f0c8193af7397c912187d668be47",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.67dc09b75be0.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "dc04e5539b265b644fab4f159e81ec4f702d01f5df91a44bb39f114c6ca294ee",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.dc04e5539b26.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "19329f23b7f999a8524b88efcec9affd6d44c0cf5237dc6276a01540ecd724ad",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.19329f23b7f9.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "7ac40865ea0f2f8d84dd94cbd43bcfa3ae544c8b1567a109f9df13c4443b91ce",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.7ac40865ea0f.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "d0b391e93c42751a7794ff08fbcd72ca75d32e70e79c1c782276baa5475cafbf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.d0b391e93c42.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "2f6ea1ab810210866fe554181fd9fc70a70bbf4c9dba94534e6ee9d15388ea42",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.2f6ea1ab8102.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "fe74e60f80645181c38b2b184d914e44133c1fbb82434bfebdb81ae892f22628",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.fe74e60f8064.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "8b072c16ff6c2937538aa502a349269752e5f4a4828117ea1c9f4b12c00b43dd",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.8b072c16ff6c.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "58c5556116a127d6a4d85a5eda42ced4596ba97d0d82a5ac23b59b8c804dcbf5",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.58c5556116a1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ed33fc2e2b76462f769e48bf1874fbe2abf7600cf915156247c0346320e1e6f1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ed33fc2e2b76.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "5d11406de092392969b94437c977b9853969f2727dfd95f3b1e99200a321b028",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.5d11406de092.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "0e951e28f1d13d9cafa5c526a649089930238518bb6242cb2ef27bfa41c0dc09",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.0e951e28f1d1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "a017ca3a4b87271cf7b37e051422c01fe8af86835e701a7f06a57d6e61298311",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.a017ca3a4b87.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ca819a33cb570aaa9111bce3a218ed8c7bf1d01a693ca6542d10c8cefd52eea7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ca819a33cb57.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ed80c0dd024d874f24cb762c20ccf328e66aeb54d28f5304bb273bb72b9eb7a0",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ed80c0dd024d.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "1e5262a286e1597de90cf53adbfdc6dd648f50d8228431ba9a9b7619f1c4c423",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.1e5262a286e1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "d1fd088798c258f4acdd4b63aab68c7c659c3c1ce4b26ee24e481a69c1911156",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.d1fd088798c2.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "5afeddf8e24f8973e07ed05e9cffb222033cf6ac0caa2fadc5ecbd8f9807ed39",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.5afeddf8e24f.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "dd33ad33314877b68734d6e63f92beca4166c462158bf9671131431e4ae7c49f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.dd33ad333148.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "06503d155787b7d9664067d62d8d5944fe77c8cbeb3ce1ca18458b0ba14c9b3e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.06503d155787.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "09971e53c3f0f3afb3e8d1149428163134c1cd833d9e0d1bd133de99943494d4",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.09971e53c3f0.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "41e934b0a184b56bcf45cd9188909083f0d1413b463c8eb9ddee23b312cf7b4c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.41e934b0a184.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "073e563eb96320caf20ad870d21e135111c081b1be941644b70be1d32f298e59",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.073e563eb963.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "bc64721a5ed2344132172e324c8f8ba34945b7b2bba176fc7e3dae3bb72b1da1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.bc64721a5ed2.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "2204e2a28d3cdc902b9ed721af1154e1f69672a5e52d96e8bb3369386fdabb3c",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.2204e2a28d3c.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "124173f9c193949059dcb14002bfb86a29af766b1a080742e5c10748e158c42b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.124173f9c193.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "f4698a5a33453549c2d4d5038d96e4543ebdc8973344721411400d6475f64fe2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.f4698a5a3345.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "2cfa8a77d5e46731ef8a436de65919a394a13393fc20932feb918e94ffcde55d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.2cfa8a77d5e4.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "38d1a2df7b5a1c8f3cd704b601260169c35dab4c8db021624d8926058ceba805",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.38d1a2df7b5a.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "765d41337303f7fb5521d48305711a49a10b8a7e7f2778a582c64caf2ee2fefb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.765d41337303.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "ce001384b3cbce6efe2088fe124f0f949fa87a7f4b347e73513d2e2964475ebf",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.ce001384b3cb.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "22ad00c794b049367379caadb10708974d277c1c43be6817b4875fdfc97e496d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.22ad00c794b0.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "e92d724c568e3f3bde2570b7c3f0b824b03b0b64bfa727662e82cbee9171085e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.e92d724c568e.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "e435133d7e1737eae8fe47451f3b5aaa75cefe86d673b0576e208355915bff03",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.e435133d7e17.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "3f615d5bb270cd39ef4faa5a936c92fea583f1750eaa5a1cc6ec949675e332d7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.3f615d5bb270.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "59050d76ee517ff88b09f58460830f929d32d8fb5703036bf66810014b24f435",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.59050d76ee51.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "e3e85ef6fe637909e0d3a77a1a84875a4fd258965959873a04acac4e4e964f9b",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.e3e85ef6fe63.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "688076f2aa40a40d36d95ccc03c41f7aa907e6d1787e1c49ff6d0eebc425285f",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.688076f2aa40.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "b4737772fd43ace71af94559e46421aec5d12e59cae1d198245d1c99bf89ee94",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.b4737772fd43.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "d28823a012335f652e2d0ffde83658fe26ae699a8977ac83ed0dc5f9a901886e",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.d28823a01233.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "799071e704230b881cad3c7eef07afc58058b285ade6a5611d4740c856006d23",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.799071e70423.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "eef88d3acb564025ca038655b8d56ba1de4c8c3d31ab3d10a3af22fdd9a54e4d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.eef88d3acb56.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "839bc0de03ff513e186264b73b76fda80a7a692c2ae8daf01b75c64a2a23cec7",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.839bc0de03ff.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "623a9e692ece3e15cec9ffa6ea829e748ce4d67e084485b8eda671a57a1a4ab2",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.623a9e692ece.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "31724db92e25b0e707c0520613d706d5ee9b613d3b948bdbb6d7c315d974f1d1",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.31724db92e25.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "1b9e06eb7eb1d3965041ab0c90eb97dd4f43c435ea52a5a233ad98f0c34b310d",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.1b9e06eb7eb1.json",
+      "label": "cam_database_crystal"
+    },
+    {
+      "kind": "cam_database_crystal",
+      "granularity": "database",
+      "content_address": "f1b8f481bb9203562e3224d91dd933fb00f4472b35b7ea7828727838f4c6c3fb",
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\CAM_CRYSTAL_MEMORY_BANK\\crystals\\cam_database_crystal\\cam_database_crystal.f1b8f481bb92.json",
+      "label": "cam_database_crystal"
+    }
+  ]
+}

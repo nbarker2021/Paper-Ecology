@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR32-002",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-03",
+  "O_ext": "Structural color-face transport",
+  "equation_or_source": "`FLCR-14`, Paper 13 quark-face route, `SMD-03`",
+  "O_lcr": "LCR transport and receipt paths",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "Closes finite face/color transport as structural algebraic correspondence.",
+  "dataset": "",
+  "falsifier": "Closes finite face/color transport as structural algebraic correspondence.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [
+    "FLCR-14"
+  ],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": "yes"
+}

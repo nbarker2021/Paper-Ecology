@@ -1,0 +1,1520 @@
+{
+  "schema": "flcr_series_map.v1",
+  "series": "Formalizing LCR, Unifying Standard Models",
+  "paper_count": 40,
+  "triad_artifacts_per_paper": 3,
+  "generated_outputs_per_paper": [
+    "paper.tex",
+    "paper.pdf"
+  ],
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "slug": "grounding-contract-and-axiom-discipline",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "00"
+      ],
+      "legacy_paths": [
+        "00_Established_Grounding_and_Axiom_Contract.md"
+      ],
+      "summary": "Establishes the burden contract, only-addition rule, and claim-lane discipline.",
+      "triad": {
+        "formal": "FLCR-01/formal.md",
+        "companion": "FLCR-01/companion.md",
+        "workbook": "FLCR-01/workbook.md",
+        "manifest": "FLCR-01/paper.yml",
+        "latex": "FLCR-01/paper.tex",
+        "pdf": "FLCR-01/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "slug": "the-lcr-carrier",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "01"
+      ],
+      "legacy_paths": [
+        "01_LCR_Chain_Carrier.md"
+      ],
+      "summary": "Defines the L/C/R carrier as the first active state surface.",
+      "triad": {
+        "formal": "FLCR-02/formal.md",
+        "companion": "FLCR-02/companion.md",
+        "workbook": "FLCR-02/workbook.md",
+        "manifest": "FLCR-02/paper.yml",
+        "latex": "FLCR-02/paper.tex",
+        "pdf": "FLCR-02/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "slug": "correction-surface-and-residual-accounting",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "02"
+      ],
+      "legacy_paths": [
+        "02_Correction_Surface.md"
+      ],
+      "summary": "Formalizes Rule30 correction, residuals, and repairable mismatch.",
+      "triad": {
+        "formal": "FLCR-03/formal.md",
+        "companion": "FLCR-03/companion.md",
+        "workbook": "FLCR-03/workbook.md",
+        "manifest": "FLCR-03/paper.yml",
+        "latex": "FLCR-03/paper.tex",
+        "pdf": "FLCR-03/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "slug": "d4-j3-o-triality-and-representation-transport",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "03"
+      ],
+      "legacy_paths": [
+        "03_D4_J3_Triality_Surface.md"
+      ],
+      "summary": "Places representation changes into finite chart and J3(O) transport discipline.",
+      "triad": {
+        "formal": "FLCR-04/formal.md",
+        "companion": "FLCR-04/companion.md",
+        "workbook": "FLCR-04/workbook.md",
+        "manifest": "FLCR-04/paper.yml",
+        "latex": "FLCR-04/paper.tex",
+        "pdf": "FLCR-04/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "slug": "typed-boundary-repair",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "04"
+      ],
+      "legacy_paths": [
+        "04_Boundary_Repair.md"
+      ],
+      "summary": "Turns failed joins and boundary mismatches into typed repair data.",
+      "triad": {
+        "formal": "FLCR-05/formal.md",
+        "companion": "FLCR-05/companion.md",
+        "workbook": "FLCR-05/workbook.md",
+        "manifest": "FLCR-05/paper.yml",
+        "latex": "FLCR-05/paper.tex",
+        "pdf": "FLCR-05/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "slug": "oloid-path-carrier-and-transport-geometry",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "05"
+      ],
+      "legacy_paths": [
+        "05_Oloid_Path_Carrier.md"
+      ],
+      "summary": "Defines curved/path transport without importing physical calibration language.",
+      "triad": {
+        "formal": "FLCR-06/formal.md",
+        "companion": "FLCR-06/companion.md",
+        "workbook": "FLCR-06/workbook.md",
+        "manifest": "FLCR-06/paper.yml",
+        "latex": "FLCR-06/paper.tex",
+        "pdf": "FLCR-06/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "slug": "causal-links-and-obligation-ledgers",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "06"
+      ],
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md"
+      ],
+      "summary": "Makes dependencies, receipts, and open obligations formal corpus objects.",
+      "triad": {
+        "formal": "FLCR-07/formal.md",
+        "companion": "FLCR-07/companion.md",
+        "workbook": "FLCR-07/workbook.md",
+        "manifest": "FLCR-07/paper.yml",
+        "latex": "FLCR-07/paper.tex",
+        "pdf": "FLCR-07/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "slug": "discrete-continuous-bridge-without-physical-overclaim",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "07"
+      ],
+      "legacy_paths": [
+        "07_Discrete_Continuous_Bridge.md"
+      ],
+      "summary": "Defines presentation bridges, sampling obligations, and continuum guards.",
+      "triad": {
+        "formal": "FLCR-08/formal.md",
+        "companion": "FLCR-08/companion.md",
+        "workbook": "FLCR-08/workbook.md",
+        "manifest": "FLCR-08/paper.yml",
+        "latex": "FLCR-08/paper.tex",
+        "pdf": "FLCR-08/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "slug": "lattice-closure-and-terminal-addresses",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "08"
+      ],
+      "legacy_paths": [
+        "08_Lattice_Closure.md"
+      ],
+      "summary": "Binds code/lattice ladders, no-cost lookup surfaces, and invariant boundaries.",
+      "triad": {
+        "formal": "FLCR-09/formal.md",
+        "companion": "FLCR-09/companion.md",
+        "workbook": "FLCR-09/workbook.md",
+        "manifest": "FLCR-09/paper.yml",
+        "latex": "FLCR-09/paper.tex",
+        "pdf": "FLCR-09/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "slug": "temporal-windows-and-hamiltonian-readouts",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "09"
+      ],
+      "legacy_paths": [
+        "09_Hamiltonian_Window_Emergence.md"
+      ],
+      "summary": "Defines temporal windowing over transported centers.",
+      "triad": {
+        "formal": "FLCR-10/formal.md",
+        "companion": "FLCR-10/companion.md",
+        "workbook": "FLCR-10/workbook.md",
+        "manifest": "FLCR-10/paper.yml",
+        "latex": "FLCR-10/paper.tex",
+        "pdf": "FLCR-10/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_01_10_rich_foundation",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "slug": "master-receipt-and-stack-replay",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "10"
+      ],
+      "legacy_paths": [
+        "10_T10_Master_Receipt.md"
+      ],
+      "summary": "Turns stack-level replay, import, and receipt discipline into a formal result.",
+      "triad": {
+        "formal": "FLCR-11/formal.md",
+        "companion": "FLCR-11/companion.md",
+        "workbook": "FLCR-11/workbook.md",
+        "manifest": "FLCR-11/paper.yml",
+        "latex": "FLCR-11/paper.tex",
+        "pdf": "FLCR-11/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "slug": "theory-admission-gates",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "11"
+      ],
+      "legacy_paths": [
+        "11_Theory_Admission_Gate.md"
+      ],
+      "summary": "Defines admission, rejection, and no-silent-extension gates.",
+      "triad": {
+        "formal": "FLCR-12/formal.md",
+        "companion": "FLCR-12/companion.md",
+        "workbook": "FLCR-12/workbook.md",
+        "manifest": "FLCR-12/paper.yml",
+        "latex": "FLCR-12/paper.tex",
+        "pdf": "FLCR-12/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "slug": "cellular-automata-prediction-surfaces",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "12"
+      ],
+      "legacy_paths": [
+        "12_CA_Prediction_Surface.md"
+      ],
+      "summary": "Separates finite CA verification from unbounded Rule30 extraction claims.",
+      "triad": {
+        "formal": "FLCR-13/formal.md",
+        "companion": "FLCR-13/companion.md",
+        "workbook": "FLCR-13/workbook.md",
+        "manifest": "FLCR-13/paper.yml",
+        "latex": "FLCR-13/paper.tex",
+        "pdf": "FLCR-13/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "slug": "quark-face-algebra-before-standard-model-translation",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "13"
+      ],
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "summary": "Keeps SU(3)/face transport algebraic before later measured-physics translation.",
+      "triad": {
+        "formal": "FLCR-14/formal.md",
+        "companion": "FLCR-14/companion.md",
+        "workbook": "FLCR-14/workbook.md",
+        "manifest": "FLCR-14/paper.yml",
+        "latex": "FLCR-14/paper.tex",
+        "pdf": "FLCR-14/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "slug": "curvature-as-boundary-repair-demand",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "14"
+      ],
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md"
+      ],
+      "summary": "Defines curvature vocabulary internally as repair pressure and route status.",
+      "triad": {
+        "formal": "FLCR-15/formal.md",
+        "companion": "FLCR-15/companion.md",
+        "workbook": "FLCR-15/workbook.md",
+        "manifest": "FLCR-15/paper.yml",
+        "latex": "FLCR-15/paper.tex",
+        "pdf": "FLCR-15/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "slug": "mass-residue-and-carrier-accounting",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "15"
+      ],
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md"
+      ],
+      "summary": "Formalizes finite mass-residue carrier language without measured Higgs claims.",
+      "triad": {
+        "formal": "FLCR-16/formal.md",
+        "companion": "FLCR-16/companion.md",
+        "workbook": "FLCR-16/workbook.md",
+        "manifest": "FLCR-16/paper.yml",
+        "latex": "FLCR-16/paper.tex",
+        "pdf": "FLCR-16/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "slug": "continuum-edge-residuals",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "16"
+      ],
+      "legacy_paths": [
+        "16_Continuum_Edge_Residuals.md"
+      ],
+      "summary": "Treats continuum edge behavior as sampled residual and numerical-analysis burden.",
+      "triad": {
+        "formal": "FLCR-17/formal.md",
+        "companion": "FLCR-17/companion.md",
+        "workbook": "FLCR-17/workbook.md",
+        "manifest": "FLCR-17/paper.yml",
+        "latex": "FLCR-17/paper.tex",
+        "pdf": "FLCR-17/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "slug": "exceptional-towers-voa-routes-and-observer-face-selection",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "legacy_paths": [
+        "17_E6_E8_Error_Correction_Tower.md",
+        "18_VOA_Moonshine_Representation_Routes.md",
+        "19_Observer_Face_Selection.md"
+      ],
+      "summary": "Combines E6/E8 tower scope, VOA finite seed scope, and observer-face selection.",
+      "triad": {
+        "formal": "FLCR-18/formal.md",
+        "companion": "FLCR-18/companion.md",
+        "workbook": "FLCR-18/workbook.md",
+        "manifest": "FLCR-18/paper.yml",
+        "latex": "FLCR-18/paper.tex",
+        "pdf": "FLCR-18/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "slug": "layer-2-synthesis-ledger",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "20"
+      ],
+      "legacy_paths": [
+        "20_Layer_2_Synthesis_Ledger.md"
+      ],
+      "summary": "Aggregates prior layers while preserving unknown, forbidden, and deferred rows.",
+      "triad": {
+        "formal": "FLCR-19/formal.md",
+        "companion": "FLCR-19/companion.md",
+        "workbook": "FLCR-19/workbook.md",
+        "manifest": "FLCR-19/paper.yml",
+        "latex": "FLCR-19/paper.tex",
+        "pdf": "FLCR-19/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "slug": "applied-forge-reader-and-descriptor-kernel",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "21"
+      ],
+      "legacy_paths": [
+        "21_MorphForge_PolyForge_MorphoniX.md"
+      ],
+      "summary": "Defines the shared applied-forge reader before domain validation.",
+      "triad": {
+        "formal": "FLCR-20/formal.md",
+        "companion": "FLCR-20/companion.md",
+        "workbook": "FLCR-20/workbook.md",
+        "manifest": "FLCR-20/paper.yml",
+        "latex": "FLCR-20/paper.tex",
+        "pdf": "FLCR-20/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "slug": "materials-candidate-generation",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "22"
+      ],
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md"
+      ],
+      "summary": "Keeps material candidate generation separate from fabrication performance claims.",
+      "triad": {
+        "formal": "FLCR-21/formal.md",
+        "companion": "FLCR-21/companion.md",
+        "workbook": "FLCR-21/workbook.md",
+        "manifest": "FLCR-21/paper.yml",
+        "latex": "FLCR-21/paper.tex",
+        "pdf": "FLCR-21/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "slug": "protein-descriptor-and-fold-facing-kernel",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "23"
+      ],
+      "legacy_paths": [
+        "23_FoldForge_Protein_Folding.md"
+      ],
+      "summary": "Defines protein descriptor routing and benchmark obligations.",
+      "triad": {
+        "formal": "FLCR-22/formal.md",
+        "companion": "FLCR-22/companion.md",
+        "workbook": "FLCR-22/workbook.md",
+        "manifest": "FLCR-22/paper.yml",
+        "latex": "FLCR-22/paper.tex",
+        "pdf": "FLCR-22/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "slug": "finite-game-lattices-and-local-rule-automata",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "legacy_paths": [
+        "24_KnightForge_N_Dimensional_Chess_Automata.md",
+        "28_N_Dimensional_Game_Lattices.md"
+      ],
+      "summary": "Combines board/game finite-rule surfaces and bounded search claims.",
+      "triad": {
+        "formal": "FLCR-23/formal.md",
+        "companion": "FLCR-23/companion.md",
+        "workbook": "FLCR-23/workbook.md",
+        "manifest": "FLCR-23/paper.yml",
+        "latex": "FLCR-23/paper.tex",
+        "pdf": "FLCR-23/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "slug": "energetic-traversal-maps",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "25"
+      ],
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md"
+      ],
+      "summary": "Defines internal normalized energy/action accounting and unit-calibration gates.",
+      "triad": {
+        "formal": "FLCR-24/formal.md",
+        "companion": "FLCR-24/companion.md",
+        "workbook": "FLCR-24/workbook.md",
+        "manifest": "FLCR-24/paper.yml",
+        "latex": "FLCR-24/paper.tex",
+        "pdf": "FLCR-24/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "slug": "shear-plasma-and-carrier-horizons",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "26"
+      ],
+      "legacy_paths": [
+        "26_Z_Pinch_and_Shear_Horizon.md"
+      ],
+      "summary": "Separates carrier/shear algebra from measured plasma claims.",
+      "triad": {
+        "formal": "FLCR-25/formal.md",
+        "companion": "FLCR-25/companion.md",
+        "workbook": "FLCR-25/workbook.md",
+        "manifest": "FLCR-25/paper.yml",
+        "latex": "FLCR-25/paper.tex",
+        "pdf": "FLCR-25/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "slug": "observer-delay-and-shared-state-protocols",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "27"
+      ],
+      "legacy_paths": [
+        "27_Observer_Delay_and_Shared_Reality.md"
+      ],
+      "summary": "Defines finite observer-delay protocols and interpretation guards.",
+      "triad": {
+        "formal": "FLCR-26/formal.md",
+        "companion": "FLCR-26/companion.md",
+        "workbook": "FLCR-26/workbook.md",
+        "manifest": "FLCR-26/paper.yml",
+        "latex": "FLCR-26/paper.tex",
+        "pdf": "FLCR-26/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "slug": "monster-ceiling-and-large-invariant-boundaries",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "29"
+      ],
+      "legacy_paths": [
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "summary": "Separates finite identities and lookup surfaces from invariant/witness burdens.",
+      "triad": {
+        "formal": "FLCR-27/formal.md",
+        "companion": "FLCR-27/companion.md",
+        "workbook": "FLCR-27/workbook.md",
+        "manifest": "FLCR-27/paper.yml",
+        "latex": "FLCR-27/paper.tex",
+        "pdf": "FLCR-27/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "slug": "cam-crystal-projectors-and-mannyai-runtime",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [],
+      "legacy_paths": [],
+      "summary": "Formalizes CAM/crystal projector architecture, MannyAI task crystals, and agent evidence.",
+      "triad": {
+        "formal": "FLCR-28/formal.md",
+        "companion": "FLCR-28/companion.md",
+        "workbook": "FLCR-28/workbook.md",
+        "manifest": "FLCR-28/paper.yml",
+        "latex": "FLCR-28/paper.tex",
+        "pdf": "FLCR-28/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "slug": "corpus-ribbon-and-retrospective-lcr-readout",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "legacy_paths": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "summary": "Turns corpus ribbon storage and retrospective readout into publication infrastructure.",
+      "triad": {
+        "formal": "FLCR-29/formal.md",
+        "companion": "FLCR-29/companion.md",
+        "workbook": "FLCR-29/workbook.md",
+        "manifest": "FLCR-29/paper.yml",
+        "latex": "FLCR-29/paper.tex",
+        "pdf": "FLCR-29/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "slug": "supervisor-cursor-and-universal-normal-form-intake",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "32"
+      ],
+      "legacy_paths": [
+        "32_The_Supervisor_Cursor.md"
+      ],
+      "summary": "Schedules the corpus, Kimi windows, and incoming universal normal-form work.",
+      "triad": {
+        "formal": "FLCR-30/formal.md",
+        "companion": "FLCR-30/companion.md",
+        "workbook": "FLCR-30/workbook.md",
+        "manifest": "FLCR-30/paper.yml",
+        "latex": "FLCR-30/paper.tex",
+        "pdf": "FLCR-30/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      }
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "slug": "gauge-groups-translated-into-lcr",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "13"
+      ],
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "summary": "Translates gauge-group language into mature LCR-native terms.",
+      "triad": {
+        "formal": "FLCR-31/formal.md",
+        "companion": "FLCR-31/companion.md",
+        "workbook": "FLCR-31/workbook.md",
+        "manifest": "FLCR-31/paper.yml",
+        "latex": "FLCR-31/paper.tex",
+        "pdf": "FLCR-31/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "slug": "qcd-and-color-transport-in-lcr",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "13"
+      ],
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "summary": "Maps QCD/color transport after algebraic face transport is established.",
+      "triad": {
+        "formal": "FLCR-32/formal.md",
+        "companion": "FLCR-32/companion.md",
+        "workbook": "FLCR-32/workbook.md",
+        "manifest": "FLCR-32/paper.yml",
+        "latex": "FLCR-32/paper.tex",
+        "pdf": "FLCR-32/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "slug": "electroweak-higgs-and-mass-residue-translation",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "15"
+      ],
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md"
+      ],
+      "summary": "Maps electroweak/Higgs language onto residue/carrier structures.",
+      "triad": {
+        "formal": "FLCR-33/formal.md",
+        "companion": "FLCR-33/companion.md",
+        "workbook": "FLCR-33/workbook.md",
+        "manifest": "FLCR-33/paper.yml",
+        "latex": "FLCR-33/paper.tex",
+        "pdf": "FLCR-33/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "slug": "electron-hole-exciton-accounting",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [],
+      "legacy_paths": [],
+      "summary": "Asks how much open CQE math is standard electron-hole-exciton formalism.",
+      "triad": {
+        "formal": "FLCR-34/formal.md",
+        "companion": "FLCR-34/companion.md",
+        "workbook": "FLCR-34/workbook.md",
+        "manifest": "FLCR-34/paper.yml",
+        "latex": "FLCR-34/paper.tex",
+        "pdf": "FLCR-34/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "slug": "gr-curvature-and-continuum-translation",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "16_Continuum_Edge_Residuals.md"
+      ],
+      "summary": "Translates GR/continuum language through repair and sampling gates.",
+      "triad": {
+        "formal": "FLCR-35/formal.md",
+        "companion": "FLCR-35/companion.md",
+        "workbook": "FLCR-35/workbook.md",
+        "manifest": "FLCR-35/paper.yml",
+        "latex": "FLCR-35/paper.tex",
+        "pdf": "FLCR-35/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "slug": "condensed-matter-materials-and-metamaterials",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "22"
+      ],
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md"
+      ],
+      "summary": "Maps materials and condensed-matter claims through calibration protocols.",
+      "triad": {
+        "formal": "FLCR-36/formal.md",
+        "companion": "FLCR-36/companion.md",
+        "workbook": "FLCR-36/workbook.md",
+        "manifest": "FLCR-36/paper.yml",
+        "latex": "FLCR-36/paper.tex",
+        "pdf": "FLCR-36/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "slug": "plasma-energy-and-traversal-calibration",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md",
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "summary": "Maps plasma/energy claims to unit, witness, and calibration requirements.",
+      "triad": {
+        "formal": "FLCR-37/formal.md",
+        "companion": "FLCR-37/companion.md",
+        "workbook": "FLCR-37/workbook.md",
+        "manifest": "FLCR-37/paper.yml",
+        "latex": "FLCR-37/paper.tex",
+        "pdf": "FLCR-37/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "slug": "observer-computation-and-ai-runtime-translation",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "legacy_paths": [
+        "19_Observer_Face_Selection.md",
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "28_N_Dimensional_Game_Lattices.md",
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "summary": "Connects observer protocols, computation, AI, and crystal-runtime evidence.",
+      "triad": {
+        "formal": "FLCR-38/formal.md",
+        "companion": "FLCR-38/companion.md",
+        "workbook": "FLCR-38/workbook.md",
+        "manifest": "FLCR-38/paper.yml",
+        "latex": "FLCR-38/paper.tex",
+        "pdf": "FLCR-38/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "slug": "falsifiers-comparators-and-standards-of-evidence",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "10_T10_Master_Receipt.md",
+        "11_Theory_Admission_Gate.md",
+        "20_Layer_2_Synthesis_Ledger.md",
+        "32_The_Supervisor_Cursor.md"
+      ],
+      "summary": "Consolidates falsifier, comparator, and standards-board evidence.",
+      "triad": {
+        "formal": "FLCR-39/formal.md",
+        "companion": "FLCR-39/companion.md",
+        "workbook": "FLCR-39/workbook.md",
+        "manifest": "FLCR-39/paper.yml",
+        "latex": "FLCR-39/paper.tex",
+        "pdf": "FLCR-39/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Bridge preview for Standard Model-facing translation; full observer-framework rebuild is reserved for FLCR-41..80."
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "slug": "grand-reconstruction-map-and-trust-removal-protocol",
+      "series": "Formalizing LCR, Unifying Standard Models",
+      "band": "reconstruction_map",
+      "legacy_papers": [],
+      "legacy_paths": [],
+      "summary": "Caps the first forty papers as a reconstruction map: prior receipts remain in prior papers, while FLCR-40 routes a skeptical reader through proof locations, analog reconstructions, code/tool solvers, blockers, and the handoff into FLCR-41..80.",
+      "triad": {
+        "formal": "FLCR-40/formal.md",
+        "companion": "FLCR-40/companion.md",
+        "workbook": "FLCR-40/workbook.md",
+        "manifest": "FLCR-40/paper.yml",
+        "latex": "FLCR-40/paper.tex",
+        "pdf": "FLCR-40/paper.pdf"
+      },
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ],
+      "status": "first_pass_rich_rewrite",
+      "rewrite_pass": {
+        "pass": "FLCR_11_40_rich_completion",
+        "triads_rewritten": true,
+        "body_status": "substantial first-pass publication draft; final citations and receipt hashes pending"
+      },
+      "role_note": "Map-and-reconstruction capstone. It does not introduce a new receipt-bearing proof of the whole synthesis; it routes readers to prior receipts, analog reconstructions, and tool/code solvers."
+    }
+  ]
+}

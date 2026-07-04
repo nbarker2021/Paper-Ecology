@@ -1,0 +1,114 @@
+{
+  "artifact": "NSIT_REASONED_CLOSURE_PASS",
+  "status": "active_reasoning_layer",
+  "purpose": "Apply cross-paper tools, CAM memory, and ordinary standard formalism before classifying claims as residual.",
+  "admissible_sources": [
+    "standard algebra and representation theory",
+    "coding and lattice theory",
+    "automata and computability",
+    "formal methods",
+    "condensed matter and quasiparticles",
+    "quantum information",
+    "numerical analysis and approximation theory",
+    "graph and typed routing"
+  ],
+  "routing_decisions": [
+    "promote_with_existing_receipt",
+    "bind_external_data",
+    "cite_standard_theorem",
+    "downgrade_to_analogy",
+    "keep_residual_open",
+    "create_temp_back_application_slot"
+  ],
+  "temporal_back_application_rule": {
+    "id": "temp_back_application_slot",
+    "purpose": "Preserve places where a paper is locally honest at its stage but later papers may return with additional tools, facts, receipts, or mathematical structure that refine the earlier claim.",
+    "required_fields": [
+      "slot_id",
+      "owning_paper",
+      "current_local_reading",
+      "later_papers_allowed_to_refine",
+      "what_would_change",
+      "what_cannot_change",
+      "trigger_receipt_or_theorem",
+      "safe_to_claim_effect"
+    ],
+    "delta_format": "local claim at paper time -> later attached fact/tool/receipt -> revised representation -> remaining invariant boundary"
+  },
+  "inferences": [
+    {
+      "name": "no_cost_leech_lookup_operational_closure",
+      "papers": ["08", "17", "21", "29"],
+      "route": "Existing lattice code chain plus E8/Niemeier/Leech lookup machinery closes the operational lookup surface.",
+      "residue": "Expanded invariants, Gamma72, and nontrivial glue witnesses."
+    },
+    {
+      "name": "symbolic_vs_physical_carrier_split",
+      "papers": ["05", "07", "13", "15", "16", "22", "25", "26"],
+      "route": "Symbolic addressable carrier claims can close internally; physical carrier identity requires Hamiltonian, units, and measurement.",
+      "residue": "External calibration and measured physical identity."
+    },
+    {
+      "name": "electron_hole_exciton_accounting",
+      "papers": ["07", "15", "16", "22"],
+      "route": "Standard hole, exciton, recombination, screening, band-gap, and effective-mass formalism explains much of the vacancy/complement vocabulary.",
+      "residue": "CQE addressability, obligation bookkeeping, and non-semiconductor symbolic correction machinery."
+    },
+    {
+      "name": "spinor_double_cover_local_closure",
+      "papers": ["01", "19", "27"],
+      "route": "Standard SU(2)->SO(3) double-cover behavior plus local O8 receipt closes finite-frame spinor semantics.",
+      "residue": "Physical observer or consciousness interpretation."
+    },
+    {
+      "name": "finite_ca_and_bounded_search_promotion",
+      "papers": ["12", "24", "28", "32"],
+      "route": "Finite state space plus explicit transition or coverage verifier is enough for finite claims.",
+      "residue": "Unbounded Rule 30/P3, game-theoretic completeness, and superpermutation minimality."
+    },
+    {
+      "name": "formal_methods_paper_form_closure",
+      "papers": ["00", "06", "10", "20", "30", "32"],
+      "route": "Claim envelopes, content-addressed receipts, lane grants, and causal graphs are formal-methods closures.",
+      "residue": "Missing hashes, absent graph rows, or unrun standards reports."
+    },
+    {
+      "name": "applied_forge_internal_external_split",
+      "papers": ["21", "22", "23", "24", "28"],
+      "route": "Forge validators close representation/generation kernels; external domain validation remains benchmark/data work.",
+      "residue": "Materials measurements, PDB/native structure parsing, product telemetry, playability/game theory."
+    },
+    {
+      "name": "standard_model_transport_split",
+      "papers": ["13"],
+      "route": "SU(3)/D12/J3 face transport closes as structural algebra; CKM requires attached measured data.",
+      "residue": "PDG/CKM calibration binding."
+    },
+    {
+      "name": "finite_voa_moonshine_split",
+      "papers": ["09", "18", "29"],
+      "route": "Finite VOA sector and centroid chains close locally; full Moonshine identification remains theorem-bound.",
+      "residue": "O2-prime/McKay parity and unbounded identity."
+    },
+    {
+      "name": "continuum_as_numerical_analysis",
+      "papers": ["07", "14", "16", "25"],
+      "route": "Continuum, interpolation, and between-sample dynamics require sampling rules, norms, and error bounds.",
+      "residue": "Unspecified physical dynamics and global continuum claims."
+    }
+  ],
+  "proposed_standard": {
+    "id": "claim.reasoned_reapplication",
+    "fields": [
+      "claim_id",
+      "candidate_standard_field",
+      "standard_result_or_theorem",
+      "local_object_mapping",
+      "already_available_tool_or_receipt",
+      "temp_back_application_slot",
+      "missing_binding",
+      "residue_after_standard_accounting",
+      "safe_to_claim_delta"
+    ]
+  }
+}

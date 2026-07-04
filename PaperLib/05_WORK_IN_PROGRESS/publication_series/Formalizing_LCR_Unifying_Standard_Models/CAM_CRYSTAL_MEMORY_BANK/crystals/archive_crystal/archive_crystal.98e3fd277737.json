@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0157",
+  "path": "D:\\CQE_CMPLX\\papers\\packages\\FLCR_01_Master_Publication.zip",
+  "name": "FLCR_01_Master_Publication.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 23,
+  "high_signal_entry_count": 22,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "02",
+    "12",
+    "22",
+    "32",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "98e3fd277737ff149338e6be57c2a77a2ef77780c0b7686ce8eb07045643ac9d"
+}

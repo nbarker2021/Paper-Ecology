@@ -1,0 +1,3215 @@
+{
+  "schema": "orbital_data_cross_population_audit.v1",
+  "spine_range": "00-32",
+  "source_inventory": "D:\\Paper Reworks\\NSIT_PAPER_EVIDENCE_INVENTORY.json",
+  "inventory_artifact_count": 6980,
+  "inventory_class_totals": {
+    "formal_paper": 1147,
+    "main_line_paper": 405,
+    "memory_or_cam": 97,
+    "other": 3053,
+    "receipt_or_data": 1937,
+    "supplement": 118,
+    "validator": 223
+  },
+  "numbered_orbital_artifact_count": 877,
+  "numbered_orbital_class_totals": {
+    "formal_paper": 463,
+    "main_line_paper": 367,
+    "memory_or_cam": 9,
+    "receipt_or_data": 13,
+    "supplement": 24,
+    "validator": 1
+  },
+  "unnumbered_orbital_artifact_count": 3009,
+  "cross_cutting_orbital_artifact_count": 2,
+  "indexed_supplement_route_count": 311,
+  "missing_indexed_supplement_backlink_count": 240,
+  "claim_nature_lanes": [
+    {
+      "lane_id": "lookup_vs_invariant",
+      "name": "Lookup, construction, and invariant-scope split",
+      "papers": [
+        "08",
+        "17",
+        "21",
+        "29"
+      ],
+      "why_missing": "Library-action lookup evidence can be present while stronger invariant, glue-coset, Gamma72, or physical interpretation claims still need their own receipts.",
+      "populate": "Route lattice-forge APIs and receipt paths into the local burden table, then keep expanded invariants as separate next needs."
+    },
+    {
+      "lane_id": "standard_physics_formalism",
+      "name": "Standard physics formalism not attached",
+      "papers": [
+        "07",
+        "13",
+        "15",
+        "16",
+        "22",
+        "25",
+        "26"
+      ],
+      "why_missing": "Carrier, vacancy, excitation, energy, and material terms are often treated as novel because the standard electron-hole-exciton or calibration formalism is not quoted beside the CQE statement.",
+      "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+    },
+    {
+      "lane_id": "formal_methods_as_math",
+      "name": "Receipts and governance treated as non-mathematical",
+      "papers": [
+        "00",
+        "04",
+        "06",
+        "10",
+        "11",
+        "20",
+        "30",
+        "31",
+        "32"
+      ],
+      "why_missing": "Schemas, ledgers, reproducibility locks, admission filters, and status preservation are formal-methods evidence, but some papers still carry them as prose obligations.",
+      "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+    },
+    {
+      "lane_id": "negative_receipt_reuse",
+      "name": "Negative and failed-route receipts not reused",
+      "papers": [
+        "06",
+        "11",
+        "12",
+        "20",
+        "27",
+        "32"
+      ],
+      "why_missing": "Failed verifier routes and rejected data are useful constraints, but they are often stranded outside the paper that needs the exclusion boundary.",
+      "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+    },
+    {
+      "lane_id": "finite_vs_unbounded",
+      "name": "Finite verification mixed with unbounded claim language",
+      "papers": [
+        "01",
+        "02",
+        "12",
+        "24",
+        "28",
+        "32"
+      ],
+      "why_missing": "Finite-state, bounded-search, and local-rule checks are real closures, but they become invisible when the row is phrased as an unbounded theorem.",
+      "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+    },
+    {
+      "lane_id": "static_temporal_split",
+      "name": "Static structure mixed with temporal protocol",
+      "papers": [
+        "05",
+        "09",
+        "18",
+        "19",
+        "27",
+        "31"
+      ],
+      "why_missing": "Static templates, observer rows, and retrospective readouts need separate lanes from temporal evolution, simultaneity, or causal protocol claims.",
+      "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+    },
+    {
+      "lane_id": "applied_forge_internal_external",
+      "name": "Applied forge internal/external validation split",
+      "papers": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "30"
+      ],
+      "why_missing": "Descriptor generation, candidate ranking, and lookup surfaces can be internal tool claims while wet-lab, fabrication, biological, or calibrated energy claims remain external-validation needs.",
+      "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+    }
+  ],
+  "per_paper": {
+    "00": {
+      "paper_path": "D:\\Paper Reworks\\00_Established_Grounding_and_Axiom_Contract.md",
+      "orbital_artifact_count": 30,
+      "orbital_class_counts": {
+        "formal_paper": 19,
+        "main_line_paper": 11
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "00_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Conservative-extension, proof-carrying-code, finite-model-checking, and claim-type reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "00_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Conservative-extension, proof-carrying-code, finite-model-checking, and claim-type reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "01": {
+      "paper_path": "D:\\Paper Reworks\\01_LCR_Chain_Carrier.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 11
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "01_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Radius-1 CA, arity lower bound, C2 action, shell grading, and spinor-guard reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "01_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Radius-1 CA, arity lower bound, C2 action, shell grading, and spinor-guard reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "02": {
+      "paper_path": "D:\\Paper Reworks\\02_Correction_Surface.md",
+      "orbital_artifact_count": 29,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 13
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "02_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Boolean ANF, syndrome/residual, innovation-term, and obstruction reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "02_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Boolean ANF, syndrome/residual, innovation-term, and obstruction reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "03": {
+      "paper_path": "D:\\Paper Reworks\\03_D4_J3_Triality_Surface.md",
+      "orbital_artifact_count": 29,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 13
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "03_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Coordinate atlas, antipodal quotient/sheet lift, diagonal-subalgebra guard, and representation-invariance reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "03_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Coordinate atlas, antipodal quotient/sheet lift, diagonal-subalgebra guard, and representation-invariance reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [],
+      "claim_nature_lane_count": 0
+    },
+    "04": {
+      "paper_path": "D:\\Paper Reworks\\04_Boundary_Repair.md",
+      "orbital_artifact_count": 29,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 13
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "04_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Typed exception, proof obligation, Hoare-style row contract, and schema/graph routing reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "04_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Typed exception, proof obligation, Hoare-style row contract, and schema/graph routing reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "05": {
+      "paper_path": "D:\\Paper Reworks\\05_Oloid_Path_Carrier.md",
+      "orbital_artifact_count": 28,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 12
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "05_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Finite-state transducer, monoid action, payload noninterference, and graph-continuity reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "05_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Finite-state transducer, monoid action, payload noninterference, and graph-continuity reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "06": {
+      "paper_path": "D:\\Paper Reworks\\06_Causal_Link_and_Obligation_Ledger.md",
+      "orbital_artifact_count": 30,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 14
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "06_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Graph/provenance, lockfile, negative-result reuse, Lucas decomposition, and triadic-search reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "06_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Graph/provenance, lockfile, negative-result reuse, Lucas decomposition, and triadic-search reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "07": {
+      "paper_path": "D:\\Paper Reworks\\07_Discrete_Continuous_Bridge.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 12,
+        "main_line_paper": 10,
+        "supplement": 4
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "07_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Interpolation-vs-dynamics, retraction, quantization error, aliasing, and cache/idempotence reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "07_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Interpolation-vs-dynamics, retraction, quantization error, aliasing, and cache/idempotence reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "08": {
+      "paper_path": "D:\\Paper Reworks\\08_Lattice_Closure.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 16,
+        "main_line_paper": 11
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SPECTRE_TILING_SUPPLEMENT.md",
+          "job": "Spectre tiling, correction firing geometry, universal tiling, game-lattice links."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "08_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Construction-A ladder, Hamming/Fano/E8/Golay/Leech, glue-code, lookup-vs-construction, and CAM terminal-address reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "08_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Construction-A ladder, Hamming/Fano/E8/Golay/Leech, glue-code, lookup-vs-construction, and CAM terminal-address reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "lookup_vs_invariant",
+          "name": "Lookup, construction, and invariant-scope split",
+          "appears_backlinked": false,
+          "populate": "Route lattice-forge APIs and receipt paths into the local burden table, then keep expanded invariants as separate next needs."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "09": {
+      "paper_path": "D:\\Paper Reworks\\09_Hamiltonian_Window_Emergence.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 11
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "09_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Sliding windows, provenance-preserving transforms, time-series features, threshold bands, and kappa-ledger reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "09_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Sliding windows, provenance-preserving transforms, time-series features, threshold bands, and kappa-ledger reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "10": {
+      "paper_path": "D:\\Paper Reworks\\10_T10_Master_Receipt.md",
+      "orbital_artifact_count": 29,
+      "orbital_class_counts": {
+        "formal_paper": 11,
+        "main_line_paper": 5,
+        "receipt_or_data": 13
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "10_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Stack lockfile, reproducible bundle, attestation, lookup dependency, and replay-vs-promotion reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "10_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Stack lockfile, reproducible bundle, attestation, lookup dependency, and replay-vs-promotion reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "11": {
+      "paper_path": "D:\\Paper Reworks\\11_Theory_Admission_Gate.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 11
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "11_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Admission filter, policy engine, trust-anchor versioning, encoder-dependence, and rejected-datum reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "11_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Admission filter, policy engine, trust-anchor versioning, encoder-dependence, and rejected-datum reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "12": {
+      "paper_path": "D:\\Paper Reworks\\12_CA_Prediction_Surface.md",
+      "orbital_artifact_count": 29,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 14
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "SPECTRE_TILING_SUPPLEMENT.md",
+          "job": "Spectre tiling, correction firing geometry, universal tiling, game-lattice links."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "12_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Layered prediction stacks, oracle/cold-start separation, entropy diagnostics, ECA filters, and cost metadata reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "12_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Layered prediction stacks, oracle/cold-start separation, entropy diagnostics, ECA filters, and cost metadata reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        },
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "13": {
+      "paper_path": "D:\\Paper Reworks\\13_Standard_Model_Quark_Face_Transport.md",
+      "orbital_artifact_count": 28,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 13
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "13_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "SU(3)/S3 representation hygiene, CKM data binding, gauge-language guard, and exceptional-route reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "13_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "SU(3)/S3 representation hygiene, CKM data binding, gauge-language guard, and exceptional-route reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "14": {
+      "paper_path": "D:\\Paper Reworks\\14_GR_Boundary_Repair_Curvature.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 11,
+        "validator": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "14_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Repair demand as residual, discrete curvature analogies, zero-reference surfaces, and GR bridge-burden reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "14_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Repair demand as residual, discrete curvature analogies, zero-reference surfaces, and GR bridge-burden reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [],
+      "claim_nature_lane_count": 0
+    },
+    "15": {
+      "paper_path": "D:\\Paper Reworks\\15_QFT_Higgs_Mass_Residue_Carrier.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 14,
+        "main_line_paper": 12,
+        "memory_or_cam": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "15_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Mass-sense separation, obstruction residue, Arf gate, VOA sector bookkeeping, and Higgs calibration reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "15_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Mass-sense separation, obstruction residue, Arf gate, VOA sector bookkeeping, and Higgs calibration reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "16": {
+      "paper_path": "D:\\Paper Reworks\\16_Continuum_Edge_Residuals.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 14,
+        "main_line_paper": 11,
+        "memory_or_cam": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "16_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Windowed residual measurement, boundary layers, relaxation, convergence caution, and aperture reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "16_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Windowed residual measurement, boundary layers, relaxation, convergence caution, and aperture reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "17": {
+      "paper_path": "D:\\Paper Reworks\\17_E6_E8_Error_Correction_Tower.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 11,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "17_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Code/lattice tower contracts, lookup/terminal semantics, Weyl extraction, and channel-model reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "17_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Code/lattice tower contracts, lookup/terminal semantics, Weyl extraction, and channel-model reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "lookup_vs_invariant",
+          "name": "Lookup, construction, and invariant-scope split",
+          "appears_backlinked": false,
+          "populate": "Route lattice-forge APIs and receipt paths into the local burden table, then keep expanded invariants as separate next needs."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "18": {
+      "paper_path": "D:\\Paper Reworks\\18_VOA_Moonshine_Representation_Routes.md",
+      "orbital_artifact_count": 25,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 10,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "18_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Finite VOA seed, McKay class registry, static-template guard, Monster scalar, and correction-via-VOA reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "18_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Finite VOA seed, McKay class registry, static-template guard, Monster scalar, and correction-via-VOA reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "19": {
+      "paper_path": "D:\\Paper Reworks\\19_Observer_Face_Selection.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 12,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "19_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Face selection, latent faces, frame choice, center invariance, and observer-row reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "19_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Face selection, latent faces, frame choice, center invariance, and observer-row reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "20": {
+      "paper_path": "D:\\Paper Reworks\\20_Layer_2_Synthesis_Ledger.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 13,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "20_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Ledger aggregation, status preservation, unknown/forbidden row handling, and validator-gated registry reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "20_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Ledger aggregation, status preservation, unknown/forbidden row handling, and validator-gated registry reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "21": {
+      "paper_path": "D:\\Paper Reworks\\21_MorphForge_PolyForge_MorphoniX.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 12,
+        "main_line_paper": 12,
+        "supplement": 2
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "21_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Applied reader adapters, ribbon codecs, S3 traces, morphon feature store, and terminal-template reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "21_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Applied reader adapters, ribbon codecs, S3 traces, morphon feature store, and terminal-template reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "lookup_vs_invariant",
+          "name": "Lookup, construction, and invariant-scope split",
+          "appears_backlinked": false,
+          "populate": "Route lattice-forge APIs and receipt paths into the local burden table, then keep expanded invariants as separate next needs."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "22": {
+      "paper_path": "D:\\Paper Reworks\\22_MetaForge_Applied_Materials.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 12,
+        "main_line_paper": 11,
+        "memory_or_cam": 1,
+        "supplement": 2
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "SPECTRE_TILING_SUPPLEMENT.md",
+          "job": "Spectre tiling, correction firing geometry, universal tiling, game-lattice links."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "22_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Materials informatics, Pareto scoring, error-wall seams, validation tiers, and exciton/material bridge reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "22_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Materials informatics, Pareto scoring, error-wall seams, validation tiers, and exciton/material bridge reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "23": {
+      "paper_path": "D:\\Paper Reworks\\23_FoldForge_Protein_Folding.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 12,
+        "main_line_paper": 10,
+        "supplement": 2
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "23_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Protein descriptors, contact maps, encoding burden, topology features, and biological benchmark reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "23_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Protein descriptors, contact maps, encoding burden, topology features, and biological benchmark reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "24": {
+      "paper_path": "D:\\Paper Reworks\\24_KnightForge_N_Dimensional_Chess_Automata.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 12,
+        "main_line_paper": 12,
+        "supplement": 2
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SPECTRE_TILING_SUPPLEMENT.md",
+          "job": "Spectre tiling, correction firing geometry, universal tiling, game-lattice links."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "24_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Local-rule board automata, constraint satisfaction, greedy sweep boundaries, N-dimensional frame operators, and OEIS lane reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "24_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Local-rule board automata, constraint satisfaction, greedy sweep boundaries, N-dimensional frame operators, and OEIS lane reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "25": {
+      "paper_path": "D:\\Paper Reworks\\25_Energetic_Traversal_Maps.md",
+      "orbital_artifact_count": 26,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 11,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "25_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Cost functionals, unit policy, path additivity, NSL separation, and calibrated-energy reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "25_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Cost functionals, unit policy, path additivity, NSL separation, and calibrated-energy reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "26": {
+      "paper_path": "D:\\Paper Reworks\\26_Z_Pinch_and_Shear_Horizon.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 10,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "26_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Carrier-level shear, fixed-generator comparison, orient-bit diagnostics, plasma calibration, and collapse/reclassification reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "26_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Carrier-level shear, fixed-generator comparison, orient-bit diagnostics, plasma calibration, and collapse/reclassification reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "standard_physics_formalism",
+          "name": "Standard physics formalism not attached",
+          "appears_backlinked": false,
+          "populate": "Attach NP-12/NP-13 correspondence rows and separate addressability claims from calibrated physical claims."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "27": {
+      "paper_path": "D:\\Paper Reworks\\27_Observer_Delay_and_Shared_Reality.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 9,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "27_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Observer-frame protocols, shared-variable guard, algorithmic delay, temporal counterexamples, and simultaneity evidence reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "27_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Observer-frame protocols, shared-variable guard, algorithmic delay, temporal counterexamples, and simultaneity evidence reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        },
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "28": {
+      "paper_path": "D:\\Paper Reworks\\28_N_Dimensional_Game_Lattices.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 10,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "SPECTRE_TILING_SUPPLEMENT.md",
+          "job": "Spectre tiling, correction firing geometry, universal tiling, game-lattice links."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "28_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Local-rule game lattices, dimension admission, move-orbit boundaries, forbidden carriers, and OEIS query reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "28_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Local-rule game lattices, dimension admission, move-orbit boundaries, forbidden carriers, and OEIS query reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "29": {
+      "paper_path": "D:\\Paper Reworks\\29_Monster_Universal_Energy_Bound_Hypotheses.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 10,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "SM_BRIDGE_SUPPLEMENT.md",
+          "job": "Standard Model receipts, SU(5)/U(1)xSU(2)xSU(3) bridge, anomaly/charge-table status, numeric gaps."
+        },
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "29_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Monster structural ceiling, witness-function burden, encoding-invariance, and finite Moonshine-row reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "29_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Monster structural ceiling, witness-function burden, encoding-invariance, and finite Moonshine-row reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "lookup_vs_invariant",
+          "name": "Lookup, construction, and invariant-scope split",
+          "appears_backlinked": false,
+          "populate": "Route lattice-forge APIs and receipt paths into the local burden table, then keep expanded invariants as separate next needs."
+        }
+      ],
+      "claim_nature_lane_count": 1
+    },
+    "30": {
+      "paper_path": "D:\\Paper Reworks\\30_Grand_Ribbon_Meta_Framer.md",
+      "orbital_artifact_count": 25,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 10,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "METAFORGE_MATERIALS_SUPPLEMENT.md",
+          "job": "Applied-materials candidate ledger, Spectre/crystal material routes, Pareto and fabrication obligations."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "APPLIED_FORGES_WORKBOOK.md",
+          "job": "Operational workbook for MorphForge, MetaForge, FoldForge, KnightForge, energy traversal, and production/test ledgers."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "30_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Corpus schema, provenance slots, audit sweep, lookup beads, and new-paper routing reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "30_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Corpus schema, provenance slots, audit sweep, lookup beads, and new-paper routing reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "applied_forge_internal_external",
+          "name": "Applied forge internal/external validation split",
+          "appears_backlinked": false,
+          "populate": "Attach applied-forge workbook rows and split internal descriptors from external validation requirements."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "31": {
+      "paper_path": "D:\\Paper Reworks\\31_It_Was_Still_Just_LCR.md",
+      "orbital_artifact_count": 24,
+      "orbital_class_counts": {
+        "formal_paper": 13,
+        "main_line_paper": 9,
+        "memory_or_cam": 1,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "31_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Retrospective readout, reflexive architecture, dependency-direction guard, and obligation-preservation reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "31_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Retrospective readout, reflexive architecture, dependency-direction guard, and obligation-preservation reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "static_temporal_split",
+          "name": "Static structure mixed with temporal protocol",
+          "appears_backlinked": false,
+          "populate": "Add explicit static/protocol slots and route later temporal receipts back through those slots."
+        }
+      ],
+      "claim_nature_lane_count": 2
+    },
+    "32": {
+      "paper_path": "D:\\Paper Reworks\\32_The_Supervisor_Cursor.md",
+      "orbital_artifact_count": 27,
+      "orbital_class_counts": {
+        "formal_paper": 15,
+        "main_line_paper": 11,
+        "supplement": 1
+      },
+      "indexed_supplement_routes": [
+        {
+          "name": "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+          "job": "CAM, crystals, projector playbook, vignettes, receipt routing, adapter contracts."
+        },
+        {
+          "name": "OBLIGATION_LEDGER_SUPPLEMENT.md",
+          "job": "Open/closed/partial status, proof boundaries, springboard lanes, claim promotion policy."
+        },
+        {
+          "name": "RECEIPT_VERIFIER_CATALOG.md",
+          "job": "Verifier and receipt map, executable evidence, missing verifier reconciliation."
+        },
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "32_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Supervisor scheduling, coverage/minimality separation, bound corridor, selector preservation, and active-suite wrap reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "missing_supplement_backlinks": [
+        {
+          "name": "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+          "job": "Lattice Forge source-of-truth, split lineage, module drift, extension candidates, and promotion contract."
+        },
+        {
+          "name": "INTERNAL_REASONING_SUPPLEMENT_INDEX.md",
+          "job": "Tracks supplements generated from three-paper internal reasoning passes."
+        },
+        {
+          "name": "32_INTERNAL_REASONING_SUPPLEMENT.md",
+          "job": "Supervisor scheduling, coverage/minimality separation, bound corridor, selector preservation, and active-suite wrap reasoning."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.md",
+          "job": "Active pyramid index connecting three-paper supplements to 5P, 7P, and 9P larger reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_PYRAMID_INDEX.json",
+          "job": "Machine-readable pyramid manifest for window coverage and layer routing."
+        },
+        {
+          "name": "INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+          "job": "Active medium-range five-paper connected-state reasoning windows."
+        },
+        {
+          "name": "INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+          "job": "Active block-scale seven-paper recombination and deferred-return lanes."
+        },
+        {
+          "name": "INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+          "job": "Active architectural nine-paper bridge and return-to-start reasoning windows."
+        }
+      ],
+      "internal_reasoning_supplement_exists": true,
+      "internal_reasoning_backlinked": false,
+      "claim_nature_lanes": [
+        {
+          "lane_id": "formal_methods_as_math",
+          "name": "Receipts and governance treated as non-mathematical",
+          "appears_backlinked": false,
+          "populate": "Attach NSIT, receipt catalog, CAM, and standards-board evidence as formal artifacts instead of leaving them as loose editorial notes."
+        },
+        {
+          "lane_id": "negative_receipt_reuse",
+          "name": "Negative and failed-route receipts not reused",
+          "appears_backlinked": false,
+          "populate": "Route negative receipts into burden tables as exclusion evidence and counterexample guards."
+        },
+        {
+          "lane_id": "finite_vs_unbounded",
+          "name": "Finite verification mixed with unbounded claim language",
+          "appears_backlinked": false,
+          "populate": "Split bounded computational receipts from unbounded/minimality/generalization burdens."
+        }
+      ],
+      "claim_nature_lane_count": 3
+    }
+  },
+  "global_findings": [
+    {
+      "finding": "Most supplements are orbital to the spine but are not yet cited inside the owning paper bodies.",
+      "action": "Add an Orbital Data / Supplement Routing section to each spine paper that cites indexed supplements and internal reasoning supplement."
+    },
+    {
+      "finding": "Many paper-local obligations are likely under-populated because the obligation is claim-nature dependent.",
+      "action": "Split rows by claim nature before sending them to NSIT or grading tools: lookup vs invariant, symbolic vs physical, finite vs unbounded, static vs temporal, internal forge vs external validation."
+    },
+    {
+      "finding": "Unnumbered formal papers, CAM/memory artifacts, receipts, and validators exist but are not yet forced through a paper-number lane.",
+      "action": "Create a second pass that assigns each unnumbered orbital artifact to one or more paper lanes or marks it as corpus-level background."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "flcr.external_paper_ingress_80_validation_report.v2.curated_logic_bound",
+  "generated_utc": "2026-07-01T02:41:17.983782+00:00",
+  "record_count": 80,
+  "nist_nsit_status_counts": {
+    "PASS": 80
+  },
+  "logic_bound_counts": {
+    "external_support": 16,
+    "external_comparator": 56,
+    "topic_extension": 8
+  },
+  "mannyai_lane_counts": {
+    "docker_standards_suite": 80,
+    "docker_observability_security_governance": 80,
+    "mannyai_cam_crystal_mcp": 8,
+    "mannyai_carrier_cem_and_research_receipts": 12,
+    "docker_window_node_databases": 12,
+    "mannyai_splatforge_field_runtime": 17,
+    "docker_mcp_and_deployment_surface": 40
+  },
+  "blockers": []
+}

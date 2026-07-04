@@ -1,0 +1,20 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-18",
+  "obligation_closed": "BSD-EXT-01",
+  "verifier": "published_data_s3_volume",
+  "finding": "S^3 volume 2*pi^2 and rank-2 BSD/LMFDB sample",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "3-sphere volume",
+    "published_value": 19.739208802178716,
+    "formula": "2*pi**2",
+    "source": "Standard calculus; LMFDB for rank-2 elliptic-curve BSD invariants",
+    "note": "S^3 volume is exact. Explicit Heegner rank-2 carrier construction remains open; LMFDB supplies the corresponding arithmetic data."
+  },
+  "checks": {
+    "C1_s3_volume_matches_2pi2": true,
+    "C2_lmfdb_source_cited": true
+  },
+  "cam_address": "53cfae2a2a538637f5b1687651868201c26e1a911f968d1d6bbb979dc2ee6e69"
+}

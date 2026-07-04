@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-15",
+  "original_slot": "15",
+  "title": "QFT Higgs Mass Residue Carrier",
+  "status": "source_backed",
+  "source_file": "15_QFT_Higgs_Mass_Residue_Carrier.md",
+  "linked_flcr_papers": [
+    "FLCR-16",
+    "FLCR-33"
+  ],
+  "slot_family": "carrier_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-5: carry the state through a path, traversal, or admissible motion",
+  "proof_form_required": "carrier/transducer/path proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

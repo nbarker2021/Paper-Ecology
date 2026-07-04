@@ -1,0 +1,16 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-18 s3_hopf_seam_manifold_receipt.json",
+  "status": "pass_with_open_obligations",
+  "passed": 7,
+  "total": 8,
+  "closure_source": "Paper 18 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status.",
+    "Reworked Paper 18 records S3/Hopf seam manifold as partial, 7/8, labeled GLM-F10-BSD-EXT01."
+  ],
+  "open_obligations": [
+    "Explicit parity/fingerprint/correction-route theorem connecting finite route seed to unbounded Rule 30 correction collapse."
+  ],
+  "boundary": "Bounded seam-route progress closed; unbounded Moonshine route remains open and is routed to NP-01."
+}

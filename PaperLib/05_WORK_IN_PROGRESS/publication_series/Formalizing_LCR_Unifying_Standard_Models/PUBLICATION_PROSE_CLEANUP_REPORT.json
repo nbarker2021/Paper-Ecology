@@ -1,0 +1,7 @@
+{
+  "schema": "publication_prose_cleanup.v1",
+  "generated_at": "2026-06-29T02:26:45.216909+00:00",
+  "peer_review_sections_replaced": 40,
+  "formal_files_sanitized": 91,
+  "opr_contract_files_rewritten": 240
+}

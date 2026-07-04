@@ -1,0 +1,88 @@
+{
+  "kind": "slot_crystal",
+  "granularity": "slot",
+  "slot": "55",
+  "record_count": 2,
+  "decision_counts": {
+    "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+  },
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0044",
+      "record_type": "local_unintegrated_artifact",
+      "title": "verify_spectre_tiling_deephole_path.json",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "carrier_action",
+        "bridge_action",
+        "ledger_action"
+      ],
+      "slot_assignments": [
+        "41",
+        "51",
+        "61",
+        "71",
+        "43",
+        "53",
+        "63",
+        "73",
+        "45",
+        "55",
+        "65",
+        "75",
+        "47",
+        "57",
+        "67",
+        "77",
+        "46",
+        "56",
+        "66",
+        "76"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_spectre_tiling_deephole_path.json"
+    },
+    {
+      "record_id": "LOCAL-GAP-0101",
+      "record_type": "local_unintegrated_artifact",
+      "title": "CQE-paper-27-waveform_collapse_mechanism_receipt.json",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "bridge_action",
+        "ledger_action",
+        "fold_action",
+        "carrier_action"
+      ],
+      "slot_assignments": [
+        "41",
+        "51",
+        "61",
+        "71",
+        "47",
+        "57",
+        "67",
+        "77",
+        "46",
+        "56",
+        "66",
+        "76",
+        "43",
+        "53",
+        "63",
+        "73",
+        "45",
+        "55",
+        "65",
+        "75"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-27-waveform_collapse_mechanism_receipt.json"
+    }
+  ],
+  "content_address": "85dabba1369c54497141afa2e0c93a9c2e53ea371890eb8dc9564a54d1d8f329"
+}

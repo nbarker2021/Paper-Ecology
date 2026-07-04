@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 3,
+  "artifact": "SLOT_1_80_GENERALIZED_ONTOLOGY.*",
+  "why_it_matters": "Canonical generalized slot definitions.",
+  "suggested_slots": [
+    "routing_ontology"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "dcd556e73911936fa3a797186d57a5f10deacc41fe8afe66fcf1c65c3d333d3b"
+}

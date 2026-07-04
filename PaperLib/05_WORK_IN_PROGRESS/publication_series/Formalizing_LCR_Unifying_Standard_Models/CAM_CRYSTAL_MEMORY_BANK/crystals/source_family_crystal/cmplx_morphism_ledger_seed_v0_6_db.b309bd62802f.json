@@ -1,0 +1,15 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 13,
+  "artifact": "cmplx_morphism_ledger_seed_v0_6.db",
+  "why_it_matters": "Morphism ledger for witnesses, terminal forms, transport obligations.",
+  "suggested_slots": [
+    "03",
+    "06",
+    "07",
+    "08"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "b309bd62802ff1cd3618f931a01af4706561a6a18dc7b1e076b998d67de50f15"
+}

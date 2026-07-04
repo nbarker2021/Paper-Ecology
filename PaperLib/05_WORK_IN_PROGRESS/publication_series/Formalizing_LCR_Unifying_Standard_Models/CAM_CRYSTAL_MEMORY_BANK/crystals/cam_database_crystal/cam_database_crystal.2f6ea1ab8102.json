@@ -1,0 +1,51 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0071",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cam_crystal\\cam_methodology_survey.db",
+  "name": "cam_methodology_survey.db",
+  "status": "ok",
+  "signal_score": 49,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 1,
+  "signal_tables": [
+    {
+      "table": "nodes",
+      "row_count": 17,
+      "signal_columns": [
+        "hash",
+        "node_type",
+        "node_id",
+        "paper_id",
+        "claims_count",
+        "receipts_count"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "2f6ea1ab810210866fe554181fd9fc70a70bbf4c9dba94534e6ee9d15388ea42"
+}

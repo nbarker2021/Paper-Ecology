@@ -1,0 +1,23 @@
+{
+  "row_id": "MAP-FLCR33-013",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-06",
+  "O_ext": "Higgs discovery/mass-scale target",
+  "equation_or_source": "`IRL-ATLAS-HIGGS-2012`, `IRL-CMS-HIGGS-2012`, PDG",
+  "O_lcr": "LCR translation surface",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "LCR Higgs mass derivation.",
+  "dataset": "IRL-ATLAS-HIGGS-2012: IRL-ATLAS-HIGGS-2012; IRL-CMS-HIGGS-2012: IRL-CMS-HIGGS-2012",
+  "falsifier": "LCR Higgs mass derivation.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-ATLAS-HIGGS-2012",
+    "IRL-CMS-HIGGS-2012"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

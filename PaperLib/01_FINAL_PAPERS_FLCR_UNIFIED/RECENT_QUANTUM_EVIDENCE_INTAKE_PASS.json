@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-06-29T18:24:03.597979+00:00",
+  "pass": "recent_quantum_evidence_intake",
+  "sources": [
+    {
+      "id": "EXT-FFS-THEORY-2026",
+      "title": "Exotic critical states as fractional Fermi seas in the one-dimensional Bose gas",
+      "authors": "A. Bastianello, Y. Zeng, S. Dhar, Z. Wang, X. Yu, M. Horvath, G. E. Astrakharchik, Y. Guo, H.-C. N\u00e4gerl, and M. Landini",
+      "venue": "Physical Review Letters 136, 230402 (2026)",
+      "doi": "10.1103/j3s5-gjpf",
+      "arxiv": "2602.17656",
+      "url": "https://arxiv.org/abs/2602.17656",
+      "usable_claim": "Cyclic interaction changes in a one-dimensional Bose gas can be modeled as producing fractional Fermi seas with reduced occupancy, generalized-hydrodynamic structure, Friedel-oscillation signatures, and critical behavior incompatible with a conventional Tomonaga-Luttinger liquid.",
+      "boundary": "This is an external condensed-matter and quantum-gas result. It supplies comparator mathematics and calibration targets, not an automatic validation of LCR ontology."
+    },
+    {
+      "id": "EXT-FFS-REALIZATION-2026",
+      "title": "Realization of fractional Fermi seas",
+      "authors": "Y. Zeng, A. Bastianello, S. Dhar, Z. Wang, X. Yu, M. Horvath, G. E. Astrakharchik, Y. Guo, H.-C. N\u00e4gerl, and M. Landini",
+      "venue": "arXiv:2602.17657 (2026); experimental realization reported as under review",
+      "doi": "10.48550/arXiv.2602.17657",
+      "arxiv": "2602.17657",
+      "url": "https://arxiv.org/abs/2602.17657",
+      "usable_claim": "An excited one-dimensional Bose gas prepared by ramping cycles can realize stable fractional Fermi sea states whose Friedel oscillations act as experimental signatures.",
+      "boundary": "Use as an external realization and measurement-comparator source until final journal metadata is attached."
+    },
+    {
+      "id": "EXT-RQM-CONSISTENT-2026",
+      "title": "Quantum mechanics based on real numbers: A consistent description",
+      "authors": "P. Barrios Hita, A. Trushechkin, H. Kampermann, M. Epping, and D. Bruss",
+      "venue": "Physical Review Letters 136, 240202 (2026)",
+      "doi": "10.1103/4k13-sdjh",
+      "arxiv": "2503.17307",
+      "url": "https://arxiv.org/abs/2503.17307",
+      "usable_claim": "A physically motivated composite-system postulate can construct a real-number quantum formalism reproducing the predictions of complex quantum mechanics for multipartite experiments, making complex numbers a representational convenience within that construction.",
+      "boundary": "Use as a representation/formalism-comparison source. It does not by itself prove LCR, but it directly supports the paper suite's distinction between addressed state and chosen mathematical label."
+    }
+  ],
+  "routes": {
+    "FLCR-02": [
+      {
+        "source": "EXT-RQM-CONSISTENT-2026",
+        "lane": "standard_theorem_citation_bound_result",
+        "use": "Supports the carrier-layer distinction between an addressed physical state and the representational field chosen to describe it.",
+        "boundary": "Do not infer that every LCR relabeling is physically equivalent; equivalence requires an explicit construction or adapter."
+      }
+    ],
+    "FLCR-08": [
+      {
+        "source": "EXT-RQM-CONSISTENT-2026",
+        "lane": "standard_theorem_citation_bound_result",
+        "use": "Strengthens bridge-language around label changes, quotient/equivalence structure, and preserving predictions under a changed formal description.",
+        "boundary": "The imported lesson is formal equivalence under stated postulates, not a generic permission to erase phase, locality, or tensor-product constraints."
+      }
+    ],
+    "FLCR-10": [
+      {
+        "source": "EXT-FFS-REALIZATION-2026",
+        "lane": "external_calibration_result",
+        "use": "Provides an external example of a time-windowed preparation protocol where cyclic interaction ramps create a stable excited state with readable downstream signatures.",
+        "boundary": "The paper may use this as a comparator for temporal-window and prestate/poststate reasoning, not as proof that LCR generated the state."
+      }
+    ],
+    "FLCR-36": [
+      {
+        "source": "EXT-FFS-THEORY-2026",
+        "lane": "standard_theorem_citation_bound_result",
+        "use": "Adds fractional occupancy, Friedel-oscillation, generalized-hydrodynamic, and non-TLL critical-phase comparators to the condensed-matter/materials bridge.",
+        "boundary": "Quantitative LCR claims must reproduce the observed distributions, correlation functions, or oscillation signatures before being promoted."
+      },
+      {
+        "source": "EXT-FFS-REALIZATION-2026",
+        "lane": "external_calibration_result",
+        "use": "Adds an experimental quantum-gas realization route for checking whether LCR/tarpit/crystal tools can reconstruct stable exotic occupancy states from measured signatures.",
+        "boundary": "Treat under-review experimental details as provisional until final journal metadata and data products are attached."
+      }
+    ],
+    "FLCR-38": [
+      {
+        "source": "EXT-RQM-CONSISTENT-2026",
+        "lane": "standard_theorem_citation_bound_result",
+        "use": "Supports the observer/computation argument that a formal runtime can preserve predictions while changing the representation used to carry state.",
+        "boundary": "This supports representation independence only inside an explicitly defined formalism; it does not remove the need for LCR observer adapters."
+      }
+    ],
+    "FLCR-39": [
+      {
+        "source": "EXT-FFS-THEORY-2026",
+        "lane": "falsifier_or_open_obligation",
+        "use": "Creates a concrete comparator: LCR condensed-matter claims should be tested against fractional Fermi sea occupancy, Friedel oscillations, generalized hydrodynamics, and TLL-incompatibility claims.",
+        "boundary": "Failure to match those external signatures is a falsifier or narrowing condition for relevant LCR material claims."
+      },
+      {
+        "source": "EXT-RQM-CONSISTENT-2026",
+        "lane": "falsifier_or_open_obligation",
+        "use": "Creates a representation-equivalence comparator: LCR relabeling claims must specify the postulates and adapters under which predictions are preserved.",
+        "boundary": "A relabeling without an equivalence proof remains only notation."
+      }
+    ],
+    "FLCR-40": [
+      {
+        "source": "EXT-FFS-THEORY-2026",
+        "lane": "external_calibration_result",
+        "use": "Routes fractional Fermi sea theory into the reconstruction map as a future-drawable external comparator for exotic occupancy and nonstandard critical phases.",
+        "boundary": "FLCR-40 lists the route; lower papers or FLCR-41..80 must do the reconstruction work."
+      },
+      {
+        "source": "EXT-RQM-CONSISTENT-2026",
+        "lane": "standard_theorem_citation_bound_result",
+        "use": "Routes real-valued quantum mechanics into the reconstruction map as a major external support for separating physical prediction from representational convenience.",
+        "boundary": "FLCR-40 should not cite this as proof of grand unification; it is a map entry and comparator."
+      }
+    ]
+  },
+  "papers_updated": [
+    "FLCR-02",
+    "FLCR-08",
+    "FLCR-10",
+    "FLCR-36",
+    "FLCR-38",
+    "FLCR-39",
+    "FLCR-40"
+  ],
+  "boundary_policy": "External physics papers may strengthen citation-bound comparators, calibration targets, and falsifiers. They do not promote LCR claims unless a formal adapter, receipt, or reconstruction is added."
+}

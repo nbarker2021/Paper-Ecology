@@ -1,0 +1,13 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 8,
+  "artifact": "D:\\CQE_CMPLX\\gap_analysis\\FINAL_GAP_REPORT.md + master_gap_registry_FINAL.csv",
+  "why_it_matters": "Backward-walk gap report and absorption order.",
+  "suggested_slots": [
+    "04-09",
+    "00-32"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "02f8c66f8a1f4cd985c3106fad24af88a10297a9fe6161e9b42d97069defaa4d"
+}

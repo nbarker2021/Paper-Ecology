@@ -1,0 +1,932 @@
+{
+  "00": {
+    "paper_number": "00",
+    "title": "The Transport Contract and Foreword",
+    "word_count": 5589,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "001",
+      "01",
+      "012",
+      "020",
+      "021",
+      "023",
+      "1"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-00__established_grounding.py"
+  },
+  "01": {
+    "paper_number": "01",
+    "title": "The LCR Kernel and Chart: A Unified Foundation",
+    "word_count": 4823,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "000",
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-01__lcr_carrier.py"
+  },
+  "02": {
+    "paper_number": "02",
+    "title": "The Correction Surface Theorem: Algebraic Normal Form Decomposition of Rule 30 into Rule 90 and a Finite Residual, with $O(\\log N)$ Center-Bit Readout",
+    "word_count": 6099,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "13",
+      "15",
+      "2",
+      "3",
+      "4"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-02__correction_surface.py"
+  },
+  "03": {
+    "paper_number": "03",
+    "title": "The D4/J3 Triality Surface, the Correction Surface, and the Arf Edge Glue: A Unified Theory of Local Registration, F2 Quadratic Forms, and Exceptional Algebra",
+    "word_count": 12138,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "13",
+      "15",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-03__triality_surface.py"
+  },
+  "04": {
+    "paper_number": "04",
+    "title": "Typed Boundary Repair: A Unified Failure-Preservation Transport Operator for the LCR Carrier",
+    "word_count": 7972,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "05",
+      "1",
+      "15",
+      "19",
+      "2",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-04__boundary_repair.py"
+  },
+  "05": {
+    "paper_number": "05",
+    "title": "The Oloid Path Carrier: A Unified Theory of Rolling Transport and Continuous Constraint Propagation",
+    "word_count": 9281,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "10",
+      "12",
+      "17",
+      "25",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "d_count": 0,
+    "i_count": 0,
+    "x_count": 0,
+    "open_obligations": [],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-05__oloid_path_carrier.py"
+  },
+  "06": {
+    "paper_number": "06",
+    "title": "Causal Link / Obligation Ledger",
+    "word_count": 5289,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "00",
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "1",
+      "10",
+      "12",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "d_count": 26,
+    "i_count": 0,
+    "x_count": 4,
+    "open_obligations": [
+      "$O(\\log N)$ oracle-free Rule 30 center-bit extraction is proven here.",
+      "Asymptotic equal density of colors is proved independently.",
+      "Unbounded non-periodicity of the center column is proved independently.",
+      "The three Wolfram problems are closed in the mathematical literature."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-06__causal_code.py"
+  },
+  "07": {
+    "paper_number": "07",
+    "title": "Discrete-Continuous Bridge",
+    "word_count": 2351,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "16",
+      "17",
+      "2",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "d_count": 14,
+    "i_count": 0,
+    "x_count": 4,
+    "open_obligations": [
+      "The sample-preserving interpolant proves unique physical dynamics between samples.",
+      "CA-field self-regulating dynamics (Wolfram-class kernels) are stable.",
+      "The general classification of which sequences admit the F4 encoder is an independent theorem.",
+      "Slot collision rate vs double-hash distribution is a paper claim."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-07__discrete_continuous_bridge.py"
+  },
+  "08": {
+    "paper_number": "08",
+    "title": "Lattice Closure Template",
+    "word_count": 3483,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "16",
+      "17",
+      "5",
+      "7",
+      "8",
+      "9"
+    ],
+    "d_count": 22,
+    "i_count": 2,
+    "x_count": 6,
+    "open_obligations": [
+      "Rootless Leech landing is proven.",
+      "Gamma72 polarization action is proven.",
+      "Exact glue-coset representatives for nontrivial Niemeier terminals are closed.",
+      "The closure chain is the only possible one.",
+      "Physical `1/137` identification is a closed theorem.",
+      "Anti-counterfeit strength is a lattice theorem."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-08__lattice_closure_template.py"
+  },
+  "09": {
+    "paper_number": "09",
+    "title": "Hamiltonian Temporal Emergence",
+    "word_count": 2389,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "10",
+      "11",
+      "15",
+      "16",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "d_count": 8,
+    "i_count": 0,
+    "x_count": 4,
+    "open_obligations": [
+      "Physical time reversal is proven.",
+      "Static-Z4 temporal periodicity is proven beyond empirical depth 512.",
+      "Physical Hamiltonian dynamics assigned to composite centers are derived.",
+      "Unequal Noether/Shannon/Landauer sector weights are closed."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-09__hamiltonian_window_emergence.py"
+  },
+  "10": {
+    "paper_number": "10",
+    "title": "T10 Master Receipt",
+    "word_count": 1936,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "11",
+      "12",
+      "15",
+      "6",
+      "8",
+      "9"
+    ],
+    "d_count": 7,
+    "i_count": 0,
+    "x_count": 3,
+    "open_obligations": [
+      "Cold-start N-to-axis/sheet map is closed.",
+      "N-to-Weyl-fingerprint map is closed.",
+      "Every registered lift is already demonstrated."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-10__t10_master_receipt.py"
+  },
+  "11": {
+    "paper_number": "11",
+    "title": "Theory Admission Gate",
+    "word_count": 1870,
+    "key_topics": [
+      ""
+    ],
+    "named_theorems_claims_definitions": [],
+    "cross_references": [
+      "0",
+      "1",
+      "10",
+      "12",
+      "13",
+      "15",
+      "19",
+      "8",
+      "9"
+    ],
+    "d_count": 4,
+    "i_count": 0,
+    "x_count": 3,
+    "open_obligations": [
+      "Encoder invariance is proven.",
+      "Finite simple group classification is reproved.",
+      "Candidate-specific Gluon mass functions are declared."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-11__theory_admission_gate.py"
+  },
+  "12": {
+    "paper_number": "12",
+    "title": "CA Prediction Surface",
+    "word_count": 2866,
+    "key_topics": [
+      "Rule 30; cellular automata; prediction surface; T_EMISSION; Rule 90; correction; silent boundary; Wolfram Prize Problems."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 12.1 — Local Rule 30 Truth Table",
+      "Theorem 12.2 — T_EMISSION Equivalence",
+      "Theorem 12.3 — Rule 90 Correction Decomposition",
+      "Theorem 12.4 — Silent-Boundary Rule Count",
+      "Theorem 12.5 — Prediction Surface Discipline"
+    ],
+    "cross_references": [
+      "10",
+      "11",
+      "13"
+    ],
+    "d_count": 14,
+    "i_count": 2,
+    "x_count": 4,
+    "open_obligations": [
+      "A full cold-start `O(log N)` Rule 30 extractor remains open (Wolfram Problem 3).",
+      "The spectral next-state layer is empirical until an accuracy theorem is supplied.",
+      "Case-by-case closure of every silent-boundary rule requires additional receipts beyond the count.",
+      "Any use of a prediction surface must preserve layer, cost, defect, and receipt metadata.",
+      "Infinite center-column non-periodicity remains unproved by this paper (Wolfram Problem 1).",
+      "Product-level randomness certification remains outside the paper claim until a separate statistical receipt is supplied.",
+      "Any failed P3 closure attempt must remain quarantined until its status/prose contradiction and bit-exactness failure are resolved.",
+      "Infinite center-column non-periodicity (P1) remains unproved."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-12__ca_prediction_surface.py"
+  },
+  "13": {
+    "paper_number": "13",
+    "title": "Standard-Model Quark-Face Transport",
+    "word_count": 3223,
+    "key_topics": [
+      "quark-face transport",
+      "shell-2 chart",
+      "`J_3(O)`",
+      "`SU(3)` Weyl group",
+      "`S_3`"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 13.1 — Shell-2 Stratum Cardinality",
+      "Theorem 13.2 — Trace-2 Idempotent Bijection",
+      "Theorem 13.3 — S_3 Weyl Closure",
+      "Theorem 13.4 — Exact n=3 SU(3) Group-Ring Closure",
+      "Theorem 13.5 — Bounded G2/F4/T5A Route",
+      "Theorem 13.6 — Six-Face Color Model Consistency",
+      "Theorem 13.7 — QuarkFaceForge Literalization",
+      "Theorem 13.8 — SU(2)×U(1) Invariant Transfer"
+    ],
+    "cross_references": [
+      "013",
+      "020",
+      "10",
+      "12",
+      "14"
+    ],
+    "d_count": 8,
+    "i_count": 3,
+    "x_count": 3,
+    "open_obligations": [
+      "**Calibration to measured physical quark color charge.** The algebraic transport model is structurally exact; physical particle identification is an external calibration target.",
+      "**Calibration to measured CKM phase or V-A weak structure.** The structural derivation gives 3 angles + 1 phase; exact numeric values require physical calibration of route parameters.",
+      "**Cold-start depth-only derivation through the `G2/F4/T5A` route.** The bounded classifier works on already-enumerated bits; unconditional cold-start extraction remains open.",
+      "**Product-level randomness/statistical certification for the color-transport stream.** Outside the paper claim until a separate receipt is supplied.",
+      "Measured quark color charge identification requires external calibration.",
+      "Exact numeric CKM matrix elements require physical calibration of route parameters.",
+      "Unconditional cold-start `G2/F4/T5A` route derivation remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-13__quark_face_transport.py"
+  },
+  "14": {
+    "paper_number": "14",
+    "title": "GR Boundary-Repair Curvature",
+    "word_count": 2541,
+    "key_topics": [
+      "boundary repair",
+      "repair score",
+      "CQECMPLX curvature",
+      "transport ledger",
+      "oloid carrier"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 14.1 — Repair-Ledger Curvature",
+      "Theorem 14.2 — Zero-Repair Flat Reference",
+      "Theorem 14.3 — Curved Carrier Receipt",
+      "Theorem 14.4 — Curvature = Correction",
+      "Theorem 14.5 — GR Scope Boundary"
+    ],
+    "cross_references": [
+      "014",
+      "13",
+      "15",
+      "2",
+      "3"
+    ],
+    "d_count": 6,
+    "i_count": 2,
+    "x_count": 3,
+    "open_obligations": [
+      "**Riemann/Ricci/Einstein tensor derivation.** The repair ledger is a substrate accounting quantity, not a physical curvature tensor.",
+      "**Calibrated gravitational measurement.** No measured gravitational effect is claimed or derived.",
+      "**nth-bit extraction from the oloid normal form alone.** The normal form is a carrier pattern, not a cold-start extractor.",
+      "**Physical GR curvature interpretation.** Any bridge from repair score to spacetime curvature requires a separate derivation and external calibration.",
+      "General Relativity curvature is a candidate interpretation of repair demand, not a closed theorem.",
+      "Riemann/Ricci/Einstein tensor derivation remains an external obligation.",
+      "nth-bit extraction from the oloid normal form alone remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-14__boundary_repair_curvature.py"
+  },
+  "15": {
+    "paper_number": "15",
+    "title": "QFT/Higgs Mass-Residue Carrier",
+    "word_count": 3677,
+    "key_topics": [
+      "mass-residue carrier",
+      "Arf invariant",
+      "VOA weight",
+      "correction residue",
+      "`2×2×2` vs `3×3`"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 15.1 — Rule 30 Split over F2",
+      "Theorem 15.2 — Arf Invariant and Gluing Rule",
+      "Theorem 15.3 — VOA Sector Decomposition",
+      "Theorem 15.4 — Correction Residue States",
+      "Theorem 15.5 — Eight States, One Dual Reading",
+      "Theorem 15.6 — The Ninth Is a Forced Printout",
+      "Theorem 15.7 — 2×2×2 vs 3×3 Framing Resolution",
+      "Theorem 15.8 — Mass-Gravity Drive",
+      "Theorem 15.9 — Higgs Frame Mapping",
+      "Theorem 15.10 — Higgs Mass Anchor",
+      "Theorem 15.11 — VOA Weight Assignment"
+    ],
+    "cross_references": [
+      "10",
+      "13",
+      "14",
+      "16",
+      "2"
+    ],
+    "d_count": 8,
+    "i_count": 3,
+    "x_count": 3,
+    "open_obligations": [
+      "**Calibration to the physical Higgs mechanism.** The internal carrier is structurally exact; physical particle identification and mass values are external calibration targets.",
+      "**Particle mass spectrum or numerical mass prediction in measured units.** The VOA weight and correction residue provide a grading; measured GeV values require a calibration bridge.",
+      "**Electroweak symmetry breaking / Yukawa coupling derivation.** The VEV structure is identified internally; the measured electroweak scale requires external calibration.",
+      "**Closed-form McKay-Thompson correction parity.** The nth-bit oracle layer passes, but a closed-form `O(log N)` extractor without oracle remains open.",
+      "**Explicit numerical mass reconciliation.** Framework masses + trace correction → measured masses is the remaining calibration, not claimed in this paper.",
+      "Measured Higgs mass and electroweak parameters require external calibration.",
+      "Closed-form McKay-Thompson correction parity remains open.",
+      "Explicit numerical mass reconciliation (framework masses + trace → measured masses) is the remaining calibration."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-15__qft_higgs_mass_residue_carrier.py"
+  },
+  "16": {
+    "paper_number": "16",
+    "title": "Continuum Edge Residuals",
+    "word_count": 1976,
+    "key_topics": [
+      "continuum edge",
+      "residual",
+      "anneal",
+      "Lie-conjugate rest",
+      "power-of-ten window"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 16.1 — Local Anneal Closure",
+      "Theorem 16.2 — Lie-Conjugate Rest Count",
+      "Theorem 16.3 — Edge Residue Formula",
+      "Theorem 16.4 — Power-of-Ten Window Receipts",
+      "Theorem 16.5 — Alpha Squared Invariant",
+      "Theorem 16.6 — Global Continuum Collapse is Deferred",
+      "Theorem 16.7 — Unbounded McKay / O₂-Prime Closure is the Residue"
+    ],
+    "cross_references": [
+      "15",
+      "17",
+      "2",
+      "8"
+    ],
+    "d_count": 5,
+    "i_count": 2,
+    "x_count": 4,
+    "open_obligations": [
+      "**Global continuum closure.** The local edge-residual instrument does not prove a global continuum limit.",
+      "**`O(N) → O(log N)` propagating-correction collapse.** The McKay-Thompson parity theorem remains the missing closed-form transport.",
+      "**Closed-form McKay-Thompson correction parity.** The open step is named in the receipt: implement `mckay_thompson_coefficient_parity(g, k)` for `g ∈ {2A, 3A}`.",
+      "**Physical calibration of the fine-structure constant.** The `α^{-2} = 169` invariant is formal arithmetic; comparison with CODATA `α^{-1} = 137.035999084` requires a separate calibration bridge.",
+      "**Claim that adding digits terminates continuum depth.** The local window receipts sample depth; they do not prove termination of the continuum.",
+      "Global continuum closure remains open.",
+      "`O(N) → O(log N)` propagating-correction collapse remains open.",
+      "Closed-form McKay-Thompson correction parity remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-16__continuum_edge_residuals.py"
+  },
+  "17": {
+    "paper_number": "17",
+    "title": "E6–E8 Error-Correction Tower",
+    "word_count": 3148,
+    "key_topics": [
+      "error-correction tower",
+      "Hamming code",
+      "Fano plane",
+      "extended Hamming",
+      "Golay code"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 17.1 — Parameter Chain",
+      "Theorem 17.2 — Hamming/Fano Rung",
+      "Theorem 17.3 — Extended Hamming / E8 Seed",
+      "Theorem 17.4 — Golay Ingredients",
+      "Theorem 17.5 — Powered Chain and Nebe Bound",
+      "Theorem 17.6 — Niemeier E8³ Root-Shell Landing",
+      "Theorem 17.7 — Golay-to-Leech Vector Tower",
+      "Theorem 17.8 — Published Cross-Check",
+      "Theorem 17.9 — Niemeier Seam Decomposition"
+    ],
+    "cross_references": [
+      "16",
+      "18",
+      "3",
+      "4"
+    ],
+    "d_count": 10,
+    "i_count": 2,
+    "x_count": 4,
+    "open_obligations": [
+      "**Rootless Leech overlattice glue action.** The Golay ingredient layer is verified; the glue construction that produces the Leech lattice from ingredients remains open.",
+      "**Semantic map from arbitrary `N` to a Niemeier terminal.** The root-shell profile registry is verified; a deterministic map from an arbitrary input `N` to a specific terminal landing is not proved.",
+      "**`W(E8)` lookup table or sub-`O(N)` extractor.** No Weyl-element lookup table is supplied.",
+      "**Physical error-correction theorem beyond the verified code tower.** The tower is a structural backbone; a physical error-correction theorem (e.g., quantum error correction) is not claimed.",
+      "**Full uniqueness/unimodularity receipt.** The constructed lattice has 196,560 minimal vectors of norm 4. Identification with THE unique Leech lattice (even unimodular, dim 24, min norm 4) is by the uniqueness theorem — cited, not verified here. A Gram/unimodularity receipt is future work.",
+      "**Kissing optimality in 24D.** Cohn-Kumar-Miller-Radchenko-Viazovska's optimality proof is cited mathematics, not claimed in this paper.",
+      "Rootless Leech overlattice glue action remains open.",
+      "Semantic map from arbitrary `N` to a Niemeier terminal remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-17__error_correction_tower.py"
+  },
+  "18": {
+    "paper_number": "18",
+    "title": "VOA / Moonshine Representation Routes",
+    "word_count": 3041,
+    "key_topics": [
+      "VOA",
+      "Moonshine",
+      "Monster group",
+      "McKay-Thompson series",
+      "`Z4` template"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 18.1 — VOA Seed Partition",
+      "Theorem 18.2 — Static Z4 Template",
+      "Theorem 18.3 — Monster Scalar Factorization",
+      "Theorem 18.4 — McKay Row",
+      "Theorem 18.5 — Pariah Asymmetry",
+      "Theorem 18.6 — Bounded McKay Matrix Bootstrap",
+      "Theorem 18.7 — Correction-Class Hypothesis Registered",
+      "Theorem 18.8 — Monster-D4 Lift Bounded Evidence",
+      "Theorem 18.9 — Substrate Centroid/VOA Chain",
+      "Theorem 18.10 — S3 Hopf Fibration Seam Manifold"
+    ],
+    "cross_references": [
+      "17",
+      "19",
+      "20"
+    ],
+    "d_count": 9,
+    "i_count": 1,
+    "x_count": 4,
+    "open_obligations": [
+      "**`correction_via_voa` implementation.** The evaluator is not implemented; a direct call raises `NotImplementedError`.",
+      "**Full McKay-Thompson arithmetic beyond bounded tables.** The bootstrap covers `1A`, `2A`, `3A`, `5A`, `7A` only.",
+      "**Rule 30 `O(log N)` extractor through the route.** The route does not close the extractor.",
+      "**Full Moonshine identification of the finite chart seed.** The route architecture is bounded evidence, not a completed global theorem.",
+      "**Heegner-type rank-2 BSD carrier construction.** The `S3` Hopf fibration manifold is closed; the explicit Heegner rank-2 carrier remains open.",
+      "**Physical representation theorem beyond the route receipts.** The framework readings are structural identifications, not physical derivations.",
+      "**Pariah asymmetry structural meaning.** The vector `[33, 37, 39, 44, 53, 65]` is a named constant; its exact structural meaning is not yet derived.",
+      "`correction_via_voa` implementation remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-18__voa_moonshine_routes.py"
+  },
+  "19": {
+    "paper_number": "19",
+    "title": "Observer Face-Selection",
+    "word_count": 1959,
+    "key_topics": [
+      "observer",
+      "face selection",
+      "latent face",
+      "gluon invariance",
+      "antipodal reversal"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 19.1 — Four Selectable Frame Faces",
+      "Theorem 19.2 — Latent Face Retention",
+      "Theorem 19.3 — Gluon Invariance under Antipodal Reversal",
+      "Theorem 19.4 — Static Z4 Face Template",
+      "Theorem 19.5 — Bounded Observer-Route Evidence",
+      "Theorem 19.6 — Observation Is D4 Face Selection"
+    ],
+    "cross_references": [
+      "019",
+      "13",
+      "18",
+      "20"
+    ],
+    "d_count": 7,
+    "i_count": 0,
+    "x_count": 3,
+    "open_obligations": [
+      "**SPINOR signature observation.** The SPINOR class is not observed or verified in this paper.",
+      "**Full frame-inversion `Q(S)` executable binding.** The promoted paper layer does not bind the full frame-inversion operator.",
+      "**Consciousness or measurement-collapse interpretation.** The finite selection machinery is not a derivation of consciousness or quantum measurement collapse.",
+      "**Global physical observer theorem.** The bounded evidence does not close a global observer theorem.",
+      "SPINOR signature observation remains open.",
+      "Consciousness or measurement-collapse interpretation remains open.",
+      "Global physical observer theorem remains open."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-19__observer_face_selection.py"
+  },
+  "20": {
+    "paper_number": "20",
+    "title": "Layer-2 Synthesis Ledger",
+    "word_count": 3140,
+    "key_topics": [
+      "synthesis ledger",
+      "aggregation",
+      "reachability",
+      "transport obligation",
+      "contributions registry"
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 20.1 — Seed Ledger Verification",
+      "Theorem 20.2 — Terminal Form Count",
+      "Theorem 20.3 — Reachability Status Preservation",
+      "Theorem 20.4 — Transport Obligations",
+      "Theorem 20.5 — Contributions Registry Validation",
+      "Theorem 20.6 — Solution Ledger Affirmed",
+      "Theorem 20.7 — Honest Enumeration Status",
+      "Theorem 20.8 — Decade-2 Tower Structural Consistency",
+      "Theorem 20.9 — Family-09 Cross-Lift Structural Consistency",
+      "Theorem 20.10 — High-Severity Gap Addressed",
+      "Theorem 20.11 — Fabrication Corrections"
+    ],
+    "cross_references": [
+      "1",
+      "21",
+      "3"
+    ],
+    "d_count": 10,
+    "i_count": 5,
+    "x_count": 4,
+    "open_obligations": [
+      "**Source-paper claims are not re-proved by aggregation.** The ledger records status; it does not close claims by aggregation alone.",
+      "**Unknown reachability rows remain obligations.** Unseeded sources require future seeding, refutation, or proof.",
+      "**Forbidden rows remain recorded obstructions.** Direct paths into rootless Leech are retained as obstructions, not discarded.",
+      "**Open transport lifts remain open until their source verifiers close them.** The `J3O_TO_G2_F4_T5A_ROUTE` and `EXCEPTIONAL_ROUTE_TO_NIEMEIER_LANDING_FORMS` rows remain open until their source papers supply stronger theorems.",
+      "**Upstream binding of FLCR-30, 31, 39, 40.** The explicit forward reference is present, but the full receipt chain requires those papers to be written.",
+      "**Layer-2 closure beyond 1,105 rows.** The receipts for many rows are not yet produced; the ledger acknowledges incompleteness.",
+      "Source-paper claims are not re-proved by aggregation.",
+      "Unknown reachability rows remain obligations."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-20__layer2_synthesis_ledger.py"
+  },
+  "21": {
+    "paper_number": "21",
+    "title": "MorphForge / PolyForge / MorphoniX",
+    "word_count": 2015,
+    "key_topics": [
+      "MorphForge; PolyForge; MorphoniX; applied Forge reader; ribbon codec; S3 fold word; morphon ledger; Niemeier template; golden-ratio sweep; open gaps."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 21.1 — Lossless Ribbon Encoding",
+      "Theorem 21.2 — Observable S3 Folds",
+      "Theorem 21.3 — Morphon Accounting with Open Gaps",
+      "Theorem 21.4 — Terminal Landing in Niemeier:E8^3",
+      "Theorem 21.5 — AGRM Golden-Ratio Sweep"
+    ],
+    "cross_references": [
+      "08",
+      "22",
+      "23",
+      "24"
+    ],
+    "d_count": 11,
+    "i_count": 2,
+    "x_count": 7,
+    "open_obligations": [
+      "**Missing Leech import (21.1).** The no-cost Leech lookup is closeable by binding the Paper 08/17 `Forge.verify_leech_lookup()` receipt. Expanded Leech invariants, nontrivial glue, and Gamma72 remain routed to NP-02/NP-03.",
+      "**Expanded morphism witnesses (21.2).** Routed into tooling or adapter work before being used as a premise.",
+      "**TF1 measurement (21.3).** Push physical, experimental, or unit-bearing claims behind a calibration gate.",
+      "**Cross-medium equivalence (21.6).** No receipt is attached.",
+      "**Mandelbrot boundary claims (21.7).** No receipt is attached.",
+      "**Leech construction (21.8).** No receipt is attached.",
+      "**Biological closure (21.10).** No receipt is attached.",
+      "**Materials validation (21.11).** No receipt is attached."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-21__unified_morphforge_polyforge_morphonix.py"
+  },
+  "22": {
+    "paper_number": "22",
+    "title": "MetaForge Applied Materials",
+    "word_count": 1619,
+    "key_topics": [
+      "MetaForge; applied materials; candidate ledger; Pareto partner selection; error-wall ledger; seam mitigation; production estimate; external validation."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 22.1 — Finite Inventory Loading",
+      "Theorem 22.2 — Pareto Partner Selection",
+      "Theorem 22.3 — Deterministic Ten-Fold Transform",
+      "Theorem 22.4 — Error-Wall-to-Seam Obligation Carry",
+      "Theorem 22.5 — Bounded Production Accounting"
+    ],
+    "cross_references": [
+      "21",
+      "23",
+      "25"
+    ],
+    "d_count": 6,
+    "i_count": 2,
+    "x_count": 4,
+    "open_obligations": [
+      "**Finite-element validation (22.6).** Requires external simulation and calibration.",
+      "**Fabrication and load testing (22.7).** Requires physical fabrication and empirical measurement.",
+      "**Manufacturability constraints (22.8).** Requires engineering review and external benchmarking.",
+      "**Relative-density and Poisson-ratio measurement (22.9).** Requires physical measurement and external calibration.",
+      "Finite-element validation is proved.",
+      "Fabrication and load testing are proved.",
+      "Manufacturability constraints are proved.",
+      "Relative-density and Poisson-ratio measurements are proved."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-22__unified_metaforge_applied_materials.py"
+  },
+  "23": {
+    "paper_number": "23",
+    "title": "FoldForge Protein Folding",
+    "word_count": 1740,
+    "key_topics": [
+      "FoldForge; protein descriptor; residue windows; contact map; candidate bifurcation; bounded winding witness; biological validation; PDB comparison."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 23.1 — Residue Chain as Local Windows",
+      "Theorem 23.2 — Replayable Contact-Map Receipt",
+      "Theorem 23.3 — Candidate Bifurcation Marks",
+      "Theorem 23.4 — Bounded Oloid Winding Witness",
+      "Theorem 23.5 — Governance: Candidate Descriptor Until Validated"
+    ],
+    "cross_references": [
+      "21",
+      "22",
+      "24"
+    ],
+    "d_count": 7,
+    "i_count": 2,
+    "x_count": 6,
+    "open_obligations": [
+      "**PDB validation (23.6).** Requires comparison to deposited structures.",
+      "**Native structure prediction (23.7).** Requires 3D fold prediction and validation.",
+      "**Free-energy minima (23.8).** Requires thermodynamic calculation and validation.",
+      "**Fold rates (23.9).** Requires kinetics simulation and measurement.",
+      "**AlphaFold parity (23.10).** Requires comparison to AlphaFold predictions.",
+      "**Measured thermodynamic behavior (23.11).** Requires empirical measurement.",
+      "**Depth-only winding extraction.** The `DEPTH_ONLY_WINDING_EXTRACTOR_PENDING` gap requires a full-depth extractor.",
+      "**Biological encoding parser.** Requires domain-specific adapter work."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-23__unified_foldforge_protein_folding.py"
+  },
+  "24": {
+    "paper_number": "24",
+    "title": "KnightForge / N-Dimensional Chess Automata",
+    "word_count": 1587,
+    "key_topics": [
+      "KnightForge; board automata; L-conjugate closure; finite greedy placement; VOA sector split; frame operator; combinatorial-game validation."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 24.1 — L-Conjugate Attractor Closure",
+      "Theorem 24.2 — VOA Sector Split `2 + 6`",
+      "Theorem 24.3 — Finite Greedy Knight Board Receipt",
+      "Theorem 24.4 — L-Conjugate Closure Inheritance",
+      "Theorem 24.5 — N-Dimensional Frame Operator"
+    ],
+    "cross_references": [
+      "21",
+      "23",
+      "25"
+    ],
+    "d_count": 5,
+    "i_count": 0,
+    "x_count": 5,
+    "open_obligations": [
+      "**OEIS identity (24.8).** Requires external search evidence.",
+      "**N-dimensional playability (24.7).** Requires a separate game model and verifier.",
+      "**Placement-class relation to `2+6` sector split (24.3).** Requires its own formal theorem.",
+      "**Combinatorial-game expert review (24.4).** Requires peer review.",
+      "**Chess solvability (24.6).** No receipt is attached.",
+      "**General game solver (24.9).** No receipt is attached.",
+      "**Strategic playability (24.10).** No receipt is attached.",
+      "Chess is solved."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-24__unified_knightforge_n_dimensional_chess_automata.py"
+  },
+  "25": {
+    "paper_number": "25",
+    "title": "Energetic Traversal Maps",
+    "word_count": 1768,
+    "key_topics": [
+      "energetic traversal; NSL boundary term; Noether-Shannon-Landauer; analog units; transport ledger; VOA sector cost; calibration boundary."
+    ],
+    "named_theorems_claims_definitions": [
+      "Theorem 25.1 — Replayable NSL Rows",
+      "Theorem 25.2 — Step Gate Closure",
+      "Theorem 25.3 — Additive Path Totals",
+      "Theorem 25.4 — Visible Transport Spine with Open Lifts",
+      "Theorem 25.5 — Default Analog Cost from VOA Sector Split"
+    ],
+    "cross_references": [
+      "20",
+      "22"
+    ],
+    "d_count": 5,
+    "i_count": 0,
+    "x_count": 5,
+    "open_obligations": [
+      "**Joule-valued physical energy (25.6).** Requires external unit maps and calibration.",
+      "**Absorption measurement (25.7).** Requires physical measurement and pass/fail criteria.",
+      "**Calibrated least action (25.8).** Requires geodesic/thermodynamic readings and external calibration.",
+      "**Thermodynamic optimality (25.9).** Requires thermodynamic calculation and validation.",
+      "**Full NSL unification in measured physical units (25.10).** Requires complete physical calibration and falsification criteria.",
+      "Joule-valued physical energy is proved.",
+      "Absorption measurement is proved.",
+      "Calibrated least action is proved."
+    ],
+    "has_codelib": true,
+    "code_status": "real",
+    "codelib_path": "D:\\Paper Ecology\\CodeLib\\paper-25__unified_energetic_traversal_maps.py"
+  }
+}

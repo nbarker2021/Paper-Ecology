@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR31-015",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-03",
+  "O_ext": "Finite gauge-like structural transport",
+  "equation_or_source": "quark-face transport receipts, `FLCR-14`, `FLCR-31`, `FLCR-32`",
+  "O_lcr": "LCR translation surface",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "Full gauge-sector derivation.",
+  "dataset": "",
+  "falsifier": "Full gauge-sector derivation.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [
+    "FLCR-14"
+  ],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": "yes"
+}

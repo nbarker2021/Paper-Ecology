@@ -1,0 +1,41 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0143",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\production\\prize-submissions.zip",
+  "name": "prize-submissions.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 111,
+  "high_signal_entry_count": 109,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action",
+    "terminal_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "02",
+    "12",
+    "22",
+    "32",
+    "03",
+    "13",
+    "23",
+    "33",
+    "08",
+    "18",
+    "28",
+    "38"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "5ff6b0a54e9e78678388f43b4fab717ba843ce94ab69edc3af13c21d7af0fb69"
+}

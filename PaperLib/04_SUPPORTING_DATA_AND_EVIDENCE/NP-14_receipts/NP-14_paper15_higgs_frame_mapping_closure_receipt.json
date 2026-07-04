@@ -1,0 +1,16 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-15 higgs_frame_mapping_receipt.json",
+  "status": "pass_with_open_obligations",
+  "passed": 6,
+  "total": 7,
+  "closure_source": "Paper 15 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status.",
+    "Reworked Paper 15 records Higgs frame mapping as partial, 6/7, labeled GLM-F9-SM07."
+  ],
+  "open_obligations": [
+    "Full measured Higgs field, boson mass, Yukawa couplings, and electroweak symmetry-breaking calibration."
+  ],
+  "boundary": "Bounded internal Higgs-frame mapping closed; full QFT mass spectrum remains ECO and is routed to NP-06."
+}

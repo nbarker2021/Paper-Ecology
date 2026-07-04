@@ -1,0 +1,632 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage{array}
+\begin{document}
+\section*{FLCR-30 - Supervisor Cursor And Universal Normal-Form Intake}
+
+**Series:** Formalizing LCR, Unifying Standard Models
+**Artifact:** formal paper source
+**Status:** first-pass rich rewrite; requires final citation and build pass.
+**Claim posture:** maximal local claim posture with explicit lane boundaries.
+
+\subsection*{Abstract}
+
+This paper formalizes supervisor cursor scheduling and universal normal-form intake. The operative object is supervisor cursor. The core result is that a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely. The paper also defines how this result routes forward: FLCR-28 through FLCR-40 use this as the normal-form intake gate. Its main residue is explicit: the incoming universal normal form remains required evidence before final unification closure.
+
+\subsection*{Keywords}
+
+supervisor cursor; LCR; receipt; claim lane; normal form.
+
+\subsection*{External Reader Orientation}
+
+An outside reviewer should read this paper as a formal-system construction paper. Its local object is **Supervisor Cursor And Universal Normal-Form Intake**. The paper's immediate contribution is: Schedules the corpus, Kimi windows, and incoming universal normal-form work.
+
+The nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.
+
+It does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.
+
+\subsection*{Reviewer Compression}
+
+**Core object.** Supervisor Cursor And Universal Normal-Form Intake.
+
+**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.
+
+**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.
+
+**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.
+
+\subsection*{Peer Reviewer Assessment}
+
+Reviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.
+
+**Recommendation.** major revision, technically promising.
+
+**Review score vector.** orientation=2, claim\_granularity=2, evidence\_visibility=2, falsifier\_visibility=2, journal\_apparatus=1, base\_layer\_boundary=2.
+
+**Formal claim rows reviewed.** 3.
+
+\subsubsection*{Reviewer Strength Finding}
+
+The manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.
+
+\subsubsection*{Major Revision Requests}
+
+\noindent{}-- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\\
+\noindent{}-- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\\
+\noindent{}-- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\\
+\noindent{}-- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\\
+
+\subsubsection*{Minor Revision Requests}
+
+\noindent{}-- Normalize theorem capitalization and punctuation.\\
+\noindent{}-- Add final figure/table captions where the text currently describes diagrams schematically.\\
+\noindent{}-- Ensure every acronym and local term appears in the paper-local glossary.\\
+
+\subsubsection*{Acceptance Blockers}
+
+\noindent{}-- A reviewer can accept the formal contribution without accepting later physics claims, but only if final citations and receipt identifiers are attached.\\
+\noindent{}-- The proof sketch must be promoted into a formal proof or explicitly labeled as a construction argument.\\
+
+
+\subsection*{1. Contribution And Scope}
+
+\noindent{}-- Defines supervisor cursor as a first-class FLCR object.\\
+\noindent{}-- States the local result: a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely.\\
+\noindent{}-- Routes downstream use through claim lanes rather than inherited prose: FLCR-28 through FLCR-40 use this as the normal-form intake gate.\\
+\noindent{}-- Preserves the residue boundary: the incoming universal normal form remains required evidence before final unification closure.\\
+
+This paper belongs to the LCR-native construction band. Physics and Standard Model language, when it appears, is only a deferred mapping cue, analogy, or explicitly bounded calibration target. The paper's base object must remain stable enough for later papers to cite without importing a stronger physical claim by implication.
+
+\subsection*{2. Source Routing}
+
+Primary routed sources:
+
+\noindent{}-- `32\_The\_Supervisor\_Cursor.md`\\
+\noindent{}-- `virtuous/32\_The\_Supervisor\_Cursor\_VIRTUOUS.md`\\
+\noindent{}-- `supplements/32\_INTERNAL\_REASONING\_SUPPLEMENT.md`\\
+
+Cross-corpus evidence classes:
+
+\noindent{}-- `CAM\_CLAIM\_100\_SCORE\_AUDIT.md`\\
+\noindent{}-- `NSIT\_TOOL\_CLOSURE\_MATRIX.md`\\
+\noindent{}-- `NSIT\_REASONED\_CLOSURE\_PASS.md`\\
+\noindent{}-- `PAPER\_REWORKS\_CRYSTAL\_PROJECTION.json`\\
+\noindent{}-- standards, glue, window, and node databases where applicable\\
+\noindent{}-- notebook-derived review prompts and orbital source manifests\\
+
+\subsection*{3. Definitions}
+
+\noindent{}-- **Supervisor cursor.** A scheduling state that determines which paper/window/source is active.\\
+\noindent{}-- **Normal-form slot.** A reserved location for later canonicalization without premature closure.\\
+\noindent{}-- **Receipt boundary.** The exact scope in which the paper's result can be replayed or consumed.\\
+\noindent{}-- **Promotion route.** The evidence path required before a stronger downstream claim can use this result.\\
+
+\subsection*{4. Formal Claims}
+
+\noindent\texttt{| Claim | Lane | Statement |}\\
+\noindent\texttt{|-------|------|-----------|}\\
+\noindent\texttt{| Theorem 30.1 | `normal\_form\_result` | a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely |}\\
+\noindent\texttt{| Proposition 30.2 | `normal\_form\_result` | supervisor cursor can be imported by later papers only through its declared source, receipt, and lane. |}\\
+\noindent\texttt{| Protocol 30.3 | `falsifier\_or\_open\_obligation` | the incoming universal normal form remains required evidence before final unification closure |}\\
+
+\subsection*{Reviewer Claim Ledger}
+
+This ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.
+
+\noindent\texttt{| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |}\\
+\noindent\texttt{|---|---|---|---|---|---|}\\
+\noindent\texttt{| Theorem 30.1 | formal construction | a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely | definitions, normal-form construction, conversion rule, and do}\\
+\noindent\texttt{| Proposition 30.2 | formal construction | supervisor cursor can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-us}\\
+\noindent\texttt{| Protocol 30.3 | obligation/falsifier | the incoming universal normal form remains required evidence before final unification closure | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test }\\
+
+\subsection*{Claim Granularity And Review Table}
+
+The table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.
+
+\noindent\texttt{| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |}\\
+\noindent\texttt{|---|---|---|---|}\\
+\noindent\texttt{| Formal-system result | `FLCR-30` defines or uses **Supervisor Cursor And Universal Normal-Form Intake** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, const}\\
+\noindent\texttt{| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manif}\\
+\noindent\texttt{| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theor}\\
+\noindent\texttt{| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. }\\
+\noindent\texttt{| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calib}\\
+\noindent\texttt{| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | }\\
+
+\subsection*{5. Paper-Specific Development}
+
+1. Identify the local object and its assigned sources for FLCR-30.
+2. Separate what is internally receipt-bound from what is citation-bound, CAM-bound, calibration-bound, or still an obligation.
+3. State the strongest admissible claim in its current lane.
+4. Export only the lane-safe result to downstream papers and preserve the residue.
+
+\subsubsection*{Proof Sketch}
+
+The proof strategy for FLCR-30 is a typed construction argument. The paper names supervisor cursor as the active object, binds it to the routed legacy and orbital sources, and then allows downstream use only through the declared claim lane. This does not erase stronger ambitions; it keeps them addressable as dependencies, calibration tasks, or falsifiers.
+
+\subsection*{6. Construction}
+
+The construction is intentionally staged. First, the paper names the finite or
+typed object that can be inspected directly. Second, it declares the admissible
+operations over that object. Third, it records the receipt or source class that
+allows another paper to consume the result. Fourth, it names the residue that
+must not be silently promoted.
+
+For this paper, the operative object is `Supervisor Cursor And Universal Normal-Form Intake`. Its safe consumption
+rule is:
+
+\begin{verbatim}
+source object -> declared operation -> receipt/lane -> downstream import
+\end{verbatim}
+
+The unsafe consumption rule is:
+
+\begin{verbatim}
+source phrase -> downstream identity claim
+\end{verbatim}
+
+That second pattern is explicitly rejected by FLCR-01 and must be rewritten as
+a claim-lane promotion with evidence.
+
+\subsection*{7. Evidence And Receipts}
+
+\noindent\texttt{| Evidence source | What it contributes |}\\
+\noindent\texttt{|-----------------|---------------------|}\\
+\noindent\texttt{| Legacy paper body | Primary formal and source-integration material assigned by the series map. |}\\
+\noindent\texttt{| Internal and pyramid supplements | Cross-paper reasoning windows, deferred back-application slots, and route constraints. |}\\
+\noindent\texttt{| NSIT tool closure matrix | Existing verifier/tool families that can close internal or batch claims. |}\\
+\noindent\texttt{| CAM/crystal and standards-window evidence | Projected memory, source routing, standards reports, and window/node databases. |}\\
+
+\subsubsection*{Standards Window Binding}
+
+The supervisor cursor now has an explicit external window lattice to consume.
+The `window\_summary.json` supplies a 2/4/8/16/32 hierarchy over canonical
+papers 00-31: sixteen 2-paper windows, eight 4-paper windows, four 8-paper
+windows, two 16-paper windows, and one 32-paper root window
+(`window\_00\_31`). FLCR-30 uses this as evidence that larger review passes are
+not informal rereads; they are scheduled window states with stable identifiers.
+
+The paper therefore upgrades Theorem 30.1 from a general scheduling claim to a
+windowed intake rule:
+
+\begin{verbatim}
+paper slot -> window id -> routed obligation -> normal-form slot -> downstream lane
+\end{verbatim}
+
+The unresolved suite row `CQE-paper-formal-07: verify\_grand\_ribbon\_meta\_framer.py`
+is assigned here and to FLCR-40. In this paper it is an implementation binding:
+the supervisor cursor must name which verifier or receipt proves that a
+grand-ribbon frame was constructed, rather than citing the phrase "grand ribbon"
+as if it were already a replayable artifact.
+
+\subsection*{Appendix A. Recursive Capability Reapplication Review}
+
+This review treats the newly admitted capability families as operators. The question is not only what each source says, but what it solves when the source is recursively reapplied through CAM, claim lanes, forge admission, receipt loops, and paper-to-paper routing.
+
+\subsubsection*{Operator Effects}
+
+\noindent\texttt{| Operator | Standalone result | Recursive result | Newly resolved state | Remaining boundary |}\\
+\noindent\texttt{|---|---|---|---|---|}\\
+\noindent\texttt{| REAPPLY-GLM-CAM-CRYSTAL | The corpus has a working CAM evidence crystal: papers, obligations, verifier findings, download documents, and an integration crystal are addressable nodes with morphisms, ribbons, segmented s}\\
+
+The practical consequence is that several prior gaps are now better classified. Some are closed as routing, admission, finite-address, or executable-publication problems. The residues that remain are sharper: exhaustive source intake, physical calibration, full paper-local runner parity, external measurement, and domain-specific validation.
+
+\subsection*{Appendix B. Broad Capability Intake}
+
+This addendum admits non-obvious source material by function rather than filename. Each row states what the source now lets the paper do, while detailed receipt provenance remains in the evidence report instead of the formal claim body.
+
+\noindent\texttt{| Capability | Lane | Paper effect | Boundary |}\\
+\noindent\texttt{|---|---|---|---|}\\
+\noindent\texttt{| CAP-GLM-CAM-CRYSTAL | `CAM\_crystal\_reapplication\_result` | Promotes CAM from abstract memory to a working evidence crystal: papers, obligations, GLM findings, download documents, and a new integration crystal are conte}\\
+
+The resulting claim posture is broader but still auditable: a paper can import a capability when the evidence lane is satisfied, and any remaining gap is named as an adapter, calibration, rerun, or falsifier obligation.
+
+\subsection*{Appendix D. Resolved-State Closure Pass}
+
+This pass removes false restrictions on the paper's claim posture. A row is no longer called open merely because a stronger future claim exists. The satisfied lane is closed now; only the stronger claim that lacks its required adapter, comparator, calibration, or falsifier remains as residue.
+
+\subsubsection*{Closed Now}
+
+\noindent\texttt{| Row | Lane | Resolved state | Remaining boundary |}\\
+\noindent\texttt{|---|---|---|---|}\\
+\noindent\texttt{| paper lift enumeration | `receipt\_bound\_internal\_result` | 8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.509589. | This closes the paper-local finite lift readout, not every stronger physical interpretatio}\\
+\noindent\texttt{| window/aggregate synthesis | `normal\_form\_result` | The window or aggregate action is closed as a source, receipt, and next-prestate assignment surface. | The family closure is a structural lane; measured physics still}\\
+\noindent\texttt{| decade-3 tower | `receipt\_bound\_internal\_result` | The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500. | The decade total is an internal tower metric, not a standalone universal physical }\\
+\noindent\texttt{| family-10 cross-lift comparison | `cam\_crystal\_reapplication\_result` | Family tower binds FLCR-10, FLCR-20, FLCR-30, FLCR-40; avg TarPit mass=0.510965; error walls=0. | Cross-lift agreement strengthens routing and comp}\\
+\noindent\texttt{| supervisor cursor | `normal\_form\_result` | Supervisor cursor scheduling is closed as normal-form slot reservation. | Incoming universal normal form remains an attachable dependency, not a global block. |}\\
+
+\subsubsection*{Claim Posture After This Pass}
+
+`FLCR-30` should now be read as a resolved-state contribution for `Supervisor Cursor And Universal Normal-Form Intake` at its declared lane. The paper may state the strongest claim supported by these rows directly. It should reserve caution only for a specifically named stronger claim whose required evidence is absent.
+
+\subsection*{8. Dependencies And Downstream Use}
+
+This paper may be imported by later FLCR papers only through the claim lanes
+above. The default downstream consumers are:
+
+\noindent{}-- `FLCR-11` through `FLCR-18` for window, receipt, admission, CA, algebraic,\\
+  curvature, residue, and exceptional machinery.
+\noindent{}-- `FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal\\
+  normal-form intake.
+\noindent{}-- `FLCR-31` through `FLCR-40` only after the LCR-native result has been cited\\
+  and the translation claim has its own evidence lane.
+
+\subsection*{9. Limitations And Falsifiers}
+
+\noindent{}-- the incoming universal normal form remains required evidence before final unification closure\\
+\noindent{}-- External calibration claims require units, datasets, citations, and reproducible data binding.\\
+\noindent{}-- A later translation paper may strengthen this result only by adding the missing lane evidence.\\
+
+A falsifier for this paper is any example that satisfies the declared input
+conditions while violating the stated construction, receipt, or lane boundary.
+An interpretation that merely wants a stronger downstream conclusion is not a
+falsifier; it is an obligation routed to a later paper.
+
+\subsection*{10. Publication Readiness Tasks}
+
+\noindent{}-- Validator identities and receipt hashes are recorded in the manifest or receipt appendix.\\
+\noindent{}-- External theorems require final citation entries before journal submission.\\
+\noindent{}-- Every theorem, proposition, and protocol must retain a claim lane and evidence boundary.\\
+\noindent{}-- The Markdown, LaTeX, and PDF forms are generated from the same canonical source.\\
+
+\subsection*{Dual Positioning: Story And Formal Carrier}
+
+This paper must be read in two synchronized ways. Sequentially, it explains why
+the next state exists in the corpus story. Formally, it binds that state to
+accepted mathematics, IRL formalism, code receipts, validators, CAM/crystal
+lookups, and claim-lane boundaries.
+
+Assigned original ribbon role(s): `32`/residual\_action.
+
+\noindent\texttt{| Original slot | Family | Lift | Role | Proof form |}\\
+\noindent\texttt{|---|---|---:|---|---|}\\
+\noindent\texttt{| `32` | residual\_action | 3 | order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface | residual accounting and bounded/unbounded split |}\\
+
+The formal obligation is to state the strongest valid claim available for this
+paper without letting interpretation silently change the addressed object. Any
+author interpretation belongs beside the formalism as a declared relabeling,
+bridge, or analog, and must be accompanied by the evidence lane that makes the
+claim consumable by later papers.
+
+\subsection*{State-Bound Proof Contract}
+
+This paper receives: state emitted by prior slot 31 and reopened at original slot 32 (The Supervisor Cursor).
+
+It must produce: formal result of original slot 32 plus the same-family lift path toward slot 42.
+
+Semantic transition: measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration.
+
+Accepted formalism targets to bind in the journal rewrite:
+
+\noindent{}-- residue classes and quotient accounting\\
+\noindent{}-- error-correction or syndrome notation\\
+\noindent{}-- truth tables and exhaustive finite checks\\
+\noindent{}-- bounded versus unbounded domain separation\\
+
+\noindent\texttt{| Slot | Family | Lift | Produced proof form |}\\
+\noindent\texttt{|---|---|---:|---|}\\
+\noindent\texttt{| `32` | residual\_action | 3 | residual accounting and bounded/unbounded split |}\\
+
+The formal carrier uses these accepted tools while preserving interpretive
+claims as explicit relabelings, correspondences, or bridges. Claim promotion is admissible only when a receipt, standard citation,
+CAM/crystal reapplication, normal-form result, calibration datum, or falsifier
+boundary is attached.
+
+\subsection*{Provenance And Crystal Evidence Integration}
+
+This section integrates prior work, CAM/crystal projections, NSIT tooling,
+standards-window evidence, and routed supplements as provenance-bearing
+evidence. Source material is not treated as manuscript text; it is bound into
+the paper only through claim lanes, receipts, validators, normal forms,
+calibration rows, or explicit falsifier boundaries.
+
+\subsubsection*{Expansion Rule For This Slot}
+
+Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate.
+
+\subsubsection*{Primary Evidence Inputs}
+
+\noindent\texttt{| Source | Placement reason |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| `32\_The\_Supervisor\_Cursor.md` | primary assigned source for the paper's formal spine |}\\
+\noindent\texttt{| `supplements/32\_INTERNAL\_REASONING\_SUPPLEMENT.md` | paper-local reasoning supplement contributing to definitions, proof sketch, and limitations |}\\
+\noindent\texttt{| `virtuous\textbackslash{}32\_The\_Supervisor\_Cursor\_VIRTUOUS.md` | prior enriched paper body; should be mined for mature claims and proof ordering |}\\
+
+\subsubsection*{Secondary And Orbital Evidence Inputs}
+
+\noindent\texttt{| Source | Placement reason |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| `supplements/CRYSTAL\_CAM\_PROJECTOR\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/OBLIGATION\_LEDGER\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/RECEIPT\_VERIFIER\_CATALOG.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/LATTICE\_FORGE\_UNIFICATION\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/INTERNAL\_REASONING\_PYRAMID\_INDEX.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/INTERNAL\_REASONING\_5P\_WINDOW\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/INTERNAL\_REASONING\_7P\_WINDOW\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `supplements/INTERNAL\_REASONING\_9P\_WINDOW\_SUPPLEMENT.md` | cross-cutting supplement; paper-relevant rows, receipts, and guard language are bound through evidence lanes |}\\
+\noindent\texttt{| `CAM\_CLAIM\_100\_SCORE\_AUDIT.md` | series-wide audit/score/closure evidence; import paper-specific rows and leave global context outside the body |}\\
+\noindent\texttt{| `NSIT\_TOOL\_CLOSURE\_MATRIX.md` | series-wide audit/score/closure evidence; import paper-specific rows and leave global context outside the body |}\\
+\noindent\texttt{| `NSIT\_REASONED\_CLOSURE\_PASS.md` | series-wide audit/score/closure evidence; import paper-specific rows and leave global context outside the body |}\\
+\noindent\texttt{| `ORBITAL\_DATA\_CROSS\_POPULATION\_AUDIT.md` | series-wide audit/score/closure evidence; import paper-specific rows and leave global context outside the body |}\\
+\noindent\texttt{| Additional source routes | Complete routing is maintained in the source-placement appendix |}\\
+
+\subsubsection*{Crystal And Standards Evidence To Bind}
+
+\noindent{}-- Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes.\\
+\noindent{}-- Standards-window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads.\\
+\noindent{}-- Agent/crystal harvest: agent-generated memory, runtime standards starter, current runtime build, repo-harvest CAM, notebook-derived bundles, and downloaded crystal payloads are orbital evidence surfaces.\\
+\noindent{}-- NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts.\\
+
+\subsubsection*{Paper-Specific CAM/Score Rows}
+
+\noindent\texttt{| 32 | 87 | supervisor cursor/coverage closed | scheduler coverage, n=4/5 minimality, n=8 upper record 46205, wrap to Paper 01 | n>=6 superpermutation minimality/exclusion proof |}\\
+
+\subsubsection*{Paper-Specific NSIT Closure Rows}
+
+No direct NSIT row matched the assigned legacy papers in the first-pass matrix; validator matching by object name remains a receipt-attachment requirement.
+
+\subsubsection*{Source Integration Summary}
+
+The legacy source and internal reasoning supplement are treated as source
+evidence rather than manuscript prose. Their contributions enter this paper as
+claim-lane entries, receipt or validator references, finite-domain statements,
+and limitation boundaries. Speculative or cross-domain interpretations remain
+separate from closed local results until an explicit adapter, citation,
+normal-form derivation, calibration row, or falsifier is attached.
+\subsection*{Claim Binding Queue}
+
+This queue records the evidence discipline for claim strengthening. It separates claims that already have support from residues that remain in falsifier or open-obligation lanes.
+
+\noindent\texttt{| Queue | Lane | Promote now | Bind next | Residue |}\\
+\noindent\texttt{|---|---|---|---|---|}\\
+\noindent\texttt{| Finite CA And Bounded Search Promotion | `receipt\_bound\_internal\_result` | Promote finite-state, bounded-search, local-rule, and exhaustive verification claims when the state space and transition law are explicit. | At}\\
+\noindent\texttt{| Formal-Methods Receipt And Governance Closure | `normal\_form\_result` | Promote claim-envelope, receipt, lane, causal-graph, and conformance obligations as formal-methods artifacts when standards reports are attached. |}\\
+\noindent\texttt{| Negative And Failed-Route Receipts As Guards | `falsifier\_or\_open\_obligation` | Use failed routes, rejected candidates, and boundary receipts as exclusion evidence and counterexample guards. | Attach negative receipt p}\\
+
+\subsubsection*{Binding Discipline}
+
+Each queue item is represented as a delta:
+
+\begin{verbatim}
+local claim at paper time
+-> attached later source/tool/receipt/theorem
+-> revised representation
+-> invariant boundary and remaining residue
+\end{verbatim}
+
+This preserves the sequential story while allowing later tools, crystals, and
+standard formalisms to return through the proper lane.
+
+\subsection*{Claim Delta Ledger}
+
+This ledger applies the paper's claim-binding queues as explicit back-application
+deltas. It keeps the sequential paper story intact while allowing later
+receipts, standard formalisms, CAM/crystal routes, and validators to sharpen the
+claim.
+
+\noindent\texttt{| Delta | Local claim at paper time | Later evidence | Revised representation | Boundary kept |}\\
+\noindent\texttt{|---|---|---|---|---|}\\
+\noindent\texttt{| Finite Ca Bounded Search | This paper may describe finite CA, search, game, or local-rule behavior within the bounded surface it actually enumerates. | Verifier state-space count, transition law, exhaustive/bounded rec}\\
+\noindent\texttt{| Formal Methods Receipt Closure | This paper may treat receipts, claim lanes, dependency graphs, and replay contracts as formal objects, not mere editorial apparatus. | NSIT standards, claim envelopes, content-addressed}\\
+\noindent\texttt{| Negative Receipts As Guards | This paper may preserve failed routes and rejected candidates as meaningful boundary data. | Negative receipts, failed verifier rows, rejected-as-datum outputs, and obligation ledgers. | U}\\
+
+The revised representation records the strongest claim supported by the current evidence package. Promotion into theorem or proposition language occurs only when the named evidence is attached in the manifest or workbook replay.
+
+\subsection*{Source-Backed Evidence Summary}
+
+Routed archive and mirror cards are treated as provenance summaries rather than
+body text. They identify candidate receipts, validators, theorem registries, or
+supplemental source routes. A card strengthens this paper only when its
+contribution is bound to a claim lane, evidence object, and boundary.
+
+\noindent\texttt{| Evidence card | Score | Publication contribution | Boundary |}\\
+\noindent\texttt{|---|---:|---|---|}\\
+\noindent\texttt{| SUMMARY-IX-Open-Obligations: Summary Paper IX — The Open Obligations: The 2×2 Failure Points and the Empirical Platform Diagnostic System | 79 | This paper is the **complete open obligations manifest** of the CQE\_CMPLX}\\
+\noindent\texttt{| COMPLETE\_RECURSIVE\_CLOSURE\_MAP: CQECMPLX — COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS | 75 | **The CQECMPLX suite has zero genuine open obligations.** Every "open" item is a boundary error that locally re-i}\\
+\noindent\texttt{| FORMAL\_UNIFICATION\_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER | 71 | **Status:** Affirmative / Charter / Authoritative **Version:** 1.0 **Date:** 2026-06-17 **Classification:** Meta-Framework / Compositional Closure }\\
+\noindent\texttt{| A5\_TOOLKIT\_GUIDE: Appendix A5: Toolkit Application Guide | 71 | **Version:** 1.0 **Date:** 2026-06-15 **Classification:** Appendix / Guide / User Manual ```bash git clone http`local evidence artifact`| Source-backed su}\\
+\noindent\texttt{| CLAIM\_CROSSWALK: CLAIM\_CROSSWALK | 71 | claim\_id,legacy\_claim,status,validator,data,falsifier,boundary,export\_status Kp2.02.23-CKM-001,013-CKM-Calibration,computed,ckm\_calibration\_receipt.json,Exact SU(3) closure at sc}\\
+\noindent\texttt{| Additional evidence cards | 54 total | The complete card inventory is maintained in the archive evidence matrix. | Cards are source-discovery aids until bound to paper-local evidence. |}\\
+
+\subsection*{Journal Apparatus}
+
+\subsubsection*{Article Type And Intended Venue Fit}
+
+This manuscript is written as a formal-methods and mathematical-systems paper
+inside the series *Formalizing LCR, Unifying Standard Models*. Its intended
+reader is a technical reviewer who needs claim boundaries, reproducibility
+routes, and cross-paper dependencies to be visible without relying on private
+context.
+
+\subsubsection*{Structured Contribution Statement}
+
+\noindent\texttt{| Item | Statement |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| Publication ID | `FLCR-30` |}\\
+\noindent\texttt{| Legacy source slot(s) | `32` |}\\
+\noindent\texttt{| Ribbon role | order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface |}\\
+\noindent\texttt{| Proof form | residual accounting and bounded/unbounded split |}\\
+\noindent\texttt{| Received state | state emitted by prior slot 31 and reopened at original slot 32 (The Supervisor Cursor) |}\\
+\noindent\texttt{| Produced state | formal result of original slot 32 plus the same-family lift path toward slot 42 |}\\
+
+\subsubsection*{Claim-Evidence Table}
+
+\noindent\texttt{| Claim | Lane | Evidence to attach | Boundary |}\\
+\noindent\texttt{|---|---|---|---|}\\
+\noindent\texttt{| Theorem 30.1 | `normal\_form\_result` | Receipt, source card, validator, citation, or CAM route named in the paper manifest | a scheduler can traverse paper windows and reserve universal normal-form slots without finaliz}\\
+\noindent\texttt{| Proposition 30.2 | `normal\_form\_result` | Receipt, source card, validator, citation, or CAM route named in the paper manifest | supervisor cursor can be imported by later papers only through its declared source, receip}\\
+\noindent\texttt{| Protocol 30.3 | `falsifier\_or\_open\_obligation` | Receipt, source card, validator, citation, or CAM route named in the paper manifest | the incoming universal normal form remains required evidence before final unificati}\\
+
+\subsubsection*{Figure Plan}
+
+\noindent\texttt{| Figure | Purpose | Caption |}\\
+\noindent\texttt{|---|---|---|}\\
+\noindent\texttt{| FLCR-30-F1 | Residual split diagram | Schematic showing how `FLCR-30` turns its received state into the produced state while preserving claim lanes and residue boundaries. |}\\
+\noindent\texttt{| FLCR-30-F2 | Evidence routing map | Diagram of source papers, archive cards, CAM/crystal routes, validators, and workbook replay paths used by this manuscript. |}\\
+\noindent\texttt{| FLCR-30-F3 | Same-family lift context | Diagram placing this paper in the original `00-79` ribbon family and showing predecessor/successor slots. |}\\
+
+\subsubsection*{In-Text Figure FLCR-30-F1: Residual split diagram}
+
+\begin{verbatim}
+received state
+  -> Residual split diagram
+  -> formal claim lane
+  -> evidence object / receipt / citation
+  -> produced state
+  -> remaining residue
+\end{verbatim}
+
+\subsubsection*{Table Plan}
+
+\noindent\texttt{| Table | Purpose |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| FLCR-30-T1 | Residual accounting table |}\\
+\noindent\texttt{| FLCR-30-T2 | Claim-lane/evidence-boundary table |}\\
+\noindent\texttt{| FLCR-30-T3 | Archive evidence card and source-backed upgrade table |}\\
+\noindent\texttt{| FLCR-30-T4 | Workbook replay and falsifier table |}\\
+
+\subsubsection*{Worked Example}
+
+Split one claim into closed core, residue, bounded domain, and unbounded burden. The example must name the input object, the operation,
+the evidence object, the allowed revised claim, and the remaining boundary.
+
+\subsubsection*{Nomenclature And Glossary}
+
+\noindent\texttt{| Term | Paper-local meaning |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| CAM | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| bounded domain | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| claim lane | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| correction surface | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| crystal | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| receipt | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| residue | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+\noindent\texttt{| unbounded burden | Defined by this paper as part of the `residual\_action` proof role; final definition is recorded in the paper-local glossary. |}\\
+
+\subsubsection*{Appendix FLCR-30-A: Evidence Package}
+
+The appendix records:
+
+1. Legacy source excerpts or source-card references used in the final claim ledger.
+2. Receipt and verifier paths, including pass/fail/partial status.
+3. CAM/crystal query or projection rows used by the paper, with source identity and boundary.
+4. Standards-window and NSIT evidence used for conformance or routing.
+5. Falsifier, calibration, or external-data rows that remain unresolved.
+
+\subsubsection*{Data And Code Availability}
+
+The publication package contains the canonical Markdown sources, manifests, source-routing matrices, validation reports, and generated PDF/TeX outputs.
+
+Code and verifier references are cited through manifests, archive evidence cards, receipt catalogs, or workbook replay tables. External datasets or
+standards citations must be attached before any calibration-bound claim is
+promoted.
+
+\subsubsection*{Reviewer Checklist}
+
+\noindent\texttt{| Check | Reviewer question |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| Claim lane | Does every strong claim declare its lane and evidence type? |}\\
+\noindent\texttt{| Boundary | Does the paper preserve what it does not prove? |}\\
+\noindent\texttt{| Reproducibility | Is there a receipt, verifier, source card, citation, or replay table for the claim? |}\\
+\noindent\texttt{| Cross-paper import | Does the paper cite the prior FLCR/OPR slot before consuming its result? |}\\
+\noindent\texttt{| Interpretation | Does the analog layer preserve the addressed state while changing labels/access paths? |}\\
+
+\subsubsection*{Declarations}
+
+No human-subjects, clinical, or animal-research protocol is asserted by this
+paper. External empirical claims require separate dataset, calibration, or
+domain-validation attachments. Competing-interest and funding statements are recorded in the submission metadata.
+
+\subsection*{11. Publication Integration Addendum}
+
+\subsubsection*{11.1 Role In The Series}
+
+`FLCR-30` (`Supervisor Cursor And Universal Normal-Form Intake`) occupies the `residual\_action` role at lift depth `3`.
+The paper receives state emitted by prior slot 31 and reopened at original slot 32 (The Supervisor Cursor). It produces formal result of original slot 32 plus the same-family lift path toward slot 42. The state transition is:
+measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration.
+
+The paper-local proof form is:
+
+\begin{verbatim}
+residual accounting and bounded/unbounded split
+\end{verbatim}
+
+The integration result is a bounded residual object separated from its downstream repair obligations. This addendum records how that result is
+consumed by the publication series without relying on editorial instructions or
+private working context.
+
+\subsubsection*{11.2 Formal Carrier}
+
+\noindent\texttt{| Formal carrier | Function |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| residue classes and quotient accounting | Formal carrier for the paper-local result. |}\\
+\noindent\texttt{| error-correction or syndrome notation | Formal carrier for the paper-local result. |}\\
+\noindent\texttt{| truth tables and exhaustive finite checks | Formal carrier for the paper-local result. |}\\
+\noindent\texttt{| bounded versus unbounded domain separation | Formal carrier for the paper-local result. |}\\
+
+The LCR, CAM, crystal, forge, and analog vocabulary functions as a typed access
+layer over these carriers. A relabeling is admissible only when the addressed
+object, evidence lane, boundary, and downstream import rule remain attached.
+
+\subsubsection*{11.3 Claim Ledger}
+
+\noindent\texttt{| Claim | Lane | Statement |}\\
+\noindent\texttt{|---|---|---|}\\
+\noindent\texttt{| Theorem 30.1 | `normal\_form\_result` | a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely |}\\
+\noindent\texttt{| Proposition 30.2 | `normal\_form\_result` | supervisor cursor can be imported by later papers only through its declared source, receipt, and lane. |}\\
+\noindent\texttt{| Protocol 30.3 | `falsifier\_or\_open\_obligation` | the incoming universal normal form remains required evidence before final unification closure |}\\
+
+These claims are consumed at their stated lane. A stronger downstream statement
+creates a new claim envelope with its own evidence object.
+
+\subsubsection*{11.4 Evidence Package}
+
+\noindent\texttt{| Evidence class | Routed items | Status |}\\
+\noindent\texttt{|---|---|---|}\\
+\noindent\texttt{| Legacy sources | `32\_The\_Supervisor\_Cursor.md`, `virtuous/32\_The\_Supervisor\_Cursor\_VIRTUOUS.md`, `supplements/32\_INTERNAL\_REASONING\_SUPPLEMENT.md` | routed evidence |}\\
+\noindent\texttt{| Evidence inputs | `CAM\_CLAIM\_100\_SCORE\_AUDIT.md`, `NSIT\_TOOL\_CLOSURE\_MATRIX.md`, `NSIT\_REASONED\_CLOSURE\_PASS.md`, `PAPER\_REWORKS\_CRYSTAL\_PROJECTION.json` | routed evidence |}\\
+\noindent\texttt{| CAM/crystal sources | `PAPER\_REWORKS\_CRYSTAL\_PROJECTION.json`, `AGENT\_CRYSTAL\_WORK\_HARVEST.json`, `runtime standards artifact`, `notebook-derived source bundle` | routed evidence |}\\
+\noindent\texttt{| Standards-window inputs | `window\_summary.json`, `node DBs`, `window DBs` | routed evidence |}\\
+\noindent\texttt{| Receipts | external requirement | not attached in this source package |}\\
+\noindent\texttt{| Validators | external requirement | not attached in this source package |}\\
+
+Standards-window, runtime, and notebook-derived artifacts are treated
+as evidence-routing surfaces. They support source discovery, conformance
+checking, and reapplication, but they do not replace citations, receipts,
+normal-form derivations, calibration rows, or falsifiers.
+
+\subsubsection*{11.5 Results Representation}
+
+The paper's results section is organized around five publication objects:
+
+1. the exact object acted on at this slot;
+2. the admissible operation or transformation;
+3. the receipt, enumeration, derivation, lookup, or external theorem supporting
+   the operation;
+4. the residue or boundary left after the result;
+5. the downstream import rule.
+
+\subsubsection*{11.6 Figures And Tables}
+
+\noindent\texttt{| Figure | Role |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| FLCR-30-F1: Residual split diagram | Visualizes the proof object, routing, or boundary. |}\\
+\noindent\texttt{| FLCR-30-F2: Evidence routing map | Visualizes the proof object, routing, or boundary. |}\\
+\noindent\texttt{| FLCR-30-F3: Same-family lift context | Visualizes the proof object, routing, or boundary. |}\\
+
+\noindent\texttt{| Table | Role |}\\
+\noindent\texttt{|---|---|}\\
+\noindent\texttt{| FLCR-30-T1: Residual accounting table | Records claim lanes, evidence, sources, or falsifiers. |}\\
+\noindent\texttt{| FLCR-30-T2: Claim-lane/evidence-boundary table | Records claim lanes, evidence, sources, or falsifiers. |}\\
+\noindent\texttt{| FLCR-30-T3: Archive evidence card and source-backed upgrade table | Records claim lanes, evidence, sources, or falsifiers. |}\\
+\noindent\texttt{| FLCR-30-T4: Workbook replay and falsifier table | Records claim lanes, evidence, sources, or falsifiers. |}\\
+
+\subsubsection*{11.7 Limits And Falsifiers}
+
+The paper proves only the object and domain declared in its claim ledger.
+Physical, Standard Model, observer, calibration, or synthesis claims require
+the additional lane evidence stated by their destination papers. CAM/crystal
+and forge language is operational only when represented as an address, lookup,
+receipt, validator, or reapplication path.
+\end{document}

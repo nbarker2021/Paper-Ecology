@@ -1,0 +1,119 @@
+{
+  "generated": "2026-07-03T10:30:34.177920",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 12,
+  "papers": {
+    "87": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_87.md",
+          "filename": "paper_87.md",
+          "size": 13154,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_87__hodge_conjecture\\paper_87.md",
+          "filename": "paper_87.md",
+          "size": 13154,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-087.md",
+          "filename": "CQE-PAPER-087.md",
+          "size": 7246,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-087.md",
+          "filename": "CQE-PAPER-087.md",
+          "size": 7246,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_87.md"
+    },
+    "88": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_88.md",
+          "filename": "paper_88.md",
+          "size": 14372,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_88__p_vs_np\\paper_88.md",
+          "filename": "paper_88.md",
+          "size": 14372,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-088.md",
+          "filename": "CQE-PAPER-088.md",
+          "size": 6407,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-088.md",
+          "filename": "CQE-PAPER-088.md",
+          "size": 6407,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_88.md"
+    },
+    "89": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_89.md",
+          "filename": "paper_89.md",
+          "size": 15578,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_89__bsd_conjecture\\paper_89.md",
+          "filename": "paper_89.md",
+          "size": 15578,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-089.md",
+          "filename": "CQE-PAPER-089.md",
+          "size": 7773,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-089.md",
+          "filename": "CQE-PAPER-089.md",
+          "size": 7773,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_89.md"
+    }
+  }
+}

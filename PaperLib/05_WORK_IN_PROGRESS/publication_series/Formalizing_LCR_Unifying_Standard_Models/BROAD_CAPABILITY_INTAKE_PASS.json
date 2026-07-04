@@ -1,0 +1,348 @@
+{
+  "schema": "flcr_broad_capability_intake.v1",
+  "generated_at": "2026-06-29T16:17:33.201845+00:00",
+  "rule": "Find useful work by effect, including non-obvious or differently named systems, and route it into the FLCR papers as capability evidence.",
+  "families": [
+    {
+      "id": "CAP-GLM-CAM-CRYSTAL",
+      "name": "GLM CAM crystal and projection scanner",
+      "lane": "CAM_crystal_reapplication_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\_downloads_review\\CAM_BUILD_SUMMARY.md",
+        "D:\\CQE_CMPLX\\_downloads_review\\content_addressed_nodes.json",
+        "D:\\CQE_CMPLX\\_downloads_review\\cqe_cam_crystal.db",
+        "D:\\CQE_CMPLX\\_downloads_review\\cam_projection_report.json",
+        "D:\\CQE_CMPLX\\_downloads_review\\bind\\cqe_cam_engine.py"
+      ],
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "paper_effect": "Promotes CAM from abstract memory to a working evidence crystal: papers, obligations, GLM findings, download documents, and a new integration crystal are content-addressed, ribbon-routed, scanned by segmented strings, and projected back into paper-creation feeds.",
+      "boundary": "This closes local CAM addressability and routing for the harvested corpus; it does not prove that every future paper source has been exhaustively ingested.",
+      "source_stats": {
+        "listed": 5,
+        "existing": 5,
+        "missing": 0,
+        "bytes": 17972656
+      },
+      "evidence_facts": [
+        "83 content-addressed nodes",
+        "33 formal_paper nodes",
+        "29 open_obligation nodes",
+        "12 glm_finding nodes",
+        "8 download_document nodes",
+        "1 new_crystal nodes",
+        "integration scan: 18 unique nodes from 33 hits",
+        "new crystal top ribbon: LEECH_TERMINAL",
+        "CAM summary reports 172 morphisms, 8 populated ribbons, and 10059 string-segment windows"
+      ]
+    },
+    {
+      "id": "CAP-GLM-OBLIGATION-CLOSURE",
+      "name": "GLM obligation closure comparison",
+      "lane": "normal_form_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\_downloads_review\\GLM_OBLIGATION_CLOSURE_MATRIX.md",
+        "D:\\CQE_CMPLX\\_downloads_review\\glm_obligation_closure_matrix.json"
+      ],
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-13",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds a closure matrix that compares independent GLM verifier findings against open obligations and records bounded promotions instead of leaving the papers in their earlier unresolved posture.",
+      "boundary": "Promotions are lane-bound and partial where the matrix says partial; external physical bridges remain separate calibration obligations.",
+      "source_stats": {
+        "listed": 2,
+        "existing": 2,
+        "missing": 0,
+        "bytes": 16196
+      },
+      "evidence_facts": [
+        "12 findings considered against 29 obligations",
+        "11 obligations advanced to partial; 17 untouched",
+        "closed-bounded findings include GLM-F1-SM01, GLM-F2-SP002, GLM-F4-RULE30P3, GLM-F6-YM-EXT02, GLM-F7-SM04, GLM-F8-HODGE-EXT01"
+      ]
+    },
+    {
+      "id": "CAP-RULE30-ADDRESS-HORIZON",
+      "name": "Rule-30 finite and billion-bit address horizon",
+      "lane": "receipt_bound_internal_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\_downloads_review\\RULE30_ADDRESS_STATUS.md",
+        "D:\\CQE_CMPLX\\_downloads_review\\rule30_center_1m.bin",
+        "D:\\CQE_CMPLX\\_downloads_review\\rule30_center_1m_manifest.json",
+        "D:\\CQE_CMPLX\\_downloads_review\\rule30_center_1g_resource_manifest.json",
+        "D:\\CQE_CMPLX\\_downloads_review\\billion_bit_address_manifest.json"
+      ],
+      "target_papers": [
+        "FLCR-10",
+        "FLCR-13",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds a concrete address-horizon layer for cellular-automaton evidence: a local one-megabit Rule-30 center-column reference, a named one-gigabit external resource, and a billion-bit address-space package.",
+      "boundary": "Finite address evidence strengthens prediction and addressability claims; it does not by itself prove infinite non-periodicity or physical identity.",
+      "source_stats": {
+        "listed": 5,
+        "existing": 5,
+        "missing": 0,
+        "bytes": 149377
+      },
+      "evidence_facts": [
+        "Rule-30 local reference: 1000000 bits, 125000 bytes, sha256 4bf71a265b7a3b9847703f274c736c552825a859fd2251d8bfad75b1fe05b3e9",
+        "billion-bit address package: 1000000000 bits, 120 chunks, 339 process hashes"
+      ]
+    },
+    {
+      "id": "CAP-PROCESS-CENTROID-AUDIT",
+      "name": "Centroid wrap and oloid process audit",
+      "lane": "falsifier_or_open_obligation",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\_downloads_review\\PROCESS_AUDIT_SHEET.md",
+        "D:\\CQE_CMPLX\\_downloads_review\\process_audit_sheet.json"
+      ],
+      "target_papers": [
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds negative operational evidence for the process layer: many tools iterate, but very few explicitly wrap their result back through a centroid/CAM return loop. That becomes a design requirement for future agent and forge automation.",
+      "boundary": "This is not a failure of the mathematics; it is a process hardening obligation that prevents silent one-way pipelines from being mistaken for closed CAM action.",
+      "source_stats": {
+        "listed": 2,
+        "existing": 2,
+        "missing": 0,
+        "bytes": 4162890
+      },
+      "evidence_facts": [
+        "339 processes audited; 8 with centroid/CAM wrap-back",
+        "251 iterative processes; 331 missing wrap-back (97.64 percent)"
+      ]
+    },
+    {
+      "id": "CAP-GAUSSHAUS-KERNEL-RING",
+      "name": "GaussHaus kernel ring governance",
+      "lane": "normal_form_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\GaussHaus\\KERNEL-RING.md"
+      ],
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds an explicit admission/governance ring: the kernel owns ledger, hashes, receipts, obligations, and import/export gates, while the ring decides which forge may act, on what inputs, under which evidence commitments.",
+      "boundary": "This closes policy topology for forge action; domain truth still belongs to the admitted forge, validator, simulation, or test bridge.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 6238
+      },
+      "evidence_facts": [
+        "kernel responsibilities: identity, timeline, source hashing, micro-crystals, receipt chains, obligations, branch/session state, import/export gates",
+        "ring responsibilities: admission, input gating, output gating, validator routing, obligation propagation"
+      ]
+    },
+    {
+      "id": "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+      "name": "GaussHaus typed forge topology",
+      "lane": "CAM_crystal_reapplication_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\GaussHaus\\FORGE-TOPOLOGY.md"
+      ],
+      "target_papers": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-24",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds a typed forge family model: MetaForge proposes candidates, LatticeForge resolves local architecture, CADForge creates inspectable fabrication geometry, the Process Bridge gates manufacturing claims, SplatForge reads the state, and simulation/test bridges compare prediction to observation.",
+      "boundary": "This closes expression architecture for applied materials and forge papers; each physical realization still requires machine, process, simulation, and metrology receipts.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 6338
+      },
+      "evidence_facts": [
+        "forge surfaces: MetaForge, LatticeForge, CADForge, Process Bridge, SplatForge/GaussHaus Field, simulation/test bridges",
+        "typed L/C/R surface: data in/out, control plane, outward receipt surface"
+      ]
+    },
+    {
+      "id": "CAP-PROOFVALIDATED-PAPER-ASSEMBLY",
+      "name": "ProofValidated paper assembly protocol",
+      "lane": "receipt_bound_internal_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\CQECMPLX-ProofValidatedSuite\\PAPER_ASSEMBLY_PLAN.md"
+      ],
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-20",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds an older but still useful production contract for papers as executable triads: formal block, tool binding, runnable verifier, workbook analogue, and engine export. This strengthens the current formal/companion/workbook triad as an inspectable proof unit.",
+      "boundary": "The plan is a protocol source, not current proof of every paper. It becomes binding only where the current FLCR files and rebuild receipts satisfy it.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 12403
+      },
+      "evidence_facts": [
+        "paper unit requires formal block, tool binding, runnable smoke verifier, workbook analogue, and exported verifier stub",
+        "queue covers papers 06-31 with verifier names and replay protocol"
+      ]
+    }
+  ],
+  "paper_targets": {
+    "FLCR-01": [
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-06": [
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-07": [
+      "CAP-GLM-CAM-CRYSTAL",
+      "CAP-GLM-OBLIGATION-CLOSURE",
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-09": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-10": [
+      "CAP-GLM-OBLIGATION-CLOSURE",
+      "CAP-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-11": [
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-12": [
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-13": [
+      "CAP-GLM-OBLIGATION-CLOSURE",
+      "CAP-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-16": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-18": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-20": [
+      "CAP-GLM-CAM-CRYSTAL",
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-21": [
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-22": [
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-23": [
+      "CAP-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-24": [
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-26": [
+      "CAP-PROCESS-CENTROID-AUDIT"
+    ],
+    "FLCR-27": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-28": [
+      "CAP-GLM-CAM-CRYSTAL",
+      "CAP-RULE30-ADDRESS-HORIZON",
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-29": [
+      "CAP-GLM-CAM-CRYSTAL"
+    ],
+    "FLCR-30": [
+      "CAP-GLM-CAM-CRYSTAL"
+    ],
+    "FLCR-31": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-32": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-33": [
+      "CAP-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-36": [
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-38": [
+      "CAP-RULE30-ADDRESS-HORIZON",
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-GAUSSHAUS-KERNEL-RING"
+    ],
+    "FLCR-39": [
+      "CAP-GLM-CAM-CRYSTAL",
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-40": [
+      "CAP-GLM-CAM-CRYSTAL",
+      "CAP-GLM-OBLIGATION-CLOSURE",
+      "CAP-RULE30-ADDRESS-HORIZON",
+      "CAP-PROCESS-CENTROID-AUDIT",
+      "CAP-GAUSSHAUS-KERNEL-RING",
+      "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+      "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ]
+  },
+  "papers_updated": 27
+}

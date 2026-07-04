@@ -1,0 +1,22 @@
+# Formal Contract - OPR-19
+
+## Formal Carrier
+
+This slot uses `window_action` at lift depth `1` to produce the following proof
+form:
+
+```text
+window count, source preservation, and meta-ribbon proof
+```
+
+The accepted carrier is the combination of source-backed definitions,
+same-family lift relations, claim-lane envelopes, receipts or validators, and
+explicit residue routing.
+
+## Dimensional Role
+
+order-2 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands
+
+## Source Status
+
+Source file: `19_Observer_Face_Selection.md`

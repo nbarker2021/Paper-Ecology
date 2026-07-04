@@ -1,0 +1,223 @@
+﻿{
+    "schema":  "flcr_standard_model_defining_papers.v2",
+    "series":  "Formalizing LCR, Unifying Standard Models",
+    "layer":  "standard_model_defining_papers",
+    "paper_count":  12,
+    "bridge_paper":  "SMB-01",
+    "total_with_bridge":  13,
+    "purpose":  "Define external Standard Model objects and bridge them to FLCR closure-by-lane.",
+    "papers":  [
+                   {
+                       "publication_id":  "SMD-01",
+                       "title":  "Standard Model Definition Contract And Evidence Boundary",
+                       "object":  "definition contract",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-39",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-CODATA-2022",
+                                           "IRL-NIST-ALPHA-2022",
+                                           "IRL-CODATA-2022-WALLET"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-02",
+                       "title":  "Gauge Principle, Connections, And Local Symmetry",
+                       "object":  "gauge principle",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-35",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-03",
+                       "title":  "Gauge Group SU3 SU2 U1 And Representation Content",
+                       "object":  "gauge representation table",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-32",
+                                         "FLCR-33",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-04",
+                       "title":  "Fermion Fields, Generations, Flavor, And Mixing",
+                       "object":  "fermion flavor sector",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-32",
+                                         "FLCR-33",
+                                         "FLCR-38",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-05",
+                       "title":  "QCD Color Dynamics And Hadronic Boundary",
+                       "object":  "QCD color sector",
+                       "routes_to":  [
+                                         "FLCR-32",
+                                         "FLCR-37",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-06",
+                       "title":  "Electroweak Interaction And Symmetry Breaking",
+                       "object":  "electroweak sector",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-33",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-ATLAS-HIGGS-2012",
+                                           "IRL-CMS-HIGGS-2012"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-07",
+                       "title":  "Higgs Sector, Vacuum Structure, And Mass Terms",
+                       "object":  "Higgs and mass sector",
+                       "routes_to":  [
+                                         "FLCR-33",
+                                         "FLCR-34",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-ATLAS-HIGGS-2012",
+                                           "IRL-CMS-HIGGS-2012"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-08",
+                       "title":  "Renormalization, Effective Field Theory, And Running Parameters",
+                       "object":  "scale and renormalization sector",
+                       "routes_to":  [
+                                         "FLCR-31",
+                                         "FLCR-32",
+                                         "FLCR-33",
+                                         "FLCR-37",
+                                         "FLCR-39",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-CODATA-2022",
+                                           "IRL-NIST-ALPHA-2022",
+                                           "IRL-CODATA-2022-WALLET"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-09",
+                       "title":  "Neutrino Sector, Oscillation Evidence, And Beyond-Minimal Residues",
+                       "object":  "neutrino and open-residue sector",
+                       "routes_to":  [
+                                         "FLCR-33",
+                                         "FLCR-38",
+                                         "FLCR-39",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-NOBEL-NEUTRINO-2015"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-10",
+                       "title":  "Electron Hole Exciton And Condensed Matter Correspondence",
+                       "object":  "electron-hole-exciton standard model",
+                       "routes_to":  [
+                                         "FLCR-34",
+                                         "FLCR-36",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-EXCITON-SPRINGER",
+                                           "IRL-EXCITON-2D-REVIEW",
+                                           "IRL-NIST-CONSTANTS",
+                                           "IRL-NIST-CARRIER-DYNAMICS",
+                                           "IRL-NIST-PV-EXCITON"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-11",
+                       "title":  "GR Continuum Interface And Units-Bearing Calibration",
+                       "object":  "continuum and gravitational interface",
+                       "routes_to":  [
+                                         "FLCR-35",
+                                         "FLCR-37",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-CODATA-2022",
+                                           "IRL-NIST-CONSTANTS",
+                                           "IRL-LRR-GR-HYPERBOLIC",
+                                           "IRL-PPPL-PLASMA-MAGNETIC",
+                                           "IRL-PPPL-PLASMA-DIAGNOSTICS-2026",
+                                           "IRL-CODATA-2022-WALLET"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   },
+                   {
+                       "publication_id":  "SMD-12",
+                       "title":  "Standard Model Comparator And Falsifier Protocol",
+                       "object":  "SM comparator protocol",
+                       "routes_to":  [
+                                         "FLCR-39",
+                                         "FLCR-40"
+                                     ],
+                       "irl_sources":  [
+                                           "IRL-PDG-2026",
+                                           "IRL-PDG-2024",
+                                           "IRL-CODATA-2022",
+                                           "IRL-NIST-CONSTANTS",
+                                           "IRL-NIST-ALPHA-2022",
+                                           "IRL-LRR-GR-HYPERBOLIC",
+                                           "IRL-PPPL-PLASMA-MAGNETIC",
+                                           "IRL-PPPL-PLASMA-DIAGNOSTICS-2026"
+                                       ],
+                       "status":  "expanded_defining_draft"
+                   }
+               ]
+}

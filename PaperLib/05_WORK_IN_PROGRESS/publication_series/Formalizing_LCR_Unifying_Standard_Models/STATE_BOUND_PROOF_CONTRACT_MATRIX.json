@@ -1,0 +1,750 @@
+{
+  "schema": "flcr_state_bound_proof_contracts.v1",
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "received_state": "state emitted by prior slot 00 and reopened at original slot 00 (Established Grounding and Axiom Contract)",
+      "produced_state": "formal result of original slot 00 plus the same-family lift path toward slot 10",
+      "semantic_transition": "bind the preceding window into a replayable state and expose the next lift without erasing residue",
+      "accepted_formalism_targets": [
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants"
+      ],
+      "analog_invariance_test": "a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports"
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "legacy_papers": [
+        "01"
+      ],
+      "received_state": "state emitted by prior slot 00 and reopened at original slot 01 (LCR Chain Carrier)",
+      "produced_state": "formal result of original slot 01 plus the same-family lift path toward slot 11",
+      "semantic_transition": "select the active center and enumerate the addressable state space at the current lift",
+      "accepted_formalism_targets": [
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments"
+      ],
+      "analog_invariance_test": "a coordinate chart: renaming the axes does not change which state is addressed"
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "legacy_papers": [
+        "02"
+      ],
+      "received_state": "state emitted by prior slot 01 and reopened at original slot 02 (Correction Surface)",
+      "produced_state": "formal result of original slot 02 plus the same-family lift path toward slot 12",
+      "semantic_transition": "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "legacy_papers": [
+        "03"
+      ],
+      "received_state": "state emitted by prior slot 02 and reopened at original slot 03 (D4 J3 Triality Surface)",
+      "produced_state": "formal result of original slot 03 plus the same-family lift path toward slot 13",
+      "semantic_transition": "fold the local state into a higher representation while preserving addressability",
+      "accepted_formalism_targets": [
+        "representation theory",
+        "group actions and equivariance",
+        "tensor or coordinate atlases",
+        "transport maps between equivalent descriptions"
+      ],
+      "analog_invariance_test": "a folded map: the visible geometry changes while the indexed locations remain traceable"
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "legacy_papers": [
+        "04"
+      ],
+      "received_state": "state emitted by prior slot 03 and reopened at original slot 04 (Boundary Repair)",
+      "produced_state": "formal result of original slot 04 plus the same-family lift path toward slot 14",
+      "semantic_transition": "type the boundary condition that decides whether the state repairs, reflects, curves, or routes onward",
+      "accepted_formalism_targets": [
+        "boundary value problems",
+        "typed interfaces and admissibility conditions",
+        "topological boundary/interior distinction",
+        "falsifier rows for failed promotions"
+      ],
+      "analog_invariance_test": "a membrane or interface: crossing rules change access, not the identity of the carried state"
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "legacy_papers": [
+        "05"
+      ],
+      "received_state": "state emitted by prior slot 04 and reopened at original slot 05 (Oloid Path Carrier)",
+      "produced_state": "formal result of original slot 05 plus the same-family lift path toward slot 15",
+      "semantic_transition": "carry the state through an admissible path, traversal, transport, or transducer",
+      "accepted_formalism_targets": [
+        "path composition",
+        "automata and transducers",
+        "transport maps",
+        "invariant preservation along morphisms"
+      ],
+      "analog_invariance_test": "a courier route: the package label can change at checkpoints while the payload remains auditable"
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "received_state": "state emitted by prior slot 05 and reopened at original slot 06 (Causal Link and Obligation Ledger)",
+      "produced_state": "formal result of original slot 06 plus the same-family lift path toward slot 16",
+      "semantic_transition": "bind state changes into causal, observer, synchronization, or obligation ledgers",
+      "accepted_formalism_targets": [
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants"
+      ],
+      "analog_invariance_test": "an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed"
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "legacy_papers": [
+        "07"
+      ],
+      "received_state": "state emitted by prior slot 06 and reopened at original slot 07 (Discrete Continuous Bridge)",
+      "produced_state": "formal result of original slot 07 plus the same-family lift path toward slot 17",
+      "semantic_transition": "project the state between discrete, continuous, lattice, or physical-facing forms",
+      "accepted_formalism_targets": [
+        "projection maps",
+        "discretization and sampling theory",
+        "interpolation/continuum limits",
+        "calibration boundary statements"
+      ],
+      "analog_invariance_test": "a translation table: changing language is allowed only when the source and target entries remain paired"
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "received_state": "state emitted by prior slot 07 and reopened at original slot 08 (Lattice Closure)",
+      "produced_state": "formal result of original slot 08 plus the same-family lift path toward slot 18",
+      "semantic_transition": "land the state in a terminal lattice, game, runtime, or address surface",
+      "accepted_formalism_targets": [
+        "lattice theory",
+        "finite-state systems",
+        "terminal object/addressing templates",
+        "lookup-table construction and invariant checks"
+      ],
+      "analog_invariance_test": "a warehouse address: the storage scheme changes how the object is found, not which object is stored"
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "legacy_papers": [
+        "09"
+      ],
+      "received_state": "state emitted by prior slot 08 and reopened at original slot 09 (Hamiltonian Window Emergence)",
+      "produced_state": "formal result of original slot 09 plus the same-family lift path toward slot 19",
+      "semantic_transition": "read the ribbon through temporal, observer, Hamiltonian, meta, or synthesis windows",
+      "accepted_formalism_targets": [
+        "windowed dynamical systems",
+        "operator/readout notation",
+        "Hamiltonian or energy-style accounting when explicitly bounded",
+        "multi-scale dependency summaries"
+      ],
+      "analog_invariance_test": "a moving aperture: the window changes what is visible, not the underlying recorded sequence"
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "received_state": "state emitted by prior slot 09 and reopened at original slot 10 (T10 Master Receipt)",
+      "produced_state": "formal result of original slot 10 plus the same-family lift path toward slot 20",
+      "semantic_transition": "bind the preceding window into a replayable state and expose the next lift without erasing residue",
+      "accepted_formalism_targets": [
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants"
+      ],
+      "analog_invariance_test": "a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports"
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "legacy_papers": [
+        "11"
+      ],
+      "received_state": "state emitted by prior slot 10 and reopened at original slot 11 (Theory Admission Gate)",
+      "produced_state": "formal result of original slot 11 plus the same-family lift path toward slot 21",
+      "semantic_transition": "select the active center and enumerate the addressable state space at the current lift",
+      "accepted_formalism_targets": [
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments"
+      ],
+      "analog_invariance_test": "a coordinate chart: renaming the axes does not change which state is addressed"
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "received_state": "state emitted by prior slot 11 and reopened at original slot 12 (CA Prediction Surface)",
+      "produced_state": "formal result of original slot 12 plus the same-family lift path toward slot 22",
+      "semantic_transition": "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "legacy_papers": [
+        "13"
+      ],
+      "received_state": "state emitted by prior slot 12 and reopened at original slot 13 (Standard Model Quark Face Transport)",
+      "produced_state": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "semantic_transition": "fold the local state into a higher representation while preserving addressability",
+      "accepted_formalism_targets": [
+        "representation theory",
+        "group actions and equivariance",
+        "tensor or coordinate atlases",
+        "transport maps between equivalent descriptions"
+      ],
+      "analog_invariance_test": "a folded map: the visible geometry changes while the indexed locations remain traceable"
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "legacy_papers": [
+        "14"
+      ],
+      "received_state": "state emitted by prior slot 13 and reopened at original slot 14 (GR Boundary Repair Curvature)",
+      "produced_state": "formal result of original slot 14 plus the same-family lift path toward slot 24",
+      "semantic_transition": "type the boundary condition that decides whether the state repairs, reflects, curves, or routes onward",
+      "accepted_formalism_targets": [
+        "boundary value problems",
+        "typed interfaces and admissibility conditions",
+        "topological boundary/interior distinction",
+        "falsifier rows for failed promotions"
+      ],
+      "analog_invariance_test": "a membrane or interface: crossing rules change access, not the identity of the carried state"
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "legacy_papers": [
+        "15"
+      ],
+      "received_state": "state emitted by prior slot 14 and reopened at original slot 15 (QFT Higgs Mass Residue Carrier)",
+      "produced_state": "formal result of original slot 15 plus the same-family lift path toward slot 25",
+      "semantic_transition": "carry the state through an admissible path, traversal, transport, or transducer",
+      "accepted_formalism_targets": [
+        "path composition",
+        "automata and transducers",
+        "transport maps",
+        "invariant preservation along morphisms"
+      ],
+      "analog_invariance_test": "a courier route: the package label can change at checkpoints while the payload remains auditable"
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "legacy_papers": [
+        "16"
+      ],
+      "received_state": "state emitted by prior slot 15 and reopened at original slot 16 (Continuum Edge Residuals)",
+      "produced_state": "formal result of original slot 16 plus the same-family lift path toward slot 26",
+      "semantic_transition": "bind state changes into causal, observer, synchronization, or obligation ledgers",
+      "accepted_formalism_targets": [
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants"
+      ],
+      "analog_invariance_test": "an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed"
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "received_state": "state emitted by prior slot 16 and reopened at original slot 17 (E6 E8 Error Correction Tower)",
+      "produced_state": "formal result of original slot 19 plus the same-family lift path toward slot 29",
+      "semantic_transition": "project the state between discrete, continuous, lattice, or physical-facing forms; land the state in a terminal lattice, game, runtime, or address surface; read the ribbon through temporal, observer, Hamiltonian, meta, or synthesis windows",
+      "accepted_formalism_targets": [
+        "projection maps",
+        "discretization and sampling theory",
+        "interpolation/continuum limits",
+        "calibration boundary statements",
+        "lattice theory",
+        "finite-state systems",
+        "terminal object/addressing templates",
+        "lookup-table construction and invariant checks",
+        "windowed dynamical systems",
+        "operator/readout notation",
+        "Hamiltonian or energy-style accounting when explicitly bounded",
+        "multi-scale dependency summaries"
+      ],
+      "analog_invariance_test": "a translation table: changing language is allowed only when the source and target entries remain paired / a warehouse address: the storage scheme changes how the object is found, not which object is stored / a moving aperture: the window changes what is visible, not the underlying recorded sequence"
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "received_state": "state emitted by prior slot 19 and reopened at original slot 20 (Layer 2 Synthesis Ledger)",
+      "produced_state": "formal result of original slot 20 plus the same-family lift path toward slot 30",
+      "semantic_transition": "bind the preceding window into a replayable state and expose the next lift without erasing residue",
+      "accepted_formalism_targets": [
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants"
+      ],
+      "analog_invariance_test": "a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports"
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "legacy_papers": [
+        "21"
+      ],
+      "received_state": "state emitted by prior slot 20 and reopened at original slot 21 (MorphForge PolyForge MorphoniX)",
+      "produced_state": "formal result of original slot 21 plus the same-family lift path toward slot 31",
+      "semantic_transition": "select the active center and enumerate the addressable state space at the current lift",
+      "accepted_formalism_targets": [
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments"
+      ],
+      "analog_invariance_test": "a coordinate chart: renaming the axes does not change which state is addressed"
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "legacy_papers": [
+        "22"
+      ],
+      "received_state": "state emitted by prior slot 21 and reopened at original slot 22 (MetaForge Applied Materials)",
+      "produced_state": "formal result of original slot 22 plus the same-family lift path toward slot 32",
+      "semantic_transition": "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "legacy_papers": [
+        "23"
+      ],
+      "received_state": "state emitted by prior slot 22 and reopened at original slot 23 (FoldForge Protein Folding)",
+      "produced_state": "formal result of original slot 23 plus the same-family lift path toward slot 33",
+      "semantic_transition": "fold the local state into a higher representation while preserving addressability",
+      "accepted_formalism_targets": [
+        "representation theory",
+        "group actions and equivariance",
+        "tensor or coordinate atlases",
+        "transport maps between equivalent descriptions"
+      ],
+      "analog_invariance_test": "a folded map: the visible geometry changes while the indexed locations remain traceable"
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "received_state": "state emitted by prior slot 23 and reopened at original slot 24 (KnightForge N Dimensional Chess Automata)",
+      "produced_state": "formal result of original slot 28 plus the same-family lift path toward slot 38",
+      "semantic_transition": "type the boundary condition that decides whether the state repairs, reflects, curves, or routes onward; land the state in a terminal lattice, game, runtime, or address surface",
+      "accepted_formalism_targets": [
+        "boundary value problems",
+        "typed interfaces and admissibility conditions",
+        "topological boundary/interior distinction",
+        "falsifier rows for failed promotions",
+        "lattice theory",
+        "finite-state systems",
+        "terminal object/addressing templates",
+        "lookup-table construction and invariant checks"
+      ],
+      "analog_invariance_test": "a membrane or interface: crossing rules change access, not the identity of the carried state / a warehouse address: the storage scheme changes how the object is found, not which object is stored"
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "legacy_papers": [
+        "25"
+      ],
+      "received_state": "state emitted by prior slot 24 and reopened at original slot 25 (Energetic Traversal Maps)",
+      "produced_state": "formal result of original slot 25 plus the same-family lift path toward slot 35",
+      "semantic_transition": "carry the state through an admissible path, traversal, transport, or transducer",
+      "accepted_formalism_targets": [
+        "path composition",
+        "automata and transducers",
+        "transport maps",
+        "invariant preservation along morphisms"
+      ],
+      "analog_invariance_test": "a courier route: the package label can change at checkpoints while the payload remains auditable"
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "legacy_papers": [
+        "26"
+      ],
+      "received_state": "state emitted by prior slot 25 and reopened at original slot 26 (Z Pinch and Shear Horizon)",
+      "produced_state": "formal result of original slot 26 plus the same-family lift path toward slot 36",
+      "semantic_transition": "bind state changes into causal, observer, synchronization, or obligation ledgers",
+      "accepted_formalism_targets": [
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants"
+      ],
+      "analog_invariance_test": "an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed"
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "legacy_papers": [
+        "27"
+      ],
+      "received_state": "state emitted by prior slot 26 and reopened at original slot 27 (Observer Delay and Shared Reality)",
+      "produced_state": "formal result of original slot 27 plus the same-family lift path toward slot 37",
+      "semantic_transition": "project the state between discrete, continuous, lattice, or physical-facing forms",
+      "accepted_formalism_targets": [
+        "projection maps",
+        "discretization and sampling theory",
+        "interpolation/continuum limits",
+        "calibration boundary statements"
+      ],
+      "analog_invariance_test": "a translation table: changing language is allowed only when the source and target entries remain paired"
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "legacy_papers": [
+        "29"
+      ],
+      "received_state": "state emitted by prior slot 28 and reopened at original slot 29 (Monster Universal Energy Bound Hypotheses)",
+      "produced_state": "formal result of original slot 29 plus the same-family lift path toward slot 39",
+      "semantic_transition": "read the ribbon through temporal, observer, Hamiltonian, meta, or synthesis windows",
+      "accepted_formalism_targets": [
+        "windowed dynamical systems",
+        "operator/readout notation",
+        "Hamiltonian or energy-style accounting when explicitly bounded",
+        "multi-scale dependency summaries"
+      ],
+      "analog_invariance_test": "a moving aperture: the window changes what is visible, not the underlying recorded sequence"
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "received_state": "mature LCR-native corpus and orbital evidence intake",
+      "produced_state": "CAM, Crystal Projectors, And MannyAI Runtime as publication overlay or synthesis route",
+      "semantic_transition": "route external, comparative, or synthesis material around the original proof ribbon without overwriting original slot obligations",
+      "accepted_formalism_targets": [
+        "source routing and dependency graphs",
+        "citation-bound comparison",
+        "normal-form correspondence tables",
+        "falsifier and calibration boundaries"
+      ],
+      "analog_invariance_test": "an orbital index: it may point to many source states, but it must not relabel them as a single proved theorem without a lane"
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "received_state": "state emitted by prior slot 29 and reopened at original slot 30 (Grand Ribbon Meta Framer)",
+      "produced_state": "formal result of original slot 31 plus the same-family lift path toward slot 41",
+      "semantic_transition": "bind the preceding window into a replayable state and expose the next lift without erasing residue; select the active center and enumerate the addressable state space at the current lift",
+      "accepted_formalism_targets": [
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants",
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments"
+      ],
+      "analog_invariance_test": "a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a coordinate chart: renaming the axes does not change which state is addressed"
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "received_state": "state emitted by prior slot 31 and reopened at original slot 32 (The Supervisor Cursor)",
+      "produced_state": "formal result of original slot 32 plus the same-family lift path toward slot 42",
+      "semantic_transition": "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "received_state": "state emitted by prior slot 12 and reopened at original slot 13 (Standard Model Quark Face Transport)",
+      "produced_state": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "semantic_transition": "fold the local state into a higher representation while preserving addressability",
+      "accepted_formalism_targets": [
+        "representation theory",
+        "group actions and equivariance",
+        "tensor or coordinate atlases",
+        "transport maps between equivalent descriptions"
+      ],
+      "analog_invariance_test": "a folded map: the visible geometry changes while the indexed locations remain traceable"
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "received_state": "state emitted by prior slot 12 and reopened at original slot 13 (Standard Model Quark Face Transport)",
+      "produced_state": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "semantic_transition": "fold the local state into a higher representation while preserving addressability",
+      "accepted_formalism_targets": [
+        "representation theory",
+        "group actions and equivariance",
+        "tensor or coordinate atlases",
+        "transport maps between equivalent descriptions"
+      ],
+      "analog_invariance_test": "a folded map: the visible geometry changes while the indexed locations remain traceable"
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "legacy_papers": [
+        "15"
+      ],
+      "received_state": "state emitted by prior slot 14 and reopened at original slot 15 (QFT Higgs Mass Residue Carrier)",
+      "produced_state": "formal result of original slot 15 plus the same-family lift path toward slot 25",
+      "semantic_transition": "carry the state through an admissible path, traversal, transport, or transducer",
+      "accepted_formalism_targets": [
+        "path composition",
+        "automata and transducers",
+        "transport maps",
+        "invariant preservation along morphisms"
+      ],
+      "analog_invariance_test": "a courier route: the package label can change at checkpoints while the payload remains auditable"
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "legacy_papers": [],
+      "received_state": "mature LCR-native corpus and orbital evidence intake",
+      "produced_state": "Electron-Hole-Exciton Accounting as publication overlay or synthesis route",
+      "semantic_transition": "route external, comparative, or synthesis material around the original proof ribbon without overwriting original slot obligations",
+      "accepted_formalism_targets": [
+        "source routing and dependency graphs",
+        "citation-bound comparison",
+        "normal-form correspondence tables",
+        "falsifier and calibration boundaries"
+      ],
+      "analog_invariance_test": "an orbital index: it may point to many source states, but it must not relabel them as a single proved theorem without a lane"
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "received_state": "state emitted by prior slot 13 and reopened at original slot 14 (GR Boundary Repair Curvature)",
+      "produced_state": "formal result of original slot 16 plus the same-family lift path toward slot 26",
+      "semantic_transition": "type the boundary condition that decides whether the state repairs, reflects, curves, or routes onward; bind state changes into causal, observer, synchronization, or obligation ledgers",
+      "accepted_formalism_targets": [
+        "boundary value problems",
+        "typed interfaces and admissibility conditions",
+        "topological boundary/interior distinction",
+        "falsifier rows for failed promotions",
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants"
+      ],
+      "analog_invariance_test": "a membrane or interface: crossing rules change access, not the identity of the carried state / an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed"
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "legacy_papers": [
+        "22"
+      ],
+      "received_state": "state emitted by prior slot 21 and reopened at original slot 22 (MetaForge Applied Materials)",
+      "produced_state": "formal result of original slot 22 plus the same-family lift path toward slot 32",
+      "semantic_transition": "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "received_state": "state emitted by prior slot 24 and reopened at original slot 25 (Energetic Traversal Maps)",
+      "produced_state": "formal result of original slot 29 plus the same-family lift path toward slot 39",
+      "semantic_transition": "carry the state through an admissible path, traversal, transport, or transducer; bind state changes into causal, observer, synchronization, or obligation ledgers; read the ribbon through temporal, observer, Hamiltonian, meta, or synthesis windows",
+      "accepted_formalism_targets": [
+        "path composition",
+        "automata and transducers",
+        "transport maps",
+        "invariant preservation along morphisms",
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants",
+        "windowed dynamical systems",
+        "operator/readout notation",
+        "Hamiltonian or energy-style accounting when explicitly bounded",
+        "multi-scale dependency summaries"
+      ],
+      "analog_invariance_test": "a courier route: the package label can change at checkpoints while the payload remains auditable / an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed / a moving aperture: the window changes what is visible, not the underlying recorded sequence"
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "received_state": "state emitted by prior slot 18 and reopened at original slot 19 (Observer Face Selection)",
+      "produced_state": "formal result of original slot 31 plus the same-family lift path toward slot 41",
+      "semantic_transition": "read the ribbon through temporal, observer, Hamiltonian, meta, or synthesis windows; project the state between discrete, continuous, lattice, or physical-facing forms; land the state in a terminal lattice, game, runtime, or address surface; bind the preceding window into a replayable state and expose the next lift without erasing residue; select the active center and enumerate the addressable state space at the current lift",
+      "accepted_formalism_targets": [
+        "windowed dynamical systems",
+        "operator/readout notation",
+        "Hamiltonian or energy-style accounting when explicitly bounded",
+        "multi-scale dependency summaries",
+        "projection maps",
+        "discretization and sampling theory",
+        "interpolation/continuum limits",
+        "calibration boundary statements",
+        "lattice theory",
+        "finite-state systems",
+        "terminal object/addressing templates",
+        "lookup-table construction and invariant checks",
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants",
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments"
+      ],
+      "analog_invariance_test": "a moving aperture: the window changes what is visible, not the underlying recorded sequence / a translation table: changing language is allowed only when the source and target entries remain paired / a warehouse address: the storage scheme changes how the object is found, not which object is stored / a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a coordinate chart: renaming the axes does not change which state is addressed"
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "received_state": "state emitted by prior slot 05 and reopened at original slot 06 (Causal Link and Obligation Ledger)",
+      "produced_state": "formal result of original slot 32 plus the same-family lift path toward slot 42",
+      "semantic_transition": "bind state changes into causal, observer, synchronization, or obligation ledgers; bind the preceding window into a replayable state and expose the next lift without erasing residue; select the active center and enumerate the addressable state space at the current lift; bind the preceding window into a replayable state and expose the next lift without erasing residue; measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration",
+      "accepted_formalism_targets": [
+        "directed graphs and partial orders",
+        "causal/event ledgers",
+        "synchronization protocols",
+        "traceability and provenance invariants",
+        "conservative extension discipline",
+        "event sourcing and replay logs",
+        "finite receipt verification",
+        "dependency graph invariants",
+        "finite set enumeration",
+        "ordered tuples and projections",
+        "group actions on finite carriers",
+        "minimality or lower-bound arguments",
+        "residue classes and quotient accounting",
+        "error-correction or syndrome notation",
+        "truth tables and exhaustive finite checks",
+        "bounded versus unbounded domain separation"
+      ],
+      "analog_invariance_test": "an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed / a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a coordinate chart: renaming the axes does not change which state is addressed / a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "legacy_papers": [],
+      "received_state": "mature LCR-native corpus and orbital evidence intake",
+      "produced_state": "Grand Reconstruction Map And Trust-Removal Protocol as publication overlay or synthesis route",
+      "semantic_transition": "route external, comparative, or synthesis material around the original proof ribbon without overwriting original slot obligations",
+      "accepted_formalism_targets": [
+        "source routing and dependency graphs",
+        "citation-bound comparison",
+        "normal-form correspondence tables",
+        "falsifier and calibration boundaries"
+      ],
+      "analog_invariance_test": "an orbital index: it may point to many source states, but it must not relabel them as a single proved theorem without a lane"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR32-005",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "field strength/self-interaction",
+  "equation_or_source": "field strength/self-interaction",
+  "O_lcr": "no full LCR dynamics row yet",
+  "lane": "falsifier_or_open_obligation",
+  "boundary": "Define dynamical equation or keep as external formalism only.",
+  "dataset": "",
+  "falsifier": "Define dynamical equation or keep as external formalism only.",
+  "closure_state": "open_obligation",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0010",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\data\\cmplx_training.db",
+  "name": "cmplx_training.db",
+  "status": "ok",
+  "signal_score": 40,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 7,
+  "signal_tables": [
+    {
+      "table": "atom_relationships",
+      "row_count": 0,
+      "signal_columns": [
+        "source_atom_hash",
+        "target_atom_hash"
+      ]
+    },
+    {
+      "table": "atoms",
+      "row_count": 23575,
+      "signal_columns": [
+        "atom_hash",
+        "receipt_id",
+        "complexity_score"
+      ]
+    },
+    {
+      "table": "receipts",
+      "row_count": 23575,
+      "signal_columns": [
+        "receipt_id",
+        "input_hash"
+      ]
+    },
+    {
+      "table": "training_samples",
+      "row_count": 2006,
+      "signal_columns": [
+        "receipt_id"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "5d11406de092392969b94437c977b9853969f2727dfd95f3b1e99200a321b028"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "CQE_CMPLX",
+  "missing_count": 125467,
+  "highest_score": 96,
+  "sample_files": [
+    "CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-lattice-forge-inventory.md",
+    "CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-jordan-j3-octonion.md",
+    "CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_winding_number_proof.json",
+    "CQE_CMPLX\\Claude-Codex-Memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-lattice-forge-inventory.md",
+    "CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\044-claude-real-math-d4-j30-idempotent-bridge-tests.md",
+    "CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\042-claude-real-math-umbrella-theorem-registry.md",
+    "CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-monster_energy_bound_hypotheses_receipt.json",
+    "CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_proof_obligations.json"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "a68b315bc0158be0357e75f72116180ff4ec7b6686a53060a6a27f429f40af75"
+}

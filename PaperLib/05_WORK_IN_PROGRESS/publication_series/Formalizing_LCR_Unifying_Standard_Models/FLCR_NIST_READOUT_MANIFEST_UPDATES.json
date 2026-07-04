@@ -1,0 +1,253 @@
+{
+  "schema": "flcr_nist_readout_manifest_updates.v1",
+  "generated_at": "2026-06-29T18:41:59.100158+00:00",
+  "suite_receipts_bound": [
+    "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+    "PEER_REVIEWER_ASSESSMENT_PASS.json",
+    "REVIEWER_CLAIM_LEDGER_PASS.json",
+    "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+  ],
+  "papers_updated": 40,
+  "updates": [
+    {
+      "publication_id": "FLCR-01",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-02",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-03",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-04",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-05",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-06",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-07",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-08",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-09",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-10",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-11",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-12",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-13",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-14",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-15",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-16",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-17",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-18",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-19",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-20",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-21",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-22",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-23",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-24",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-25",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-26",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-27",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 5
+    },
+    {
+      "publication_id": "FLCR-28",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-29",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 5
+    },
+    {
+      "publication_id": "FLCR-30",
+      "old_band": "lcr_native",
+      "new_band": "lcr_native",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-31",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-32",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-33",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-34",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-35",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-36",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-37",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-38",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-39",
+      "old_band": "lcr_native",
+      "new_band": "standard_model_bridge_preview",
+      "receipts": 4
+    },
+    {
+      "publication_id": "FLCR-40",
+      "old_band": "reconstruction_map",
+      "new_band": "reconstruction_map",
+      "receipts": 9
+    }
+  ]
+}

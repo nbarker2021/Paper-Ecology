@@ -1,0 +1,14 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-10 nine_by_nine_closed_form_receipt.json",
+  "status": "pass",
+  "passed": 5,
+  "total": 5,
+  "closure_source": "Canonical verifier rerun with UTF-8 console encoding + Paper 10 rework receipt ledger",
+  "notes": [
+    "The original receipt had no status due to Windows console encoding failure.",
+    "verify_glm_nine_by_nine_closed_form.py passes under PYTHONIOENCODING=utf-8.",
+    "Reworked Paper 10 lists the nine-by-nine closed form as true, 5/5."
+  ],
+  "boundary": "Finite 9x9 closed-form check closed; extension to larger terminal strata remains open."
+}

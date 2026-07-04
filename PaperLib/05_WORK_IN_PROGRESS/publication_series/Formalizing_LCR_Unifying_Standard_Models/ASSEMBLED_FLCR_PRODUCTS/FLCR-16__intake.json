@@ -1,0 +1,1028 @@
+{
+  "paper_id": "FLCR-16",
+  "title": "Mass Residue And Carrier Accounting",
+  "status": "ASSEMBLE",
+  "pipeline_decision": "ASSEMBLE",
+  "formal_md": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\formal.md",
+  "required_direct": {
+    "open_obligations": [],
+    "pending_external_pair_rows": [
+      {
+        "queue_id": "EQ-REG-0049",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\formal.md",
+        "artifact_type": "paper",
+        "slot_families": "FLCR-16;41;51;61;71;43",
+        "gate_status": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+        "notes": "notebook=DEP-FLCR-18-17; ontology_loaded=yes",
+        "source_chunk": "",
+        "path_exists": true,
+        "intake_status": "INGESTED_QUEUED_PENDING_EXTERNAL_PAPER",
+        "next_action": "Find 2025/current peer-reviewed external paper and promote to PEEP package.",
+        "provenance_label": "external_pair_queue"
+      }
+    ],
+    "assembly_audit_falsifier_gaps": [
+      {
+        "record_id": "PEEP-2026-004",
+        "title": "Production Proof Receipts And Ribbon Schema As End-To-End Verification Comparator",
+        "external_paper_doi": "10.1007/s10817-025-09723-y",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: receipt break where ribbon binding diverges from verified semantics"
+        ],
+        "obligations": [
+          "Align each ribbon-schema receipt field with a proof-producing-compiler analogue.",
+          "Separate publication-facing claims from machine-checked proof scope.",
+          "Add a falsifier row for any receipt that cannot be traced to a verified obligation.",
+          "Run adapted NIST pair review before routing to FLCR ledger slots."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-025",
+        "title": "CQE CAM Crystal Database As MC3D Structure Provenance Comparator",
+        "external_paper_doi": "10.1039/D5DD00415B",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: crystal row without provenance or stoichiometry binding"
+        ],
+        "obligations": [
+          "Map high-signal cqe_cam_crystal.db tables to MC3D provenance fields.",
+          "Declare stoichiometry and source-database lineage for each exported structure.",
+          "Add a falsifier row for structures lacking provenance-graph analogues.",
+          "Route verified structures through ledger slots before CAM promotion."
+        ],
+        "provenance_label": "assembly_audit"
+      }
+    ],
+    "paired_dois": [
+      "10.1039/D4SC07438F",
+      "10.1007/s10817-025-09723-y",
+      "10.1039/D5DD00415B"
+    ],
+    "peep_bindings": [
+      "PEEP-2026-003",
+      "PEEP-2026-004",
+      "PEEP-2026-025"
+    ],
+    "direct_peep_bindings": [],
+    "queue_id": "EQ-REG-0049"
+  },
+  "supporting_context": {
+    "timeline_nodes": [
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-06_paper_tex_4f4d55b2a015",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\paper.tex",
+        "era": "formal",
+        "provenance_role": "projection",
+        "artifact_type": "formula",
+        "motifs": {
+          "rule30_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-33_companion_md_3e88eafd1e7d",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\companion.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-33_formal_md_af1619eef13c",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\formal.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-33_paper_tex_28b2e9bb02c8",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\paper.tex",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "formula",
+        "motifs": {
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-34_formal_md_4c700105a8b1",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\formal.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "paper",
+        "motifs": {
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-34_paper_tex_2ee2c3a13aa8",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\paper.tex",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "formula",
+        "motifs": {
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      }
+    ],
+    "timeline_edges": [],
+    "timeline_node_count": 6,
+    "timeline_edge_count": 0,
+    "motif_bindings": [
+      {
+        "motif": "rule30_lineage",
+        "node_count": 2,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "lattice_forge_lineage",
+        "node_count": 1,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "moonshine_lineage",
+        "node_count": 1,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "hub_receipt_lineage",
+        "node_count": 1,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "sm_bridge_lineage",
+        "node_count": 6,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      }
+    ],
+    "registry_discovery_rows": [],
+    "registry_discovery_count": 0,
+    "nearby_flcr_slots": [
+      {
+        "slot": "FLCR-14",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-15",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-17",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-18",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      }
+    ],
+    "formal_bibliography_refs": {
+      "dois": [],
+      "flcr_xrefs": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-11",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-33",
+        "FLCR-36",
+        "FLCR-40"
+      ],
+      "receipt_paths": [],
+      "source_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md`: # Paper 15 - QFT/Higgs Mass-Residue Carrier **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body **Status.** Internal proof-map closed for finite mass-residue carrier receipt-backed literalization. Partially advanced for Higgs-frame mapping via ### Abstract Paper 15 defines the CQECMPLX mass-residue carrier. The closed theorem is receipt-bearing mass-like residue carrier, not a measured Higgs mechanism, ### Keywords ### Claims **Claim 15.1.** Rule 30 decomposes over `F2` into a linear readout plus a **Claim 15.2.** The bilinear obstruction has Arf invariant `0`, giving a finite **Claim 15.3.** The eight chart states have VOA sector decomposition **Claim 15.4.** The chart carries eight states. The apparent ninth is a forced printout or trace/parity",
+        "FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal",
+        "supplements/15_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/15_INTERNAL_REASONING_SUPPLEMENT.md`: # Paper 15 Internal Reasoning Supplement ## Core Reading ## Reasoning Additions | Forced printout guard | The apparent ninth object can be treated as a trace/reporting artifact unless a later theorem gives it independent statehood. | ## Possible Uses 2. Use Arf compatibility as a routing/admission test for future gluing claims. ## Deferred Back-Application Slots | `15.BA.1` | Mass residue is a finite carrier concept. | Papers 18, 25, 29 and NP-06/NP-12. | Later work may bind energy/VOA/physics readings. | The residue carrier must remain distinguishable from measured mass. | Calibration or sector-chain receipt. | | `15.BA.2` | Arf matching gates gluing. | Papers 08, 17, 21 and NP-02. | Later lattice/glue work may reuse the compatibility test. | Arf matching alone is not all glue data. | Glue receipt or adapter. | | `15.BA.3` | The ninth is a printout/trace reading. | Papers 18, 29, 30. |",
+        "virtuous/15_QFT_Higgs_Mass-Residue_Carrier_VIRTUOUS.md",
+        "virtuous\\15_QFT_Higgs_Mass-Residue_Carrier_VIRTUOUS.md`: # Paper 15 - QFT/Higgs Mass-Residue Carrier **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Source Faces | Current rework | `D:\\Paper Reworks\\15_QFT_Higgs_Mass_Residue_Carrier.md` | 508 words | Existing skeleton, current status, obligations. | | Canonical formal paper | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-15\\FORMAL_PAPER.md` | 1262 words | Main theorem, proof, receipt, falsifier spine. | | Formal verifiers | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-15` | 7 files | Executable evidence surface. | | Formal receipts | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-15` | 7 files | Receipt status and check counts. | | Saved GLM closure rows | `D:\\CQE_CMPLX\\_downloads_review\\glm_obligation_closure_matrix.json` | 1 rel"
+      ]
+    },
+    "zip_crosswalk_refs": [],
+    "anchors": {
+      "triad_on_disk": true,
+      "assembly_audit_bound": true,
+      "queue_pending": true
+    }
+  },
+  "external_candidates": {
+    "seed_candidates": [
+      {
+        "seed_id": "CAND-Q-09",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "The fine-structure constant: a review of measurement results and possible space-time variations",
+        "doi": "10.1007/s11018-025-02433-2",
+        "year": 2025,
+        "venue": "Measurement Techniques",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "fine-structure/alpha adapter boundary, metrology anchors, no-fit versus calibration claims",
+        "proposed_flcr_targets": [
+          "FLCR-16",
+          "FLCR-24",
+          "FLCR-25",
+          "FLCR-33",
+          "FLCR-43",
+          "FLCR-53",
+          "FLCR-63",
+          "FLCR-73"
+        ],
+        "pairing_status": "new_candidate",
+        "nist_gate_readiness": "ready_if_unpaired",
+        "confidence": 0.85,
+        "blockers": [],
+        "rationale": "Curated 2025+ external comparator; suggested slots 16, 24, 25, 33, 43"
+      },
+      {
+        "seed_id": "CLAIM-10.1038/s41586-022-0",
+        "seed_type": "lane_claim_queue_ingress",
+        "title": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery",
+        "doi": "10.1038/s41586-022-04892-x",
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-16"
+        ],
+        "pairing_status": "ingress_claim",
+        "nist_gate_readiness": "PASS",
+        "confidence": 0.6,
+        "blockers": [],
+        "rationale": "pending_full_text_extraction"
+      },
+      {
+        "seed_id": "EXT80-16",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery",
+        "doi": "10.1038/s41586-022-04892-x",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-16"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-16; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      },
+      {
+        "seed_id": "EQ-REG-0001",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "crystal.db",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\crystal_library\\crystal.db",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 06;16;26;36;09"
+      },
+      {
+        "seed_id": "EQ-REG-0075",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "cqe_cam_crystal.db",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqe_cam_crystal.db",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "pending",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 06;16;26;36;09"
+      },
+      {
+        "seed_id": "REG-1159f9",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cmplx_training.db",
+        "path": "D:\\repo_harvest\\CMPLX-1T\\data\\cmplx_training.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-3730bd",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cam_comprehensive.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cam_crystal\\cam_comprehensive.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-4e096d",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "derived_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\derived_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-4f947d",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "PAPERS_LINEAGE.db",
+        "path": "D:\\CQE_CMPLX\\PAPERS_LINEAGE.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-6bf70e",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cderived_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cderived_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-7b9337",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "tmn_unified.db",
+        "path": "D:\\CQE_CMPLX\\forge_dbs\\tmn_unified.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-7c68c5",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cam_methodology_survey.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cam_crystal\\cam_methodology_survey.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-91511e",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "meso_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\meso_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-9c75e2",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "meta_chart.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\meta_chart.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-bf6829",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-d3807c",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqecmplx_corpus.db",
+        "path": "D:\\repo_harvest\\CQECMPLX-Production\\cqecmplx_corpus.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-daae33",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqe_cam_crystal.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqe_cam_crystal.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=analog-toolkit"
+      },
+      {
+        "seed_id": "REG-e96af3",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "crystal.db",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\crystal_library\\crystal.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=analog-toolkit"
+      },
+      {
+        "seed_id": "CAND-Q-08",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Cabibbo-Kobayashi-Maskawa unitarity deficit reduction via finite nuclear size",
+        "doi": "10.1103/z8g6-9j25",
+        "year": 2025,
+        "venue": "Physical Review Research",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "TarPit/Standard Model coupling adapter, CKM residual ledger, calibrated physical-observable boundary",
+        "proposed_flcr_targets": [
+          "FLCR-16",
+          "FLCR-25",
+          "FLCR-33",
+          "FLCR-40",
+          "FLCR-56",
+          "FLCR-66",
+          "FLCR-76"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 16, 25, 33, 40, 56"
+      }
+    ],
+    "seed_count": 19,
+    "ingress_80_records": [
+      {
+        "ingress_id": "EXT80-16",
+        "ingress_kind": "first40_flcr_slot",
+        "external_id": "doi:10.1038/s41586-022-04892-x",
+        "doi": "10.1038/s41586-022-04892-x",
+        "arxiv_id": "",
+        "title": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery",
+        "authors": [],
+        "summary": "Curated seed record; full-text extraction pending.",
+        "published": "",
+        "updated": "",
+        "primary_category": "curated_scientific_publication",
+        "categories": [],
+        "source_url": "https://doi.org/10.1038/s41586-022-04892-x",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41586-022-04892-x",
+        "source_kind": "primary_publisher_or_doi_record",
+        "novelty_status": "new_to_local_chain",
+        "query_used": "mass generation Higgs mechanism accounting",
+        "query_relevance_score": null,
+        "route": {
+          "target_slot": "FLCR-16",
+          "target_title": "Mass Residue And Carrier Accounting",
+          "topic": "Mass Residue And Carrier Accounting"
+        },
+        "scientific_claim": "pending_full_text_extraction",
+        "evidence_type": "curated_publication_seed",
+        "variables_observables": "pending_full_text_extraction",
+        "local_data_anchor": "pending_content_addressed_claim_or_gap_binding",
+        "lcr_attachment": {
+          "L": "Local anchor: Mass Residue And Carrier Accounting",
+          "C": "Publication claim, method, observable, or measurement imported without promotion.",
+          "R": "Residual comparison against local claim/gap after variables are extracted.",
+          "T": "first40_flcr_slot route FLCR-16; promote only after derivation and validator pass."
+        },
+        "mannyai_lanes": [
+          "docker_standards_suite",
+          "docker_observability_security_governance"
+        ],
+        "derivation_obligation": "Extract equations, variables, datasets, stated limits, and local claim/gap binding before any closure promotion.",
+        "status": "attached_for_review",
+        "curation_mode": "manual_logic_bound_seed",
+        "knowledge_weight": 0.78,
+        "logic_bound": "external_comparator",
+        "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+        "reasoning_note": "Curated because 'A portrait of the Higgs boson by the CMS experiment ten years after the discovery' supplies a recognized external comparator for Mass Residue And Carrier Accounting. It is intentionally bounded to review/derivation until local variables and content-addressed anchors are attached.",
+        "nist_nsit_validation": {
+          "validator_family": "NIST/NSIT",
+          "status": "PASS",
+          "checks": [
+            {
+              "check": "source_identity",
+              "status": "PASS"
+            },
+            {
+              "check": "primary_source_record",
+              "status": "PASS"
+            },
+            {
+              "check": "title_present",
+              "status": "PASS"
+            },
+            {
+              "check": "metadata_or_abstract_present",
+              "status": "PASS"
+            },
+            {
+              "check": "route_present",
+              "status": "PASS"
+            },
+            {
+              "check": "lcr_attachment_present",
+              "status": "PASS"
+            },
+            {
+              "check": "mannyai_lanes_attached",
+              "status": "PASS"
+            },
+            {
+              "check": "no_silent_promotion",
+              "status": "PASS"
+            },
+            {
+              "check": "novelty_declared",
+              "status": "PASS"
+            },
+            {
+              "check": "derivation_obligation_declared",
+              "status": "PASS"
+            }
+          ],
+          "pass_count": 10,
+          "total_checks": 10
+        },
+        "provenance_label": "ingress_80_curated",
+        "confidence": "seed_only"
+      },
+      {
+        "seed_id": "EXT80-16",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery",
+        "doi": "10.1038/s41586-022-04892-x",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-16"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-16; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "ingress_count": 2,
+    "candidate_dois_from_seeds": [
+      "10.1007/s11018-025-02433-2",
+      "10.1038/s41586-022-04892-x",
+      "10.1103/z8g6-9j25"
+    ],
+    "foundational_form_seeds": [],
+    "nist_readiness_by_doi": {
+      "10.1039/D4SC07438F": {
+        "doi": "10.1039/D4SC07438F",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-026",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1007/s10817-025-09723-y": {
+        "doi": "10.1007/s10817-025-09723-y",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-004",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1039/D5DD00415B": {
+        "doi": "10.1039/D5DD00415B",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-025",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      }
+    }
+  },
+  "receipts": [],
+  "blockers": [],
+  "closure_inclusions": [
+    {
+      "evidence_id": "PEEP-2026-003",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-006",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-012",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-013",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-018",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-020",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-024",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-026",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-029",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-034",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-16 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-16",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    }
+  ],
+  "formal_sections": {
+    "abstract": "This paper formalizes mass-like residue as carrier accounting before QFT translation. The operative object is mass-residue carrier. The core result is that finite sector residues can be carried as internal accounting quantities with explicit source and sector labels. The paper also defines how this result routes forward: FLCR-33 may translate the accounting into Higgs/QFT language only with citation and calibration boundaries. Its main residue is explicit: measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally.",
+    "claims": "| Claim | Lane | Statement |\n|-------|------|-----------|\n| Theorem 16.1 | `receipt_bound_internal_result` | finite sector residues can be carried as internal accounting quantities with explicit source and sector labels |\n| Proposition 16.2 | `normal_form_result` | mass-residue carrier can be imported by later papers only through its declared source, receipt, and lane. |\n| Protocol 16.3 | `falsifier_or_open_obligation` | measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally |\n\n## Reviewer Claim Ledger\n\nThis ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.\n\n| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |\n|---|---|---|---|---|---|\n| Theorem 16.1 | finite/executable result | finite sector residues can be carried as internal accounting quantities with explicit source and sector labels | receipt, validator, executable pass, generated artifact, or finite enumeration | the stated finite/executable domain only | verify the receipt exists and its scope matches the claim |\n| Proposition 16.2 | formal construction | mass-residue carrier can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-use boundary | internal formal coherence; no measured physical identity without a separate calibration row | check that the normal form is named and the conversion rule is explicit |\n| Protocol 16.3 | obligation/falsifier | measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test condition | does not negate satisfied lower-level rows | name the next binding action and owner surface |\n\n## Claim Granularity And Review Table\n\nThe table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.\n\n| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |\n|---|---|---|---|\n| Formal-system result | `FLCR-16` defines or uses **Mass Residue And Carrier Accounting** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, construction steps, and downstream-use rules are internally consistent and lane typed. | External physical truth, measured prediction, or identity with a standard theory. |\n| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manifest, pass report, or rebuild result exists and matches the row scope. | Completeness outside the enumerated domain or physical correctness outside the tested comparator. |\n| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theorem, definition layer, or citation target is named and the mapping into this paper is explicit. | A new proof of the imported theorem or a hidden change in the imported object's meaning. |\n| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. | That the analogy alone proves the formal, computational, or physical claim. |\n| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calibration protocol, uncertainty, comparator, or falsifier is attached. | A physical conclusion supported only by shared vocabulary rather than calibration, comparator data, or a stated falsifier. |\n| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | That the base formal result is false merely because a stronger downstream claim remains unfinished. |",
+    "keywords": "mass-residue carrier; LCR; receipt; claim lane; normal form.",
+    "full_excerpt": "# FLCR-16 - Mass Residue And Carrier Accounting\n\n**Series:** Formalizing LCR, Unifying Standard Models  \n**Artifact:** formal paper source  \n**Status:** first-pass rich rewrite; requires final citation and build pass.  \n**Claim posture:** maximal local claim posture with explicit lane boundaries.\n\n## Abstract\n\nThis paper formalizes mass-like residue as carrier accounting before QFT translation. The operative object is mass-residue carrier. The core result is that finite sector residues can be carried as internal accounting quantities with explicit source and sector labels. The paper also defines how this result routes forward: FLCR-33 may translate the accounting into Higgs/QFT language only with citation and calibration boundaries. Its main residue is explicit: measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally.\n\n## Keywords\n\nmass-residue carrier; LCR; receipt; claim lane; normal form.\n\n## External Reader Orientation\n\nAn outside reviewer should read this paper as a formal-system construction paper. Its local object is **Mass Residue And Carrier Accounting**. The paper's immediate contribution is: Formalizes finite mass-residue carrier language without measured Higgs claims.\n\nThe nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.\n\nIt does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.\n\n## Reviewer Compression\n\n**Core object.** Mass Residue And Carrier Accounting.\n\n**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.\n\n**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.\n\n**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.\n\n## Peer Reviewer Assessment\n\nReviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.\n\n**Recommendation.** major revision, technically promising.\n\n**Review score vector.** orientation=2, claim_granularity=2, evidence_visibility=2, falsifier_visibility=2, journal_apparatus=1, base_layer_boundary=2.\n\n**Formal claim rows reviewed.** 3.\n\n### Reviewer Strength Finding\n\nThe manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.\n\n### Major Revision Requests\n\n- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\n- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\n- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\n- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\n\n### Minor Revision Requests\n\n- Normalize theorem capitalization and punctuation.\n- Add final figure/table captions where the text currently describes diagrams schematically.\n- Ensure every acronym and local term appears in the paper-local glossary.\n\n### Acceptance Blockers\n\n- A reviewer can accept the formal contribution without accepting later physics claims, but only if final citations and receipt identifiers are attached.\n- The proof sketch must ..."
+  },
+  "meta": {
+    "intake_version": "1.2",
+    "generated_at": "2026-07-01T06:22:55.226745+00:00",
+    "evidence_count": 75,
+    "review_pass_number": 33,
+    "epistemology": "ASSEMBLE-fulfilled product \u2014 publication-grade unified form; substantive open obligations and falsifier rows retained where genuinely open.",
+    "guardrail_tier": "assemble_clean",
+    "assemble_fulfilled": true,
+    "display_status": "ASSEMBLE",
+    "testing_caveat": null,
+    "requires_new_testing": false,
+    "tiers": [
+      "required_direct",
+      "supporting_context",
+      "external_candidates",
+      "receipts",
+      "blockers"
+    ],
+    "standards_model": "cmplx.assembled_paper"
+  },
+  "standards_grade": {
+    "model_id": "cmplx.assembled_paper",
+    "model_version": "0.1.0",
+    "fit_score": 63.235294,
+    "inclusion_band": "weak_inclusive",
+    "distance_to_perfect": 0.367647,
+    "missing_fields": [
+      "required_direct.open_obligations",
+      "receipts",
+      "blockers",
+      "assembled_section_count",
+      "has_proof_receipt_index",
+      "has_obligation_crosswalk",
+      "has_external_calibration",
+      "has_falsifiers_section",
+      "has_honesty_boundary",
+      "receipts"
+    ],
+    "field_fit": 0.632353,
+    "graded_at": "2026-07-01T06:22:55.226745+00:00"
+  }
+}

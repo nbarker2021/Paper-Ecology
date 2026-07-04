@@ -1,0 +1,119 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0032",
+  "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\fourpack\\mannai_data\\mannai_memory.db",
+  "name": "mannai_memory.db",
+  "status": "ok",
+  "signal_score": 88,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 9,
+  "signal_tables": [
+    {
+      "table": "bridges",
+      "row_count": 1,
+      "signal_columns": [
+        "from_hash",
+        "to_hash"
+      ]
+    },
+    {
+      "table": "crystal_packages",
+      "row_count": 1,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "crystals",
+      "row_count": 1001,
+      "signal_columns": [
+        "hash",
+        "crystal_type",
+        "content",
+        "source"
+      ]
+    },
+    {
+      "table": "datasets",
+      "row_count": 0,
+      "signal_columns": [
+        "source_path",
+        "crystal_count"
+      ]
+    },
+    {
+      "table": "morphisms",
+      "row_count": 0,
+      "signal_columns": [
+        "from_hash",
+        "to_hash"
+      ]
+    },
+    {
+      "table": "projections",
+      "row_count": 1,
+      "signal_columns": [
+        "original_hash",
+        "crystal_hash"
+      ]
+    },
+    {
+      "table": "propagation_log",
+      "row_count": 1,
+      "signal_columns": [
+        "source_hash",
+        "affected_hashes"
+      ]
+    },
+    {
+      "table": "query_log",
+      "row_count": 1,
+      "signal_columns": [
+        "query_hash",
+        "result_crystals",
+        "resonance_scores"
+      ]
+    },
+    {
+      "table": "segments",
+      "row_count": 1852,
+      "signal_columns": [
+        "crystal_hash",
+        "segment_hash",
+        "window_size"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "ead67377ee27e0342d1ccd649b8d1620a26a8313acdd8f2521c15f63e4235050"
+}

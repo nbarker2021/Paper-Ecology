@@ -1,0 +1,56 @@
+{
+  "target": "paper_reworks.crystal_zoo.Paper Reworks",
+  "crystal_id": "f5f4ce5c0c1c",
+  "paper_files": 33,
+  "supplement_files": 9,
+  "queue_artifacts": 5,
+  "lattice_forge_unification_artifacts": 6,
+  "faces_projected": 140,
+  "vignettes_written": 140,
+  "cam_nodes_written": 280,
+  "integration_manifests": [
+    "ARCHIVE_SUPPLEMENT_SOURCE_INTEGRATION.json",
+    "CURATED_MIRROR_PROOF_INTEGRATION.json",
+    "GLOBAL_SOURCE_DOC_INTEGRATION.json",
+    "HIGH_SIGNAL_REMAINING_SOURCE_INTEGRATION.json",
+    "MEMORY_GOVERNANCE_DISCLOSURE_INTEGRATION.json",
+    "REMAINING_FORMAL_SOURCE_INTEGRATION.json",
+    "SOURCE_BACKUP_VARIANT_INTEGRATION.json",
+    "TOOL_SOLVER_TILE_INTEGRATION.json"
+  ],
+  "supplements": [
+    "APPLIED_FORGES_WORKBOOK.md",
+    "CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+    "LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+    "METAFORGE_MATERIALS_SUPPLEMENT.md",
+    "OBLIGATION_LEDGER_SUPPLEMENT.md",
+    "RECEIPT_VERIFIER_CATALOG.md",
+    "SM_BRIDGE_SUPPLEMENT.md",
+    "SPECTRE_TILING_SUPPLEMENT.md",
+    "SUPPLEMENT_INDEX.md"
+  ],
+  "queues": [
+    "DATA_GATHERING_SUBAGENTS.md",
+    "queue_01_hosted_production_archives.json",
+    "queue_02_kernel_g_mirrors.json",
+    "queue_03_historical_formal_gap.json",
+    "queue_04_lattice_forge_unification.json"
+  ],
+  "lattice_forge_unification": [
+    "EXTENSION_CANDIDATES.json",
+    "EXTENSION_CANDIDATES.md",
+    "LATTICE_FORGE_UNIFICATION_MAP.md",
+    "lattice_forge_directory_inventory.json",
+    "lattice_forge_named_file_inventory.json",
+    "module_diff_against_partsfactory.json"
+  ],
+  "route_counts": {
+    "all_forges_applicability_router": 140,
+    "cam_receipt_auditor": 140,
+    "forge_router": 140,
+    "paper_obligation_router": 69,
+    "paper_skeleton_enrichment": 1,
+    "paper_variant_incorporator": 33,
+    "paper_verifier_reconciler": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 16,
+  "artifact": "lattice-forge/docs/cqe/extracted_formalizations/texts/*.md",
+  "why_it_matters": "Extracted formalizations: D4/J3O, theorem registry, transport, Rule 30.",
+  "suggested_slots": [
+    "01",
+    "03",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "f149007a7509f98d5bb18c1438f52fd1d9594a7fbec79f517d5c3aa1fb2096b8"
+}

@@ -1,0 +1,213 @@
+publication_id: FLCR-15
+title: Curvature As Boundary-Repair Demand
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 14_GR_Boundary_Repair_Curvature.md
+- virtuous/14_GR_Boundary-Repair_Curvature_VIRTUOUS.md
+- supplements/14_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 15.1
+  lane: receipt_bound_internal_result
+  statement: boundary repair demand can be represented as a structured curvature-like
+    ledger over discrete transitions
+- id: Proposition 15.2
+  lane: normal_form_result
+  statement: repair-curvature map can be imported by later papers only through its
+    declared source, receipt, and lane.
+- id: Protocol 15.3
+  lane: falsifier_or_open_obligation
+  statement: Einstein-equation identity, measured curvature, and physical spacetime
+    calibration remain downstream
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.255021+00:00'
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "14"
+      source_file: "14_GR_Boundary_Repair_Curvature.md"
+      slot_family: "boundary_action"
+      lift_depth: 1
+      dimensional_role: "order-2 slot-4: type the boundary, repair row, or curvature-demand condition"
+      proof_form_required: "typed boundary row and next-state admissibility"
+
+dimensional_ribbon:
+  ribbon_slot: "14"
+  slot_digit: 4
+  slot_family: "boundary_action"
+  lift_depth: 1
+  lift_name: "lift_1x"
+  order_index: 2
+  dimensional_role: "order-2 slot-4: type the boundary, repair row, or curvature-demand condition"
+  state_bound_action: "type the boundary, repair row, or curvature-demand condition"
+  proof_form_required: "typed boundary row and next-state admissibility"
+  inherits_from_same_family: "04"
+  lifts_to_same_family: "24"
+  ten_lift_anchor: "10"
+  cycle_window: ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 13 and reopened at original slot 14 (GR Boundary Repair Curvature)"
+  produced_state: "formal result of original slot 14 plus the same-family lift path toward slot 24"
+  semantic_transition: "type the boundary condition that decides whether the state repairs, reflects, curves, or routes onward"
+  accepted_formalism_targets:
+    - "boundary value problems"
+    - "typed interfaces and admissibility conditions"
+    - "topological boundary/interior distinction"
+    - "falsifier rows for failed promotions"
+  analog_invariance_test: "a membrane or interface: crossing rules change access, not the identity of the carried state"
+  previous_family_slot: "04"
+  next_family_slot: "24"
+
+claim_binding_queue:
+  queue_count: 1
+  queues:
+    - id: "continuum_sampling_bridge"
+      title: "Continuum Edge And Sampling-Stability Bridge"
+      lane: "external_calibration_result"
+      promote_now: "Promote discrete-continuous bridge claims only when the sample rule, norm, error bound, or counterexample policy is stated."
+      bind_next: "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition."
+      residue: "Loose continuum, GR, plasma, or energy language stays presentation-level until calibrated."
+
+claim_delta_ledger:
+  delta_count: 1
+  deltas:
+    - id: "continuum_sampling_bridge"
+      title: "Continuum Sampling Bridge"
+      local_claim: "This paper may bridge discrete and continuous language only as far as its sampling, projection, or boundary rule supports."
+      later_evidence: "Sampling/interpolation rules, norms, error bounds, boundary conditions, units, and calibration routes."
+      revised_claim: "Promote bridge claims only when sample rule, norm, and error or counterexample policy are stated."
+      boundary: "Loose continuum, GR, plasma, or energy language remains presentation-level or calibration-bound."
+      workbook_replay: "Fill sample rule, target space, norm, error bound, units, and failure/counterexample row."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-15-F1"
+  primary_table: "FLCR-15-T1"
+  appendix_id: "FLCR-15-A"
+  glossary_terms:
+    - "CAM"
+    - "admission"
+    - "boundary"
+    - "claim lane"
+    - "crystal"
+    - "falsifier"
+    - "receipt"
+    - "repair row"
+  planned_figures:
+    - "FLCR-15-F1: Typed boundary/admission diagram"
+    - "FLCR-15-F2: Evidence routing map"
+    - "FLCR-15-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-15-T1: Boundary verdict table"
+    - "FLCR-15-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-15-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-15-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 12
+  top_cards:
+    - title: "FORMAL: Paper 22 — C-Form: MetaForge Applied Materials Gluon"
+      archive_score: 85
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the material Gluon** — the applied materials Gluon that transports the morphic Gluon (Paper 21) into physical material candidates. In the lattice_forge substrate, C is realized as the **material Gluon** that: - The material Gluon = the `metaforge` transport operator - Each material candidate = a token from Paper 21 with physical properties (Gluon mass, energy, stability) - The material transport = `material_{n+1} = metaforge_token(token_n, constraints)` - The material Gluon's mass = the ma"
+    - title: "FORMAL: Paper 11 — C-Form: Theory Admission Gate Gluon"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the admission filter Gluon** — the trust anchor that filters external theories by Gluon mass matching. In the lattice_forge substrate, C is realized as the **admission gate** that: - Takes an external theory's Gluon mass (computed from its transport signature) - Compares against the master receipt Gluon (Paper 10) and the trusted Gluon spectrum from `CmplxLookupCache` - Admits if: `mass(theory) ∈ spectrum(trusted_Gluons)` and `mass(theory) ≤ K_max=9` - Outputs: `admitted` (Gluon mass match"
+    - title: "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+      contributes: "This paper defines the CQECMPLX substrate meaning of curvature as a boundary-repair demand. The closed result is a transport-ledger theorem: every route has a typed status, demonstrated rows carry zero repair score, non-closed lifts carry nonzero repair score, and the exact Paper 13 `SU(3)` closure supplies the zero-repair reference. The oloid modules supply a curved carrier: the Cayley-Dickson/Oloid normal form verifies the repeating `1,8,8,1` pattern, and the dual-path oloid verifies three-dya"
+    - title: "CQE-paper-14.50: Paper 14.50 - Boundary-Repair Curvature Claim Contract"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.50.md`"
+      contributes: "The contract keeps the useful object clean: repair is a real substrate quantity. Physical curvature is a proposed interpretation until proven."
+    - title: "SUMMARY-II-Folded-Strand-Physics: Summary Paper II — Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine"
+      archive_score: 75
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+      contributes: "This paper presents the **physics applications** of the Gluon formalism. We do not use the word \"Gluon\" because the fit is good. We use it because the substrate **IS** SU(3), and the physics IS the **standard model gauge theory in its algebraic / closed-form representation**."
+    - title: "FORMAL: Paper 17 — C-Form: E6-E8 Error-Correction Tower Gluon"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the tower Gluon** — the Gluon that transports the error-correction state up the E6→E7→E8 tower. In the substrate, C is realized as the **tower Gluon** that: - Each tower level (E6, E7, E8) has its own Gluon `C_E6, C_E7, C_E8` - The tower transport: `C_E7 = C_E6 ⊕ correction_E6`, `C_E8 = C_E7 ⊕ correction_E7` - The correction at each level = the E6→E7→E8 glue vectors (from `g2_f4_t5_conjugate`) - The tower's top (E8) Gluon = the E8 root lattice Gluon (dim 248) C is the **tower Gluon** — the"
+    - title: "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+      contributes: "This support paper exposes the tools for Paper 14. The proof is the repair ledger in Paper 14. The toolkit shows how to reproduce and inspect it. Run: ```text python production/formal-papers/CQE-paper-14/verify_boundary_repair_curvature.py ``` The verifier checks: ```text typed transport obligations proof-boundary presence zero repair for demonstrated rows positive repair for open lifts exact Paper 13 zero-repair reference Cayley-Dickson/Oloid 1,8,8,1 normal form dual-path oloid three-dyad coher"
+    - title: "FORMAL: Paper 26 — C-Form: Z-Pinch and Shear Horizon Gluon"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the Z-pinch/shear Gluon** — the first-shear/pinch Gluon that examines friction-like generation at the horizon of proven layers. In the lattice_forge substrate, C is realized as the **Z-pinch Gluon** that: - The Z-pinch Gluon = the `paper26_zpinch_shear` transport operator - The pinch = the gluon compression operator: `pinch(C) = C / ||C||` (normalization) - The shear = the off-diagonal Gluon transport: `shear(C) = C_xy + C_yx` (off-diagonal components) - The horizon = the K=9 boundary wher"
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to type the boundary: admitted, repaired, reflected, calibration-required, falsified, or routed onward."
+  routed_full_sources: 3
+  routed_partial_sources: 16
+  routed_transient_sources: 9
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

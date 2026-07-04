@@ -1,0 +1,26 @@
+{
+  "schema": "flcr.publication_agent_protocol.v1",
+  "purpose": "Convert pipeline evidence into formalized paper products rather than log dumps.",
+  "body_rule": "Paper bodies summarize evidence as claims, methods, results, boundaries, and obligations. Raw logs, file paths, and database/archive inventories remain in appendices or supporting ledgers.",
+  "required_sections": [
+    "Title",
+    "Abstract",
+    "Keywords",
+    "1. Purpose and slot definition",
+    "2. Definitions and nonstandard terms",
+    "3. Methods",
+    "4. Evidence synthesis",
+    "5. Results currently allowed",
+    "6. Validation and honesty boundary",
+    "7. Publication claims",
+    "8. Obligations and reroute queue",
+    "Appendix A: evidence ledger",
+    "Appendix B: CAM/crystal addresses",
+    "Appendix C: CAM database provenance",
+    "Appendix D: archive provenance"
+  ],
+  "claim_rule": "Only ASSEMBLE records may support publication claims in the results section. Discovery records may appear only as obligations, comparators needed, or source-card queues.",
+  "database_rule": "CAM databases can support methods, provenance, memory, receipts, and source routing immediately, but row-level scientific claims require exact table/row cards and external publication pairing.",
+  "archive_rule": "Archives can support discovery and source provenance immediately. Extracted files must become exact source cards before formal claims are promoted.",
+  "publication_products": "One formalized product is generated per 00-79 slot, with multi-slot evidence summarized by role."
+}

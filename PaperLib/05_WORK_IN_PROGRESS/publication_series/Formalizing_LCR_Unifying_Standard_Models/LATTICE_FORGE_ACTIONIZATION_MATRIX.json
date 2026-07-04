@@ -1,0 +1,126 @@
+{
+  "schema": "flcr_lattice_forge_actionization.v1",
+  "target_count": 13,
+  "actionization_contract": "Forge systems are the operational expression layer for the corpus. CAM stores addressable memory, labels, receipts, and obligations; lattice-forge actionizes that memory into lookup contracts, executable methods, receipt rows, events, and reusable cached answers.",
+  "canonical_apis": [
+    "Forge.leech_lookup(address=0, payload=None)",
+    "Forge.verify_leech_lookup()",
+    "lattice_forge.lattice_codes.verify_lattice_code_chain",
+    "lattice_forge.lattice_codes.verify_golay_24",
+    "lattice_forge.enumerated_glue.derive_classical_leech_minimal_landing",
+    "lattice_forge.enumerated_glue.encode_leech_ribbon"
+  ],
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "leech_lookup_surface_allowed": true
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "leech_lookup_surface_allowed": true
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "leech_lookup_surface_allowed": true
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "leech_lookup_surface_allowed": true
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "leech_lookup_surface_allowed": false
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Unification In LCR Normal Form",
+      "legacy_papers": [],
+      "leech_lookup_surface_allowed": true
+    }
+  ]
+}

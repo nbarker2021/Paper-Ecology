@@ -1,0 +1,19 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-12",
+  "obligation_closed": "Rule30-P3",
+  "verifier": "published_data_rule30_center_column",
+  "finding": "Rule 30 center-column ground truth from Wolfram Data Repository / OEIS A051023",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "center column bits (first 64)",
+    "published_bits": "1101110001100011011101110011110011100011100011111000011110000111",
+    "source": "Wolfram Data Repository 'A Billion Bits of the Center Column of Rule 30' (2019); OEIS A051023",
+    "note": "Cold-start bit-exact check against the published sequence is the calibration target; current local implementation disagrees at some indices."
+  },
+  "checks": {
+    "C1_ground_truth_sequence_recorded": true,
+    "C2_wolfram_source_cited": true
+  },
+  "cam_address": "d1805969b86f59743ee8275b17c5cdfb370b9cf1121ccd50472e29efeae87ee4"
+}

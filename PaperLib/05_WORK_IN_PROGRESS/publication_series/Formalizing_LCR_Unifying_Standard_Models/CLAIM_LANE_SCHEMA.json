@@ -1,0 +1,99 @@
+{
+  "schema": "flcr_claim_lane_schema.v1",
+  "lanes": [
+    {
+      "id": "receipt_bound_internal_result",
+      "name": "Receipt-bound internal result",
+      "description": "Executable or enumerated result with named verifier/receipt inside the corpus.",
+      "requires": [
+        "claim_text",
+        "scope_boundary",
+        "receipt_or_validator",
+        "falsifier"
+      ]
+    },
+    {
+      "id": "standard_theorem_citation_bound_result",
+      "name": "Standard theorem / citation-bound result",
+      "description": "Result imported from established mathematics, physics, CS, or formal methods.",
+      "requires": [
+        "claim_text",
+        "object_mapping",
+        "citation_or_theorem",
+        "scope_boundary"
+      ]
+    },
+    {
+      "id": "cam_crystal_reapplication_result",
+      "name": "CAM/crystal reapplication result",
+      "description": "Result obtained by applying Claude/Kimi/MannyAI CAM, crystal, node, or window data.",
+      "requires": [
+        "claim_text",
+        "cam_source",
+        "routing_path",
+        "attached_data",
+        "scope_boundary"
+      ]
+    },
+    {
+      "id": "normal_form_result",
+      "name": "Normal-form result",
+      "description": "Result expressed through LCR/J3(O)/Rule30/algebraic/canonical normal form.",
+      "requires": [
+        "claim_text",
+        "generalized_kimi_normal_form",
+        "paper_specific_kimi_normal_form",
+        "advanced_normal_form",
+        "flcr_conversion_rule",
+        "cmplx_standards_gate",
+        "receipt_or_pending_gate"
+      ]
+    },
+    {
+      "id": "ledger_action",
+      "name": "Ledger action",
+      "description": "Obligation-ledger import, export, propagation, or reachability row that changes claim posture only through an explicit validator receipt.",
+      "requires": [
+        "claim_text",
+        "ledger_row_type",
+        "affected_obligation_ids",
+        "import_export_rule",
+        "validator_receipt_or_pending_gate"
+      ]
+    },
+    {
+      "id": "external_calibration_result",
+      "name": "External calibration result",
+      "description": "Claim requiring measured data, benchmark data, lab result, PDG/material/PDB source, or external comparator.",
+      "requires": [
+        "claim_text",
+        "external_dataset",
+        "calibration_protocol",
+        "pass_fail_criteria"
+      ]
+    },
+    {
+      "id": "grand_synthesis_claim",
+      "name": "Grand synthesis claim",
+      "description": "Cross-paper unification claim depending on multiple prior lanes and explicit dependencies.",
+      "requires": [
+        "claim_text",
+        "dependency_papers",
+        "dependency_lanes",
+        "falsifier",
+        "residual_obligations"
+      ]
+    },
+    {
+      "id": "falsifier_or_open_obligation",
+      "name": "Falsifier / open obligation",
+      "description": "Explicit limitation, counterexample, missing proof, missing data, or required next test.",
+      "requires": [
+        "claim_text",
+        "why_not_closed",
+        "next_binding_action",
+        "owner"
+      ]
+    }
+  ]
+}

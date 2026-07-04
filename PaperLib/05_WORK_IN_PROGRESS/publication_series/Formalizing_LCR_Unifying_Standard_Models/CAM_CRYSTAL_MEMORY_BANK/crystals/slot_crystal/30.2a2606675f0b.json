@@ -1,0 +1,50 @@
+{
+  "kind": "slot_crystal",
+  "granularity": "slot",
+  "slot": "30",
+  "record_count": 1,
+  "decision_counts": {
+    "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 1
+  },
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0053",
+      "record_type": "local_unintegrated_artifact",
+      "title": "manifest.json",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "ledger_action",
+        "enumeration_action",
+        "fold_action",
+        "terminal_action",
+        "closure_lift"
+      ],
+      "slot_assignments": [
+        "06",
+        "16",
+        "26",
+        "36",
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38",
+        "00",
+        "10",
+        "20",
+        "30"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\manifest.json"
+    }
+  ],
+  "content_address": "2a2606675f0b632ed329ebaf67a9962e8301970d9428c0cbe1e6d1a50b6d3174"
+}

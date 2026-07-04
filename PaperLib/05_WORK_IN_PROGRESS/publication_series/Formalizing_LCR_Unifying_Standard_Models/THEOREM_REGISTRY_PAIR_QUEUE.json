@@ -1,0 +1,156 @@
+{
+  "schema": "flcr.theorem_registry_pair_queue.v1",
+  "generated_utc": "2026-06-29T12:00:00+00:00",
+  "source_registry": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\042-claude-real-math-umbrella-theorem-registry.md",
+  "eq_reg_id": "EQ-REG-0010",
+  "local_gap_id": "LOCAL-GAP-0006",
+  "gate_status": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+  "decomposition_note": "Registry decomposed into six pairable clusters. Clusters TR-CL-01..05 map to existing PEEP packages (Phase 6); no duplicate PEEP created. TR-CL-06 remains blocked (overclaim risk, no scoped 2025+ comparator).",
+  "clusters": [
+    {
+      "cluster_id": "TR-CL-01",
+      "title": "Octonion and J3(O) Jordan algebra substrate",
+      "theorem_ids": ["T1", "T2"],
+      "status_tags": ["MACHINE_VERIFIED", "LITERATURE_TRANSPORTED"],
+      "slot_families": ["01", "11", "21"],
+      "dependency_graph": [
+        {"theorem_id": "T1", "depends_on": [], "verifier_path": "lattice_forge/octonion.py::verify_octonion_axioms()", "runtime_bound": "< 0.1s"},
+        {"theorem_id": "T2", "depends_on": ["T1"], "verifier_path": "lattice_forge/jordan_j3.py::verify_j3o_axioms()", "runtime_bound": "< 0.1s"}
+      ],
+      "candidate_external": {
+        "title": "The n-point exceptional universe",
+        "journal": "Journal of Mathematical Physics",
+        "year": 2025,
+        "doi": "10.1063/5.0280632"
+      },
+      "peep_ref": "PEEP-2026-005",
+      "promotion_status": "PAIRED_VIA_EXISTING_PEEP",
+      "falsifier_rows": [
+        "Local octonion Fano triple table diverges from published exceptional-Jordan coordinate conventions.",
+        "J3O idempotent orthogonality fails machine check at any tested depth."
+      ]
+    },
+    {
+      "cluster_id": "TR-CL-02",
+      "title": "Chart-to-J3(O) isomorphism",
+      "theorem_ids": ["T3", "T3a", "T3b", "T3c", "T3d", "T3e"],
+      "status_tags": ["MACHINE_VERIFIED"],
+      "slot_families": ["03", "13", "23"],
+      "dependency_graph": [
+        {"theorem_id": "T3", "depends_on": ["T1", "T2"], "verifier_path": "rule30.verify_chart_j3o_isomorphism(max_depth=4096)", "runtime_bound": "~30s at depth 4096; ~1s at depth 128"}
+      ],
+      "candidate_external": {
+        "title": "The n-point exceptional universe",
+        "journal": "Journal of Mathematical Physics",
+        "year": 2025,
+        "doi": "10.1063/5.0280632"
+      },
+      "peep_ref": "PEEP-2026-010",
+      "promotion_status": "PAIRED_VIA_EXISTING_PEEP",
+      "falsifier_rows": [
+        "Bijection round-trip mismatch at any depth in [1, 4096].",
+        "Weyl (1,3) correspondence fails between chart reflection and J3(O) permutation."
+      ]
+    },
+    {
+      "cluster_id": "TR-CL-03",
+      "title": "F4 / SU(3) Weyl closure and idempotent blocks",
+      "theorem_ids": ["T4", "T5"],
+      "status_tags": ["MACHINE_VERIFIED", "MIXED_PROVEN"],
+      "slot_families": ["07", "17", "27"],
+      "dependency_graph": [
+        {"theorem_id": "T4", "depends_on": ["T3"], "verifier_path": "f4_action.verify_n3_su3_closure_exact()", "runtime_bound": "exact rational"},
+        {"theorem_id": "T5", "depends_on": ["T4"], "verifier_path": "f4_action.search_for_su3_closure_scale(max_scale=16)", "runtime_bound": "exact rational"}
+      ],
+      "candidate_external": {
+        "title": "Idempotent triangular matrices and their applications",
+        "journal": "Axioms",
+        "year": 2025,
+        "doi": "10.3390/axioms14030234"
+      },
+      "peep_ref": "PEEP-2026-012",
+      "promotion_status": "PAIRED_VIA_EXISTING_PEEP",
+      "falsifier_rows": [
+        "M_3 coefficient vector differs from published idempotent-triangular comparator scope.",
+        "Rank-1 idempotency claim promoted beyond exact rational verifier domain."
+      ]
+    },
+    {
+      "cluster_id": "TR-CL-04",
+      "title": "Transition laws and 8x8 closed-form blocks",
+      "theorem_ids": ["T6", "T7"],
+      "status_tags": ["MACHINE_VERIFIED", "CONJECTURED_EXTENSIONS_BLOCKED"],
+      "slot_families": ["06", "16", "26"],
+      "dependency_graph": [
+        {"theorem_id": "T6", "depends_on": ["T4"], "verifier_path": "f4_action.decompose_8x8_via_block_action_exact(n_steps=3)", "runtime_bound": "exact rational"},
+        {"theorem_id": "T7", "depends_on": ["Rule30 truth table"], "verifier_path": "f4_action.closed_form_rule30_8x8_transition_exact()", "runtime_bound": "exact rational; empirical depth 4096"}
+      ],
+      "candidate_external": {
+        "title": "Equational theories of idempotent semifields",
+        "journal": "Bulletin of the London Mathematical Society",
+        "year": 2025,
+        "doi": "10.1112/blms.70001"
+      },
+      "peep_ref": "PEEP-2026-009",
+      "promotion_status": "PAIRED_VIA_EXISTING_PEEP",
+      "falsifier_rows": [
+        "Cross-block mass rationals (9/8, 3/8, 1/8) promoted without BLMS comparator scope.",
+        "8x8 entry set exceeds {0, 1/4, 1/2} at any tested configuration."
+      ]
+    },
+    {
+      "cluster_id": "TR-CL-05",
+      "title": "Moonshine and Niemeier / F4 commutability chains",
+      "theorem_ids": ["T8", "T_D4_1", "T_D4_2", "T_D4_3", "T_D4_4", "T_D4_5"],
+      "status_tags": ["MACHINE_VERIFIED", "LITERATURE_TRANSPORTED", "EMPIRICAL_MIXED"],
+      "slot_families": ["18", "28", "38"],
+      "dependency_graph": [
+        {"theorem_id": "T8", "depends_on": ["Seed ledger"], "verifier_path": "forge.Forge.can_close(source, target)", "runtime_bound": "seed database lookup"},
+        {"theorem_id": "T_D4_2", "depends_on": ["T_D4_1"], "verifier_path": "experiments/exp_monster_moonshine.py", "runtime_bound": "transported McKay 1978"}
+      ],
+      "candidate_external": {
+        "title": "Cone Vertex Algebras, Mock Theta Functions, and Umbral Moonshine Modules",
+        "journal": "Communications in Mathematical Physics",
+        "year": 2025,
+        "doi": "10.1007/s00220-025-05376-5"
+      },
+      "peep_ref": "PEEP-2026-007",
+      "promotion_status": "PAIRED_VIA_EXISTING_PEEP",
+      "falsifier_rows": [
+        "Pariah sporadic route lacks published umbral module support.",
+        "196883 arithmetic identity promoted to physical observer claim without calibration."
+      ]
+    },
+    {
+      "cluster_id": "TR-CL-06",
+      "title": "Cross-block mass rationals and universal-closure overclaims",
+      "theorem_ids": ["T_UNIVERSAL_CA", "T_UNIVERSAL_NUMBER_THEORY", "T_UNIVERSAL_CMB", "T_INV_1", "T_TRANS_1"],
+      "status_tags": ["BLOCKED", "EMPIRICAL_OVERCLAIM_RISK"],
+      "slot_families": ["31", "32", "33", "34", "35", "36", "37", "38", "39", "40"],
+      "dependency_graph": [
+        {"theorem_id": "T_UNIVERSAL_CA", "depends_on": ["T3", "T4"], "verifier_path": "experiments/exp_ca_partition.py", "runtime_bound": "256 ECAs at depth 2048"},
+        {"theorem_id": "T_INV_1", "depends_on": ["T_RELATIONAL_1"], "verifier_path": "experiments/exp_physical_constants.py", "runtime_bound": "empirical encoding tests"}
+      ],
+      "candidate_external": null,
+      "peep_ref": null,
+      "promotion_status": "BLOCKED_NO_SCOPED_COMPARATOR",
+      "falsifier_rows": [
+        "Universal CA closure at n=3 for all 64 silent-boundary rules exceeds any single 2025+ peer-reviewed comparator.",
+        "Physical constants as CLASSICAL invariants (e, phi, h) require physics calibration not present in registry verifiers.",
+        "Transformer-worldsheet analogies (T_TRANS_*) are empirical only; no honest external pair without overclaim."
+      ],
+      "next_action": "Scope individual falsifier rows per theorem before any physics-band PEEP; do not bulk-pair registry remainder."
+    }
+  ],
+  "local_gap_cross_refs": {
+    "LOCAL-GAP-0001": {"canonical_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_proof-source-lattice-forge-inventory.md", "dedupe_with": "LOCAL-GAP-0004", "peep_ref": "PEEP-2026-006", "phase8_status": "DEDUPED_NO_NEW_PEEP"},
+    "LOCAL-GAP-0002": {"canonical_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_proof-source-jordan-j3-octonion.md", "dedupe_with": "LOCAL-GAP-0012", "peep_ref": "PEEP-2026-005", "phase8_status": "DEDUPED_NO_NEW_PEEP"},
+    "LOCAL-GAP-0003": {"canonical_path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_winding_number_proof.json", "receipt_status": "pass_with_open_gaps", "phase8_status": "DEFERRED_RECEIPT_ERROR", "phase9_status": "RECEIPT_REPAIRED_PEEP_DEFERRED", "note": "Receipt repaired via model-builder (pass_with_open_gaps, open_gap_count=1). No honest 2025+ winding-number-specific external pair; PEEP not attempted."}
+  },
+  "summary": {
+    "cluster_count": 6,
+    "paired_via_existing_peep": 5,
+    "blocked_clusters": 1,
+    "new_peep_packages_phase8": 0
+  }
+}

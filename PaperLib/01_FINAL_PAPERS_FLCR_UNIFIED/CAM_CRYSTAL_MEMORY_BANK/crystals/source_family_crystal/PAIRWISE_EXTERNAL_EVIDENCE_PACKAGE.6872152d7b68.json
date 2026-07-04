@@ -1,0 +1,17 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 20,
+  "artifact": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_*",
+  "why_it_matters": "Current complete pairwise package examples.",
+  "suggested_slots": [
+    "41",
+    "43",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "6872152d7b6848cc45aaf18785b08ca930b4e9c075c9c47eb463f7bad4437e99"
+}

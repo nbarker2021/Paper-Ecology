@@ -1,0 +1,33 @@
+{
+  "flcr_id": "FLCR-37",
+  "title": "Plasma, Energy, And Traversal Calibration",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-05",
+    "SMD-08",
+    "SMD-11",
+    "SMD-12"
+  ],
+  "irl_ids": [
+    "IRL-CODATA-2022-WALLET",
+    "IRL-PPPL-PLASMA-DIAGNOSTICS-2026",
+    "IRL-PPPL-PLASMA-MAGNETIC"
+  ],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-07",
+    "FLCR-11",
+    "FLCR-17",
+    "FLCR-18",
+    "FLCR-24",
+    "FLCR-25",
+    "FLCR-27",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": true,
+  "line_count": 118,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-37__sm_translation_explained.md"
+}

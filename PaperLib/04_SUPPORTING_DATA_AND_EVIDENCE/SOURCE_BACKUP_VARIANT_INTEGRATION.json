@@ -1,0 +1,403 @@
+{
+  "backup": "D:\\Paper Reworks\\_backup_before_source_backup_variants_20260626_171502",
+  "papers_updated": 33,
+  "updates": [
+    {
+      "paper": 0,
+      "path": "D:\\Paper Reworks\\00_Established_Grounding_and_Axiom_Contract.md",
+      "variant_count": 6,
+      "variants": [
+        "CQE-paper-00.25.md",
+        "CQE-paper-00.50.md",
+        "CQE-paper-00.75.md",
+        "CQE-paper-00.md",
+        "CQE-paper-00_RECURSIVE_CLOSE.md",
+        "CQE-paper-00_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 1,
+      "path": "D:\\Paper Reworks\\01_LCR_Chain_Carrier.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-01.25.md",
+        "CQE-paper-01.50.md",
+        "CQE-paper-01.75.md",
+        "CQE-paper-01.md",
+        "CQE-paper-01_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 2,
+      "path": "D:\\Paper Reworks\\02_Correction_Surface.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-02.25.md",
+        "CQE-paper-02.50.md",
+        "CQE-paper-02.75.md",
+        "CQE-paper-02.md",
+        "CQE-paper-02_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 3,
+      "path": "D:\\Paper Reworks\\03_D4_J3_Triality_Surface.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-03.25.md",
+        "CQE-paper-03.50.md",
+        "CQE-paper-03.75.md",
+        "CQE-paper-03.md",
+        "CQE-paper-03_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 4,
+      "path": "D:\\Paper Reworks\\04_Boundary_Repair.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-04.25.md",
+        "CQE-paper-04.50.md",
+        "CQE-paper-04.75.md",
+        "CQE-paper-04.md",
+        "CQE-paper-04_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 5,
+      "path": "D:\\Paper Reworks\\05_Oloid_Path_Carrier.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-05.25.md",
+        "CQE-paper-05.50.md",
+        "CQE-paper-05.75.md",
+        "CQE-paper-05.md",
+        "CQE-paper-05_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 6,
+      "path": "D:\\Paper Reworks\\06_Causal_Link_and_Obligation_Ledger.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-06.25.md",
+        "CQE-paper-06.50.md",
+        "CQE-paper-06.75.md",
+        "CQE-paper-06.md",
+        "CQE-paper-06_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 7,
+      "path": "D:\\Paper Reworks\\07_Discrete_Continuous_Bridge.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-07.25.md",
+        "CQE-paper-07.50.md",
+        "CQE-paper-07.75.md",
+        "CQE-paper-07.md",
+        "CQE-paper-07_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 8,
+      "path": "D:\\Paper Reworks\\08_Lattice_Closure.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-08.25.md",
+        "CQE-paper-08.50.md",
+        "CQE-paper-08.75.md",
+        "CQE-paper-08.md",
+        "CQE-paper-08_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 9,
+      "path": "D:\\Paper Reworks\\09_Hamiltonian_Window_Emergence.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-09.25.md",
+        "CQE-paper-09.50.md",
+        "CQE-paper-09.75.md",
+        "CQE-paper-09.md",
+        "CQE-paper-09_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 10,
+      "path": "D:\\Paper Reworks\\10_T10_Master_Receipt.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-10.25.md",
+        "CQE-paper-10.50.md",
+        "CQE-paper-10.75.md",
+        "CQE-paper-10.md",
+        "CQE-paper-10_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 11,
+      "path": "D:\\Paper Reworks\\11_Theory_Admission_Gate.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-11.25.md",
+        "CQE-paper-11.50.md",
+        "CQE-paper-11.75.md",
+        "CQE-paper-11.md",
+        "CQE-paper-11_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 12,
+      "path": "D:\\Paper Reworks\\12_CA_Prediction_Surface.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-12.25.md",
+        "CQE-paper-12.50.md",
+        "CQE-paper-12.75.md",
+        "CQE-paper-12.md",
+        "CQE-paper-12_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 13,
+      "path": "D:\\Paper Reworks\\13_Standard_Model_Quark_Face_Transport.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-13.25.md",
+        "CQE-paper-13.50.md",
+        "CQE-paper-13.75.md",
+        "CQE-paper-13.md",
+        "CQE-paper-13_RECURSIVE_CLOSE.md"
+      ]
+    },
+    {
+      "paper": 14,
+      "path": "D:\\Paper Reworks\\14_GR_Boundary_Repair_Curvature.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-14.25.md",
+        "CQE-paper-14.50.md",
+        "CQE-paper-14.75.md",
+        "CQE-paper-14.md",
+        "CQE-paper-14_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 15,
+      "path": "D:\\Paper Reworks\\15_QFT_Higgs_Mass_Residue_Carrier.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-15.25.md",
+        "CQE-paper-15.50.md",
+        "CQE-paper-15.75.md",
+        "CQE-paper-15.md",
+        "CQE-paper-15_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 16,
+      "path": "D:\\Paper Reworks\\16_Continuum_Edge_Residuals.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-16.25.md",
+        "CQE-paper-16.50.md",
+        "CQE-paper-16.75.md",
+        "CQE-paper-16.md",
+        "CQE-paper-16_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 17,
+      "path": "D:\\Paper Reworks\\17_E6_E8_Error_Correction_Tower.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-17.25.md",
+        "CQE-paper-17.50.md",
+        "CQE-paper-17.75.md",
+        "CQE-paper-17.md",
+        "CQE-paper-17_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 18,
+      "path": "D:\\Paper Reworks\\18_VOA_Moonshine_Representation_Routes.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-18.25.md",
+        "CQE-paper-18.50.md",
+        "CQE-paper-18.75.md",
+        "CQE-paper-18.md",
+        "CQE-paper-18_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 19,
+      "path": "D:\\Paper Reworks\\19_Observer_Face_Selection.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-19.25.md",
+        "CQE-paper-19.50.md",
+        "CQE-paper-19.75.md",
+        "CQE-paper-19.md",
+        "CQE-paper-19_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 20,
+      "path": "D:\\Paper Reworks\\20_Layer_2_Synthesis_Ledger.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-20.25.md",
+        "CQE-paper-20.50.md",
+        "CQE-paper-20.75.md",
+        "CQE-paper-20.md",
+        "CQE-paper-20_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 21,
+      "path": "D:\\Paper Reworks\\21_MorphForge_PolyForge_MorphoniX.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-21.25.md",
+        "CQE-paper-21.50.md",
+        "CQE-paper-21.75.md",
+        "CQE-paper-21.md",
+        "CQE-paper-21_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 22,
+      "path": "D:\\Paper Reworks\\22_MetaForge_Applied_Materials.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-22.25.md",
+        "CQE-paper-22.50.md",
+        "CQE-paper-22.75.md",
+        "CQE-paper-22.md",
+        "CQE-paper-22_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 23,
+      "path": "D:\\Paper Reworks\\23_FoldForge_Protein_Folding.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-23.25.md",
+        "CQE-paper-23.50.md",
+        "CQE-paper-23.75.md",
+        "CQE-paper-23.md",
+        "CQE-paper-23_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 24,
+      "path": "D:\\Paper Reworks\\24_KnightForge_N_Dimensional_Chess_Automata.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-24.25.md",
+        "CQE-paper-24.50.md",
+        "CQE-paper-24.75.md",
+        "CQE-paper-24.md",
+        "CQE-paper-24_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 25,
+      "path": "D:\\Paper Reworks\\25_Energetic_Traversal_Maps.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-25.25.md",
+        "CQE-paper-25.50.md",
+        "CQE-paper-25.75.md",
+        "CQE-paper-25.md",
+        "CQE-paper-25_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 26,
+      "path": "D:\\Paper Reworks\\26_Z_Pinch_and_Shear_Horizon.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-26.25.md",
+        "CQE-paper-26.50.md",
+        "CQE-paper-26.75.md",
+        "CQE-paper-26.md",
+        "CQE-paper-26_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 27,
+      "path": "D:\\Paper Reworks\\27_Observer_Delay_and_Shared_Reality.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-27.25.md",
+        "CQE-paper-27.50.md",
+        "CQE-paper-27.75.md",
+        "CQE-paper-27.md",
+        "CQE-paper-27_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 28,
+      "path": "D:\\Paper Reworks\\28_N_Dimensional_Game_Lattices.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-28.25.md",
+        "CQE-paper-28.50.md",
+        "CQE-paper-28.75.md",
+        "CQE-paper-28.md",
+        "CQE-paper-28_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 29,
+      "path": "D:\\Paper Reworks\\29_Monster_Universal_Energy_Bound_Hypotheses.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-29.25.md",
+        "CQE-paper-29.50.md",
+        "CQE-paper-29.75.md",
+        "CQE-paper-29.md",
+        "CQE-paper-29_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 30,
+      "path": "D:\\Paper Reworks\\30_Grand_Ribbon_Meta_Framer.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-30.25.md",
+        "CQE-paper-30.50.md",
+        "CQE-paper-30.75.md",
+        "CQE-paper-30.md",
+        "CQE-paper-30_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 31,
+      "path": "D:\\Paper Reworks\\31_It_Was_Still_Just_LCR.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-31.25.md",
+        "CQE-paper-31.50.md",
+        "CQE-paper-31.75.md",
+        "CQE-paper-31.md",
+        "CQE-paper-31_UPGRADED.md"
+      ]
+    },
+    {
+      "paper": 32,
+      "path": "D:\\Paper Reworks\\32_The_Supervisor_Cursor.md",
+      "variant_count": 5,
+      "variants": [
+        "CQE-paper-32.25.md",
+        "CQE-paper-32.50.md",
+        "CQE-paper-32.75.md",
+        "CQE-paper-32.md",
+        "CQE-paper-32_UPGRADED.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0033",
+  "path": "D:\\CQE_CMPLX\\TMN_FORMALIZATIONS.db",
+  "name": "TMN_FORMALIZATIONS.db",
+  "status": "ok",
+  "signal_score": 8,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 3,
+  "signal_tables": [
+    {
+      "table": "formal_entries",
+      "row_count": 2474,
+      "signal_columns": [
+        "content",
+        "source_raw"
+      ]
+    },
+    {
+      "table": "source_files",
+      "row_count": 51,
+      "signal_columns": []
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "3f615d5bb270cd39ef4faa5a936c92fea583f1750eaa5a1cc6ec949675e332d7"
+}

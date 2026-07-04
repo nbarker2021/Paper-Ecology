@@ -1,0 +1,31 @@
+publication_id: SMB-01
+title: "Standard Model Closure Bridge From Definition To FLCR Synthesis"
+series: "Formalizing LCR, Unifying Standard Models"
+layer: standard_model_defining_papers
+status: first_bridge_draft
+routes_to:
+  - "FLCR-31"
+  - "FLCR-32"
+  - "FLCR-33"
+  - "FLCR-34"
+  - "FLCR-35"
+  - "FLCR-36"
+  - "FLCR-37"
+  - "FLCR-38"
+  - "FLCR-39"
+  - "FLCR-40"
+claim_lanes:
+  - "standard_theorem_citation_bound_result"
+  - "receipt_bound_internal_result"
+  - "cam_crystal_reapplication_result"
+  - "normal_form_result"
+  - "external_calibration_result"
+  - "grand_synthesis_claim"
+  - "falsifier_or_open_obligation"
+formal_claims:
+  - id: "Theorem SMB.1"
+    lane: "grand_synthesis_claim"
+    statement: "The FLCR Standard Model band should close claims by lane rather than treating all large claims as unresolved."
+  - id: "Protocol SMB.2"
+    lane: "falsifier_or_open_obligation"
+    statement: "A row remains open only when a required citation, receipt, normal form, CAM route, calibration, or falsifier field is missing."

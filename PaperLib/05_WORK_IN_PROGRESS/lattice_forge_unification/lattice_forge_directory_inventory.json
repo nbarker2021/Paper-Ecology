@@ -1,0 +1,402 @@
+[
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main",
+    "file_count": 172,
+    "py_count": 161,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cmplx-1t; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqecmplx-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqecmplx-forge",
+    "file_count": 171,
+    "py_count": 161,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cqecmplx-forge; name = \"Nicholas Barker; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 348,
+    "py_count": 192,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": false,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 116,
+    "py_count": 113,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF",
+    "file_count": 54,
+    "py_count": 53,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "file_count": 55,
+    "py_count": 53,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"forgefactory; name = \"ReForge project; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 352,
+    "py_count": 192,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": false,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 116,
+    "py_count": 113,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF",
+    "file_count": 54,
+    "py_count": 53,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production",
+    "file_count": 173,
+    "py_count": 162,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cmplx-1t; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus",
+    "file_count": 172,
+    "py_count": 161,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cmplx-1t; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "file_count": 55,
+    "py_count": 53,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"forgefactory; name = \"ReForge project; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge",
+    "file_count": 183,
+    "py_count": 39,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib",
+    "file_count": 202,
+    "py_count": 132,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\CQECMPLX-Production\\packaging\\cqecmplx-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Production\\packaging\\cqecmplx-forge",
+    "file_count": 133,
+    "py_count": 131,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cqecmplx-forge; name = \"Nicholas Barker; version = \"0.9.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+    "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+    "file_count": 348,
+    "py_count": 192,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": false,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+    "file_count": 116,
+    "py_count": 113,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\g\\CMPLX-R30\\PROOF\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-R30\\PROOF",
+    "file_count": 54,
+    "py_count": 53,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\GaussHaus",
+    "file_count": 172,
+    "py_count": 161,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cmplx-1t; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\build\\lib\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\build\\lib\\lattice_forge",
+    "file_count": 133,
+    "py_count": 132,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge",
+    "file_count": 171,
+    "py_count": 161,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cqecmplx-forge; name = \"Nicholas Barker; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+    "file_count": 8,
+    "py_count": 8,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\build\\lib\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\build\\lib\\lattice_forge",
+    "file_count": 133,
+    "py_count": 132,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge",
+    "file_count": 144,
+    "py_count": 136,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"cqecmplx-forge; name = \"Nicholas Barker; version = \"1.0.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 348,
+    "py_count": 192,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": false,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+    "file_count": 116,
+    "py_count": 113,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"lattice-forge; name = \"Lattice Forge; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF",
+    "file_count": 54,
+    "py_count": 53,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "file_count": 55,
+    "py_count": 53,
+    "has_pyproject": true,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "pyproject.toml: name = \"forgefactory; name = \"ReForge project; version = \"0.3.0\n__init__.py:"
+  },
+  {
+    "path": "D:\\CQE_CMPLX\\workspace-tools\\paneforge\\src\\paneforge_tool\\_product\\lib-forge\\lattice_forge",
+    "package_root": "D:\\CQE_CMPLX\\workspace-tools\\paneforge\\src\\paneforge_tool\\_product\\lib-forge\\lattice_forge",
+    "file_count": 3,
+    "py_count": 3,
+    "has_pyproject": false,
+    "has_setup": false,
+    "has_init": true,
+    "metadata_hints": "__init__.py:"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0034",
+  "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\lattice_forge\\data\\cache\\cmplx_lookup.sqlite",
+  "name": "cmplx_lookup.sqlite",
+  "status": "ok",
+  "signal_score": 8,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 4,
+  "signal_tables": [
+    {
+      "table": "rule30_window",
+      "row_count": 1,
+      "signal_columns": [
+        "source_id"
+      ]
+    },
+    {
+      "table": "source_register",
+      "row_count": 2,
+      "signal_columns": [
+        "source_id"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "terminal_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "08",
+    "18",
+    "28",
+    "38"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "59050d76ee517ff88b09f58460830f929d32d8fb5703036bf66810014b24f435"
+}

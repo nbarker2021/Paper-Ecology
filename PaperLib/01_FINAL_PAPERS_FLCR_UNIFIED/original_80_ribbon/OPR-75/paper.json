@@ -1,0 +1,17 @@
+{
+  "original_publication_id": "OPR-75",
+  "original_slot": "75",
+  "title": "Carrier And Transport Surface At Lift 7",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [],
+  "slot_family": "carrier_action",
+  "lift_depth": 7,
+  "dimensional_role": "order-8 slot-5: carry the state through a path, traversal, or admissible motion",
+  "proof_form_required": "carrier/transducer/path proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

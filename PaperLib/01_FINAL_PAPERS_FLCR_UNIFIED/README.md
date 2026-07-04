@@ -1,0 +1,167 @@
+# Formalizing LCR, Unifying Standard Models - Unified Final Paper Export
+
+This folder is the flat, shareable export of the current FLCR paper forms.
+It avoids the divided working-folder layout by naming every artifact with its publication ID and title.
+
+## Contents
+
+- `FLCR-xx__Title__paper.pdf`: generated PDF for sharing/review.
+- `FLCR-xx__Title__formal.md`: canonical formal Markdown source.
+- `FLCR-xx__Title__companion.md`: companion explainer.
+- `FLCR-xx__Title__workbook.md`: analog/evidence workbook.
+- `FLCR-xx__Title__paper.tex`: generated LaTeX source.
+- `FLCR-xx__Title__paper.yml`: paper manifest.
+- `ALL_FORMAL_PAPERS.md`: concatenated formal paper set.
+- `ALL_COMPANION_PAPERS.md`: concatenated companion set.
+- `ALL_WORKBOOKS.md`: concatenated workbook set.
+- `ALL_ORIGINAL_80_JOURNAL_SKELETONS.md`: concatenated original 80-ribbon paper skeletons.
+- `original_80_ribbon/`: full original proof-ribbon workspace (`OPR-00` through `OPR-79`).
+- `standard_model_defining_papers/`: SMD/SMB definition, bridge, and workbook layer used by FLCR-31 through FLCR-40.
+- `PDF_INDEX.md`: quick list of PDFs.
+- `MANIFEST.json`: machine-readable export manifest.
+- `MAXIMAL_FLCR_MANUSCRIPTS/`: reader-facing maximal prose tier (parallel to assembled audit).
+- `MAXIMAL_FLCR_INDEX.json`, `MAXIMAL_MANUSCRIPT_DOCTRINE.md`: maximal tier index and three-face doctrine.
+- `SM_TRANSLATION_FROM_MAXIMAL/`: SM translation explanations built from maximal FLCR + SMD/SMB + IRL data.
+- `SM_TRANSLATION_MASTER_CROSSWALK.md`, `SM_TRANSLATION_INDEX.json`: translation routing index.
+- `SM_MAPPING_ROWS/`: explicit FLCR-to-Standard-Model mapping row matrix (pilot FLCR-31..33).
+- `SM_MAPPING_EXPLAINED/`: reader-facing closure/calibration summaries per pilot slot.
+- `SM_MAPPING_MATRIX.json`, `SM_MAPPING_PILOT_CROSSWALK.md`: mapping row index and crosswalk.
+- `FIGURE_TABLE_INDEX.md`, `GLOSSARY_INDEX.md`, `APPENDIX_INDEX.md`: journal apparatus indexes.
+- `JOURNAL_STYLE_GUIDE.md`: submission-style apparatus checklist.
+
+## Series-Level Extras
+
+- `MASTER_PUBLICATION_MANUSCRIPT.md`
+- `MASTER_PUBLICATION_MANUSCRIPT.json`
+- `MASTER_PUBLICATION_MANUSCRIPT.pdf`
+- `MASTER_COMPLETE_ACCOUNTING.md`
+- `MASTER_COMPLETE_ACCOUNTING.json`
+- `PEER_REVIEW_SEQUENCE_PASS.md`
+- `PEER_REVIEW_SEQUENCE_PASS.json`
+- `RESOLVED_STATE_CLOSURE_PASS.md`
+- `RESOLVED_STATE_CLOSURE_PASS.json`
+- `UNCONSIDERED_IMPLEMENTATION_INTAKE_PASS.md`
+- `UNCONSIDERED_IMPLEMENTATION_INTAKE_PASS.json`
+- `BROAD_CAPABILITY_INTAKE_PASS.md`
+- `BROAD_CAPABILITY_INTAKE_PASS.json`
+- `BROAD_CAPABILITY_REAPPLICATION_REVIEW_PASS.md`
+- `BROAD_CAPABILITY_REAPPLICATION_REVIEW_PASS.json`
+- `EXTERNAL_ORIENTATION_GRANULARITY_PASS.md`
+- `EXTERNAL_ORIENTATION_GRANULARITY_PASS.json`
+- `REVIEWER_CLAIM_LEDGER_PASS.md`
+- `REVIEWER_CLAIM_LEDGER_PASS.json`
+- `PEER_REVIEWER_ASSESSMENT_PASS.md`
+- `PEER_REVIEWER_ASSESSMENT_PASS.json`
+- `RECONSTRUCTION_MAP_ARCHITECTURE_PASS.md`
+- `RECONSTRUCTION_MAP_ARCHITECTURE_PASS.json`
+- `RECENT_QUANTUM_EVIDENCE_INTAKE_PASS.md`
+- `RECENT_QUANTUM_EVIDENCE_INTAKE_PASS.json`
+- `FLCR_NIST_AND_REVIEW_SUITE_REPORT.md`
+- `FLCR_NIST_AND_REVIEW_SUITE_REPORT.json`
+- `FLCR_NIST_READOUT_MANIFEST_UPDATES.md`
+- `FLCR_NIST_READOUT_MANIFEST_UPDATES.json`
+- `NIST_CANONICAL_32_BASELINE_REPORT.json`
+- `MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.md`
+- `MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json`
+- `D_DRIVE_INVENTORY_PAPER_GAP_PASS.md`
+- `D_DRIVE_INVENTORY_PAPER_GAP_PASS.json`
+- `MASTER_DOCS_ROUTING_DOCTRINE.md`
+- `MASTER_DOCS_ROUTING_DOCTRINE.json`
+- `PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.md`
+- `PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.json`
+- `PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.md`
+- `PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.json`
+- `SLOT_1_80_GENERALIZED_ONTOLOGY.md`
+- `SLOT_1_80_GENERALIZED_ONTOLOGY.json`
+- `EVIDENCE_INTAKE_SCORE_NOTEBOOK.md`
+- `EVIDENCE_INTAKE_SCORE_NOTEBOOK.json`
+- `EVIDENCE_INTAKE_SCORE_NOTEBOOK.csv`
+- `PAPER_ASSEMBLY_AUDIT_PASS.md`
+- `PAPER_ASSEMBLY_AUDIT_PASS.json`
+- `DISCOVERY_AGENT_ASSIGNMENT_MANIFEST.md`
+- `DISCOVERY_AGENT_ASSIGNMENT_MANIFEST.json`
+- `AGENT_DISCOVERY_SYNTHESIS_PASS.md`
+- `AGENT_DISCOVERY_SYNTHESIS_PASS.json`
+- `EXTERNAL_PAIRING_CANDIDATE_QUEUE.md`
+- `EXTERNAL_PAIRING_CANDIDATE_QUEUE.json`
+- `ARCHIVE_INTAKE_PASS.md`
+- `ARCHIVE_INTAKE_PASS.json`
+- `ARCHIVE_CONTENT_INDEX.csv`
+- `ARCHIVE_EXTRACTION_MANIFEST.md`
+- `ARCHIVE_EXTRACTION_MANIFEST.json`
+- `CAM_DATABASE_INTAKE_PASS.md`
+- `CAM_DATABASE_INTAKE_PASS.json`
+- `CAM_DATABASE_PORT_QUEUE.md`
+- `CAM_DATABASE_PORT_QUEUE.json`
+- `PUBLICATION_AGENT_PROTOCOL.md`
+- `PUBLICATION_AGENT_PROTOCOL.json`
+- `PUBLICATION_AGENT_PRODUCT_INDEX.md`
+- `PUBLICATION_AGENT_PRODUCT_INDEX.json`
+- `ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.md`
+- `ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.json`
+- `ORIGINAL_80_JOURNAL_ENRICHMENT_REPORT.md`
+- `ORIGINAL_80_JOURNAL_ENRICHMENT_REPORT.json`
+- `FIGURE_TABLE_INDEX.md`
+- `FIGURE_TABLE_INDEX.json`
+- `GLOSSARY_INDEX.md`
+- `GLOSSARY_INDEX.json`
+- `APPENDIX_INDEX.md`
+- `APPENDIX_INDEX.json`
+- `JOURNAL_STYLE_GUIDE.md`
+- `ARCHIVE_EVIDENCE_CARD_MATRIX.md`
+- `CLAIM_DELTA_LEDGER_MATRIX.md`
+- `CLAIM_BINDING_QUEUE_MATRIX.md`
+- `LATTICE_FORGE_ACTIONIZATION_MATRIX.md`
+- `MAXIMAL_FLCR_MANUSCRIPTS/`
+- `MAXIMAL_FLCR_INDEX.json`
+- `MAXIMAL_MANUSCRIPT_DOCTRINE.md`
+- `SM_TRANSLATION_FROM_MAXIMAL/`
+- `SM_TRANSLATION_INDEX.json`
+- `SM_TRANSLATION_MASTER_CROSSWALK.md`
+- `SM_MAPPING_ROWS/`
+- `SM_MAPPING_MATRIX.json`
+- `SM_MAPPING_PILOT_CROSSWALK.md`
+- `SM_MAPPING_EXPLAINED/`
+
+## PDF List
+
+- `FLCR-01` Grounding Contract And Axiom Discipline: `FLCR-01__Grounding_Contract_And_Axiom_Discipline__paper.pdf`
+- `FLCR-02` The LCR Carrier: `FLCR-02__The_LCR_Carrier__paper.pdf`
+- `FLCR-03` Correction Surface And Residual Accounting: `FLCR-03__Correction_Surface_And_Residual_Accounting__paper.pdf`
+- `FLCR-04` D4, J3(O), Triality, And Representation Transport: `FLCR-04__D4_J3_O_Triality_And_Representation_Transport__paper.pdf`
+- `FLCR-05` Typed Boundary Repair: `FLCR-05__Typed_Boundary_Repair__paper.pdf`
+- `FLCR-06` Oloid Path Carrier And Transport Geometry: `FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__paper.pdf`
+- `FLCR-07` Causal Links And Obligation Ledgers: `FLCR-07__Causal_Links_And_Obligation_Ledgers__paper.pdf`
+- `FLCR-08` Discrete-Continuous Bridge Without Physical Overclaim: `FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__paper.pdf`
+- `FLCR-09` Lattice Closure And Terminal Addresses: `FLCR-09__Lattice_Closure_And_Terminal_Addresses__paper.pdf`
+- `FLCR-10` Temporal Windows And Hamiltonian Readouts: `FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__paper.pdf`
+- `FLCR-11` Master Receipt And Stack Replay: `FLCR-11__Master_Receipt_And_Stack_Replay__paper.pdf`
+- `FLCR-12` Theory Admission Gates: `FLCR-12__Theory_Admission_Gates__paper.pdf`
+- `FLCR-13` Cellular Automata Prediction Surfaces: `FLCR-13__Cellular_Automata_Prediction_Surfaces__paper.pdf`
+- `FLCR-14` Quark-Face Algebra Before Standard-Model Translation: `FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__paper.pdf`
+- `FLCR-15` Curvature As Boundary-Repair Demand: `FLCR-15__Curvature_As_Boundary_Repair_Demand__paper.pdf`
+- `FLCR-16` Mass Residue And Carrier Accounting: `FLCR-16__Mass_Residue_And_Carrier_Accounting__paper.pdf`
+- `FLCR-17` Continuum Edge Residuals: `FLCR-17__Continuum_Edge_Residuals__paper.pdf`
+- `FLCR-18` Exceptional Towers, VOA Routes, And Observer Face Selection: `FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__paper.pdf`
+- `FLCR-19` Layer-2 Synthesis Ledger: `FLCR-19__Layer_2_Synthesis_Ledger__paper.pdf`
+- `FLCR-20` Applied Forge Reader And Descriptor Kernel: `FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__paper.pdf`
+- `FLCR-21` Materials Candidate Generation: `FLCR-21__Materials_Candidate_Generation__paper.pdf`
+- `FLCR-22` Protein Descriptor And Fold-Facing Kernel: `FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__paper.pdf`
+- `FLCR-23` Finite Game Lattices And Local Rule Automata: `FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__paper.pdf`
+- `FLCR-24` Energetic Traversal Maps: `FLCR-24__Energetic_Traversal_Maps__paper.pdf`
+- `FLCR-25` Shear, Plasma, And Carrier Horizons: `FLCR-25__Shear_Plasma_And_Carrier_Horizons__paper.pdf`
+- `FLCR-26` Observer Delay And Shared-State Protocols: `FLCR-26__Observer_Delay_And_Shared_State_Protocols__paper.pdf`
+- `FLCR-27` Monster Ceiling And Large-Invariant Boundaries: `FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__paper.pdf`
+- `FLCR-28` CAM, Crystal Projectors, And MannyAI Runtime: `FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.pdf`
+- `FLCR-29` Corpus Ribbon And Retrospective LCR Readout: `FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__paper.pdf`
+- `FLCR-30` Supervisor Cursor And Universal Normal-Form Intake: `FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__paper.pdf`
+- `FLCR-31` Gauge Groups Translated Into LCR: `FLCR-31__Gauge_Groups_Translated_Into_LCR__paper.pdf`
+- `FLCR-32` QCD And Color Transport In LCR: `FLCR-32__QCD_And_Color_Transport_In_LCR__paper.pdf`
+- `FLCR-33` Electroweak, Higgs, And Mass Residue Translation: `FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__paper.pdf`
+- `FLCR-34` Electron-Hole-Exciton Accounting: `FLCR-34__Electron_Hole_Exciton_Accounting__paper.pdf`
+- `FLCR-35` GR, Curvature, And Continuum Translation: `FLCR-35__GR_Curvature_And_Continuum_Translation__paper.pdf`
+- `FLCR-36` Condensed Matter, Materials, And Metamaterials: `FLCR-36__Condensed_Matter_Materials_And_Metamaterials__paper.pdf`
+- `FLCR-37` Plasma, Energy, And Traversal Calibration: `FLCR-37__Plasma_Energy_And_Traversal_Calibration__paper.pdf`
+- `FLCR-38` Observer, Computation, And AI Runtime Translation: `FLCR-38__Observer_Computation_And_AI_Runtime_Translation__paper.pdf`
+- `FLCR-39` Falsifiers, Comparators, And Standards Of Evidence: `FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__paper.pdf`
+- `FLCR-40` Grand Reconstruction Map And Trust-Removal Protocol: `FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__paper.pdf`

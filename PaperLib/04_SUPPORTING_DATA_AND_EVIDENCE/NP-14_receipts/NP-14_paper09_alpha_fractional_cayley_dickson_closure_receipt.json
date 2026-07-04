@@ -1,0 +1,14 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-09 alpha_fractional_cayley_dickson_receipt.json",
+  "status": "pass",
+  "passed": 5,
+  "total": 5,
+  "closure_source": "Canonical verifier rerun with UTF-8 console encoding + Paper 09 rework CAM/GLM record",
+  "notes": [
+    "The original receipt had no status due to Windows console encoding failure.",
+    "verify_glm_alpha_fractional_cayley_dickson.py passes under PYTHONIOENCODING=utf-8.",
+    "Reworked Paper 09 records the result as GLM-F1-SM01."
+  ],
+  "boundary": "Finite Cayley-Dickson alpha construction closed; unbounded McKay arithmetic remains an open seam routed to NP-01."
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-04",
+  "original_slot": "04",
+  "title": "Boundary Repair",
+  "status": "source_backed",
+  "source_file": "04_Boundary_Repair.md",
+  "linked_flcr_papers": [
+    "FLCR-05"
+  ],
+  "slot_family": "boundary_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-4: type the boundary, repair row, or curvature-demand condition",
+  "proof_form_required": "typed boundary row and next-state admissibility",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

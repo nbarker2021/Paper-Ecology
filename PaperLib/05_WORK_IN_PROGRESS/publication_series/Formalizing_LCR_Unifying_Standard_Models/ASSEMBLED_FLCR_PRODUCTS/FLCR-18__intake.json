@@ -1,0 +1,3566 @@
+{
+  "paper_id": "FLCR-18",
+  "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+  "status": "ASSEMBLE",
+  "pipeline_decision": "ASSEMBLE",
+  "formal_md": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\formal.md",
+  "required_direct": {
+    "open_obligations": [
+      {
+        "obligation_id": "FLCR-18-OBL-001",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Theorem 18.1",
+        "claim_text": "Bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.",
+        "evidence_type_needed": "cam_crystal_reapplication_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-002",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Proposition 18.2",
+        "claim_text": "Exceptional observer route can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-003",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Protocol 18.3",
+        "claim_text": "Full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29",
+          "FLCR-10"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-004",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Leech-E8-Golay Operational Lookup",
+        "claim_text": "Attach exact lattice-forge API path, construction parameters, receipt JSON, and lookup vs construction vs invariant-scope boundary.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-07",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-005",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Spinor-SU(2) Double-Cover Local Semantics",
+        "claim_text": "Bind O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-04"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-006",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Moonshine-VOA Finite Sector Split",
+        "claim_text": "Attach centroid/VOA receipt, finite sector count, and theorem/citation route for any moonshine identification.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-10",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-007",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Leech E8 Golay Lookup",
+        "claim_text": "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-07"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-008",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Spinor Double Cover Local",
+        "claim_text": "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-009",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Moonshine VOA Finite Sector",
+        "claim_text": "Full Moonshine identity, McKay parity, and unbounded identification remain theorem/data-bound.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-010",
+        "flcr_id": "FLCR-18",
+        "source_section": "FLCR-17 dependency (Phase 13 wiring)",
+        "claim_text": "E6/E8 error-correction tower receipt rows required before exceptional closure promotion.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-011",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-012",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-013",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-18.50",
+        "claim_text": "VOA/Moonshine route claim contract keeps bounded route evidence from becoming hidden global proof claim.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-014",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-17.50",
+        "claim_text": "Error-correction tower claim contract refuses to let verified rungs hide remaining obligations.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-015",
+        "flcr_id": "FLCR-18",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-016",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Bounded exceptional routes do not close full Moonshine or measured observer physics.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-017",
+        "flcr_id": "FLCR-18",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 16 reopened at slot 17 with E6/E8 tower receipt replay.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-018",
+        "flcr_id": "FLCR-18",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-019",
+        "flcr_id": "FLCR-18",
+        "source_section": "Worked Example / FLCR-18-T5",
+        "claim_text": "Workbook replay must demonstrate observer-face route with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-020",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-GLM-CAM-CRYSTAL",
+        "claim_text": "Local crystal is not exhaustive intake; projection resonance is routing not proof.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-021",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-PROCESS-CENTROID-AUDIT",
+        "claim_text": "Future forge claiming closed CAM action must return through centroid, receipt, and project-crystal update.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-022",
+        "flcr_id": "FLCR-18",
+        "source_section": "Journal Apparatus / Claim-Evidence Table",
+        "claim_text": "Every formal claim row requires manifest-bound receipt, source card, validator, citation, or CAM route.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-023",
+        "flcr_id": "FLCR-18",
+        "source_section": "MOTIF-MOONSHINE-02-17-18 bridge",
+        "claim_text": "Shared moonshine motif bridge wired Phase 13; receipt paths via PEEP-005/006 still required per row.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-02",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-024",
+        "flcr_id": "FLCR-18",
+        "source_section": "DEP-FLCR-18-17 workbook dependency",
+        "claim_text": "Theorem dependency table DEP-FLCR-18-17 must attach receipt before downstream exceptional closure.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-025",
+        "flcr_id": "FLCR-18",
+        "source_section": "Crystal And Standards Evidence To Bind",
+        "claim_text": "Observer-face and VOA routes require per-row receipt for unmatched obligation routes.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-001",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Theorem 18.1",
+        "claim_text": "Bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.",
+        "evidence_type_needed": "cam_crystal_reapplication_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-002",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Proposition 18.2",
+        "claim_text": "Exceptional observer route can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-003",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Protocol 18.3",
+        "claim_text": "Full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29",
+          "FLCR-10"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-004",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Leech-E8-Golay Operational Lookup",
+        "claim_text": "Attach exact lattice-forge API path, construction parameters, receipt JSON, and lookup vs construction vs invariant-scope boundary.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-07",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-005",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Spinor-SU(2) Double-Cover Local Semantics",
+        "claim_text": "Bind O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-04"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-006",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Moonshine-VOA Finite Sector Split",
+        "claim_text": "Attach centroid/VOA receipt, finite sector count, and theorem/citation route for any moonshine identification.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-10",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-007",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Leech E8 Golay Lookup",
+        "claim_text": "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-07"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-008",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Spinor Double Cover Local",
+        "claim_text": "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-009",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Moonshine VOA Finite Sector",
+        "claim_text": "Full Moonshine identity, McKay parity, and unbounded identification remain theorem/data-bound.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-010",
+        "flcr_id": "FLCR-18",
+        "source_section": "FLCR-17 dependency (Phase 13 wiring)",
+        "claim_text": "E6/E8 error-correction tower receipt rows required before exceptional closure promotion.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-011",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-012",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-013",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-18.50",
+        "claim_text": "VOA/Moonshine route claim contract keeps bounded route evidence from becoming hidden global proof claim.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-014",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-17.50",
+        "claim_text": "Error-correction tower claim contract refuses to let verified rungs hide remaining obligations.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-015",
+        "flcr_id": "FLCR-18",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-016",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Bounded exceptional routes do not close full Moonshine or measured observer physics.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-017",
+        "flcr_id": "FLCR-18",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 16 reopened at slot 17 with E6/E8 tower receipt replay.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-018",
+        "flcr_id": "FLCR-18",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-019",
+        "flcr_id": "FLCR-18",
+        "source_section": "Worked Example / FLCR-18-T5",
+        "claim_text": "Workbook replay must demonstrate observer-face route with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-020",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-GLM-CAM-CRYSTAL",
+        "claim_text": "Local crystal is not exhaustive intake; projection resonance is routing not proof.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-021",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-PROCESS-CENTROID-AUDIT",
+        "claim_text": "Future forge claiming closed CAM action must return through centroid, receipt, and project-crystal update.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-022",
+        "flcr_id": "FLCR-18",
+        "source_section": "Journal Apparatus / Claim-Evidence Table",
+        "claim_text": "Every formal claim row requires manifest-bound receipt, source card, validator, citation, or CAM route.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-023",
+        "flcr_id": "FLCR-18",
+        "source_section": "MOTIF-MOONSHINE-02-17-18 bridge",
+        "claim_text": "Shared moonshine motif bridge wired Phase 13; receipt paths via PEEP-005/006 still required per row.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-02",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-024",
+        "flcr_id": "FLCR-18",
+        "source_section": "DEP-FLCR-18-17 workbook dependency",
+        "claim_text": "Theorem dependency table DEP-FLCR-18-17 must attach receipt before downstream exceptional closure.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-025",
+        "flcr_id": "FLCR-18",
+        "source_section": "Crystal And Standards Evidence To Bind",
+        "claim_text": "Observer-face and VOA routes require per-row receipt for unmatched obligation routes.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-001",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Theorem 18.1",
+        "claim_text": "Bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.",
+        "evidence_type_needed": "cam_crystal_reapplication_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-002",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Proposition 18.2",
+        "claim_text": "Exceptional observer route can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-003",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Protocol 18.3",
+        "claim_text": "Full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29",
+          "FLCR-10"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-004",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Leech-E8-Golay Operational Lookup",
+        "claim_text": "Attach exact lattice-forge API path, construction parameters, receipt JSON, and lookup vs construction vs invariant-scope boundary.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-07",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-005",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Spinor-SU(2) Double-Cover Local Semantics",
+        "claim_text": "Bind O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-04"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-006",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Moonshine-VOA Finite Sector Split",
+        "claim_text": "Attach centroid/VOA receipt, finite sector count, and theorem/citation route for any moonshine identification.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-10",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-007",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Leech E8 Golay Lookup",
+        "claim_text": "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-07"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-008",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Spinor Double Cover Local",
+        "claim_text": "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-009",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Moonshine VOA Finite Sector",
+        "claim_text": "Full Moonshine identity, McKay parity, and unbounded identification remain theorem/data-bound.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-010",
+        "flcr_id": "FLCR-18",
+        "source_section": "FLCR-17 dependency (Phase 13 wiring)",
+        "claim_text": "E6/E8 error-correction tower receipt rows required before exceptional closure promotion.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-011",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-012",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-013",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-18.50",
+        "claim_text": "VOA/Moonshine route claim contract keeps bounded route evidence from becoming hidden global proof claim.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-014",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-17.50",
+        "claim_text": "Error-correction tower claim contract refuses to let verified rungs hide remaining obligations.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-015",
+        "flcr_id": "FLCR-18",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-016",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Bounded exceptional routes do not close full Moonshine or measured observer physics.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-017",
+        "flcr_id": "FLCR-18",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 16 reopened at slot 17 with E6/E8 tower receipt replay.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-018",
+        "flcr_id": "FLCR-18",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-019",
+        "flcr_id": "FLCR-18",
+        "source_section": "Worked Example / FLCR-18-T5",
+        "claim_text": "Workbook replay must demonstrate observer-face route with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-020",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-GLM-CAM-CRYSTAL",
+        "claim_text": "Local crystal is not exhaustive intake; projection resonance is routing not proof.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-021",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-PROCESS-CENTROID-AUDIT",
+        "claim_text": "Future forge claiming closed CAM action must return through centroid, receipt, and project-crystal update.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-022",
+        "flcr_id": "FLCR-18",
+        "source_section": "Journal Apparatus / Claim-Evidence Table",
+        "claim_text": "Every formal claim row requires manifest-bound receipt, source card, validator, citation, or CAM route.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-023",
+        "flcr_id": "FLCR-18",
+        "source_section": "MOTIF-MOONSHINE-02-17-18 bridge",
+        "claim_text": "Shared moonshine motif bridge wired Phase 13; receipt paths via PEEP-005/006 still required per row.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-02",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-024",
+        "flcr_id": "FLCR-18",
+        "source_section": "DEP-FLCR-18-17 workbook dependency",
+        "claim_text": "Theorem dependency table DEP-FLCR-18-17 must attach receipt before downstream exceptional closure.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-025",
+        "flcr_id": "FLCR-18",
+        "source_section": "Crystal And Standards Evidence To Bind",
+        "claim_text": "Observer-face and VOA routes require per-row receipt for unmatched obligation routes.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-001",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Theorem 18.1",
+        "claim_text": "Bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.",
+        "evidence_type_needed": "cam_crystal_reapplication_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-002",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Proposition 18.2",
+        "claim_text": "Exceptional observer route can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-003",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Protocol 18.3",
+        "claim_text": "Full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29",
+          "FLCR-10"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-004",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Leech-E8-Golay Operational Lookup",
+        "claim_text": "Attach exact lattice-forge API path, construction parameters, receipt JSON, and lookup vs construction vs invariant-scope boundary.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-07",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-005",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Spinor-SU(2) Double-Cover Local Semantics",
+        "claim_text": "Bind O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-04"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-006",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Moonshine-VOA Finite Sector Split",
+        "claim_text": "Attach centroid/VOA receipt, finite sector count, and theorem/citation route for any moonshine identification.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-10",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-007",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Leech E8 Golay Lookup",
+        "claim_text": "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-07"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-008",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Spinor Double Cover Local",
+        "claim_text": "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-009",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Moonshine VOA Finite Sector",
+        "claim_text": "Full Moonshine identity, McKay parity, and unbounded identification remain theorem/data-bound.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-010",
+        "flcr_id": "FLCR-18",
+        "source_section": "FLCR-17 dependency (Phase 13 wiring)",
+        "claim_text": "E6/E8 error-correction tower receipt rows required before exceptional closure promotion.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-011",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-012",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-013",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-18.50",
+        "claim_text": "VOA/Moonshine route claim contract keeps bounded route evidence from becoming hidden global proof claim.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-014",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-17.50",
+        "claim_text": "Error-correction tower claim contract refuses to let verified rungs hide remaining obligations.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-015",
+        "flcr_id": "FLCR-18",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-016",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Bounded exceptional routes do not close full Moonshine or measured observer physics.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-017",
+        "flcr_id": "FLCR-18",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 16 reopened at slot 17 with E6/E8 tower receipt replay.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-018",
+        "flcr_id": "FLCR-18",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-019",
+        "flcr_id": "FLCR-18",
+        "source_section": "Worked Example / FLCR-18-T5",
+        "claim_text": "Workbook replay must demonstrate observer-face route with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-020",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-GLM-CAM-CRYSTAL",
+        "claim_text": "Local crystal is not exhaustive intake; projection resonance is routing not proof.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-021",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-PROCESS-CENTROID-AUDIT",
+        "claim_text": "Future forge claiming closed CAM action must return through centroid, receipt, and project-crystal update.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-022",
+        "flcr_id": "FLCR-18",
+        "source_section": "Journal Apparatus / Claim-Evidence Table",
+        "claim_text": "Every formal claim row requires manifest-bound receipt, source card, validator, citation, or CAM route.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-023",
+        "flcr_id": "FLCR-18",
+        "source_section": "MOTIF-MOONSHINE-02-17-18 bridge",
+        "claim_text": "Shared moonshine motif bridge wired Phase 13; receipt paths via PEEP-005/006 still required per row.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-02",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-024",
+        "flcr_id": "FLCR-18",
+        "source_section": "DEP-FLCR-18-17 workbook dependency",
+        "claim_text": "Theorem dependency table DEP-FLCR-18-17 must attach receipt before downstream exceptional closure.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-025",
+        "flcr_id": "FLCR-18",
+        "source_section": "Crystal And Standards Evidence To Bind",
+        "claim_text": "Observer-face and VOA routes require per-row receipt for unmatched obligation routes.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-001",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Theorem 18.1",
+        "claim_text": "Bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.",
+        "evidence_type_needed": "cam_crystal_reapplication_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-002",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Proposition 18.2",
+        "claim_text": "Exceptional observer route can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-003",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a74 Formal Claims / Protocol 18.3",
+        "claim_text": "Full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29",
+          "FLCR-10"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-004",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Leech-E8-Golay Operational Lookup",
+        "claim_text": "Attach exact lattice-forge API path, construction parameters, receipt JSON, and lookup vs construction vs invariant-scope boundary.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-07",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-005",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Spinor-SU(2) Double-Cover Local Semantics",
+        "claim_text": "Bind O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-04"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-006",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Binding Queue / Moonshine-VOA Finite Sector Split",
+        "claim_text": "Attach centroid/VOA receipt, finite sector count, and theorem/citation route for any moonshine identification.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-10",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-007",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Leech E8 Golay Lookup",
+        "claim_text": "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-07"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-008",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Spinor Double Cover Local",
+        "claim_text": "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-009",
+        "flcr_id": "FLCR-18",
+        "source_section": "Claim Delta Ledger / Moonshine VOA Finite Sector",
+        "claim_text": "Full Moonshine identity, McKay parity, and unbounded identification remain theorem/data-bound.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-29"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-010",
+        "flcr_id": "FLCR-18",
+        "source_section": "FLCR-17 dependency (Phase 13 wiring)",
+        "claim_text": "E6/E8 error-correction tower receipt rows required before exceptional closure promotion.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-011",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-012",
+        "flcr_id": "FLCR-18",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-013",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-18.50",
+        "claim_text": "VOA/Moonshine route claim contract keeps bounded route evidence from becoming hidden global proof claim.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-014",
+        "flcr_id": "FLCR-18",
+        "source_section": "Source-Backed Evidence / CQE-paper-17.50",
+        "claim_text": "Error-correction tower claim contract refuses to let verified rungs hide remaining obligations.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-015",
+        "flcr_id": "FLCR-18",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-016",
+        "flcr_id": "FLCR-18",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Bounded exceptional routes do not close full Moonshine or measured observer physics.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-017",
+        "flcr_id": "FLCR-18",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 16 reopened at slot 17 with E6/E8 tower receipt replay.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-018",
+        "flcr_id": "FLCR-18",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-019",
+        "flcr_id": "FLCR-18",
+        "source_section": "Worked Example / FLCR-18-T5",
+        "claim_text": "Workbook replay must demonstrate observer-face route with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-020",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-GLM-CAM-CRYSTAL",
+        "claim_text": "Local crystal is not exhaustive intake; projection resonance is routing not proof.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-021",
+        "flcr_id": "FLCR-18",
+        "source_section": "Appendix A / REAPPLY-PROCESS-CENTROID-AUDIT",
+        "claim_text": "Future forge claiming closed CAM action must return through centroid, receipt, and project-crystal update.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-28"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-022",
+        "flcr_id": "FLCR-18",
+        "source_section": "Journal Apparatus / Claim-Evidence Table",
+        "claim_text": "Every formal claim row requires manifest-bound receipt, source card, validator, citation, or CAM route.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-023",
+        "flcr_id": "FLCR-18",
+        "source_section": "MOTIF-MOONSHINE-02-17-18 bridge",
+        "claim_text": "Shared moonshine motif bridge wired Phase 13; receipt paths via PEEP-005/006 still required per row.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-02",
+          "FLCR-17"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-024",
+        "flcr_id": "FLCR-18",
+        "source_section": "DEP-FLCR-18-17 workbook dependency",
+        "claim_text": "Theorem dependency table DEP-FLCR-18-17 must attach receipt before downstream exceptional closure.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-17"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-18-OBL-025",
+        "flcr_id": "FLCR-18",
+        "source_section": "Crystal And Standards Evidence To Bind",
+        "claim_text": "Observer-face and VOA routes require per-row receipt for unmatched obligation routes.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      }
+    ],
+    "pending_external_pair_rows": [
+      {
+        "queue_id": "EQ-REG-0051",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\formal.md",
+        "artifact_type": "paper",
+        "slot_families": "FLCR-18;41;51;61;71;43",
+        "gate_status": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+        "notes": "notebook=DEP-FLCR-18-17; ontology_loaded=yes",
+        "source_chunk": "",
+        "path_exists": true,
+        "intake_status": "INGESTED_QUEUED_PENDING_EXTERNAL_PAPER",
+        "next_action": "Find 2025/current peer-reviewed external paper and promote to PEEP package.",
+        "provenance_label": "external_pair_queue"
+      }
+    ],
+    "assembly_audit_falsifier_gaps": [
+      {
+        "record_id": "PEEP-2026-026",
+        "title": "Crystal Chains Archive As Verified MOF Database Comparator",
+        "external_paper_doi": "10.1039/D4SC07438F",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: archived chain without verified preprocessing analogue"
+        ],
+        "obligations": [
+          "Index high-signal entries in cqekernel_crystal_chains_v1.zip with verification status.",
+          "Apply MOSAEC-style error screening before terminal lookup promotion.",
+          "Add a falsifier row for chain exports failing verified-accuracy checks.",
+          "Keep archive routes in terminal slots until verification obligations close."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0007",
+        "title": "CQE-paper-29-monster_energy_bound_hypotheses_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0013",
+        "title": "centroid_voa.py",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0014",
+        "title": "centroid_voa.py",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0040",
+        "title": "verify_voa_sector_decomposition.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0041",
+        "title": "verify_centroid_voa_chain.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0048",
+        "title": "centroid_voa.py",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0051",
+        "title": "verify_spectre_tiling_deephole_path.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0055",
+        "title": "voa_lookup.py",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0057",
+        "title": "verify_observer_post_su3_electroweak_route.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0059",
+        "title": "CQE-paper-09-hamiltonian_window_emergence_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0063",
+        "title": "CQE-paper-18-voa_moonshine_routes_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      }
+    ],
+    "paired_dois": [
+      "10.1039/D4SC07438F"
+    ],
+    "peep_bindings": [
+      "PEEP-2026-026",
+      "LOCAL-GAP-0007",
+      "LOCAL-GAP-0013",
+      "LOCAL-GAP-0014",
+      "LOCAL-GAP-0040",
+      "LOCAL-GAP-0041",
+      "LOCAL-GAP-0048",
+      "LOCAL-GAP-0051",
+      "LOCAL-GAP-0055",
+      "LOCAL-GAP-0057",
+      "LOCAL-GAP-0059",
+      "LOCAL-GAP-0063"
+    ],
+    "direct_peep_bindings": [],
+    "queue_id": "EQ-REG-0051"
+  },
+  "supporting_context": {
+    "timeline_nodes": [
+      {
+        "node_id": "zip_ref_Kimi_Agent_Rule30InvariantProof_2_zip_409d21ff0956",
+        "path": "zip_ref:Kimi_Agent_Rule30InvariantProof(2).zip",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "zip_ref_Barker_Market_Engine_zip_bcb77639c9b0",
+        "path": "zip_ref:Barker_Market_Engine.zip",
+        "era": "bridge",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "zip_ref_Barker_Ablation_Engine_zip_7f67ec2aa01e",
+        "path": "zip_ref:Barker_Ablation_Engine.zip",
+        "era": "bridge",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "zip_ref_Barker_Strategy_Engine_zip_e6c5b75a7d29",
+        "path": "zip_ref:Barker_Strategy_Engine.zip",
+        "era": "bridge",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "zip_ref_Barker_Rule30_Market_Engine_zip_8186699c874e",
+        "path": "zip_ref:Barker_Rule30_Market_Engine.zip",
+        "era": "bridge",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "QE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_algebraic_closure_md_b4d422c7c03f",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\algebraic_closure.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_ARCHITECTURE_md_2ef8e20a6e14",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\ARCHITECTURE.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_asset_mapping_md_1c1828852aae",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\asset_mapping.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "g_papers_suite82_historical_pastworks_Barker_Geometric_Market_Analysis_Engine_md_9932d72f942e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Geometric Market Analysis Engine.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "ers_suite82_historical_pastworks_Barker_Market_Engine_v3__CMPLX-R30_Grounding_md_fdad727b57b1",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Market Engine v3_ CMPLX-R30 Grounding.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "e82_historical_pastworks_Barker_Market_Engine_v4__Full_Quantitative_Hardening_md_dd17679c834b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Market Engine v4_ Full Quantitative Hardening.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_suite82_historical_pastworks_Barker_Multi-Estimator_Ablation_Action_Profiles_md_faa54313b5b8",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Multi-Estimator Ablation & Action Profiles.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rs_suite82_historical_pastworks_Barker_Research_Session__Complete_Deep_Report_md_2ef0ae3a71cb",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Research Session_ Complete Deep Report.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_suite82_historical_pastworks_Barker_Trade_Recommendations_Strategy_Synthesis_md_471d466903eb",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Trade Recommendations & Strategy Synthesis.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "LX_kernel_staging_papers_suite82_historical_pastworks_Barker_Intro_Conclusion_md_bcdfd0ed81ff",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Intro_Conclusion.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "LX_kernel_staging_papers_suite82_historical_pastworks_Barker_Patent_Portfolio_md_fd457646f11a",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Patent_Portfolio.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S1_md_b29e6b5c559a",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S1.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S2_md_ad8d90b3017f",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S2.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S3_md_daa5cc22de36",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S3.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S4_md_29365f24b254",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S4.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S5_md_b901a425fdd3",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S5.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S6_md_6eb44fc64547",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S6.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "LX_kernel_staging_papers_suite82_historical_pastworks_Barker_Whitepaper_Suite_md_80c79b1520f9",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Whitepaper_Suite.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "el_staging_papers_suite82_historical_pastworks_Barker_Whitepaper_Suite_Formal_md_26d0f306058f",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Whitepaper_Suite_Formal.md",
+        "era": "pre-formal",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "ing_papers_suite82_historical_pastworks_CMPLX-R30_Repository_Review_Synthesis_md_650edba2e04e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\CMPLX-R30 Repository Review & Synthesis.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "MPLX_kernel_staging_papers_suite82_historical_pastworks_CMPLX-R30_CODE_REVIEW_md_afd30b25be6b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\CMPLX-R30_CODE_REVIEW.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rnel_staging_papers_suite82_historical_pastworks_CMPLX-R30_Historical_Lineage_md_f6d723025f17",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\CMPLX-R30_Historical_Lineage.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "ging_papers_suite82_historical_pastworks_Comprehensive_Package_Closure_Review_md_188ab32ae2a7",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Comprehensive Package Closure Review.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_digital_root_closure_md_57a2bf9e08c9",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\digital_root_closure.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_DRYRUN_EXPLAINER_md_3d1bdae3ebc4",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\DRYRUN_EXPLAINER.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\GLOBAL_PACKAGE_REFINEMENT.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "LX_kernel_staging_papers_suite82_historical_pastworks_hard_riemann_hypothesis_md_20a8e86d6d0d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\hard_riemann_hypothesis.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_kernel_staging_papers_suite82_historical_pastworks_historical_review_cqe_pdf_md_26d03a2a79d4",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\historical_review_cqe_pdf.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "LX_kernel_staging_papers_suite82_historical_pastworks_historical_review_e8_md_md_b98b21dc7bc3",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\historical_review_e8_md.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "rnel_staging_papers_suite82_historical_pastworks_historical_review_harness_py_md_fe835739ad8e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\historical_review_harness_py.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\lattice_forge_analysis.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_code_review_md_297d64eb5648",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\lattice_forge_code_review.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "el_staging_papers_suite82_historical_pastworks_Master_Glossary_and_Appendices_md_ae8451ce97df",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Master_Glossary_and_Appendices.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\OPEN_OBLIGATIONS.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_README_md_797ea3cbb0df",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\README.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      }
+    ],
+    "timeline_edges": [
+      {
+        "from": "te83_cmplx_kernel_production_CQE_CMPLX-workspace_CMPLX-R30_Historical_Lineage_md_7761820ee2c5",
+        "to": "rnel_staging_papers_suite82_historical_pastworks_CMPLX-R30_Historical_Lineage_md_f6d723025f17",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_docs_GLOBAL_PACKAGE_REFINEMENT_md_fe5b0f43f4bf",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_GLOBAL_PACKAGE_REFINEMENT_md_06404f407ad6",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_hard_riemann_hypothesis_md_e6a177433dc9",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_hard_riemann_hypothesis_md_20a8e86d6d0d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_historical_review_e8_md_md_0f4448aa0753",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_historical_review_e8_md_md_b98b21dc7bc3",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "te83_cmplx_kernel_production_CQE_CMPLX-workspace_historical_review_harness_py_md_5ba8b1fd6333",
+        "to": "rnel_staging_papers_suite82_historical_pastworks_historical_review_harness_py_md_fe835739ad8e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "3_cmplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_analysis_md_2d4adc59a8bd",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "rs_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_analysis_md_6bd82da4bfe2",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_code_review_md_5cf714c3c534",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_code_review_md_297d64eb5648",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_code_review_md_ab2ea6465283",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_code_review_md_297d64eb5648",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_theorems_OPEN_OBLIGATIONS_md_518c8873b2c8",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "g_papers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_OPEN_OBLIGATIONS_md_2bffaeca591b",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_socratic_decode_results_md_4fe6356ffbe6",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_socratic_decode_results_md_24623efd58e8",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "pers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_test_analysis_report_md_5da7da995ada",
+        "to": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_test_analysis_report_md_32ae99128db2",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_DATA_lmfdb_README_md_f106f808d3b9",
+        "to": "D_CQE_CMPLX_CMPLX-R30-main_README_md_2b4dd9292ff6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ory-v0_3-lineage-read_ForgeFactory_v0_3_docs_reforge_kimi_adapter_v0_1_README_md_8682fd8328da",
+        "to": "D_CQE_CMPLX_CMPLX-R30-main_README_md_2b4dd9292ff6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-Kernel_lib-forge_meta_material_system_README_md_4c23a6d90782",
+        "to": "D_CQE_CMPLX_CMPLX-R30-main_README_md_2b4dd9292ff6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-Kernel_kernel_lib-forge_meta_material_system_README_md_7d6e139b5788",
+        "to": "D_CQE_CMPLX_CMPLX-R30-main_README_md_2b4dd9292ff6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-v0_1_cqe_engine_registry_py_a83640afe4bd",
+        "to": "s_suite83_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-mirror_registry_py_7cea6b92b35e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ck_forgefactory-v0_3-lineage-read_ForgeFactory_v0_3_src_forgefactory_registry_py_7b33ef9f9b73",
+        "to": "s_suite83_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-mirror_registry_py_7cea6b92b35e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "timeline_node_count": 615,
+    "timeline_edge_count": 160,
+    "motif_bindings": [
+      {
+        "motif": "rule30_lineage",
+        "node_count": 415,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "jordan_lineage",
+        "node_count": 225,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "lattice_forge_lineage",
+        "node_count": 413,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "moonshine_lineage",
+        "node_count": 549,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "forge_lineage",
+        "node_count": 179,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "hub_receipt_lineage",
+        "node_count": 93,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "sm_bridge_lineage",
+        "node_count": 158,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      }
+    ],
+    "registry_discovery_rows": [],
+    "registry_discovery_count": 0,
+    "nearby_flcr_slots": [
+      {
+        "slot": "FLCR-16",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-17",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-19",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-20",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      }
+    ],
+    "formal_bibliography_refs": {
+      "dois": [],
+      "flcr_xrefs": [
+        "FLCR-01",
+        "FLCR-08",
+        "FLCR-11",
+        "FLCR-18",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "receipt_paths": [
+        "centroid_voa_chain_receipt.json"
+      ],
+      "source_paths": [
+        "17_E6_E8_Error_Correction_Tower.md`: # Paper 17 - E6-E8 Error-Correction Tower ## Publication Draft: Formal Scientific Body **Status.** IPMC for the bounded code-tower backbone, Golay/Leech lookup surface, published Leech minimal-vector decomposition receipt, and ### Abstract sequence of verifier-backed code and lattice transitions. The closed tower is: addresses. This lets Paper 17 treat Leech as a receipted lookup surface in the error-correction tower without overclaiming Gamma72, Weyl extraction, or ### Keywords lattice forge; CAM lookup; verifier receipts. ### 1. Contribution And Scope The paper contributes a bounded algebraic correction tower. It does not claim a complete physical error-correction mechanism. The closed result is that the suite has a reproducible code/lattice backbone with named receipts at each Closed surfaces: - E8-cubed and Niemeier-seam bounded receipts. ### NSIT Reasoned Reapplication Update forge/",
+        "18_VOA_Moonshine_Representation_Routes.md`: # Paper 18 - VOA / Moonshine Representation Routes **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body **Status.** Internal proof-map closed for the finite centroid VOA seed, static declared table classes, and paper-bound centroid/VOA chain receipts. Partially ### Abstract the Monster/Moonshine boundary. The closed result is bounded: the eight chart receipted route architecture and a finite seed that later work may use without silently promoting it into a global theorem. ### Keywords ### Claims **Claim 18.1.** The finite centroid VOA seed partitions the eight chart states **Claim 18.2.** The static `Z4` representation-route template has two fixed template, not a temporal Rule 30 periodicity claim. **Claim 18.3.** The Monster scalar used by the ro",
+        "19_Observer_Face_Selection.md`: # Paper 19 - Observer Face-Selection **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body **Status.** Internal proof-map closed for finite observer face selection, observer claims, SPINOR observation, consciousness, measurement collapse, and ### Abstract observation, or a global observer theorem. It closes the finite accounting ### Keywords ### Claims **Claim 19.1.** The observer has four selectable frame faces: **Claim 19.2.** Selecting one face retains exactly three latent faces. **Claim 19.3.** The gluon coordinate `C` is invariant under `L <-> R` **Claim 19.4.** The static `Z4` face template has two fixed points, zero **Claim 19.5.** The bounded observer-route harness provides evidence after all ### Methods And Evidence | Evidence | Receipt |",
+        "FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal",
+        "supplements/17_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/17_INTERNAL_REASONING_SUPPLEMENT.md`: # Paper 17 Internal Reasoning Supplement ## Core Reading ## Reasoning Additions | Tower as typed pipeline | Each rung should expose input object, output object, invariant checked, and receipt. | | Weyl extraction burden | A Weyl-table/extractor claim should name compression target, complexity, and invariant preservation. | ## Possible Uses 3. Route physical error-correction claims through channel/noise-model fields. ## Deferred Back-Application Slots | `17.BA.1` | Code tower reaches Leech-facing lookup. | Papers 21, 29, 30 and NP-02/NP-03. | Later work may add terminal selectors or invariants. | Lookup remains distinct from full invariant classification. | Terminal/invariant receipt. | | `17.BA.2` | E6/E7/E8 language is tower-scoped. | Papers 05, 08, 21. | Later receipts may refine exceptional lift role. | No physical error-correction claim without channel model. | Lift or channel receip",
+        "supplements/18_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/19_INTERNAL_REASONING_SUPPLEMENT.md"
+      ]
+    },
+    "zip_crosswalk_refs": [
+      {
+        "from": "te83_cmplx_kernel_production_CQE_CMPLX-workspace_CMPLX-R30_Historical_Lineage_md_7761820ee2c5",
+        "to": "rnel_staging_papers_suite82_historical_pastworks_CMPLX-R30_Historical_Lineage_md_f6d723025f17",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_docs_GLOBAL_PACKAGE_REFINEMENT_md_fe5b0f43f4bf",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_GLOBAL_PACKAGE_REFINEMENT_md_06404f407ad6",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_hard_riemann_hypothesis_md_e6a177433dc9",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_hard_riemann_hypothesis_md_20a8e86d6d0d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_historical_review_e8_md_md_0f4448aa0753",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_historical_review_e8_md_md_b98b21dc7bc3",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "te83_cmplx_kernel_production_CQE_CMPLX-workspace_historical_review_harness_py_md_5ba8b1fd6333",
+        "to": "rnel_staging_papers_suite82_historical_pastworks_historical_review_harness_py_md_fe835739ad8e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "3_cmplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_analysis_md_2d4adc59a8bd",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "rs_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_analysis_md_6bd82da4bfe2",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_code_review_md_5cf714c3c534",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_code_review_md_297d64eb5648",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_code_review_md_ab2ea6465283",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_code_review_md_297d64eb5648",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_theorems_OPEN_OBLIGATIONS_md_518c8873b2c8",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "g_papers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_OPEN_OBLIGATIONS_md_2bffaeca591b",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "s_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_socratic_decode_results_md_4fe6356ffbe6",
+        "to": "LX_kernel_staging_papers_suite82_historical_pastworks_socratic_decode_results_md_24623efd58e8",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "pers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_test_analysis_report_md_5da7da995ada",
+        "to": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_test_analysis_report_md_32ae99128db2",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_DATA_lmfdb_README_md_f106f808d3b9",
+        "to": "D_CQE_CMPLX_CMPLX-R30-main_README_md_2b4dd9292ff6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "anchors": {
+      "triad_on_disk": true,
+      "assembly_audit_bound": true,
+      "queue_pending": true
+    }
+  },
+  "external_candidates": {
+    "seed_candidates": [
+      {
+        "seed_id": "FORM-FORM-011",
+        "seed_type": "foundational_form",
+        "title": "Monstrous moonshine",
+        "doi": null,
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-18"
+        ],
+        "pairing_status": "durable_citation",
+        "nist_gate_readiness": "classical_theorem_exempt",
+        "confidence": 0.7,
+        "blockers": [
+          "pre_modern_source",
+          "needs_scoped_comparator_card"
+        ],
+        "rationale": "Monster group representation data and modular functions are linked through a durable moonshine correspondence."
+      },
+      {
+        "seed_id": "CLAIM-10.3390/sym13122289",
+        "seed_type": "lane_claim_queue_ingress",
+        "title": "Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras",
+        "doi": "10.3390/sym13122289",
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-18"
+        ],
+        "pairing_status": "ingress_claim",
+        "nist_gate_readiness": "PASS",
+        "confidence": 0.6,
+        "blockers": [],
+        "rationale": "pending_full_text_extraction"
+      },
+      {
+        "seed_id": "EXT80-18",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras",
+        "doi": "10.3390/sym13122289",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-18"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-18; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      },
+      {
+        "seed_id": "EQ-REG-0076",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "cqekernel_crystal_chains_v1.zip",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqekernel_crystal_chains_v1.zip",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "pending",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 08;18;28;38;01"
+      },
+      {
+        "seed_id": "REG-0d3853",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqekernel_crystal_chains_v1.zip",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqekernel_crystal_chains_v1.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=analog-toolkit"
+      },
+      {
+        "seed_id": "REG-167705",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqekernel_bound_v2.zip",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqekernel_bound_v2.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-25d720",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "kernel.zip",
+        "path": "D:\\CQE_CMPLX\\kernel.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-3027a5",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "CMPLX-Kernel_CuratedRepoForms_20260608T102938.zip",
+        "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_CuratedRepoForms_20260608T102938.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-4a509d",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "CMPLX-Kernel_Production_20260607T223706.tar.gz",
+        "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706.tar.gz",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-618b25",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqekernel.zip",
+        "path": "D:\\CQE_CMPLX\\cqekernel.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-6ee499",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqekernel_bound_cam_v1.zip",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqekernel_bound_cam_v1.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-b92ba8",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "CMPLX_Kernel_v2_FULL.zip",
+        "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX_Kernel_v2_FULL.zip",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-08",
+          "FLCR-18",
+          "FLCR-28",
+          "FLCR-38",
+          "FLCR-01"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "CAND-Q-05",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Linear models of the exceptional Lie algebra e8",
+        "doi": "10.1007/s13398-025-01768-3",
+        "year": 2025,
+        "venue": "Rev. Real Acad. Cienc. Exactas Fis. Nat. Ser. A-Mat.",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "D4/J3/triality surface, E6/E8 transport tower, exceptional algebra adapters",
+        "proposed_flcr_targets": [
+          "FLCR-04",
+          "FLCR-14",
+          "FLCR-18",
+          "FLCR-27",
+          "FLCR-31",
+          "FLCR-40",
+          "FLCR-58",
+          "FLCR-78"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 04, 14, 18, 27, 31"
+      },
+      {
+        "seed_id": "LEGACY-E8-LEECH-006",
+        "seed_type": "legacy_repo_ability_seed",
+        "title": "E8, Leech, Golay, and Niemeier lattice primitives",
+        "ability_family": "e8_leech_lattice",
+        "source_repo": "CMPLXUNI/CMPLX-R30/PartsFactory",
+        "source_surface": "D:\\repo_harvest",
+        "source_path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\e8.py",
+        "source_paths": [
+          {
+            "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\e8.py",
+            "bytes": 13668,
+            "modified_utc": "2026-06-26T16:44:42.173440+00:00",
+            "sha256": "106cc5c1d4e83e5c317788047a41ad4db9edb932976fccd7fbf5376fed62b335"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\leech.py",
+            "bytes": 14718,
+            "modified_utc": "2026-06-26T16:44:42.173440+00:00",
+            "sha256": "10eff62e05af83bccdcff3a82e6ccc10198f336f2410b7defbb5c8afdbc3626f"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\lattice_codes.py",
+            "bytes": 31138,
+            "modified_utc": "2026-06-26T16:43:13.302891+00:00",
+            "sha256": "b708275a234cf8ea9629656ecba5d62b8211bc3df236270b22aebb5b6c08a6d5"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\enumerated_glue.py",
+            "bytes": 19993,
+            "modified_utc": "2026-06-26T16:43:13.299882+00:00",
+            "sha256": "05980151354a105f878076633952fe5a536857393b2940a8a2048c3cf44932fa"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\cmplx\\crystal\\fabric.py",
+            "bytes": 7259,
+            "modified_utc": "2026-06-26T16:43:08.206363+00:00",
+            "sha256": "b73fd8ab25412e20edca05e3d7ec9e39b0202fac0ea085c06c574b88e94f5765"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\cmplx\\primitives\\core.py",
+            "bytes": 57775,
+            "modified_utc": "2026-06-26T16:43:08.289055+00:00",
+            "sha256": "cf3eff08e6ef41f20de1cc6843e734f22357b3dedc7c846dc691ebe328d0811a"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-18",
+          "FLCR-27",
+          "FLCR-28",
+          "FLCR-31"
+        ],
+        "pipeline_targets": [
+          "tool:lattice",
+          "validator:geometry",
+          "paper:e8-leech-map"
+        ],
+        "pairing_status": "candidate_legacy_ability",
+        "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+        "confidence": 0.85,
+        "blockers": [
+          "dedupe_lattice_implementations",
+          "verify_exact_vs_surrogate_labels"
+        ],
+        "port_mode": "direct_port",
+        "port_rationale": "Existing implementation or document can be reused after normal review.",
+        "rationale": "Multiple repos contain reusable E8 roots, Leech/Golay code towers, Niemeier ledgers, and project-to-Leech helpers.",
+        "provenance_label": "legacy_repo_harvest",
+        "cmplx_standards_gate": "pending_legacy_ability_adapter",
+        "forge_reforge_action": "register_and_validate"
+      }
+    ],
+    "seed_count": 14,
+    "ingress_80_records": [
+      {
+        "ingress_id": "EXT80-18",
+        "ingress_kind": "first40_flcr_slot",
+        "external_id": "doi:10.3390/sym13122289",
+        "doi": "10.3390/sym13122289",
+        "arxiv_id": "",
+        "title": "Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras",
+        "authors": [],
+        "summary": "Curated seed record; full-text extraction pending.",
+        "published": "",
+        "updated": "",
+        "primary_category": "curated_scientific_publication",
+        "categories": [],
+        "source_url": "https://doi.org/10.3390/sym13122289",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/sym13122289",
+        "source_kind": "primary_publisher_or_doi_record",
+        "novelty_status": "new_to_local_chain",
+        "query_used": "vertex operator algebra moonshine observer",
+        "query_relevance_score": null,
+        "route": {
+          "target_slot": "FLCR-18",
+          "target_title": "Exceptional Towers VOA Routes And Observer Face Selection",
+          "topic": "Exceptional Towers VOA Routes And Observer Face Selection"
+        },
+        "scientific_claim": "pending_full_text_extraction",
+        "evidence_type": "curated_publication_seed",
+        "variables_observables": "pending_full_text_extraction",
+        "local_data_anchor": "pending_content_addressed_claim_or_gap_binding",
+        "lcr_attachment": {
+          "L": "Local anchor: Exceptional Towers VOA Routes And Observer Face Selection",
+          "C": "Publication claim, method, observable, or measurement imported without promotion.",
+          "R": "Residual comparison against local claim/gap after variables are extracted.",
+          "T": "first40_flcr_slot route FLCR-18; promote only after derivation and validator pass."
+        },
+        "mannyai_lanes": [
+          "docker_standards_suite",
+          "docker_observability_security_governance"
+        ],
+        "derivation_obligation": "Extract equations, variables, datasets, stated limits, and local claim/gap binding before any closure promotion.",
+        "status": "attached_for_review",
+        "curation_mode": "manual_logic_bound_seed",
+        "knowledge_weight": 0.78,
+        "logic_bound": "external_comparator",
+        "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+        "reasoning_note": "Curated because 'Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras' supplies a recognized external comparator for Exceptional Towers VOA Routes And Observer Face Selection. It is intentionally bounded to review/derivation until local variables and content-addressed anchors are attached.",
+        "nist_nsit_validation": {
+          "validator_family": "NIST/NSIT",
+          "status": "PASS",
+          "checks": [
+            {
+              "check": "source_identity",
+              "status": "PASS"
+            },
+            {
+              "check": "primary_source_record",
+              "status": "PASS"
+            },
+            {
+              "check": "title_present",
+              "status": "PASS"
+            },
+            {
+              "check": "metadata_or_abstract_present",
+              "status": "PASS"
+            },
+            {
+              "check": "route_present",
+              "status": "PASS"
+            },
+            {
+              "check": "lcr_attachment_present",
+              "status": "PASS"
+            },
+            {
+              "check": "mannyai_lanes_attached",
+              "status": "PASS"
+            },
+            {
+              "check": "no_silent_promotion",
+              "status": "PASS"
+            },
+            {
+              "check": "novelty_declared",
+              "status": "PASS"
+            },
+            {
+              "check": "derivation_obligation_declared",
+              "status": "PASS"
+            }
+          ],
+          "pass_count": 10,
+          "total_checks": 10
+        },
+        "provenance_label": "ingress_80_curated",
+        "confidence": "seed_only"
+      },
+      {
+        "seed_id": "EXT80-18",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras",
+        "doi": "10.3390/sym13122289",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-18"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-18; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "ingress_count": 2,
+    "candidate_dois_from_seeds": [
+      "10.1007/s13398-025-01768-3",
+      "10.3390/sym13122289"
+    ],
+    "foundational_form_seeds": [
+      {
+        "seed_id": "FORM-FORM-011",
+        "seed_type": "foundational_form",
+        "title": "Monstrous moonshine",
+        "doi": null,
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-18"
+        ],
+        "pairing_status": "durable_citation",
+        "nist_gate_readiness": "classical_theorem_exempt",
+        "confidence": 0.7,
+        "blockers": [
+          "pre_modern_source",
+          "needs_scoped_comparator_card"
+        ],
+        "rationale": "Monster group representation data and modular functions are linked through a durable moonshine correspondence."
+      }
+    ],
+    "nist_readiness_by_doi": {
+      "10.1039/D4SC07438F": {
+        "doi": "10.1039/D4SC07438F",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-026",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      }
+    }
+  },
+  "receipts": [
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_all_layers.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_formulaic_instantiation.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_p3_weyl_engineering.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_voa_harness.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_voa_lookup_harness.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_voa_lookup_promoted.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_z4_period_template.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-00-established_grounding_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-00-number_is_ribbon_digital_root_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-correction_extraction_verdict_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-rule90_lucas_decomposition_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-lattice_closure_template_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-09-hamiltonian_window_emergence_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-09-u_r30_quantum_circuit_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-center_column_entropy_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-eight_states_one_dual_reading_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_framing_2x2x2_vs_3x3_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_gravity_drive_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_residue_carrier_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_residue_literalized_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-16-continuum_edge_residuals_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-17-error_correction_tower_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-17-golay_leech_tower_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-18-centroid_voa_chain_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-18-voa_moonshine_routes_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-lmfdb_moonshine_anchor_real_data_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-monster_internal_map_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-moonshine_real_data_experiment_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-supersingular_prime_ceiling_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_encoding_collapse.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\RECEIPT_CHAIN\\receipts.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\RECEIPT_CHAIN\\RECEIPT_CHAIN.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\VERIFICATION\\verify_problem_3.py",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Memos between CL_CX_HM\\2026-06-14_14-05-25-0700_CL-to-HM-CX_Reverse-Pass-32-to-28-Affirmative-Upgrades-Plus-Interpretive-Receipts-Folded.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_centroid_voa_chain.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_voa_sector_decomposition.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-23-foldforge_descriptor_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-24-knightforge_ca_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-25-energetic_traversal_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-25-physical_units_calibration_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-nd_game_lattices_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-monster_energy_bound_hypotheses_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\production-formal-papers-CQE-paper-25-physical_units_calibration_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_nbody_3_5_hierarchy_bridge.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_observer_post_su3_electroweak_route.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_pmns_neutrino_standard_form_estimate.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_spectre_tiling_deephole_path.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "centroid_voa_chain_receipt.json",
+      "source": "formal_md",
+      "row_scoped": false,
+      "provenance_label": "formal_md",
+      "confidence": "referenced"
+    }
+  ],
+  "blockers": [],
+  "closure_inclusions": [
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-18 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-18",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-18 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-18",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-18 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-18",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-18 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-18",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    }
+  ],
+  "formal_sections": {
+    "abstract": "This paper formalizes exceptional tower, VOA, Moonshine, and observer-face routes as bounded LCR machinery. The operative object is exceptional observer route. The core result is that bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier. The paper also defines how this result routes forward: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status. Its main residue is explicit: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.",
+    "claims": "| Claim | Lane | Statement |\n|-------|------|-----------|\n| Theorem 18.1 | `cam_crystal_reapplication_result` | bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier |\n| Proposition 18.2 | `normal_form_result` | exceptional observer route can be imported by later papers only through its declared source, receipt, and lane. |\n| Protocol 18.3 | `falsifier_or_open_obligation` | full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations |\n\n## Reviewer Claim Ledger\n\nThis ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.\n\n| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |\n|---|---|---|---|---|---|\n| Theorem 18.1 | CAM route | bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier | CAM/crystal route, source node, projection, window, or addressable evidence artifact | routing and reapplication evidence; not a standalone physical proof | check the CAM source, route, and attached data are named |\n| Proposition 18.2 | formal construction | exceptional observer route can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-use boundary | internal formal coherence; no measured physical identity without a separate calibration row | check that the normal form is named and the conversion rule is explicit |\n| Protocol 18.3 | obligation/falsifier | full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test condition | does not negate satisfied lower-level rows | name the next binding action and owner surface |\n\n## Claim Granularity And Review Table\n\nThe table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.\n\n| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |\n|---|---|---|---|\n| Formal-system result | `FLCR-18` defines or uses **Exceptional Towers, VOA Routes, And Observer Face Selection** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, construction steps, and downstream-use rules are internally consistent and lane typed. | External physical truth, measured prediction, or identity with a standard theory. |\n| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manifest, pass report, or rebuild result exists and matches the row scope. | Completeness outside the enumerated domain or physical correctness outside the tested comparator. |\n| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theorem, definition layer, or citation target is named and the mapping into this paper is explicit. | A new proof of the imported theorem or a hidden change in the imported object's meaning. |\n| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. | That the analogy alone proves the formal, computational, or physical claim. |\n| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calibration protocol, uncertainty, comparator, or falsifier is attached. | A physical conclusion supported only by shared vocabulary rather than calibration, comparator data, or a stated falsifier. |\n| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | That the base formal result is false merely because a stronger downstream claim remains unfinished. |",
+    "keywords": "exceptional observer route; LCR; receipt; claim lane; normal form.",
+    "full_excerpt": "# FLCR-18 - Exceptional Towers, VOA Routes, And Observer Face Selection\n\n**Series:** Formalizing LCR, Unifying Standard Models  \n**Artifact:** formal paper source  \n**Status:** first-pass rich rewrite; requires final citation and build pass.  \n**Claim posture:** maximal local claim posture with explicit lane boundaries.\n\n## Abstract\n\nThis paper formalizes exceptional tower, VOA, Moonshine, and observer-face routes as bounded LCR machinery. The operative object is exceptional observer route. The core result is that bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier. The paper also defines how this result routes forward: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status. Its main residue is explicit: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.\n\n## Keywords\n\nexceptional observer route; LCR; receipt; claim lane; normal form.\n\n## External Reader Orientation\n\nAn outside reviewer should read this paper as a formal-system construction paper. Its local object is **Exceptional Towers, VOA Routes, And Observer Face Selection**. The paper's immediate contribution is: Combines E6/E8 tower scope, VOA finite seed scope, and observer-face selection.\n\nThe nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.\n\nIt does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.\n\n## Reviewer Compression\n\n**Core object.** Exceptional Towers, VOA Routes, And Observer Face Selection.\n\n**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.\n\n**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.\n\n**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.\n\n## Peer Reviewer Assessment\n\nReviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.\n\n**Recommendation.** major revision, technically promising.\n\n**Review score vector.** orientation=2, claim_granularity=2, evidence_visibility=2, falsifier_visibility=2, journal_apparatus=1, base_layer_boundary=2.\n\n**Formal claim rows reviewed.** 3.\n\n### Reviewer Strength Finding\n\nThe manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.\n\n### Major Revision Requests\n\n- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\n- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\n- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\n- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\n\n### Minor Revision Requests\n\n- Normalize theorem capitalization and punctuation.\n- Add final figure/table captions where the text currently describes diagrams schematically.\n- Ensure every acronym and local term appears in the paper-local glossary.\n\n### Acceptance Blockers\n\n- A reviewer can accept the formal contribution with..."
+  },
+  "meta": {
+    "intake_version": "1.2",
+    "generated_at": "2026-07-01T06:22:55.319665+00:00",
+    "evidence_count": 1215,
+    "review_pass_number": 33,
+    "epistemology": "ASSEMBLE-fulfilled product \u2014 publication-grade unified form; substantive open obligations and falsifier rows retained where genuinely open.",
+    "guardrail_tier": "assemble_clean",
+    "assemble_fulfilled": true,
+    "display_status": "ASSEMBLE",
+    "testing_caveat": null,
+    "requires_new_testing": false,
+    "tiers": [
+      "required_direct",
+      "supporting_context",
+      "external_candidates",
+      "receipts",
+      "blockers"
+    ],
+    "standards_model": "cmplx.assembled_paper"
+  },
+  "standards_grade": {
+    "model_id": "cmplx.assembled_paper",
+    "model_version": "0.1.0",
+    "fit_score": 77.941176,
+    "inclusion_band": "partial_inclusive",
+    "distance_to_perfect": 0.220588,
+    "missing_fields": [
+      "blockers",
+      "assembled_section_count",
+      "has_proof_receipt_index",
+      "has_obligation_crosswalk",
+      "has_external_calibration",
+      "has_falsifiers_section",
+      "has_honesty_boundary"
+    ],
+    "field_fit": 0.779412,
+    "graded_at": "2026-07-01T06:22:55.326610+00:00"
+  }
+}

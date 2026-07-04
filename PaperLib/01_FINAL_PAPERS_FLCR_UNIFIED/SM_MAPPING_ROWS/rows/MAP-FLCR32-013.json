@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR32-013",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "Structural color transport",
+  "equation_or_source": "`quark_face_transport_receipt.json`, `quark_face_transport_literalized_receipt.json`",
+  "O_lcr": "LCR translation surface",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "Measured quark identity, confinement dynamics, hadron spectra.",
+  "dataset": "",
+  "falsifier": "Measured quark identity, confinement dynamics, hadron spectra.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

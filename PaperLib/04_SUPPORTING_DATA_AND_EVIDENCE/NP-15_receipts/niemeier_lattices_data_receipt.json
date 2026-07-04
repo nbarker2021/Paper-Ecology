@@ -1,0 +1,18 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-17",
+  "obligation_closed": "Hodge-EXT-01",
+  "verifier": "published_data_niemeier_lattices",
+  "finding": "Niemeier lattice root-system classification",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "24 Niemeier root systems and Coxeter numbers",
+    "source": "Niemeier 1973; Conway-Sloane 'Sphere Packings, Lattices and Groups'",
+    "note": "The seam-decomposition receipt already enumerates the 24 lattices; this is the external mathematical record."
+  },
+  "checks": {
+    "C1_24_lattices_recorded": true,
+    "C2_classification_source_cited": true
+  },
+  "cam_address": "c2fc0c6f042c84bfa324a1ef28c6c767e4c6d757c96f7b5c5d6f516717abc461"
+}

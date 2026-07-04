@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR31-008",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-03",
+  "O_ext": "finite gauge-like transport (structural)",
+  "equation_or_source": "`local evidence artifact`",
+  "O_lcr": "Quark-face transport receipt",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "The receipt explicitly leaves physical quark color charge, CKM phase, and V-A weak structure as open external derivations.",
+  "dataset": "",
+  "falsifier": "The receipt explicitly leaves physical quark color charge, CKM phase, and V-A weak structure as open external derivations.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Executable Evidence Bound",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0037",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\derived_charts.db",
+  "name": "derived_charts.db",
+  "status": "ok",
+  "signal_score": 35,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 3,
+  "signal_tables": [
+    {
+      "table": "derived_assemblies",
+      "row_count": 1014,
+      "signal_columns": [
+        "address",
+        "content_hash"
+      ]
+    },
+    {
+      "table": "derived_cells",
+      "row_count": 1014,
+      "signal_columns": [
+        "cell_hash",
+        "address",
+        "source_master"
+      ]
+    },
+    {
+      "table": "derived_charts",
+      "row_count": 1,
+      "signal_columns": [
+        "content_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "dd33ad33314877b68734d6e63f92beca4166c462158bf9671131431e4ae7c49f"
+}

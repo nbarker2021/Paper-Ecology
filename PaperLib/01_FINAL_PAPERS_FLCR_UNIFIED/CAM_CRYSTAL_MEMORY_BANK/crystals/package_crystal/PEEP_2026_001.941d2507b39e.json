@@ -1,0 +1,97 @@
+{
+  "kind": "package_crystal",
+  "granularity": "pairwise_package",
+  "package_id": "PEEP-2026-001",
+  "title": "Fractional Fermi Sea As Occupancy-Rule And Nonequilibrium-State Comparator",
+  "faces": {
+    "internal_source": {
+      "source": "RECENT_QUANTUM_EVIDENCE_INTAKE_PASS.json; FLCR-34; FLCR-36; FLCR-37; D-drive source-gap queue",
+      "finding": "The corpus needs physical comparators for fractional occupancy, stable excited states, state preparation cycles, and non-classical critical phases."
+    },
+    "external_publication": {
+      "title": "Exotic Critical States as Fractional Fermi Seas in the One-Dimensional Bose Gas",
+      "journal": "Physical Review Letters",
+      "year": 2026,
+      "volume_issue_page": "136, 230402",
+      "doi": "10.1103/j3s5-gjpf",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/j3s5-gjpf",
+      "date_published": "2026-06-09",
+      "peer_review_status": "peer_reviewed_journal_article"
+    },
+    "correlation": "The paper supplies a peer-reviewed comparator for reduced occupancy in a driven one-dimensional quantum system. In the FLCR suite this becomes a test target for claims about slot occupancy, fractional carrier filling, nonequilibrium preparation cycles, and stable excited-state readouts.",
+    "claim_lane": "external_comparator_plus_physics_adapter",
+    "crystal_faces": [
+      "occupancy face: fractional filling vs binary/slot occupancy",
+      "preparation face: cyclic interaction changes vs staged state transition",
+      "stability face: excited yet ordered state vs recursive fold stability",
+      "comparator face: generalized hydrodynamics and correlation functions vs TarPit/bondedness readout"
+    ],
+    "paper_routes": [
+      "FLCR-13",
+      "FLCR-24",
+      "FLCR-34",
+      "FLCR-36",
+      "FLCR-37",
+      "FLCR-41..80"
+    ],
+    "obligations": [
+      "Define the FLCR observable corresponding to fractional occupancy without changing the PRL paper's variables.",
+      "Add unit-bearing comparator rows for momentum distribution, correlation functions, and preparation-cycle parameters.",
+      "Run TarPit/crystal comparison on an encoded fractional-occupancy toy state before any literal physics promotion.",
+      "Route any stronger claim to FLCR-41..80 with external equations and residuals."
+    ],
+    "nist_review": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "source_identity",
+          "status": "PASS"
+        },
+        {
+          "check": "external_peer_review_status",
+          "status": "PASS"
+        },
+        {
+          "check": "date_window_2025_or_current_year",
+          "status": "PASS"
+        },
+        {
+          "check": "correlation_specificity",
+          "status": "PASS"
+        },
+        {
+          "check": "claim_lane_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "paper_routes_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "obligations_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "falsifier_or_comparator_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "no_silent_physics_promotion",
+          "status": "PASS"
+        }
+      ],
+      "pass_count": 9,
+      "total_checks": 9
+    },
+    "validation_review": {
+      "status": "READY_FOR_PAPER_ROUTING",
+      "has_internal_anchor": true,
+      "has_external_paper": true,
+      "has_correlation": true,
+      "has_crystal_faces": true,
+      "has_obligations": true,
+      "next_action": "Attach package to routed papers, then convert obligations into paper-local claim rows and workbook exercises."
+    }
+  },
+  "content_address": "941d2507b39ea3876c50dc345d74d56908e5ed0b8081bd01188b615e4c5beb59"
+}

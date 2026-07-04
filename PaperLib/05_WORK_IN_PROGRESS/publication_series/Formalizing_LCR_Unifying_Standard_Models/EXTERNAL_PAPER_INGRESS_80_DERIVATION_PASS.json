@@ -1,0 +1,56 @@
+{
+  "schema": "flcr.external_ingress_80_derivation_pass.v1",
+  "generated_utc": "2026-07-01T02:41:18.690983+00:00",
+  "focus_slots": [
+    "FLCR-20",
+    "FLCR-24",
+    "FLCR-39"
+  ],
+  "record_count": 3,
+  "derivation_status_counts": {
+    "RECURSIVE_REVIEW_REQUIRED": 3
+  },
+  "derivation_validated_count": 0,
+  "pass_interpretation": "DERIVATION_VALIDATED means local formal anchor + recursive closure are present. This is ingress validation only \u2014 not ASSEMBLE promotion.",
+  "rows": [
+    {
+      "ingress_id": "EXT80-20",
+      "target_slot": "FLCR-20",
+      "title": "Recent advances and applications of deep learning methods in materials science",
+      "doi": "10.1038/s41524-022-00734-6",
+      "recursive_status": "RECURSIVE_REVIEW_REQUIRED",
+      "derivation_status": "RECURSIVE_REVIEW_REQUIRED",
+      "formal_anchor": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\formal.md",
+      "logic_bound": "external_support",
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "rationale": "Recursive closure status is RECURSIVE_REVIEW_REQUIRED; derivation blocked until recursive pass completes.",
+      "next_action": "Complete recursive closure or attach local formal anchor before derivation."
+    },
+    {
+      "ingress_id": "EXT80-24",
+      "target_slot": "FLCR-24",
+      "title": "Receptor-informed network control theory links LSD and psilocybin to a flattening of the brain's control energy landscape",
+      "doi": "10.1038/s41467-022-33578-1",
+      "recursive_status": "RECURSIVE_REVIEW_REQUIRED",
+      "derivation_status": "RECURSIVE_REVIEW_REQUIRED",
+      "formal_anchor": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\formal.md",
+      "logic_bound": "topic_extension",
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "rationale": "Recursive closure status is RECURSIVE_REVIEW_REQUIRED; derivation blocked until recursive pass completes.",
+      "next_action": "Complete recursive closure or attach local formal anchor before derivation."
+    },
+    {
+      "ingress_id": "EXT80-39",
+      "target_slot": "FLCR-39",
+      "title": "Forensic investigation of falsified antimalarials using isotope ratio mass spectrometry: a pilot investigation",
+      "doi": "10.1038/s41598-024-54168-9",
+      "recursive_status": "RECURSIVE_REVIEW_REQUIRED",
+      "derivation_status": "RECURSIVE_REVIEW_REQUIRED",
+      "formal_anchor": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\formal.md",
+      "logic_bound": "external_comparator",
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "rationale": "Recursive closure status is RECURSIVE_REVIEW_REQUIRED; derivation blocked until recursive pass completes.",
+      "next_action": "Complete recursive closure or attach local formal anchor before derivation."
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "count": 206,
+  "items": [
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main",
+      "py_count": 161,
+      "file_count": 172
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqecmplx-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqecmplx-forge",
+      "py_count": 161,
+      "file_count": 171
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 192,
+      "file_count": 348
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 113,
+      "file_count": 116
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF",
+      "py_count": 53,
+      "file_count": 54
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+      "py_count": 53,
+      "file_count": 55
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 192,
+      "file_count": 352
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 113,
+      "file_count": 116
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF",
+      "py_count": 53,
+      "file_count": 54
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production",
+      "py_count": 162,
+      "file_count": 173
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus",
+      "py_count": 161,
+      "file_count": 172
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+      "py_count": 53,
+      "file_count": 55
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge",
+      "py_count": 39,
+      "file_count": 183
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib",
+      "py_count": 132,
+      "file_count": 202
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Production\\packaging\\cqecmplx-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\CQECMPLX-Production\\packaging\\cqecmplx-forge",
+      "py_count": 131,
+      "file_count": 133
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+      "py_count": 192,
+      "file_count": 348
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge",
+      "py_count": 113,
+      "file_count": 116
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-R30\\PROOF\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\g\\CMPLX-R30\\PROOF",
+      "py_count": 53,
+      "file_count": 54
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\GaussHaus",
+      "py_count": 161,
+      "file_count": 172
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\build\\lib\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\build\\lib\\lattice_forge",
+      "py_count": 132,
+      "file_count": 133
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqecmplx-forge",
+      "py_count": 161,
+      "file_count": 171
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\PaneForge-Stick\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\products\\SplatForge-Stick\\lib-forge\\lattice_forge",
+      "py_count": 8,
+      "file_count": 8
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\build\\lib\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\build\\lib\\lattice_forge",
+      "py_count": 132,
+      "file_count": 133
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite74_cqecmplx_forge",
+      "py_count": 136,
+      "file_count": 144
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 192,
+      "file_count": 348
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge",
+      "py_count": 113,
+      "file_count": 116
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-R30-main\\PROOF",
+      "py_count": 53,
+      "file_count": 54
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+      "py_count": 53,
+      "file_count": 55
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\workspace-tools\\paneforge\\src\\paneforge_tool\\_product\\lib-forge\\lattice_forge",
+      "kind": "directory",
+      "package_root": "D:\\CQE_CMPLX\\workspace-tools\\paneforge\\src\\paneforge_tool\\_product\\lib-forge\\lattice_forge",
+      "py_count": 3,
+      "file_count": 3
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\Claude-Codex-Memory\\Claude work\\CL-AirLock-Survey\\CL_airlock-key-lattice-forge-modules.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\Claude-Codex-Memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-lattice-forge-inventory.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\Claude-Codex-Memory\\Memos between CL_CX_HM\\2026-06-08_20-35-20-0700_CX-to-CL_CMPLX-PartsFactory-Zip-Deep-Dive-Content-Profile-Complete-LatticeForge-Ledger.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\docs\\LATTICEFORGE_INTEGRATION_v0_2.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\tests\\test_latticeforge_integration.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\.github\\workflows\\lattice-forge-family.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\081-lattice-forge-prior-initial-overclaim-paper-for-record.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\082-lattice-forge-prior-spinor-oloid-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\083-lattice-forge-prior-lambda-rule30-equivalence-unified-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\084-lattice-forge-prior-aletheia-cqe-generative-structure.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\086-lattice-forge-core-witness.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\088-lattice-forge-core-regimes-abc-d4.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\.github\\workflows\\lattice-forge-family.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\081-lattice-forge-prior-initial-overclaim-paper-for-record.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\082-lattice-forge-prior-spinor-oloid-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\083-lattice-forge-prior-lambda-rule30-equivalence-unified-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\084-lattice-forge-prior-aletheia-cqe-generative-structure.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\086-lattice-forge-core-witness.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\088-lattice-forge-core-regimes-abc-d4.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-formal-S19\\verify_lattice_forge_s19.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\docs\\LATTICEFORGE_INTEGRATION_v0_2.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\tests\\test_latticeforge_integration.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-Formalization\\appendices\\extracted-formalizations\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-Formalization\\appendices\\extracted-formalizations\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\.github\\workflows\\lattice-forge-family.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\081-lattice-forge-prior-initial-overclaim-paper-for-record.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\082-lattice-forge-prior-spinor-oloid-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\083-lattice-forge-prior-lambda-rule30-equivalence-unified-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\084-lattice-forge-prior-aletheia-cqe-generative-structure.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\086-lattice-forge-core-witness.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\088-lattice-forge-core-regimes-abc-d4.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\g\\CMPLX-PartsFactory\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\GaussHaus\\src\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\LATTICE_FORGE_MODULE_PAPER_MAP.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\LATTICE_FORGE_SUBSTRATE_ASSESSMENT.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\composites\\CQECMPLX-LatticeForge-ReForge.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S19\\verify_lattice_forge_s19.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\packages\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\historical_pastworks\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\historical_pastworks\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\codex\\memos\\2026-06-08_20-35-20-0700_CX-to-CL_CMPLX-PartsFactory-Zip-Deep-Dive-Content-Profile-Complete-LatticeForge-Ledger.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_proof-source-lattice-forge-inventory.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\081-lattice-forge-prior-initial-overclaim-paper-for-record.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\082-lattice-forge-prior-spinor-oloid-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\083-lattice-forge-prior-lambda-rule30-equivalence-unified-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\084-lattice-forge-prior-aletheia-cqe-generative-structure.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\086-lattice-forge-core-witness.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\088-lattice-forge-core-regimes-abc-d4.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite28_memos\\2026-06-08_20-35-20-0700_CX-to-CL_CMPLX-PartsFactory-Zip-Deep-Dive-Content-Profile-Complete-LatticeForge-Ledger.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite35_whitepapers\\LATTICE_FORGE_MODULE_PAPER_MAP.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite45_remaining_historical\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite75_cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite75_cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite76_kernel_live\\codex\\memos\\2026-06-08_20-35-20-0700_CX-to-CL_CMPLX-PartsFactory-Zip-Deep-Dive-Content-Profile-Complete-LatticeForge-Ledger.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite76_kernel_live\\production\\governance\\legacy-tracking\\LATTICE_FORGE_SUBSTRATE_ASSESSMENT.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite76_kernel_live\\production\\governance\\legacy-tracking\\composites\\CQECMPLX-LatticeForge-ReForge.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-AirLock-Survey\\CL_airlock-key-lattice-forge-modules.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-lattice-forge-inventory.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Memos between CL_CX_HM\\2026-06-08_20-35-20-0700_CX-to-CL_CMPLX-PartsFactory-Zip-Deep-Dive-Content-Profile-Complete-LatticeForge-Ledger.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\docs\\LATTICEFORGE_INTEGRATION_v0_2.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\tests\\test_latticeforge_integration.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-nonlib-forge-files\\CMPLX-PartsFactory-main\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\lattice_forge_analysis.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\lattice_forge_code_review.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docker-compose.lattice-forge.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\.github\\workflows\\lattice-forge-family.yml",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-baseline-2026-05-21.json",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-cmplx-port-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-harness-dag.mmd",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\lattice-forge-port-review-2026-05-21.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\checkpoints\\2026-05-21-026-lattice-forge-dual-home-port.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\081-lattice-forge-prior-initial-overclaim-paper-for-record.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\082-lattice-forge-prior-spinor-oloid-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\083-lattice-forge-prior-lambda-rule30-equivalence-unified-report.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\084-lattice-forge-prior-aletheia-cqe-generative-structure.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\086-lattice-forge-core-witness.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\088-lattice-forge-core-regimes-abc-d4.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\092-lattice-forge-core-open-obligations.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\095-lattice-forge-core-umbrella-formalization.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\dev_lattice_forge_env.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\start_lattice_forge_suite.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\sync_lattice_forge_package.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\scripts\\verify_lattice_forge_family.ps1",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\production\\governance\\legacy-tracking\\LATTICE_FORGE_SUBSTRATE_ASSESSMENT.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\production\\governance\\legacy-tracking\\composites\\CQECMPLX-LatticeForge-ReForge.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQE-CMPLX-1T-Dev-main\\CQE-CMPLX-1T-Dev-main\\src\\papers\\formal\\CQE-paper-formal-S19\\verify_lattice_forge_s19.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\LATTICE_FORGE_MODULE_PAPER_MAP.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\governance\\legacy-tracking\\LATTICE_FORGE_SUBSTRATE_ASSESSMENT.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\governance\\legacy-tracking\\composites\\CQECMPLX-LatticeForge-ReForge.md",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\formal-papers\\CQE-paper-formal-S19\\verify_lattice_forge_s19.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqekernel\\firmware\\lattice_forge_bridge.py",
+      "kind": "named-file"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\_tmp_unpack\\CQECMPLX-Production-main(11)\\CQECMPLX-Production-main\\production\\packages\\cqekernel\\tests\\test_lattice_forge_bridge.py",
+      "kind": "named-file"
+    }
+  ]
+}

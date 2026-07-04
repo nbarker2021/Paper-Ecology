@@ -1,0 +1,1878 @@
+{
+  "paper_id": "FLCR-15",
+  "title": "Curvature As Boundary-Repair Demand",
+  "status": "ASSEMBLE",
+  "pipeline_decision": "ASSEMBLE",
+  "formal_md": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\formal.md",
+  "required_direct": {
+    "open_obligations": [
+      {
+        "obligation_id": "FLCR-15-OBL-001",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Theorem 15.1",
+        "claim_text": "Boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-05",
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-002",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Proposition 15.2",
+        "claim_text": "Repair-curvature map can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-003",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Protocol 15.3",
+        "claim_text": "Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-35"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-004",
+        "flcr_id": "FLCR-15",
+        "source_section": "Claim Binding Queue / Continuum Edge And Sampling-Stability Bridge",
+        "claim_text": "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-005",
+        "flcr_id": "FLCR-15",
+        "source_section": "Higgs mass calibration (Protocol 16.3 residue)",
+        "claim_text": "Higgs mass calibration not closed; PEEP-001 deferred; derive residue obligations before physics promotion.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [
+          "FLCR-16"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-006",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-007",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-008",
+        "flcr_id": "FLCR-15",
+        "source_section": "Source-Backed Evidence / CQE-paper-14.50",
+        "claim_text": "Boundary-repair curvature claim contract: repair is substrate quantity; physical curvature is interpretation until proven.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-009",
+        "flcr_id": "FLCR-15",
+        "source_section": "Slot 15 partial wiring (Phase 12)",
+        "claim_text": "PEEP-017 transport lane; PEEP-001 occupancy/residue lane for Higgs mass deferred per CAR-ROUTE-005.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-010",
+        "flcr_id": "FLCR-15",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-011",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Discrete repair-curvature ledger does not imply Einstein-field-equation identity.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-012",
+        "flcr_id": "FLCR-15",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 13 reopened at slot 14 with curvature-ledger receipt.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-013",
+        "flcr_id": "FLCR-15",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-014",
+        "flcr_id": "FLCR-15",
+        "source_section": "Worked Example / FLCR-15-T3",
+        "claim_text": "Workbook replay must demonstrate repair-curvature readout with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-001",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Theorem 15.1",
+        "claim_text": "Boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-05",
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-002",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Proposition 15.2",
+        "claim_text": "Repair-curvature map can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-003",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Protocol 15.3",
+        "claim_text": "Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-35"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-004",
+        "flcr_id": "FLCR-15",
+        "source_section": "Claim Binding Queue / Continuum Edge And Sampling-Stability Bridge",
+        "claim_text": "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-005",
+        "flcr_id": "FLCR-15",
+        "source_section": "Higgs mass calibration (Protocol 16.3 residue)",
+        "claim_text": "Higgs mass calibration not closed; PEEP-001 deferred; derive residue obligations before physics promotion.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [
+          "FLCR-16"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-006",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-007",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-008",
+        "flcr_id": "FLCR-15",
+        "source_section": "Source-Backed Evidence / CQE-paper-14.50",
+        "claim_text": "Boundary-repair curvature claim contract: repair is substrate quantity; physical curvature is interpretation until proven.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-009",
+        "flcr_id": "FLCR-15",
+        "source_section": "Slot 15 partial wiring (Phase 12)",
+        "claim_text": "PEEP-017 transport lane; PEEP-001 occupancy/residue lane for Higgs mass deferred per CAR-ROUTE-005.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-010",
+        "flcr_id": "FLCR-15",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-011",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Discrete repair-curvature ledger does not imply Einstein-field-equation identity.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-012",
+        "flcr_id": "FLCR-15",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 13 reopened at slot 14 with curvature-ledger receipt.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-013",
+        "flcr_id": "FLCR-15",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-014",
+        "flcr_id": "FLCR-15",
+        "source_section": "Worked Example / FLCR-15-T3",
+        "claim_text": "Workbook replay must demonstrate repair-curvature readout with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-001",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Theorem 15.1",
+        "claim_text": "Boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-05",
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-002",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Proposition 15.2",
+        "claim_text": "Repair-curvature map can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-003",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Protocol 15.3",
+        "claim_text": "Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-35"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-004",
+        "flcr_id": "FLCR-15",
+        "source_section": "Claim Binding Queue / Continuum Edge And Sampling-Stability Bridge",
+        "claim_text": "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-005",
+        "flcr_id": "FLCR-15",
+        "source_section": "Higgs mass calibration (Protocol 16.3 residue)",
+        "claim_text": "Higgs mass calibration not closed; PEEP-001 deferred; derive residue obligations before physics promotion.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [
+          "FLCR-16"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-006",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-007",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-008",
+        "flcr_id": "FLCR-15",
+        "source_section": "Source-Backed Evidence / CQE-paper-14.50",
+        "claim_text": "Boundary-repair curvature claim contract: repair is substrate quantity; physical curvature is interpretation until proven.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-009",
+        "flcr_id": "FLCR-15",
+        "source_section": "Slot 15 partial wiring (Phase 12)",
+        "claim_text": "PEEP-017 transport lane; PEEP-001 occupancy/residue lane for Higgs mass deferred per CAR-ROUTE-005.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-010",
+        "flcr_id": "FLCR-15",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-011",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Discrete repair-curvature ledger does not imply Einstein-field-equation identity.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-012",
+        "flcr_id": "FLCR-15",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 13 reopened at slot 14 with curvature-ledger receipt.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-013",
+        "flcr_id": "FLCR-15",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-014",
+        "flcr_id": "FLCR-15",
+        "source_section": "Worked Example / FLCR-15-T3",
+        "claim_text": "Workbook replay must demonstrate repair-curvature readout with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-001",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Theorem 15.1",
+        "claim_text": "Boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-05",
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-002",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Proposition 15.2",
+        "claim_text": "Repair-curvature map can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-003",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Protocol 15.3",
+        "claim_text": "Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-35"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-004",
+        "flcr_id": "FLCR-15",
+        "source_section": "Claim Binding Queue / Continuum Edge And Sampling-Stability Bridge",
+        "claim_text": "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-005",
+        "flcr_id": "FLCR-15",
+        "source_section": "Higgs mass calibration (Protocol 16.3 residue)",
+        "claim_text": "Higgs mass calibration not closed; PEEP-001 deferred; derive residue obligations before physics promotion.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [
+          "FLCR-16"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-006",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-007",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-008",
+        "flcr_id": "FLCR-15",
+        "source_section": "Source-Backed Evidence / CQE-paper-14.50",
+        "claim_text": "Boundary-repair curvature claim contract: repair is substrate quantity; physical curvature is interpretation until proven.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-009",
+        "flcr_id": "FLCR-15",
+        "source_section": "Slot 15 partial wiring (Phase 12)",
+        "claim_text": "PEEP-017 transport lane; PEEP-001 occupancy/residue lane for Higgs mass deferred per CAR-ROUTE-005.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-010",
+        "flcr_id": "FLCR-15",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-011",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Discrete repair-curvature ledger does not imply Einstein-field-equation identity.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-012",
+        "flcr_id": "FLCR-15",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 13 reopened at slot 14 with curvature-ledger receipt.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-013",
+        "flcr_id": "FLCR-15",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-014",
+        "flcr_id": "FLCR-15",
+        "source_section": "Worked Example / FLCR-15-T3",
+        "claim_text": "Workbook replay must demonstrate repair-curvature readout with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-001",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Theorem 15.1",
+        "claim_text": "Boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-05",
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-002",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Proposition 15.2",
+        "claim_text": "Repair-curvature map can be imported by later papers only through declared source, receipt, and lane.",
+        "evidence_type_needed": "normal_form_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-003",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a74 Formal Claims / Protocol 15.3",
+        "claim_text": "Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [
+          "FLCR-35"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-004",
+        "flcr_id": "FLCR-15",
+        "source_section": "Claim Binding Queue / Continuum Edge And Sampling-Stability Bridge",
+        "claim_text": "Attach sampling rule, interpolation/limit statement, norm, error bound, units, and boundary condition.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-005",
+        "flcr_id": "FLCR-15",
+        "source_section": "Higgs mass calibration (Protocol 16.3 residue)",
+        "claim_text": "Higgs mass calibration not closed; PEEP-001 deferred; derive residue obligations before physics promotion.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [
+          "FLCR-16"
+        ],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-006",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Final citations and receipt identifiers must be attached before reviewer acceptance.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-007",
+        "flcr_id": "FLCR-15",
+        "source_section": "Acceptance Blockers",
+        "claim_text": "Proof sketch must be promoted into formal proof or labeled construction argument.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-008",
+        "flcr_id": "FLCR-15",
+        "source_section": "Source-Backed Evidence / CQE-paper-14.50",
+        "claim_text": "Boundary-repair curvature claim contract: repair is substrate quantity; physical curvature is interpretation until proven.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-009",
+        "flcr_id": "FLCR-15",
+        "source_section": "Slot 15 partial wiring (Phase 12)",
+        "claim_text": "PEEP-017 transport lane; PEEP-001 occupancy/residue lane for Higgs mass deferred per CAR-ROUTE-005.",
+        "evidence_type_needed": "external_calibration_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-010",
+        "flcr_id": "FLCR-15",
+        "source_section": "Major Revision Requests",
+        "claim_text": "Replace placeholder source classes with receipt hashes or dataset identifiers.",
+        "evidence_type_needed": "standard_theorem_citation_bound_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-011",
+        "flcr_id": "FLCR-15",
+        "source_section": "\u00a79 Limitations And Falsifiers",
+        "claim_text": "Discrete repair-curvature ledger does not imply Einstein-field-equation identity.",
+        "evidence_type_needed": "falsifier_or_open_obligation",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-012",
+        "flcr_id": "FLCR-15",
+        "source_section": "State-Bound Proof Contract",
+        "claim_text": "Bind state from slot 13 reopened at slot 14 with curvature-ledger receipt.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [
+          "FLCR-14"
+        ],
+        "status": "derived_pending_receipt"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-013",
+        "flcr_id": "FLCR-15",
+        "source_section": "Publication Readiness Tasks",
+        "claim_text": "Validator identities and receipt hashes recorded in manifest or receipt appendix.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "staged_open"
+      },
+      {
+        "obligation_id": "FLCR-15-OBL-014",
+        "flcr_id": "FLCR-15",
+        "source_section": "Worked Example / FLCR-15-T3",
+        "claim_text": "Workbook replay must demonstrate repair-curvature readout with named falsifier per claim lane.",
+        "evidence_type_needed": "receipt_bound_internal_result",
+        "prior_paper_deps": [],
+        "status": "derived_pending_receipt"
+      }
+    ],
+    "pending_external_pair_rows": [
+      {
+        "queue_id": "EQ-REG-0048",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\formal.md",
+        "artifact_type": "paper",
+        "slot_families": "FLCR-15;41;51;61;71;43",
+        "gate_status": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+        "notes": "notebook=DEP-FLCR-18-17; ontology_loaded=yes",
+        "source_chunk": "",
+        "path_exists": true,
+        "intake_status": "PROMOTED_TO_PEEP_PACKAGE",
+        "next_action": "Package in PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX; run assembly pipeline.",
+        "provenance_label": "external_pair_queue"
+      }
+    ],
+    "assembly_audit_falsifier_gaps": [
+      {
+        "record_id": "PEEP-2026-027",
+        "title": "E8 Linear Models As Exceptional-Algebra Boundary Repair Comparator",
+        "external_paper_doi": "10.1007/s13398-025-01768-3",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: boundary promotion without exceptional-algebra grading analogue"
+        ],
+        "obligations": [
+          "Map each slot-04/14 boundary row to a specific e8 grading model (Z4, Z5, or Z6) from the 2025 paper.",
+          "Reuse PEEP-010 machine-check receipts; do not duplicate JMP exceptional-Jordan comparator claims.",
+          "Add a falsifier row: any boundary repair crossing without published e8 module support.",
+          "Hold GR/curvature promotion at slot 14 until unit-bearing comparator rows attach."
+        ],
+        "provenance_label": "assembly_audit"
+      }
+    ],
+    "paired_dois": [
+      "10.1007/s13398-025-01768-3"
+    ],
+    "peep_bindings": [
+      "PEEP-2026-027"
+    ],
+    "direct_peep_bindings": [],
+    "queue_id": null
+  },
+  "supporting_context": {
+    "timeline_nodes": [
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_papers_14_d12_moonshine_chain_md_6bf9a89879aa",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\papers\\14_d12_moonshine_chain.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_staging_papers_suite5_r30proof_14_d12_moonshine_chain_14_d12_moonshine_chain_md_95b47a0885eb",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite5_r30proof\\14_d12_moonshine_chain\\14_d12_moonshine_chain.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-14_01-CQE-formal_FORMAL_md_300901052a76",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-14\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__axiom_00_1\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_9e3309f36813",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__axiom_00_2\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_59eab4bc8c56",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__axiom_00_3\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_f6130e60ca03",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__axiom_00_4\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_03da443e212f",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__lemma_00_1\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_69c637a00711",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__lemma_00_2\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_6b48f79ca90d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\decay\\CQE-paper-00\\cqe-paper-00__lemma_00_3\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_fd2771b9813c",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__axiom_00_1\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_5f6f5f706af0",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__axiom_00_2\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_00f882814f45",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__axiom_00_3\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_87ea3f62c701",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__axiom_00_4\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_70f790094122",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__lemma_00_1\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_21f43ee7f674",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__lemma_00_2\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_e91887c1c0d8",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\shared-memory\\mirror\\formalization\\CQE-paper-00\\cqe-paper-00__lemma_00_3\\20260607T214925Z.json",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {},
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "E_CMPLX-workspace_CMPLX-PartsFactory-main_docs_CAPABILITY_REGISTRY_2026-05-14_md_59a24f9a4949",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\CAPABILITY_REGISTRY_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "pace_CMPLX-PartsFactory-main_docs_CLAUDE_PROTOTYPE_EVIDENCE_BRIDGE_2026-05-14_md_013cc1ceec31",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\CLAUDE_PROTOTYPE_EVIDENCE_BRIDGE_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "PLX-workspace_CMPLX-PartsFactory-main_docs_CLEAN_SYSTEM_IMAGE_PLAN_2026-05-14_md_a3361540641e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\CLEAN_SYSTEM_IMAGE_PLAN_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "QE_CMPLX-workspace_CMPLX-PartsFactory-main_docs_CONTROL_LAYER_LIVE_2026-05-14_md_2855d5d1b6fe",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\CONTROL_LAYER_LIVE_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-workspace_CMPLX-PartsFactory-main_docs_GITNEXUS_USAGE_AND_CONTROL_2026-05-14_md_e0da1e607eb3",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GITNEXUS_USAGE_AND_CONTROL_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "CMPLX-PartsFactory-main_docs_GLOBAL_AGENT_ORCHESTRATION_SYSTEM_API_2026-05-14_md_4e9830288b24",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_AGENT_ORCHESTRATION_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "PLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_COVERAGE_GAP_MAP_2026-05-14_md_c7a7ba25d97b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_COVERAGE_GAP_MAP_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "space_CMPLX-PartsFactory-main_docs_GLOBAL_FORMALIZATION_SYSTEM_API_2026-05-14_md_f01ead071cf6",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_FORMALIZATION_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_CQE_CMPLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_GAP_LANES_2026-05-14_md_0a9d338af18e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_GAP_LANES_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_GEOMETRY_SYSTEM_API_2026-05-14_md_29c0b156c39d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_GEOMETRY_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "workspace_CMPLX-PartsFactory-main_docs_GLOBAL_KNOWLEDGE_SYSTEM_API_2026-05-14_md_d0bab418032c",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_KNOWLEDGE_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "PLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_LIVE_SLICES_PASS_2026-05-14_md_39ec17cf5c2d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_LIVE_SLICES_PASS_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "X-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_LIVE_TOOL_WORKBOOK_2026-05-14_md_89fbe92ae70b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_LIVE_TOOL_WORKBOOK_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "E_CMPLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_LOCATION_MAP_2026-05-14_md_c94739d84ab4",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_LOCATION_MAP_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "CMPLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_MCP_SYSTEM_API_2026-05-14_md_bee193e5fcfe",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_MCP_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "LX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_MEMORY_SYSTEM_API_2026-05-14_md_82899f01cb2a",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_MEMORY_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "orkspace_CMPLX-PartsFactory-main_docs_GLOBAL_OPERATIONS_SYSTEM_API_2026-05-14_md_ebbd0da4a896",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_OPERATIONS_SYSTEM_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_CQE_CMPLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_QUERY_API_2026-05-14_md_270ae079b77a",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_QUERY_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "rkspace_CMPLX-PartsFactory-main_docs_GLOBAL_REMAINING_SYSTEM_LANES_2026-05-14_md_33a1d0d37fe8",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_REMAINING_SYSTEM_LANES_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "X-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_RUNTIME_SLICE_PLAN_2026-05-14_md_aaeed5d2f029",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_RUNTIME_SLICE_PLAN_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_CQE_CMPLX-workspace_CMPLX-PartsFactory-main_docs_GLOBAL_STATE_API_2026-05-14_md_cb37296fe4f8",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_STATE_API_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "orkspace_CMPLX-PartsFactory-main_docs_GLOBAL_STATIC_CONTROL_SLICES_2026-05-14_md_f950eae98728",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\GLOBAL_STATIC_CONTROL_SLICES_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "X-workspace_CMPLX-PartsFactory-main_docs_REGISTERED_SYSTEMS_BUNDLE_2026-05-14_md_1ed1e584ffde",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\docs\\REGISTERED_SYSTEMS_BUNDLE_2026-05-14.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      }
+    ],
+    "timeline_edges": [
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_9e3309f36813",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_59eab4bc8c56",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_f6130e60ca03",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_03da443e212f",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_69c637a00711",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_6b48f79ca90d",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_fd2771b9813c",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_5f6f5f706af0",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_00f882814f45",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_87ea3f62c701",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_70f790094122",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_21f43ee7f674",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_e91887c1c0d8",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "timeline_node_count": 71,
+    "timeline_edge_count": 13,
+    "motif_bindings": [
+      {
+        "motif": "rule30_lineage",
+        "node_count": 21,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "jordan_lineage",
+        "node_count": 10,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "lattice_forge_lineage",
+        "node_count": 41,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "moonshine_lineage",
+        "node_count": 18,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "forge_lineage",
+        "node_count": 4,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "hub_receipt_lineage",
+        "node_count": 7,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "sm_bridge_lineage",
+        "node_count": 11,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      }
+    ],
+    "registry_discovery_rows": [],
+    "registry_discovery_count": 0,
+    "nearby_flcr_slots": [
+      {
+        "slot": "FLCR-13",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-14",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-16",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-17",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      }
+    ],
+    "formal_bibliography_refs": {
+      "dois": [],
+      "flcr_xrefs": [
+        "FLCR-01",
+        "FLCR-05",
+        "FLCR-11",
+        "FLCR-15",
+        "FLCR-18",
+        "FLCR-25",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-35",
+        "FLCR-40"
+      ],
+      "receipt_paths": [],
+      "source_paths": [
+        "14_GR_Boundary_Repair_Curvature.md`: # Paper 14 - GR Boundary-Repair Curvature **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body **Status.** Internal proof-map closed for finite boundary-repair curvature as a reference, and the oloid/Cayley-Dickson curved-carrier receipts. Open for ### Abstract closed result is a finite receipt theorem: each transport row has a typed status, demonstrated rows carry zero repair score, non-closed lifts carry ### Keywords ### Definitions A **flat reference** is a closed transport whose exact residual is `0`. while preserving a receipt and an honesty boundary. ### Theorems **Theorem 14.1, Repair-Ledger Curvature.** For each promoted transport row, on visible non-closed lifts. **Theorem 14.2, Zero-Repair Reference.** The exact `n=3` shell-2 `SU(3)` clo",
+        "FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal",
+        "supplements/14_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/14_INTERNAL_REASONING_SUPPLEMENT.md`: # Paper 14 Internal Reasoning Supplement ## Core Reading ## Reasoning Additions | Holonomy caution | Curvature often appears through path-dependent holonomy; CQE path residues may be compared to this, but a connection and loop observable are required for a real holonomy claim. | ## Possible Uses 4. Use discrete-curvature analogies to design later verifier targets without using them in Rule 30 claims. ## Deferred Back-Application Slots | `14.BA.1` | Repair demand acts as internal curvature substrate. | Papers 16, 25, 26 and NP-06. | Later papers may attach physical geometry, plasma, or energy traversal interpretations. | Repair score remains separate from GR tensor curvature until mapped. | Geometry/calibration receipt. | | `14.BA.2` | Paper 13 gives a zero-repair reference. | Papers 13, 15, 19. | Later algebraic references may add more flat baselines. | Each baseline must name the exact",
+        "virtuous/14_GR_Boundary-Repair_Curvature_VIRTUOUS.md",
+        "virtuous\\14_GR_Boundary-Repair_Curvature_VIRTUOUS.md`: # Paper 14 - GR Boundary-Repair Curvature **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Source Faces | Current rework | `D:\\Paper Reworks\\14_GR_Boundary_Repair_Curvature.md` | 452 words | Existing skeleton, current status, obligations. | | Canonical formal paper | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-14\\FORMAL_PAPER.md` | 774 words | Main theorem, proof, receipt, falsifier spine. | | Formal verifiers | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-14` | 2 files | Executable evidence surface. | | Formal receipts | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-14` | 2 files | Receipt status and check counts. | | Saved GLM closure rows | `D:\\CQE_CMPLX\\_downloads_review\\glm_obligation_closure_matrix.json` | 0 relevant"
+      ]
+    },
+    "zip_crosswalk_refs": [
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_9e3309f36813",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_59eab4bc8c56",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_f6130e60ca03",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_03da443e212f",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_69c637a00711",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_6b48f79ca90d",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_fd2771b9813c",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_2_20260607T214925Z_json_5f6f5f706af0",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_3_20260607T214925Z_json_00f882814f45",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__axiom_00_4_20260607T214925Z_json_87ea3f62c701",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_1_20260607T214925Z_json_70f790094122",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_2_20260607T214925Z_json_21f43ee7f674",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "mirror_formalization_CQE-paper-00_cqe-paper-00__lemma_00_3_20260607T214925Z_json_e91887c1c0d8",
+        "to": "-memory_mirror_decay_CQE-paper-00_cqe-paper-00__axiom_00_1_20260607T214925Z_json_5a3b711e7639",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "anchors": {
+      "triad_on_disk": true,
+      "assembly_audit_bound": true,
+      "queue_pending": false
+    }
+  },
+  "external_candidates": {
+    "seed_candidates": [
+      {
+        "seed_id": "FORM-FORM-013",
+        "seed_type": "foundational_form",
+        "title": "General relativity field equations",
+        "doi": null,
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-15"
+        ],
+        "pairing_status": "durable_citation",
+        "nist_gate_readiness": "classical_theorem_exempt",
+        "confidence": 0.7,
+        "blockers": [
+          "pre_modern_source",
+          "needs_scoped_comparator_card"
+        ],
+        "rationale": "Curvature and stress-energy are coupled by a geometric field equation; durable continuum gravity form."
+      },
+      {
+        "seed_id": "CLAIM-10.1038/s41567-021-0",
+        "seed_type": "lane_claim_queue_ingress",
+        "title": "Topological defects and the formation of geometrical patterns in active matter",
+        "doi": "10.1038/s41567-021-01213-3",
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-15"
+        ],
+        "pairing_status": "ingress_claim",
+        "nist_gate_readiness": "PASS",
+        "confidence": 0.6,
+        "blockers": [],
+        "rationale": "pending_full_text_extraction"
+      },
+      {
+        "seed_id": "EXT80-15",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Topological defects and the formation of geometrical patterns in active matter",
+        "doi": "10.1038/s41567-021-01213-3",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-15"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-15; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "seed_count": 3,
+    "ingress_80_records": [
+      {
+        "ingress_id": "EXT80-15",
+        "ingress_kind": "first40_flcr_slot",
+        "external_id": "doi:10.1038/s41567-021-01213-3",
+        "doi": "10.1038/s41567-021-01213-3",
+        "arxiv_id": "",
+        "title": "Topological defects and the formation of geometrical patterns in active matter",
+        "authors": [],
+        "summary": "Curated seed record; full-text extraction pending.",
+        "published": "",
+        "updated": "",
+        "primary_category": "curated_scientific_publication",
+        "categories": [],
+        "source_url": "https://doi.org/10.1038/s41567-021-01213-3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41567-021-01213-3",
+        "source_kind": "primary_publisher_or_doi_record",
+        "novelty_status": "new_to_local_chain",
+        "query_used": "curvature boundary repair general relativity",
+        "query_relevance_score": null,
+        "route": {
+          "target_slot": "FLCR-15",
+          "target_title": "Curvature As Boundary Repair Demand",
+          "topic": "Curvature As Boundary Repair Demand"
+        },
+        "scientific_claim": "pending_full_text_extraction",
+        "evidence_type": "curated_publication_seed",
+        "variables_observables": "pending_full_text_extraction",
+        "local_data_anchor": "pending_content_addressed_claim_or_gap_binding",
+        "lcr_attachment": {
+          "L": "Local anchor: Curvature As Boundary Repair Demand",
+          "C": "Publication claim, method, observable, or measurement imported without promotion.",
+          "R": "Residual comparison against local claim/gap after variables are extracted.",
+          "T": "first40_flcr_slot route FLCR-15; promote only after derivation and validator pass."
+        },
+        "mannyai_lanes": [
+          "docker_standards_suite",
+          "docker_observability_security_governance"
+        ],
+        "derivation_obligation": "Extract equations, variables, datasets, stated limits, and local claim/gap binding before any closure promotion.",
+        "status": "attached_for_review",
+        "curation_mode": "manual_logic_bound_seed",
+        "knowledge_weight": 0.58,
+        "logic_bound": "topic_extension",
+        "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+        "reasoning_note": "Curated because 'Topological defects and the formation of geometrical patterns in active matter' supplies a recognized external comparator for Curvature As Boundary Repair Demand. It is intentionally bounded to review/derivation until local variables and content-addressed anchors are attached.",
+        "nist_nsit_validation": {
+          "validator_family": "NIST/NSIT",
+          "status": "PASS",
+          "checks": [
+            {
+              "check": "source_identity",
+              "status": "PASS"
+            },
+            {
+              "check": "primary_source_record",
+              "status": "PASS"
+            },
+            {
+              "check": "title_present",
+              "status": "PASS"
+            },
+            {
+              "check": "metadata_or_abstract_present",
+              "status": "PASS"
+            },
+            {
+              "check": "route_present",
+              "status": "PASS"
+            },
+            {
+              "check": "lcr_attachment_present",
+              "status": "PASS"
+            },
+            {
+              "check": "mannyai_lanes_attached",
+              "status": "PASS"
+            },
+            {
+              "check": "no_silent_promotion",
+              "status": "PASS"
+            },
+            {
+              "check": "novelty_declared",
+              "status": "PASS"
+            },
+            {
+              "check": "derivation_obligation_declared",
+              "status": "PASS"
+            }
+          ],
+          "pass_count": 10,
+          "total_checks": 10
+        },
+        "provenance_label": "ingress_80_curated",
+        "confidence": "seed_only"
+      },
+      {
+        "seed_id": "EXT80-15",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Topological defects and the formation of geometrical patterns in active matter",
+        "doi": "10.1038/s41567-021-01213-3",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-15"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-15; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "ingress_count": 2,
+    "candidate_dois_from_seeds": [
+      "10.1038/s41567-021-01213-3"
+    ],
+    "foundational_form_seeds": [
+      {
+        "seed_id": "FORM-FORM-013",
+        "seed_type": "foundational_form",
+        "title": "General relativity field equations",
+        "doi": null,
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-15"
+        ],
+        "pairing_status": "durable_citation",
+        "nist_gate_readiness": "classical_theorem_exempt",
+        "confidence": 0.7,
+        "blockers": [
+          "pre_modern_source",
+          "needs_scoped_comparator_card"
+        ],
+        "rationale": "Curvature and stress-energy are coupled by a geometric field equation; durable continuum gravity form."
+      }
+    ],
+    "nist_readiness_by_doi": {
+      "10.1007/s13398-025-01768-3": {
+        "doi": "10.1007/s13398-025-01768-3",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-033",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      }
+    }
+  },
+  "receipts": [
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-14-boundary_repair_curvature_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-14-curvature_is_correction_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Memos between CL_CX_HM\\2026-06-13_14-20-42-0700_CX-to-CL-HM_Paper05-Paper08-Receipt-Binding-Update.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Memos between CL_CX_HM\\2026-06-14_14-05-25-0700_CL-to-HM-CX_Reverse-Pass-32-to-28-Affirmative-Upgrades-Plus-Interpretive-Receipts-Folded.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    }
+  ],
+  "blockers": [],
+  "closure_inclusions": [
+    {
+      "evidence_id": "PEEP-2026-005",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-15 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-15",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-017",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-15 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-15",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    }
+  ],
+  "formal_sections": {
+    "abstract": "This paper formalizes curvature-like behavior as accumulated repair demand. The operative object is repair-curvature map. The core result is that boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions. The paper also defines how this result routes forward: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain. Its main residue is explicit: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.",
+    "claims": "| Claim | Lane | Statement |\n|-------|------|-----------|\n| Theorem 15.1 | `receipt_bound_internal_result` | boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions |\n| Proposition 15.2 | `normal_form_result` | repair-curvature map can be imported by later papers only through its declared source, receipt, and lane. |\n| Protocol 15.3 | `falsifier_or_open_obligation` | Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream |\n\n## Reviewer Claim Ledger\n\nThis ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.\n\n| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |\n|---|---|---|---|---|---|\n| Theorem 15.1 | finite/executable result | boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions | receipt, validator, executable pass, generated artifact, or finite enumeration | the stated finite/executable domain only | verify the receipt exists and its scope matches the claim |\n| Proposition 15.2 | formal construction | repair-curvature map can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-use boundary | internal formal coherence; no measured physical identity without a separate calibration row | check that the normal form is named and the conversion rule is explicit |\n| Protocol 15.3 | obligation/falsifier | Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test condition | does not negate satisfied lower-level rows | name the next binding action and owner surface |\n\n## Claim Granularity And Review Table\n\nThe table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.\n\n| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |\n|---|---|---|---|\n| Formal-system result | `FLCR-15` defines or uses **Curvature As Boundary-Repair Demand** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, construction steps, and downstream-use rules are internally consistent and lane typed. | External physical truth, measured prediction, or identity with a standard theory. |\n| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manifest, pass report, or rebuild result exists and matches the row scope. | Completeness outside the enumerated domain or physical correctness outside the tested comparator. |\n| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theorem, definition layer, or citation target is named and the mapping into this paper is explicit. | A new proof of the imported theorem or a hidden change in the imported object's meaning. |\n| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. | That the analogy alone proves the formal, computational, or physical claim. |\n| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calibration protocol, uncertainty, comparator, or falsifier is attached. | A physical conclusion supported only by shared vocabulary rather than calibration, comparator data, or a stated falsifier. |\n| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | That the base formal result is false merely because a stronger downstream claim remains unfinished. |",
+    "keywords": "repair-curvature map; LCR; receipt; claim lane; normal form.",
+    "full_excerpt": "# FLCR-15 - Curvature As Boundary-Repair Demand\n\n**Series:** Formalizing LCR, Unifying Standard Models  \n**Artifact:** formal paper source  \n**Status:** first-pass rich rewrite; requires final citation and build pass.  \n**Claim posture:** maximal local claim posture with explicit lane boundaries.\n\n## Abstract\n\nThis paper formalizes curvature-like behavior as accumulated repair demand. The operative object is repair-curvature map. The core result is that boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions. The paper also defines how this result routes forward: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain. Its main residue is explicit: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.\n\n## Keywords\n\nrepair-curvature map; LCR; receipt; claim lane; normal form.\n\n## External Reader Orientation\n\nAn outside reviewer should read this paper as a formal-system construction paper. Its local object is **Curvature As Boundary-Repair Demand**. The paper's immediate contribution is: Defines curvature vocabulary internally as repair pressure and route status.\n\nThe nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.\n\nIt does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.\n\n## Reviewer Compression\n\n**Core object.** Curvature As Boundary-Repair Demand.\n\n**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.\n\n**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.\n\n**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.\n\n## Peer Reviewer Assessment\n\nReviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.\n\n**Recommendation.** major revision, technically promising.\n\n**Review score vector.** orientation=2, claim_granularity=2, evidence_visibility=2, falsifier_visibility=2, journal_apparatus=1, base_layer_boundary=2.\n\n**Formal claim rows reviewed.** 3.\n\n### Reviewer Strength Finding\n\nThe manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.\n\n### Major Revision Requests\n\n- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\n- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\n- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\n- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\n\n### Minor Revision Requests\n\n- Normalize theorem capitalization and punctuation.\n- Add final figure/table captions where the text currently describes diagrams schematically.\n- Ensure every acronym and local term appears in the paper-local glossary.\n\n### Acceptance Blockers\n\n- A reviewer can accept the formal contribution without accepting later physics claims, but only if final citations and receipt identifiers are attached.\n- The proof sketch must be promoted into a ..."
+  },
+  "meta": {
+    "intake_version": "1.2",
+    "generated_at": "2026-07-01T06:22:55.185308+00:00",
+    "evidence_count": 219,
+    "review_pass_number": 33,
+    "epistemology": "ASSEMBLE-fulfilled product \u2014 publication-grade unified form; substantive open obligations and falsifier rows retained where genuinely open.",
+    "guardrail_tier": "assemble_clean",
+    "assemble_fulfilled": true,
+    "display_status": "ASSEMBLE",
+    "testing_caveat": null,
+    "requires_new_testing": false,
+    "tiers": [
+      "required_direct",
+      "supporting_context",
+      "external_candidates",
+      "receipts",
+      "blockers"
+    ],
+    "standards_model": "cmplx.assembled_paper"
+  },
+  "standards_grade": {
+    "model_id": "cmplx.assembled_paper",
+    "model_version": "0.1.0",
+    "fit_score": 77.941176,
+    "inclusion_band": "partial_inclusive",
+    "distance_to_perfect": 0.220588,
+    "missing_fields": [
+      "blockers",
+      "assembled_section_count",
+      "has_proof_receipt_index",
+      "has_obligation_crosswalk",
+      "has_external_calibration",
+      "has_falsifiers_section",
+      "has_honesty_boundary"
+    ],
+    "field_fit": 0.779412,
+    "graded_at": "2026-07-01T06:22:55.193356+00:00"
+  }
+}

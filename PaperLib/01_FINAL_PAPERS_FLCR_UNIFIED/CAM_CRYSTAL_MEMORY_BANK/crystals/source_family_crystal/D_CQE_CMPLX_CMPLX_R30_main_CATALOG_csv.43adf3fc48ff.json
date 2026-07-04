@@ -1,0 +1,17 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 12,
+  "artifact": "D:\\CQE_CMPLX\\CMPLX-R30-main\\CATALOG\\*.csv",
+  "why_it_matters": "Claim/evidence/formula/term catalogs for Rule 30 corpus.",
+  "suggested_slots": [
+    "01",
+    "02",
+    "03",
+    "06",
+    "08",
+    "09"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "43adf3fc48ffdeb39ba10fa5848af583822e344ec6e6e231bffef1804b9bd0cb"
+}

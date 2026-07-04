@@ -1,0 +1,299 @@
+{
+  "schema": "flcr_unconsidered_implementation_intake.v1",
+  "generated_at": "2026-06-29T16:08:54.837528+00:00",
+  "rule": "Find implementation work not fully considered by the paper suite, classify it by evidence lane, and bind it to target papers without dumping raw source text.",
+  "families": [
+    {
+      "id": "IMPL-LCR-TYPED-KERNEL",
+      "name": "L/C/R typed kernel",
+      "lane": "normal_form_result",
+      "source_paths": [
+        "D:\\MannyAI\\docs\\LCR_TYPED_KERNEL.md"
+      ],
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "paper_effect": "Promotes L/C/R from notation to operational lane contract: LAdapter, CKernel, RChannel, strict policy gates, and lane classification.",
+      "boundary": "This closes operational admission and policy routing; it does not by itself prove external physical identity.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 11161
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [],
+      "verification": ""
+    },
+    {
+      "id": "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "name": "SplatForge deterministic field runtime",
+      "lane": "receipt_bound_internal_result",
+      "source_paths": [
+        "D:\\MannyAI\\docs\\SPLATFORGE_FIELD_RUNTIME_v0_1.md",
+        "D:\\MannyAI\\src\\SplatForgeField\\field.py",
+        "D:\\MannyAI\\src\\SplatForgeField\\runtime.py",
+        "D:\\MannyAI\\tests\\test_splatforge_field.py"
+      ],
+      "target_papers": [
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds an implemented crystal-to-spatial-field runtime: deterministic scene/splat hashes, view/semantic operation split, child-crystal fork for semantic edits, and receipt lineage.",
+      "boundary": "Closes desktop data-model behavior; renderer, projector calibration, and AR remain later engineering layers.",
+      "source_stats": {
+        "listed": 4,
+        "existing": 4,
+        "missing": 0,
+        "bytes": 23942
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [],
+      "verification": "Targeted pytest passed: 21 SplatForge field/spatial-adapter tests, including deterministic compile, view/semantic split, child-crystal fork, receipt lineage, render determinism, readonly gating, and promoted-crystal invariance."
+    },
+    {
+      "id": "IMPL-ANALOG-FORGE-WORKBENCH",
+      "name": "ForgeFactory analog workbench",
+      "lane": "receipt_bound_internal_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\_analog_workbench\\ForgeFactory_AnalogWorkbench_Suite_v0_1\\README.md",
+        "D:\\CQE_CMPLX\\_analog_workbench\\ForgeFactory_AnalogWorkbench_Suite_v0_1\\src\\forgefactory_analog_workbench\\workbook.py",
+        "D:\\CQE_CMPLX\\_analog_workbench\\ForgeFactory_AnalogWorkbench_Suite_v0_1\\src\\forgefactory_analog_workbench\\receipts.py",
+        "D:\\CQE_CMPLX\\_analog_workbench\\ForgeFactory_AnalogWorkbench_Suite_v0_1\\pdf\\AnalogForge_Kit_Manual.pdf"
+      ],
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-07",
+        "FLCR-08",
+        "FLCR-20",
+        "FLCR-23",
+        "FLCR-39"
+      ],
+      "paper_effect": "Converts the analog kit from a doctrine into a literal Python/PDF workbench: physical kit manifest, simulation layer, workbook sheets, receipts, and reports.",
+      "boundary": "Closes kit-generation and replay scaffolding; individual paper exercises still need paper-local examples.",
+      "source_stats": {
+        "listed": 4,
+        "existing": 4,
+        "missing": 0,
+        "bytes": 10429
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [],
+      "verification": "Targeted pytest passed: 3 analog workbench tests, including eightfold manifest count, triadic binding, and demo receipt validation."
+    },
+    {
+      "id": "IMPL-R30-LATTICE-THEOREM-REGISTRY",
+      "name": "Rule-30/lattice-forge theorem registry",
+      "lane": "standard_theorem_citation_bound_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\theorems\\THEOREM_REGISTRY.md",
+        "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\tests",
+        "D:\\CQE_CMPLX\\CMPLX-R30-main\\VERIFICATION"
+      ],
+      "target_papers": [
+        "FLCR-02",
+        "FLCR-04",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds executable theorem registry rows for octonions, J3(O), chart-to-J3(O), exact n=3 SU(3) Weyl closure, Rule-30 8x8 transition, Niemeier routes, relational qubit closure, Monster/Pariah boundary, and computational ISA signatures.",
+      "boundary": "Imports verifier-backed internal/formal results; transported physical interpretations remain lane-bound.",
+      "source_stats": {
+        "listed": 3,
+        "existing": 3,
+        "missing": 0,
+        "bytes": 30477
+      },
+      "previously_visible_in_flcr_routing_or_bodies": true,
+      "evidence_facts": [],
+      "verification": "Targeted pytest passed: 11 Rule-30 normal-form/proof-shell tests, including address decomposition, centroid state, proof-shell dependency acyclicity, Niemeier obligation boundaries, scoped claim promotion, and full dependency closure."
+    },
+    {
+      "id": "IMPL-E8-LEECH-RUNTIME-WITNESS",
+      "name": "E8 neighbor and Leech octad runtime witness",
+      "lane": "receipt_bound_internal_result",
+      "source_paths": [
+        "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CMPLX 2\\cmplx_unified\\runtime\\_run_out\\ws_main\\runs\\run_1b8d34fe\\receipts\\E8_NEIGHBORS__e8_neighbors.json",
+        "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CMPLX 2\\cmplx_unified\\runtime\\_run_out\\ws_main\\runs\\run_1b8d34fe\\receipts\\LEECH_WITNESS__leech_octad_witness.json",
+        "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CMPLX 2\\cmplx_unified\\runtime\\_run_out\\ws_main\\runs\\run_1b8d34fe\\ledger_verify.json"
+      ],
+      "target_papers": [
+        "FLCR-09",
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-36",
+        "FLCR-40"
+      ],
+      "paper_effect": "Adds concrete runtime witnesses: E8 neighbor graph with 168 nodes-with-hits and 6872 edges, plus Leech24 octad witness with 256 nodes and 27264 edges under an ok ledger.",
+      "boundary": "Closes witness construction and receipt integrity for these runs; full uniqueness or classification claims require cited lattice theory and reproducible rerun protocol.",
+      "source_stats": {
+        "listed": 3,
+        "existing": 3,
+        "missing": 0,
+        "bytes": 2190
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [
+        "lattice_type=E8; nodes_considered=168; nodes_with_hits=168; edges_added=6872; relation=e8_kiss",
+        "lattice_type=LEECH24_WITNESS; nodes_added=256; edges_added=27264",
+        "ledger_ok=True"
+      ],
+      "verification": ""
+    },
+    {
+      "id": "IMPL-RENDER-PARITY-GS08",
+      "name": "Gaussian/splat render parity receipt",
+      "lane": "external_calibration_result",
+      "source_paths": [
+        "D:\\MannyAI\\research\\render-parity\\receipts\\gs08_parity_receipt.json"
+      ],
+      "target_papers": [
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-39"
+      ],
+      "paper_effect": "Adds CPU/GPU parity evidence for Gaussian/splat rendering: 7 configurations, worst max channel delta 2, all within tolerance <=4.",
+      "boundary": "Closes renderer parity for tested configurations; does not validate semantic correctness of source crystals.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 2146
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [
+        "configs_run=7; worst_max_channel_delta=2; all_within_tolerance=True"
+      ],
+      "verification": ""
+    },
+    {
+      "id": "IMPL-CARRIER-CEM-NEGATIVE-CONTROL",
+      "name": "Carrier CEM accuracy and negative-control receipt",
+      "lane": "falsifier_or_open_obligation",
+      "source_paths": [
+        "D:\\MannyAI\\research\\carrier-cem\\receipts\\ocem1_accuracy_receipt.json"
+      ],
+      "target_papers": [
+        "FLCR-18",
+        "FLCR-26",
+        "FLCR-38",
+        "FLCR-39"
+      ],
+      "paper_effect": "Adds an empirical guardrail: the CEM readout solves a separable control but underperforms cold/majority on the low-signal real label, so learning claims must separate controllable structure from unsupported semantic prediction.",
+      "boundary": "This is deliberately negative evidence for overclaim control; it strengthens falsifier/comparator discipline.",
+      "source_stats": {
+        "listed": 1,
+        "existing": 1,
+        "missing": 0,
+        "bytes": 3956
+      },
+      "previously_visible_in_flcr_routing_or_bodies": false,
+      "evidence_facts": [
+        "real_task trained_minus_cold=-0.1416; control trained_mean=0.9106; dataset_records=157"
+      ],
+      "verification": ""
+    }
+  ],
+  "paper_targets": {
+    "FLCR-01": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-ANALOG-FORGE-WORKBENCH"
+    ],
+    "FLCR-02": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-04": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-07": [
+      "IMPL-ANALOG-FORGE-WORKBENCH"
+    ],
+    "FLCR-08": [
+      "IMPL-ANALOG-FORGE-WORKBENCH"
+    ],
+    "FLCR-09": [
+      "IMPL-E8-LEECH-RUNTIME-WITNESS"
+    ],
+    "FLCR-12": [
+      "IMPL-LCR-TYPED-KERNEL"
+    ],
+    "FLCR-13": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-14": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-18": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY",
+      "IMPL-E8-LEECH-RUNTIME-WITNESS",
+      "IMPL-CARRIER-CEM-NEGATIVE-CONTROL"
+    ],
+    "FLCR-20": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "IMPL-ANALOG-FORGE-WORKBENCH"
+    ],
+    "FLCR-23": [
+      "IMPL-ANALOG-FORGE-WORKBENCH"
+    ],
+    "FLCR-26": [
+      "IMPL-CARRIER-CEM-NEGATIVE-CONTROL"
+    ],
+    "FLCR-27": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY",
+      "IMPL-E8-LEECH-RUNTIME-WITNESS"
+    ],
+    "FLCR-28": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "IMPL-RENDER-PARITY-GS08"
+    ],
+    "FLCR-31": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-32": [
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY"
+    ],
+    "FLCR-36": [
+      "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "IMPL-E8-LEECH-RUNTIME-WITNESS",
+      "IMPL-RENDER-PARITY-GS08"
+    ],
+    "FLCR-38": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY",
+      "IMPL-RENDER-PARITY-GS08",
+      "IMPL-CARRIER-CEM-NEGATIVE-CONTROL"
+    ],
+    "FLCR-39": [
+      "IMPL-ANALOG-FORGE-WORKBENCH",
+      "IMPL-RENDER-PARITY-GS08",
+      "IMPL-CARRIER-CEM-NEGATIVE-CONTROL"
+    ],
+    "FLCR-40": [
+      "IMPL-LCR-TYPED-KERNEL",
+      "IMPL-SPLATFORGE-FIELD-RUNTIME",
+      "IMPL-R30-LATTICE-THEOREM-REGISTRY",
+      "IMPL-E8-LEECH-RUNTIME-WITNESS"
+    ]
+  },
+  "papers_updated": 18
+}

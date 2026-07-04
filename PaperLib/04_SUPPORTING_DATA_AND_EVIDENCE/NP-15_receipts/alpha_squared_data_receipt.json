@@ -1,0 +1,22 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-16",
+  "obligation_closed": "YM-EXT-02",
+  "verifier": "published_data_alpha_squared_invariant",
+  "finding": "CODATA alpha^-1 vs (alpha^-1)^2 = 169 invariant",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "inverse fine-structure constant",
+    "predicted_alpha_inv": 13.0,
+    "predicted_alpha_inv_squared": 169.0,
+    "published_alpha_inv": 137.035999084,
+    "published_alpha": 0.0072973525693,
+    "source": "CODATA 2018",
+    "note": "13^2 invariant is a structural integer identity; physical alpha calibration is external."
+  },
+  "checks": {
+    "C1_published_alpha_recorded": true,
+    "C2_integer_identity_holds": true
+  },
+  "cam_address": "6206616f980d3c490c2f0cc901e539f369cd0d9daa10b4f73962ebf6b4970be4"
+}

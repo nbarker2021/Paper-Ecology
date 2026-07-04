@@ -1,0 +1,17 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-17 niemeier_seam_decomposition_receipt.json",
+  "status": "pass_with_open_obligations",
+  "passed": 6,
+  "total": 6,
+  "closure_source": "Paper 17 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status.",
+    "Reworked Paper 17 records Niemeier seam decomposition as partial/true, 6/6."
+  ],
+  "open_obligations": [
+    "Nontrivial glue cosets and expanded Leech invariants.",
+    "Gamma72 landing and unbounded seam enumeration."
+  ],
+  "boundary": "Finite Niemeier seam decomposition closed; expanded glue/Leech program remains open and is routed to NP-02."
+}

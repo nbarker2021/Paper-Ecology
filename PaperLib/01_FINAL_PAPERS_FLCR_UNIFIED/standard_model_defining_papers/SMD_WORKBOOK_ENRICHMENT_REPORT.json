@@ -1,0 +1,19 @@
+{
+  "schema": "smd_workbook_enrichment.v1",
+  "generated_at": "2026-06-29T02:16:54.808195+00:00",
+  "workbooks_rewritten": [
+    "SMB-01",
+    "SMD-01",
+    "SMD-02",
+    "SMD-03",
+    "SMD-04",
+    "SMD-05",
+    "SMD-06",
+    "SMD-07",
+    "SMD-08",
+    "SMD-09",
+    "SMD-10",
+    "SMD-11",
+    "SMD-12"
+  ]
+}

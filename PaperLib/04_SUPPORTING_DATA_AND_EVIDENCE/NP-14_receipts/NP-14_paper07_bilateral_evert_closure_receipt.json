@@ -1,0 +1,13 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-07 bilateral_evert_receipt.json",
+  "status": "pass",
+  "passed": 4,
+  "total": 4,
+  "closure_source": "Canonical verifier rerun with UTF-8 console encoding",
+  "notes": [
+    "The original receipt had no status due to Windows console encoding failure.",
+    "verify_glm_bilateral_evert.py passes under PYTHONIOENCODING=utf-8."
+  ],
+  "boundary": "Discrete-continuous bridge framing closed; external measurement of the bridge remains ECO."
+}

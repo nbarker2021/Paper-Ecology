@@ -1,0 +1,422 @@
+{
+  "schema": "flcr.agent_discovery_synthesis_pass.v1",
+  "generated_utc": "2026-06-29T22:06:12.296338+00:00",
+  "local_target_count": 20,
+  "external_candidate_count": 12,
+  "local_targets": [
+    {
+      "rank": 1,
+      "artifact": "EVIDENCE_INTAKE_SCORE_NOTEBOOK.*",
+      "why_it_matters": "Already ranks candidate evidence rows and decisions.",
+      "suggested_slots": [
+        "all_by_row"
+      ]
+    },
+    {
+      "rank": 2,
+      "artifact": "D_DRIVE_INVENTORY_PAPER_GAP_PASS.* + D:\\CQE_CMPLX\\d_drive_unintegrated_inventory.csv",
+      "why_it_matters": "Best current gap map for weak/missing artifacts.",
+      "suggested_slots": [
+        "01-79"
+      ]
+    },
+    {
+      "rank": 3,
+      "artifact": "SLOT_1_80_GENERALIZED_ONTOLOGY.*",
+      "why_it_matters": "Canonical generalized slot definitions.",
+      "suggested_slots": [
+        "routing_ontology"
+      ]
+    },
+    {
+      "rank": 4,
+      "artifact": "ORIGINAL_80_DIMENSIONAL_RIBBON_MAP.*",
+      "why_it_matters": "Canonical 00-79 source-backed/expansion map.",
+      "suggested_slots": [
+        "00-79"
+      ]
+    },
+    {
+      "rank": 5,
+      "artifact": "ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.*",
+      "why_it_matters": "Shows source-backed vs expansion-needed slots.",
+      "suggested_slots": [
+        "33-79"
+      ]
+    },
+    {
+      "rank": 6,
+      "artifact": "SOURCE_ROUTING_MATRIX.json / SOURCE_PLACEMENT_MATRIX.json",
+      "why_it_matters": "Existing FLCR source-to-paper routing.",
+      "suggested_slots": [
+        "publication_overlay",
+        "multi_slot"
+      ]
+    },
+    {
+      "rank": 7,
+      "artifact": "D:\\CQE_CMPLX\\complete_inventory.json",
+      "why_it_matters": "Broad production corpus inventory.",
+      "suggested_slots": [
+        "00-32",
+        "publication_overlay"
+      ]
+    },
+    {
+      "rank": 8,
+      "artifact": "D:\\CQE_CMPLX\\gap_analysis\\FINAL_GAP_REPORT.md + master_gap_registry_FINAL.csv",
+      "why_it_matters": "Backward-walk gap report and absorption order.",
+      "suggested_slots": [
+        "04-09",
+        "00-32"
+      ]
+    },
+    {
+      "rank": 9,
+      "artifact": "D:\\CQE_CMPLX\\gap_analysis\\paper_review_inventory\\*",
+      "why_it_matters": "Database-first review protocol and DB source map.",
+      "suggested_slots": [
+        "ledger_action",
+        "bridge_action",
+        "window_action"
+      ]
+    },
+    {
+      "rank": 10,
+      "artifact": "D:\\CQE_CMPLX\\PAPERS_CONTENT.db / PAPERS_LINEAGE.db / PAPERS_LIVE.db",
+      "why_it_matters": "Structured paper text, lineage, topics, theorem/code/table evidence.",
+      "suggested_slots": [
+        "00-32",
+        "all_families"
+      ]
+    },
+    {
+      "rank": 11,
+      "artifact": "D:\\CQE_CMPLX\\TMN_*.db",
+      "why_it_matters": "Tool/runtime/formalization mapping.",
+      "suggested_slots": [
+        "01",
+        "06",
+        "07",
+        "09",
+        "11",
+        "16",
+        "17",
+        "19"
+      ]
+    },
+    {
+      "rank": 12,
+      "artifact": "D:\\CQE_CMPLX\\CMPLX-R30-main\\CATALOG\\*.csv",
+      "why_it_matters": "Claim/evidence/formula/term catalogs for Rule 30 corpus.",
+      "suggested_slots": [
+        "01",
+        "02",
+        "03",
+        "06",
+        "08",
+        "09"
+      ]
+    },
+    {
+      "rank": 13,
+      "artifact": "cmplx_morphism_ledger_seed_v0_6.db",
+      "why_it_matters": "Morphism ledger for witnesses, terminal forms, transport obligations.",
+      "suggested_slots": [
+        "03",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "rank": 14,
+      "artifact": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\...\\receipts\\*.json",
+      "why_it_matters": "Machine receipts for Rule 30, E8, Leech, observer, boundary, etc.",
+      "suggested_slots": [
+        "01",
+        "03",
+        "06",
+        "08",
+        "09",
+        "41-79"
+      ]
+    },
+    {
+      "rank": 15,
+      "artifact": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-*.md",
+      "why_it_matters": "High-scoring unintegrated proof-source docs.",
+      "suggested_slots": [
+        "01",
+        "03",
+        "06",
+        "08",
+        "09"
+      ]
+    },
+    {
+      "rank": 16,
+      "artifact": "lattice-forge/docs/cqe/extracted_formalizations/texts/*.md",
+      "why_it_matters": "Extracted formalizations: D4/J3O, theorem registry, transport, Rule 30.",
+      "suggested_slots": [
+        "01",
+        "03",
+        "06",
+        "07",
+        "08",
+        "09"
+      ]
+    },
+    {
+      "rank": 17,
+      "artifact": "D:\\CQE_CMPLX\\cqekernel\\ + BUILD_SUMMARY.md",
+      "why_it_matters": "Stable stdlib kernel and LCR window machine.",
+      "suggested_slots": [
+        "01",
+        "03",
+        "06",
+        "08",
+        "09"
+      ]
+    },
+    {
+      "rank": 18,
+      "artifact": "D:\\CQE_CMPLX\\ACTUAL_COMPUTATIONAL_SUBSTRATE.md",
+      "why_it_matters": "Verified/open boundary map; prevents overclaim routing.",
+      "suggested_slots": [
+        "02",
+        "06",
+        "07",
+        "09",
+        "42",
+        "46",
+        "47",
+        "49"
+      ]
+    },
+    {
+      "rank": 19,
+      "artifact": "standard_model_defining_papers\\*",
+      "why_it_matters": "Current SMD/SMB bridge papers and source registry.",
+      "suggested_slots": [
+        "41-79"
+      ]
+    },
+    {
+      "rank": 20,
+      "artifact": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_*",
+      "why_it_matters": "Current complete pairwise package examples.",
+      "suggested_slots": [
+        "41",
+        "43",
+        "46",
+        "47",
+        "48",
+        "49"
+      ]
+    }
+  ],
+  "external_candidates": [
+    {
+      "title": "Rethinking the production and publication of machine-readable expressions of research findings",
+      "venue": "Scientific Data",
+      "year": 2025,
+      "doi": "10.1038/s41597-025-04905-0",
+      "url": "https://www.nature.com/articles/s41597-025-04905-0",
+      "pairs_with": "claim envelopes, receipt discipline, machine-readable publication outputs",
+      "suggested_slots": [
+        "01",
+        "11",
+        "19",
+        "28",
+        "29",
+        "40",
+        "61",
+        "71"
+      ]
+    },
+    {
+      "title": "Provenance-driven nanopublications: representing source lineage and trust networks for multi-source assertions",
+      "venue": "International Journal on Digital Libraries",
+      "year": 2025,
+      "doi": "10.1007/s00799-025-00431-x",
+      "url": "https://link.springer.com/article/10.1007/s00799-025-00431-x",
+      "pairs_with": "CAM/source routing, multi-source assertions, trust/provenance graph for claims",
+      "suggested_slots": [
+        "01",
+        "07",
+        "11",
+        "28",
+        "39",
+        "49",
+        "59"
+      ]
+    },
+    {
+      "title": "Fast, Verified Computation for HOL ITPs",
+      "venue": "Journal of Automated Reasoning",
+      "year": 2025,
+      "doi": "10.1007/s10817-025-09719-8",
+      "url": "https://link.springer.com/article/10.1007/s10817-025-09719-8",
+      "pairs_with": "forge/kernel verification, proof-producing computation, receipt-bound internal results",
+      "suggested_slots": [
+        "01",
+        "09",
+        "10",
+        "11",
+        "19",
+        "20",
+        "50"
+      ]
+    },
+    {
+      "title": "Fast Simulation of Cellular Automata by Self-Composition",
+      "venue": "Complex Systems",
+      "year": 2025,
+      "doi": "10.25088/ComplexSystems.34.3.259",
+      "url": "https://www.complex-systems.com/abstracts/v34_i03_a01/",
+      "pairs_with": "correction surface, Rule 30/CA replay, bounded finite computation",
+      "suggested_slots": [
+        "03",
+        "13",
+        "30",
+        "43",
+        "60"
+      ]
+    },
+    {
+      "title": "Linear models of the exceptional Lie algebra e8",
+      "venue": "Rev. Real Acad. Cienc. Exactas Fis. Nat. Ser. A-Mat.",
+      "year": 2025,
+      "doi": "10.1007/s13398-025-01768-3",
+      "url": "https://link.springer.com/content/pdf/10.1007/s13398-025-01768-3.pdf",
+      "pairs_with": "D4/J3/triality surface, E6/E8 transport tower, exceptional algebra adapters",
+      "suggested_slots": [
+        "04",
+        "14",
+        "18",
+        "27",
+        "31",
+        "40",
+        "58",
+        "78"
+      ]
+    },
+    {
+      "title": "Operational Quantum Reference Frame Transformations",
+      "venue": "Quantum",
+      "year": 2025,
+      "doi": "10.22331/q-2025-03-27-1680",
+      "url": "https://quantum-journal.org/papers/q-2025-03-27-1680/",
+      "pairs_with": "observer-state, frame selection, relative observables",
+      "suggested_slots": [
+        "26",
+        "38",
+        "47",
+        "57",
+        "67"
+      ]
+    },
+    {
+      "title": "Measurement events relative to temporal quantum reference frames",
+      "venue": "Quantum",
+      "year": 2025,
+      "doi": "10.22331/q-2025-01-30-1616",
+      "url": "https://quantum-journal.org/papers/q-2025-01-30-1616/",
+      "pairs_with": "observer delay, temporal ordering, discrete-time/windowed measurement claims",
+      "suggested_slots": [
+        "10",
+        "26",
+        "27",
+        "37",
+        "47",
+        "57"
+      ]
+    },
+    {
+      "title": "Cabibbo-Kobayashi-Maskawa unitarity deficit reduction via finite nuclear size",
+      "venue": "Physical Review Research",
+      "year": 2025,
+      "doi": "10.1103/z8g6-9j25",
+      "url": "https://link.aps.org/doi/10.1103/z8g6-9j25",
+      "pairs_with": "TarPit/Standard Model coupling adapter, CKM residual ledger, calibrated physical-observable boundary",
+      "suggested_slots": [
+        "16",
+        "25",
+        "33",
+        "40",
+        "56",
+        "66",
+        "76"
+      ]
+    },
+    {
+      "title": "The fine-structure constant: a review of measurement results and possible space-time variations",
+      "venue": "Measurement Techniques",
+      "year": 2025,
+      "doi": "10.1007/s11018-025-02433-2",
+      "url": "https://link.springer.com/article/10.1007/s11018-025-02433-2",
+      "pairs_with": "fine-structure/alpha adapter boundary, metrology anchors, no-fit versus calibration claims",
+      "suggested_slots": [
+        "16",
+        "24",
+        "25",
+        "33",
+        "43",
+        "53",
+        "63",
+        "73"
+      ]
+    },
+    {
+      "title": "Crystal hypergraph convolutional networks",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-025-01826-9",
+      "url": "https://www.nature.com/articles/s41524-025-01826-9",
+      "pairs_with": "CAM/crystal projection, materials descriptors, higher-order local environments",
+      "suggested_slots": [
+        "20",
+        "21",
+        "28",
+        "36",
+        "46",
+        "56",
+        "66"
+      ]
+    },
+    {
+      "title": "Topologically enhanced exciton transport",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-66276-9",
+      "url": "https://www.nature.com/articles/s41467-025-66276-9",
+      "pairs_with": "electron-hole-exciton accounting, topology/transport correspondence, physical calibration lane",
+      "suggested_slots": [
+        "34",
+        "36",
+        "44",
+        "54",
+        "64",
+        "74"
+      ]
+    },
+    {
+      "title": "A generalized platform for artificial intelligence-powered autonomous enzyme engineering",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-61209-y",
+      "url": "https://www.nature.com/articles/s41467-025-61209-y",
+      "pairs_with": "applied forge and FoldForge protein workflows, closed-loop candidate generation, external validation boundary",
+      "suggested_slots": [
+        "22",
+        "32",
+        "42",
+        "52",
+        "62",
+        "72"
+      ]
+    }
+  ],
+  "pipeline_instruction": "For each local target, create an internal source card, attach one or more external candidates or newly searched 2025/current papers, state the observation/correlation, run pairwise NIST/validation, classify into generalized 1-80 slots, then let the assembly audit accept/reroute/discover."
+}

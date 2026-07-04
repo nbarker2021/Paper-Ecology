@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-11",
+  "original_slot": "11",
+  "title": "Theory Admission Gate",
+  "status": "source_backed",
+  "source_file": "11_Theory_Admission_Gate.md",
+  "linked_flcr_papers": [
+    "FLCR-12",
+    "FLCR-39"
+  ],
+  "slot_family": "enumeration_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-1: start the active one-dimensional action / enumerate the center state",
+  "proof_form_required": "enumeration proof and identity preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

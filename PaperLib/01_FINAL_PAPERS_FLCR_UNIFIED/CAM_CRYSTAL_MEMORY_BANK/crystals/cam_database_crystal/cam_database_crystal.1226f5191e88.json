@@ -1,0 +1,167 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0043",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\root-artifacts\\cqecmplx_corpus.db",
+  "name": "cqecmplx_corpus.db",
+  "status": "ok",
+  "signal_score": 74,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 18,
+  "signal_tables": [
+    {
+      "table": "calibration_parameters",
+      "row_count": 0,
+      "signal_columns": [
+        "source"
+      ]
+    },
+    {
+      "table": "calibrations",
+      "row_count": 5,
+      "signal_columns": [
+        "anchor_source",
+        "receipt_id",
+        "script_hash"
+      ]
+    },
+    {
+      "table": "crystallization_scenarios",
+      "row_count": 8,
+      "signal_columns": [
+        "source_paper_id"
+      ]
+    },
+    {
+      "table": "crystallization_steps",
+      "row_count": 7,
+      "signal_columns": []
+    },
+    {
+      "table": "lib_modules",
+      "row_count": 263,
+      "signal_columns": [
+        "git_commit_hash"
+      ]
+    },
+    {
+      "table": "narrative_queries",
+      "row_count": 3,
+      "signal_columns": [
+        "paper_section_pattern"
+      ]
+    },
+    {
+      "table": "narrative_query_executions",
+      "row_count": 0,
+      "signal_columns": [
+        "paper_id"
+      ]
+    },
+    {
+      "table": "paper_categories",
+      "row_count": 19,
+      "signal_columns": []
+    },
+    {
+      "table": "paper_sections",
+      "row_count": 420,
+      "signal_columns": [
+        "paper_id",
+        "content"
+      ]
+    },
+    {
+      "table": "papers",
+      "row_count": 31,
+      "signal_columns": [
+        "paper_code",
+        "source_path"
+      ]
+    },
+    {
+      "table": "receipt_checks",
+      "row_count": 11,
+      "signal_columns": [
+        "receipt_id"
+      ]
+    },
+    {
+      "table": "receipts",
+      "row_count": 4,
+      "signal_columns": [
+        "paper_id",
+        "receipt_json"
+      ]
+    },
+    {
+      "table": "tile_families",
+      "row_count": 19,
+      "signal_columns": [
+        "edge_count",
+        "source_paper_id",
+        "crystallizable"
+      ]
+    },
+    {
+      "table": "tile_geometries",
+      "row_count": 19,
+      "signal_columns": [
+        "edge_count",
+        "edge_energy"
+      ]
+    },
+    {
+      "table": "verifier_runs",
+      "row_count": 15,
+      "signal_columns": [
+        "git_commit_hash",
+        "environment_hash"
+      ]
+    },
+    {
+      "table": "verifiers",
+      "row_count": 8,
+      "signal_columns": [
+        "paper_id",
+        "source_path"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift",
+    "window_action"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "43",
+    "53",
+    "63",
+    "73",
+    "40",
+    "50",
+    "60",
+    "70",
+    "49",
+    "59",
+    "69",
+    "79"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "1226f5191e8883df907960aec5b079b60282ffdadea6af28f6751860ba36a2ed"
+}

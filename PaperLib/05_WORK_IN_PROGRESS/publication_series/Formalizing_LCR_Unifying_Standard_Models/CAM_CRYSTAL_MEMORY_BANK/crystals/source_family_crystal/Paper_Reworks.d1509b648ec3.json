@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "Paper Reworks",
+  "missing_count": 2425,
+  "highest_score": 71,
+  "sample_files": [
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__formal.md",
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.pdf",
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.yml",
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__companion.md",
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__workbook.md",
+    "Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__formal.md",
+    "Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MANNYAI_STANDARDS_WINDOW_APPLICATION_PASS.md",
+    "Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MANNYAI_STANDARDS_WINDOW_APPLICATION_PASS.json"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "d1509b648ec3f5ecb4c9bcc0c9392402717fafd03c594c6ed839dfaf65b4b6e6"
+}

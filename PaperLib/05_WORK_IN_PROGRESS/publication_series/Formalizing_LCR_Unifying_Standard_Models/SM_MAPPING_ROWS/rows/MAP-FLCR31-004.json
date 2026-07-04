@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR31-004",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-03",
+  "O_ext": "`SU(3)_C x SU(2)_L x U(1)_Y`",
+  "equation_or_source": "`SU(3)_C x SU(2)_L x U(1)_Y`",
+  "O_lcr": "FLCR carrier/face/atlas surfaces",
+  "lane": "normal_form_result",
+  "boundary": "Attach representation rows for each physical label.",
+  "dataset": "",
+  "falsifier": "Attach representation rows for each physical label.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

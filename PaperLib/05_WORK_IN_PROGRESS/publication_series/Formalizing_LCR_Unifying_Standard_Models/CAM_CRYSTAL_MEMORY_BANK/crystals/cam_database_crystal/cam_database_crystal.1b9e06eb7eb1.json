@@ -1,0 +1,18 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0076",
+  "path": "D:\\CQE_CMPLX\\DockerContainers\\databases\\dev.db",
+  "name": "dev.db",
+  "status": "ok",
+  "signal_score": 0,
+  "port_recommendation": "NO_PORT_YET",
+  "table_count": 1,
+  "signal_tables": [],
+  "slot_families": [
+    "future_expansion_pressure"
+  ],
+  "slot_assignments": [],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "1b9e06eb7eb1d3965041ab0c90eb97dd4f43c435ea52a5a233ad98f0c34b310d"
+}

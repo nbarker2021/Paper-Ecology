@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "forge-base",
+  "missing_count": 498,
+  "highest_score": 72,
+  "sample_files": [
+    "forge-base\\lib\\lattice_forge\\orders_crystal\\automate_via_tarpit.py",
+    "forge-base\\lib\\lattice_forge\\orders_crystal\\e8_morsr.py",
+    "forge-base\\lib\\lattice_forge\\data\\wolfram-rule30-center\\manifest.json",
+    "forge-base\\lib\\lattice_forge\\monster_d4_lift_claim.py",
+    "forge-base\\lib\\lattice_forge\\orders_crystal\\builder.py",
+    "forge-base\\lib\\lattice_forge\\orders_crystal\\8_order_crystal.json",
+    "forge-base\\lib\\lattice_forge\\orders_crystal\\format_any_topic.py",
+    "forge-base\\lib\\lattice_forge\\unified_tarpit.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "cdec2d3bddfbcdafe3317eff3d2551d18eecf6fbf8fe5281884be38163b24731"
+}

@@ -1,0 +1,224 @@
+publication_id: FLCR-22
+title: Protein Descriptor And Fold-Facing Kernel
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 23_FoldForge_Protein_Folding.md
+- virtuous/23_FoldForge_Protein_Folding_VIRTUOUS.md
+- supplements/23_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 22.1
+  lane: normal_form_result
+  statement: contact, homology, and winding descriptors can be staged as internal
+    addressable features before biological validation
+- id: Proposition 22.2
+  lane: normal_form_result
+  statement: fold descriptor kernel can be imported by later papers only through its
+    declared source, receipt, and lane.
+- id: Protocol 22.3
+  lane: falsifier_or_open_obligation
+  statement: native-structure prediction, fold-rate validation, and biological performance
+    remain below full closure until datasets bind
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- mannyai_splatforge_field_runtime
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+- MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+- D:\MannyAI
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.478722+00:00'
+external_review_lanes:
+- lane_id: mannyai_splatforge_field_runtime
+  claim_lane: cam_crystal_reapplication_result
+  source_root: D:\MannyAI
+  use: Adds the spatial/field forge as the bridge between crystals, grammar dispatch,
+    deterministic render/readout, LCR ring controls, and reconstruction.
+  boundary: Useful as executable/adapter evidence; domain claims still need per-domain
+    data, receipts, or calibrators.
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "23"
+      source_file: "23_FoldForge_Protein_Folding.md"
+      slot_family: "fold_action"
+      lift_depth: 2
+      dimensional_role: "order-3 slot-3: fold the initial action into a higher-dimensional representation"
+      proof_form_required: "fold map, coordinate atlas, and representation transport"
+
+dimensional_ribbon:
+  ribbon_slot: "23"
+  slot_digit: 3
+  slot_family: "fold_action"
+  lift_depth: 2
+  lift_name: "lift_2x"
+  order_index: 3
+  dimensional_role: "order-3 slot-3: fold the initial action into a higher-dimensional representation"
+  state_bound_action: "fold the initial action into a higher-dimensional representation"
+  proof_form_required: "fold map, coordinate atlas, and representation transport"
+  inherits_from_same_family: "13"
+  lifts_to_same_family: "33"
+  ten_lift_anchor: "20"
+  cycle_window: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 22 and reopened at original slot 23 (FoldForge Protein Folding)"
+  produced_state: "formal result of original slot 23 plus the same-family lift path toward slot 33"
+  semantic_transition: "fold the local state into a higher representation while preserving addressability"
+  accepted_formalism_targets:
+    - "representation theory"
+    - "group actions and equivariance"
+    - "tensor or coordinate atlases"
+    - "transport maps between equivalent descriptions"
+  analog_invariance_test: "a folded map: the visible geometry changes while the indexed locations remain traceable"
+  previous_family_slot: "13"
+  next_family_slot: "33"
+
+claim_binding_queue:
+  queue_count: 1
+  queues:
+    - id: "applied_forge_internal_external_split"
+      title: "Applied Forge Internal/External Validation Split"
+      lane: "receipt_bound_internal_result"
+      promote_now: "Promote internal forge reader, descriptor, candidate-generation, and finite validation kernels when validators pass."
+      bind_next: "Attach forge tool path, input object, output descriptor/candidate, validator result, and explicit external-validation boundary."
+      residue: "Wet-lab, fabrication, biological, gameplay-global, or real-world optimization claims remain external-validation needs."
+
+claim_delta_ledger:
+  delta_count: 1
+  deltas:
+    - id: "applied_forge_internal_external_split"
+      title: "Applied Forge Internal External Split"
+      local_claim: "This paper may claim an internal forge reader/generator/descriptor kernel where the tool produces replayable internal outputs."
+      later_evidence: "Forge validators, applied-forge workbooks, material/protein/game receipts, CAM addresses, and source-routing rows."
+      revised_claim: "Promote internal representation/generation kernels when validators pass, while routing real-world validation separately."
+      boundary: "Fabrication, wet-lab, biological, gameplay-global, manufacturing, or measured optimization claims remain external-validation needs."
+      workbook_replay: "Record input object, forge operation, output descriptor/candidate, validator result, and external-validation boundary."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-22-F1"
+  primary_table: "FLCR-22-T1"
+  appendix_id: "FLCR-22-A"
+  glossary_terms:
+    - "CAM"
+    - "atlas"
+    - "claim lane"
+    - "crystal"
+    - "face"
+    - "fold"
+    - "receipt"
+    - "representation transport"
+  planned_figures:
+    - "FLCR-22-F1: Representation fold atlas"
+    - "FLCR-22-F2: Evidence routing map"
+    - "FLCR-22-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-22-T1: Face/representation correspondence table"
+    - "FLCR-22-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-22-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-22-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 18
+  top_cards:
+    - title: "FORMAL: Paper 23 — C-Form: FoldForge Protein Folding Gluon"
+      archive_score: 89
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the protein fold Gluon** — the contact-map/topo Gluon that transports protein chain fold hypotheses through contact-map and topology receipts. In the lattice_forge substrate, C is realized as the **fold Gluon** that: - The fold Gluon = the `foldforge` transport operator - Each fold hypothesis = a ribbon path with contact-map receipts (tempus fugit) - The fold transport = `fold_{n+1} = foldforge_hypothesis(fold_n, contact_map)` - The fold Gluon's topology = the contact-map persistent homolo"
+    - title: "FORMAL: Paper 22 — C-Form: MetaForge Applied Materials Gluon"
+      archive_score: 85
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the material Gluon** — the applied materials Gluon that transports the morphic Gluon (Paper 21) into physical material candidates. In the lattice_forge substrate, C is realized as the **material Gluon** that: - The material Gluon = the `metaforge` transport operator - Each material candidate = a token from Paper 21 with physical properties (Gluon mass, energy, stability) - The material transport = `material_{n+1} = metaforge_token(token_n, constraints)` - The material Gluon's mass = the ma"
+    - title: "SUMMARY-III-Computational-Substrates: Summary Paper III — Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster"
+      archive_score: 83
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+      contributes: "This paper presents the **computational substrate applications** of the Gluon formalism. We do not use the word \"Gluon\" because the fit is good. We use it because the substrate **IS** SU(3), and the computational substrates ARE **specialized gluon field configurations** in different physical regimes."
+    - title: "FORMAL: Paper 25 — C-Form: Energetic Traversal Maps Gluon"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the traversal energy Gluon** — the energy/ledger Gluon that adds energy and traversal costs to cross-language, figure, material, and fold transformations. In the lattice_forge substrate, C is realized as the **traversal Gluon** that: - The traversal Gluon = the `paper25_traversal_maps` transport operator - Each transformation = a traversal path with energy cost ledger - The traversal transport = `traversal_{n+1} = energetic_map(transformation_n, energy_budget)` - The traversal Gluon's ener"
+    - title: "CQE-paper-22.75: Paper 22.75 - MetaForge Next-State Bridge"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.75.md`"
+      contributes: "Paper 22 exports a candidate-ledger pattern to the next applied papers. The pattern is: choose a domain inventory, score admissible partners or transforms, run the finite candidate transport, preserve failures as obligations, and emit a reviewable production or test ledger. The next state receives: - finite inventory discipline, - partner/transform scoring, - ten-step candidate transport, - error-wall-to-obligation carry, - seam or mitigation proposal rows, - production/test estimate ledger, - i"
+    - title: "CQE-paper-23.25: Paper 23.25 - FoldForge Toolkit Supplement"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.25.md`"
+      contributes: "This supplement explains how to reproduce the FoldForge descriptor receipt. It is support material. The proof-carrying item is Paper 23 and its formal receipt. Run: `python production/formal-papers/CQE-paper-23/verify_foldforge_descriptor.py` The expected status is `pass_with_open_obligations`. The verifier writes `foldforge_descriptor_receipt.json` and checks residue-window construction, contact-map symmetry, candidate bifurcation marks, bounded winding evidence, oloid-predictor defects, and bi"
+    - title: "FORMAL: Paper 21 — C-Form: MorphForge / PolyForge / MorphoniX Gluon"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the morphic Gluon** — the token/number/shape/glyph transport Gluon that generalizes the ribbon transport to arbitrary symbolic tokens. In the lattice_forge substrate, C is realized as the **morphic Gluon** that: - The morphic Gluon = the `morphonics_model_v0_2` transport operator - Each token/number/shape/glyph = a ribbon state with Gluon mass - The bifurcation operator = the SK-combinator application: `S K K = I`, `S K S = K`, etc. - The morphic Gluon's transport = `token_{n+1} = S_token("
+    - title: "FORMAL: Paper 24 — C-Form: KnightForge / N-Dimensional Chess Automata Gluon"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the chess automata Gluon** — the L-conjugate CA Gluon that generalizes knight moves to N-dimensional board operators. In the lattice_forge substrate, C is realized as the **chess Gluon** that: - The chess Gluon = the `knightforge` transport operator - Each piece = a ribbon state with move-set Gluon - The knight's L-move = the L-conjugate move in the 8-state shell=2 stratum - The N-dimensional board = the powered lattice code chain (1→9→49→72) - The move-set Gluon = the piece's allowed tran"
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+  routed_full_sources: 3
+  routed_partial_sources: 17
+  routed_transient_sources: 9
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

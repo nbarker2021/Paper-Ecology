@@ -1,0 +1,26 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0192",
+  "path": "D:\\CQE_CMPLX\\papers\\packages\\FLCR_03_Explainer_Masters.zip",
+  "name": "FLCR_03_Explainer_Masters.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 6,
+  "high_signal_entry_count": 6,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "344c77d3f3bcaae60b830ded730ee887d4b72197512a0ed64dbead5f508c0cab"
+}

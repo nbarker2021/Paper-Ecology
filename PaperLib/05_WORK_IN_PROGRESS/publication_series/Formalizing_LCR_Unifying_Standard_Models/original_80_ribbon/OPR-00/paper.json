@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-00",
+  "original_slot": "00",
+  "title": "Established Grounding and Axiom Contract",
+  "status": "source_backed",
+  "source_file": "00_Established_Grounding_and_Axiom_Contract.md",
+  "linked_flcr_papers": [
+    "FLCR-01"
+  ],
+  "slot_family": "closure_lift",
+  "lift_depth": 0,
+  "dimensional_role": "0x ten-window closure/lift",
+  "proof_form_required": "aggregate receipt and open-slot preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

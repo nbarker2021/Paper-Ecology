@@ -1,0 +1,14 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "home",
+  "missing_count": 3,
+  "highest_score": 32,
+  "sample_files": [
+    "home\\ubuntu\\voa_moonshine_results.json",
+    "home\\ubuntu\\aletheia_ai\\data\\golden_rectangle_scene.json",
+    "home\\ubuntu\\aletheia_ai\\data\\self_observation_test_results.json"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "6a7446f7252b61ac382197d4147448165df9ab05a3286b3136a1e23a551bd7ac"
+}

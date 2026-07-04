@@ -1,0 +1,78 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0004",
+  "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite76_kernel_live\\codex\\work\\CX-Repo-Literal-Accounting\\CX_repo_literal_accounting.sqlite3",
+  "name": "CX_repo_literal_accounting.sqlite3",
+  "status": "ok",
+  "signal_score": 47,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 8,
+  "signal_tables": [
+    {
+      "table": "archive",
+      "row_count": 12,
+      "signal_columns": [
+        "archive_sha256"
+      ]
+    },
+    {
+      "table": "archive_entry",
+      "row_count": 66582,
+      "signal_columns": [
+        "claim_like"
+      ]
+    },
+    {
+      "table": "claim_like_entry",
+      "row_count": 14836,
+      "signal_columns": []
+    },
+    {
+      "table": "entry_content_profile",
+      "row_count": 62691,
+      "signal_columns": [
+        "body_sha256",
+        "text_sha256",
+        "claim_terms_json"
+      ]
+    },
+    {
+      "table": "named_thing_candidate",
+      "row_count": 162594,
+      "signal_columns": [
+        "source"
+      ]
+    },
+    {
+      "table": "sidecar_receipt",
+      "row_count": 0,
+      "signal_columns": [
+        "receipt_id",
+        "receipt_path",
+        "token_sha256"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "8b072c16ff6c2937538aa502a349269752e5f4a4828117ea1c9f4b12c00b43dd"
+}

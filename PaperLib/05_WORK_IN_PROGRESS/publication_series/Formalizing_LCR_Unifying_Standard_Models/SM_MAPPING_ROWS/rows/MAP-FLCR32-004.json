@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR32-004",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "`SU(3)_C` color representation",
+  "equation_or_source": "`SU(3)_C` color representation",
+  "O_lcr": "finite face/color transport",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "Bind `verify_quark_face_transport_literalized.py` receipt in final proof package.",
+  "dataset": "",
+  "falsifier": "Bind `verify_quark_face_transport_literalized.py` receipt in final proof package.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

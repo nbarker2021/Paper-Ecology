@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "tmp_populate_semantic_tables.py",
+  "missing_count": 1,
+  "highest_score": 20,
+  "sample_files": [
+    "tmp_populate_semantic_tables.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "1c89496359771be5b7c3cb04224a4c9423e4df2224a781aa8a65ae27779f779e"
+}

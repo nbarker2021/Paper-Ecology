@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": ".cursorignore",
+  "missing_count": 1,
+  "highest_score": 11,
+  "sample_files": [
+    ".cursorignore"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "19a28fb81f356a059ace7ec3d1d9763306e5abc598a66dceb6b1c2f86997ada7"
+}

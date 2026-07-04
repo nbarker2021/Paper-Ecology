@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "tmp_populate_bridges.py",
+  "missing_count": 1,
+  "highest_score": 20,
+  "sample_files": [
+    "tmp_populate_bridges.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "8765e4beab715432e0f981b526d8396d38230d25d416d850799852cd3870981e"
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0062",
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\Formalizing_LCR_Unifying_Standard_Models_FINAL_FLAT_20260629T030327Z.zip",
+  "name": "Formalizing_LCR_Unifying_Standard_Models_FINAL_FLAT_20260629T030327Z.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 618,
+  "high_signal_entry_count": 617,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action",
+    "window_action"
+  ],
+  "slot_assignments": [
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "42",
+    "52",
+    "62",
+    "72",
+    "43",
+    "53",
+    "63",
+    "73",
+    "49",
+    "59",
+    "69",
+    "79"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "74e3b0988e60d20bf0159a8d8ef8bde282ef684f20d57073bfbd75d1811c4de1"
+}

@@ -1,0 +1,37 @@
+{
+  "flcr_id": "FLCR-40",
+  "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-02",
+    "SMD-03",
+    "SMD-04",
+    "SMD-05",
+    "SMD-06",
+    "SMD-07",
+    "SMD-08",
+    "SMD-09",
+    "SMD-10",
+    "SMD-11",
+    "SMD-12"
+  ],
+  "irl_ids": [],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-04",
+    "FLCR-10",
+    "FLCR-11",
+    "FLCR-14",
+    "FLCR-18",
+    "FLCR-20",
+    "FLCR-26",
+    "FLCR-27",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": false,
+  "line_count": 177,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-40__sm_translation_explained.md"
+}

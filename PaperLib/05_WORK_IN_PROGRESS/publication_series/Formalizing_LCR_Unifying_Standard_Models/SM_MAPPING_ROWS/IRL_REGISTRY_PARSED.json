@@ -1,0 +1,8 @@
+{
+  "IRL-NIST-ALPHA-2022": {
+    "id": "IRL-NIST-ALPHA-2022",
+    "title": "NIST CODATA inverse fine-structure constant",
+    "lane": "external_calibration_result",
+    "use": "alpha inverse 137.035999177(21)"
+  }
+}

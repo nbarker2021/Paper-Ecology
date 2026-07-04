@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0196",
+  "path": "D:\\CQE_CMPLX\\papers\\packages\\FLCR_02_Workbook_Master.zip",
+  "name": "FLCR_02_Workbook_Master.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 7,
+  "high_signal_entry_count": 7,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "192fced33b27e2081bb7e6344b9b7602aac192ce882b9e7b72b9d76ebaa54fba"
+}

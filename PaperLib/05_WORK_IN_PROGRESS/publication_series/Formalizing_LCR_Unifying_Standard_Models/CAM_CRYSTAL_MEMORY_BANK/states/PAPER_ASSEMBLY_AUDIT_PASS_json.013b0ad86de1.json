@@ -1,0 +1,8 @@
+{
+  "kind": "source_state",
+  "name": "PAPER_ASSEMBLY_AUDIT_PASS.json",
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PAPER_ASSEMBLY_AUDIT_PASS.json",
+  "generated_utc": "2026-06-29T22:06:12.635419+00:00",
+  "content_address": "013b0ad86de18c0f945aa869b563e245615c2d226d5d5d9013cc9109b4cac17b",
+  "summary": "counts {'records': 122, 'assemble': 2, 'reroute_or_repair': 0, 'discovery': 120}"
+}

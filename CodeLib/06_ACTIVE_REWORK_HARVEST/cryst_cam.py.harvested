@@ -1,0 +1,48 @@
+Harvested: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/cryst_cam.py
+Target: Paper 00 (Established Grounding / Axiom Contract)
+CodeLib: D:/CodeLib/paper-00__established_grounding.py
+CAMLib: D:/CAMLib/paper-00__unified_transport_contract_and_foreword.md
+SQLLib: D:/SQLLib/paper-00__unified_transport_contract_and_foreword.sql
+Disposition: canon
+Date: 2024-07-04
+
+Ported:
+- CrystKernel class (unified, supersedes stub)
+  - _canonical_json (canonical serialization)
+  - _genesis_root (deterministic, in-memory)
+  - _self_hash (canonical form with nulled self_hash key)
+  - load_config (boot config)
+  - initialize_data (boot seed)
+  - wire_theorem_registry (8 theorems into structured registry)
+  - verify_chain (Merkle chain over in-memory records)
+  - fracture_map (cluster observation, in-memory)
+  - summary / close (session lifecycle)
+- fracture_map (module-level, delegates to default kernel)
+- TheoremRegistry / TheoremBinding (structured theorem registry)
+- verify_theorem_registry (8 theorems present, 9 roles correct)
+- verify_genesis_root_consistency (stable across calls)
+- verify_self_hash_stability (stable across calls)
+- verify_chain_integrity (standalone Merkle verifier)
+
+Discarded:
+- File I/O persistence (RESIDUE_PATH, CRYSTAL_CATALOG_PATH, ask_residue.jsonl)
+- Timing-dependent code (datetime.now, time.time)
+- External tier (web search, model conceptual answers)
+- Subprocess calls (run_verifier, verifier execution)
+- Visualization/build-side pipeline (SplatForge, PixelForge, compile, crystallize_from_pipeline)
+- OpsGuide loading and parsing (supplemental operational maps)
+- BBA structural address / triality annealing (Paper 03 territory)
+- Forge discovery and indexing (external dependency on forge ring)
+- Verifier discovery and indexing (external dependency on formal-papers tree)
+- Tokenization, relevance ranking, DOMAIN_BOOSTS (supplemental query routing)
+- _parse_forge_docstring, _parse_verifier_docstring
+- _unwrap_receipt, _run_verifier_subprocess
+- _structural_address, _anneal_to_basin, _apply_transposition, _is_lie_conjugate
+- _classify_internal_answer (internal tier classification, external dependency)
+- _external_tier_resolve (external tier)
+- _append_residue, _write_build_meta, _last_self_hash, _repeat_signal_for_address
+- crystallize, list_crystals, record_external_answer, residue_log
+- write_build_meta (module-level)
+- _selftest_rank (timing-dependent, interactive)
+- Module-level convenience wrappers for non-P00 features (ask, compile, etc.)
+- 2774 lines -> ~200 lines unified (7% ported)

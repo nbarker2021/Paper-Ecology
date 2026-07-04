@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T01:39:17.075358",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 73,
+  "papers": {
+    "6": {
+      "variant_count": 25,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\06_Causal_Link_and_Obligation_Ledger.md",
+          "filename": "06_Causal_Link_and_Obligation_Ledger.md",
+          "size": 670142,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\06_Causal_Link_and_Obligation_Ledger.md",
+          "filename": "06_Causal_Link_and_Obligation_Ledger.md",
+          "size": 665394,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\paper-consolidation\\CQE-PAPER-006-Electroweak-Higgs.md",
+          "filename": "CQE-PAPER-006-Electroweak-Higgs.md",
+          "size": 8800,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\legacy-consolidation\\sources\\CQE-PAPER-006-Electroweak-Higgs.md",
+          "filename": "CQE-PAPER-006-Electroweak-Higgs.md",
+          "size": 8800,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_06.md",
+          "filename": "paper_06.md",
+          "size": 25793,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\06_Causal_Link_and_Obligation_Ledger.md"
+    },
+    "7": {
+      "variant_count": 24,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\07_Discrete_Continuous_Bridge.md",
+          "filename": "07_Discrete_Continuous_Bridge.md",
+          "size": 159839,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-07.md",
+          "filename": "CQE-paper-07.md",
+          "size": 5839,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-07_UPGRADED.md",
+          "filename": "CQE-paper-07_UPGRADED.md",
+          "size": 6744,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_full_checkpoint_v2_tar\\CMPLX-R30\\PROOF\\papers\\07_universal_n3_closure.md",
+          "filename": "07_universal_n3_closure.md",
+          "size": 10737,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_main_1\\CMPLX-R30-main\\PROOF\\papers\\07_universal_n3_closure.md",
+          "filename": "07_universal_n3_closure.md",
+          "size": 10737,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\07_Discrete_Continuous_Bridge.md"
+    },
+    "8": {
+      "variant_count": 24,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\08_Lattice_Closure.md",
+          "filename": "08_Lattice_Closure.md",
+          "size": 383970,
+          "score": 12,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\paper-consolidation\\CQE-PAPER-008-StandardModel-LCR-Modes.md",
+          "filename": "CQE-PAPER-008-StandardModel-LCR-Modes.md",
+          "size": 7741,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\legacy-consolidation\\sources\\CQE-PAPER-008-StandardModel-LCR-Modes.md",
+          "filename": "CQE-PAPER-008-StandardModel-LCR-Modes.md",
+          "size": 7741,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_08.md",
+          "filename": "paper_08.md",
+          "size": 20061,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\08_Lattice_Closure.md",
+          "filename": "08_Lattice_Closure.md",
+          "size": 30624,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\08_Lattice_Closure.md"
+    }
+  }
+}

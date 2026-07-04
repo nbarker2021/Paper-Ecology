@@ -1,0 +1,30 @@
+publication_id: SMD-10
+title: "Electron Hole Exciton And Condensed Matter Correspondence"
+series: "Formalizing LCR, Unifying Standard Models"
+layer: standard_model_defining_papers
+status: expanded_defining_draft
+object: "electron-hole-exciton standard model"
+routes_to:
+  - "FLCR-34"
+  - "FLCR-36"
+  - "FLCR-40"
+irl_sources:
+  - "IRL-EXCITON-SPRINGER"
+  - "IRL-EXCITON-2D-REVIEW"
+  - "IRL-NIST-CONSTANTS"
+closure_now:
+  - "Close the electron-hole-exciton vocabulary as a standard condensed-matter correspondence."
+  - "Close LCR vacancy/residue analogy when it is explicitly declared as addressability/bookkeeping."
+still_open:
+  - "Material-specific exciton binding, recombination, and transport require material parameters and data."
+  - "A hole analogy does not prove a particle-physics hole or absence ontology beyond the model."
+formal_claims:
+  - id: "Theorem 10.1"
+    lane: "standard_theorem_citation_bound_result"
+    statement: "Electron-hole-exciton language can explain LCR vacancy/residue analogs only when material model, band structure, and parameter boundary are stated."
+  - id: "Proposition 10.2"
+    lane: "normal_form_result"
+    statement: "This definition can be consumed by an FLCR paper only after the external object, LCR mapping, boundary, and destination paper are named."
+  - id: "Protocol 10.3"
+    lane: "falsifier_or_open_obligation"
+    statement: "Claims outside the closure rows remain obligations until their missing citation, receipt, normal-form, or calibration field is supplied."

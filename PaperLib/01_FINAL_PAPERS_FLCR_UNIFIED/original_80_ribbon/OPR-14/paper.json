@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-14",
+  "original_slot": "14",
+  "title": "GR Boundary Repair Curvature",
+  "status": "source_backed",
+  "source_file": "14_GR_Boundary_Repair_Curvature.md",
+  "linked_flcr_papers": [
+    "FLCR-15",
+    "FLCR-35"
+  ],
+  "slot_family": "boundary_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-4: type the boundary, repair row, or curvature-demand condition",
+  "proof_form_required": "typed boundary row and next-state admissibility",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

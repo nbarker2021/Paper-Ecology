@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "CQECMPLX-ProofValidatedSuite",
+  "missing_count": 21,
+  "highest_score": 33,
+  "sample_files": [
+    "CQECMPLX-ProofValidatedSuite\\PAPER_ASSEMBLY_PLAN.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\OPENCODE-CLI-GUIDE.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\OPENCODE-DELIVERY-COMPLETE.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\deploy-kernel.ps1",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\AUTOMATED-DEPLOYMENT-GUIDE.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\UBUNTU-WSL-INSTALLATION-GUIDE.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\UBUNTU-WSL-DELIVERY-COMPLETE.md",
+    "CQECMPLX-ProofValidatedSuite\\kernel\\DEPLOYMENT-COMPLETE.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "4c82c8356b47d4bc168e5f5442d4aacb6873a1bbf1aa93baeacc0842f59ba91b"
+}

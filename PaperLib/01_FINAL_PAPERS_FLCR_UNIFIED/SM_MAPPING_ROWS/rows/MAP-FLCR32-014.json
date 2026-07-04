@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR32-014",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "SU(3) color-count comparator",
+  "equation_or_source": "quark-face receipt plus PDG/QCD target",
+  "O_lcr": "LCR translation surface",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "Running coupling and physical spectra remain calibration-bound.",
+  "dataset": "",
+  "falsifier": "Running coupling and physical spectra remain calibration-bound.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

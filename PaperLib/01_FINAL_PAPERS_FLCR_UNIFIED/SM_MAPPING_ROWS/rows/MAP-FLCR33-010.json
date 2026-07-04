@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR33-010",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-01",
+  "O_ext": "IRL-ATLAS-HIGGS-2012",
+  "equation_or_source": "IRL-ATLAS-HIGGS-2012",
+  "O_lcr": "translation calibration target",
+  "lane": "external_calibration_result",
+  "boundary": "LCR Higgs-frame component accounting is not a mass derivation.",
+  "dataset": "IRL-ATLAS-HIGGS-2012: IRL-ATLAS-HIGGS-2012",
+  "falsifier": "LCR Higgs-frame component accounting is not a mass derivation.",
+  "closure_state": "closed_by_external_calibration",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-ATLAS-HIGGS-2012"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Online Source Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

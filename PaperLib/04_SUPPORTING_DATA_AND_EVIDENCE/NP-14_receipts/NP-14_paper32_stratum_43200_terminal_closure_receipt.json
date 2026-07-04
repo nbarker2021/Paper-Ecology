@@ -1,0 +1,13 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-32 stratum_43200_terminal_receipt.json",
+  "status": "pass",
+  "passed": 6,
+  "total": 6,
+  "closure_source": "Paper 32 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status.",
+    "Reworked Paper 32 records stratum_43200_terminal as status True, checks 6/6."
+  ],
+  "boundary": "Stratum-43200 terminal enumeration closed; n>=6 superpermutation minimality without independent exclusion proofs remains open and is routed to NP-11."
+}

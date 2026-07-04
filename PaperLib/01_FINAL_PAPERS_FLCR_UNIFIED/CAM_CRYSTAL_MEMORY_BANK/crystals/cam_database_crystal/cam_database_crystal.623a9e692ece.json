@@ -1,0 +1,28 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0054",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\data\\document_corpus.db",
+  "name": "document_corpus.db",
+  "status": "ok",
+  "signal_score": 0,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 4,
+  "signal_tables": [],
+  "slot_families": [
+    "closure_lift",
+    "ledger_action"
+  ],
+  "slot_assignments": [
+    "00",
+    "10",
+    "20",
+    "30",
+    "06",
+    "16",
+    "26",
+    "36"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "623a9e692ece3e15cec9ffa6ea829e748ce4d67e084485b8eda671a57a1a4ab2"
+}

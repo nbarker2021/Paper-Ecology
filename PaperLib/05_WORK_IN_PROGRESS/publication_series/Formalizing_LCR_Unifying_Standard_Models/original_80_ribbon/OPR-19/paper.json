@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-19",
+  "original_slot": "19",
+  "title": "Observer Face Selection",
+  "status": "source_backed",
+  "source_file": "19_Observer_Face_Selection.md",
+  "linked_flcr_papers": [
+    "FLCR-18",
+    "FLCR-38"
+  ],
+  "slot_family": "window_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+  "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

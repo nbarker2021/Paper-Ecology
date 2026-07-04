@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-29",
+  "original_slot": "29",
+  "title": "Monster Universal Energy Bound Hypotheses",
+  "status": "source_backed",
+  "source_file": "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+  "linked_flcr_papers": [
+    "FLCR-27",
+    "FLCR-37"
+  ],
+  "slot_family": "window_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+  "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

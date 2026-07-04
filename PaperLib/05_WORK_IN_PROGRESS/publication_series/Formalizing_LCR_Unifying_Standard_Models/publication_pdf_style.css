@@ -1,0 +1,82 @@
+@page {
+  size: letter;
+  margin: 0.75in;
+}
+
+body {
+  color: #111;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11pt;
+  line-height: 1.38;
+  max-width: 7in;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 21pt;
+  border-bottom: 1px solid #999;
+  padding-bottom: 0.15in;
+}
+
+h2 {
+  font-size: 15pt;
+  margin-top: 0.28in;
+}
+
+h3 {
+  font-size: 12.5pt;
+  margin-top: 0.2in;
+}
+
+p, li {
+  orphans: 3;
+  widows: 3;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 9pt;
+  margin: 0.14in 0;
+  width: 100%;
+  page-break-inside: auto;
+}
+
+tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+th, td {
+  border: 1px solid #bbb;
+  padding: 4px 5px;
+  vertical-align: top;
+}
+
+th {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 9pt;
+}
+
+pre {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 0.09in;
+  white-space: pre-wrap;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}

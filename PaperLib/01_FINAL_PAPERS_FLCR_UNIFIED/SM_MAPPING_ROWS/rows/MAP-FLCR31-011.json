@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR31-011",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-01",
+  "O_ext": "NIST CODATA inverse fine-structure constant",
+  "equation_or_source": "IRL-NIST-ALPHA-2022",
+  "O_lcr": "translation calibration target",
+  "lane": "external_calibration_result",
+  "boundary": "Coupling claims still require scale, scheme, and comparator.",
+  "dataset": "IRL-NIST-ALPHA-2022: NIST CODATA inverse fine-structure constant value=137.035999177 std_unc=0.000000021",
+  "falsifier": "Coupling claims still require scale, scheme, and comparator.",
+  "closure_state": "closed_by_external_calibration",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-NIST-ALPHA-2022"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Online Source Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

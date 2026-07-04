@@ -1,0 +1,7 @@
+{
+  "schema": "original_80_journal_enrichment.v1",
+  "generated_at": "2026-06-29T02:15:14.020451+00:00",
+  "documents_rewritten": 80,
+  "root": "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon",
+  "policy": "replace placeholder skeletons with paper-facing journal drafts keyed to slot family, lift depth, source status, and linked FLCR papers"
+}

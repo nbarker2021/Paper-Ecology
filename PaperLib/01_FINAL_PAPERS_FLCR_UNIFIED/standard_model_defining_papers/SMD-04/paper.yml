@@ -1,0 +1,31 @@
+publication_id: SMD-04
+title: "Fermion Fields, Generations, Flavor, And Mixing"
+series: "Formalizing LCR, Unifying Standard Models"
+layer: standard_model_defining_papers
+status: expanded_defining_draft
+object: "fermion flavor sector"
+routes_to:
+  - "FLCR-31"
+  - "FLCR-32"
+  - "FLCR-33"
+  - "FLCR-38"
+  - "FLCR-40"
+irl_sources:
+  - "IRL-PDG-2026"
+  - "IRL-PDG-2024"
+closure_now:
+  - "Close generation indexing only as an indexing/representation statement."
+  - "Close mixing formalism when a unitary matrix relation is stated and sourced."
+still_open:
+  - "Numerical CKM/PMNS agreement is open until values, uncertainties, dataset version, and comparator are attached."
+  - "A threefold LCR structure is not automatically a physical generation structure."
+formal_claims:
+  - id: "Theorem 04.1"
+    lane: "standard_theorem_citation_bound_result"
+    statement: "Flavor and generation claims must distinguish structural indexing from measured mixing angles, phases, and masses."
+  - id: "Proposition 04.2"
+    lane: "normal_form_result"
+    statement: "This definition can be consumed by an FLCR paper only after the external object, LCR mapping, boundary, and destination paper are named."
+  - id: "Protocol 04.3"
+    lane: "falsifier_or_open_obligation"
+    statement: "Claims outside the closure rows remain obligations until their missing citation, receipt, normal-form, or calibration field is supplied."

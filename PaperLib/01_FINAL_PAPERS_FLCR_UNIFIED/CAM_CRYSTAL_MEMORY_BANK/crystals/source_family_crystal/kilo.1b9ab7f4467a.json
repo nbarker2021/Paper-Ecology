@@ -1,0 +1,15 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": ".kilo",
+  "missing_count": 4,
+  "highest_score": 25,
+  "sample_files": [
+    ".kilo\\package-lock.json",
+    ".kilo\\agent-manager.json",
+    ".kilo\\package.json",
+    ".kilo\\.gitignore"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "1b9ab7f4467a8313be778da5bfd32b19233b8e4ac14d8f40d392ce612dbf6a9c"
+}

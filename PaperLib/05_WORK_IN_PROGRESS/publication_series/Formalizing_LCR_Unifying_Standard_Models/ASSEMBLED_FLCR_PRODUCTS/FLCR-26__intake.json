@@ -1,0 +1,1887 @@
+{
+  "paper_id": "FLCR-26",
+  "title": "Observer Delay And Shared-State Protocols",
+  "status": "ASSEMBLE",
+  "pipeline_decision": "ASSEMBLE",
+  "formal_md": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\formal.md",
+  "required_direct": {
+    "open_obligations": [],
+    "pending_external_pair_rows": [
+      {
+        "queue_id": "EQ-REG-0059",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\formal.md",
+        "artifact_type": "paper",
+        "slot_families": "FLCR-26;41;51;61;71;43",
+        "gate_status": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+        "notes": "notebook=DEP-FLCR-18-17; ontology_loaded=yes",
+        "source_chunk": "",
+        "path_exists": true,
+        "intake_status": "INGESTED_QUEUED_PENDING_EXTERNAL_PAPER",
+        "next_action": "Find 2025/current peer-reviewed external paper and promote to PEEP package.",
+        "provenance_label": "external_pair_queue"
+      }
+    ],
+    "assembly_audit_falsifier_gaps": [
+      {
+        "record_id": "PEEP-2026-004",
+        "title": "Production Proof Receipts And Ribbon Schema As End-To-End Verification Comparator",
+        "external_paper_doi": "10.1007/s10817-025-09723-y",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: receipt break where ribbon binding diverges from verified semantics"
+        ],
+        "obligations": [
+          "Align each ribbon-schema receipt field with a proof-producing-compiler analogue.",
+          "Separate publication-facing claims from machine-checked proof scope.",
+          "Add a falsifier row for any receipt that cannot be traced to a verified obligation.",
+          "Run adapted NIST pair review before routing to FLCR ledger slots."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-025",
+        "title": "CQE CAM Crystal Database As MC3D Structure Provenance Comparator",
+        "external_paper_doi": "10.1039/D5DD00415B",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: crystal row without provenance or stoichiometry binding"
+        ],
+        "obligations": [
+          "Map high-signal cqe_cam_crystal.db tables to MC3D provenance fields.",
+          "Declare stoichiometry and source-database lineage for each exported structure.",
+          "Add a falsifier row for structures lacking provenance-graph analogues.",
+          "Route verified structures through ledger slots before CAM promotion."
+        ],
+        "provenance_label": "assembly_audit"
+      }
+    ],
+    "paired_dois": [
+      "10.1039/D4SC07438F",
+      "10.1007/s10817-025-09723-y",
+      "10.1039/D5DD00415B"
+    ],
+    "peep_bindings": [
+      "PEEP-2026-003",
+      "PEEP-2026-004",
+      "PEEP-2026-025"
+    ],
+    "direct_peep_bindings": [],
+    "queue_id": "EQ-REG-0059"
+  },
+  "supporting_context": {
+    "timeline_nodes": [
+      {
+        "node_id": "ing_papers_suite18_cl_paper_db_CL_production-proof-receipts-and-ribbon-schema_md_b15320b37c45",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_production-proof-receipts-and-ribbon-schema.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "aude_work_CL-Paper-Evidence-DB_CL_production-proof-receipts-and-ribbon-schema_md_a536ba8b8844",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_production-proof-receipts-and-ribbon-schema.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-06_paper_tex_4f4d55b2a015",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\paper.tex",
+        "era": "formal",
+        "provenance_role": "projection",
+        "artifact_type": "formula",
+        "motifs": {
+          "rule30_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-38_formal_md_6e3550fe27d4",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\formal.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "rk_publication_series_Formalizing_LCR_Unifying_Standard_Models_FLCR-38_paper_tex_63895de45701",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\paper.tex",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "formula",
+        "motifs": {
+          "rule30_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "LX-Formal-Suite_lib_src_lattice_forge_receipts_verify_transport_obligations_json_01cea6330114",
+        "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_transport_obligations.json",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "receipt",
+        "motifs": {
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      }
+    ],
+    "timeline_edges": [
+      {
+        "from": "aude_work_CL-Paper-Evidence-DB_CL_production-proof-receipts-and-ribbon-schema_md_a536ba8b8844",
+        "to": "ing_papers_suite18_cl_paper_db_CL_production-proof-receipts-and-ribbon-schema_md_b15320b37c45",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "timeline_node_count": 6,
+    "timeline_edge_count": 1,
+    "motif_bindings": [
+      {
+        "motif": "rule30_lineage",
+        "node_count": 3,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "jordan_lineage",
+        "node_count": 1,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "lattice_forge_lineage",
+        "node_count": 1,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "hub_receipt_lineage",
+        "node_count": 3,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "sm_bridge_lineage",
+        "node_count": 3,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      }
+    ],
+    "registry_discovery_rows": [],
+    "registry_discovery_count": 0,
+    "nearby_flcr_slots": [
+      {
+        "slot": "FLCR-24",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-25",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-27",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-28",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      }
+    ],
+    "formal_bibliography_refs": {
+      "dois": [],
+      "flcr_xrefs": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-11",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "receipt_paths": [],
+      "source_paths": [
+        "27_Observer_Delay_and_Shared_Reality.md`: # Paper 27 - Observer Delay and Shared Reality **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body ### Status Paper 27 is internally closed as a finite observer-frame theorem. It closes the ### Abstract reducing \"observer delay\" and \"shared reality\" to finite receipts. The closed formal verifier returns `pass_with_interpretive_obligations`: it verifies the observer-window rows, and records interpretive claims as obligations rather The static Z4 verifier finds two fixed points, zero period-2 states, and six period-4 states over the eight chart states. The temporal verifier returns The shared-center receipt confirms agreement on `C` for all 64 opposite- ### Keywords ### Claim Ledger | Claim | Local status | Evidence | Boundary | | The static four-f",
+        "FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal",
+        "supplements/27_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/27_INTERNAL_REASONING_SUPPLEMENT.md`: # Paper 27 Internal Reasoning Supplement ## Reasoning Additions | Counterexample preservation | Temporal Z4 refutation rows should be searchable because they block future overclaims. | ## Possible Uses ## Deferred Back-Application Slots | `27.BA.1` | Shared center is finite chart agreement. | Papers 19, 32 and NP-10. | Later observer models may add richer evidence. | Boundary disagreement must remain visible. | Observer-evidence receipt. | | `27.BA.2` | Delay is S3 anneal delay. | NP-10/NP-06. | Later physical latency may be attached. | Algorithmic steps are not human time by default. | Measured timing receipt. | | `27.BA.3` | Temporal Z4 is refuted in tested trace. | Papers 18, 19. | Later scope may change with new traces. | Existing counterexamples remain attached. | Expanded temporal verifier. | ## NSIT Questions To Hand Off",
+        "virtuous/27_Observer_Delay_and_Shared_Reality_VIRTUOUS.md",
+        "virtuous\\27_Observer_Delay_and_Shared_Reality_VIRTUOUS.md`: # Paper 27 - Observer Delay and Shared Reality **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Source Faces | Current rework | `D:\\Paper Reworks\\27_Observer_Delay_and_Shared_Reality.md` | 451 words | Existing skeleton, current status, obligations. | | Canonical formal paper | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-27\\FORMAL_PAPER.md` | 986 words | Main theorem, proof, receipt, falsifier spine. | | Formal verifiers | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-27` | 2 files | Executable evidence surface. | | Formal receipts | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-27` | 2 files | Receipt status and check counts. | | Saved GLM closure rows | `D:\\CQE_CMPLX\\_downloads_review\\glm_obligation_closure_matrix.json` |"
+      ]
+    },
+    "zip_crosswalk_refs": [
+      {
+        "from": "aude_work_CL-Paper-Evidence-DB_CL_production-proof-receipts-and-ribbon-schema_md_a536ba8b8844",
+        "to": "ing_papers_suite18_cl_paper_db_CL_production-proof-receipts-and-ribbon-schema_md_b15320b37c45",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "anchors": {
+      "triad_on_disk": true,
+      "assembly_audit_bound": true,
+      "queue_pending": true
+    }
+  },
+  "external_candidates": {
+    "seed_candidates": [
+      {
+        "seed_id": "CAND-Q-06",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Operational Quantum Reference Frame Transformations",
+        "doi": "10.22331/q-2025-03-27-1680",
+        "year": 2025,
+        "venue": "Quantum",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "observer-state, frame selection, relative observables",
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-38",
+          "FLCR-47",
+          "FLCR-57",
+          "FLCR-67"
+        ],
+        "pairing_status": "new_candidate",
+        "nist_gate_readiness": "ready_if_unpaired",
+        "confidence": 0.85,
+        "blockers": [],
+        "rationale": "Curated 2025+ external comparator; suggested slots 26, 38, 47, 57, 67"
+      },
+      {
+        "seed_id": "CLAIM-10.1109/access.2020.",
+        "seed_type": "lane_claim_queue_ingress",
+        "title": "Distributed Control Strategies for Microgrids: An Overview",
+        "doi": "10.1109/access.2020.3032378",
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-26"
+        ],
+        "pairing_status": "ingress_claim",
+        "nist_gate_readiness": "PASS",
+        "confidence": 0.6,
+        "blockers": [],
+        "rationale": "pending_full_text_extraction"
+      },
+      {
+        "seed_id": "EXT80-26",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Distributed Control Strategies for Microgrids: An Overview",
+        "doi": "10.1109/access.2020.3032378",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-26"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-26; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      },
+      {
+        "seed_id": "EQ-REG-0001",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "crystal.db",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\crystal_library\\crystal.db",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 06;16;26;36;09"
+      },
+      {
+        "seed_id": "EQ-REG-0075",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "cqe_cam_crystal.db",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqe_cam_crystal.db",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "pending",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 06;16;26;36;09"
+      },
+      {
+        "seed_id": "REG-1159f9",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cmplx_training.db",
+        "path": "D:\\repo_harvest\\CMPLX-1T\\data\\cmplx_training.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-3730bd",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cam_comprehensive.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cam_crystal\\cam_comprehensive.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-4e096d",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "derived_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\derived_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-4f947d",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "PAPERS_LINEAGE.db",
+        "path": "D:\\CQE_CMPLX\\PAPERS_LINEAGE.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-6bf70e",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cderived_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cderived_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-7b9337",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "tmn_unified.db",
+        "path": "D:\\CQE_CMPLX\\forge_dbs\\tmn_unified.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-7c68c5",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cam_methodology_survey.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cam_crystal\\cam_methodology_survey.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-91511e",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "meso_charts.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\meso_charts.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-9c75e2",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "meta_chart.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\meta_chart.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-bf6829",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-d3807c",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqecmplx_corpus.db",
+        "path": "D:\\repo_harvest\\CQECMPLX-Production\\cqecmplx_corpus.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-daae33",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "cqe_cam_crystal.db",
+        "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqe_cam_crystal.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=analog-toolkit"
+      },
+      {
+        "seed_id": "REG-e96af3",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "crystal.db",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\crystal_library\\crystal.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-06",
+          "FLCR-16",
+          "FLCR-26",
+          "FLCR-36",
+          "FLCR-09"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=analog-toolkit"
+      },
+      {
+        "seed_id": "CAND-Q-07",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Measurement events relative to temporal quantum reference frames",
+        "doi": "10.22331/q-2025-01-30-1616",
+        "year": 2025,
+        "venue": "Quantum",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "observer delay, temporal ordering, discrete-time/windowed measurement claims",
+        "proposed_flcr_targets": [
+          "FLCR-10",
+          "FLCR-26",
+          "FLCR-27",
+          "FLCR-37",
+          "FLCR-47",
+          "FLCR-57"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 10, 26, 27, 37, 47"
+      },
+      {
+        "seed_id": "LOCAL-TMNBRAIN-004",
+        "seed_type": "local_ability_seed",
+        "title": "TMNBrain E8-root learner and agent brain",
+        "ability_family": "brain",
+        "source_surface": "D:\\MannyAI",
+        "source_path": "D:\\MannyAI\\src\\learner.py",
+        "source_paths": [
+          {
+            "path": "D:\\MannyAI\\src\\learner.py",
+            "bytes": 15208,
+            "modified_utc": "2026-06-24T17:26:10.037866+00:00",
+            "sha256": "63c1de33768b16e1c4a3ee758d275d0a063b946b1a7f3e7ed8639c1d497181e1"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\__init__.py",
+            "bytes": 1232,
+            "modified_utc": "2026-06-29T02:00:13.904286+00:00",
+            "sha256": "0a3bd2d6f40f4c93ff1e1d7f156b738409721da124d1c010633247fd547f8bab"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\_store.py",
+            "bytes": 1443,
+            "modified_utc": "2026-06-27T23:15:43.312573+00:00",
+            "sha256": "57de4bec36fa47950483fedf5beb84a138b0954ec74e458c7b826fa22b2a6c73"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\agent.py",
+            "bytes": 7855,
+            "modified_utc": "2026-06-29T01:59:57.788505+00:00",
+            "sha256": "a625df9fcc0d238ad1638fb4fec014424fa091c02d476b3c66064fde61901442"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\coin.py",
+            "bytes": 1738,
+            "modified_utc": "2026-06-27T23:00:22.341885+00:00",
+            "sha256": "c1aab0ac5411015cb7880bd497c4fe95197e489da5a0f50ee501a1e81f1eed88"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\identity.py",
+            "bytes": 3499,
+            "modified_utc": "2026-06-29T01:55:21.159954+00:00",
+            "sha256": "762d505ef3f52805ca23db8c4990a38396755762a226db5eb3a869c0a7097af2"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\playbook.py",
+            "bytes": 1957,
+            "modified_utc": "2026-06-28T04:12:00.171957+00:00",
+            "sha256": "bcfe2d0070a446f13ae8d2218e39e1b611aded1329d4b5d5ff7a5704e8ffac46"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\agents\\spawn.py",
+            "bytes": 3328,
+            "modified_utc": "2026-06-29T01:56:52.015717+00:00",
+            "sha256": "f0a5b77b878a442393456fea2c5c2346875835d53b978cca53532b91da72b3c0"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\daemon\\__init__.py",
+            "bytes": 447,
+            "modified_utc": "2026-06-28T04:18:57.895896+00:00",
+            "sha256": "e490a45ba9d6323016b2e56a1aee30f818f7737108d8d97a8e10cc096e10cb37"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\daemon\\board.py",
+            "bytes": 3280,
+            "modified_utc": "2026-06-28T20:01:50.433895+00:00",
+            "sha256": "fd181c45562998c9748fad1beb79a96b70d4233b2e9504ead6502c29291c9ffd"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\daemon\\loop.py",
+            "bytes": 8690,
+            "modified_utc": "2026-06-29T02:00:52.251880+00:00",
+            "sha256": "a85b3e4d7c89bc7fb913323831c11c79f36375daa402fcf5dd144656092b854f"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:brain",
+          "runtime:agent_identity"
+        ],
+        "pairing_status": "candidate_local_ability",
+        "nist_gate_readiness": "not_applicable_local_ability_seed",
+        "confidence": 0.84,
+        "blockers": [
+          "uncommitted_identity_lifecycle_review"
+        ],
+        "port_mode": "minor_rewrite",
+        "port_rationale": "Existing implementation should port after path/import/schema adaptation.",
+        "rationale": "Current MannyAI carries TMNBrain, agent identity, spawn, daemon loop, and conservation guard work as reusable runtime seeds.",
+        "provenance_label": "local_mannyai_cam_unification",
+        "cmplx_standards_gate": "pending_local_ability_adapter",
+        "forge_reforge_action": "adapt_register_validate"
+      },
+      {
+        "seed_id": "LEGACY-TMN-BRAIN-002",
+        "seed_type": "legacy_repo_ability_seed",
+        "title": "TMNBrain and multi-brain deliberation lineage",
+        "ability_family": "brain",
+        "source_repo": "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory",
+        "source_surface": "D:\\repo_harvest",
+        "source_path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\personal_node\\personal_node.py",
+        "source_paths": [
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\personal_node\\personal_node.py",
+            "bytes": 18789,
+            "modified_utc": "2026-06-26T16:43:48.852606+00:00",
+            "sha256": "5ebd093801452cc094f04f027cd7fa513756838ff8fc2ce266bd625d5e7f2b4d"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\brain\\brain.py",
+            "bytes": 15326,
+            "modified_utc": "2026-06-26T16:43:48.777067+00:00",
+            "sha256": "77b1b532b0973da44457e553d18da99268a761653ac1556896f7bb878f625e99"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN1\\infrastructure\\thinktank\\thinktank.py",
+            "bytes": 77112,
+            "modified_utc": "2026-06-26T16:43:51.624889+00:00",
+            "sha256": "c2c873fd8d984284f7b389e462dd8f653f0f70f5a669c41dafdee0742d5bdabd"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\cmplx\\cognition\\brain\\core.py",
+            "bytes": 36800,
+            "modified_utc": "2026-06-26T16:43:08.187346+00:00",
+            "sha256": "e33252a74b7e6890d2f3b2a4a9d00efea1ccd4b81b77038ae27011a75b9e9cfa"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\personal_node\\brain.py",
+            "bytes": 16292,
+            "modified_utc": "2026-06-26T16:43:08.431055+00:00",
+            "sha256": "7be6707281e0e7272d1cf9407733a3d697acbb6b95421c6b75e590ac6fc8d41c"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "tool:brain",
+          "base:mannyai",
+          "runtime:agent"
+        ],
+        "pairing_status": "candidate_legacy_ability",
+        "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+        "confidence": 0.86,
+        "blockers": [
+          "reconcile_personal_node_vs_registry_brain",
+          "weight_persistence_review"
+        ],
+        "port_mode": "minor_rewrite",
+        "port_rationale": "Existing implementation should port after path/import/schema adaptation.",
+        "rationale": "The older repos contain both a dependency-free 8-expert TMNBrain and richer numpy/manifold brain variants, plus the TMN1 eight-brain quorum design.",
+        "provenance_label": "legacy_repo_harvest",
+        "cmplx_standards_gate": "pending_legacy_ability_adapter",
+        "forge_reforge_action": "adapt_register_validate"
+      },
+      {
+        "seed_id": "ARCHIVE-1EE5B49117C0BEB6",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLXUNI-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXUNI-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXUNI-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 65599031,
+        "archive_modified_utc": "2026-06-22T00:47:35.645945+00:00",
+        "archive_sha256": "1ee5b49117c0beb6bf24f8e7ed8e36284dfa3a16c0d76e5f11897a30b4f0880a",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLXUNI-main_1ee5b49117c0",
+        "extraction_status": "extracted",
+        "extracted_file_count": 2908,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-1EE5B49117C0BEB6.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 2500,
+          "total_bytes_indexed": 201336931,
+          "extension_counts": {
+            ".css": 2,
+            ".js": 4,
+            ".json": 20,
+            ".md": 29,
+            ".py": 2417,
+            ".sqlite3": 1,
+            ".toml": 2,
+            ".ts": 14,
+            ".tsx": 6,
+            ".txt": 1,
+            ".yaml": 1,
+            "<none>": 3
+          },
+          "text_hits": {
+            "cam": 50,
+            "crystal": 99,
+            "forge": 84,
+            "lcr": 6,
+            "mdhg": 157,
+            "nist": 232,
+            "nsit": 261,
+            "tmn": 31
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXUNI-main.zip",
+            "bytes": 65599031,
+            "modified_utc": "2026-06-22T00:47:35.645945+00:00",
+            "sha256": "1ee5b49117c0beb6bf24f8e7ed8e36284dfa3a16c0d76e5f11897a30b4f0880a"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-5042376B324EF639",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-PartsFactory-main (1).zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-PartsFactory-main (1).zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-PartsFactory-main (1).zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 5087908,
+        "archive_modified_utc": "2026-06-22T00:47:35.272932+00:00",
+        "archive_sha256": "5042376b324ef6395c9a1a9967fdf4225e464883a00376b6014a12d22ed6b538",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLX-PartsFactory-main (1)_5042376b324e",
+        "extraction_status": "extracted",
+        "extracted_file_count": 1460,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-5042376B324EF639.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 1460,
+          "total_bytes_indexed": 17674805,
+          "extension_counts": {
+            ".bat": 1,
+            ".code-workspace": 1,
+            ".css": 1,
+            ".db": 1,
+            ".html": 3,
+            ".http": 1,
+            ".js": 2,
+            ".json": 50,
+            ".jsonc": 1,
+            ".jsonl": 5,
+            ".md": 332,
+            ".mjs": 1,
+            ".mmd": 2,
+            ".morphon": 1,
+            ".opencode": 1,
+            ".ps1": 14,
+            ".py": 934,
+            ".sh": 3,
+            ".template": 1,
+            ".toml": 3,
+            ".ts": 1,
+            ".tsx": 1,
+            ".txt": 16,
+            ".typed": 1,
+            ".yaml": 10,
+            ".yml": 23,
+            "<none>": 50
+          },
+          "text_hits": {
+            "cam": 29,
+            "crystal": 162,
+            "forge": 365,
+            "lcr": 60,
+            "lucas": 25,
+            "manny": 147,
+            "mdhg": 205,
+            "nist": 149,
+            "nsit": 218,
+            "rule30": 160,
+            "tmn": 125
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-PartsFactory-main (1).zip",
+            "bytes": 5087908,
+            "modified_utc": "2026-06-22T00:47:35.272932+00:00",
+            "sha256": "5042376b324ef6395c9a1a9967fdf4225e464883a00376b6014a12d22ed6b538"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-D6FE8BB6967A524F",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-R30-main (1).zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-R30-main (1).zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-R30-main (1).zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 19390819,
+        "archive_modified_utc": "2026-06-22T00:47:35.214618+00:00",
+        "archive_sha256": "d6fe8bb6967a524fcf563800cf6520d670e0b580e07ead9877433d78225af19b",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLX-R30-main (1)_d6fe8bb6967a",
+        "extraction_status": "extracted",
+        "extracted_file_count": 311,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-D6FE8BB6967A524F.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 311,
+          "total_bytes_indexed": 181011256,
+          "extension_counts": {
+            ".bin": 3,
+            ".csv": 14,
+            ".json": 37,
+            ".md": 85,
+            ".ps1": 1,
+            ".py": 159,
+            ".toml": 1,
+            ".txt": 9,
+            ".wl": 1,
+            "<none>": 1
+          },
+          "text_hits": {
+            "cam": 15,
+            "crystal": 10,
+            "forge": 139,
+            "lcr": 45,
+            "lucas": 60,
+            "nist": 56,
+            "nsit": 75,
+            "rule30": 144
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-R30-main (1).zip",
+            "bytes": 19390819,
+            "modified_utc": "2026-06-22T00:47:35.214618+00:00",
+            "sha256": "d6fe8bb6967a524fcf563800cf6520d670e0b580e07ead9877433d78225af19b"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-DEAE36F3C12FC6E4",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-TMN-main-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN-main-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN-main-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 636158,
+        "archive_modified_utc": "2026-06-22T00:47:35.106910+00:00",
+        "archive_sha256": "deae36f3c12fc6e4f41a56d5d00addb260da06025fed0f1e89854b70b7cf7031",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLX-TMN-main-main_deae36f3c12f",
+        "extraction_status": "extracted",
+        "extracted_file_count": 315,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-DEAE36F3C12FC6E4.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 315,
+          "total_bytes_indexed": 1898692,
+          "extension_counts": {
+            ".agent": 1,
+            ".base": 1,
+            ".data": 1,
+            ".economy": 1,
+            ".engines": 1,
+            ".json": 4,
+            ".md": 17,
+            ".orchestration": 1,
+            ".py": 90,
+            ".sh": 1,
+            ".sql": 2,
+            ".worker": 1,
+            ".yml": 16,
+            "<none>": 178
+          },
+          "text_hits": {
+            "cam": 3,
+            "crystal": 50,
+            "forge": 13,
+            "mdhg": 42,
+            "nist": 14,
+            "nsit": 19,
+            "tmn": 99
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN-main-main.zip",
+            "bytes": 636158,
+            "modified_utc": "2026-06-22T00:47:35.106910+00:00",
+            "sha256": "deae36f3c12fc6e4f41a56d5d00addb260da06025fed0f1e89854b70b7cf7031"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-F4E6628833925622",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-Monorepo-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-Monorepo-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-Monorepo-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 11643948,
+        "archive_modified_utc": "2026-06-22T00:47:35.074424+00:00",
+        "archive_sha256": "f4e66288339256227656cf8e80a74653d8f80ebfb7620c4a9d6ceac7c631c863",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLX-Monorepo-main_f4e662883392",
+        "extraction_status": "extracted",
+        "extracted_file_count": 655,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-F4E6628833925622.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 655,
+          "total_bytes_indexed": 74133718,
+          "extension_counts": {
+            ".css": 1,
+            ".csv": 1,
+            ".dockerfile": 1,
+            ".example": 2,
+            ".html": 1,
+            ".js": 1,
+            ".json": 17,
+            ".jsonl": 3,
+            ".md": 81,
+            ".ps1": 9,
+            ".py": 495,
+            ".sql": 1,
+            ".toml": 20,
+            ".txt": 10,
+            ".yml": 5,
+            "<none>": 7
+          },
+          "text_hits": {
+            "cam": 14,
+            "crystal": 18,
+            "forge": 27,
+            "lcr": 3,
+            "mdhg": 41,
+            "nist": 34,
+            "nsit": 38,
+            "tmn": 2
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-Monorepo-main.zip",
+            "bytes": 11643948,
+            "modified_utc": "2026-06-22T00:47:35.074424+00:00",
+            "sha256": "f4e66288339256227656cf8e80a74653d8f80ebfb7620c4a9d6ceac7c631c863"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-E62CEE7F8DEDD022",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 236991475,
+        "archive_modified_utc": "2026-06-22T00:47:34.975127+00:00",
+        "archive_sha256": "e62cee7f8dedd022d90238937e9fd1c185af6dcb18da52ce2473b547fde8738e",
+        "unpacked_root": null,
+        "extraction_status": "queued_large_archive",
+        "extracted_file_count": 0,
+        "extracted_index_path": null,
+        "extracted_index_summary": {
+          "file_count_indexed": 0,
+          "total_bytes_indexed": 0,
+          "extension_counts": {},
+          "text_hits": {}
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-main.zip",
+            "bytes": 236991475,
+            "modified_utc": "2026-06-22T00:47:34.975127+00:00",
+            "sha256": "e62cee7f8dedd022d90238937e9fd1c185af6dcb18da52ce2473b547fde8738e"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [
+          "archive_exceeds_auto_extract_limit"
+        ],
+        "port_mode": "archive_index_then_extract",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-55EE51F84894AB37",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLXMCP-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXMCP-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXMCP-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 12331907,
+        "archive_modified_utc": "2026-06-22T00:47:30.735759+00:00",
+        "archive_sha256": "55ee51f84894ab37ef2163ab5ce8502bdf78ed75493509bdabeb685ba7f2a24f",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLXMCP-main_55ee51f84894",
+        "extraction_status": "extracted",
+        "extracted_file_count": 158,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-55EE51F84894AB37.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 158,
+          "total_bytes_indexed": 53332981,
+          "extension_counts": {
+            ".md": 50,
+            ".py": 100,
+            ".toml": 1,
+            ".txt": 2,
+            ".yml": 1,
+            "<none>": 4
+          },
+          "text_hits": {
+            "cam": 1,
+            "crystal": 27,
+            "mdhg": 33,
+            "nist": 11,
+            "nsit": 5,
+            "tmn": 6
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLXMCP-main.zip",
+            "bytes": 12331907,
+            "modified_utc": "2026-06-22T00:47:30.735759+00:00",
+            "sha256": "55ee51f84894ab37ef2163ab5ce8502bdf78ed75493509bdabeb685ba7f2a24f"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-BC64640B11E37AEF",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-TMN1-main.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN1-main.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN1-main.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 4240278,
+        "archive_modified_utc": "2026-06-22T00:47:30.342357+00:00",
+        "archive_sha256": "bc64640b11e37aef6843aad27e47a724a422b1f9a0473eecaca4c82d7d6b22e8",
+        "unpacked_root": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\unpacked\\legacy_repo_zip\\CMPLX-TMN1-main_bc64640b11e3",
+        "extraction_status": "extracted",
+        "extracted_file_count": 81,
+        "extracted_index_path": "D:\\CQE_CMPLX\\_drive-audit\\archive_history\\indexes\\ARCHIVE-BC64640B11E37AEF.json",
+        "extracted_index_summary": {
+          "file_count_indexed": 81,
+          "total_bytes_indexed": 6672213,
+          "extension_counts": {
+            ".arena": 1,
+            ".board": 1,
+            ".css": 1,
+            ".docx": 7,
+            ".hf-assets": 1,
+            ".html": 10,
+            ".js": 1,
+            ".json": 1,
+            ".md": 16,
+            ".pdf": 4,
+            ".py": 14,
+            ".sh": 1,
+            ".sql": 1,
+            ".tmn1": 1,
+            ".txt": 1,
+            ".wheelhouse": 1,
+            ".yaml": 12,
+            ".yml": 3,
+            "<none>": 4
+          },
+          "text_hits": {
+            "crystal": 16,
+            "forge": 2,
+            "mdhg": 22,
+            "nist": 3,
+            "nsit": 4,
+            "tmn": 45
+          }
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-TMN1-main.zip",
+            "bytes": 4240278,
+            "modified_utc": "2026-06-22T00:47:30.342357+00:00",
+            "sha256": "bc64640b11e37aef6843aad27e47a724a422b1f9a0473eecaca4c82d7d6b22e8"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [],
+        "port_mode": "archive_extract_then_review",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      },
+      {
+        "seed_id": "ARCHIVE-F32487C7F5438A3D",
+        "seed_type": "archive_history_crystal",
+        "title": "CMPLX-1T-master.zip",
+        "ability_family": "archive_history",
+        "archive_route": "legacy_repo_zip",
+        "source_archive": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-1T-master.zip",
+        "source_path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-1T-master.zip",
+        "source_surface": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips",
+        "archive_format": ".zip",
+        "archive_bytes": 307921851,
+        "archive_modified_utc": "2026-06-22T00:47:30.200291+00:00",
+        "archive_sha256": "f32487c7f5438a3d566dc9da42bfe06dc6bf09d69e3b4772aed1b9fb0a8604fe",
+        "unpacked_root": null,
+        "extraction_status": "queued_large_archive",
+        "extracted_file_count": 0,
+        "extracted_index_path": null,
+        "extracted_index_summary": {
+          "file_count_indexed": 0,
+          "total_bytes_indexed": 0,
+          "extension_counts": {},
+          "text_hits": {}
+        },
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Repo zips\\CMPLX-1T-master.zip",
+            "bytes": 307921851,
+            "modified_utc": "2026-06-22T00:47:30.200291+00:00",
+            "sha256": "f32487c7f5438a3d566dc9da42bfe06dc6bf09d69e3b4772aed1b9fb0a8604fe"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-26",
+          "FLCR-28",
+          "FLCR-30",
+          "FLCR-38"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:legacy-harvest",
+          "validator:repo-provenance"
+        ],
+        "pairing_status": "candidate_archive_history",
+        "nist_gate_readiness": "not_applicable_archive_history_seed",
+        "confidence": 0.82,
+        "blockers": [
+          "archive_exceeds_auto_extract_limit"
+        ],
+        "port_mode": "archive_index_then_extract",
+        "port_rationale": "Archive content must be reviewed from unpacked history before code or claims are promoted.",
+        "rationale": "Archive name/path indicates TMN, Manny, or old repo source that may hold missing implementation history.",
+        "provenance_label": "archive_history_harvest",
+        "cmplx_standards_gate": "pending_archive_content_adapter",
+        "forge_reforge_action": "extract_index_route_then_adapt"
+      }
+    ],
+    "seed_count": 33,
+    "ingress_80_records": [
+      {
+        "ingress_id": "EXT80-26",
+        "ingress_kind": "first40_flcr_slot",
+        "external_id": "doi:10.1109/access.2020.3032378",
+        "doi": "10.1109/access.2020.3032378",
+        "arxiv_id": "",
+        "title": "Distributed Control Strategies for Microgrids: An Overview",
+        "authors": [],
+        "summary": "Curated seed record; full-text extraction pending.",
+        "published": "",
+        "updated": "",
+        "primary_category": "curated_scientific_publication",
+        "categories": [],
+        "source_url": "https://doi.org/10.1109/access.2020.3032378",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/access.2020.3032378",
+        "source_kind": "primary_publisher_or_doi_record",
+        "novelty_status": "new_to_local_chain",
+        "query_used": "observer delay shared state distributed systems",
+        "query_relevance_score": null,
+        "route": {
+          "target_slot": "FLCR-26",
+          "target_title": "Observer Delay And Shared State Protocols",
+          "topic": "Observer Delay And Shared State Protocols"
+        },
+        "scientific_claim": "pending_full_text_extraction",
+        "evidence_type": "curated_publication_seed",
+        "variables_observables": "pending_full_text_extraction",
+        "local_data_anchor": "pending_content_addressed_claim_or_gap_binding",
+        "lcr_attachment": {
+          "L": "Local anchor: Observer Delay And Shared State Protocols",
+          "C": "Publication claim, method, observable, or measurement imported without promotion.",
+          "R": "Residual comparison against local claim/gap after variables are extracted.",
+          "T": "first40_flcr_slot route FLCR-26; promote only after derivation and validator pass."
+        },
+        "mannyai_lanes": [
+          "mannyai_carrier_cem_and_research_receipts",
+          "docker_standards_suite",
+          "docker_window_node_databases",
+          "docker_observability_security_governance"
+        ],
+        "derivation_obligation": "Extract equations, variables, datasets, stated limits, and local claim/gap binding before any closure promotion.",
+        "status": "attached_for_review",
+        "curation_mode": "manual_logic_bound_seed",
+        "knowledge_weight": 0.7,
+        "logic_bound": "external_support",
+        "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+        "reasoning_note": "Curated because 'Distributed Control Strategies for Microgrids: An Overview' supplies a recognized external comparator for Observer Delay And Shared State Protocols. It is intentionally bounded to review/derivation until local variables and content-addressed anchors are attached.",
+        "nist_nsit_validation": {
+          "validator_family": "NIST/NSIT",
+          "status": "PASS",
+          "checks": [
+            {
+              "check": "source_identity",
+              "status": "PASS"
+            },
+            {
+              "check": "primary_source_record",
+              "status": "PASS"
+            },
+            {
+              "check": "title_present",
+              "status": "PASS"
+            },
+            {
+              "check": "metadata_or_abstract_present",
+              "status": "PASS"
+            },
+            {
+              "check": "route_present",
+              "status": "PASS"
+            },
+            {
+              "check": "lcr_attachment_present",
+              "status": "PASS"
+            },
+            {
+              "check": "mannyai_lanes_attached",
+              "status": "PASS"
+            },
+            {
+              "check": "no_silent_promotion",
+              "status": "PASS"
+            },
+            {
+              "check": "novelty_declared",
+              "status": "PASS"
+            },
+            {
+              "check": "derivation_obligation_declared",
+              "status": "PASS"
+            }
+          ],
+          "pass_count": 10,
+          "total_checks": 10
+        },
+        "provenance_label": "ingress_80_curated",
+        "confidence": "seed_only"
+      },
+      {
+        "seed_id": "EXT80-26",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Distributed Control Strategies for Microgrids: An Overview",
+        "doi": "10.1109/access.2020.3032378",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-26"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-26; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "ingress_count": 2,
+    "candidate_dois_from_seeds": [
+      "10.1109/access.2020.3032378",
+      "10.22331/q-2025-01-30-1616",
+      "10.22331/q-2025-03-27-1680"
+    ],
+    "foundational_form_seeds": [],
+    "nist_readiness_by_doi": {
+      "10.1039/D4SC07438F": {
+        "doi": "10.1039/D4SC07438F",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-026",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1007/s10817-025-09723-y": {
+        "doi": "10.1007/s10817-025-09723-y",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-004",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1039/D5DD00415B": {
+        "doi": "10.1039/D5DD00415B",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-025",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      }
+    }
+  },
+  "receipts": [
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_transport_obligations.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_production-proof-receipts-and-ribbon-schema.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_production-proof-receipts-and-ribbon-schema.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    }
+  ],
+  "blockers": [],
+  "closure_inclusions": [
+    {
+      "evidence_id": "PEEP-2026-003",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-006",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-012",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-013",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-018",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-020",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-024",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-026",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-029",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-034",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-26 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-26",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    }
+  ],
+  "formal_sections": {
+    "abstract": "This paper formalizes observer delay as a finite shared-state synchronization protocol. The operative object is observer-delay protocol. The core result is that finite observer buffers can synchronize shared center state without implying consciousness or physical collapse. The paper also defines how this result routes forward: FLCR-38 may translate this into AI/computation/observer language with explicit measurement boundaries. Its main residue is explicit: human latency, consciousness, and physical collapse claims require external empirical evidence.",
+    "claims": "| Claim | Lane | Statement |\n|-------|------|-----------|\n| Theorem 26.1 | `receipt_bound_internal_result` | finite observer buffers can synchronize shared center state without implying consciousness or physical collapse |\n| Proposition 26.2 | `normal_form_result` | observer-delay protocol can be imported by later papers only through its declared source, receipt, and lane. |\n| Protocol 26.3 | `falsifier_or_open_obligation` | human latency, consciousness, and physical collapse claims require external empirical evidence |\n\n## Reviewer Claim Ledger\n\nThis ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.\n\n| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |\n|---|---|---|---|---|---|\n| Theorem 26.1 | finite/executable result | finite observer buffers can synchronize shared center state without implying consciousness or physical collapse | receipt, validator, executable pass, generated artifact, or finite enumeration | the stated finite/executable domain only | verify the receipt exists and its scope matches the claim |\n| Proposition 26.2 | formal construction | observer-delay protocol can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-use boundary | internal formal coherence; no measured physical identity without a separate calibration row | check that the normal form is named and the conversion rule is explicit |\n| Protocol 26.3 | obligation/falsifier | human latency, consciousness, and physical collapse claims require external empirical evidence | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test condition | does not negate satisfied lower-level rows | name the next binding action and owner surface |\n\n## Claim Granularity And Review Table\n\nThe table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.\n\n| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |\n|---|---|---|---|\n| Formal-system result | `FLCR-26` defines or uses **Observer Delay And Shared-State Protocols** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, construction steps, and downstream-use rules are internally consistent and lane typed. | External physical truth, measured prediction, or identity with a standard theory. |\n| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manifest, pass report, or rebuild result exists and matches the row scope. | Completeness outside the enumerated domain or physical correctness outside the tested comparator. |\n| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theorem, definition layer, or citation target is named and the mapping into this paper is explicit. | A new proof of the imported theorem or a hidden change in the imported object's meaning. |\n| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. | That the analogy alone proves the formal, computational, or physical claim. |\n| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calibration protocol, uncertainty, comparator, or falsifier is attached. | A physical conclusion supported only by shared vocabulary rather than calibration, comparator data, or a stated falsifier. |\n| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | That the base formal result is false merely because a stronger downstream claim remains unfinished. |",
+    "keywords": "observer-delay protocol; LCR; receipt; claim lane; normal form.",
+    "full_excerpt": "# FLCR-26 - Observer Delay And Shared-State Protocols\n\n**Series:** Formalizing LCR, Unifying Standard Models  \n**Artifact:** formal paper source  \n**Status:** first-pass rich rewrite; requires final citation and build pass.  \n**Claim posture:** maximal local claim posture with explicit lane boundaries.\n\n## Abstract\n\nThis paper formalizes observer delay as a finite shared-state synchronization protocol. The operative object is observer-delay protocol. The core result is that finite observer buffers can synchronize shared center state without implying consciousness or physical collapse. The paper also defines how this result routes forward: FLCR-38 may translate this into AI/computation/observer language with explicit measurement boundaries. Its main residue is explicit: human latency, consciousness, and physical collapse claims require external empirical evidence.\n\n## Keywords\n\nobserver-delay protocol; LCR; receipt; claim lane; normal form.\n\n## External Reader Orientation\n\nAn outside reviewer should read this paper as a formal-system construction paper. Its local object is **Observer Delay And Shared-State Protocols**. The paper's immediate contribution is: Defines finite observer-delay protocols and interpretation guards.\n\nThe nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.\n\nIt does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.\n\n## Reviewer Compression\n\n**Core object.** Observer Delay And Shared-State Protocols.\n\n**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.\n\n**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.\n\n**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.\n\n## Peer Reviewer Assessment\n\nReviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.\n\n**Recommendation.** major revision, technically promising.\n\n**Review score vector.** orientation=2, claim_granularity=2, evidence_visibility=2, falsifier_visibility=2, journal_apparatus=1, base_layer_boundary=2.\n\n**Formal claim rows reviewed.** 3.\n\n### Reviewer Strength Finding\n\nThe manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.\n\n### Major Revision Requests\n\n- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\n- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\n- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\n- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\n\n### Minor Revision Requests\n\n- Normalize theorem capitalization and punctuation.\n- Add final figure/table captions where the text currently describes diagrams schematically.\n- Ensure every acronym and local term appears in the paper-local glossary.\n\n### Acceptance Blockers\n\n- A reviewer can accept the formal contribution without accepting later physics claims, but only if final citations and receipt identifiers are attached.\n- The proof s..."
+  },
+  "meta": {
+    "intake_version": "1.2",
+    "generated_at": "2026-07-01T06:22:55.727368+00:00",
+    "evidence_count": 97,
+    "review_pass_number": 33,
+    "epistemology": "ASSEMBLE-fulfilled product \u2014 publication-grade unified form; substantive open obligations and falsifier rows retained where genuinely open.",
+    "guardrail_tier": "assemble_clean",
+    "assemble_fulfilled": true,
+    "display_status": "ASSEMBLE",
+    "testing_caveat": null,
+    "requires_new_testing": false,
+    "tiers": [
+      "required_direct",
+      "supporting_context",
+      "external_candidates",
+      "receipts",
+      "blockers"
+    ],
+    "standards_model": "cmplx.assembled_paper"
+  },
+  "standards_grade": {
+    "model_id": "cmplx.assembled_paper",
+    "model_version": "0.1.0",
+    "fit_score": 73.529412,
+    "inclusion_band": "partial_inclusive",
+    "distance_to_perfect": 0.264706,
+    "missing_fields": [
+      "required_direct.open_obligations",
+      "blockers",
+      "assembled_section_count",
+      "has_proof_receipt_index",
+      "has_obligation_crosswalk",
+      "has_external_calibration",
+      "has_falsifiers_section",
+      "has_honesty_boundary"
+    ],
+    "field_fit": 0.735294,
+    "graded_at": "2026-07-01T06:22:55.727368+00:00"
+  }
+}

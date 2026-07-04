@@ -1,0 +1,2299 @@
+{
+  "schema": "flcr_nist_and_review_suite_report.v1",
+  "generated_at": "2026-06-30T22:36:35.356633+00:00",
+  "nist_source": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards",
+  "scope": "FLCR-01 through FLCR-40",
+  "paper_count": 40,
+  "total_verdicts": 240,
+  "verdicts_by_status": {
+    "PASS": 240
+  },
+  "papers_by_nist_verdict": {
+    "PASS": 40
+  },
+  "peer_recommendation_counts": {
+    "major revision, technically promising": 40
+  },
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 13,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 13,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 13,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 6,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "band": "lcr_native",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "base_layer_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 14,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 4,
+      "open_obligation_count": 11,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 13,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "band": "standard_model_bridge_preview",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 5,
+      "open_obligation_count": 14,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "external_target_boundary": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "band": "reconstruction_map",
+      "nist_verdict": "PASS",
+      "nist_by_status": {
+        "PASS": 6
+      },
+      "standards": [
+        {
+          "standard_id": "paper.claim_coverage",
+          "status": "PASS",
+          "message": "all claims are covered by receipts or open obligations"
+        },
+        {
+          "standard_id": "paper.obligation_continuity",
+          "status": "PASS",
+          "message": "all open obligations have candidate corpus continuations"
+        },
+        {
+          "standard_id": "paper.open_obligations_disclosed",
+          "status": "PASS",
+          "message": "open obligations are disclosed when results are incomplete"
+        },
+        {
+          "standard_id": "paper.receipt_status",
+          "status": "PASS",
+          "message": "all receipts are parseable and report allowed statuses"
+        },
+        {
+          "standard_id": "paper.structure",
+          "status": "PASS",
+          "message": "paper has required sections and claims are exposed"
+        },
+        {
+          "standard_id": "paper.suite_aware_evidence",
+          "status": "PASS",
+          "message": "all local open/failing items have passing corpus continuations"
+        }
+      ],
+      "claim_count": 3,
+      "receipt_count": 10,
+      "open_obligation_count": 14,
+      "peer_recommendation": "major revision, technically promising",
+      "peer_scores": {
+        "orientation": 2,
+        "claim_granularity": 2,
+        "evidence_visibility": 2,
+        "falsifier_visibility": 2,
+        "journal_apparatus": 1,
+        "dependency_control": 2
+      },
+      "apply_next": [
+        "Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.",
+        "Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "schema": "flcr_reviewer_claim_ledger_pass.v1",
+  "generated_at": "2026-06-29T17:48:24.720134+00:00",
+  "purpose": "Make each paper's formal claims reviewable as granular rows with evidence requirements, boundaries, and next review actions.",
+  "papers_updated": 40,
+  "formal_claim_rows": 120,
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "band": "lcr_native",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "band": "translation",
+      "formal_claim_rows": 3,
+      "updated": true
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Unification In LCR Normal Form",
+      "band": "synthesis",
+      "formal_claim_rows": 3,
+      "updated": true
+    }
+  ]
+}

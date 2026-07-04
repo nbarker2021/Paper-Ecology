@@ -1,0 +1,74 @@
+{
+  "schema": "flcr_dimensional_ribbon_schema.v1",
+  "interpretation": "Paper number is a ribbon slot address, not just a topic index.",
+  "numbering_rule": {
+    "ones_digit": "slot family/action type",
+    "tens_digit": "lift depth / order / ribbon cycle",
+    "slot_0": "closure/lift node for the preceding or current ten-window",
+    "nonzero_slots": "action families repeated across lift depth"
+  },
+  "placement_rule": {
+    "formal_paper": "must prove the topical claim and the dimensionally appropriate slot action",
+    "companion": "must explain what the slot becomes at this lift depth",
+    "workbook": "must show how to build or replay the state-bound ribbon operation"
+  },
+  "slot_families": {
+    "0": {
+      "name": "closure_lift",
+      "base_action": "bind the preceding ten-slot ribbon into a replayable lift state",
+      "proof_form": "aggregate receipt, replay, lockfile, and open-slot preservation"
+    },
+    "1": {
+      "name": "enumeration_action",
+      "base_action": "select or enumerate the active center/state",
+      "proof_form": "state enumeration, identity preservation, and post-lift replay"
+    },
+    "2": {
+      "name": "residual_action",
+      "base_action": "mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form": "truth table, residual accounting, bounded-vs-unbounded split"
+    },
+    "3": {
+      "name": "fold_action",
+      "base_action": "fold the enumerated/residual state into a representation surface",
+      "proof_form": "coordinate atlas, folding map, face/slot transport"
+    },
+    "4": {
+      "name": "boundary_action",
+      "base_action": "turn boundary failure into typed repair or curvature demand",
+      "proof_form": "typed boundary row, route, falsifier, and next-state admissibility"
+    },
+    "5": {
+      "name": "carrier_action",
+      "base_action": "carry the state or residue along an admissible path",
+      "proof_form": "path/transducer proof, noninterference, traversal ledger"
+    },
+    "6": {
+      "name": "ledger_action",
+      "base_action": "bind the carried state into causal edges or observer buffers",
+      "proof_form": "graph ledger, typed edge proof, synchronization or threshold row"
+    },
+    "7": {
+      "name": "bridge_action",
+      "base_action": "project between discrete, continuous, lattice, or external forms",
+      "proof_form": "sample preservation, lookup bridge, calibration boundary"
+    },
+    "8": {
+      "name": "terminal_action",
+      "base_action": "land in a lattice, exceptional, game, or runtime terminal surface",
+      "proof_form": "terminal lookup, construction/invariant split, addressability proof"
+    },
+    "9": {
+      "name": "window_action",
+      "base_action": "read the ribbon through temporal, observer, meta, or synthesis windows",
+      "proof_form": "window count, source-preserving readout, meta-ribbon proof"
+    }
+  },
+  "c_form_ports": [
+    "up",
+    "down",
+    "sideways",
+    "wrap",
+    "fold"
+  ]
+}

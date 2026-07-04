@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR33-006",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-06",
+  "O_ext": "Standard Yukawa sector",
+  "equation_or_source": "Standard Yukawa sector",
+  "O_lcr": "LCR residue bookkeeping",
+  "lane": "falsifier_or_open_obligation",
+  "boundary": "Keep fermion mass claims external until a matrix/comparator exists.",
+  "dataset": "",
+  "falsifier": "Keep fermion mass claims external until a matrix/comparator exists.",
+  "closure_state": "open_obligation",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

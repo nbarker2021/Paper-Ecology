@@ -1,0 +1,58 @@
+HARVESTED: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/unified_complex_t.py
+Date: 2026-07-04
+Harvester: Paper 03 (D4/J3 Triality Surface) canon disposition
+Source lines: 2234
+Disposition: canon
+
+=== PORTED to D:/CodeLib/paper-03__triality_surface.py ===
+
+Classes:
+- Grid (multi-dimensional section encoding; supersedes stub 2-D Grid)
+- PermutationData (usage-tracking form; supersedes stub dataclass)
+- ProdigalResult (sequence/overlap form; supersedes stub dataclass)
+- HashTableBenchmark (structural scaffold only; timing/plotting removed)
+
+Functions:
+- calculate_golden_ratio_points (phi subdivision, Theorem 3.1)
+- hash_permutation (mixed-radix bijection, Theorem 3.3)
+- unhash_permutation (inverse of hash_permutation)
+- is_valid_permutation (validity predicate)
+- generate_permutations (enumeration of 1..n permutations)
+- calculate_overlap (max suffix-prefix overlap)
+- calculate_distance (n-1 - overlap)
+- calculate_score (composite prodigal-assembly score, Theorem 3.4)
+- get_kmers (k-mer extraction grounded in valid permutations)
+- build_debruijn_graph (plain-dict De Bruijn graph, Theorem 3.4)
+- find_cycles (DFS cycle detection)
+- find_high_weight_paths (DFS high-weight path search)
+- construct_superpermutation (greedy prodigal assembly, Theorem 3.4)
+
+Verify functions added:
+- verify_grid_bijection (Claim 3.1.1)
+- verify_hash_permutation_bijection (Claim 3.3.1)
+- verify_debruijn_graph (Claim 3.4.1)
+- verify_golden_ratio_points (Claim 3.4.2)
+- verify_permutation_validity (Claim 3.4.3)
+
+=== NOT PORTED / DISCARDED ===
+
+- MDHGHashTable class: NOT FOUND in source file (referenced but not defined)
+- LayoutMemory class: not in port list; heavily file-I/O coupled (pickle)
+- add_weights_to_debruijn: uses networkx graph API, not in port list
+- analyze_superpermutation: uses matplotlib/networkx, not in port list
+- calculate_fixed_segments: not in port list
+- calculate_sequence_winners_losers / calculate_winners_losers: not in port list
+- chunk_document / reflect_chunk / run_ingestion / save_reflection: GPT/CLI tooling
+- bump_version / load_schema / save_schema / update_schema: schema management
+- generate_completion_candidates: uses heapq and external analysis_scripts
+- generate_mega_hypotheticals: uses random and external analysis_scripts
+- generate_permutations_on_demand / generate_permutations_on_demand_hypothetical: uses random
+- identify_anti_prodigals: not in port list
+- initialize_data: file I/O coupled
+- is_prodigal: not in port list
+- load_config: file I/O
+- main: CLI entry point, file I/O
+- run_benchmarks: timing/plotting wrapper
+- All print/timing/matplotlib/networkx/pickle/yaml/openai dependencies removed
+- All provenance metadata (__family_key__, __canon_build__, etc.) removed
+- All source comments with build provenance removed

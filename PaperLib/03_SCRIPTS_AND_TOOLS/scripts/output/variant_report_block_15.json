@@ -1,0 +1,77 @@
+{
+  "generated": "2026-07-03T04:11:01.732304",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 6,
+  "papers": {
+    "45": {
+      "variant_count": 2,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_45.md",
+          "filename": "paper_45.md",
+          "size": 13100,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_45__su2u1_sector_1\\paper_45.md",
+          "filename": "paper_45.md",
+          "size": 13100,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_45.md"
+    },
+    "46": {
+      "variant_count": 2,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_46.md",
+          "filename": "paper_46.md",
+          "size": 14935,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_46__su2u1_sector_2\\paper_46.md",
+          "filename": "paper_46.md",
+          "size": 14935,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_46.md"
+    },
+    "47": {
+      "variant_count": 2,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_47.md",
+          "filename": "paper_47.md",
+          "size": 13786,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_47__su2u1_sector_3\\paper_47.md",
+          "filename": "paper_47.md",
+          "size": 13786,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_47.md"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-21",
+  "original_slot": "21",
+  "title": "MorphForge PolyForge MorphoniX",
+  "status": "source_backed",
+  "source_file": "21_MorphForge_PolyForge_MorphoniX.md",
+  "linked_flcr_papers": [
+    "FLCR-20"
+  ],
+  "slot_family": "enumeration_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-1: start the active one-dimensional action / enumerate the center state",
+  "proof_form_required": "enumeration proof and identity preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

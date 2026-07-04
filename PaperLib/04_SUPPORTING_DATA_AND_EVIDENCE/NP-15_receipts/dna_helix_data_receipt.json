@@ -1,0 +1,35 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-01",
+  "obligation_closed": "SP-001",
+  "verifier": "published_data_dna_helix",
+  "finding": "B-DNA helical dimensions for Fibonacci-fold constants",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "B-DNA geometry",
+    "published_values": {
+      "rise_per_base_pair": {
+        "value": 3.4,
+        "unit": "Angstrom"
+      },
+      "bases_per_turn": {
+        "value": 10.4
+      },
+      "helical_pitch": {
+        "value": 34.0,
+        "unit": "Angstrom"
+      },
+      "helix_diameter": {
+        "value": 20.0,
+        "unit": "Angstrom"
+      }
+    },
+    "source": "Watson-Crick B-DNA crystallography / textbook structural biology",
+    "note": "34 A pitch matches the Fibonacci constant 34 in the fold table."
+  },
+  "checks": {
+    "C1_pitch_matches_fibonacci_34": true,
+    "C2_biology_source_cited": true
+  },
+  "cam_address": "72c62178d91d5c8c428ca2d8ed51a1196224d5124d7d41789129fff3c9845416"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 6,
+  "artifact": "SOURCE_ROUTING_MATRIX.json / SOURCE_PLACEMENT_MATRIX.json",
+  "why_it_matters": "Existing FLCR source-to-paper routing.",
+  "suggested_slots": [
+    "publication_overlay",
+    "multi_slot"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "4997a7aaf010300c57371cd8889f338c6f4f924550eeda4473280275cff12e12"
+}

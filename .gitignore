@@ -1,0 +1,12 @@
+.local-git-sources/
+.local-git-remotes/
+
+# Existing independent Git worktrees. Keep them intact and out of the parent
+# snapshot unless they are intentionally converted to submodules later.
+CMPLX-Standards/
+cqekernel/
+DockerContainers/
+
+__pycache__/
+*.pyc
+*.pyo

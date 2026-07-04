@@ -1,0 +1,13 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 10,
+  "artifact": "D:\\CQE_CMPLX\\PAPERS_CONTENT.db / PAPERS_LINEAGE.db / PAPERS_LIVE.db",
+  "why_it_matters": "Structured paper text, lineage, topics, theorem/code/table evidence.",
+  "suggested_slots": [
+    "00-32",
+    "all_families"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "eb6913761ab7ba3f051ec13483e3908fa79b963d89ab35d55b7a5e2b10233db3"
+}

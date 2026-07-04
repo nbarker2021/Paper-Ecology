@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "tmp_rebuild_survey_db.py",
+  "missing_count": 1,
+  "highest_score": 20,
+  "sample_files": [
+    "tmp_rebuild_survey_db.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "deeb0a4a6197b16afd0a00fc9077b0328d9cb1b0a89485ca6bb02563e1d90899"
+}

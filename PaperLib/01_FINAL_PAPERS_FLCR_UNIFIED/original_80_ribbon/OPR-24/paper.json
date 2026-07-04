@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-24",
+  "original_slot": "24",
+  "title": "KnightForge N Dimensional Chess Automata",
+  "status": "source_backed",
+  "source_file": "24_KnightForge_N_Dimensional_Chess_Automata.md",
+  "linked_flcr_papers": [
+    "FLCR-23"
+  ],
+  "slot_family": "boundary_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-4: type the boundary, repair row, or curvature-demand condition",
+  "proof_form_required": "typed boundary row and next-state admissibility",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

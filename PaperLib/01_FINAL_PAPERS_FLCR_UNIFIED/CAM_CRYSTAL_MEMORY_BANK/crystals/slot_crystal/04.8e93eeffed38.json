@@ -1,0 +1,126 @@
+{
+  "kind": "slot_crystal",
+  "granularity": "slot",
+  "slot": "04",
+  "record_count": 3,
+  "decision_counts": {
+    "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 3
+  },
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0061",
+      "record_type": "local_unintegrated_artifact",
+      "title": "049-boundary-cqe-proof-of-transport.md",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "bridge_action",
+        "enumeration_action",
+        "fold_action",
+        "terminal_action",
+        "boundary_action"
+      ],
+      "slot_assignments": [
+        "07",
+        "17",
+        "27",
+        "37",
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38",
+        "04",
+        "14",
+        "24",
+        "34"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\049-boundary-cqe-proof-of-transport.md"
+    },
+    {
+      "record_id": "LOCAL-GAP-0068",
+      "record_type": "local_unintegrated_artifact",
+      "title": "CQE-paper-13-rule30_shell_verification_ledger_receipt.json",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "bridge_action",
+        "ledger_action",
+        "fold_action",
+        "boundary_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "07",
+        "17",
+        "27",
+        "37",
+        "06",
+        "16",
+        "26",
+        "36",
+        "03",
+        "13",
+        "23",
+        "33",
+        "04",
+        "14",
+        "24",
+        "34"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-rule30_shell_verification_ledger_receipt.json"
+    },
+    {
+      "record_id": "LOCAL-GAP-0087",
+      "record_type": "local_unintegrated_artifact",
+      "title": "029-umbrella-math-pariah-monster-boundary.md",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action",
+        "bridge_action",
+        "boundary_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38",
+        "07",
+        "17",
+        "27",
+        "37",
+        "04",
+        "14",
+        "24",
+        "34"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\029-umbrella-math-pariah-monster-boundary.md"
+    }
+  ],
+  "content_address": "8e93eeffed3848ef886757bacdb37c0f2f549400ec39c4cd3d5348009e6a8aa0"
+}

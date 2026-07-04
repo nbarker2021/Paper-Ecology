@@ -1,0 +1,1671 @@
+{
+  "schema": "flcr_source_routing_matrix.v1",
+  "series": "Formalizing LCR, Unifying Standard Models",
+  "common_sources": {
+    "audits": [
+      "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+      "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+      "AGENT_CRYSTAL_WORK_HARVEST.json",
+      "NSIT_REASONED_CLOSURE_PASS.json",
+      "NSIT_TOOL_CLOSURE_MATRIX.json",
+      "CAM_CLAIM_100_SCORE_AUDIT.json"
+    ],
+    "supplements": [
+      "supplements/SUPPLEMENT_INDEX.md",
+      "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+      "supplements/RECEIPT_VERIFIER_CATALOG.md",
+      "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+      "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+      "supplements/APPLIED_FORGES_WORKBOOK.md"
+    ],
+    "kimi": [
+      "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+      "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+      "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+      "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+      "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+      "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+      "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+    ],
+    "downloads": [
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+      "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+    ]
+  },
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "legacy_paths": [
+        "00_Established_Grounding_and_Axiom_Contract.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-02",
+      "legacy_paths": [
+        "01_LCR_Chain_Carrier.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-03",
+      "legacy_paths": [
+        "02_Correction_Surface.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-04",
+      "legacy_paths": [
+        "03_D4_J3_Triality_Surface.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-05",
+      "legacy_paths": [
+        "04_Boundary_Repair.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-06",
+      "legacy_paths": [
+        "05_Oloid_Path_Carrier.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-07",
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-08",
+      "legacy_paths": [
+        "07_Discrete_Continuous_Bridge.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-09",
+      "legacy_paths": [
+        "08_Lattice_Closure.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-10",
+      "legacy_paths": [
+        "09_Hamiltonian_Window_Emergence.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-11",
+      "legacy_paths": [
+        "10_T10_Master_Receipt.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-12",
+      "legacy_paths": [
+        "11_Theory_Admission_Gate.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-13",
+      "legacy_paths": [
+        "12_CA_Prediction_Surface.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-14",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-15",
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-16",
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-17",
+      "legacy_paths": [
+        "16_Continuum_Edge_Residuals.md",
+        "17_E6_E8_Error_Correction_Tower.md",
+        "18_VOA_Moonshine_Representation_Routes.md"
+      ],
+      "upstream_publication_refs": [
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-18"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-18",
+      "legacy_paths": [
+        "17_E6_E8_Error_Correction_Tower.md",
+        "18_VOA_Moonshine_Representation_Routes.md",
+        "19_Observer_Face_Selection.md"
+      ],
+      "upstream_publication_refs": [
+        "FLCR-17"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-19",
+      "legacy_paths": [
+        "20_Layer_2_Synthesis_Ledger.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-20",
+      "legacy_paths": [
+        "21_MorphForge_PolyForge_MorphoniX.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-21",
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md"
+      ],
+      "upstream_publication_refs": [
+        "FLCR-09"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-22",
+      "legacy_paths": [
+        "23_FoldForge_Protein_Folding.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-23",
+      "legacy_paths": [
+        "24_KnightForge_N_Dimensional_Chess_Automata.md",
+        "28_N_Dimensional_Game_Lattices.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-24",
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md"
+      ],
+      "upstream_publication_refs": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-18"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-25",
+      "legacy_paths": [
+        "26_Z_Pinch_and_Shear_Horizon.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-26",
+      "legacy_paths": [
+        "27_Observer_Delay_and_Shared_Reality.md"
+      ],
+      "upstream_publication_refs": [
+        "FLCR-06"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-27",
+      "legacy_paths": [
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": false
+    },
+    {
+      "publication_id": "FLCR-28",
+      "legacy_paths": [],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-29",
+      "legacy_paths": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-30",
+      "legacy_paths": [
+        "32_The_Supervisor_Cursor.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-31",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-32",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-33",
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-34",
+      "legacy_paths": [],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-35",
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "16_Continuum_Edge_Residuals.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-36",
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-37",
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md",
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-38",
+      "legacy_paths": [
+        "19_Observer_Face_Selection.md",
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "28_N_Dimensional_Game_Lattices.md",
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-39",
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "10_T10_Master_Receipt.md",
+        "11_Theory_Admission_Gate.md",
+        "20_Layer_2_Synthesis_Ledger.md",
+        "32_The_Supervisor_Cursor.md"
+      ],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    },
+    {
+      "publication_id": "FLCR-40",
+      "legacy_paths": [],
+      "audit_sources": [
+        "NSIT_PAPER_EVIDENCE_INVENTORY.json",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.json",
+        "AGENT_CRYSTAL_WORK_HARVEST.json",
+        "NSIT_REASONED_CLOSURE_PASS.json",
+        "NSIT_TOOL_CLOSURE_MATRIX.json",
+        "CAM_CLAIM_100_SCORE_AUDIT.json"
+      ],
+      "supplement_sources": [
+        "supplements/SUPPLEMENT_INDEX.md",
+        "supplements/INTERNAL_REASONING_PYRAMID_INDEX.md",
+        "supplements/RECEIPT_VERIFIER_CATALOG.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md"
+      ],
+      "kimi_sources": [
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+        "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+        "D:\\DockerContainers\\Manny Docker Starter\\database\\windows"
+      ],
+      "download_sources": [
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\NOTEBOOKLM_REVIEW_PROMPTS.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\SERIES_INDEX.csv",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\CAM_ADDRESS_GRAMMAR.md",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\MannyAI_Unified_Crystal_Manifest_v0.yaml",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\ANALOG_WORKBOOK_ASSEMBLY.json",
+        "C:\\Users\\nbark\\Downloads\\Papers-20260626T194053Z-3-001\\Papers\\asset_mesh_manifest.json"
+      ],
+      "normal_form_intake_required": true
+    }
+  ]
+}

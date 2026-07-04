@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "d",
+  "missing_count": 8,
+  "highest_score": 27,
+  "sample_files": [
+    "d\\CQE_CMPLX\\PAPERS_CONTENT.db",
+    "d\\CQE_CMPLX\\PAPERS_LINEAGE.db",
+    "d\\CQE_CMPLX\\PAPERS_LIVE.db",
+    "d\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\run_verifier_suite.py",
+    "d\\CQE_CMPLX\\TMN_CODE.db",
+    "d\\CQE_CMPLX\\TMN_TOOLS_LCR.db",
+    "d\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\cqecmplx_corpus.db",
+    "d\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\fourpack\\frontend\\src\\components\\dashboard.tsx"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "7d408bcefea990a3c0ae4cc2344358c9405dcb7a92290e4324c8e1e890535200"
+}

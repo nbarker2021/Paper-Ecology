@@ -1,0 +1,17 @@
+{
+  "original_publication_id": "OPR-70",
+  "original_slot": "70",
+  "title": "Ten-Window Closure And Lift At Lift 7",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [],
+  "slot_family": "closure_lift",
+  "lift_depth": 7,
+  "dimensional_role": "7x ten-window closure/lift",
+  "proof_form_required": "aggregate receipt and open-slot preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

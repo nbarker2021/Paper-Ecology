@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "PaneForge",
+  "missing_count": 22,
+  "highest_score": 46,
+  "sample_files": [
+    "PaneForge\\kernel\\paneforge_kernel.py",
+    "PaneForge\\tests\\test_demo.py",
+    "PaneForge\\data\\state.json",
+    "PaneForge\\docs\\03_ARCHITECTURE.md",
+    "PaneForge\\docs\\05_API.md",
+    "PaneForge\\make_stick.py",
+    "PaneForge\\data_test\\state.json",
+    "PaneForge\\docs\\01_OVERVIEW.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "97773a7754e692f32fc9605c26c3c31fe07f0b3c343197e3bddb29feea989b0a"
+}

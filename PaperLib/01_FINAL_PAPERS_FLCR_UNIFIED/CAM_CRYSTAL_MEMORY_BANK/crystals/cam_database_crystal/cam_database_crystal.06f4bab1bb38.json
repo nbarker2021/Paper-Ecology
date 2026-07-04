@@ -1,0 +1,113 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0001",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqe_cam_crystal.db",
+  "name": "cqe_cam_crystal.db",
+  "status": "ok",
+  "signal_score": 83,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 7,
+  "signal_tables": [
+    {
+      "table": "api_links",
+      "row_count": 15,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "correction_log",
+      "row_count": 1,
+      "signal_columns": [
+        "from_hash",
+        "to_hash",
+        "receipt_hash"
+      ]
+    },
+    {
+      "table": "morphisms",
+      "row_count": 620,
+      "signal_columns": [
+        "from_hash",
+        "to_hash"
+      ]
+    },
+    {
+      "table": "nodes",
+      "row_count": 28555,
+      "signal_columns": [
+        "hash",
+        "node_type",
+        "node_id",
+        "paper_id",
+        "claims_count",
+        "receipts_count"
+      ]
+    },
+    {
+      "table": "projection_log",
+      "row_count": 268,
+      "signal_columns": [
+        "top_match_hash",
+        "resonance_score",
+        "derived_crystal"
+      ]
+    },
+    {
+      "table": "ribbon_routing",
+      "row_count": 8,
+      "signal_columns": [
+        "node_count"
+      ]
+    },
+    {
+      "table": "string_segments",
+      "row_count": 1472578,
+      "signal_columns": [
+        "node_hash",
+        "source_field",
+        "window_size",
+        "window_pos",
+        "window_text",
+        "window_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift",
+    "window_action"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "43",
+    "53",
+    "63",
+    "73",
+    "40",
+    "50",
+    "60",
+    "70",
+    "49",
+    "59",
+    "69",
+    "79"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "06f4bab1bb38b3f3cd856627458ff6d8fb18bdb52a08ca42572ba801fb2f326b"
+}

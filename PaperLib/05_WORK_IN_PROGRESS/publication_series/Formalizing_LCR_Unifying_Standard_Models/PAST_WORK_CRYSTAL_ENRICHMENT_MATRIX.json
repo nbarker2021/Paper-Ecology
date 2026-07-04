@@ -1,0 +1,581 @@
+{
+  "schema": "flcr_past_work_crystal_enrichment.v1",
+  "paper_count": 40,
+  "global_crystal_facts": [
+    "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes.",
+    "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads.",
+    "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces.",
+    "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."
+  ],
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "slot_family": "closure_lift",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind the window as a replayable receipt stack: source, operation, result, residue, dependency, and lift boundary."
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "legacy_papers": [
+        "01"
+      ],
+      "slot_family": "enumeration_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 2,
+      "expansion_rule": "Use past work to increase the state inventory: enumerate the local carrier, admission candidates, or applied reader objects before interpretation is added."
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "legacy_papers": [
+        "02"
+      ],
+      "slot_family": "residual_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "legacy_papers": [
+        "03"
+      ],
+      "slot_family": "fold_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 15,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 4,
+      "expansion_rule": "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "legacy_papers": [
+        "04"
+      ],
+      "slot_family": "boundary_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 15,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to type the boundary: admitted, repaired, reflected, calibration-required, falsified, or routed onward."
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "legacy_papers": [
+        "05"
+      ],
+      "slot_family": "carrier_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to bind transport: path, transducer, traversal, carrier medium, invariant, and external calibration boundary."
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "slot_family": "ledger_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to turn obligations into graph rows: event, observer, dependency, validator, falsifier, and next lane."
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "legacy_papers": [
+        "07"
+      ],
+      "slot_family": "bridge_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to build correspondence tables: discrete source, continuous/physical target, standard theorem, calibration unit, and non-promotion guard."
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "slot_family": "terminal_action",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 6,
+      "expansion_rule": "Use past work to make lookups operational: lattice/forge/CAM address, invariant split, callable tool, and receipt boundary."
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "legacy_papers": [
+        "09"
+      ],
+      "slot_family": "window_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to read across scales: local paper, same-family lift, 3/5/7/9 reasoning windows, and Kimi 2/4/8/16/32 windows."
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "slot_family": "closure_lift",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind the window as a replayable receipt stack: source, operation, result, residue, dependency, and lift boundary."
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "legacy_papers": [
+        "11"
+      ],
+      "slot_family": "enumeration_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 19,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to increase the state inventory: enumerate the local carrier, admission candidates, or applied reader objects before interpretation is added."
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "slot_family": "residual_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 19,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "legacy_papers": [
+        "13"
+      ],
+      "slot_family": "fold_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 17,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "legacy_papers": [
+        "14"
+      ],
+      "slot_family": "boundary_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to type the boundary: admitted, repaired, reflected, calibration-required, falsified, or routed onward."
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "legacy_papers": [
+        "15"
+      ],
+      "slot_family": "carrier_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind transport: path, transducer, traversal, carrier medium, invariant, and external calibration boundary."
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "legacy_papers": [
+        "16"
+      ],
+      "slot_family": "ledger_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to turn obligations into graph rows: event, observer, dependency, validator, falsifier, and next lane."
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "slot_family": "bridge_action",
+      "routed_full_sources": 9,
+      "routed_partial_sources": 21,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 3,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to build correspondence tables: discrete source, continuous/physical target, standard theorem, calibration unit, and non-promotion guard."
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "slot_family": "closure_lift",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 17,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind the window as a replayable receipt stack: source, operation, result, residue, dependency, and lift boundary."
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "legacy_papers": [
+        "21"
+      ],
+      "slot_family": "enumeration_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to increase the state inventory: enumerate the local carrier, admission candidates, or applied reader objects before interpretation is added."
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "legacy_papers": [
+        "22"
+      ],
+      "slot_family": "residual_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 21,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "legacy_papers": [
+        "23"
+      ],
+      "slot_family": "fold_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 17,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "slot_family": "boundary_action",
+      "routed_full_sources": 6,
+      "routed_partial_sources": 18,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 2,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to type the boundary: admitted, repaired, reflected, calibration-required, falsified, or routed onward."
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "legacy_papers": [
+        "25"
+      ],
+      "slot_family": "carrier_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 19,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind transport: path, transducer, traversal, carrier medium, invariant, and external calibration boundary."
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "legacy_papers": [
+        "26"
+      ],
+      "slot_family": "ledger_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to turn obligations into graph rows: event, observer, dependency, validator, falsifier, and next lane."
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "legacy_papers": [
+        "27"
+      ],
+      "slot_family": "bridge_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 19,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to build correspondence tables: discrete source, continuous/physical target, standard theorem, calibration unit, and non-promotion guard."
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "legacy_papers": [
+        "29"
+      ],
+      "slot_family": "window_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 9,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to read across scales: local paper, same-family lift, 3/5/7/9 reasoning windows, and Kimi 2/4/8/16/32 windows."
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "slot_family": "publication_overlay",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 10,
+      "cam_score_rows_attached": 0,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work as orbital evidence: route all imports through dependency, citation, normal-form, calibration, and falsifier lanes."
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "slot_family": "closure_lift",
+      "routed_full_sources": 6,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 10,
+      "cam_score_rows_attached": 2,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind the window as a replayable receipt stack: source, operation, result, residue, dependency, and lift boundary."
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "slot_family": "residual_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 22,
+      "routed_transient_sources": 10,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "slot_family": "fold_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 15,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "slot_family": "fold_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 14,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to strengthen representation transport: every face, gauge, atlas, or fold label must point to a preserved source object."
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "legacy_papers": [
+        "15"
+      ],
+      "slot_family": "carrier_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind transport: path, transducer, traversal, carrier medium, invariant, and external calibration boundary."
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "legacy_papers": [],
+      "slot_family": "publication_overlay",
+      "routed_full_sources": 2,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 0,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work as orbital evidence: route all imports through dependency, citation, normal-form, calibration, and falsifier lanes."
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "slot_family": "boundary_action",
+      "routed_full_sources": 6,
+      "routed_partial_sources": 16,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 2,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to type the boundary: admitted, repaired, reflected, calibration-required, falsified, or routed onward."
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "legacy_papers": [
+        "22"
+      ],
+      "slot_family": "residual_action",
+      "routed_full_sources": 3,
+      "routed_partial_sources": 22,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 1,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "slot_family": "carrier_action",
+      "routed_full_sources": 9,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 3,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to bind transport: path, transducer, traversal, carrier medium, invariant, and external calibration boundary."
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "slot_family": "window_action",
+      "routed_full_sources": 15,
+      "routed_partial_sources": 17,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 5,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work to read across scales: local paper, same-family lift, 3/5/7/9 reasoning windows, and Kimi 2/4/8/16/32 windows."
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "slot_family": "ledger_action",
+      "routed_full_sources": 14,
+      "routed_partial_sources": 20,
+      "routed_transient_sources": 11,
+      "cam_score_rows_attached": 5,
+      "nsit_rows_attached": 1,
+      "expansion_rule": "Use past work to turn obligations into graph rows: event, observer, dependency, validator, falsifier, and next lane."
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "legacy_papers": [],
+      "slot_family": "publication_overlay",
+      "routed_full_sources": 8,
+      "routed_partial_sources": 23,
+      "routed_transient_sources": 10,
+      "cam_score_rows_attached": 0,
+      "nsit_rows_attached": 0,
+      "expansion_rule": "Use past work as orbital evidence: route all imports through dependency, citation, normal-form, calibration, and falsifier lanes."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "flcr_id": "FLCR-33",
+  "title": "Electroweak, Higgs, And Mass Residue Translation",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-06",
+    "SMD-07",
+    "SMD-08",
+    "SMD-09",
+    "SMD-12"
+  ],
+  "irl_ids": [
+    "IRL-ATLAS-HIGGS-2012",
+    "IRL-CMS-HIGGS-2012",
+    "IRL-CODATA-2022-WALLET"
+  ],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-03",
+    "FLCR-11",
+    "FLCR-13",
+    "FLCR-16",
+    "FLCR-18",
+    "FLCR-23",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": true,
+  "line_count": 126,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-33__sm_translation_explained.md"
+}

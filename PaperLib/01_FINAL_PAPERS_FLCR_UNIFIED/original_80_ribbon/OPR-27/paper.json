@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-27",
+  "original_slot": "27",
+  "title": "Observer Delay and Shared Reality",
+  "status": "source_backed",
+  "source_file": "27_Observer_Delay_and_Shared_Reality.md",
+  "linked_flcr_papers": [
+    "FLCR-26",
+    "FLCR-38"
+  ],
+  "slot_family": "bridge_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+  "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T03:06:16.819560",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 54,
+  "papers": {
+    "18": {
+      "variant_count": 17,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\18_VOA_Moonshine_Representation_Routes.md",
+          "filename": "18_VOA_Moonshine_Representation_Routes.md",
+          "size": 457444,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_18.md",
+          "filename": "paper_18.md",
+          "size": 22107,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_18__exceptional_towers_voa_routes\\paper_18.md",
+          "filename": "paper_18.md",
+          "size": 22107,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-18.md",
+          "filename": "CQE-paper-18.md",
+          "size": 7070,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-18_UPGRADED.md",
+          "filename": "CQE-paper-18_UPGRADED.md",
+          "size": 8335,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\18_VOA_Moonshine_Representation_Routes.md"
+    },
+    "19": {
+      "variant_count": 17,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\19_Observer_Face_Selection.md",
+          "filename": "19_Observer_Face_Selection.md",
+          "size": 470485,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-19.md",
+          "filename": "CQE-paper-19.md",
+          "size": 4576,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQECMPLX_Production_main_11\\CQECMPLX-Production-main\\Papers\\Source_BACKUP\\CQE-paper-19.md",
+          "filename": "CQE-paper-19.md",
+          "size": 4440,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_19.md",
+          "filename": "paper_19.md",
+          "size": 23974,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_19__layer2_synthesis_ledger\\paper_19.md",
+          "filename": "paper_19.md",
+          "size": 23974,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\19_Observer_Face_Selection.md"
+    },
+    "20": {
+      "variant_count": 20,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\20_Layer_2_Synthesis_Ledger.md",
+          "filename": "20_Layer_2_Synthesis_Ledger.md",
+          "size": 785766,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_20.md",
+          "filename": "paper_20.md",
+          "size": 18020,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-20.md",
+          "filename": "CQE-paper-20.md",
+          "size": 4534,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_20__applied_forge_reader\\paper_20.md",
+          "filename": "paper_20.md",
+          "size": 18020,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQECMPLX_Production_main_11\\CQECMPLX-Production-main\\Papers\\Source_BACKUP\\CQE-paper-20.md",
+          "filename": "CQE-paper-20.md",
+          "size": 4398,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\20_Layer_2_Synthesis_Ledger.md"
+    }
+  }
+}

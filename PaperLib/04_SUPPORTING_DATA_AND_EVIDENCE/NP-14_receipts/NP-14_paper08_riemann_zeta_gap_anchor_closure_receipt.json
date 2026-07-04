@@ -1,0 +1,13 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-08 riemann_zeta_gap_anchor_receipt.json",
+  "status": "pass",
+  "passed": 1,
+  "total": 1,
+  "closure_source": "Canonical verifier rerun with UTF-8 console encoding",
+  "notes": [
+    "The original receipt had no status due to Windows console encoding failure.",
+    "verify_glm_riemann_zeta_gap_anchor.py passes under PYTHONIOENCODING=utf-8."
+  ],
+  "boundary": "Finite lattice-gap anchor closed; analytic-number-theory external proof remains an interpretive bridge (IBN)."
+}

@@ -1,0 +1,126 @@
+{
+  "generated": "2026-07-03T10:30:28.794622",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 13,
+  "papers": {
+    "81": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_81.md",
+          "filename": "paper_81.md",
+          "size": 14196,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_81__rule30_nonperiodicity_p1\\paper_81.md",
+          "filename": "paper_81.md",
+          "size": 14196,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-081.md",
+          "filename": "CQE-PAPER-081.md",
+          "size": 7617,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-081.md",
+          "filename": "CQE-PAPER-081.md",
+          "size": 7617,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_81.md"
+    },
+    "82": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_82.md",
+          "filename": "paper_82.md",
+          "size": 12900,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_82__rule30_density_p2\\paper_82.md",
+          "filename": "paper_82.md",
+          "size": 12900,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-082.md",
+          "filename": "CQE-PAPER-082.md",
+          "size": 5721,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-082.md",
+          "filename": "CQE-PAPER-082.md",
+          "size": 5721,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_82.md"
+    },
+    "83": {
+      "variant_count": 5,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_83.md",
+          "filename": "paper_83.md",
+          "size": 13802,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_83__rule30_sublinear_p3\\paper_83.md",
+          "filename": "paper_83.md",
+          "size": 13802,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-083.md",
+          "filename": "CQE-PAPER-083.md",
+          "size": 8654,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-083.md",
+          "filename": "CQE-PAPER-083.md",
+          "size": 8654,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\tile-integration\\PAPER-083-TILE-INTEGRATION.md",
+          "filename": "PAPER-083-TILE-INTEGRATION.md",
+          "size": 977,
+          "score": 1,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_83.md"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-15",
+  "obligation_closed": "SM-07",
+  "verifier": "published_data_higgs_mass",
+  "finding": "PDG Higgs, W, Z and top masses for 3+1 frame mapping",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "electroweak masses",
+    "published_values": {
+      "Higgs": {
+        "value": 125.25,
+        "unit": "GeV",
+        "uncertainty": 0.17
+      },
+      "W": {
+        "value": 80.3692,
+        "unit": "GeV",
+        "uncertainty": 0.0133
+      },
+      "Z": {
+        "value": 91.1876,
+        "unit": "GeV",
+        "uncertainty": 0.0021
+      },
+      "top": {
+        "value": 172.57,
+        "unit": "GeV",
+        "uncertainty": 0.29
+      }
+    },
+    "source": "PDG 2024 / LHC measurements",
+    "note": "Higgs mass prediction (125 GeV) is consistent with measured central value; derivation from chart residue remains open."
+  },
+  "checks": {
+    "C1_higgs_mass_recorded": true,
+    "C2_gauge_top_masses_recorded": true
+  },
+  "cam_address": "72c7ae04d36870e26474575a5419402df38a4aa8b425a7fd093fab840ee57acb"
+}

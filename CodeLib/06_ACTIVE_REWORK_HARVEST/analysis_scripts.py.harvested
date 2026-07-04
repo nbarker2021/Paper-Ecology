@@ -1,0 +1,44 @@
+# Harvest log for D:/CodeLib/06_ACTIVE_REWORK_HARVEST/analysis_scripts.py
+# Total lines: 568
+# Harvest date: 2026-07-04
+
+## Paper 03 (D4/J3 Triality Surface) — ported functions
+- analyze_superpermutation
+- calculate_winners_losers
+- is_prodigal
+- find_prodigal_results
+- create_laminate (networkx → plain dict)
+- is_compatible (networkx.has_path → plain DFS)
+- add_weights_to_debruijn (networkx → plain dict, k-mer reconstruction fixed)
+- calculate_sequence_winners_losers (hash(seq) → tuple keys for determinism)
+- verify_analyze_superpermutation
+- verify_winners_losers
+- verify_prodigal_detection
+- verify_laminate_graph
+- verify_compatibility
+- verify_sequence_winners_losers
+
+## Paper 05 (Oloid Path Carrier) — ported functions
+- calculate_fixed_segments (layout segmentation utility)
+- verify_fixed_segments
+
+## Skipped (already present in targets)
+- calculate_overlap
+- calculate_golden_ratio_points
+- get_kmers
+- build_debruijn_graph
+- find_cycles
+- find_high_weight_paths (incomplete in source, complete in Paper 03)
+- generate_permutations_on_demand_hypothetical (already present from generation_code_n7_dynamic.py harvest)
+
+## Discarded (non-deterministic or external)
+- generate_mega_hypotheticals: uses random.sample, random.randint, random.choice
+- generate_hypothetical_prodigals: uses random.random, random.choice, random.randint
+
+## Porting rules applied
+- Removed networkx dependencies; replaced with plain dict adjacency lists
+- Removed non-deterministic code (random, Python hash())
+- Kept deterministic algorithms only
+- Wrote in unified form with type hints and docstrings
+- Added verify_* functions for each ported capability
+- Skipped duplicates already present in target files

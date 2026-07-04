@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 5,
+  "artifact": "ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.*",
+  "why_it_matters": "Shows source-backed vs expansion-needed slots.",
+  "suggested_slots": [
+    "33-79"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "90491e59beee444e8ce34fcba4768288a6c470a85da14f6f29ea6cb9b8f72f1a"
+}

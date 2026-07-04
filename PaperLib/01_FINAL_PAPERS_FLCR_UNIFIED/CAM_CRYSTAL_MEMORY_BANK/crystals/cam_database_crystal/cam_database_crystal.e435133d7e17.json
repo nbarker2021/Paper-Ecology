@@ -1,0 +1,63 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0029",
+  "path": "D:\\CQE_CMPLX\\PAPERS_CONTENT.db",
+  "name": "PAPERS_CONTENT.db",
+  "status": "ok",
+  "signal_score": 20,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 13,
+  "signal_tables": [
+    {
+      "table": "code_blocks",
+      "row_count": 750,
+      "signal_columns": [
+        "content"
+      ]
+    },
+    {
+      "table": "paper_dependencies",
+      "row_count": 325,
+      "signal_columns": []
+    },
+    {
+      "table": "paper_refs",
+      "row_count": 232,
+      "signal_columns": []
+    },
+    {
+      "table": "paper_topics",
+      "row_count": 61,
+      "signal_columns": []
+    },
+    {
+      "table": "papers_content",
+      "row_count": 208,
+      "signal_columns": [
+        "paper_date"
+      ]
+    },
+    {
+      "table": "term_paper",
+      "row_count": 24285,
+      "signal_columns": []
+    }
+  ],
+  "slot_families": [
+    "closure_lift",
+    "ledger_action"
+  ],
+  "slot_assignments": [
+    "00",
+    "10",
+    "20",
+    "30",
+    "06",
+    "16",
+    "26",
+    "36"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "e435133d7e1737eae8fe47451f3b5aaa75cefe86d673b0576e208355915bff03"
+}

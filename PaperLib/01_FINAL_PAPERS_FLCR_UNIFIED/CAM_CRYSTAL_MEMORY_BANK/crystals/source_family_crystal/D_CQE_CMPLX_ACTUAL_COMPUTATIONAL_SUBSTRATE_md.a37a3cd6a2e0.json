@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 18,
+  "artifact": "D:\\CQE_CMPLX\\ACTUAL_COMPUTATIONAL_SUBSTRATE.md",
+  "why_it_matters": "Verified/open boundary map; prevents overclaim routing.",
+  "suggested_slots": [
+    "02",
+    "06",
+    "07",
+    "09",
+    "42",
+    "46",
+    "47",
+    "49"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "a37a3cd6a2e0df8705b796a637c1cae38a168c1f621fd58981fbd3709dbe81bd"
+}

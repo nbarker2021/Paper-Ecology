@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T02:56:48.555113",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 61,
+  "papers": {
+    "15": {
+      "variant_count": 22,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\15_QFT_Higgs_Mass_Residue_Carrier.md",
+          "filename": "15_QFT_Higgs_Mass_Residue_Carrier.md",
+          "size": 437080,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_15.md",
+          "filename": "paper_15.md",
+          "size": 23360,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_15__curvature_boundary_repair\\paper_15.md",
+          "filename": "paper_15.md",
+          "size": 23360,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_full_checkpoint_v2_tar\\CMPLX-R30\\PROOF\\papers\\15_observer_lattice_chain.md",
+          "filename": "15_observer_lattice_chain.md",
+          "size": 21670,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_main_1\\CMPLX-R30-main\\PROOF\\papers\\15_observer_lattice_chain.md",
+          "filename": "15_observer_lattice_chain.md",
+          "size": 21670,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\15_QFT_Higgs_Mass_Residue_Carrier.md"
+    },
+    "16": {
+      "variant_count": 22,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\16_Continuum_Edge_Residuals.md",
+          "filename": "16_Continuum_Edge_Residuals.md",
+          "size": 142041,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-16.md",
+          "filename": "CQE-paper-16.md",
+          "size": 4322,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-16_UPGRADED.md",
+          "filename": "CQE-paper-16_UPGRADED.md",
+          "size": 5349,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQECMPLX_Production_main_11\\CQECMPLX-Production-main\\Papers\\Source_BACKUP\\CQE-paper-16.md",
+          "filename": "CQE-paper-16.md",
+          "size": 4191,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQECMPLX_Production_main_11\\CQECMPLX-Production-main\\Papers\\Source_BACKUP\\CQE-paper-16_UPGRADED.md",
+          "filename": "CQE-paper-16_UPGRADED.md",
+          "size": 5212,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\16_Continuum_Edge_Residuals.md"
+    },
+    "17": {
+      "variant_count": 17,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\Kimi_Agent_Rule30InvariantProof_2\\rule30-complete-package\\07-REPOSITORY-EXTRACT\\docs\\submission\\17_PRIOR_lambda_rule30_equivalence_unified_report.md",
+          "filename": "17_PRIOR_lambda_rule30_equivalence_unified_report.md",
+          "size": 9043,
+          "score": 13,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\17_E6_E8_Error_Correction_Tower.md",
+          "filename": "17_E6_E8_Error_Correction_Tower.md",
+          "size": 424459,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\17_E6_E8_Error_Correction_Tower.md",
+          "filename": "17_E6_E8_Error_Correction_Tower.md",
+          "size": 20075,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_17.md",
+          "filename": "paper_17.md",
+          "size": 18331,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-17.md",
+          "filename": "CQE-paper-17.md",
+          "size": 7657,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\archive_intake\\Kimi_Agent_Rule30InvariantProof_2\\rule30-complete-package\\07-REPOSITORY-EXTRACT\\docs\\submission\\17_PRIOR_lambda_rule30_equivalence_unified_report.md"
+    }
+  }
+}

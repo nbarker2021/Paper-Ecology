@@ -1,0 +1,13 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "MasterPaper",
+  "missing_count": 2,
+  "highest_score": 39,
+  "sample_files": [
+    "MasterPaper\\MASTERPAPER_CLEAN_PACKAGE_MANIFEST.json",
+    "MasterPaper\\README_MASTERPAPER_PACKAGES.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "d4dfd18fa744c4a12d0fd78d1219dd2f1ce2041608ce4f56af699c4123dada38"
+}

@@ -1,0 +1,654 @@
+{
+  "schema": "mannyai_docker_review_lane_intake.v1",
+  "generated_at": "2026-06-29T18:49:56.430016+00:00",
+  "source_roots": [
+    "D:\\MannyAI",
+    "D:\\DockerContainers\\Manny Docker Starter"
+  ],
+  "inventory": [
+    {
+      "root": "D:\\MannyAI",
+      "files": 114,
+      "directories": 21,
+      "bytes": 2676960,
+      "top_suffixes": {
+        ".py": 63,
+        ".md": 28,
+        ".pdf": 8,
+        ".html": 8,
+        ".json": 3,
+        "<none>": 1,
+        ".ini": 1,
+        ".txt": 1,
+        ".png": 1
+      }
+    },
+    {
+      "root": "D:\\DockerContainers\\Manny Docker Starter",
+      "files": 330,
+      "directories": 213,
+      "bytes": 19123004,
+      "top_suffixes": {
+        ".json": 117,
+        ".db": 66,
+        ".py": 47,
+        ".md": 39,
+        ".yml": 13,
+        "<none>": 10,
+        ".sh": 5,
+        ".txt": 5,
+        ".yaml": 5,
+        ".sql": 4,
+        ".ps1": 3,
+        ".conf": 3
+      }
+    }
+  ],
+  "readouts": {
+    "standards_conformance": {
+      "canonical_count": 32,
+      "total_verdicts": 192,
+      "by_status": {
+        "PASS": 192,
+        "FAIL": 0,
+        "OPEN": 0,
+        "EXTERNAL_REQUIRED": 0,
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "suite_resolution": {
+      "paper_count": 99,
+      "total_items": 782,
+      "resolved_items": 776,
+      "unresolved_items": 6,
+      "reworks_indexed": 52
+    },
+    "glue": {
+      "total_obligations": 95,
+      "obligations_with_candidates": 95,
+      "coverage_ratio": 1.0
+    },
+    "node_verify": {
+      "canonical_count": 32,
+      "by_verdict": {
+        "OPEN": 0,
+        "FAIL": 7,
+        "PASS": 25
+      },
+      "total_duration_seconds": 353.889
+    },
+    "windows": {
+      "root_window_id": "window_00_31",
+      "levels": [
+        {
+          "size": 2,
+          "count": 16
+        },
+        {
+          "size": 4,
+          "count": 8
+        },
+        {
+          "size": 8,
+          "count": 4
+        },
+        {
+          "size": 16,
+          "count": 2
+        },
+        {
+          "size": 32,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "routes": [
+    {
+      "lane_id": "mannyai_cam_crystal_mcp",
+      "source_root": "D:\\MannyAI",
+      "kind": "cam_crystal_runtime",
+      "claim_lane": "cam_crystal_reapplication_result",
+      "primary_targets": [
+        "FLCR-02",
+        "FLCR-08",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "evidence": [
+        "docs/ai-instructions/02-CAM-CRYSTAL-OPERATIONS.md",
+        "src/manny_mcp/plugins/cam_add_node.py",
+        "src/manny_mcp/plugins/cam_get_crystal.py",
+        "src/manny_mcp/plugins/cam_list_crystals.py",
+        "src/manny_mcp/plugins/cem_run.py"
+      ],
+      "use": "Treats CAM/crystal operations and MCP tools as addressable runtime evidence for lookup, crystal projection, content-addressed writes, and carrier-CEM execution.",
+      "boundary": "Runtime/MCP conformance is a review lane and tool route; it does not replace mathematical proof or physical calibration.",
+      "evidence_status": [
+        {
+          "path": "D:\\MannyAI\\docs\\ai-instructions\\02-CAM-CRYSTAL-OPERATIONS.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\manny_mcp\\plugins\\cam_add_node.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\manny_mcp\\plugins\\cam_get_crystal.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\manny_mcp\\plugins\\cam_list_crystals.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\manny_mcp\\plugins\\cem_run.py",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "mannyai_splatforge_field_runtime",
+      "source_root": "D:\\MannyAI",
+      "kind": "forge_runtime",
+      "claim_lane": "cam_crystal_reapplication_result",
+      "primary_targets": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-38"
+      ],
+      "evidence": [
+        "docs/SPLATFORGE_FIELD_RUNTIME_v0_1.md",
+        "src/SplatForgeField/field.py",
+        "src/SplatForgeField/runtime.py",
+        "src/SplatForgeField/render.py",
+        "src/SplatForgeField/adapter.py",
+        "src/SplatForgeField/grammar.py",
+        "src/SplatForgeField/reconstruct.py",
+        "tests/test_splatforge_field.py",
+        "tests/test_spatial_forge_adapter.py"
+      ],
+      "use": "Adds the spatial/field forge as the bridge between crystals, grammar dispatch, deterministic render/readout, LCR ring controls, and reconstruction.",
+      "boundary": "Useful as executable/adapter evidence; domain claims still need per-domain data, receipts, or calibrators.",
+      "evidence_status": [
+        {
+          "path": "D:\\MannyAI\\docs\\SPLATFORGE_FIELD_RUNTIME_v0_1.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\field.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\runtime.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\render.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\adapter.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\grammar.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\SplatForgeField\\reconstruct.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\tests\\test_splatforge_field.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\tests\\test_spatial_forge_adapter.py",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "mannyai_carrier_cem_and_research_receipts",
+      "source_root": "D:\\MannyAI",
+      "kind": "carrier_cem_receipts",
+      "claim_lane": "receipt_bound_internal_result",
+      "primary_targets": [
+        "FLCR-01",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-19",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-38"
+      ],
+      "evidence": [
+        "BUILD_MANIFEST.md",
+        "run_cem.py",
+        "src/carrier_cem.py",
+        "research/carrier-cem/receipts/ocem1_accuracy_receipt.json",
+        "research/render-parity/receipts/gs08_parity_receipt.json"
+      ],
+      "use": "Adds carrier-CEM, grant enforcement, learner/specialization, sealed receipt chains, and research receipts as direct review-lane sources.",
+      "boundary": "Cold-start accuracy and domain dispatch remain bounded by the manifest's open obligations unless closed by tests.",
+      "evidence_status": [
+        {
+          "path": "D:\\MannyAI\\BUILD_MANIFEST.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\run_cem.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\src\\carrier_cem.py",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\research\\carrier-cem\\receipts\\ocem1_accuracy_receipt.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\MannyAI\\research\\render-parity\\receipts\\gs08_parity_receipt.json",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "docker_standards_suite",
+      "source_root": "D:\\DockerContainers\\Manny Docker Starter",
+      "kind": "nist_style_standards",
+      "claim_lane": "normal_form_result",
+      "primary_targets": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "evidence": [
+        "AGENTS.md",
+        "mannyai/standards/corpus_conformance_report.json",
+        "mannyai/standards/suite_resolution_report.json",
+        "mannyai/standards/glue_report.json",
+        "mannyai/standards/standards/paper.structure.json",
+        "mannyai/standards/validators/papers.py"
+      ],
+      "use": "Treats the Docker-hosted MannyAI standards stack as a first-class review lane for structure, claim coverage, receipt status, open obligations, obligation continuity, and suite-aware evidence.",
+      "boundary": "Standards passing proves conformance to the review protocol, not truth of every imported claim.",
+      "evidence_status": [
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\AGENTS.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\corpus_conformance_report.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\suite_resolution_report.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\glue_report.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\standards\\paper.structure.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\standards\\validators\\papers.py",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "docker_window_node_databases",
+      "source_root": "D:\\DockerContainers\\Manny Docker Starter",
+      "kind": "window_node_memory",
+      "claim_lane": "cam_crystal_reapplication_result",
+      "primary_targets": [
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-19",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-40"
+      ],
+      "evidence": [
+        "mannyai/brain/window_summary.json",
+        "database/windows",
+        "database/nodes",
+        "mannyai/papers/nodes",
+        "database/mannyai.db"
+      ],
+      "use": "Adds the 2/4/8/16/32 window hierarchy, node DBs, paper manifests, and central MannyAI DB as review-lane memory surfaces.",
+      "boundary": "Databases are intake/query sources; individual rows must be quoted or receipted before being promoted.",
+      "evidence_status": [
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\brain\\window_summary.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\database\\windows",
+          "exists": true,
+          "kind": "directory"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\database\\nodes",
+          "exists": true,
+          "kind": "directory"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes",
+          "exists": true,
+          "kind": "directory"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\database\\mannyai.db",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "docker_mcp_and_deployment_surface",
+      "source_root": "D:\\DockerContainers\\Manny Docker Starter",
+      "kind": "deployment_runtime",
+      "claim_lane": "receipt_bound_internal_result",
+      "primary_targets": [
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-38",
+        "FLCR-39"
+      ],
+      "evidence": [
+        "docker-compose.mannyai.yml",
+        "docker-compose-complete-stack.yml",
+        "mcp/MCP-MANIFEST.md",
+        "mcp/REFORGE-INTEGRATION.md",
+        "docs/running-stack-snapshot.md",
+        "docs/running-containers.json",
+        "docs/docker-compose.unified.normalized.yml"
+      ],
+      "use": "Adds Docker/MCP deployment, container topology, normalized compose, running-container snapshots, and ReForge integration as operational review lanes.",
+      "boundary": "Deployment topology is infrastructure evidence; services should not be assumed live unless current health checks are run.",
+      "evidence_status": [
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\docker-compose.mannyai.yml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\docker-compose-complete-stack.yml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mcp\\MCP-MANIFEST.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\mcp\\REFORGE-INTEGRATION.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\docs\\running-stack-snapshot.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\docs\\running-containers.json",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\docs\\docker-compose.unified.normalized.yml",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "lane_id": "docker_observability_security_governance",
+      "source_root": "D:\\DockerContainers\\Manny Docker Starter",
+      "kind": "operations_governance",
+      "claim_lane": "falsifier_or_open_obligation",
+      "primary_targets": [
+        "FLCR-07",
+        "FLCR-12",
+        "FLCR-28",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "evidence": [
+        "SECURITY.md",
+        "monitoring/prometheus.yml",
+        "observability/prometheus/prometheus.yml",
+        "observability/loki/config.yml",
+        "k8s/deployment.yaml",
+        "helm/ai-ml-toolkit/Chart.yaml"
+      ],
+      "use": "Adds operational guardrails, monitoring, deployment policy, Kubernetes/Helm surfaces, and security documentation as automation-review guardrails.",
+      "boundary": "Security/deployment docs are guardrails and falsifier lanes for automation, not restrictions on human hypothesis generation.",
+      "evidence_status": [
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\SECURITY.md",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\monitoring\\prometheus.yml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\observability\\prometheus\\prometheus.yml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\observability\\loki\\config.yml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\k8s\\deployment.yaml",
+          "exists": true,
+          "kind": "file"
+        },
+        {
+          "path": "D:\\DockerContainers\\Manny Docker Starter\\helm\\ai-ml-toolkit\\Chart.yaml",
+          "exists": true,
+          "kind": "file"
+        }
+      ]
+    }
+  ],
+  "manifest_updates": [
+    {
+      "publication_id": "FLCR-01",
+      "lanes_added": [
+        "mannyai_carrier_cem_and_research_receipts"
+      ]
+    },
+    {
+      "publication_id": "FLCR-02",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp"
+      ]
+    },
+    {
+      "publication_id": "FLCR-07",
+      "lanes_added": [
+        "mannyai_carrier_cem_and_research_receipts",
+        "docker_standards_suite",
+        "docker_observability_security_governance"
+      ]
+    },
+    {
+      "publication_id": "FLCR-08",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp"
+      ]
+    },
+    {
+      "publication_id": "FLCR-10",
+      "lanes_added": [
+        "docker_window_node_databases"
+      ]
+    },
+    {
+      "publication_id": "FLCR-11",
+      "lanes_added": [
+        "mannyai_carrier_cem_and_research_receipts",
+        "docker_standards_suite",
+        "docker_window_node_databases"
+      ]
+    },
+    {
+      "publication_id": "FLCR-12",
+      "lanes_added": [
+        "docker_standards_suite",
+        "docker_observability_security_governance"
+      ]
+    },
+    {
+      "publication_id": "FLCR-19",
+      "lanes_added": [
+        "mannyai_carrier_cem_and_research_receipts",
+        "docker_window_node_databases"
+      ]
+    },
+    {
+      "publication_id": "FLCR-20",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp",
+        "mannyai_splatforge_field_runtime",
+        "docker_mcp_and_deployment_surface"
+      ]
+    },
+    {
+      "publication_id": "FLCR-21",
+      "lanes_added": [
+        "mannyai_splatforge_field_runtime"
+      ]
+    },
+    {
+      "publication_id": "FLCR-22",
+      "lanes_added": [
+        "mannyai_splatforge_field_runtime"
+      ]
+    },
+    {
+      "publication_id": "FLCR-23",
+      "lanes_added": [
+        "mannyai_splatforge_field_runtime"
+      ]
+    },
+    {
+      "publication_id": "FLCR-26",
+      "lanes_added": [
+        "mannyai_carrier_cem_and_research_receipts"
+      ]
+    },
+    {
+      "publication_id": "FLCR-28",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp",
+        "mannyai_splatforge_field_runtime",
+        "mannyai_carrier_cem_and_research_receipts",
+        "docker_standards_suite",
+        "docker_window_node_databases",
+        "docker_mcp_and_deployment_surface",
+        "docker_observability_security_governance"
+      ]
+    },
+    {
+      "publication_id": "FLCR-29",
+      "lanes_added": [
+        "docker_window_node_databases"
+      ]
+    },
+    {
+      "publication_id": "FLCR-30",
+      "lanes_added": [
+        "docker_standards_suite",
+        "docker_window_node_databases",
+        "docker_mcp_and_deployment_surface"
+      ]
+    },
+    {
+      "publication_id": "FLCR-36",
+      "lanes_added": [
+        "mannyai_splatforge_field_runtime"
+      ]
+    },
+    {
+      "publication_id": "FLCR-38",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp",
+        "mannyai_splatforge_field_runtime",
+        "mannyai_carrier_cem_and_research_receipts",
+        "docker_mcp_and_deployment_surface"
+      ]
+    },
+    {
+      "publication_id": "FLCR-39",
+      "lanes_added": [
+        "docker_standards_suite",
+        "docker_mcp_and_deployment_surface",
+        "docker_observability_security_governance"
+      ]
+    },
+    {
+      "publication_id": "FLCR-40",
+      "lanes_added": [
+        "mannyai_cam_crystal_mcp",
+        "docker_standards_suite",
+        "docker_window_node_databases",
+        "docker_observability_security_governance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR31-001",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-03",
+  "O_ext": "SU(3)_C x SU(2)_L x U(1)_Y",
+  "equation_or_source": "`SMD-03`, PDG source registry",
+  "O_lcr": "LCR transport / face / carrier surfaces",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "Closes the external target `SU(3)_C x SU(2)_L x U(1)_Y`, not an LCR identity claim.",
+  "dataset": "",
+  "falsifier": "Closes the external target `SU(3)_C x SU(2)_L x U(1)_Y`, not an LCR identity claim.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

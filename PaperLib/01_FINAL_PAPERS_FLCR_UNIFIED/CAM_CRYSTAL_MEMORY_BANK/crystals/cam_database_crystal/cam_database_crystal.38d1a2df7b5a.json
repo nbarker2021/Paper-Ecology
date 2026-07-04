@@ -1,0 +1,47 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0060",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Manny\\Working Prototyping\\db\\ai_instructions\\instruction_files.db",
+  "name": "instruction_files.db",
+  "status": "ok",
+  "signal_score": 25,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 2,
+  "signal_tables": [
+    {
+      "table": "ai_instruction_files",
+      "row_count": 20,
+      "signal_columns": [
+        "source_repo",
+        "hash_content"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "38d1a2df7b5a1c8f3cd704b601260169c35dab4c8db021624d8926058ceba805"
+}

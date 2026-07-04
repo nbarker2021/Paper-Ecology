@@ -1,0 +1,208 @@
+{
+  "schema": "flcr_formal_output_fast_rebuild.v1",
+  "built_count": 40,
+  "failure_count": 0,
+  "built": [
+    {
+      "paper": "FLCR-01",
+      "tex_bytes": 44943,
+      "pdf_bytes": 43712
+    },
+    {
+      "paper": "FLCR-02",
+      "tex_bytes": 42084,
+      "pdf_bytes": 41070
+    },
+    {
+      "paper": "FLCR-03",
+      "tex_bytes": 39965,
+      "pdf_bytes": 38110
+    },
+    {
+      "paper": "FLCR-04",
+      "tex_bytes": 40945,
+      "pdf_bytes": 39362
+    },
+    {
+      "paper": "FLCR-05",
+      "tex_bytes": 38760,
+      "pdf_bytes": 36940
+    },
+    {
+      "paper": "FLCR-06",
+      "tex_bytes": 41258,
+      "pdf_bytes": 40808
+    },
+    {
+      "paper": "FLCR-07",
+      "tex_bytes": 44664,
+      "pdf_bytes": 47998
+    },
+    {
+      "paper": "FLCR-08",
+      "tex_bytes": 41703,
+      "pdf_bytes": 41058
+    },
+    {
+      "paper": "FLCR-09",
+      "tex_bytes": 43371,
+      "pdf_bytes": 42935
+    },
+    {
+      "paper": "FLCR-10",
+      "tex_bytes": 42984,
+      "pdf_bytes": 42730
+    },
+    {
+      "paper": "FLCR-11",
+      "tex_bytes": 42193,
+      "pdf_bytes": 42364
+    },
+    {
+      "paper": "FLCR-12",
+      "tex_bytes": 43140,
+      "pdf_bytes": 42255
+    },
+    {
+      "paper": "FLCR-13",
+      "tex_bytes": 44307,
+      "pdf_bytes": 44259
+    },
+    {
+      "paper": "FLCR-14",
+      "tex_bytes": 41643,
+      "pdf_bytes": 40394
+    },
+    {
+      "paper": "FLCR-15",
+      "tex_bytes": 39971,
+      "pdf_bytes": 37926
+    },
+    {
+      "paper": "FLCR-16",
+      "tex_bytes": 42252,
+      "pdf_bytes": 41335
+    },
+    {
+      "paper": "FLCR-17",
+      "tex_bytes": 40598,
+      "pdf_bytes": 39388
+    },
+    {
+      "paper": "FLCR-18",
+      "tex_bytes": 48493,
+      "pdf_bytes": 47770
+    },
+    {
+      "paper": "FLCR-19",
+      "tex_bytes": 40004,
+      "pdf_bytes": 38113
+    },
+    {
+      "paper": "FLCR-20",
+      "tex_bytes": 45756,
+      "pdf_bytes": 48342
+    },
+    {
+      "paper": "FLCR-21",
+      "tex_bytes": 43242,
+      "pdf_bytes": 41956
+    },
+    {
+      "paper": "FLCR-22",
+      "tex_bytes": 42052,
+      "pdf_bytes": 40637
+    },
+    {
+      "paper": "FLCR-23",
+      "tex_bytes": 45357,
+      "pdf_bytes": 44276
+    },
+    {
+      "paper": "FLCR-24",
+      "tex_bytes": 41990,
+      "pdf_bytes": 40730
+    },
+    {
+      "paper": "FLCR-25",
+      "tex_bytes": 39677,
+      "pdf_bytes": 37561
+    },
+    {
+      "paper": "FLCR-26",
+      "tex_bytes": 43422,
+      "pdf_bytes": 42150
+    },
+    {
+      "paper": "FLCR-27",
+      "tex_bytes": 45188,
+      "pdf_bytes": 44821
+    },
+    {
+      "paper": "FLCR-28",
+      "tex_bytes": 46929,
+      "pdf_bytes": 48511
+    },
+    {
+      "paper": "FLCR-29",
+      "tex_bytes": 44595,
+      "pdf_bytes": 43000
+    },
+    {
+      "paper": "FLCR-30",
+      "tex_bytes": 44066,
+      "pdf_bytes": 42865
+    },
+    {
+      "paper": "FLCR-31",
+      "tex_bytes": 51070,
+      "pdf_bytes": 49274
+    },
+    {
+      "paper": "FLCR-32",
+      "tex_bytes": 50585,
+      "pdf_bytes": 48941
+    },
+    {
+      "paper": "FLCR-33",
+      "tex_bytes": 52016,
+      "pdf_bytes": 50227
+    },
+    {
+      "paper": "FLCR-34",
+      "tex_bytes": 45655,
+      "pdf_bytes": 41003
+    },
+    {
+      "paper": "FLCR-35",
+      "tex_bytes": 49169,
+      "pdf_bytes": 46243
+    },
+    {
+      "paper": "FLCR-36",
+      "tex_bytes": 53034,
+      "pdf_bytes": 53472
+    },
+    {
+      "paper": "FLCR-37",
+      "tex_bytes": 52903,
+      "pdf_bytes": 48851
+    },
+    {
+      "paper": "FLCR-38",
+      "tex_bytes": 60661,
+      "pdf_bytes": 61377
+    },
+    {
+      "paper": "FLCR-39",
+      "tex_bytes": 64172,
+      "pdf_bytes": 65524
+    },
+    {
+      "paper": "FLCR-40",
+      "tex_bytes": 73784,
+      "pdf_bytes": 75076
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,281 @@
+publication_id: FLCR-30
+title: Supervisor Cursor And Universal Normal-Form Intake
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 32_The_Supervisor_Cursor.md
+- virtuous/32_The_Supervisor_Cursor_VIRTUOUS.md
+- supplements/32_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 30.1
+  lane: normal_form_result
+  statement: a scheduler can traverse paper windows and reserve universal normal-form
+    slots without finalizing claims prematurely
+- id: Proposition 30.2
+  lane: normal_form_result
+  statement: supervisor cursor can be imported by later papers only through its declared
+    source, receipt, and lane.
+- id: Protocol 30.3
+  lane: falsifier_or_open_obligation
+  statement: Kimi's incoming universal normal form remains required evidence before
+    final unification closure
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- docker_standards_suite
+- docker_window_node_databases
+- docker_mcp_and_deployment_surface
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+- MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+- D:\DockerContainers\Manny Docker Starter
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+lattice_forge_actionization:
+  enabled: true
+  actionization_contract: Forge systems are the operational expression layer for the
+    corpus. CAM stores addressable memory, labels, receipts, and obligations; lattice-forge
+    actionizes that memory into lookup contracts, executable methods, receipt rows,
+    events, and reusable cached answers.
+  leech_lookup_surface_allowed: false
+  canonical_apis:
+  - Forge.leech_lookup(address=0, payload=None)
+  - Forge.verify_leech_lookup()
+  - lattice_forge.lattice_codes.verify_lattice_code_chain
+  - lattice_forge.lattice_codes.verify_golay_24
+  - lattice_forge.enumerated_glue.derive_classical_leech_minimal_landing
+  - lattice_forge.enumerated_glue.encode_leech_ribbon
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.723138+00:00'
+external_review_lanes:
+- lane_id: docker_standards_suite
+  claim_lane: normal_form_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Treats the Docker-hosted MannyAI standards stack as a first-class review lane
+    for structure, claim coverage, receipt status, open obligations, obligation continuity,
+    and suite-aware evidence.
+  boundary: Standards passing proves conformance to the review protocol, not truth
+    of every imported claim.
+- lane_id: docker_window_node_databases
+  claim_lane: cam_crystal_reapplication_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Adds the 2/4/8/16/32 window hierarchy, node DBs, paper manifests, and central
+    MannyAI DB as review-lane memory surfaces.
+  boundary: Databases are intake/query sources; individual rows must be quoted or
+    receipted before being promoted.
+- lane_id: docker_mcp_and_deployment_surface
+  claim_lane: receipt_bound_internal_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Adds Docker/MCP deployment, container topology, normalized compose, running-container
+    snapshots, and ReForge integration as operational review lanes.
+  boundary: Deployment topology is infrastructure evidence; services should not be
+    assumed live unless current health checks are run.
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "32"
+      source_file: "32_The_Supervisor_Cursor.md"
+      slot_family: "residual_action"
+      lift_depth: 3
+      dimensional_role: "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface"
+      proof_form_required: "residual accounting and bounded/unbounded split"
+
+dimensional_ribbon:
+  ribbon_slot: "32"
+  slot_digit: 2
+  slot_family: "residual_action"
+  lift_depth: 3
+  lift_name: "lift_3x"
+  order_index: 4
+  dimensional_role: "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface"
+  state_bound_action: "mark the correction, residue, vacancy, or mismatch surface"
+  proof_form_required: "residual accounting and bounded/unbounded split"
+  inherits_from_same_family: "22"
+  lifts_to_same_family: "42"
+  ten_lift_anchor: "30"
+  cycle_window: ["30", "31", "32", "33", "34", "35", "36", "37", "38", "39"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 31 and reopened at original slot 32 (The Supervisor Cursor)"
+  produced_state: "formal result of original slot 32 plus the same-family lift path toward slot 42"
+  semantic_transition: "measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration"
+  accepted_formalism_targets:
+    - "residue classes and quotient accounting"
+    - "error-correction or syndrome notation"
+    - "truth tables and exhaustive finite checks"
+    - "bounded versus unbounded domain separation"
+  analog_invariance_test: "a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+  previous_family_slot: "22"
+  next_family_slot: "42"
+
+claim_binding_queue:
+  queue_count: 3
+  queues:
+    - id: "finite_ca_bounded_search"
+      title: "Finite CA And Bounded Search Promotion"
+      lane: "receipt_bound_internal_result"
+      promote_now: "Promote finite-state, bounded-search, local-rule, and exhaustive verification claims when the state space and transition law are explicit."
+      bind_next: "Attach state-space size, transition law, verifier name, receipt path, and bounded domain statement."
+      residue: "Unbounded Rule 30 prediction, global minimality, and all-game/all-system claims remain separate."
+    - id: "formal_methods_receipt_closure"
+      title: "Formal-Methods Receipt And Governance Closure"
+      lane: "normal_form_result"
+      promote_now: "Promote claim-envelope, receipt, lane, causal-graph, and conformance obligations as formal-methods artifacts when standards reports are attached."
+      bind_next: "Attach NSIT standards report, content-addressed receipt, lane grant, replay path, and dependency graph row."
+      residue: "Missing hashes, missing schemas, or unrun adapters remain engineering residues, not mathematical openness."
+    - id: "negative_receipts_as_guards"
+      title: "Negative And Failed-Route Receipts As Guards"
+      lane: "falsifier_or_open_obligation"
+      promote_now: "Use failed routes, rejected candidates, and boundary receipts as exclusion evidence and counterexample guards."
+      bind_next: "Attach negative receipt path, rejected candidate, failure mode, and the promotion it blocks."
+      residue: "A negative receipt constrains the claim; it does not prove the positive replacement unless separately evidenced."
+
+claim_delta_ledger:
+  delta_count: 3
+  deltas:
+    - id: "finite_ca_bounded_search"
+      title: "Finite Ca Bounded Search"
+      local_claim: "This paper may describe finite CA, search, game, or local-rule behavior within the bounded surface it actually enumerates."
+      later_evidence: "Verifier state-space count, transition law, exhaustive/bounded receipt, and negative/minimality guards."
+      revised_claim: "Promote finite-state and bounded-search claims when the state space and transition law are explicit."
+      boundary: "Unbounded prediction, global minimality, all-game coverage, and all-system generalization remain separate."
+      workbook_replay: "Record state-space size, transition law, receipt, coverage limit, and non-promoted unbounded claim."
+    - id: "formal_methods_receipt_closure"
+      title: "Formal Methods Receipt Closure"
+      local_claim: "This paper may treat receipts, claim lanes, dependency graphs, and replay contracts as formal objects, not mere editorial apparatus."
+      later_evidence: "NSIT standards, claim envelopes, content-addressed receipts, lane grants, Kimi 192/192 conformance, and graph/replay artifacts."
+      revised_claim: "Promote form, receipt, lane, and governance obligations to formal-methods closures when the standard report or artifact is attached."
+      boundary: "Missing hashes, schemas, adapters, or replay runs remain engineering residues rather than mathematical disproof."
+      workbook_replay: "Attach envelope, receipt, lane grant, replay path, and dependency row for each governed claim."
+    - id: "negative_receipts_as_guards"
+      title: "Negative Receipts As Guards"
+      local_claim: "This paper may preserve failed routes and rejected candidates as meaningful boundary data."
+      later_evidence: "Negative receipts, failed verifier rows, rejected-as-datum outputs, and obligation ledgers."
+      revised_claim: "Use negative receipts as exclusion evidence and promotion guards."
+      boundary: "A negative receipt blocks a promotion; it does not prove a positive replacement unless separately evidenced."
+      workbook_replay: "Record rejected candidate, failure mode, blocked promotion, and remaining positive-proof requirement."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-30-F1"
+  primary_table: "FLCR-30-T1"
+  appendix_id: "FLCR-30-A"
+  glossary_terms:
+    - "CAM"
+    - "bounded domain"
+    - "claim lane"
+    - "correction surface"
+    - "crystal"
+    - "receipt"
+    - "residue"
+    - "unbounded burden"
+  planned_figures:
+    - "FLCR-30-F1: Residual split diagram"
+    - "FLCR-30-F2: Evidence routing map"
+    - "FLCR-30-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-30-T1: Residual accounting table"
+    - "FLCR-30-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-30-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-30-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 54
+  top_cards:
+    - title: "SUMMARY-IX-Open-Obligations: Summary Paper IX — The Open Obligations: The 2×2 Failure Points and the Empirical Platform Diagnostic System"
+      archive_score: 79
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+      contributes: "This paper is the **complete open obligations manifest** of the CQE_CMPLX corpus. The corpus is honest about what is and isn't proven. The framework for this honesty is the **empirical platform diagnostic system** — a **failure-diagnostic system** where the user (or any system asking a question) only needs the by-hand work at the **2×2 failure points**, the moments where the formal substrate breaks down."
+    - title: "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX — COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS"
+      archive_score: 75
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+      contributes: "**The CQECMPLX suite has zero genuine open obligations.** Every \"open\" item is a boundary error that locally re-invokes the Nth-bit request (light-cone decomposition) using the exact same methods encoded in the lib. The lib IS the receipt book — the forge modules implement the recursive closure operator exactly."
+    - title: "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+      contributes: "**Status:** Affirmative / Charter / Authoritative **Version:** 1.0 **Date:** 2026-06-17 **Classification:** Meta-Framework / Compositional Closure Document This charter formally unifies the CQECMPLX corpus under a single, literal-physics redefinition. It identifies and eliminates every hypothesis-status artifact from older productions, enforces compositional closure across all 11 chapters and 33+ supplements, and locks in the new affirmative status of every claim. **Scope:** All chapters 00-foun"
+    - title: "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+      contributes: "**Version:** 1.0 **Date:** 2026-06-15 **Classification:** Appendix / Guide / User Manual ```bash git clone https://github.com/nbarker2021/CQECMPLX-Production.git cd CQECMPLX-Production python populate_corpus_db.py python -m harness.run_all_verifiers python calibrate_units.py python calibrate_ckm.py ``` ```python python production/formal-papers/CQE-paper-formal-S1/verify_spectre_correction.py ``` ```python python generate_paper.py --paper=090 ``` ```markdown CLAIM: [Short statement] TYPE: [axiom "
+    - title: "CLAIM_CROSSWALK: CLAIM_CROSSWALK"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+      contributes: "claim_id,legacy_claim,status,validator,data,falsifier,boundary,export_status Kp2.02.23-CKM-001,013-CKM-Calibration,computed,ckm_calibration_receipt.json,Exact SU(3) closure at scale 3 (residual^2=0, 3 generations, 3 trace-2 idempotents); bounded route = 3 stages G2/F4/T5A maps to delta_12, delta_23, delta_13+delta; Weyl S3 action = orbit_size 6 with trace-2 triplet; CKM structure = 3 angles + 1 CP phase from the 3-stage bounded route. External numeric calibration of route parameters is pending; "
+    - title: "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+      contributes: "- **Total slots:** 17 - **Promoted (status=promoted, n_kp_promoted >= 1):** 4 (slots 2, 8, 11, 12) - **Unpromoted (status=open, n_kp_promoted=0):** 13 (slots 1, 3, 4, 5, 6, 7, 9, 10, 13, 14, 15, 16, 31) - **Promotion ratio:** 4/17 = 23.5% (target: >= 9/17 = 52.9% per Kp2.02.20 DoD)"
+    - title: "FORMAL: Paper 32 — C-Form: The Supervisor Cursor Gluon"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\01-CQE-formal\\FORMAL.md`"
+      contributes: "The proof-carrying content of this paper is the mathematics: the definitions, lemmas, constructions, examples, and receipts that establish the claimed transport. Paper 00, workbook sheets, analog tools, and open-obligation ledgers are supplemental validation and exposure layers. They exist to make the math inspectable, reproducible, and accessible without requiring a particular software stack. In the simplest case, the same state transitions can be marked with ordinary physical tokens, lines, or"
+    - title: "PAPER-BODY: CQE Paper 32 — The Supervisor Cursor: Superpermutations as the Compressed Dimensional Action Graph"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\PAPER-BODY.md`"
+      contributes: "- **O-32.1** — The n=8 corridor: 120 symbols between 46085 and 46205. Egan's n=7 search methods (kernel graphs over 2-cycle/3-cycle quotients) transported to n=8 inside this format. - **O-32.2** — Validate the octad-orbit ↔ chart-state-orbit correspondence (4+2+2 = 4+2+2) as a theorem rather than an observation; identify the functor between schedule space at n and state space at n−2. - **O-32.3** — Ship the search records below the formula at n=6 (872) and n=7 (5906) as field data alongside the "
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to split closed core from residue: correction tables, mismatch rows, open obligations, and bounded/unbounded domains must remain separate."
+  routed_full_sources: 3
+  routed_partial_sources: 22
+  routed_transient_sources: 10
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0011",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\CQE-CMPLX-1T-Dev-main.zip",
+  "name": "CQE-CMPLX-1T-Dev-main.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 551,
+  "high_signal_entry_count": 544,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "carrier_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "41",
+    "51",
+    "61",
+    "71",
+    "45",
+    "55",
+    "65",
+    "75",
+    "47",
+    "57",
+    "67",
+    "77"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "8d65a738cef9891f15b9cf59e1a3f68f4b11a182ffeae4840c88f93c8f9032a5"
+}

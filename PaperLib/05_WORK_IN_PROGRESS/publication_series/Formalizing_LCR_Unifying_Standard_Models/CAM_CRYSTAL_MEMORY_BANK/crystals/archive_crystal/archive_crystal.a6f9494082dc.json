@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0188",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\ForgeFactory_ReForge_Session_Master_v0_2\\ForgeFactory_ReForge_Session_Master_v0_2\\02_forgefactory_and_engines\\ForgeFactory_v0_1_package.zip",
+  "name": "ForgeFactory_v0_1_package.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 81,
+  "high_signal_entry_count": 81,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "residual_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "02",
+    "12",
+    "22",
+    "32",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "a6f9494082dc642082bb967bcc539417b6bfe9f79ffe5c622cc245ba57ff6b92"
+}

@@ -1,0 +1,31 @@
+{
+  "flcr_id": "FLCR-32",
+  "title": "QCD And Color Transport In LCR",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-32__QCD_And_Color_Transport_In_LCR__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-03",
+    "SMD-05",
+    "SMD-08",
+    "SMD-12"
+  ],
+  "irl_ids": [
+    "IRL-PDG-2024",
+    "IRL-PDG-2026"
+  ],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-02",
+    "FLCR-11",
+    "FLCR-12",
+    "FLCR-14",
+    "FLCR-18",
+    "FLCR-22",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": true,
+  "line_count": 117,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-32__sm_translation_explained.md"
+}

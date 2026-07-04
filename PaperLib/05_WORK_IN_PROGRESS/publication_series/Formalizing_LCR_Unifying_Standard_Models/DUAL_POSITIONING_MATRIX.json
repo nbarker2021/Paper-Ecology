@@ -1,0 +1,935 @@
+{
+  "schema": "flcr_dual_positioning_matrix.v1",
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "00",
+          "slot_family": "closure_lift",
+          "lift_depth": 0,
+          "dimensional_role": "0x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "legacy_papers": [
+        "01"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "01",
+          "slot_family": "enumeration_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "legacy_papers": [
+        "02"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "02",
+          "slot_family": "residual_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "legacy_papers": [
+        "03"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "03",
+          "slot_family": "fold_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-3: fold the initial action into a higher-dimensional representation",
+          "proof_form_required": "fold map, coordinate atlas, and representation transport"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "legacy_papers": [
+        "04"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "04",
+          "slot_family": "boundary_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-4: type the boundary, repair row, or curvature-demand condition",
+          "proof_form_required": "typed boundary row and next-state admissibility"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "legacy_papers": [
+        "05"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "05",
+          "slot_family": "carrier_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-5: carry the state through a path, traversal, or admissible motion",
+          "proof_form_required": "carrier/transducer/path proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "06",
+          "slot_family": "ledger_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "legacy_papers": [
+        "07"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "07",
+          "slot_family": "bridge_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+          "proof_form_required": "bridge, projection, calibration, or sample-preservation proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "08",
+          "slot_family": "terminal_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+          "proof_form_required": "terminal lookup, invariant split, and addressability proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "legacy_papers": [
+        "09"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "09",
+          "slot_family": "window_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+          "proof_form_required": "window count, source preservation, and meta-ribbon proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "10",
+          "slot_family": "closure_lift",
+          "lift_depth": 1,
+          "dimensional_role": "1x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "legacy_papers": [
+        "11"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "11",
+          "slot_family": "enumeration_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "12",
+          "slot_family": "residual_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "legacy_papers": [
+        "13"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "13",
+          "slot_family": "fold_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-3: fold the initial action into a higher-dimensional representation",
+          "proof_form_required": "fold map, coordinate atlas, and representation transport"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "legacy_papers": [
+        "14"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "14",
+          "slot_family": "boundary_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-4: type the boundary, repair row, or curvature-demand condition",
+          "proof_form_required": "typed boundary row and next-state admissibility"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "legacy_papers": [
+        "15"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "15",
+          "slot_family": "carrier_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-5: carry the state through a path, traversal, or admissible motion",
+          "proof_form_required": "carrier/transducer/path proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "legacy_papers": [
+        "16"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "16",
+          "slot_family": "ledger_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "17",
+          "slot_family": "bridge_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+          "proof_form_required": "bridge, projection, calibration, or sample-preservation proof"
+        },
+        {
+          "ribbon_slot": "18",
+          "slot_family": "terminal_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+          "proof_form_required": "terminal lookup, invariant split, and addressability proof"
+        },
+        {
+          "ribbon_slot": "19",
+          "slot_family": "window_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+          "proof_form_required": "window count, source preservation, and meta-ribbon proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "20",
+          "slot_family": "closure_lift",
+          "lift_depth": 2,
+          "dimensional_role": "2x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "legacy_papers": [
+        "21"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "21",
+          "slot_family": "enumeration_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "legacy_papers": [
+        "22"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "22",
+          "slot_family": "residual_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "legacy_papers": [
+        "23"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "23",
+          "slot_family": "fold_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-3: fold the initial action into a higher-dimensional representation",
+          "proof_form_required": "fold map, coordinate atlas, and representation transport"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "24",
+          "slot_family": "boundary_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-4: type the boundary, repair row, or curvature-demand condition",
+          "proof_form_required": "typed boundary row and next-state admissibility"
+        },
+        {
+          "ribbon_slot": "28",
+          "slot_family": "terminal_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+          "proof_form_required": "terminal lookup, invariant split, and addressability proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "legacy_papers": [
+        "25"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "25",
+          "slot_family": "carrier_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-5: carry the state through a path, traversal, or admissible motion",
+          "proof_form_required": "carrier/transducer/path proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "legacy_papers": [
+        "26"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "26",
+          "slot_family": "ledger_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "legacy_papers": [
+        "27"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "27",
+          "slot_family": "bridge_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+          "proof_form_required": "bridge, projection, calibration, or sample-preservation proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "legacy_papers": [
+        "29"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "29",
+          "slot_family": "window_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+          "proof_form_required": "window count, source preservation, and meta-ribbon proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "original_ribbon_slots": [],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "30",
+          "slot_family": "closure_lift",
+          "lift_depth": 3,
+          "dimensional_role": "3x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        },
+        {
+          "ribbon_slot": "31",
+          "slot_family": "enumeration_action",
+          "lift_depth": 3,
+          "dimensional_role": "order-4 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "32",
+          "slot_family": "residual_action",
+          "lift_depth": 3,
+          "dimensional_role": "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "13",
+          "slot_family": "fold_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-3: fold the initial action into a higher-dimensional representation",
+          "proof_form_required": "fold map, coordinate atlas, and representation transport"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "13",
+          "slot_family": "fold_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-3: fold the initial action into a higher-dimensional representation",
+          "proof_form_required": "fold map, coordinate atlas, and representation transport"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "legacy_papers": [
+        "15"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "15",
+          "slot_family": "carrier_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-5: carry the state through a path, traversal, or admissible motion",
+          "proof_form_required": "carrier/transducer/path proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "legacy_papers": [],
+      "original_ribbon_slots": [],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "14",
+          "slot_family": "boundary_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-4: type the boundary, repair row, or curvature-demand condition",
+          "proof_form_required": "typed boundary row and next-state admissibility"
+        },
+        {
+          "ribbon_slot": "16",
+          "slot_family": "ledger_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "legacy_papers": [
+        "22"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "22",
+          "slot_family": "residual_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "25",
+          "slot_family": "carrier_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-5: carry the state through a path, traversal, or admissible motion",
+          "proof_form_required": "carrier/transducer/path proof"
+        },
+        {
+          "ribbon_slot": "26",
+          "slot_family": "ledger_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        },
+        {
+          "ribbon_slot": "29",
+          "slot_family": "window_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+          "proof_form_required": "window count, source preservation, and meta-ribbon proof"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "19",
+          "slot_family": "window_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+          "proof_form_required": "window count, source preservation, and meta-ribbon proof"
+        },
+        {
+          "ribbon_slot": "27",
+          "slot_family": "bridge_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+          "proof_form_required": "bridge, projection, calibration, or sample-preservation proof"
+        },
+        {
+          "ribbon_slot": "28",
+          "slot_family": "terminal_action",
+          "lift_depth": 2,
+          "dimensional_role": "order-3 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+          "proof_form_required": "terminal lookup, invariant split, and addressability proof"
+        },
+        {
+          "ribbon_slot": "30",
+          "slot_family": "closure_lift",
+          "lift_depth": 3,
+          "dimensional_role": "3x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        },
+        {
+          "ribbon_slot": "31",
+          "slot_family": "enumeration_action",
+          "lift_depth": 3,
+          "dimensional_role": "order-4 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "original_ribbon_slots": [
+        {
+          "ribbon_slot": "06",
+          "slot_family": "ledger_action",
+          "lift_depth": 0,
+          "dimensional_role": "order-1 slot-6: bind state into causal, observer, or synchronization ledgers",
+          "proof_form_required": "ledger, graph, and synchronization proof"
+        },
+        {
+          "ribbon_slot": "10",
+          "slot_family": "closure_lift",
+          "lift_depth": 1,
+          "dimensional_role": "1x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        },
+        {
+          "ribbon_slot": "11",
+          "slot_family": "enumeration_action",
+          "lift_depth": 1,
+          "dimensional_role": "order-2 slot-1: start the active one-dimensional action / enumerate the center state",
+          "proof_form_required": "enumeration proof and identity preservation"
+        },
+        {
+          "ribbon_slot": "20",
+          "slot_family": "closure_lift",
+          "lift_depth": 2,
+          "dimensional_role": "2x ten-window closure/lift",
+          "proof_form_required": "aggregate receipt and open-slot preservation"
+        },
+        {
+          "ribbon_slot": "32",
+          "slot_family": "residual_action",
+          "lift_depth": 3,
+          "dimensional_role": "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+          "proof_form_required": "residual accounting and bounded/unbounded split"
+        }
+      ],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "legacy_papers": [],
+      "original_ribbon_slots": [],
+      "dual_positioning": {
+        "formal": "accepted math / IRL formalism / receipts / validators / CAM evidence",
+        "companion": "semantic story and author interpretation",
+        "workbook": "label-preserving analog transfer"
+      }
+    }
+  ]
+}

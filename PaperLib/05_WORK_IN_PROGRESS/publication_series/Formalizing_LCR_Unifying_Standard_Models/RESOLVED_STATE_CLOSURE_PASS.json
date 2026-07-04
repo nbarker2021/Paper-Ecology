@@ -1,0 +1,1621 @@
+{
+  "schema": "flcr_resolved_state_closure_pass.v1",
+  "generated_at": "2026-06-29T15:57:31.143953+00:00",
+  "rule": "Close every satisfied evidence lane now. Move only the stronger unsatisfied claim to residue.",
+  "tower_summary": {
+    "papers": 40,
+    "enumeration_rows": 320,
+    "successes": 320,
+    "success_rate": 1.0,
+    "total_bonds": 1430,
+    "total_triads": 2860,
+    "total_error_walls": 0
+  },
+  "universal_process_rows": [
+    {
+      "process_id": "fine_structure_constant",
+      "domain": "fundamental_constant",
+      "components": 4,
+      "tarpit_mass": 0.5069041064221126,
+      "pair_bonds": 6,
+      "triads": 6,
+      "nearest_crystal": "kagome",
+      "compared_targets": 2,
+      "adapter_residue_targets": []
+    },
+    {
+      "process_id": "electroweak_mass_residue",
+      "domain": "particle_mass",
+      "components": 7,
+      "tarpit_mass": 0.49845158720875893,
+      "pair_bonds": 21,
+      "triads": 21,
+      "nearest_crystal": "kagome",
+      "compared_targets": 3,
+      "adapter_residue_targets": []
+    },
+    {
+      "process_id": "ckm_bounded_route",
+      "domain": "particle_mixing",
+      "components": 12,
+      "tarpit_mass": 0.49463011861608486,
+      "pair_bonds": 66,
+      "triads": 66,
+      "nearest_crystal": "square",
+      "compared_targets": 0,
+      "adapter_residue_targets": [
+        "V_cb",
+        "V_cd",
+        "V_cs",
+        "V_tb",
+        "V_td",
+        "V_ts",
+        "V_ub",
+        "V_ud",
+        "V_us"
+      ]
+    },
+    {
+      "process_id": "crystal_zoo_bondedness",
+      "domain": "materials",
+      "components": 9,
+      "tarpit_mass": 0.5005207390344539,
+      "pair_bonds": 36,
+      "triads": 36,
+      "nearest_crystal": "kagome",
+      "compared_targets": 3,
+      "adapter_residue_targets": []
+    },
+    {
+      "process_id": "chemical_bond_energy_forms",
+      "domain": "chemistry",
+      "components": 7,
+      "tarpit_mass": 0.5175074639211623,
+      "pair_bonds": 21,
+      "triads": 21,
+      "nearest_crystal": "fcc",
+      "compared_targets": 0,
+      "adapter_residue_targets": [
+        "H-H_bond_energy",
+        "O-H_bond_energy",
+        "N#N_bond_energy"
+      ]
+    },
+    {
+      "process_id": "universe_scale_tarpit_tower",
+      "domain": "cosmology_or_total_system",
+      "components": 8,
+      "tarpit_mass": 0.5064084192782926,
+      "pair_bonds": 28,
+      "triads": 28,
+      "nearest_crystal": "fcc",
+      "compared_targets": 3,
+      "adapter_residue_targets": []
+    },
+    {
+      "process_id": "waveform_encoding_collapse",
+      "domain": "waveform",
+      "components": 18,
+      "tarpit_mass": 0.5094657243547669,
+      "pair_bonds": 153,
+      "triads": 153,
+      "nearest_crystal": "square",
+      "compared_targets": 1,
+      "adapter_residue_targets": [
+        "real_wave_dataset"
+      ]
+    },
+    {
+      "process_id": "beta_decay_topology",
+      "domain": "weak_decay",
+      "components": 6,
+      "tarpit_mass": 0.5045905047409617,
+      "pair_bonds": 15,
+      "triads": 15,
+      "nearest_crystal": "kagome",
+      "compared_targets": 0,
+      "adapter_residue_targets": [
+        "neutron_beta_Q_value",
+        "neutron_lifetime"
+      ]
+    }
+  ],
+  "fine_bonding_summary": {
+    "stable_pair_bonds": 168,
+    "stable_triads": 168,
+    "hamming_decimal_address": 137,
+    "pfc2_realization": "137 = 120 + 13 + 4",
+    "claim_lanes": [
+      {
+        "id": "FBSD-01",
+        "lane": "receipt_bound_internal_result",
+        "claim": "The Damascus fold trace stabilizes after the first fold.",
+        "evidence": "DAMASCUS_TARPIT_FOLDING_PASS.json",
+        "result": "stable pair bonds=168, stable triads=168, open load=15.0"
+      },
+      {
+        "id": "FBSD-02",
+        "lane": "standard_theorem_or_code_bound_result",
+        "claim": "The 1-3-7 Hamming/Fano chain is present as executable lattice-code evidence.",
+        "evidence": "D:\\CQE_CMPLX\\GaussHaus\\src\\lattice_forge\\lattice_codes.py",
+        "result": "lattice verifier status=pass; Fano automorphism order=168"
+      },
+      {
+        "id": "FBSD-03",
+        "lane": "CAM_crystal_reapplication_result",
+        "claim": "The stabilized fold value 168 matches the Fano/Hamming automorphism count while the fold remains in the kagome crystal family.",
+        "evidence": "DAMASCUS_TARPIT_FOLDING_PASS.json + lattice_codes.py",
+        "result": "168 == 168"
+      },
+      {
+        "id": "FBSD-04",
+        "lane": "normal_form_result",
+        "claim": "The 137 alpha-address can be represented as both Hamming address 1-3-7 and PFC2 decomposition 120+13+4.",
+        "evidence": "UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.json",
+        "result": "137 = 120 + 13 + 4"
+      },
+      {
+        "id": "FBSD-05",
+        "lane": "grand_synthesis_claim_with_dependencies",
+        "claim": "Fine bonding should be searched at the diagonal-removal boundary where linear address energy disperses into vignette plus D4-face residue.",
+        "evidence": "This pass defines the adapter target.",
+        "result": "Prove that the diagonal removal operator maps the linear address 137 to the boundary split 13 + 4, with mod-4 residue 1 selecting the exterior weak face without using alpha as a scale anchor."
+      },
+      {
+        "id": "FBSD-06",
+        "lane": "external_calibration_result",
+        "claim": "Exact physical alpha promotion still requires a no-target-anchor adapter and residual ledger.",
+        "evidence": "NP-15 alpha receipt / CODATA row consumed by universal pass",
+        "result": "PFC2 integer residual=-0.035999084000; relative=0.000262698008"
+      }
+    ]
+  },
+  "papers": [
+    {
+      "paper_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.506443.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "closure/lift governance",
+          "lane": "normal_form_result",
+          "resolved_state": "The paper's object is closed as a replayable closure/lift state with explicit open-slot preservation.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-01 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-01, FLCR-11, FLCR-21, FLCR-31; avg TarPit mass=0.509490; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "claim governance",
+          "lane": "normal_form_result",
+          "resolved_state": "Claim-lane governance is resolved as the series' promotion rule.",
+          "boundary": "Strong downstream physical claims still need their destination evidence lane."
+        },
+        {
+          "row": "analog access doctrine",
+          "lane": "normal_form_result",
+          "resolved_state": "Analog workbooks are promoted from optional explanation to universal STEM access protocol.",
+          "boundary": "Individual kits still require paper-local replay examples."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.526710.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier enumeration",
+          "lane": "normal_form_result",
+          "resolved_state": "The LCR carrier action is closed as an addressable finite-state surface for its declared domain.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-02 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-02, FLCR-12, FLCR-22, FLCR-32; avg TarPit mass=0.511700; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "finite LCR carrier",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The 2x2x2 carrier is closed as the finite local object consumed by later papers.",
+          "boundary": "Physical interpretation of a carrier requires adapter rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.504346.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "residual/correction accounting",
+          "lane": "normal_form_result",
+          "resolved_state": "The correction and residual object is closed as a bounded residue ledger rather than an undefined gap.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-03 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-03, FLCR-13, FLCR-23, FLCR-33; avg TarPit mass=0.510664; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "correction surface",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "Residual accounting is closed as a named object rather than an indefinite defect.",
+          "boundary": "Numeric physical residuals require calibrated target rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.511321.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "representation fold",
+          "lane": "normal_form_result",
+          "resolved_state": "The fold/transport action is closed as a representation map with named invariants and bounded residues.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-04 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-04, FLCR-14, FLCR-24, FLCR-34; avg TarPit mass=0.508927; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "D4/J3(O)/triality carrier",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Representation-transport vocabulary is closed where imported algebra is cited and invariants are preserved.",
+          "boundary": "Physical particle identity requires translation/comparator rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.514103.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "boundary repair",
+          "lane": "normal_form_result",
+          "resolved_state": "The typed boundary repair surface is closed as an admission table for legal next-state repair.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-05 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-05, FLCR-15, FLCR-25, FLCR-35; avg TarPit mass=0.514757; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "typed repair admission",
+          "lane": "normal_form_result",
+          "resolved_state": "Boundary repair is closed as a typed admission protocol.",
+          "boundary": "Specific physical repair events require process-specific data."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.507588.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier/transducer route",
+          "lane": "normal_form_result",
+          "resolved_state": "The carrier route is closed as a state-preserving transfer with recorded loss or residue.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-06 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-06, FLCR-16, FLCR-26, FLCR-36; avg TarPit mass=0.506672; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "oloid/path transport",
+          "lane": "normal_form_result",
+          "resolved_state": "Path-carrier transport is closed as a geometry-of-transfer surface.",
+          "boundary": "Measured path dynamics remain calibration-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.509294.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "causal ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "The causal/obligation ledger is closed as a dependency-preserving channel, not as an unresolved label.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-07 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-07, FLCR-17, FLCR-27, FLCR-37; avg TarPit mass=0.507568; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "obligation ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "Open obligations are resolved as active channels from prestate to next evidence, not negative truth labels.",
+          "boundary": "A channel closes only when its named evidence arrives."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.507901.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "bridge/runtime intake",
+          "lane": "normal_form_result",
+          "resolved_state": "The bridge action is closed as a correspondence and intake surface with explicit comparator boundaries.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-08 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-08, FLCR-18, FLCR-28, FLCR-38; avg TarPit mass=0.510781; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "discrete-continuous bridge",
+          "lane": "normal_form_result",
+          "resolved_state": "The bridge is closed as an admissible correspondence protocol.",
+          "boundary": "Literal continuum physics still requires limit/calibration rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.505787.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "terminal addressability",
+          "lane": "normal_form_result",
+          "resolved_state": "The lattice/terminal surface is closed as an addressable lookup and invariant/residue split.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-09 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-09, FLCR-19, FLCR-29, FLCR-39; avg TarPit mass=0.505916; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "terminal address surface",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Lattice terminal addressability is closed as lookup and invariant split.",
+          "boundary": "Uniqueness of physical landing forms remains receipt-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.510203.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "window/aggregate synthesis",
+          "lane": "normal_form_result",
+          "resolved_state": "The window or aggregate action is closed as a source, receipt, and next-prestate assignment surface.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-1 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510370 and mass sum=40.829567.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-10 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-10, FLCR-20, FLCR-30, FLCR-40; avg TarPit mass=0.510965; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "temporal window readout",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "Temporal windows are closed as replayable state readout surfaces.",
+          "boundary": "External time observables require calibration."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.512872.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "closure/lift governance",
+          "lane": "normal_form_result",
+          "resolved_state": "The paper's object is closed as a replayable closure/lift state with explicit open-slot preservation.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-01 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-01, FLCR-11, FLCR-21, FLCR-31; avg TarPit mass=0.509490; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "master receipt replay",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "Stack replay is closed as a publication-use audit object.",
+          "boundary": "Unattached hashes remain engineering residues."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.504404.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier enumeration",
+          "lane": "normal_form_result",
+          "resolved_state": "The LCR carrier action is closed as an addressable finite-state surface for its declared domain.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-02 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-02, FLCR-12, FLCR-22, FLCR-32; avg TarPit mass=0.511700; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "theory admission",
+          "lane": "normal_form_result",
+          "resolved_state": "Theory admission is closed as a gate protocol with lane-specific promotion rules.",
+          "boundary": "Claims with missing evidence remain outside the gate."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.510851.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "residual/correction accounting",
+          "lane": "normal_form_result",
+          "resolved_state": "The correction and residual object is closed as a bounded residue ledger rather than an undefined gap.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-03 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-03, FLCR-13, FLCR-23, FLCR-33; avg TarPit mass=0.510664; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "CA prediction surface",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Finite cellular-automata prediction surfaces are closed where rule and state domain are declared.",
+          "boundary": "Empirical prediction requires dataset and comparator."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.508078.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "representation fold",
+          "lane": "normal_form_result",
+          "resolved_state": "The fold/transport action is closed as a representation map with named invariants and bounded residues.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-04 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-04, FLCR-14, FLCR-24, FLCR-34; avg TarPit mass=0.508927; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "quark-face structural transport",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "Quark-face transport is closed as finite structural color/face transport.",
+          "boundary": "Measured QCD identity and dynamics remain comparator-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.513979.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "boundary repair",
+          "lane": "normal_form_result",
+          "resolved_state": "The typed boundary repair surface is closed as an admission table for legal next-state repair.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-05 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-05, FLCR-15, FLCR-25, FLCR-35; avg TarPit mass=0.514757; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "curvature-as-repair",
+          "lane": "normal_form_result",
+          "resolved_state": "Curvature is closed as boundary repair demand in the LCR formal layer.",
+          "boundary": "GR identity requires continuum/calibration lane."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.506009.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier/transducer route",
+          "lane": "normal_form_result",
+          "resolved_state": "The carrier route is closed as a state-preserving transfer with recorded loss or residue.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-06 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-06, FLCR-16, FLCR-26, FLCR-36; avg TarPit mass=0.506672; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "mass residue accounting",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Mass residue is closed as a TarPit/bondedness readout target.",
+          "boundary": "Exact particle masses require no-free-parameter adapters."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.513748.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "causal ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "The causal/obligation ledger is closed as a dependency-preserving channel, not as an unresolved label.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-07 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-07, FLCR-17, FLCR-27, FLCR-37; avg TarPit mass=0.507568; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "continuum edge residual",
+          "lane": "normal_form_result",
+          "resolved_state": "Continuum edge residuals are closed as boundary terms.",
+          "boundary": "Physical continuum limit remains calibration-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.516120.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "bridge/runtime intake",
+          "lane": "normal_form_result",
+          "resolved_state": "The bridge action is closed as a correspondence and intake surface with explicit comparator boundaries.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-08 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-08, FLCR-18, FLCR-28, FLCR-38; avg TarPit mass=0.510781; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "exceptional/VOA observer machinery",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Exceptional-tower and VOA routing is closed where imported algebra and observer face selection are explicit.",
+          "boundary": "Physical observer identity remains destination-specific."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.507457.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "terminal addressability",
+          "lane": "normal_form_result",
+          "resolved_state": "The lattice/terminal surface is closed as an addressable lookup and invariant/residue split.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-09 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-09, FLCR-19, FLCR-29, FLCR-39; avg TarPit mass=0.505916; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "layer-2 synthesis ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "Layer-2 synthesis is closed as a cross-paper ledger.",
+          "boundary": "Unconditional global synthesis remains row-by-row."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.508838.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "window/aggregate synthesis",
+          "lane": "normal_form_result",
+          "resolved_state": "The window or aggregate action is closed as a source, receipt, and next-prestate assignment surface.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-2 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.510236 and mass sum=40.818854.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-10 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-10, FLCR-20, FLCR-30, FLCR-40; avg TarPit mass=0.510965; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "forge actionization",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "Forge systems are closed as CAM actionization into lookup, runner, and receipt surfaces.",
+          "boundary": "Service-level deployment remains engineering validation."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.508168.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "closure/lift governance",
+          "lane": "normal_form_result",
+          "resolved_state": "The paper's object is closed as a replayable closure/lift state with explicit open-slot preservation.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-01 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-01, FLCR-11, FLCR-21, FLCR-31; avg TarPit mass=0.509490; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "materials candidate ledger",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Materials generation is closed as a replayable candidate ledger.",
+          "boundary": "Fabrication and load testing remain external validation."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.507121.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier enumeration",
+          "lane": "normal_form_result",
+          "resolved_state": "The LCR carrier action is closed as an addressable finite-state surface for its declared domain.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-02 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-02, FLCR-12, FLCR-22, FLCR-32; avg TarPit mass=0.511700; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "protein descriptor kernel",
+          "lane": "normal_form_result",
+          "resolved_state": "Protein descriptor and fold-facing state are closed as descriptor surfaces.",
+          "boundary": "Biophysical folding accuracy requires benchmark data."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.521378.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "residual/correction accounting",
+          "lane": "normal_form_result",
+          "resolved_state": "The correction and residual object is closed as a bounded residue ledger rather than an undefined gap.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-03 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-03, FLCR-13, FLCR-23, FLCR-33; avg TarPit mass=0.510664; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "finite game lattice",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Finite game lattices are closed where rule, state, and transition domain are finite.",
+          "boundary": "Player or world-model claims require external data."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.503217.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "representation fold",
+          "lane": "normal_form_result",
+          "resolved_state": "The fold/transport action is closed as a representation map with named invariants and bounded residues.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-04 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-04, FLCR-14, FLCR-24, FLCR-34; avg TarPit mass=0.508927; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "energetic traversal map",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Traversal maps are closed as bounded energy/path ledgers.",
+          "boundary": "Measured energy transfer requires unitful calibration."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.516793.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "boundary repair",
+          "lane": "normal_form_result",
+          "resolved_state": "The typed boundary repair surface is closed as an admission table for legal next-state repair.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-05 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-05, FLCR-15, FLCR-25, FLCR-35; avg TarPit mass=0.514757; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "plasma/shear carrier horizon",
+          "lane": "external_calibration_result",
+          "resolved_state": "Plasma and shear target surfaces are closed as citable comparator targets.",
+          "boundary": "Device-level plasma claims require experiment rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.509347.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier/transducer route",
+          "lane": "normal_form_result",
+          "resolved_state": "The carrier route is closed as a state-preserving transfer with recorded loss or residue.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-06 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-06, FLCR-16, FLCR-26, FLCR-36; avg TarPit mass=0.506672; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "observer delay protocol",
+          "lane": "normal_form_result",
+          "resolved_state": "Observer delay is closed as shared-state protocol with explicit latency/residue.",
+          "boundary": "Human or physical observer metrics require measurement theory."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.501967.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "causal ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "The causal/obligation ledger is closed as a dependency-preserving channel, not as an unresolved label.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-07 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-07, FLCR-17, FLCR-27, FLCR-37; avg TarPit mass=0.507568; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "Monster ceiling boundary",
+          "lane": "normal_form_result",
+          "resolved_state": "Monster/large-invariant ceiling is closed as a renormalization boundary surface.",
+          "boundary": "Full moonshine/physics identity remains dependency-explicit."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And Runtime",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.510159.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "bridge/runtime intake",
+          "lane": "normal_form_result",
+          "resolved_state": "The bridge action is closed as a correspondence and intake surface with explicit comparator boundaries.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-08 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-08, FLCR-18, FLCR-28, FLCR-38; avg TarPit mass=0.510781; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "CAM/crystal projector",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "The crystal projector is closed as an address-preserving multi-face projection protocol.",
+          "boundary": "Private vault contents remain unavailable until attached."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.505198.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "terminal addressability",
+          "lane": "normal_form_result",
+          "resolved_state": "The lattice/terminal surface is closed as an addressable lookup and invariant/residue split.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-09 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-09, FLCR-19, FLCR-29, FLCR-39; avg TarPit mass=0.505916; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "corpus ribbon readout",
+          "lane": "normal_form_result",
+          "resolved_state": "The corpus ribbon is closed as a retrospective state readout.",
+          "boundary": "Future paper additions update the ledger rather than reopen the existing result."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.509589.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "window/aggregate synthesis",
+          "lane": "normal_form_result",
+          "resolved_state": "The window or aggregate action is closed as a source, receipt, and next-prestate assignment surface.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-3 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509294 and mass sum=40.743500.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-10 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-10, FLCR-20, FLCR-30, FLCR-40; avg TarPit mass=0.510965; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "supervisor cursor",
+          "lane": "normal_form_result",
+          "resolved_state": "Supervisor cursor scheduling is closed as normal-form slot reservation.",
+          "boundary": "Incoming universal normal form remains an attachable dependency, not a global block."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.510476.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "closure/lift governance",
+          "lane": "normal_form_result",
+          "resolved_state": "The paper's object is closed as a replayable closure/lift state with explicit open-slot preservation.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-01 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-01, FLCR-11, FLCR-21, FLCR-31; avg TarPit mass=0.509490; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "gauge target and transport",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Gauge target definitions and finite gauge-like structural transport are closed.",
+          "boundary": "Measured couplings require scale/scheme comparator rows."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.508566.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier enumeration",
+          "lane": "normal_form_result",
+          "resolved_state": "The LCR carrier action is closed as an addressable finite-state surface for its declared domain.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-02 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-02, FLCR-12, FLCR-22, FLCR-32; avg TarPit mass=0.511700; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "QCD color transport",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "QCD-facing color transport is closed structurally through quark-face receipts.",
+          "boundary": "Full QCD dynamics remain calibration/comparator-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.506081.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "residual/correction accounting",
+          "lane": "normal_form_result",
+          "resolved_state": "The correction and residual object is closed as a bounded residue ledger rather than an undefined gap.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-03 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-03, FLCR-13, FLCR-23, FLCR-33; avg TarPit mass=0.510664; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "electroweak/Higgs frame",
+          "lane": "external_calibration_result",
+          "resolved_state": "External Higgs mass target and internal 3+1 frame accounting are closed.",
+          "boundary": "Higgs scalar potential and mass derivation remain adapter-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.513090.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "representation fold",
+          "lane": "normal_form_result",
+          "resolved_state": "The fold/transport action is closed as a representation map with named invariants and bounded residues.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-04 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-04, FLCR-14, FLCR-24, FLCR-34; avg TarPit mass=0.508927; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "electron-hole-exciton formalism",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "Electron-hole-exciton vocabulary is closed by standard condensed-matter formalism.",
+          "boundary": "Material-specific exciton values require material parameters."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.514152.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "boundary repair",
+          "lane": "normal_form_result",
+          "resolved_state": "The typed boundary repair surface is closed as an admission table for legal next-state repair.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-05 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-05, FLCR-15, FLCR-25, FLCR-35; avg TarPit mass=0.514757; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "GR/continuum interface",
+          "lane": "standard_theorem_citation_bound_result",
+          "resolved_state": "GR/continuum source availability and boundary protocol are closed.",
+          "boundary": "Discrete-to-GR physical identity requires limit/calibration proof."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.503743.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "carrier/transducer route",
+          "lane": "normal_form_result",
+          "resolved_state": "The carrier route is closed as a state-preserving transfer with recorded loss or residue.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-06 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-06, FLCR-16, FLCR-26, FLCR-36; avg TarPit mass=0.506672; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "condensed matter/materials",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Materials and crystal-zoo bondedness rows are closed as candidate/comparator ledgers.",
+          "boundary": "Measured performance remains fabrication-bound."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.505264.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "causal ledger",
+          "lane": "normal_form_result",
+          "resolved_state": "The causal/obligation ledger is closed as a dependency-preserving channel, not as an unresolved label.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-07 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-07, FLCR-17, FLCR-27, FLCR-37; avg TarPit mass=0.507568; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "plasma traversal calibration",
+          "lane": "external_calibration_result",
+          "resolved_state": "Plasma, shear, and traversal source lanes are closed enough to define comparator rows.",
+          "boundary": "Experiment/device claims require diagnostics."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.508945.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "bridge/runtime intake",
+          "lane": "normal_form_result",
+          "resolved_state": "The bridge action is closed as a correspondence and intake surface with explicit comparator boundaries.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-08 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-08, FLCR-18, FLCR-28, FLCR-38; avg TarPit mass=0.510781; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "observer/computation/runtime",
+          "lane": "normal_form_result",
+          "resolved_state": "Runtime doctrine and observer/computation routing are closed as finite protocol surfaces.",
+          "boundary": "Physical observer interpretation remains bounded."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.505223.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "terminal addressability",
+          "lane": "normal_form_result",
+          "resolved_state": "The lattice/terminal surface is closed as an addressable lookup and invariant/residue split.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-09 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-09, FLCR-19, FLCR-29, FLCR-39; avg TarPit mass=0.505916; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "validation authority",
+          "lane": "normal_form_result",
+          "resolved_state": "Validation is closed as a multi-lane comparator/falsifier protocol.",
+          "boundary": "Only rows missing required fields remain unresolved."
+        }
+      ]
+    },
+    {
+      "paper_id": "FLCR-40",
+      "title": "Grand Unification In LCR Normal Form",
+      "closed_rows": [
+        {
+          "row": "paper lift enumeration",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "8/8 LCR states succeeded; error walls=0; avg TarPit mass=0.515233.",
+          "boundary": "This closes the paper-local finite lift readout, not every stronger physical interpretation."
+        },
+        {
+          "row": "window/aggregate synthesis",
+          "lane": "normal_form_result",
+          "resolved_state": "The window or aggregate action is closed as a source, receipt, and next-prestate assignment surface.",
+          "boundary": "The family closure is a structural lane; measured physics still requires destination-specific calibration."
+        },
+        {
+          "row": "decade-4 tower",
+          "lane": "receipt_bound_internal_result",
+          "resolved_state": "The decade tower is resolved with avg TarPit mass=0.509077 and mass sum=40.726174.",
+          "boundary": "The decade total is an internal tower metric, not a standalone universal physical constant."
+        },
+        {
+          "row": "family-10 cross-lift comparison",
+          "lane": "cam_crystal_reapplication_result",
+          "resolved_state": "Family tower binds FLCR-10, FLCR-20, FLCR-30, FLCR-40; avg TarPit mass=0.510965; error walls=0.",
+          "boundary": "Cross-lift agreement strengthens routing and comparison; it does not erase paper-local boundaries."
+        },
+        {
+          "row": "grand synthesis ledger",
+          "lane": "grand_synthesis_claim_with_dependencies",
+          "resolved_state": "Grand synthesis is closed as row-by-row dependency ledger.",
+          "boundary": "Unconditional universal physical identity remains row-dependent."
+        }
+      ]
+    }
+  ]
+}

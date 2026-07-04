@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 19,
+  "artifact": "standard_model_defining_papers\\*",
+  "why_it_matters": "Current SMD/SMB bridge papers and source registry.",
+  "suggested_slots": [
+    "41-79"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "68679511c070fca58cc348f64c32be1ec0c92ad413e0f2a3f12718b097b854ff"
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-08",
+  "original_slot": "08",
+  "title": "Lattice Closure",
+  "status": "source_backed",
+  "source_file": "08_Lattice_Closure.md",
+  "linked_flcr_papers": [
+    "FLCR-09"
+  ],
+  "slot_family": "terminal_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+  "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

@@ -1,0 +1,1089 @@
+{
+  "schema": "flcr_peer_review_sequence_pass.v1",
+  "generated_at": "2026-06-29T02:04:52.035127+00:00",
+  "range_applied": {
+    "start": "FLCR-04",
+    "end": "FLCR-40"
+  },
+  "changed_papers": [
+    "FLCR-04",
+    "FLCR-05",
+    "FLCR-06",
+    "FLCR-07",
+    "FLCR-08",
+    "FLCR-09",
+    "FLCR-10",
+    "FLCR-11",
+    "FLCR-12",
+    "FLCR-13",
+    "FLCR-14",
+    "FLCR-15",
+    "FLCR-16",
+    "FLCR-17",
+    "FLCR-18",
+    "FLCR-19",
+    "FLCR-20",
+    "FLCR-21",
+    "FLCR-22",
+    "FLCR-23",
+    "FLCR-24",
+    "FLCR-25",
+    "FLCR-26",
+    "FLCR-27",
+    "FLCR-28",
+    "FLCR-29",
+    "FLCR-30",
+    "FLCR-31",
+    "FLCR-32",
+    "FLCR-33",
+    "FLCR-34",
+    "FLCR-35",
+    "FLCR-36",
+    "FLCR-37",
+    "FLCR-38",
+    "FLCR-39",
+    "FLCR-40"
+  ],
+  "papers": [
+    {
+      "id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "family": "closure_lift",
+      "lift_depth": 0,
+      "proof_form": "aggregate receipt and open-slot preservation",
+      "produced": "formal result of original slot 00 plus the same-family lift path toward slot 10",
+      "claims": 3,
+      "legacy_sources": [
+        "00_Established_Grounding_and_Axiom_Contract.md",
+        "supplements/00_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-01-F1: Receipt stack and lift boundary",
+        "FLCR-01-F2: Evidence routing map",
+        "FLCR-01-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-01-T1: Receipt/lift table",
+        "FLCR-01-T2: Claim-lane/evidence-boundary table",
+        "FLCR-01-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-01-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "family": "enumeration_action",
+      "lift_depth": 0,
+      "proof_form": "enumeration proof and identity preservation",
+      "produced": "formal result of original slot 01 plus the same-family lift path toward slot 11",
+      "claims": 3,
+      "legacy_sources": [
+        "01_LCR_Chain_Carrier.md",
+        "supplements/01_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-02-F1: State enumeration chart",
+        "FLCR-02-F2: Evidence routing map",
+        "FLCR-02-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-02-T1: State inventory table",
+        "FLCR-02-T2: Claim-lane/evidence-boundary table",
+        "FLCR-02-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-02-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "family": "residual_action",
+      "lift_depth": 0,
+      "proof_form": "residual accounting and bounded/unbounded split",
+      "produced": "formal result of original slot 02 plus the same-family lift path toward slot 12",
+      "claims": 3,
+      "legacy_sources": [
+        "02_Correction_Surface.md",
+        "supplements/02_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-03-F1: Residual split diagram",
+        "FLCR-03-F2: Evidence routing map",
+        "FLCR-03-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-03-T1: Residual accounting table",
+        "FLCR-03-T2: Claim-lane/evidence-boundary table",
+        "FLCR-03-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-03-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "family": "fold_action",
+      "lift_depth": 0,
+      "proof_form": "fold map, coordinate atlas, and representation transport",
+      "produced": "formal result of original slot 03 plus the same-family lift path toward slot 13",
+      "claims": 3,
+      "legacy_sources": [
+        "03_D4_J3_Triality_Surface.md",
+        "supplements/03_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-04-F1: Representation fold atlas",
+        "FLCR-04-F2: Evidence routing map",
+        "FLCR-04-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-04-T1: Face/representation correspondence table",
+        "FLCR-04-T2: Claim-lane/evidence-boundary table",
+        "FLCR-04-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-04-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "family": "boundary_action",
+      "lift_depth": 0,
+      "proof_form": "typed boundary row and next-state admissibility",
+      "produced": "formal result of original slot 04 plus the same-family lift path toward slot 14",
+      "claims": 3,
+      "legacy_sources": [
+        "04_Boundary_Repair.md",
+        "supplements/04_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-05-F1: Typed boundary/admission diagram",
+        "FLCR-05-F2: Evidence routing map",
+        "FLCR-05-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-05-T1: Boundary verdict table",
+        "FLCR-05-T2: Claim-lane/evidence-boundary table",
+        "FLCR-05-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-05-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "family": "carrier_action",
+      "lift_depth": 0,
+      "proof_form": "carrier/transducer/path proof",
+      "produced": "formal result of original slot 05 plus the same-family lift path toward slot 15",
+      "claims": 3,
+      "legacy_sources": [
+        "05_Oloid_Path_Carrier.md",
+        "supplements/05_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-06-F1: Carrier path and invariant payload",
+        "FLCR-06-F2: Evidence routing map",
+        "FLCR-06-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-06-T1: Carrier transport table",
+        "FLCR-06-T2: Claim-lane/evidence-boundary table",
+        "FLCR-06-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-06-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "family": "ledger_action",
+      "lift_depth": 0,
+      "proof_form": "ledger, graph, and synchronization proof",
+      "produced": "formal result of original slot 06 plus the same-family lift path toward slot 16",
+      "claims": 3,
+      "legacy_sources": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "supplements/06_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-07-F1: Causal/obligation ledger graph",
+        "FLCR-07-F2: Evidence routing map",
+        "FLCR-07-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-07-T1: Obligation ledger table",
+        "FLCR-07-T2: Claim-lane/evidence-boundary table",
+        "FLCR-07-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-07-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "family": "bridge_action",
+      "lift_depth": 0,
+      "proof_form": "bridge, projection, calibration, or sample-preservation proof",
+      "produced": "formal result of original slot 07 plus the same-family lift path toward slot 17",
+      "claims": 3,
+      "legacy_sources": [
+        "07_Discrete_Continuous_Bridge.md",
+        "supplements/07_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-08-F1: Correspondence bridge",
+        "FLCR-08-F2: Evidence routing map",
+        "FLCR-08-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-08-T1: Source-target correspondence table",
+        "FLCR-08-T2: Claim-lane/evidence-boundary table",
+        "FLCR-08-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-08-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "family": "terminal_action",
+      "lift_depth": 0,
+      "proof_form": "terminal lookup, invariant split, and addressability proof",
+      "produced": "formal result of original slot 08 plus the same-family lift path toward slot 18",
+      "claims": 3,
+      "legacy_sources": [
+        "08_Lattice_Closure.md",
+        "supplements/08_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-09-F1: Terminal lookup address map",
+        "FLCR-09-F2: Evidence routing map",
+        "FLCR-09-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-09-T1: Lookup/address table",
+        "FLCR-09-T2: Claim-lane/evidence-boundary table",
+        "FLCR-09-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-09-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "family": "window_action",
+      "lift_depth": 0,
+      "proof_form": "window count, source preservation, and meta-ribbon proof",
+      "produced": "formal result of original slot 09 plus the same-family lift path toward slot 19",
+      "claims": 3,
+      "legacy_sources": [
+        "09_Hamiltonian_Window_Emergence.md",
+        "virtuous/09_Hamiltonian_Window_Emergence_VIRTUOUS.md",
+        "supplements/09_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-10-F1: Windowed corpus readout",
+        "FLCR-10-F2: Evidence routing map",
+        "FLCR-10-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-10-T1: Window readout table",
+        "FLCR-10-T2: Claim-lane/evidence-boundary table",
+        "FLCR-10-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-10-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "family": "closure_lift",
+      "lift_depth": 1,
+      "proof_form": "aggregate receipt and open-slot preservation",
+      "produced": "formal result of original slot 10 plus the same-family lift path toward slot 20",
+      "claims": 3,
+      "legacy_sources": [
+        "10_T10_Master_Receipt.md",
+        "virtuous/10_T10_Master_Receipt_VIRTUOUS.md",
+        "supplements/10_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-11-F1: Receipt stack and lift boundary",
+        "FLCR-11-F2: Evidence routing map",
+        "FLCR-11-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-11-T1: Receipt/lift table",
+        "FLCR-11-T2: Claim-lane/evidence-boundary table",
+        "FLCR-11-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-11-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "family": "enumeration_action",
+      "lift_depth": 1,
+      "proof_form": "enumeration proof and identity preservation",
+      "produced": "formal result of original slot 11 plus the same-family lift path toward slot 21",
+      "claims": 3,
+      "legacy_sources": [
+        "11_Theory_Admission_Gate.md",
+        "virtuous/11_Theory_Admission_Gate_VIRTUOUS.md",
+        "supplements/11_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-12-F1: State enumeration chart",
+        "FLCR-12-F2: Evidence routing map",
+        "FLCR-12-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-12-T1: State inventory table",
+        "FLCR-12-T2: Claim-lane/evidence-boundary table",
+        "FLCR-12-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-12-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "family": "residual_action",
+      "lift_depth": 1,
+      "proof_form": "residual accounting and bounded/unbounded split",
+      "produced": "formal result of original slot 12 plus the same-family lift path toward slot 22",
+      "claims": 3,
+      "legacy_sources": [
+        "12_CA_Prediction_Surface.md",
+        "virtuous/12_CA_Prediction_Surface_VIRTUOUS.md",
+        "supplements/12_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-13-F1: Residual split diagram",
+        "FLCR-13-F2: Evidence routing map",
+        "FLCR-13-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-13-T1: Residual accounting table",
+        "FLCR-13-T2: Claim-lane/evidence-boundary table",
+        "FLCR-13-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-13-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "family": "fold_action",
+      "lift_depth": 1,
+      "proof_form": "fold map, coordinate atlas, and representation transport",
+      "produced": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "claims": 3,
+      "legacy_sources": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "virtuous/13_Standard-Model_Quark-Face_Transport_VIRTUOUS.md",
+        "supplements/13_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-14-F1: Representation fold atlas",
+        "FLCR-14-F2: Evidence routing map",
+        "FLCR-14-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-14-T1: Face/representation correspondence table",
+        "FLCR-14-T2: Claim-lane/evidence-boundary table",
+        "FLCR-14-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-14-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "family": "boundary_action",
+      "lift_depth": 1,
+      "proof_form": "typed boundary row and next-state admissibility",
+      "produced": "formal result of original slot 14 plus the same-family lift path toward slot 24",
+      "claims": 3,
+      "legacy_sources": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "virtuous/14_GR_Boundary-Repair_Curvature_VIRTUOUS.md",
+        "supplements/14_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-15-F1: Typed boundary/admission diagram",
+        "FLCR-15-F2: Evidence routing map",
+        "FLCR-15-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-15-T1: Boundary verdict table",
+        "FLCR-15-T2: Claim-lane/evidence-boundary table",
+        "FLCR-15-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-15-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "family": "carrier_action",
+      "lift_depth": 1,
+      "proof_form": "carrier/transducer/path proof",
+      "produced": "formal result of original slot 15 plus the same-family lift path toward slot 25",
+      "claims": 3,
+      "legacy_sources": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md",
+        "virtuous/15_QFT_Higgs_Mass-Residue_Carrier_VIRTUOUS.md",
+        "supplements/15_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-16-F1: Carrier path and invariant payload",
+        "FLCR-16-F2: Evidence routing map",
+        "FLCR-16-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-16-T1: Carrier transport table",
+        "FLCR-16-T2: Claim-lane/evidence-boundary table",
+        "FLCR-16-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-16-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "family": "ledger_action",
+      "lift_depth": 1,
+      "proof_form": "ledger, graph, and synchronization proof",
+      "produced": "formal result of original slot 16 plus the same-family lift path toward slot 26",
+      "claims": 3,
+      "legacy_sources": [
+        "16_Continuum_Edge_Residuals.md",
+        "virtuous/16_Continuum_Edge_Residuals_VIRTUOUS.md",
+        "supplements/16_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-17-F1: Causal/obligation ledger graph",
+        "FLCR-17-F2: Evidence routing map",
+        "FLCR-17-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-17-T1: Obligation ledger table",
+        "FLCR-17-T2: Claim-lane/evidence-boundary table",
+        "FLCR-17-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-17-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "family": "bridge_action",
+      "lift_depth": 1,
+      "proof_form": "bridge, projection, calibration, or sample-preservation proof",
+      "produced": "formal result of original slot 19 plus the same-family lift path toward slot 29",
+      "claims": 3,
+      "legacy_sources": [
+        "17_E6_E8_Error_Correction_Tower.md",
+        "18_VOA_Moonshine_Representation_Routes.md",
+        "19_Observer_Face_Selection.md",
+        "supplements/17_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/18_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/19_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-18-F1: Correspondence bridge",
+        "FLCR-18-F2: Evidence routing map",
+        "FLCR-18-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-18-T1: Source-target correspondence table",
+        "FLCR-18-T2: Claim-lane/evidence-boundary table",
+        "FLCR-18-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-18-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "family": "closure_lift",
+      "lift_depth": 2,
+      "proof_form": "aggregate receipt and open-slot preservation",
+      "produced": "formal result of original slot 20 plus the same-family lift path toward slot 30",
+      "claims": 3,
+      "legacy_sources": [
+        "20_Layer_2_Synthesis_Ledger.md",
+        "virtuous/20_Layer-2_Synthesis_Ledger_VIRTUOUS.md",
+        "supplements/20_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-19-F1: Receipt stack and lift boundary",
+        "FLCR-19-F2: Evidence routing map",
+        "FLCR-19-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-19-T1: Receipt/lift table",
+        "FLCR-19-T2: Claim-lane/evidence-boundary table",
+        "FLCR-19-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-19-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "family": "enumeration_action",
+      "lift_depth": 2,
+      "proof_form": "enumeration proof and identity preservation",
+      "produced": "formal result of original slot 21 plus the same-family lift path toward slot 31",
+      "claims": 3,
+      "legacy_sources": [
+        "21_MorphForge_PolyForge_MorphoniX.md",
+        "virtuous/21_MorphForge___PolyForge___MorphoniX_VIRTUOUS.md",
+        "supplements/21_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-20-F1: State enumeration chart",
+        "FLCR-20-F2: Evidence routing map",
+        "FLCR-20-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-20-T1: State inventory table",
+        "FLCR-20-T2: Claim-lane/evidence-boundary table",
+        "FLCR-20-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-20-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "family": "residual_action",
+      "lift_depth": 2,
+      "proof_form": "residual accounting and bounded/unbounded split",
+      "produced": "formal result of original slot 22 plus the same-family lift path toward slot 32",
+      "claims": 3,
+      "legacy_sources": [
+        "22_MetaForge_Applied_Materials.md",
+        "virtuous/22_MetaForge_Applied_Materials_VIRTUOUS.md",
+        "supplements/22_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-21-F1: Residual split diagram",
+        "FLCR-21-F2: Evidence routing map",
+        "FLCR-21-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-21-T1: Residual accounting table",
+        "FLCR-21-T2: Claim-lane/evidence-boundary table",
+        "FLCR-21-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-21-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "family": "fold_action",
+      "lift_depth": 2,
+      "proof_form": "fold map, coordinate atlas, and representation transport",
+      "produced": "formal result of original slot 23 plus the same-family lift path toward slot 33",
+      "claims": 3,
+      "legacy_sources": [
+        "23_FoldForge_Protein_Folding.md",
+        "virtuous/23_FoldForge_Protein_Folding_VIRTUOUS.md",
+        "supplements/23_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-22-F1: Representation fold atlas",
+        "FLCR-22-F2: Evidence routing map",
+        "FLCR-22-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-22-T1: Face/representation correspondence table",
+        "FLCR-22-T2: Claim-lane/evidence-boundary table",
+        "FLCR-22-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-22-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "family": "boundary_action",
+      "lift_depth": 2,
+      "proof_form": "typed boundary row and next-state admissibility",
+      "produced": "formal result of original slot 28 plus the same-family lift path toward slot 38",
+      "claims": 3,
+      "legacy_sources": [
+        "24_KnightForge_N_Dimensional_Chess_Automata.md",
+        "28_N_Dimensional_Game_Lattices.md",
+        "virtuous/24_KnightForge___N-Dimensional_Chess_Automata_VIRTUOUS.md",
+        "virtuous/28_N-Dimensional_Game_Lattices_VIRTUOUS.md"
+      ],
+      "figures": [
+        "FLCR-23-F1: Typed boundary/admission diagram",
+        "FLCR-23-F2: Evidence routing map",
+        "FLCR-23-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-23-T1: Boundary verdict table",
+        "FLCR-23-T2: Claim-lane/evidence-boundary table",
+        "FLCR-23-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-23-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "family": "carrier_action",
+      "lift_depth": 2,
+      "proof_form": "carrier/transducer/path proof",
+      "produced": "formal result of original slot 25 plus the same-family lift path toward slot 35",
+      "claims": 3,
+      "legacy_sources": [
+        "25_Energetic_Traversal_Maps.md",
+        "virtuous/25_Energetic_Traversal_Maps_VIRTUOUS.md",
+        "supplements/25_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-24-F1: Carrier path and invariant payload",
+        "FLCR-24-F2: Evidence routing map",
+        "FLCR-24-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-24-T1: Carrier transport table",
+        "FLCR-24-T2: Claim-lane/evidence-boundary table",
+        "FLCR-24-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-24-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "family": "ledger_action",
+      "lift_depth": 2,
+      "proof_form": "ledger, graph, and synchronization proof",
+      "produced": "formal result of original slot 26 plus the same-family lift path toward slot 36",
+      "claims": 3,
+      "legacy_sources": [
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "virtuous/26_Z-Pinch_and_Shear_Horizon_VIRTUOUS.md",
+        "supplements/26_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-25-F1: Causal/obligation ledger graph",
+        "FLCR-25-F2: Evidence routing map",
+        "FLCR-25-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-25-T1: Obligation ledger table",
+        "FLCR-25-T2: Claim-lane/evidence-boundary table",
+        "FLCR-25-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-25-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "family": "bridge_action",
+      "lift_depth": 2,
+      "proof_form": "bridge, projection, calibration, or sample-preservation proof",
+      "produced": "formal result of original slot 27 plus the same-family lift path toward slot 37",
+      "claims": 3,
+      "legacy_sources": [
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "virtuous/27_Observer_Delay_and_Shared_Reality_VIRTUOUS.md",
+        "supplements/27_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-26-F1: Correspondence bridge",
+        "FLCR-26-F2: Evidence routing map",
+        "FLCR-26-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-26-T1: Source-target correspondence table",
+        "FLCR-26-T2: Claim-lane/evidence-boundary table",
+        "FLCR-26-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-26-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "family": "window_action",
+      "lift_depth": 2,
+      "proof_form": "window count, source preservation, and meta-ribbon proof",
+      "produced": "formal result of original slot 29 plus the same-family lift path toward slot 39",
+      "claims": 3,
+      "legacy_sources": [
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+        "virtuous/29_Monster_Universal_Energy-Bound_Hypotheses_VIRTUOUS.md",
+        "supplements/29_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-27-F1: Windowed corpus readout",
+        "FLCR-27-F2: Evidence routing map",
+        "FLCR-27-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-27-T1: Window readout table",
+        "FLCR-27-T2: Claim-lane/evidence-boundary table",
+        "FLCR-27-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-27-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "family": "publication_overlay",
+      "lift_depth": null,
+      "proof_form": "source intake, correspondence table, dependency statement, and falsifier boundary",
+      "produced": "CAM, Crystal Projectors, And MannyAI Runtime as publication overlay or synthesis route",
+      "claims": 3,
+      "legacy_sources": [
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "AGENT_CRYSTAL_WORK_HARVEST.md",
+        "PAPER_REWORKS_CRYSTAL_REPORT.md"
+      ],
+      "figures": [
+        "FLCR-28-F1: Publication overlay dependency map",
+        "FLCR-28-F2: Evidence routing map",
+        "FLCR-28-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-28-T1: Dependency and translation table",
+        "FLCR-28-T2: Claim-lane/evidence-boundary table",
+        "FLCR-28-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-28-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "family": "closure_lift",
+      "lift_depth": 3,
+      "proof_form": "aggregate receipt and open-slot preservation",
+      "produced": "formal result of original slot 31 plus the same-family lift path toward slot 41",
+      "claims": 3,
+      "legacy_sources": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md",
+        "virtuous/30_Grand_Ribbon_Meta-Framer_VIRTUOUS.md",
+        "virtuous/31_It_Was_Still_Just_LCR_VIRTUOUS.md"
+      ],
+      "figures": [
+        "FLCR-29-F1: Receipt stack and lift boundary",
+        "FLCR-29-F2: Evidence routing map",
+        "FLCR-29-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-29-T1: Receipt/lift table",
+        "FLCR-29-T2: Claim-lane/evidence-boundary table",
+        "FLCR-29-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-29-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "family": "residual_action",
+      "lift_depth": 3,
+      "proof_form": "residual accounting and bounded/unbounded split",
+      "produced": "formal result of original slot 32 plus the same-family lift path toward slot 42",
+      "claims": 3,
+      "legacy_sources": [
+        "32_The_Supervisor_Cursor.md",
+        "virtuous/32_The_Supervisor_Cursor_VIRTUOUS.md",
+        "supplements/32_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-30-F1: Residual split diagram",
+        "FLCR-30-F2: Evidence routing map",
+        "FLCR-30-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-30-T1: Residual accounting table",
+        "FLCR-30-T2: Claim-lane/evidence-boundary table",
+        "FLCR-30-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-30-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "family": "fold_action",
+      "lift_depth": 1,
+      "proof_form": "fold map, coordinate atlas, and representation transport",
+      "produced": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "claims": 3,
+      "legacy_sources": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-31-F1: Representation fold atlas",
+        "FLCR-31-F2: Evidence routing map",
+        "FLCR-31-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-31-T1: Face/representation correspondence table",
+        "FLCR-31-T2: Claim-lane/evidence-boundary table",
+        "FLCR-31-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-31-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "family": "fold_action",
+      "lift_depth": 1,
+      "proof_form": "fold map, coordinate atlas, and representation transport",
+      "produced": "formal result of original slot 13 plus the same-family lift path toward slot 23",
+      "claims": 3,
+      "legacy_sources": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-32-F1: Representation fold atlas",
+        "FLCR-32-F2: Evidence routing map",
+        "FLCR-32-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-32-T1: Face/representation correspondence table",
+        "FLCR-32-T2: Claim-lane/evidence-boundary table",
+        "FLCR-32-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-32-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "family": "carrier_action",
+      "lift_depth": 1,
+      "proof_form": "carrier/transducer/path proof",
+      "produced": "formal result of original slot 15 plus the same-family lift path toward slot 25",
+      "claims": 3,
+      "legacy_sources": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-33-F1: Carrier path and invariant payload",
+        "FLCR-33-F2: Evidence routing map",
+        "FLCR-33-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-33-T1: Carrier transport table",
+        "FLCR-33-T2: Claim-lane/evidence-boundary table",
+        "FLCR-33-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-33-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "family": "publication_overlay",
+      "lift_depth": null,
+      "proof_form": "source intake, correspondence table, dependency statement, and falsifier boundary",
+      "produced": "Electron-Hole-Exciton Accounting as publication overlay or synthesis route",
+      "claims": 3,
+      "legacy_sources": [
+        "NP-12_Electron_Hole_Exciton_Accounting_For_Open_Math.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-34-F1: Publication overlay dependency map",
+        "FLCR-34-F2: Evidence routing map",
+        "FLCR-34-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-34-T1: Dependency and translation table",
+        "FLCR-34-T2: Claim-lane/evidence-boundary table",
+        "FLCR-34-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-34-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "family": "boundary_action",
+      "lift_depth": 1,
+      "proof_form": "typed boundary row and next-state admissibility",
+      "produced": "formal result of original slot 16 plus the same-family lift path toward slot 26",
+      "claims": 3,
+      "legacy_sources": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "16_Continuum_Edge_Residuals.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "figures": [
+        "FLCR-35-F1: Typed boundary/admission diagram",
+        "FLCR-35-F2: Evidence routing map",
+        "FLCR-35-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-35-T1: Boundary verdict table",
+        "FLCR-35-T2: Claim-lane/evidence-boundary table",
+        "FLCR-35-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-35-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "family": "residual_action",
+      "lift_depth": 2,
+      "proof_form": "residual accounting and bounded/unbounded split",
+      "produced": "formal result of original slot 22 plus the same-family lift path toward slot 32",
+      "claims": 3,
+      "legacy_sources": [
+        "22_MetaForge_Applied_Materials.md",
+        "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md",
+        "NP-12_Electron_Hole_Exciton_Accounting_For_Open_Math.md"
+      ],
+      "figures": [
+        "FLCR-36-F1: Residual split diagram",
+        "FLCR-36-F2: Evidence routing map",
+        "FLCR-36-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-36-T1: Residual accounting table",
+        "FLCR-36-T2: Claim-lane/evidence-boundary table",
+        "FLCR-36-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-36-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "family": "carrier_action",
+      "lift_depth": 2,
+      "proof_form": "carrier/transducer/path proof",
+      "produced": "formal result of original slot 29 plus the same-family lift path toward slot 39",
+      "claims": 3,
+      "legacy_sources": [
+        "25_Energetic_Traversal_Maps.md",
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "figures": [
+        "FLCR-37-F1: Carrier path and invariant payload",
+        "FLCR-37-F2: Evidence routing map",
+        "FLCR-37-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-37-T1: Carrier transport table",
+        "FLCR-37-T2: Claim-lane/evidence-boundary table",
+        "FLCR-37-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-37-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "family": "window_action",
+      "lift_depth": 1,
+      "proof_form": "window count, source preservation, and meta-ribbon proof",
+      "produced": "formal result of original slot 31 plus the same-family lift path toward slot 41",
+      "claims": 3,
+      "legacy_sources": [
+        "19_Observer_Face_Selection.md",
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "figures": [
+        "FLCR-38-F1: Windowed corpus readout",
+        "FLCR-38-F2: Evidence routing map",
+        "FLCR-38-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-38-T1: Window readout table",
+        "FLCR-38-T2: Claim-lane/evidence-boundary table",
+        "FLCR-38-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-38-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "family": "ledger_action",
+      "lift_depth": 0,
+      "proof_form": "ledger, graph, and synchronization proof",
+      "produced": "formal result of original slot 32 plus the same-family lift path toward slot 42",
+      "claims": 3,
+      "legacy_sources": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "10_T10_Master_Receipt.md",
+        "11_Theory_Admission_Gate.md",
+        "20_Layer_2_Synthesis_Ledger.md",
+        "32_The_Supervisor_Cursor.md",
+        "NSIT_VALIDITY_REBUILD_PROTOCOL.md"
+      ],
+      "figures": [
+        "FLCR-39-F1: Causal/obligation ledger graph",
+        "FLCR-39-F2: Evidence routing map",
+        "FLCR-39-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-39-T1: Obligation ledger table",
+        "FLCR-39-T2: Claim-lane/evidence-boundary table",
+        "FLCR-39-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-39-T4: Workbook replay and falsifier table"
+      ]
+    },
+    {
+      "id": "FLCR-40",
+      "title": "Grand Unification In LCR Normal Form",
+      "family": "publication_overlay",
+      "lift_depth": null,
+      "proof_form": "source intake, correspondence table, dependency statement, and falsifier boundary",
+      "produced": "Grand Unification In LCR Normal Form as publication overlay or synthesis route",
+      "claims": 3,
+      "legacy_sources": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "32_The_Supervisor_Cursor.md",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.md",
+        "NSIT_REASONED_CLOSURE_PASS.md"
+      ],
+      "figures": [
+        "FLCR-40-F1: Publication overlay dependency map",
+        "FLCR-40-F2: Evidence routing map",
+        "FLCR-40-F3: Same-family lift context"
+      ],
+      "tables": [
+        "FLCR-40-T1: Dependency and translation table",
+        "FLCR-40-T2: Claim-lane/evidence-boundary table",
+        "FLCR-40-T3: Archive evidence card and source-backed upgrade table",
+        "FLCR-40-T4: Workbook replay and falsifier table"
+      ]
+    }
+  ],
+  "opr_41_80_skeletons_created": [
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-41\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-42\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-43\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-44\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-45\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-46\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-47\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-48\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-49\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-50\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-51\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-52\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-53\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-54\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-55\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-56\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-57\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-58\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-59\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-60\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-61\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-62\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-63\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-64\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-65\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-66\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-67\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-68\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-69\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-70\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-71\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-72\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-73\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-74\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-75\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-76\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-77\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-78\\journal_skeleton.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\original_80_ribbon\\OPR-79\\journal_skeleton.md"
+  ],
+  "next_cursor": "Integrate generated sections into full body rewrites, then continue OPR-41 through OPR-80 as source-backed expansion papers."
+}

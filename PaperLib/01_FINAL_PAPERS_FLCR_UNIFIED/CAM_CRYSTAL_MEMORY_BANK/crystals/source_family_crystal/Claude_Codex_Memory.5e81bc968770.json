@@ -1,0 +1,14 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "Claude-Codex-Memory",
+  "missing_count": 3,
+  "highest_score": 39,
+  "sample_files": [
+    "Claude-Codex-Memory\\Memos between CL_CX\\2026-06-13_23-39-02-0700_CX-to-CL-HM_Paper09-LightCone-McKay-Adjugation-Witness-Promoted.md",
+    "Claude-Codex-Memory\\CX_master_topic_package_and_closure_map_2026-06-13.md",
+    "Claude-Codex-Memory\\CX_original_validation_historical_pastworks_inventory_2026-06-13.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "5e81bc96877018c53265ba72643151c88d483b9620d2236c462eccc8527a0966"
+}

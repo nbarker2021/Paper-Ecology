@@ -1,0 +1,93 @@
+{
+  "kind": "decision_crystal",
+  "granularity": "assembly_decision",
+  "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+  "record_count": 3,
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0077",
+      "record_type": "local_unintegrated_artifact",
+      "title": "042-claude-real-math-umbrella-theorem-registry.md",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\042-claude-real-math-umbrella-theorem-registry.md"
+    },
+    {
+      "record_id": "LOCAL-GAP-0095",
+      "record_type": "local_unintegrated_artifact",
+      "title": "automate_via_tarpit.py",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\lattice_forge\\orders_crystal\\automate_via_tarpit.py"
+    },
+    {
+      "record_id": "LOCAL-GAP-0096",
+      "record_type": "local_unintegrated_artifact",
+      "title": "automate_via_tarpit.py",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\GaussHaus\\src\\lattice_forge\\orders_crystal\\automate_via_tarpit.py"
+    }
+  ],
+  "content_address": "bd9629efd03f5cdfc60f9c602226cc1b63a17f16958cc383ff3e15b92e5168f0"
+}

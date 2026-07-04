@@ -1,0 +1,13 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-12 idempotent_connections_receipt.json",
+  "status": "pass",
+  "passed": 6,
+  "total": 6,
+  "closure_source": "Paper 12 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status because the verify script did not set a top-level status field.",
+    "Reworked Paper 12 records GLM idempotent connections as true, 6/6."
+  ],
+  "boundary": "Finite idempotent-connection surface closed; cold-start Rule 30 Problem 3 extraction remains open and is continued in NP-01."
+}

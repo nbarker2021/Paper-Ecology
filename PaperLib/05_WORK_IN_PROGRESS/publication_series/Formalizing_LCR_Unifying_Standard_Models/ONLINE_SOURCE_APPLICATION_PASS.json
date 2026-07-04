@@ -1,0 +1,96 @@
+{
+  "schema": "flcr_online_source_application_pass.v1",
+  "date": "2026-06-28",
+  "purpose": "Apply authoritative online sources directly to FLCR-31..40 and the Standard Model Defining layer by claim lane.",
+  "sources": [
+    {
+      "id": "IRL-PDG-2026",
+      "title": "Particle Data Group Review of Particle Physics 2026",
+      "url": "https://pdg.lbl.gov/",
+      "closure": "Current Standard Model particle/data review surface.",
+      "lane": "standard_theorem_citation_bound_result"
+    },
+    {
+      "id": "IRL-NIST-ALPHA-2022",
+      "title": "NIST CODATA inverse fine-structure constant",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?alphinv=",
+      "closure": "alpha inverse numerical value 137.035999177 with standard uncertainty 0.000000021.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-CODATA-2022-WALLET",
+      "title": "NIST CODATA 2022 wallet card",
+      "url": "https://physics.nist.gov/cuu/pdf/wallet_2022.pdf",
+      "closure": "Compact constants table for units-bearing calibration.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-ATLAS-HIGGS-2012",
+      "title": "ATLAS Higgs discovery paper",
+      "url": "https://arxiv.org/abs/1207.7214",
+      "closure": "Higgs discovery/mass-scale calibration: 126.0 +/- 0.4(stat) +/- 0.4(sys) GeV, 5.9 sigma.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-CMS-HIGGS-2012",
+      "title": "CMS Higgs discovery paper",
+      "url": "https://arxiv.org/abs/1207.7235",
+      "closure": "Independent Higgs discovery/mass-scale calibration near 125 GeV.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-EXCITON-2D-REVIEW",
+      "title": "Excitons in two-dimensional materials",
+      "url": "https://arxiv.org/abs/1911.00087",
+      "closure": "Electron-hole-exciton formalism and material-dependent screening/binding boundary.",
+      "lane": "standard_theorem_citation_bound_result"
+    },
+    {
+      "id": "IRL-NIST-CARRIER-DYNAMICS",
+      "title": "NIST carrier dynamics by ultrafast THz spectroscopy",
+      "url": "https://www.nist.gov/programs-projects/carrier-dynamics-measured-ultrafast-time-resolved-terahertz-spectroscopy",
+      "closure": "Experimental/metrology lane for excitons, electron-hole separation, recombination, and free carrier dynamics.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-NIST-PV-EXCITON",
+      "title": "NIST optoelectrical characterization of photovoltaic materials",
+      "url": "https://www.nist.gov/programs-projects/optoelectrical-characterization-nanostructured-photovoltaic-materials-and-devices",
+      "closure": "Materials lane for exciton separation into free electrons and holes at heterojunction interfaces.",
+      "lane": "external_calibration_result"
+    },
+    {
+      "id": "IRL-LRR-GR-HYPERBOLIC",
+      "title": "Living Reviews in Relativity: Hyperbolic Methods for Einstein's Equations",
+      "url": "https://link.springer.com/article/10.12942/lrr-1998-3",
+      "closure": "GR/continuum formalism boundary for Einstein equations as PDE/hyperbolic systems after gauge/constraint handling.",
+      "lane": "standard_theorem_citation_bound_result"
+    },
+    {
+      "id": "IRL-PPPL-PLASMA-MAGNETIC",
+      "title": "PPPL fusion/plasma magnetic confinement testimony",
+      "url": "https://fire.pppl.gov/Prager_Testimony.pdf",
+      "closure": "Plasma boundary row for charged-particle motion and magnetic confinement.",
+      "lane": "standard_theorem_citation_bound_result"
+    },
+    {
+      "id": "IRL-PPPL-PLASMA-DIAGNOSTICS-2026",
+      "title": "PPPL Plasma Diagnostics lecture notes",
+      "url": "https://w3.pppl.gov/~hji/Diagnostics_Lecture_Notes_04-28-26.pdf",
+      "closure": "Plasma definition/calibration row: plasma consists of particles and fields; diagnostics required for measured claims.",
+      "lane": "external_calibration_result"
+    }
+  ],
+  "paper_routes": {
+    "FLCR-31": ["IRL-PDG-2026", "IRL-NIST-ALPHA-2022", "IRL-CODATA-2022-WALLET"],
+    "FLCR-32": ["IRL-PDG-2026"],
+    "FLCR-33": ["IRL-PDG-2026", "IRL-ATLAS-HIGGS-2012", "IRL-CMS-HIGGS-2012", "IRL-CODATA-2022-WALLET"],
+    "FLCR-34": ["IRL-EXCITON-2D-REVIEW", "IRL-NIST-CARRIER-DYNAMICS", "IRL-NIST-PV-EXCITON"],
+    "FLCR-35": ["IRL-LRR-GR-HYPERBOLIC", "IRL-CODATA-2022-WALLET"],
+    "FLCR-36": ["IRL-EXCITON-2D-REVIEW", "IRL-NIST-CARRIER-DYNAMICS", "IRL-NIST-PV-EXCITON"],
+    "FLCR-37": ["IRL-PPPL-PLASMA-MAGNETIC", "IRL-PPPL-PLASMA-DIAGNOSTICS-2026", "IRL-CODATA-2022-WALLET"],
+    "FLCR-38": ["IRL-PDG-2026", "IRL-NOBEL-NEUTRINO-2015"],
+    "FLCR-39": ["IRL-PDG-2026", "IRL-NIST-ALPHA-2022", "IRL-CODATA-2022-WALLET"],
+    "FLCR-40": ["IRL-PDG-2026", "IRL-NIST-ALPHA-2022", "IRL-CODATA-2022-WALLET", "IRL-ATLAS-HIGGS-2012", "IRL-CMS-HIGGS-2012", "IRL-EXCITON-2D-REVIEW", "IRL-NIST-CARRIER-DYNAMICS", "IRL-NIST-PV-EXCITON", "IRL-LRR-GR-HYPERBOLIC", "IRL-PPPL-PLASMA-MAGNETIC", "IRL-PPPL-PLASMA-DIAGNOSTICS-2026"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "pythontraining",
+  "missing_count": 19,
+  "highest_score": 20,
+  "sample_files": [
+    "pythontraining\\.venv\\Scripts\\activate.ps1",
+    "pythontraining\\.venv\\Scripts\\activate_this.py",
+    "pythontraining\\hello_world.py",
+    "pythontraining\\.venv\\Scripts\\python3",
+    "pythontraining\\.venv\\Scripts\\activate",
+    "pythontraining\\.venv\\Scripts\\activate.fish",
+    "pythontraining\\.venv\\Scripts\\activate.nu",
+    "pythontraining\\.idea\\workspace.xml"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "1418f2572e4e6d7969a98afd483b6f819a836b4769c125752645b65b34186dee"
+}

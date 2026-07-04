@@ -1,0 +1,4417 @@
+{
+  "paper_id": "FLCR-11",
+  "title": "Master Receipt And Stack Replay",
+  "status": "ASSEMBLE",
+  "pipeline_decision": "ASSEMBLE",
+  "formal_md": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\formal.md",
+  "required_direct": {
+    "open_obligations": [],
+    "pending_external_pair_rows": [
+      {
+        "queue_id": "EQ-REG-0044",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\formal.md",
+        "artifact_type": "paper",
+        "slot_families": "FLCR-11;41;51;61;71;43",
+        "gate_status": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+        "notes": "notebook=DEP-FLCR-18-17; ontology_loaded=yes",
+        "source_chunk": "",
+        "path_exists": true,
+        "intake_status": "INGESTED_QUEUED_PENDING_EXTERNAL_PAPER",
+        "next_action": "Find 2025/current peer-reviewed external paper and promote to PEEP package.",
+        "provenance_label": "external_pair_queue"
+      }
+    ],
+    "assembly_audit_falsifier_gaps": [
+      {
+        "record_id": "PEEP-2026-005",
+        "title": "Jordan J3(O) And Octonion Substrate As Exceptional-Jordan Comparator",
+        "external_paper_doi": "10.1063/5.0280632",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: axiom check where local J3O diverges from published Jordan constraints"
+        ],
+        "obligations": [
+          "State which J3O axioms are machine-verified vs literature-cited.",
+          "Map octonion norm composition to external Hurwitz-algebra constraints.",
+          "Add a falsifier row for any chart round-trip that breaks exceptional-Jordan identities.",
+          "Use this pair before promoting J3(O) claims into FLCR-41..80 physics routes."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-010",
+        "title": "Chart J3O Isomorphism As Exceptional-Jordan Geometry Comparator",
+        "external_paper_doi": "10.1063/5.0280632",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: depth sweep mismatch with exceptional Jordan transport constraints"
+        ],
+        "obligations": [
+          "Publish machine-check counts for T3a-T3e checks with depth bounds.",
+          "Map Weyl correspondence to external Jordan automorphism literature.",
+          "Add a falsifier row for any depth where bijection fails.",
+          "Hold physics promotion until isomorphism comparator obligations close."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-013",
+        "title": "D4 J30 Idempotent Bridge Tests As Finite-Basis Semiring Comparator",
+        "external_paper_doi": "10.1007/s00012-025-00908-5",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: promoted bridge law without finite-basis support"
+        ],
+        "obligations": [
+          "Classify each bridge identity against 2025 finite-basis semiring results.",
+          "Separate machine-tested bridges from conjectured J30 equivalences.",
+          "Add a falsifier row for bridge promotion without basis literature support.",
+          "Route unresolved bridges to FLCR-02 residual slots."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-018",
+        "title": "LCR Rule 30 Synthesis As CA Self-Composition Comparator",
+        "external_paper_doi": "10.25088/complexsystems.34.3.259",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: simulation speed claim without complexity derivation"
+        ],
+        "obligations": [
+          "State depth bounds and runtime for each Rule 30 synthesis experiment.",
+          "Map center-column claims to external chaotic-CA benchmark framing.",
+          "Add a falsifier row where depth scaling lacks complexity support.",
+          "Keep CQE transport links in separate PEEP routes."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-020",
+        "title": "Rule30 Prize Submission As CA Benchmark Comparator",
+        "external_paper_doi": "10.25088/complexsystems.34.3.259",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: prize claim contradicted by published simulation bounds"
+        ],
+        "obligations": [
+          "Reframe prize claims as comparator-gated hypotheses until obligations close.",
+          "Provide reproducible Rule 30 experiments matching external protocol detail.",
+          "Add a falsifier row for any prize assertion without CA literature anchor.",
+          "Do not route to assembly while prize claims exceed comparator scope."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-021",
+        "title": "Rule30 Agent Outline As CA Simulation Protocol Comparator",
+        "external_paper_doi": "10.25088/complexsystems.34.3.259",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: agent step exceeding published simulation bounds"
+        ],
+        "obligations": [
+          "Define each agent action as a bounded CA generation operator.",
+          "Publish agent depth/runtime tables with external complexity comparators.",
+          "Add a falsifier row where agent behavior lacks simulation protocol support.",
+          "Keep agent claims in method slots until comparator obligations close."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-022",
+        "title": "Rule30 Agent Final Paper As CA Evidence Comparator",
+        "external_paper_doi": "10.25088/complexsystems.34.3.259",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: final-paper theorem without CA comparator derivation"
+        ],
+        "obligations": [
+          "Attach each final-paper section to a self-composition comparator row.",
+          "Downgrade any claim exceeding discrete CA evidence scope.",
+          "Add a falsifier row for consolidated claims lacking external anchors.",
+          "Complete PEEP obligations before publication-face assembly."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-035",
+        "title": "FLCR-19 Layer-2 Ledger As Machine-Readable Publication Comparator",
+        "external_paper_doi": "10.1038/s41597-025-04905-0",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: ledger row promoted without machine-readable analogue"
+        ],
+        "obligations": [
+          "Map each FLCR-19 ledger import row to a machine-readable expression field analogue.",
+          "Keep upstream FLCR-01/09/11 receipt paths explicit in aggregation rows.",
+          "Add a falsifier row where layer-2 synthesis hides unknown/forbidden reachability.",
+          "Route stronger physics claims to FLCR-41..80 with external comparators."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "PEEP-2026-039",
+        "title": "FLCR-39 Evidence Comparator As Provenance-Graph Comparator",
+        "external_paper_doi": "10.1007/s00799-025-00431-x",
+        "decision": "ASSEMBLE",
+        "section": "assemble_now",
+        "falsifier_or_comparator_score": 85,
+        "falsifier_faces": [
+          "falsifier face: prose residue vs explicit falsifier row routing"
+        ],
+        "obligations": [
+          "Build comparator table mapping external targets to LCR source objects per OBL-008.",
+          "Derive falsifier PEEP row per prose residue before binding OBL-017.",
+          "Attach per-unresolved-suite-row receipts before binding OBL-018/019.",
+          "Add a falsifier row where evidence standard lacks provenance-graph support."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0003",
+        "title": "verify_rule30_winding_number_proof.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0007",
+        "title": "CQE-paper-29-monster_energy_bound_hypotheses_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0008",
+        "title": "verify_rule30_proof_obligations.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0011",
+        "title": "verify_rule30_whole_integer_n_coverage.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0015",
+        "title": "CQE-paper-22-metaforge_materials_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0018",
+        "title": "verify_rg_thresholds_from_e8_shear_complement.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0021",
+        "title": "contribution_validators.py",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0022",
+        "title": "verify_rule30_oloid_winding_from_n.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0023",
+        "title": "verify_alpha_em_from_pfc2_e8_estimate.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0024",
+        "title": "verify_rule30_dihedral_block_hypervisor.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0025",
+        "title": "verify_rule30_hypervisor_extension_tape.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0026",
+        "title": "verify_rule30_mandelbrot_field_address.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0027",
+        "title": "verify_rule30_lagrangian_depth_trace.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0028",
+        "title": "verify_rule30_readout_ribbon_machine.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0029",
+        "title": "verify_rule30_physics_method_stack.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0030",
+        "title": "verify_rule30_symmetry_environment.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0031",
+        "title": "verify_rule30_torsor_functor_term.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0032",
+        "title": "verify_rule30_nth_bit_expression.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0033",
+        "title": "verify_rule30_spinor_oloid_model.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0034",
+        "title": "verify_rule30_julia_resolution.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0035",
+        "title": "verify_rule30_exit_trajectory.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0036",
+        "title": "verify_rule30_sheet_operator.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0037",
+        "title": "verify_rule30_moving_frame.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0038",
+        "title": "verify_rule30_sheet_lift.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0039",
+        "title": "verify_rule30_oloid_antipodal_winding.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0040",
+        "title": "verify_voa_sector_decomposition.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0041",
+        "title": "verify_centroid_voa_chain.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0042",
+        "title": "verify_gauss_fourier_lift.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0043",
+        "title": "verify_rule30_su3_closed_form.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Bind Formal-Suite receipt to FLCR FLCR-01/FLCR-06/FLCR-09/FLCR-12 via receipt_bound_internal_result (timeline source_truth).",
+          "Resolve open_gap_count before ASSEMBLE; external comparator deferred per timeline doctrine.",
+          "Do not promote via obligation PEEP \u2014 route through REROUTE_OR_REPAIR only."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0051",
+        "title": "verify_spectre_tiling_deephole_path.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0056",
+        "title": "verify_su5_observer_decomposition.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0057",
+        "title": "verify_observer_post_su3_electroweak_route.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0059",
+        "title": "CQE-paper-09-hamiltonian_window_emergence_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      },
+      {
+        "record_id": "LOCAL-GAP-0063",
+        "title": "CQE-paper-18-voa_moonshine_routes_receipt.json",
+        "external_paper_doi": "",
+        "decision": "REROUTE_OR_REPAIR",
+        "section": "reroute_or_repair",
+        "falsifier_or_comparator_score": 25,
+        "falsifier_faces": [],
+        "obligations": [
+          "Pair this local artifact with a 2025/current peer-reviewed external paper.",
+          "State the correlation and claim lane before assembly.",
+          "Run adapted NIST and validation pair review after pairing."
+        ],
+        "provenance_label": "assembly_audit"
+      }
+    ],
+    "paired_dois": [
+      "10.1063/5.0280632",
+      "10.1007/s00012-025-00908-5",
+      "10.25088/complexsystems.34.3.259",
+      "10.1038/s41597-025-04905-0",
+      "10.1007/s00799-025-00431-x"
+    ],
+    "peep_bindings": [
+      "PEEP-2026-005",
+      "PEEP-2026-010",
+      "PEEP-2026-013",
+      "PEEP-2026-018",
+      "PEEP-2026-020",
+      "PEEP-2026-021",
+      "PEEP-2026-022",
+      "PEEP-2026-035",
+      "PEEP-2026-039",
+      "LOCAL-GAP-0003",
+      "LOCAL-GAP-0007",
+      "LOCAL-GAP-0008",
+      "LOCAL-GAP-0011",
+      "LOCAL-GAP-0015",
+      "LOCAL-GAP-0018",
+      "LOCAL-GAP-0021",
+      "LOCAL-GAP-0022",
+      "LOCAL-GAP-0023",
+      "LOCAL-GAP-0024",
+      "LOCAL-GAP-0025",
+      "LOCAL-GAP-0026",
+      "LOCAL-GAP-0027",
+      "LOCAL-GAP-0028",
+      "LOCAL-GAP-0029",
+      "LOCAL-GAP-0030",
+      "LOCAL-GAP-0031",
+      "LOCAL-GAP-0032",
+      "LOCAL-GAP-0033",
+      "LOCAL-GAP-0034",
+      "LOCAL-GAP-0035",
+      "LOCAL-GAP-0036",
+      "LOCAL-GAP-0037",
+      "LOCAL-GAP-0038",
+      "LOCAL-GAP-0039",
+      "LOCAL-GAP-0040",
+      "LOCAL-GAP-0041",
+      "LOCAL-GAP-0042",
+      "LOCAL-GAP-0043",
+      "LOCAL-GAP-0051",
+      "LOCAL-GAP-0056",
+      "LOCAL-GAP-0057",
+      "LOCAL-GAP-0059",
+      "LOCAL-GAP-0063"
+    ],
+    "direct_peep_bindings": [],
+    "queue_id": "EQ-REG-0044"
+  },
+  "supporting_context": {
+    "timeline_nodes": [
+      {
+        "node_id": "zip_ref_Barker_Integrated_System_zip_f3f36b3fb32d",
+        "path": "zip_ref:Barker_Integrated_System.zip",
+        "era": "bridge",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "archive",
+        "motifs": {
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "te82_historical_pastworks_Barker_Integrated_System__Memory_Strategy_Synthesis_md_7d81cefbe825",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker Integrated System_ Memory & Strategy Synthesis.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CMPLX_kernel_staging_papers_suite82_historical_pastworks_Barker_Supplement_S4_md_29365f24b254",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Barker_Supplement_S4.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "MPLX_kernel_staging_papers_suite82_historical_pastworks_CMPLX-R30_CODE_REVIEW_md_afd30b25be6b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\CMPLX-R30_CODE_REVIEW.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\GLOBAL_PACKAGE_REFINEMENT.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\lattice_forge_analysis.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "el_staging_papers_suite82_historical_pastworks_Master_Glossary_and_Appendices_md_ae8451ce97df",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\Master_Glossary_and_Appendices.md",
+        "era": "bridge",
+        "provenance_role": "bridge_reference",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite82_historical_pastworks\\OPEN_OBLIGATIONS.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROBLEM_3_ANSWER_md_a8bc6df6d212",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROBLEM_3_ANSWER.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "QE_CMPLX_CMPLX-R30-main_CATALOG_external_WOLFRAM_NERSISSIAN_RULE30_COMPARISON_md_48eab58ac477",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\CATALOG\\external\\WOLFRAM_NERSISSIAN_RULE30_COMPARISON.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_docs_GLOBAL_PACKAGE_REFINEMENT_md_fe5b0f43f4bf",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\docs\\GLOBAL_PACKAGE_REFINEMENT.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CQE_CMPLX_CMPLX-R30-main_FORMALIZATION_CMPLX_R30_INTERNAL_FORMALIZATION_SETUP_md_a281897133a0",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\FORMALIZATION\\CMPLX_R30_INTERNAL_FORMALIZATION_SETUP.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_FORMALIZATION_formalization_artifacts_csv_7f97eeed7a48",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\FORMALIZATION\\formalization_artifacts.csv",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "data",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_FORMALIZATION_internal_formalization_inventory_json_ff2275c9aa94",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\FORMALIZATION\\internal_formalization_inventory.json",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "data",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_FORMALIZATION_TRANSPORT_OBLIGATION_LEDGER_md_c3e46ffbf3ef",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\FORMALIZATION\\TRANSPORT_OBLIGATION_LEDGER.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_src_lattice_forge_contribution_validators_py_6be9de28e8ad",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\src\\lattice_forge\\contribution_validators.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_src_lattice_forge_transport_obligations_py_bcd5024ab154",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\src\\lattice_forge\\transport_obligations.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_src_lattice_forge_unipotent_orbits_py_5860fa7bb596",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\src\\lattice_forge\\unipotent_orbits.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_tests_test_transport_obligation_ledger_py_7811b2b11bb4",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\tests\\test_transport_obligation_ledger.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_theorems_OPEN_OBLIGATIONS_md_518c8873b2c8",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\PROOF\\theorems\\OPEN_OBLIGATIONS.md",
+        "era": "origin",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_scripts_formalize_cmplx_setup_py_7bb43acc4f9e",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\scripts\\formalize_cmplx_setup.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "D_CQE_CMPLX_CMPLX-R30-main_scripts_unify_claim_umbrellas_py_deb2397c6560",
+        "path": "D:\\CQE_CMPLX\\CMPLX-R30-main\\scripts\\unify_claim_umbrellas.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "_papers_suite83_cmplx_kernel_production_CQECMPLX-AirLock_SPEC-CQE-engine-v0_1_md_4629aca4b4d0",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\SPEC-CQE-engine-v0.1.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "s_suite83_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-mirror_registry_py_7cea6b92b35e",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\CQE-engine-mirror\\registry.py",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "code",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-v0_1_cqe_engine_registry_py_a83640afe4bd",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\CQE-engine-v0.1\\cqe_engine\\registry.py",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "code",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "production_CQECMPLX-AirLock_cqe-production-v0_1_lib-forge_cqe_engine_registry_py_c2ac7a3374e0",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\cqe-production-v0.1\\lib-forge\\cqe_engine\\registry.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "CQECMPLX-AirLock_cqe-production-v0_1_papers_CQE-paper-04_01-CQE-formal_FORMAL_md_5e671df0a36d",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\cqe-production-v0.1\\papers\\CQE-paper-04\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "CQECMPLX-AirLock_cqe-production-v0_1_papers_CQE-paper-05_01-CQE-formal_FORMAL_md_fe6f51e06b05",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\cqe-production-v0.1\\papers\\CQE-paper-05\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "geFactory_v0_3_docs_reforge_worldforge_ui_adapter_v0_1_NEXT_NEEDS_REVIEW_v0_2_md_4ae8397e9885",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\docs\\reforge_worldforge_ui_adapter_v0_1\\NEXT_NEEDS_REVIEW_v0_2.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "document",
+        "motifs": {
+          "forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "v0_3-lineage-read_ForgeFactory_v0_3_src_lattice_forge_contribution_validators_py_938278755ca7",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge\\contribution_validators.py",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "code",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "forge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "y-v0_3-lineage-read_ForgeFactory_v0_3_src_lattice_forge_transport_obligations_py_252ecb895633",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge\\transport_obligations.py",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "code",
+        "motifs": {
+          "jordan_lineage": true,
+          "lattice_forge_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "actory-v0_3-lineage-read_ForgeFactory_v0_3_src_lattice_forge_unipotent_orbits_py_f87b0777cb8b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3\\src\\lattice_forge\\unipotent_orbits.py",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "code",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "e83_cmplx_kernel_production_CQECMPLX-Production_lib-forge_cqe_engine_registry_py_2022d0d188c5",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\lib-forge\\cqe_engine\\registry.py",
+        "era": "origin",
+        "provenance_role": "source_truth",
+        "artifact_type": "code",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "high"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-04_01-CQE-formal_FORMAL_md_ddc9ca90840b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-04\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-05_01-CQE-formal_FORMAL_md_cb24ff488692",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-05\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-06_01-CQE-formal_FORMAL_md_2b5491fc158b",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-06\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-09_01-CQE-formal_FORMAL_md_dad392e779ac",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-09\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-10_01-CQE-formal_FORMAL_md_cafd214b27e1",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-11_01-CQE-formal_FORMAL_md_119549327f5c",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "rule30_lineage": true,
+          "lattice_forge_lineage": true,
+          "hub_receipt_lineage": true,
+          "sm_bridge_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      },
+      {
+        "node_id": "ernel_production_CQECMPLX-Production_papers_CQE-paper-20_01-CQE-formal_FORMAL_md_5f8ded6baf5c",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQECMPLX-Production\\papers\\CQE-paper-20\\01-CQE-formal\\FORMAL.md",
+        "era": "pre-formal",
+        "provenance_role": "zip_stratum",
+        "artifact_type": "paper",
+        "motifs": {
+          "lattice_forge_lineage": true,
+          "moonshine_lineage": true,
+          "forge_lineage": true,
+          "hub_receipt_lineage": true
+        },
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "medium"
+      }
+    ],
+    "timeline_edges": [
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_docs_GLOBAL_PACKAGE_REFINEMENT_md_fe5b0f43f4bf",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_GLOBAL_PACKAGE_REFINEMENT_md_06404f407ad6",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "3_cmplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_analysis_md_2d4adc59a8bd",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "rs_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_analysis_md_6bd82da4bfe2",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_theorems_OPEN_OBLIGATIONS_md_518c8873b2c8",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "g_papers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_OPEN_OBLIGATIONS_md_2bffaeca591b",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "oduction_CQE_CMPLX-workspace_CMPLX-MORSR_05_reports_and_refs_OPEN_OBLIGATIONS_md_bf0500960634",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-v0_1_cqe_engine_registry_py_a83640afe4bd",
+        "to": "s_suite83_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-mirror_registry_py_7cea6b92b35e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "X-workspace_CMPLX-PartsFactory-main_docs_lattice-forge-port-review-2026-05-21_md_72e8102df417",
+        "to": "forge-files_CMPLX-PartsFactory-main_docs_lattice-forge-port-review-2026-05-21_md_65ff108936cb",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "e_codex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-06-10-Mid-Stack_md_73b171f3b4b8",
+        "to": "CMPLX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-06-10-Mid-Stack_md_b6125b5aa452",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-11-20-Higher-Stack_md_0d5404191b86",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-11-20-Higher-Stack_md_490e8a13820a",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-21-31-Horizon-Meta_md_de13e5e27f38",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-21-31-Horizon-Meta_md_5084f356bbfc",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ude_work_CL-Paper-Evidence-DB_CL_production-forge-hierarchy-and-lib-forge-map_md_8e1089773977",
+        "to": "ng_papers_suite18_cl_paper_db_CL_production-forge-hierarchy-and-lib-forge-map_md_591bc65adec6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ude_work_CL-Paper-Evidence-DB_CL_production-hamiltonian-source-and-c-sequence_md_da197edb67a7",
+        "to": "ng_papers_suite18_cl_paper_db_CL_production-hamiltonian-source-and-c-sequence_md_f8d8c4eb7d1f",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL_production-master-paper-index_md_bb054edabcf9",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL_production-master-paper-index_md_febc370dcc86",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "memory_Claude_work_CL-Paper-Evidence-DB_CL_production-paper-intent-index-json_md_8789d8606ae4",
+        "to": "rnel_staging_papers_suite18_cl_paper_db_CL_production-paper-intent-index-json_md_75014d71f8b1",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "aude_work_CL-Paper-Evidence-DB_CL_production-proof-receipts-and-ribbon-schema_md_a536ba8b8844",
+        "to": "ing_papers_suite18_cl_paper_db_CL_production-proof-receipts-and-ribbon-schema_md_b15320b37c45",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL_production-tool-md-all-papers_md_38349fdc2ca7",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL_production-tool-md-all-papers_md_e8c1273d3065",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "_memory_Claude_work_CL-Paper-Evidence-DB_CL_production-workbook-md-all-papers_md_5e9e903659fb",
+        "to": "ernel_staging_papers_suite18_cl_paper_db_CL_production-workbook-md-all-papers_md_39167ad01dfe",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "laude_codex_memory_Claude_work_CL-Paper-Evidence-DB_CL_proof-source-verifiers_md_ff5cae175a1c",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite18_cl_paper_db_CL_proof-source-verifiers_md_159a14e994f0",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "timeline_node_count": 241,
+    "timeline_edge_count": 120,
+    "motif_bindings": [
+      {
+        "motif": "rule30_lineage",
+        "node_count": 132,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "jordan_lineage",
+        "node_count": 59,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "lattice_forge_lineage",
+        "node_count": 178,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "moonshine_lineage",
+        "node_count": 99,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "forge_lineage",
+        "node_count": 69,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "hub_receipt_lineage",
+        "node_count": 167,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      },
+      {
+        "motif": "sm_bridge_lineage",
+        "node_count": 109,
+        "provenance_label": "timeline_graph.pass5",
+        "confidence": "indexed"
+      }
+    ],
+    "registry_discovery_rows": [],
+    "registry_discovery_count": 0,
+    "nearby_flcr_slots": [
+      {
+        "slot": "FLCR-09",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-10",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-12",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      },
+      {
+        "slot": "FLCR-13",
+        "relation": "adjacent_band",
+        "provenance_label": "series_topology"
+      }
+    ],
+    "formal_bibliography_refs": {
+      "dois": [],
+      "flcr_xrefs": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-18",
+        "FLCR-21",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-40"
+      ],
+      "receipt_paths": [
+        "t10_master_receipt.json"
+      ],
+      "source_paths": [
+        "10_T10_Master_Receipt.md`: \ufeff# Paper 10 - T10 Master Receipt **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific Body **Status.** IPMC for master-receipt integrity, source binding, receipt replay, mathematical/physical claim merely carried by the receipt. ### Abstract Paper 10 formalizes the first stack-level receipt in the CQE/CMPLX sequence. Its object is not a new physical or mathematical theorem about every carried claim. Its object is the replayable integrity of the Papers 00-09 substack. The master receipt binds the inherited Paper 00 burden contract, the active observer enumeration event, the promoted paper receipts for Papers 01-09, bind the forge receipt rather than re-narrate the construction. In particular, materialized lookup receipts for the rootless `Niemeier:Leech",
+        "FLCR-28` through `FLCR-30` for CAM/crystal, corpus ribbon, and universal",
+        "supplements/10_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/10_INTERNAL_REASONING_SUPPLEMENT.md`: # Paper 10 Internal Reasoning Supplement ## Core Reading Paper 10 is a stack receipt, not a magic closure button. The useful reasoning is ## Reasoning Additions | Build manifest / lockfile | A master receipt is like a lockfile pinning paper receipts, tools, lookup rows, and visible obligations at a stack version. | | Reproducible research bundle | Paper 10 can state the minimal replay package: source paths, receipts, commands, hashes, and lookup surfaces. | | Attestation / supply-chain analogy | A master receipt is an attestation that the substack was inspected under declared rules. | | Lookup binding as dependency injection | No-cost lookup receipts can be injected into the stack as dependencies without re-proving their implementation in Paper 10. | | Visibility invariant | A stack receipt has value only if it preserves unresolved rows as visible rows. This is an audit invariant. | ## P",
+        "virtuous/10_T10_Master_Receipt_VIRTUOUS.md",
+        "virtuous\\10_T10_Master_Receipt_VIRTUOUS.md`: # Paper 10 - T10 Master Receipt **Virtuous rework status:** merged from current rework, canonical formal paper, companion variants, verifier receipts, and saved CAM/GLM crystal data. ## Source Faces | Current rework | `D:\\Paper Reworks\\10_T10_Master_Receipt.md` | 690 words | Existing skeleton, current status, obligations. | | Canonical formal paper | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-10\\FORMAL_PAPER.md` | 1584 words | Main theorem, proof, receipt, falsifier spine. | | Formal verifiers | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-10` | 4 files | Executable evidence surface. | | Formal receipts | `D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\formal\\CQE-paper-10` | 4 files | Receipt status and check counts. | | Saved GLM closure rows | `D:\\CQE_CMPLX\\_downloads_review\\glm_obligation_closure_matrix.json` | 1 relevant rows | Closure/par"
+      ]
+    },
+    "zip_crosswalk_refs": [
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_docs_GLOBAL_PACKAGE_REFINEMENT_md_fe5b0f43f4bf",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "suite83_cmplx_kernel_production_CQE_CMPLX-workspace_GLOBAL_PACKAGE_REFINEMENT_md_06404f407ad6",
+        "to": "_kernel_staging_papers_suite82_historical_pastworks_GLOBAL_PACKAGE_REFINEMENT_md_2e0c74df756d",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "3_cmplx_kernel_production_CQE_CMPLX-nonlib-forge-files_lattice_forge_analysis_md_2d4adc59a8bd",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "rs_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_lattice_forge_analysis_md_6bd82da4bfe2",
+        "to": "PLX_kernel_staging_papers_suite82_historical_pastworks_lattice_forge_analysis_md_c3067f1bb84b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "D_CQE_CMPLX_CMPLX-R30-main_PROOF_theorems_OPEN_OBLIGATIONS_md_518c8873b2c8",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "g_papers_suite83_cmplx_kernel_production_CQE_CMPLX-workspace_OPEN_OBLIGATIONS_md_2bffaeca591b",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "oduction_CQE_CMPLX-workspace_CMPLX-MORSR_05_reports_and_refs_OPEN_OBLIGATIONS_md_bf0500960634",
+        "to": "CQE_CMPLX_kernel_staging_papers_suite82_historical_pastworks_OPEN_OBLIGATIONS_md_e60c3ebf363b",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-v0_1_cqe_engine_registry_py_a83640afe4bd",
+        "to": "s_suite83_cmplx_kernel_production_CQECMPLX-AirLock_CQE-engine-mirror_registry_py_7cea6b92b35e",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "X-workspace_CMPLX-PartsFactory-main_docs_lattice-forge-port-review-2026-05-21_md_72e8102df417",
+        "to": "forge-files_CMPLX-PartsFactory-main_docs_lattice-forge-port-review-2026-05-21_md_65ff108936cb",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "e_codex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-06-10-Mid-Stack_md_73b171f3b4b8",
+        "to": "CMPLX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-06-10-Mid-Stack_md_b6125b5aa452",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-11-20-Higher-Stack_md_0d5404191b86",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-11-20-Higher-Stack_md_490e8a13820a",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL-CQE-Papers-21-31-Horizon-Meta_md_de13e5e27f38",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL-CQE-Papers-21-31-Horizon-Meta_md_5084f356bbfc",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ude_work_CL-Paper-Evidence-DB_CL_production-forge-hierarchy-and-lib-forge-map_md_8e1089773977",
+        "to": "ng_papers_suite18_cl_paper_db_CL_production-forge-hierarchy-and-lib-forge-map_md_591bc65adec6",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "ude_work_CL-Paper-Evidence-DB_CL_production-hamiltonian-source-and-c-sequence_md_da197edb67a7",
+        "to": "ng_papers_suite18_cl_paper_db_CL_production-hamiltonian-source-and-c-sequence_md_f8d8c4eb7d1f",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      },
+      {
+        "from": "odex_memory_Claude_work_CL-Paper-Evidence-DB_CL_production-master-paper-index_md_bb054edabcf9",
+        "to": "LX_kernel_staging_papers_suite18_cl_paper_db_CL_production-master-paper-index_md_febc370dcc86",
+        "edge_type": "zip_strata_crosswalk",
+        "direction": "backward",
+        "sha256": null,
+        "on_disk_path": null,
+        "no_readback": null,
+        "provenance_label": "timeline_graph.pass5"
+      }
+    ],
+    "anchors": {
+      "triad_on_disk": true,
+      "assembly_audit_bound": true,
+      "queue_pending": true
+    }
+  },
+  "external_candidates": {
+    "seed_candidates": [
+      {
+        "seed_id": "CLAIM-10.3390/ijgi9030138",
+        "seed_type": "lane_claim_queue_ingress",
+        "title": "Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research",
+        "doi": "10.3390/ijgi9030138",
+        "year": null,
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_LANE_PAPER_CLAIM_QUEUE.json",
+        "proposed_flcr_targets": [
+          "FLCR-11"
+        ],
+        "pairing_status": "ingress_claim",
+        "nist_gate_readiness": "PASS",
+        "confidence": 0.6,
+        "blockers": [],
+        "rationale": "pending_full_text_extraction"
+      },
+      {
+        "seed_id": "EXT80-11",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research",
+        "doi": "10.3390/ijgi9030138",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-11"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-11; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      },
+      {
+        "seed_id": "EQ-REG-0004",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "039-umbrella-math-chart-j3o-isomorphism.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\039-umbrella-math-chart-j3o-isomorphism.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0008",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "044-claude-real-math-d4-j30-idempotent-bridge-tests.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\044-claude-real-math-d4-j30-idempotent-bridge-tests.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0012",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "070-lcr-pdf-cqe-rule-30-synthesis.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\070-lcr-pdf-cqe-rule-30-synthesis.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0014",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "076-lcr-rule30-prize-submission.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\076-lcr-rule30-prize-submission.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0015",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "078-lcr-rule30-rule30-agent-outline.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\078-lcr-rule30-rule30-agent-outline.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0016",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "080-lcr-rule30-rule30-agent-final-paper.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\080-lcr-rule30-rule30-agent-final-paper.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "EQ-REG-0020",
+        "seed_type": "external_pair_queue_non_flcr",
+        "title": "SLOT_1_80_GENERALIZED_ONTOLOGY.md",
+        "doi": null,
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\SLOT_1_80_GENERALIZED_ONTOLOGY.md",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIR_QUEUE_INTAKE.json",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "promoted",
+        "nist_gate_readiness": "needs_external_doi",
+        "confidence": 0.5,
+        "blockers": [
+          "non_flcr_artifact",
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Registry queue artifact routed to slot families 01;11;21;31;03"
+      },
+      {
+        "seed_id": "REG-19d87f",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "080-lcr-rule30-rule30-agent-final-paper.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\080-lcr-rule30-rule30-agent-final-paper.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-22ccb3",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "SLOT_1_80_GENERALIZED_ONTOLOGY.md",
+        "path": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\SLOT_1_80_GENERALIZED_ONTOLOGY.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-261b88",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "070-lcr-pdf-cqe-rule-30-synthesis.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\070-lcr-pdf-cqe-rule-30-synthesis.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-509015",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "TMN_TOOLS_LCR.db",
+        "path": "D:\\CQE_CMPLX\\TMN_TOOLS_LCR.db",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=unknown"
+      },
+      {
+        "seed_id": "REG-58f063",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "076-lcr-rule30-prize-submission.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\076-lcr-rule30-prize-submission.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-b6874e",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "078-lcr-rule30-rule30-agent-outline.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\078-lcr-rule30-rule30-agent-outline.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-e86c0b",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "044-claude-real-math-d4-j30-idempotent-bridge-tests.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\044-claude-real-math-d4-j30-idempotent-bridge-tests.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "REG-f15d06",
+        "seed_type": "registry_discovery_external_pair",
+        "title": "039-umbrella-math-chart-j3o-isomorphism.md",
+        "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite19_umbrella_math\\039-umbrella-math-chart-j3o-isomorphism.md",
+        "doi": null,
+        "source_path": "D:\\CQE_CMPLX\\_drive-audit\\output\\unified-registry-merged.csv",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-21",
+          "FLCR-31",
+          "FLCR-03"
+        ],
+        "pairing_status": "discovery",
+        "nist_gate_readiness": "unscored",
+        "confidence": 0.45,
+        "blockers": [
+          "DISCOVERY_EXTERNAL_PAIR_REQUIRED"
+        ],
+        "rationale": "Unified registry row requires external pair; artifact_type=paper"
+      },
+      {
+        "seed_id": "CAND-Q-01",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Rethinking the production and publication of machine-readable expressions of research findings",
+        "doi": "10.1038/s41597-025-04905-0",
+        "year": 2025,
+        "venue": "Scientific Data",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "claim envelopes, receipt discipline, machine-readable publication outputs",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-11",
+          "FLCR-19",
+          "FLCR-28",
+          "FLCR-29",
+          "FLCR-40",
+          "FLCR-61",
+          "FLCR-71"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 01, 11, 19, 28, 29"
+      },
+      {
+        "seed_id": "CAND-Q-02",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Provenance-driven nanopublications: representing source lineage and trust networks for multi-source assertions",
+        "doi": "10.1007/s00799-025-00431-x",
+        "year": 2025,
+        "venue": "International Journal on Digital Libraries",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "CAM/source routing, multi-source assertions, trust/provenance graph for claims",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-07",
+          "FLCR-11",
+          "FLCR-28",
+          "FLCR-39",
+          "FLCR-49",
+          "FLCR-59"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 01, 07, 11, 28, 39"
+      },
+      {
+        "seed_id": "CAND-Q-03",
+        "seed_type": "external_pairing_candidate_queue",
+        "title": "Fast, Verified Computation for HOL ITPs",
+        "doi": "10.1007/s10817-025-09719-8",
+        "year": 2025,
+        "venue": "Journal of Automated Reasoning",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAIRING_CANDIDATE_QUEUE.json",
+        "pairs_with": "forge/kernel verification, proof-producing computation, receipt-bound internal results",
+        "proposed_flcr_targets": [
+          "FLCR-01",
+          "FLCR-09",
+          "FLCR-10",
+          "FLCR-11",
+          "FLCR-19",
+          "FLCR-20",
+          "FLCR-50"
+        ],
+        "pairing_status": "already_paired_nist_pass",
+        "nist_gate_readiness": "promoted_or_bound",
+        "confidence": 0.4,
+        "blockers": [
+          "doi_already_in_peep_index"
+        ],
+        "rationale": "Curated 2025+ external comparator; suggested slots 01, 09, 10, 11, 19"
+      },
+      {
+        "seed_id": "LOCAL-MINT-005",
+        "seed_type": "local_ability_seed",
+        "title": "TMN mint, wallet, and coin library",
+        "ability_family": "mint",
+        "source_surface": "D:\\MannyAI",
+        "source_path": "D:\\MannyAI\\src\\mint\\__init__.py",
+        "source_paths": [
+          {
+            "path": "D:\\MannyAI\\src\\mint\\__init__.py",
+            "bytes": 617,
+            "modified_utc": "2026-06-28T04:09:03.153497+00:00",
+            "sha256": "69c1de1428ea7ed8d7af0f23e13a9a85515293851cc553d54e3bf104615f6658"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\mint\\coin_library.py",
+            "bytes": 3725,
+            "modified_utc": "2026-06-28T04:16:27.239337+00:00",
+            "sha256": "d85c59b9b1055f03bbf307cd0d84dd782e59e44c4f59ea79ceeabd13df8afab1"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\mint\\constants.py",
+            "bytes": 524,
+            "modified_utc": "2026-06-28T04:09:10.565892+00:00",
+            "sha256": "af74e50d3d9a78c126697d48599fc755f5d5c9006801468aac4f6b64a744419e"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\mint\\mint.py",
+            "bytes": 2324,
+            "modified_utc": "2026-06-28T04:09:56.684551+00:00",
+            "sha256": "78823cb5ad38ee0f6815025847bb711d35ee16679e1417aa56d9660bb34c5aee"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\mint\\wallet.py",
+            "bytes": 3475,
+            "modified_utc": "2026-06-28T04:09:40.135569+00:00",
+            "sha256": "7ae8196a41c4f89e62d4a0dc4bbecee349c0f33d0a5445299299b0825ee30acb"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\mint\\coin_library.json",
+            "bytes": 22494,
+            "modified_utc": "2026-06-28T04:07:22.866579+00:00",
+            "sha256": "0ccc6d92d3046103b929748e22fcb9c05a5feace85db7b2dffc07ea7d7607a76"
+          },
+          {
+            "path": "D:\\MannyAI\\src\\manny_mcp\\plugins\\mint.py",
+            "bytes": 2644,
+            "modified_utc": "2026-06-28T04:12:18.286004+00:00",
+            "sha256": "5a985926d7bf8e0f951d85ade67c5152e963541c4e7b6bce91a4a508adccf440"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-07",
+          "FLCR-11",
+          "FLCR-28",
+          "FLCR-40"
+        ],
+        "pipeline_targets": [
+          "base:mannyai",
+          "tool:mint",
+          "validator:receipt-ledger"
+        ],
+        "pairing_status": "candidate_local_ability",
+        "nist_gate_readiness": "not_applicable_local_ability_seed",
+        "confidence": 0.82,
+        "blockers": [
+          "receipt_scope_review_required"
+        ],
+        "port_mode": "direct_port",
+        "port_rationale": "Existing implementation appears close to usable as-is.",
+        "rationale": "MannyAI Increment 7 adds the coin/mint layer needed for work-source accounting and reusable ability economics.",
+        "provenance_label": "local_mannyai_cam_unification",
+        "cmplx_standards_gate": "pending_local_ability_adapter",
+        "forge_reforge_action": "register_and_validate"
+      },
+      {
+        "seed_id": "LEGACY-TMN-MINT-003",
+        "seed_type": "legacy_repo_ability_seed",
+        "title": "TMN mint, wallet, and label economy lineage",
+        "ability_family": "mint",
+        "source_repo": "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory",
+        "source_surface": "D:\\repo_harvest",
+        "source_path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\mint\\mint.py",
+        "source_paths": [
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\mint\\mint.py",
+            "bytes": 25207,
+            "modified_utc": "2026-06-26T16:43:48.840562+00:00",
+            "sha256": "abdc72cc5664fb4325c3fd7e772dd4675583319caade58af333ee7e060e5edab"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN-main\\configs\\coin_library.json",
+            "bytes": 22494,
+            "modified_utc": "2026-06-26T16:43:48.765782+00:00",
+            "sha256": "0ccc6d92d3046103b929748e22fcb9c05a5feace85db7b2dffc07ea7d7607a76"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-TMN1\\databases\\first_mint.py",
+            "bytes": 8874,
+            "modified_utc": "2026-06-26T16:43:51.569524+00:00",
+            "sha256": "4c07d63acf2f69c689a22a59261b5d7d3232181bb470a955997d3b60a77ba2e1"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\mint.py",
+            "bytes": 21252,
+            "modified_utc": "2026-06-26T16:43:08.454767+00:00",
+            "sha256": "0a4377187ec7eaa72213c9d3150b5176a191f21c5d3749f36859e3d1456523dc"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\wallet.py",
+            "bytes": 12510,
+            "modified_utc": "2026-06-26T16:43:08.455818+00:00",
+            "sha256": "bf31e57827082475baddf63dec9cc902256a74d8fd2621547949530a63987ae6"
+          },
+          {
+            "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\economy.py",
+            "bytes": 23502,
+            "modified_utc": "2026-06-26T16:43:08.454767+00:00",
+            "sha256": "0294b7e00573caa04a0d295133a727b2fb11a9bb0b18d1110ffc288a6a07fc4e"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-07",
+          "FLCR-11",
+          "FLCR-28",
+          "FLCR-40"
+        ],
+        "pipeline_targets": [
+          "tool:mint",
+          "validator:receipt-ledger",
+          "base:agent-economy"
+        ],
+        "pairing_status": "candidate_legacy_ability",
+        "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+        "confidence": 0.84,
+        "blockers": [
+          "coin_library_scope_review",
+          "ledger_semantics_review"
+        ],
+        "port_mode": "direct_port",
+        "port_rationale": "Existing implementation or document can be reused after normal review.",
+        "rationale": "Label-to-coin matching, shell weights, escrow, citation boosts, wallets, and receipt chains are already implemented across TMN-main and PartsFactory.",
+        "provenance_label": "legacy_repo_harvest",
+        "cmplx_standards_gate": "pending_legacy_ability_adapter",
+        "forge_reforge_action": "register_and_validate"
+      },
+      {
+        "seed_id": "LEGACY-REPO-KERNEL-009",
+        "seed_type": "legacy_repo_ability_seed",
+        "title": "Repo kernel, forms, provenance, and harvest dossiers",
+        "ability_family": "repo_kernel_provenance",
+        "source_repo": "CMPLX-Kernel/PartsFactory/repo_harvest",
+        "source_surface": "D:\\CQE_CMPLX",
+        "source_path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-1T\\FORM.md",
+        "source_paths": [
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-1T\\FORM.md",
+            "bytes": 1260,
+            "modified_utc": "2026-06-08T17:28:25.874172+00:00",
+            "sha256": "84f932bfb4ddf4bb4f65cb4597148f0b46bfef7727038a345ecdd7f310895162"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Formalization\\FORM.md",
+            "bytes": 992,
+            "modified_utc": "2026-06-08T17:28:27.144759+00:00",
+            "sha256": "813aeb96b74e655227bd60989fd9973f900f5e4500fd6b647bb3e205444a379f"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Manny\\FORM.md",
+            "bytes": 838,
+            "modified_utc": "2026-06-08T17:28:27.338775+00:00",
+            "sha256": "05f4dcc3cfca198385d7d16a9d631471d4229284346eb5d6f9b2d92cab8a7df4"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Monorepo\\FORM.md",
+            "bytes": 1294,
+            "modified_utc": "2026-06-08T17:28:27.996545+00:00",
+            "sha256": "df8f01c8bccd0b4cde56190e5eba396e7e1386bc0ae9293ed7486f1165eb9e03"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-PartsFactory\\FORM.md",
+            "bytes": 1278,
+            "modified_utc": "2026-06-08T17:28:28.583136+00:00",
+            "sha256": "e6ff88d57f5afb4b224898bb05e36708c9352d8c32246178021d1ed848b4a809"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-R30\\FORM.md",
+            "bytes": 1212,
+            "modified_utc": "2026-06-08T17:28:28.834142+00:00",
+            "sha256": "335418ce63500493c25db904e9509cb311ce9a787fd60d63513004d46519217d"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-TMN-main\\FORM.md",
+            "bytes": 933,
+            "modified_utc": "2026-06-08T17:28:29.366087+00:00",
+            "sha256": "bdcd6339c0bdcfaef39626817a32089d183798223acd3dffbabd361be02265f9"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-TMN1\\FORM.md",
+            "bytes": 1019,
+            "modified_utc": "2026-06-08T17:28:29.063672+00:00",
+            "sha256": "fbe3990410726b5764d94783acfeb2477ce954448531652618a5d35ce7d90611"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXDevKit\\FORM.md",
+            "bytes": 1075,
+            "modified_utc": "2026-06-08T17:28:26.915518+00:00",
+            "sha256": "497baa47d4641e7f6d041bbc0f696075aadbd69dc13a5ead4cf0d19810c0d34c"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXMCP\\FORM.md",
+            "bytes": 1260,
+            "modified_utc": "2026-06-08T17:28:27.578281+00:00",
+            "sha256": "766336791fa91c97caa437933bb4980f096cbacd1e811a903987c845089da25b"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXUNI\\FORM.md",
+            "bytes": 1091,
+            "modified_utc": "2026-06-08T17:28:29.987444+00:00",
+            "sha256": "0ed943b5f0b82122dbe4386a95376f86410560f024650ede3244d786fb5624bf"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX\\FORM.md",
+            "bytes": 1224,
+            "modified_utc": "2026-06-08T17:28:16.542941+00:00",
+            "sha256": "495e8c59b1109e477a149fd2c1d5067bb1780986f8f7cd7564047b2f65afca98"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\scout-demo-service\\FORM.md",
+            "bytes": 825,
+            "modified_utc": "2026-06-08T17:28:30.175955+00:00",
+            "sha256": "00fa85866e7996209f17980fb408f5b9ef6e3247eaf0e85db984fbda003ac1ff"
+          },
+          {
+            "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\services\\repo-kernel\\server.py",
+            "bytes": 584047,
+            "modified_utc": "2026-06-06T20:24:02.920806+00:00",
+            "sha256": "151392389569ea254840332dafd784e26f439182bc28ca3719a956aa2e7647a1"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-1T.md",
+            "bytes": 15455,
+            "modified_utc": "2026-06-26T21:19:14.199935+00:00",
+            "sha256": "59c670fd03c6fe98f57d0d667b9d14440c4778aeb58f84d78f1ce4af0fefebee"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-Formalization.md",
+            "bytes": 27285,
+            "modified_utc": "2026-06-26T21:19:05.976456+00:00",
+            "sha256": "7d7ebc89b2b7dc9445b68721c64eeeb2126f00f4bb77731bec53319041ee584d"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-Manny.md",
+            "bytes": 11605,
+            "modified_utc": "2026-06-26T21:17:13.987925+00:00",
+            "sha256": "c2f27e1bb4dd296e1b57db92051311edb0be40245a26ac6e5bfcb8e05cab4a38"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-PartsFactory.md",
+            "bytes": 14762,
+            "modified_utc": "2026-06-26T17:01:15.317899+00:00",
+            "sha256": "e87aae61951800c8e28d1533ebe1601a514a00bec54d6ce75981a7e2cf2a7e95"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-R30.md",
+            "bytes": 19382,
+            "modified_utc": "2026-06-27T04:16:01.375200+00:00",
+            "sha256": "b2823573fb55308d86ff81a428818a7ff727ee1e10cba47a03d4c2d4d90a2e07"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-TMN-main.md",
+            "bytes": 12281,
+            "modified_utc": "2026-06-26T16:57:41.908799+00:00",
+            "sha256": "5096af723dcbcec3ec48f7efd3a905a2d8685a217b121b37420e5626e5fb3fae"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-TMN1.md",
+            "bytes": 20603,
+            "modified_utc": "2026-06-26T21:18:25.405455+00:00",
+            "sha256": "5e37100dbbf6732f4f88a07da4eb927e5ffe72e76460e5d5096b5800deff0b2a"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX.md",
+            "bytes": 17024,
+            "modified_utc": "2026-06-27T04:20:28.309313+00:00",
+            "sha256": "546077b8b63aea6a194acb434507e9537cb33c54287eccf52e56a5d82ffb6422"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXDevKit.md",
+            "bytes": 15508,
+            "modified_utc": "2026-06-27T04:16:02.394284+00:00",
+            "sha256": "5d549dc6ecc5a6f58c21481f169682f14f016a592f0faaadc042f31f711c4331"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXMCP.md",
+            "bytes": 19249,
+            "modified_utc": "2026-06-26T21:18:03.150014+00:00",
+            "sha256": "436f18d098e5cdf19a4e0bca55be1cc4567355cbc5c72ed68b59450618c85d7a"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXUNI.md",
+            "bytes": 17452,
+            "modified_utc": "2026-06-27T04:15:46.130538+00:00",
+            "sha256": "00e8dd889c1e2407ef0e42405aaeb1bf0b60ca6d9e12c27c45f6e2adccadfca2"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CQE-CMPLX-1T-Dev.md",
+            "bytes": 14123,
+            "modified_utc": "2026-06-26T17:02:49.062056+00:00",
+            "sha256": "17710b2281773baf8a60749a0930bbc9f3351f68c691e5997e9d30a7e3a29318"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\CQECMPLX-Production.md",
+            "bytes": 15829,
+            "modified_utc": "2026-06-26T16:59:54.198256+00:00",
+            "sha256": "edee53473af9c98ccc186c4563ad452c6438d8a53de713413afb0cb1cc552229"
+          },
+          {
+            "path": "D:\\repo_harvest\\_CAM\\dossiers\\GaussHaus.md",
+            "bytes": 19052,
+            "modified_utc": "2026-06-27T04:15:14.370065+00:00",
+            "sha256": "a29de2836c660cd1a8f941d322e4bd517ecbebd71b0ea7d3423d6055cce4e47c"
+          }
+        ],
+        "proposed_flcr_targets": [
+          "FLCR-07",
+          "FLCR-11",
+          "FLCR-29",
+          "FLCR-40"
+        ],
+        "pipeline_targets": [
+          "tool:repo-kernel",
+          "validator:provenance",
+          "base:cam-dossiers"
+        ],
+        "pairing_status": "candidate_legacy_ability",
+        "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+        "confidence": 0.83,
+        "blockers": [
+          "avoid_duplicate_canonicalization"
+        ],
+        "port_mode": "direct_port",
+        "port_rationale": "Existing implementation or document can be reused after normal review.",
+        "rationale": "Repo forms and dossiers already provide a provenance map for older findings and a route for binding code evidence into CAM review objects.",
+        "provenance_label": "legacy_repo_harvest",
+        "cmplx_standards_gate": "pending_legacy_ability_adapter",
+        "forge_reforge_action": "register_and_validate"
+      }
+    ],
+    "seed_count": 23,
+    "ingress_80_records": [
+      {
+        "ingress_id": "EXT80-11",
+        "ingress_kind": "first40_flcr_slot",
+        "external_id": "doi:10.3390/ijgi9030138",
+        "doi": "10.3390/ijgi9030138",
+        "arxiv_id": "",
+        "title": "Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research",
+        "authors": [],
+        "summary": "Curated seed record; full-text extraction pending.",
+        "published": "",
+        "updated": "",
+        "primary_category": "curated_scientific_publication",
+        "categories": [],
+        "source_url": "https://doi.org/10.3390/ijgi9030138",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/ijgi9030138",
+        "source_kind": "primary_publisher_or_doi_record",
+        "novelty_status": "new_to_local_chain",
+        "query_used": "reproducible computational workflows provenance receipts",
+        "query_relevance_score": null,
+        "route": {
+          "target_slot": "FLCR-11",
+          "target_title": "Master Receipt And Stack Replay",
+          "topic": "Master Receipt And Stack Replay"
+        },
+        "scientific_claim": "pending_full_text_extraction",
+        "evidence_type": "curated_publication_seed",
+        "variables_observables": "pending_full_text_extraction",
+        "local_data_anchor": "pending_content_addressed_claim_or_gap_binding",
+        "lcr_attachment": {
+          "L": "Local anchor: Master Receipt And Stack Replay",
+          "C": "Publication claim, method, observable, or measurement imported without promotion.",
+          "R": "Residual comparison against local claim/gap after variables are extracted.",
+          "T": "first40_flcr_slot route FLCR-11; promote only after derivation and validator pass."
+        },
+        "mannyai_lanes": [
+          "mannyai_carrier_cem_and_research_receipts",
+          "docker_standards_suite",
+          "docker_window_node_databases",
+          "docker_observability_security_governance"
+        ],
+        "derivation_obligation": "Extract equations, variables, datasets, stated limits, and local claim/gap binding before any closure promotion.",
+        "status": "attached_for_review",
+        "curation_mode": "manual_logic_bound_seed",
+        "knowledge_weight": 0.7,
+        "logic_bound": "external_support",
+        "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+        "reasoning_note": "Curated because 'Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research' supplies a recognized external comparator for Master Receipt And Stack Replay. It is intentionally bounded to review/derivation until local variables and content-addressed anchors are attached.",
+        "nist_nsit_validation": {
+          "validator_family": "NIST/NSIT",
+          "status": "PASS",
+          "checks": [
+            {
+              "check": "source_identity",
+              "status": "PASS"
+            },
+            {
+              "check": "primary_source_record",
+              "status": "PASS"
+            },
+            {
+              "check": "title_present",
+              "status": "PASS"
+            },
+            {
+              "check": "metadata_or_abstract_present",
+              "status": "PASS"
+            },
+            {
+              "check": "route_present",
+              "status": "PASS"
+            },
+            {
+              "check": "lcr_attachment_present",
+              "status": "PASS"
+            },
+            {
+              "check": "mannyai_lanes_attached",
+              "status": "PASS"
+            },
+            {
+              "check": "no_silent_promotion",
+              "status": "PASS"
+            },
+            {
+              "check": "novelty_declared",
+              "status": "PASS"
+            },
+            {
+              "check": "derivation_obligation_declared",
+              "status": "PASS"
+            }
+          ],
+          "pass_count": 10,
+          "total_checks": 10
+        },
+        "provenance_label": "ingress_80_curated",
+        "confidence": "seed_only"
+      },
+      {
+        "seed_id": "EXT80-11",
+        "seed_type": "ingress_80_curated_seed",
+        "title": "Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research",
+        "doi": "10.3390/ijgi9030138",
+        "year": null,
+        "venue": "curated_scientific_publication",
+        "source_path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+        "pairs_with": "pending_full_text_extraction",
+        "proposed_flcr_targets": [
+          "FLCR-11"
+        ],
+        "ingress_kind": "first40_flcr_slot",
+        "pairing_status": "pending_seed",
+        "nist_gate_readiness": "seed_only",
+        "confidence": 0.55,
+        "blockers": [],
+        "rationale": "EXT80 curated seed for FLCR-11; logic_bound=Residual comparison against local claim/gap after variables are extracted."
+      }
+    ],
+    "ingress_count": 2,
+    "candidate_dois_from_seeds": [
+      "10.1007/s10817-025-09719-8",
+      "10.3390/ijgi9030138"
+    ],
+    "foundational_form_seeds": [],
+    "nist_readiness_by_doi": {
+      "10.1063/5.0280632": {
+        "doi": "10.1063/5.0280632",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-010",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1007/s00012-025-00908-5": {
+        "doi": "10.1007/s00012-025-00908-5",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-024",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.25088/complexsystems.34.3.259": {
+        "doi": "10.25088/complexsystems.34.3.259",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-038",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1038/s41597-025-04905-0": {
+        "doi": "10.1038/s41597-025-04905-0",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-037",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      },
+      "10.1007/s00799-025-00431-x": {
+        "doi": "10.1007/s00799-025-00431-x",
+        "provenance_label": "peep_index",
+        "package_id": "PEEP-2026-039",
+        "nist_status": "PASS",
+        "checks_failed": [],
+        "readiness": "nist_pass"
+      }
+    }
+  },
+  "receipts": [
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_centroid_voa_chain.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_gauss_fourier_lift.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_transport_obligations.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_voa_sector_decomposition.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-d4_atlas_bijectivity_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-atlas_unipotent_orbits_real_data_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-e8_even_lattice_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-niemeier_leech_enumeration_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-o1_weyl_e8_construction_closed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-o2pp_registry_populated_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-o7_niemeier_e8cubed_glue_closed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-09-hamiltonian_window_emergence_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-10-t10_master_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-rule30_shell_verification_ledger_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-14-boundary_repair_curvature_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-17-golay_leech_tower_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-17-leech_kissing_published_decomposition_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-18-voa_moonshine_routes_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-19-observer_face_selection_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-27-waveform_collapse_mechanism_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-30-rule30_corpus_provenance_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-alena_morph_e8_kit_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-e8_routed_constructor_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-octad_e8_structure_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-p120_e8_cayley_dickson_doubling_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_su5_observer_decomposition.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\CX-NotebookLM\\CX_CADForge_Demo_Export\\wireblock_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\bijection_method_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-00-established_grounding_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-00-field_form_membership_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-00-number_is_ribbon_digital_root_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-01-bijective_shell2_doublet_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-01-lcr_carrier_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-01-o8_spinor_double_cover_closed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-02-correction_surface_monitor_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-02-correction_surface_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-algebra_foundation_T1_T4_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-d12_idempotent_chain_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-d4_block_tower_exceptional_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-su3_closure_T5_T7_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-triality_annealing_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-03-triality_surface_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-04-boundary_repair_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-05-cd_conjugation_gluon_oloid_theta0_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-05-gluon_oloid_worldline_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-05-oloid_carrier_family_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-05-oloid_path_carrier_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-causal_code_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-correction_extraction_verdict_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-lucas_axis_readout_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-rule90_lucas_decomposition_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-06-triadic_keystone_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-07-discrete_continuous_bridge_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-07-mdhg_speedlight_bridge_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-07-o3_universality_closed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-e8_hemisphere_partition_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-f2_bridge_unipotent_substrate_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-lattice_closure_template_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-lattice_code_chain_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-lattice_code_closure_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-08-t8_commutability_tree_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-09-kappa_conservation_law_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-09-u_r30_quantum_circuit_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-092-chart_j3o_isomorphism_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-094-spectre_7fold_substitution_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-10-bijection_cold_start_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-10-ologn_readout_architecture_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-100-completion_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-100-hyperpermutation_fixedpoint_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-11-sporadic_admission_boundary_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-11-theory_admission_gate_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-ca_prediction_surface_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-center_column_entropy_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-p1_non_periodicity_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-p2_density_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-rule30_real_dataset_experiment_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-rule30_real_dataset_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-12-wolfram_1m_bit_validation_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-invariant_transfer_su2u1_in_su3_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-quark_face_transport_literalized_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-quark_face_transport_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-13-standard_model_real_comparison_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-14-curvature_is_correction_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-eight_states_one_dual_reading_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_framing_2x2x2_vs_3x3_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_gravity_drive_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_residue_carrier_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-mass_residue_literalized_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-15-ninth_is_forced_printout_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-16-continuum_edge_residuals_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-17-error_correction_tower_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-18-centroid_voa_chain_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-19-observation_is_face_selection_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-20-layer2_synthesis_ledger_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-20-solution_ledger_affirmed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-21-agrm_golden_sweep_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-25-energy_ledger_affirmed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-26-pinch_driven_roll_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-conway_glider_oloid_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-glider_collision_cascade_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-gosper_gun_emitter_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-ndim_knight_ca_affirmed_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-lmfdb_moonshine_anchor_real_data_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-monster_internal_map_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-moonshine_real_data_experiment_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-supersingular_prime_ceiling_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-43200_pyramid_structure_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-higher_order_superperm_manager_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-houston_872_attempt_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-hyperpermutation_audit_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-lcr_superperm_handbuild_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-32-n6_871_reduction_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-formal-PH3-gluon_aliasing_illusion_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\production-formal-papers-CQE-paper-13-ckm_calibration_receipt.json",
+      "source": "closure_applied",
+      "row_scoped": false,
+      "provenance_label": "closure_inclusion_applied",
+      "confidence": "receipt_bound",
+      "closure_applied": true,
+      "obligation_id": null,
+      "verifier_status": "PASS"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite18_cl_paper_db\\CL_production-proof-receipts-and-ribbon-schema.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_production-proof-receipts-and-ribbon-schema.md",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_enumerated_leech_classical_minimal_shell.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_enumerated_leech_minimal_landings.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_enumerated_leech_type2_orbit.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_enumerated_leech_type3_orbit.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_dihedral_block_hypervisor.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_exit_trajectory.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_hypervisor_extension_tape.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_julia_resolution.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_lagrangian_depth_trace.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_mandelbrot_field_address.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_moving_frame.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_nth_bit_expression.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_oloid_antipodal_winding.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_oloid_winding_from_n.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_physics_method_stack.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_proof_obligations.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_proof_obligation_ledger.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_readout_ribbon_machine.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_sheet_lift.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_sheet_operator.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_spinor_oloid_model.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_su3_closed_form.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_symmetry_environment.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_torsor_functor_term.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_whole_integer_n_coverage.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_winding_number_proof.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-22-metaforge_materials_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-27-observer_delay_shared_reality_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-28-nd_game_lattices_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\CQE-paper-29-monster_energy_bound_hypotheses_receipt.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_alpha_em_from_pfc2_e8_estimate.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_observer_post_su3_electroweak_route.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_rg_thresholds_from_e8_shear_complement.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\receipts\\verify_spectre_tiling_deephole_path.json",
+      "source": "timeline_node",
+      "row_scoped": false,
+      "provenance_label": "timeline_node",
+      "confidence": "referenced"
+    },
+    {
+      "path": "t10_master_receipt.json",
+      "source": "formal_md",
+      "row_scoped": false,
+      "provenance_label": "formal_md",
+      "confidence": "referenced"
+    }
+  ],
+  "blockers": [],
+  "closure_inclusions": [
+    {
+      "evidence_id": "PEEP-2026-006",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-012",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-024",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-026",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-029",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 2
+    },
+    {
+      "evidence_id": "PEEP-2026-006",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-012",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-014",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-015",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-024",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-026",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-029",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    },
+    {
+      "evidence_id": "PEEP-2026-034",
+      "proof_receipt_path": null,
+      "nist_status": "PASS",
+      "assemble_lane": "ASSEMBLE",
+      "target_section": "Attached Evidence Index",
+      "rationale": "Carry upward into FLCR-11 Attached Evidence Index \u2014 proven evidence not shed on next pass.",
+      "status": "eligible",
+      "paper_id": "FLCR-11",
+      "doctrine_weight": "IRL_equivalent_proposal_only",
+      "provenance_label": "closure_inclusion_queue",
+      "review_pass_number": 3
+    }
+  ],
+  "formal_sections": {
+    "abstract": "This paper formalizes the first ten papers as one replayable causal unit. The operative object is T10 master receipt. The core result is that Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields. The paper also defines how this result routes forward: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis. Its main residue is explicit: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.",
+    "claims": "| Claim | Lane | Statement |\n|-------|------|-----------|\n| Theorem 11.1 | `receipt_bound_internal_result` | Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields |\n| Proposition 11.2 | `normal_form_result` | T10 master receipt can be imported by later papers only through its declared source, receipt, and lane. |\n| Protocol 11.3 | `falsifier_or_open_obligation` | exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached |\n\n## Reviewer Claim Ledger\n\nThis ledger expands the formal-claims table into review actions. It is intended to make proof granularity explicit: what is being claimed, what evidence type can support it, what boundary remains, and what the next review action is.\n\n| Formal row | Type | Claim in review terms | Evidence required | Boundary | Next review action |\n|---|---|---|---|---|---|\n| Theorem 11.1 | finite/executable result | Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields | receipt, validator, executable pass, generated artifact, or finite enumeration | the stated finite/executable domain only | verify the receipt exists and its scope matches the claim |\n| Proposition 11.2 | formal construction | T10 master receipt can be imported by later papers only through its declared source, receipt, and lane | definitions, normal-form construction, conversion rule, and downstream-use boundary | internal formal coherence; no measured physical identity without a separate calibration row | check that the normal form is named and the conversion rule is explicit |\n| Protocol 11.3 | obligation/falsifier | exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached | explicit missing derivation, adapter, receipt, dataset, comparator, or failed test condition | does not negate satisfied lower-level rows | name the next binding action and owner surface |\n\n## Claim Granularity And Review Table\n\nThe table below separates the claim types so the paper is reviewable without accepting the whole FLCR vocabulary at once.\n\n| Claim type | What this paper may claim | Acceptance test | What is not claimed by that row |\n|---|---|---|---|\n| Formal-system result | `FLCR-11` defines or uses **Master Receipt And Stack Replay** as a typed FLCR object with declared inputs, operations, outputs, and residue. | Definitions, formal claims, construction steps, and downstream-use rules are internally consistent and lane typed. | External physical truth, measured prediction, or identity with a standard theory. |\n| Computational or receipt-bound result | Enumerations, TarPit runs, CAM/crystal routes, verifier rows, and generated artifacts are claims about the stated finite or executable domain. | A named receipt, validator, manifest, pass report, or rebuild result exists and matches the row scope. | Completeness outside the enumerated domain or physical correctness outside the tested comparator. |\n| Imported theorem or external definition | Imported mathematics remains an external theorem/citation target; this paper may use it only through declared mappings and conservative-extension discipline. | The source theorem, definition layer, or citation target is named and the mapping into this paper is explicit. | A new proof of the imported theorem or a hidden change in the imported object's meaning. |\n| Interpretive bridge or analogy | Analog, workbook, visual, or translation language may explain why the construction is useful. | The analogy preserves the relevant structure and does not promote itself into a theorem. | That the analogy alone proves the formal, computational, or physical claim. |\n| Physical or calibration-facing claim | Physical or Standard Model identity is not claimed here unless the paper contains an explicit calibration row; the default status is deferred mapping. | A dataset, citation, calibration protocol, uncertainty, comparator, or falsifier is attached. | A physical conclusion supported only by shared vocabulary rather than calibration, comparator data, or a stated falsifier. |\n| Open obligation or falsifier | A missing derivation, adapter, receipt, dataset, or failed comparator is a named research channel. | The next binding action and the reason the stronger claim is not closed are stated. | That the base formal result is false merely because a stronger downstream claim remains unfinished. |",
+    "keywords": "T10 master receipt; LCR; receipt; claim lane; normal form.",
+    "full_excerpt": "# FLCR-11 - Master Receipt And Stack Replay\n\n**Series:** Formalizing LCR, Unifying Standard Models  \n**Artifact:** formal paper source  \n**Status:** first-pass rich rewrite; requires final citation and build pass.  \n**Claim posture:** maximal local claim posture with explicit lane boundaries.\n\n## Abstract\n\nThis paper formalizes the first ten papers as one replayable causal unit. The operative object is T10 master receipt. The core result is that Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields. The paper also defines how this result routes forward: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis. Its main residue is explicit: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.\n\n## Keywords\n\nT10 master receipt; LCR; receipt; claim lane; normal form.\n\n## External Reader Orientation\n\nAn outside reviewer should read this paper as a formal-system construction paper. Its local object is **Master Receipt And Stack Replay**. The paper's immediate contribution is: Turns stack-level replay, import, and receipt discipline into a formal result.\n\nThe nearest external anchors are finite-state reasoning, typed interfaces, proof-carrying records, conservative extension, and ordinary mathematical citation discipline. LCR terms are therefore internal labels for the construction unless a row explicitly imports an external theorem, citation, dataset, or calibration target.\n\nIt does not ask the reader to accept any Standard Model or literal-physics identification at this layer. Such mappings are deferred to the translation papers and must carry their own evidence.\n\n## Reviewer Compression\n\n**Core object.** Master Receipt And Stack Replay.\n\n**Primary result.** This paper contributes the local formal object and its safe downstream-use rule.\n\n**Primary non-result.** This paper does not claim direct identity with Standard Model or physical objects.\n\n**Review strategy.** Evaluate the formal claim rows first, then inspect the receipt/citation/calibration rows that support each claim. Appendices provide routing and implementation context; they should not be read as stronger than their lane permits.\n\n## Peer Reviewer Assessment\n\nReviewer assumption: the reviewer has been briefed on the FLCR structure, claim lanes, CAM/crystal routing, forge/action surfaces, and the distinction between internal formal results and external physical calibration.\n\n**Recommendation.** major revision, technically promising.\n\n**Review score vector.** orientation=2, claim_granularity=2, evidence_visibility=2, falsifier_visibility=2, journal_apparatus=1, base_layer_boundary=2.\n\n**Formal claim rows reviewed.** 3.\n\n### Reviewer Strength Finding\n\nThe manuscript is now readable as a bounded formal-system paper: it identifies its local object, separates internal construction from physical interpretation, and exposes claim lanes for review.\n\n### Major Revision Requests\n\n- Convert the strongest proof sketch into numbered definitions, lemmas, and propositions with explicit dependencies.\n- Replace placeholder source classes with final citation keys, receipt hashes, or dataset identifiers wherever possible.\n- Move repeated pass-derived material into a compact evidence appendix and keep the main body focused on the paper-local argument.\n- Add at least one worked example showing the local object, legal operation, receipt, residue, and downstream import rule.\n\n### Minor Revision Requests\n\n- Normalize theorem capitalization and punctuation.\n- Add final figure/table captions where the text currently describes diagrams schematically.\n- Ensure every acronym and local term appears in the paper-local glossary.\n\n### Acceptance Blockers\n\n- A reviewer can accept the formal contribution without accepting later physics claims, but only if final citations and receipt identifiers are attached.\n- The proof sk..."
+  },
+  "meta": {
+    "intake_version": "1.2",
+    "generated_at": "2026-07-01T06:22:55.025255+00:00",
+    "evidence_count": 1092,
+    "review_pass_number": 33,
+    "epistemology": "ASSEMBLE-fulfilled product \u2014 publication-grade unified form; substantive open obligations and falsifier rows retained where genuinely open.",
+    "guardrail_tier": "assemble_clean",
+    "assemble_fulfilled": true,
+    "display_status": "ASSEMBLE",
+    "testing_caveat": null,
+    "requires_new_testing": false,
+    "tiers": [
+      "required_direct",
+      "supporting_context",
+      "external_candidates",
+      "receipts",
+      "blockers"
+    ],
+    "standards_model": "cmplx.assembled_paper"
+  },
+  "standards_grade": {
+    "model_id": "cmplx.assembled_paper",
+    "model_version": "0.1.0",
+    "fit_score": 73.529412,
+    "inclusion_band": "partial_inclusive",
+    "distance_to_perfect": 0.264706,
+    "missing_fields": [
+      "required_direct.open_obligations",
+      "blockers",
+      "assembled_section_count",
+      "has_proof_receipt_index",
+      "has_obligation_crosswalk",
+      "has_external_calibration",
+      "has_falsifiers_section",
+      "has_honesty_boundary"
+    ],
+    "field_fit": 0.735294,
+    "graded_at": "2026-07-01T06:22:55.031850+00:00"
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "schema": "flcr_appendix_index.v1",
+  "paper_count": 40,
+  "appendices": [
+    {
+      "publication_id": "FLCR-01",
+      "appendix_id": "FLCR-01-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-02",
+      "appendix_id": "FLCR-02-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-03",
+      "appendix_id": "FLCR-03-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-04",
+      "appendix_id": "FLCR-04-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-05",
+      "appendix_id": "FLCR-05-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-06",
+      "appendix_id": "FLCR-06-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-07",
+      "appendix_id": "FLCR-07-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-08",
+      "appendix_id": "FLCR-08-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-09",
+      "appendix_id": "FLCR-09-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-10",
+      "appendix_id": "FLCR-10-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-11",
+      "appendix_id": "FLCR-11-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-12",
+      "appendix_id": "FLCR-12-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-13",
+      "appendix_id": "FLCR-13-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-14",
+      "appendix_id": "FLCR-14-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-15",
+      "appendix_id": "FLCR-15-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-16",
+      "appendix_id": "FLCR-16-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-17",
+      "appendix_id": "FLCR-17-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-18",
+      "appendix_id": "FLCR-18-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-19",
+      "appendix_id": "FLCR-19-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-20",
+      "appendix_id": "FLCR-20-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-21",
+      "appendix_id": "FLCR-21-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-22",
+      "appendix_id": "FLCR-22-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-23",
+      "appendix_id": "FLCR-23-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-24",
+      "appendix_id": "FLCR-24-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-25",
+      "appendix_id": "FLCR-25-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-26",
+      "appendix_id": "FLCR-26-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-27",
+      "appendix_id": "FLCR-27-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-28",
+      "appendix_id": "FLCR-28-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-29",
+      "appendix_id": "FLCR-29-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-30",
+      "appendix_id": "FLCR-30-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-31",
+      "appendix_id": "FLCR-31-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-32",
+      "appendix_id": "FLCR-32-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-33",
+      "appendix_id": "FLCR-33-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-34",
+      "appendix_id": "FLCR-34-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-35",
+      "appendix_id": "FLCR-35-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-36",
+      "appendix_id": "FLCR-36-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-37",
+      "appendix_id": "FLCR-37-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-38",
+      "appendix_id": "FLCR-38-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-39",
+      "appendix_id": "FLCR-39-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    },
+    {
+      "publication_id": "FLCR-40",
+      "appendix_id": "FLCR-40-A",
+      "required_contents": [
+        "legacy/source-card references",
+        "receipt and verifier paths",
+        "CAM/crystal projection rows",
+        "Kimi/NSIT/window evidence",
+        "falsifier/calibration/external-data rows"
+      ]
+    }
+  ]
+}

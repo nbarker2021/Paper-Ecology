@@ -1,0 +1,24 @@
+{
+  "row_id": "MAP-FLCR31-003",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-01",
+  "O_ext": "gauge sector (SM definition target)",
+  "equation_or_source": "`FLCR-01`, `FLCR-12`, `FLCR-14`, `SMD-01`",
+  "O_lcr": "gauge translation object",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "A translation row is admissible only when the mapped LCR object, external gauge object, lane, and falsifier are present.",
+  "dataset": "",
+  "falsifier": "A translation row is admissible only when the mapped LCR object, external gauge object, lane, and falsifier are present.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-12",
+    "FLCR-14"
+  ],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": "yes"
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-01",
+  "original_slot": "01",
+  "title": "LCR Chain Carrier",
+  "status": "source_backed",
+  "source_file": "01_LCR_Chain_Carrier.md",
+  "linked_flcr_papers": [
+    "FLCR-02"
+  ],
+  "slot_family": "enumeration_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-1: start the active one-dimensional action / enumerate the center state",
+  "proof_form_required": "enumeration proof and identity preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

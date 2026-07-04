@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 1,
+  "artifact": "EVIDENCE_INTAKE_SCORE_NOTEBOOK.*",
+  "why_it_matters": "Already ranks candidate evidence rows and decisions.",
+  "suggested_slots": [
+    "all_by_row"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "9b455a0bddec25b7b17c25f22d371d66f810f953e303bdf00e3e10be8eeb5781"
+}

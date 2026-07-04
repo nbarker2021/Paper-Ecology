@@ -1,0 +1,226 @@
+publication_id: FLCR-09
+title: Lattice Closure And Terminal Addresses
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 08_Lattice_Closure.md
+- supplements/08_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 9.1
+  lane: cam_crystal_reapplication_result
+  statement: The FLCR lattice ladder supports receipt-bound terminal lookup across
+    the declared code/lattice chain.
+- id: Proposition 9.2
+  lane: receipt_bound_internal_result
+  statement: No-cost Leech lookup is a valid computational capability once the lookup
+    receipt is attached, but it is not a proof of every Leech invariant.
+- id: Protocol 9.3
+  lane: falsifier_or_open_obligation
+  statement: Nontrivial glue, Gamma72, orbit, and physical-map claims require their
+    own evidence lanes.
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+lattice_forge_actionization:
+  enabled: true
+  actionization_contract: Forge systems are the operational expression layer for the
+    corpus. CAM stores addressable memory, labels, receipts, and obligations; lattice-forge
+    actionizes that memory into lookup contracts, executable methods, receipt rows,
+    events, and reusable cached answers.
+  leech_lookup_surface_allowed: true
+  canonical_apis:
+  - Forge.leech_lookup(address=0, payload=None)
+  - Forge.verify_leech_lookup()
+  - lattice_forge.lattice_codes.verify_lattice_code_chain
+  - lattice_forge.lattice_codes.verify_golay_24
+  - lattice_forge.enumerated_glue.derive_classical_leech_minimal_landing
+  - lattice_forge.enumerated_glue.encode_leech_ribbon
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.074391+00:00'
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "08"
+      source_file: "08_Lattice_Closure.md"
+      slot_family: "terminal_action"
+      lift_depth: 0
+      dimensional_role: "order-1 slot-8: land into lattice, game, runtime, or terminal address surfaces"
+      proof_form_required: "terminal lookup, invariant split, and addressability proof"
+
+dimensional_ribbon:
+  ribbon_slot: "08"
+  slot_digit: 8
+  slot_family: "terminal_action"
+  lift_depth: 0
+  lift_name: "lift_0x"
+  order_index: 1
+  dimensional_role: "order-1 slot-8: land into lattice, game, runtime, or terminal address surfaces"
+  state_bound_action: "land into lattice, game, runtime, or terminal address surfaces"
+  proof_form_required: "terminal lookup, invariant split, and addressability proof"
+  inherits_from_same_family: null
+  lifts_to_same_family: "18"
+  ten_lift_anchor: "00"
+  cycle_window: ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 07 and reopened at original slot 08 (Lattice Closure)"
+  produced_state: "formal result of original slot 08 plus the same-family lift path toward slot 18"
+  semantic_transition: "land the state in a terminal lattice, game, runtime, or address surface"
+  accepted_formalism_targets:
+    - "lattice theory"
+    - "finite-state systems"
+    - "terminal object/addressing templates"
+    - "lookup-table construction and invariant checks"
+  analog_invariance_test: "a warehouse address: the storage scheme changes how the object is found, not which object is stored"
+  previous_family_slot: "07"
+  next_family_slot: "18"
+
+claim_binding_queue:
+  queue_count: 1
+  queues:
+    - id: "leech_e8_golay_lookup"
+      title: "Leech/E8/Golay Operational Lookup"
+      lane: "receipt_bound_internal_result"
+      promote_now: "Promote no-cost library lookup, code-chain, E8/Niemeier/Leech construction-surface claims when the lattice-forge API or receipt is named."
+      bind_next: "Attach exact lattice-forge API path, construction parameters, receipt JSON, and whether the claim is lookup, construction, or invariant-scope."
+      residue: "Expanded invariants, nontrivial glue-coset uniqueness, Gamma72, and physical interpretation remain separate dependencies."
+
+claim_delta_ledger:
+  delta_count: 1
+  deltas:
+    - id: "leech_e8_golay_lookup"
+      title: "Leech E8 Golay Lookup"
+      local_claim: "This paper may name lattice closure, E8/Niemeier/Leech surfaces, or terminal lattice addresses only at the scope stated locally."
+      later_evidence: "Lattice-forge code-chain receipts, E8/Niemeier lookup machinery, Leech/Golay construction parameters, and related NSIT rows."
+      revised_claim: "Promote operational lookup and construction-surface claims when the exact API/receipt path is attached."
+      boundary: "Do not promote lookup into uniqueness, full invariant classification, Gamma72 closure, or physical interpretation without separate evidence."
+      workbook_replay: "Run or cite the lattice-forge receipt, record parameters, and mark each row as lookup, construction, invariant, or residue."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-09-F1"
+  primary_table: "FLCR-09-T1"
+  appendix_id: "FLCR-09-A"
+  glossary_terms:
+    - "CAM"
+    - "claim lane"
+    - "crystal"
+    - "lattice surface"
+    - "lookup"
+    - "query cache"
+    - "receipt"
+    - "terminal address"
+  planned_figures:
+    - "FLCR-09-F1: Terminal lookup address map"
+    - "FLCR-09-F2: Evidence routing map"
+    - "FLCR-09-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-09-T1: Lookup/address table"
+    - "FLCR-09-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-09-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-09-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 25
+  top_cards:
+    - title: "CQE-paper-08.25: Paper 8.25 - Toolkit for the Lattice Closure Template"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08.25.md`"
+      contributes: "Paper 8.25 describes the tools for reviewing the local lattice closure template. These tools expose the code/lattice checks and their audit boundaries; they do not close Leech or Gamma72 landing claims. The toolkit works with: ```text chain rung = 1, 3, 7, 8, 24 powered terminal = 72 = 8 x 9 Fano/Hamming check = dimension 7 incidence extended Hamming check = dimension 8 E8 seed Golay ingredient check = dimension 24 carrier Gamma72 transport check = three-sheet round trip audit boundary = unprove"
+    - title: "CQE-paper-08.50: Paper 8.50 - Lattice Closure Claim Contract"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08.50.md`"
+      contributes: "Paper 8.50 lets later papers import the lattice closure scaffold honestly. It keeps the verified local rungs useful while preserving global landings as separate proof obligations."
+    - title: "FORMAL: Paper 11 — C-Form: Theory Admission Gate Gluon"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the admission filter Gluon** — the trust anchor that filters external theories by Gluon mass matching. In the lattice_forge substrate, C is realized as the **admission gate** that: - Takes an external theory's Gluon mass (computed from its transport signature) - Compares against the master receipt Gluon (Paper 10) and the trusted Gluon spectrum from `CmplxLookupCache` - Admits if: `mass(theory) ∈ spectrum(trusted_Gluons)` and `mass(theory) ≤ K_max=9` - Outputs: `admitted` (Gluon mass match"
+    - title: "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand"
+      archive_score: 75
+      source_path: "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+      contributes: "We present the complete closed-form claim set of the CQE_CMPLX corpus: - 33 papers = 33 folding operations on a self-complementary strand - 144 tools = cumulative analog kit = digital twin surface - 135 digital twins = exact rational-verifiable operations - 11 bilateral verifications = digital-analog isomorphism proven - 32 formal theorems = exact rational arithmetic (zero mismatches) - 1 retrospective observation = single H-bond reads identically from both strands"
+    - title: "SUMMARY-V-32-Theorems-Registry: Summary Paper V — The 32 Theorems in One Table: Closed-Form Registry"
+      archive_score: 75
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+      contributes: "This paper is the **complete closed-form registry of all 32 theorems** in the CQE_CMPLX corpus. Each theorem is stated precisely, given its formal context (where it is proven), and listed with its verifier. The table is the corpus's theorem index."
+    - title: "block-01-dyad-01-08: Block 01 Dyad Brief - Papers 1 and 8"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-01-08.md`"
+      contributes: "Source: Dyad Agent A, read-only synthesis. No files edited by agent. Final scientific focus: Paper 1 is the minimal carrier theorem. The integer paper should prove that `(L,C,R)` is the smallest ordered local carrier preserving one observer-selected center and two distinguishable boundary addresses. It should also prove the binary inventory facts: eight states, shell counts `1,3,3,1`, left-right reversal `rho(L,C,R) = (R,C,L)`, center preservation, involution, four fixed states, two reversal pai"
+    - title: "verify_nebe_gamma72_real_data_and_grid_hypothesis: verify_nebe_gamma72_real_data_and_grid_hypothesis"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp8.08.39\\receipts\\verify_nebe_gamma72_real_data_and_grid_hypothesis.json`"
+      contributes: "{ \"verifier\": \"verify_nebe_gamma72_real_data_and_grid_hypothesis\", \"status\": \"real_data_bound_hypothesis_tested_and_refuted\", \"honesty_label\": \"REAL_DATA_BRIDGE_MIXED_RESULT\", \"ipmc\": false, \"eco\": true, \"br\": false, \"conj\": false, \"closed_now\": \"Real, citable classification data (Nebe arXiv:1008.2862 Table 1) is bound into the corpus, cross-confirmed against her separate lattice catalogue page (kissing number 6,218,175,600 matches exactly). LeechForge's existing from-scratch Leech lattice const"
+    - title: "Paper_08_Appendix_Glossary_ProofTree: Axioms"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\historical_pastworks\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_08_Appendix_Glossary_ProofTree.md`"
+      contributes: "- Replace citation anchors with final bibliography entries during peer-review preparation. - Expand the tool binding from stub/registry level to executable tests where not yet implemented. - Add one domain expert critique pass. - Add one falsifier case that the tool must reject or defer."
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to make lookups operational: lattice/forge/CAM address, invariant split, callable tool, and receipt boundary."
+  routed_full_sources: 2
+  routed_partial_sources: 18
+  routed_transient_sources: 9
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 6
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

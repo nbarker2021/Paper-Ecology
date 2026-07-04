@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>FLCR-39</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="D:\Paper Reworks\publication_series\Formalizing_LCR_Unifying_Standard_Models\publication_pdf_style.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">FLCR-39</h1>
+</header>
+<h1
+id="flcr-39---falsifiers-comparators-and-standards-of-evidence">FLCR-39
+- Falsifiers, Comparators, And Standards Of Evidence</h1>
+<p><strong>Series:</strong> Formalizing LCR, Unifying Standard
+Models<br />
+<strong>Artifact:</strong> formal paper source<br />
+<strong>Status:</strong> first-pass rich rewrite; requires final
+citation and build pass.<br />
+<strong>Claim posture:</strong> maximal local claim posture with
+explicit lane boundaries.</p>
+<h2 id="abstract">Abstract</h2>
+<p>This paper formalizes series-wide falsifiers, comparators, and
+evidence standards. The operative object is evidence comparator. The
+core result is that every FLCR claim can be evaluated by lane, source,
+receipt, comparator, and falsifier before final admission. The paper
+also defines how this result routes forward: FLCR-39 supplies the
+standards suite for the final unification paper. Its main residue is
+explicit: claims that lack comparator or falsifier fields remain
+obligations regardless of rhetorical strength.</p>
+<h2 id="keywords">Keywords</h2>
+<p>evidence comparator; LCR; receipt; claim lane; normal form.</p>
+<h2 id="contribution-and-scope">1. Contribution And Scope</h2>
+<ul>
+<li>Defines evidence comparator as a first-class FLCR object.</li>
+<li>States the local result: every FLCR claim can be evaluated by lane,
+source, receipt, comparator, and falsifier before final admission.</li>
+<li>Routes downstream use through claim lanes rather than inherited
+prose: FLCR-39 supplies the standards suite for the final unification
+paper.</li>
+<li>Preserves the residue boundary: claims that lack comparator or
+falsifier fields remain obligations regardless of rhetorical
+strength.</li>
+</ul>
+<p>This paper is part of the LCR-native base layer. Standard Model or
+physical language is permitted only as deferred mapping, analogy, or
+explicitly bounded future calibration. The editable surface is the claim
+lane and source-routing layer; the base objects must remain stable
+enough for downstream papers to consume them without ambiguity.</p>
+<h2 id="source-routing">2. Source Routing</h2>
+<p>Primary routed sources:</p>
+<ul>
+<li><code>06_Causal_Link_and_Obligation_Ledger.md</code></li>
+<li><code>10_T10_Master_Receipt.md</code></li>
+<li><code>11_Theory_Admission_Gate.md</code></li>
+<li><code>20_Layer_2_Synthesis_Ledger.md</code></li>
+<li><code>32_The_Supervisor_Cursor.md</code></li>
+<li><code>NSIT_VALIDITY_REBUILD_PROTOCOL.md</code></li>
+</ul>
+<p>Cross-corpus evidence classes:</p>
+<ul>
+<li><code>CAM_CLAIM_100_SCORE_AUDIT.md</code></li>
+<li><code>NSIT_TOOL_CLOSURE_MATRIX.md</code></li>
+<li><code>NSIT_REASONED_CLOSURE_PASS.md</code></li>
+<li><code>PAPER_REWORKS_CRYSTAL_PROJECTION.json</code></li>
+<li>Kimi standards, glue, window, and node databases where
+applicable</li>
+<li>NotebookLM review prompts and orbital source manifests</li>
+</ul>
+<h2 id="definitions">3. Definitions</h2>
+<ul>
+<li><strong>Comparator.</strong> A procedure or reference surface used
+to test a claim against alternatives.</li>
+<li><strong>Evidence standard.</strong> The required fields for a claim
+to enter a target lane.</li>
+<li><strong>Receipt boundary.</strong> The exact scope in which the
+paper’s result can be replayed or consumed.</li>
+<li><strong>Promotion route.</strong> The evidence path required before
+a stronger downstream claim can use this result.</li>
+</ul>
+<h2 id="formal-claims">4. Formal Claims</h2>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 25%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Lane</th>
+<th>Statement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Theorem 39.1</td>
+<td><code>normal_form_result</code></td>
+<td>every FLCR claim can be evaluated by lane, source, receipt,
+comparator, and falsifier before final admission</td>
+</tr>
+<tr>
+<td>Proposition 39.2</td>
+<td><code>normal_form_result</code></td>
+<td>evidence comparator can be imported by later papers only through its
+declared source, receipt, and lane.</td>
+</tr>
+<tr>
+<td>Protocol 39.3</td>
+<td><code>falsifier_or_open_obligation</code></td>
+<td>claims that lack comparator or falsifier fields remain obligations
+regardless of rhetorical strength</td>
+</tr>
+</tbody>
+</table>
+<h2 id="paper-specific-development">5. Paper-Specific Development</h2>
+<ol type="1">
+<li>Identify the local object and its assigned sources for FLCR-39.</li>
+<li>Separate what is internally receipt-bound from what is
+citation-bound, CAM-bound, calibration-bound, or still an
+obligation.</li>
+<li>State the strongest admissible claim in its current lane.</li>
+<li>Export only the lane-safe result to downstream papers and preserve
+the residue.</li>
+</ol>
+<h3 id="proof-sketch">Proof Sketch</h3>
+<p>The proof strategy for FLCR-39 is a typed construction argument. The
+paper names comparator as the active object, binds it to the routed
+legacy and orbital sources, and then allows downstream use only through
+the declared claim lane. This does not erase stronger ambitions; it
+keeps them addressable as dependencies, calibration tasks, or
+falsifiers.</p>
+<h2 id="construction">6. Construction</h2>
+<p>The construction is intentionally staged. First, the paper names the
+finite or typed object that can be inspected directly. Second, it
+declares the admissible operations over that object. Third, it records
+the receipt or source class that allows another paper to consume the
+result. Fourth, it names the residue that must not be silently
+promoted.</p>
+<p>For this paper, the operative object is
+<code>Falsifiers, Comparators, And Standards Of Evidence</code>. Its
+safe consumption rule is:</p>
+<pre class="text"><code>source object -&gt; declared operation -&gt; receipt/lane -&gt; downstream import</code></pre>
+<p>The unsafe consumption rule is:</p>
+<pre class="text"><code>source phrase -&gt; downstream identity claim</code></pre>
+<p>That second pattern is explicitly rejected by FLCR-01 and must be
+rewritten as a claim-lane promotion with evidence.</p>
+<h2 id="evidence-and-receipts">7. Evidence And Receipts</h2>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr>
+<th>Evidence source</th>
+<th>What it contributes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Legacy paper body</td>
+<td>Primary formal and source-integration material assigned by the
+series map.</td>
+</tr>
+<tr>
+<td>Internal and pyramid supplements</td>
+<td>Cross-paper reasoning windows, deferred back-application slots, and
+route constraints.</td>
+</tr>
+<tr>
+<td>NSIT tool closure matrix</td>
+<td>Existing verifier/tool families that can close internal or batch
+claims.</td>
+</tr>
+<tr>
+<td>CAM/crystal and Kimi evidence</td>
+<td>Projected memory, source routing, standards reports, and window/node
+databases.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="standards-authority-binding">Standards Authority Binding</h3>
+<p>This paper now owns the distinction between standards verdicts and
+script-level evidence artifacts. The standards-suite authority surface
+is:</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr>
+<th>Report</th>
+<th style="text-align: right;">Result</th>
+<th>Consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>corpus_conformance_report.json</code></td>
+<td style="text-align: right;">32 canonical papers; 192/192 PASS; 0
+FAIL; 0 OPEN</td>
+<td>The canonical 00-31 corpus passes the MannyAI standards suite.</td>
+</tr>
+<tr>
+<td><code>suite_resolution_report.json</code></td>
+<td style="text-align: right;">99 paper/items; 782 rows; 776 resolved; 6
+unresolved</td>
+<td>Six rows remain explicit obligations, not hidden failures.</td>
+</tr>
+<tr>
+<td><code>glue_report.json</code></td>
+<td style="text-align: right;">95/95 obligations with candidates</td>
+<td>The obligation graph is routable and can be used as a
+springboard.</td>
+</tr>
+<tr>
+<td><code>window_summary.json</code></td>
+<td style="text-align: right;">2/4/8/16/32 hierarchy</td>
+<td>Cross-paper review windows have stable scheduling identifiers.</td>
+</tr>
+</tbody>
+</table>
+<p>The older <code>mannyai/node/verify_summary.json</code> remains
+useful because its failing script names identify implementation work. It
+is not the publication pass/fail authority. FLCR-39 therefore defines
+the comparator rule:</p>
+<pre class="text"><code>standards verdict decides suite status;
+legacy verifier output locates evidence, regressions, or obligations;
+paper claims promote only when lane fields and falsifiers are present.</code></pre>
+<p>The six unresolved suite-resolution rows are routed as follows:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Row</th>
+<th>Route</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>verify_grand_ribbon_meta_framer.py</code></td>
+<td>FLCR-30, FLCR-40</td>
+</tr>
+<tr>
+<td><code>kappa = ln(phi)/16 approx 0.0301</code></td>
+<td>FLCR-31, FLCR-33, FLCR-39</td>
+</tr>
+<tr>
+<td><code>Observer_5 = 3 + 2</code></td>
+<td>FLCR-38, FLCR-40</td>
+</tr>
+<tr>
+<td><code>Randomness and Cryptographic Vulnerabilities</code></td>
+<td>FLCR-13, FLCR-39</td>
+</tr>
+<tr>
+<td><code>The 8 Estimators</code></td>
+<td>FLCR-28, FLCR-39</td>
+</tr>
+<tr>
+<td><code>verify_quark_face_transport_literalized.py</code></td>
+<td>FLCR-14, FLCR-31, FLCR-32, FLCR-40</td>
+</tr>
+</tbody>
+</table>
+<h3 id="standard-model-definition-dependencies">Standard Model
+Definition Dependencies</h3>
+<p>This paper consumes the dedicated Standard Model Defining layer.
+These papers define the external Standard Model or adjacent
+standard-physics object before this FLCR paper translates it into LCR
+language.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>SMD paper</th>
+<th>Definition surface</th>
+<th>Required use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SMD-01</code></td>
+<td>Standard Model Definition Contract And Evidence Boundary</td>
+<td>Definition surface that must be cited before this paper promotes the
+corresponding Standard Model-facing claim.</td>
+</tr>
+<tr>
+<td><code>SMD-08</code></td>
+<td>Renormalization, Effective Field Theory, And Running Parameters</td>
+<td>Definition surface that must be cited before this paper promotes the
+corresponding Standard Model-facing claim.</td>
+</tr>
+<tr>
+<td><code>SMD-12</code></td>
+<td>Standard Model Comparator And Falsifier Protocol</td>
+<td>Definition surface that must be cited before this paper promotes the
+corresponding Standard Model-facing claim.</td>
+</tr>
+</tbody>
+</table>
+<p>This paper also imports SMB-01, the Standard Model Closure Bridge.
+SMB-01 supplies the closure-by-lane rule: rows are no longer treated as
+unresolved by default; they are closed when standard formalism, FLCR
+proof, CAM/crystal reapplication, normal-form translation, or external
+calibration satisfies the lane, and they remain obligations only when a
+required field is missing.</p>
+<h3 id="closed-rows-applied-in-this-paper">Closed Rows Applied In This
+Paper</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Row</th>
+<th>Closure</th>
+<th>Evidence</th>
+<th>Boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claim-lane evidence protocol</td>
+<td>closed internally</td>
+<td><code>FLCR-01</code>, <code>SMD-12</code>, <code>SMB-01</code></td>
+<td>Closes how claims are evaluated.</td>
+</tr>
+<tr>
+<td>Canonical corpus conformance</td>
+<td>closed by standards artifact</td>
+<td>MannyAI standards: 192/192 PASS</td>
+<td>Closes standards conformance, not every physical synthesis
+claim.</td>
+</tr>
+<tr>
+<td>Obligation routing</td>
+<td>closed by glue artifact</td>
+<td>MannyAI glue: 95/95 obligations routed</td>
+<td>Closes route availability, not the obligation content.</td>
+</tr>
+<tr>
+<td>Larger window hierarchy</td>
+<td>closed by window artifact</td>
+<td>2/4/8/16/32 window summary</td>
+<td>Closes scheduler availability for review.</td>
+</tr>
+</tbody>
+</table>
+<p>FLCR-39 now owns the rule that open is not a default label. A row is
+open only when its lane requirements are missing. Otherwise it is closed
+at the scope its evidence supports.</p>
+<h3 id="active-comparator-rows">Active Comparator Rows</h3>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Comparator</th>
+<th>External side</th>
+<th>FLCR side</th>
+<th>Current result</th>
+<th>Next required action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Citation-bound row</td>
+<td>SMD/IRL source</td>
+<td>destination FLCR claim</td>
+<td>closed when citation and boundary exist</td>
+<td>Add final bibliography entries.</td>
+</tr>
+<tr>
+<td>Receipt-bound row</td>
+<td>verifier/receipt</td>
+<td>FLCR proof object</td>
+<td>closed when receipt is bound</td>
+<td>Attach exact receipt hashes/paths.</td>
+</tr>
+<tr>
+<td>Calibration row</td>
+<td>data/value/uncertainty</td>
+<td>LCR mapped value</td>
+<td>open until pass/fail comparator exists</td>
+<td>Add dataset and tolerance.</td>
+</tr>
+<tr>
+<td>Synthesis row</td>
+<td>dependencies</td>
+<td>FLCR-40 claim</td>
+<td>blocked by missing dependency fields</td>
+<td>Route missing fields to owner paper.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="executable-evidence-bound-in-this-pass">Executable Evidence
+Bound In This Pass</h3>
+<p>This paper is the validation authority, so it now carries the
+concrete standards and suite-resolution artifacts instead of only
+describing validator classes.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Evidence</th>
+<th>Path</th>
+<th>Result imported here</th>
+<th>Boundary preserved</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MannyAI standards/window application pass</td>
+<td><code>D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/MANNYAI_STANDARDS_WINDOW_APPLICATION_PASS.json</code></td>
+<td>Canonical conformance <code>192/192 PASS</code>; suite resolution
+<code>776/782</code>; glue coverage <code>95/95</code>; window lattice
+<code>2/4/8/16/32</code> rooted at <code>window_00_31</code>.</td>
+<td>The six unresolved suite rows remain explicit and route to named
+FLCR papers.</td>
+</tr>
+<tr>
+<td>Corpus conformance report</td>
+<td><code>D:/DockerContainers/Manny Docker Starter/mannyai/standards/corpus_conformance_report.json</code></td>
+<td>Canonical count 32; total verdicts 192; zero fail/open in the
+conformance layer.</td>
+<td>Conformance pass is not the same as closing every physics-facing
+calibration row.</td>
+</tr>
+<tr>
+<td>Suite resolution report</td>
+<td><code>D:/DockerContainers/Manny Docker Starter/mannyai/standards/suite_resolution_report.json</code></td>
+<td>Resolves 776 of 782 suite rows over 99 paper nodes.</td>
+<td>The unresolved six rows are promoted to named comparator/falsifier
+lanes, not hidden.</td>
+</tr>
+<tr>
+<td>Glue report</td>
+<td><code>D:/DockerContainers/Manny Docker Starter/mannyai/standards/glue_report.json</code></td>
+<td>Routes all 95 obligations to continuation candidates.</td>
+<td>A continuation candidate is a route, not automatically a proof
+closure.</td>
+</tr>
+</tbody>
+</table>
+<p>The upgraded claim is: FLCR-39 can now evaluate claims by exact
+authority layers. A row is closed only at the layer that actually
+passed: corpus conformance, suite resolution, glue routing,
+receipt-bound validation, standard-formalism citation, or external
+calibration.</p>
+<h3 id="online-source-rows-applied-in-this-pass">Online Source Rows
+Applied In This Pass</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Online source</th>
+<th>Claim-lane effect</th>
+<th>Boundary retained</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>IRL-PDG-2026</code></td>
+<td>Gives the comparator paper a current physics review target for
+Standard Model-facing claims.</td>
+<td>Review authority does not close LCR translation by itself.</td>
+</tr>
+<tr>
+<td><code>IRL-NIST-ALPHA-2022</code> and
+<code>IRL-CODATA-2022-WALLET</code></td>
+<td>Give numerical calibration rows exact source anchors.</td>
+<td>Calibration rows still require scale/scheme/uncertainty/pass-fail
+fields.</td>
+</tr>
+<tr>
+<td><code>ONLINE_SOURCE_APPLICATION_PASS.json</code></td>
+<td>Provides a machine-readable source-to-paper routing table.</td>
+<td>Routing is not proof unless the target paper also binds the claim
+lane.</td>
+</tr>
+</tbody>
+</table>
+<p>Online data therefore upgrades FLCR-39 from policy-only validation to
+source-available validation: each online citation can be checked as a
+lane-specific row.</p>
+<h3 id="assertive-closure-promotions">Assertive Closure Promotions</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Row</th>
+<th>Closure now allowed</th>
+<th>Evidence</th>
+<th>Residue moved out of the open row</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Validation authority</td>
+<td>closed as multi-lane protocol</td>
+<td><code>SMB-01</code>, <code>SMD-12</code>, standards/window pass</td>
+<td>Claims outside assigned lanes.</td>
+</tr>
+<tr>
+<td>Corpus conformance</td>
+<td>closed</td>
+<td><code>192/192 PASS</code></td>
+<td>Suite rows outside conformance.</td>
+</tr>
+<tr>
+<td>Glue routing</td>
+<td>closed as continuation availability</td>
+<td><code>95/95</code> obligations with candidates</td>
+<td>Candidate route is not proof closure.</td>
+</tr>
+<tr>
+<td>Online source availability</td>
+<td>closed</td>
+<td><code>ONLINE_SOURCE_APPLICATION_PASS.json</code></td>
+<td>LCR identity proof.</td>
+</tr>
+</tbody>
+</table>
+<p>The non-timid conclusion is: FLCR-39 can stop acting like validation
+is merely aspirational. The validation system exists; remaining openness
+is row-specific.</p>
+<h2 id="dependencies-and-downstream-use">8. Dependencies And Downstream
+Use</h2>
+<p>This paper may be imported by later FLCR papers only through the
+claim lanes above. The default downstream consumers are:</p>
+<ul>
+<li><code>FLCR-11</code> through <code>FLCR-18</code> for window,
+receipt, admission, CA, algebraic, curvature, residue, and exceptional
+machinery.</li>
+<li><code>FLCR-28</code> through <code>FLCR-30</code> for CAM/crystal,
+corpus ribbon, and universal normal-form intake.</li>
+<li><code>FLCR-31</code> through <code>FLCR-40</code> only after the
+LCR-native result has been cited and the translation claim has its own
+evidence lane.</li>
+</ul>
+<h2 id="limitations-and-falsifiers">9. Limitations And Falsifiers</h2>
+<ul>
+<li>claims that lack comparator or falsifier fields remain obligations
+regardless of rhetorical strength</li>
+<li>External calibration claims require units, datasets, citations, and
+reproducible data binding.</li>
+<li>A later translation paper may strengthen this result only by adding
+the missing lane evidence.</li>
+</ul>
+<p>A falsifier for this paper is any example that satisfies the declared
+input conditions while violating the stated construction, receipt, or
+lane boundary. An interpretation that merely wants a stronger downstream
+conclusion is not a falsifier; it is an obligation routed to a later
+paper.</p>
+<h2 id="publication-readiness-tasks">10. Publication Readiness
+Tasks</h2>
+<ul>
+<li>Attach exact validator paths and receipt hashes.</li>
+<li>Replace source-family references with final citation entries where
+external theorems are used.</li>
+<li>Run the claim-lane validator against every theorem, proposition, and
+protocol.</li>
+<li>Regenerate LaTeX and final PDF after <code>pandoc</code> or
+<code>pdflatex</code> is available.</li>
+</ul>
+<h2 id="dual-positioning-story-and-formal-carrier">Dual Positioning:
+Story And Formal Carrier</h2>
+<p>This paper must be read in two synchronized ways. Sequentially, it
+explains why the next state exists in the corpus story. Formally, it
+binds that state to accepted mathematics, IRL formalism, code receipts,
+validators, CAM/crystal lookups, and claim-lane boundaries.</p>
+<p>Assigned original ribbon role(s): <code>06</code>/ledger_action,
+<code>10</code>/closure_lift, <code>11</code>/enumeration_action,
+<code>20</code>/closure_lift, <code>32</code>/residual_action.</p>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th>Original slot</th>
+<th>Family</th>
+<th style="text-align: right;">Lift</th>
+<th>Role</th>
+<th>Proof form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>06</code></td>
+<td>ledger_action</td>
+<td style="text-align: right;">0</td>
+<td>order-1 slot-6: bind state into causal, observer, or synchronization
+ledgers</td>
+<td>ledger, graph, and synchronization proof</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>closure_lift</td>
+<td style="text-align: right;">1</td>
+<td>1x ten-window closure/lift</td>
+<td>aggregate receipt and open-slot preservation</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>enumeration_action</td>
+<td style="text-align: right;">1</td>
+<td>order-2 slot-1: start the active one-dimensional action / enumerate
+the center state</td>
+<td>enumeration proof and identity preservation</td>
+</tr>
+<tr>
+<td><code>20</code></td>
+<td>closure_lift</td>
+<td style="text-align: right;">2</td>
+<td>2x ten-window closure/lift</td>
+<td>aggregate receipt and open-slot preservation</td>
+</tr>
+<tr>
+<td><code>32</code></td>
+<td>residual_action</td>
+<td style="text-align: right;">3</td>
+<td>order-4 slot-2: mark the correction, residue, vacancy, or mismatch
+surface</td>
+<td>residual accounting and bounded/unbounded split</td>
+</tr>
+</tbody>
+</table>
+<p>The formal obligation is to state the strongest valid claim available
+for this paper without letting interpretation silently change the
+addressed object. Any author interpretation belongs beside the formalism
+as a declared relabeling, bridge, or analog, and must be accompanied by
+the evidence lane that makes the claim consumable by later papers.</p>
+<h2 id="state-bound-proof-contract">State-Bound Proof Contract</h2>
+<p>This paper receives: state emitted by prior slot 05 and reopened at
+original slot 06 (Causal Link and Obligation Ledger).</p>
+<p>It must produce: formal result of original slot 32 plus the
+same-family lift path toward slot 42.</p>
+<p>Semantic transition: bind state changes into causal, observer,
+synchronization, or obligation ledgers; bind the preceding window into a
+replayable state and expose the next lift without erasing residue;
+select the active center and enumerate the addressable state space at
+the current lift; bind the preceding window into a replayable state and
+expose the next lift without erasing residue; measure the mismatch,
+residue, vacancy, correction surface, or remaining obligation after
+enumeration.</p>
+<p>Accepted formalism targets to bind in the journal rewrite:</p>
+<ul>
+<li>directed graphs and partial orders</li>
+<li>causal/event ledgers</li>
+<li>synchronization protocols</li>
+<li>traceability and provenance invariants</li>
+<li>conservative extension discipline</li>
+<li>event sourcing and replay logs</li>
+<li>finite receipt verification</li>
+<li>dependency graph invariants</li>
+<li>finite set enumeration</li>
+<li>ordered tuples and projections</li>
+<li>group actions on finite carriers</li>
+<li>minimality or lower-bound arguments</li>
+<li>residue classes and quotient accounting</li>
+<li>error-correction or syndrome notation</li>
+<li>truth tables and exhaustive finite checks</li>
+<li>bounded versus unbounded domain separation</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 30%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Family</th>
+<th style="text-align: right;">Lift</th>
+<th>Produced proof form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>06</code></td>
+<td>ledger_action</td>
+<td style="text-align: right;">0</td>
+<td>ledger, graph, and synchronization proof</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td>closure_lift</td>
+<td style="text-align: right;">1</td>
+<td>aggregate receipt and open-slot preservation</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td>enumeration_action</td>
+<td style="text-align: right;">1</td>
+<td>enumeration proof and identity preservation</td>
+</tr>
+<tr>
+<td><code>20</code></td>
+<td>closure_lift</td>
+<td style="text-align: right;">2</td>
+<td>aggregate receipt and open-slot preservation</td>
+</tr>
+<tr>
+<td><code>32</code></td>
+<td>residual_action</td>
+<td style="text-align: right;">3</td>
+<td>residual accounting and bounded/unbounded split</td>
+</tr>
+</tbody>
+</table>
+<p>The rewrite should use these accepted tools as the formal carrier and
+should keep the author’s interpretation as an explicit relabeling,
+correspondence, or bridge. A claim may strengthen only when a receipt,
+standard citation, CAM/crystal reapplication, normal-form result,
+calibration datum, or falsifier boundary is attached.</p>
+<h2 id="past-work-and-crystal-evidence-expansion">Past Work And Crystal
+Evidence Expansion</h2>
+<p>This pass expands the paper from prior work, CAM/crystal projections,
+NSIT tooling, Kimi windows, and routed supplements. The intent is not to
+paste source text wholesale. The intent is to bind each useful past
+result into this paper’s state-bound proof role.</p>
+<h3 id="expansion-rule-for-this-slot">Expansion Rule For This Slot</h3>
+<p>Use past work to turn obligations into graph rows: event, observer,
+dependency, validator, falsifier, and next lane.</p>
+<h3 id="routed-full-sources">Routed Full Sources</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Source</th>
+<th>Placement reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>06_Causal_Link_and_Obligation_Ledger.md</code></td>
+<td>primary assigned source for the paper’s formal spine</td>
+</tr>
+<tr>
+<td><code>10_T10_Master_Receipt.md</code></td>
+<td>primary assigned source for the paper’s formal spine</td>
+</tr>
+<tr>
+<td><code>11_Theory_Admission_Gate.md</code></td>
+<td>primary assigned source for the paper’s formal spine</td>
+</tr>
+<tr>
+<td><code>20_Layer_2_Synthesis_Ledger.md</code></td>
+<td>primary assigned source for the paper’s formal spine</td>
+</tr>
+<tr>
+<td><code>32_The_Supervisor_Cursor.md</code></td>
+<td>primary assigned source for the paper’s formal spine</td>
+</tr>
+<tr>
+<td><code>supplements/06_INTERNAL_REASONING_SUPPLEMENT.md</code></td>
+<td>paper-local reasoning supplement; should be integrated into
+definitions, proof sketch, and limitations</td>
+</tr>
+<tr>
+<td><code>supplements/10_INTERNAL_REASONING_SUPPLEMENT.md</code></td>
+<td>paper-local reasoning supplement; should be integrated into
+definitions, proof sketch, and limitations</td>
+</tr>
+<tr>
+<td><code>supplements/11_INTERNAL_REASONING_SUPPLEMENT.md</code></td>
+<td>paper-local reasoning supplement; should be integrated into
+definitions, proof sketch, and limitations</td>
+</tr>
+<tr>
+<td><code>supplements/20_INTERNAL_REASONING_SUPPLEMENT.md</code></td>
+<td>paper-local reasoning supplement; should be integrated into
+definitions, proof sketch, and limitations</td>
+</tr>
+<tr>
+<td><code>supplements/32_INTERNAL_REASONING_SUPPLEMENT.md</code></td>
+<td>paper-local reasoning supplement; should be integrated into
+definitions, proof sketch, and limitations</td>
+</tr>
+<tr>
+<td>additional routed sources</td>
+<td>4 more entries remain in <code>SOURCE_PLACEMENT.md</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="routed-partialorbital-sources">Routed Partial/Orbital
+Sources</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Source</th>
+<th>Placement reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>supplements/OBLIGATION_LEDGER_SUPPLEMENT.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>supplements/RECEIPT_VERIFIER_CATALOG.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>supplements/INTERNAL_REASONING_PYRAMID_INDEX.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>supplements/INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>supplements/INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>supplements/INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md</code></td>
+<td>cross-cutting supplement; import only paper-relevant rows, receipts,
+or guard language</td>
+</tr>
+<tr>
+<td><code>CAM_CLAIM_100_SCORE_AUDIT.md</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td><code>NSIT_TOOL_CLOSURE_MATRIX.md</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td><code>NSIT_REASONED_CLOSURE_PASS.md</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td><code>ORBITAL_DATA_CROSS_POPULATION_AUDIT.md</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td><code>AGENT_CRYSTAL_WORK_HARVEST.md</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td><code>PAPER_REWORKS_CRYSTAL_PROJECTION.json</code></td>
+<td>series-wide audit/score/closure evidence; import paper-specific rows
+and leave global context outside the body</td>
+</tr>
+<tr>
+<td>additional routed sources</td>
+<td>8 more entries remain in <code>SOURCE_PLACEMENT.md</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="crystal-and-standards-evidence-to-bind">Crystal And Standards
+Evidence To Bind</h3>
+<ul>
+<li>Paper Reworks crystal projection: 33 paper markdown files, 9
+supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces,
+140 vignettes, and 280 CAM nodes.</li>
+<li>Kimi standards/window intake: 192/192 corpus conformance verdicts
+PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window
+lattice is available for cross-paper reads.</li>
+<li>Agent crystal harvest: Claude memory, Kimi MannyAI starter,
+D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles,
+and downloaded crystal payloads are orbital evidence surfaces.</li>
+<li>NSIT inventory baseline: 220 validators, 1786 receipt/data
+artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86
+memory/CAM artifacts.</li>
+</ul>
+<h3 id="paper-specific-camscore-rows">Paper-Specific CAM/Score Rows</h3>
+<div class="line-block">06 | 92 | system-composition closeable | typed
+causal edges, Rule90/Lucas, triadic keystone, negative extraction
+verdict | full 32-paper graph/hash population |<br />
+10 | 88 | strong aggregate receipt | T10 master receipt, path
+normalization closure, terminal route staging | exceptional-to-Niemeier
+route scope and cold extraction guard |<br />
+11 | 90 | internally closed | K=9 boundary admission gate,
+Pariah/Happy-Family boundary example, T10 trust anchor |
+encoder-invariance of sporadic boundary |<br />
+20 | 92 | aggregate ledger closed | CL verifier: Event-Law receipt
+ledger monotone/zero-drift, typed graph from Paper 06 | full graph
+tooling and unknown/forbidden reachability presentation |<br />
+32 | 87 | supervisor cursor/coverage closed | scheduler coverage, n=4/5
+minimality, n=8 upper record 46205, wrap to Paper 01 | n&gt;=6
+superpermutation minimality/exclusion proof |</div>
+<h3 id="paper-specific-nsit-closure-rows">Paper-Specific NSIT Closure
+Rows</h3>
+<div class="line-block">O2-prime verifiable core: Rule30 = Rule90 plus
+correction, Lucas closed form, depth-N decomposition |
+individual_tool_closure |
+<code>lattice_forge/rule90_linearization.py</code> | Paper 06 |
+<code>rule90_lucas_decomposition_receipt.json</code> 7/7 | Internal
+correction core closes; unbounded McKay collapse remains separate.
+|</div>
+<h3 id="source-signals-extracted-for-rewrite">Source Signals Extracted
+For Rewrite</h3>
+<ul>
+<li><code>06_Causal_Link_and_Obligation_Ledger.md</code>:
+<strong>Status:</strong> IPMC Ã¢â‚¬â€ internal physics map closed for
+typed causal-edge contract, Rule90/Lucas decomposition, triadic
+keystone, and correction-extraction verdict;
+gluon/Feynman/graph-population claims are named and scoped.
+<strong>Verifiers:</strong> - <code>verify_causal_code.py</code>
+Ã¢â€ â€™ <code>causal_code_receipt.json</code> Ã¢â‚¬â€
+<strong>pass</strong>, 7/7 -
+<code>verify_rule90_lucas_decomposition.py</code> Ã¢â€ â€™
+<code>rule90_lucas_decomposition_receipt.json</code> Ã¢â‚¬â€
+<strong>pass</strong>, 7/7 - <code>verify_triadic_keystone.py</code>
+Ã¢â€ â€™ <code>triadic_keystone_receipt.json</code> Ã¢â‚¬â€
+<strong>pass</strong>, 10/10 -
+<code>verify_correction_extraction_verdict.py</code> Ã¢â€ â€™
+<code>correction_extraction_verdict_receipt.json</code> Ã¢â‚¬â€
+<strong>pass</strong>, 5/5 - <code>verify_lucas_axis_readout.py</code>
+Ã¢â€ â€™ <code>lucas_axis_readout_receipt.json</code> Ã¢â‚¬â€
+<strong>pass</strong>, 7/7 ## Publication Draft: Formal Scientific Body
+### Abstract every dependency between papers, proofs, tools, receipts,
+obligations, and receipt. Closed proof-support edges must be acyclic.
+Open oblig</li>
+<li><code>10_T10_Master_Receipt.md</code>: ï»¿# Paper 10 - T10 Master
+Receipt <strong>Virtuous rework status:</strong> merged from current
+rework, canonical formal paper, companion variants, verifier receipts,
+and saved CAM/GLM crystal data. ## Publication Draft: Formal Scientific
+Body <strong>Status.</strong> IPMC for master-receipt integrity, source
+binding, receipt replay, mathematical/physical claim merely carried by
+the receipt. ### Abstract Paper 10 formalizes the first stack-level
+receipt in the CQE/CMPLX sequence. Its object is not a new physical or
+mathematical theorem about every carried claim. Its object is the
+replayable integrity of the Papers 00-09 substack. The master receipt
+binds the inherited Paper 00 burden contract, the active observer
+enumeration event, the promoted paper receipts for Papers 01-09, bind
+the forge receipt rather than re-narrate the construction. In
+particular, materialized lookup receipts for the rootless
+`Niemeier:Leech</li>
+<li><code>11_Theory_Admission_Gate.md</code>: # Paper 11 - Theory
+Admission Gate <strong>Virtuous rework status:</strong> merged from
+current rework, canonical formal paper, companion variants, verifier
+receipts, and saved CAM/GLM crystal data. ## Publication Draft: Formal
+Scientific Body <strong>Status.</strong> Internal proof-map closed for
+the finite theory-admission gate, Pariah/Happy-Family worked boundary
+receipt under the declared encoder. Open theory claim that lacks its own
+calibration receipt. ### Abstract against the Paper 10 master receipt,
+the trusted finite Gluon spectrum, and the match above the sheet limit
+is a boundary receipt. A nonmatching candidate is as a worked boundary
+receipt: it demonstrates the declared encoder, but it does ### Keywords
+Theory admission gate, T10 trust anchor, Gluon mass filter, boundary
+receipt, rejected-as-datum, Pariah group, Happy Family,
+<code>K=9</code>, receipt ecology. ### Definitions The <strong>Paper 10
+trust anchor</strong> is t</li>
+<li><code>20_Layer_2_Synthesis_Ledger.md</code>: <strong>Virtuous rework
+status:</strong> merged from current rework, canonical formal paper,
+companion variants, verifier receipts, and saved CAM/GLM crystal data.
+## Publication Draft: Formal Scientific Body ### Status Paper 20 is
+internally closed as a layer-2 accounting theorem: the synthesis ledger
+verifies, preserves status distinctions, retains forbidden and unknown
+closure theorem for the source papers it aggregates. Its role is to make
+the ### Abstract suite. The ledger is an aggregation surface over
+lower-paper claims, receipts, result is a status-preserving theorem: a
+verified ledger may report an aggregate boundary. The canonical verifier
+closes the local accounting claims by checking The theorem deliberately
+does not promote any source-paper claim. Unknown the suite from a
+collection of isolated receipts into a replayable causal accounting
+system while preventing aggregation from becoming</li>
+</ul>
+<h3 id="required-rewrite-use">Required Rewrite Use</h3>
+<ol type="1">
+<li>Promote any already-receipted internal result into the formal claim
+ledger with its receipt or validator path.</li>
+<li>Convert each CAM/crystal/Kimi item into either a citation/evidence
+row, a workbook replay step, or a named open obligation.</li>
+<li>Preserve the author’s interpretation as label/correspondence work
+unless a receipt, standard theorem, normal form, calibration datum, or
+falsifier lane supports stronger language.</li>
+</ol>
+<h2 id="claim-binding-queue">Claim Binding Queue</h2>
+<p>This queue converts the reasoned closure pass into paper-local work.
+It states which claims may be strengthened now, which evidence must be
+attached next, and which residues must remain separate.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Queue</th>
+<th>Lane</th>
+<th>Promote now</th>
+<th>Bind next</th>
+<th>Residue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Finite CA And Bounded Search Promotion</td>
+<td><code>receipt_bound_internal_result</code></td>
+<td>Promote finite-state, bounded-search, local-rule, and exhaustive
+verification claims when the state space and transition law are
+explicit.</td>
+<td>Attach state-space size, transition law, verifier name, receipt
+path, and bounded domain statement.</td>
+<td>Unbounded Rule 30 prediction, global minimality, and
+all-game/all-system claims remain separate.</td>
+</tr>
+<tr>
+<td>Formal-Methods Receipt And Governance Closure</td>
+<td><code>normal_form_result</code></td>
+<td>Promote claim-envelope, receipt, lane, causal-graph, and conformance
+obligations as formal-methods artifacts when standards reports are
+attached.</td>
+<td>Attach NSIT standards report, content-addressed receipt, lane grant,
+replay path, and dependency graph row.</td>
+<td>Missing hashes, missing schemas, or unrun adapters remain
+engineering residues, not mathematical openness.</td>
+</tr>
+<tr>
+<td>Negative And Failed-Route Receipts As Guards</td>
+<td><code>falsifier_or_open_obligation</code></td>
+<td>Use failed routes, rejected candidates, and boundary receipts as
+exclusion evidence and counterexample guards.</td>
+<td>Attach negative receipt path, rejected candidate, failure mode, and
+the promotion it blocks.</td>
+<td>A negative receipt constrains the claim; it does not prove the
+positive replacement unless separately evidenced.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="binding-discipline">Binding Discipline</h3>
+<p>Each queue item must be applied as a delta:</p>
+<pre class="text"><code>local claim at paper time
+-&gt; attached later source/tool/receipt/theorem
+-&gt; revised representation
+-&gt; invariant boundary and remaining residue</code></pre>
+<p>This preserves the sequential story while allowing later tools,
+crystals, and standard formalisms to return through the proper lane.</p>
+<h2 id="claim-delta-ledger">Claim Delta Ledger</h2>
+<p>This ledger applies the paper’s claim-binding queues as explicit
+back-application deltas. It keeps the sequential paper story intact
+while allowing later receipts, standard formalisms, CAM/crystal routes,
+and validators to sharpen the claim.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Delta</th>
+<th>Local claim at paper time</th>
+<th>Later evidence</th>
+<th>Revised representation</th>
+<th>Boundary kept</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Finite Ca Bounded Search</td>
+<td>This paper may describe finite CA, search, game, or local-rule
+behavior within the bounded surface it actually enumerates.</td>
+<td>Verifier state-space count, transition law, exhaustive/bounded
+receipt, and negative/minimality guards.</td>
+<td>Promote finite-state and bounded-search claims when the state space
+and transition law are explicit.</td>
+<td>Unbounded prediction, global minimality, all-game coverage, and
+all-system generalization remain separate.</td>
+</tr>
+<tr>
+<td>Formal Methods Receipt Closure</td>
+<td>This paper may treat receipts, claim lanes, dependency graphs, and
+replay contracts as formal objects, not mere editorial apparatus.</td>
+<td>NSIT standards, claim envelopes, content-addressed receipts, lane
+grants, Kimi 192/192 conformance, and graph/replay artifacts.</td>
+<td>Promote form, receipt, lane, and governance obligations to
+formal-methods closures when the standard report or artifact is
+attached.</td>
+<td>Missing hashes, schemas, adapters, or replay runs remain engineering
+residues rather than mathematical disproof.</td>
+</tr>
+<tr>
+<td>Negative Receipts As Guards</td>
+<td>This paper may preserve failed routes and rejected candidates as
+meaningful boundary data.</td>
+<td>Negative receipts, failed verifier rows, rejected-as-datum outputs,
+and obligation ledgers.</td>
+<td>Use negative receipts as exclusion evidence and promotion
+guards.</td>
+<td>A negative receipt blocks a promotion; it does not prove a positive
+replacement unless separately evidenced.</td>
+</tr>
+</tbody>
+</table>
+<p>The revised representation is the strongest phrasing available for
+the current paper draft. It should be moved into the main
+theorem/proposition language only when the named evidence is attached in
+the manifest or workbook replay.</p>
+<h2 id="archive-evidence-cards-and-source-backed-upgrades">Archive
+Evidence Cards And Source-Backed Upgrades</h2>
+<p>This section imports routed archive/mirror source cards directly into
+the paper. Each card is a compact provenance object: source path,
+archive score, contribution, routed spine paper, and integration
+action.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 30%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th>Source card</th>
+<th style="text-align: right;">Score</th>
+<th>Contribution</th>
+<th>Integration action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FORMAL: Paper 23 â€” C-Form: FoldForge Protein Folding Gluon</td>
+<td style="text-align: right;">89</td>
+<td><strong>C = the protein fold Gluon</strong> â€” the contact-map/topo
+Gluon that transports protein chain fold hypotheses through contact-map
+and topology receipts. In the lattice_forge substrate, C is realized as
+the <strong>fold Gluon</strong> that: - The fold Gluon = the
+<code>foldforge</code> transport operator - Each fold hypothesis = a
+ribbon path with contact-map receipts (tempus fugit) - The fold
+transport =
+<code>fold_{n+1} = foldforge_hypothesis(fold_n, contact_map)</code> -
+The fold Gluon’s topology = the contact-map persistent homology barcode
+- The fold Gluon’s topology receipt = the homology barcode certificate C
+is the <strong>fold Gluon</strong> â€” the contact-map/topo Gluon for
+protein folding. - <strong>Paper 24 (KnightForge):</strong> The chess
+Gluo…</td>
+<td>keep this as supplement evidence unless it upgrades a specific
+spine-paper claim status with a receipt-backed boundary.</td>
+</tr>
+<tr>
+<td>FORMAL: Paper 22 â€” C-Form: MetaForge Applied Materials Gluon</td>
+<td style="text-align: right;">85</td>
+<td><strong>C = the material Gluon</strong> â€” the applied materials
+Gluon that transports the morphic Gluon (Paper 21) into physical
+material candidates. In the lattice_forge substrate, C is realized as
+the <strong>material Gluon</strong> that: - The material Gluon = the
+<code>metaforge</code> transport operator - Each material candidate = a
+token from Paper 21 with physical properties (Gluon mass, energy,
+stability) - The material transport =
+<code>material_{n+1} = metaforge_token(token_n, constraints)</code> -
+The material Gluon’s mass = the material’s formation energy / stability
+metric C is the <strong>material Gluon</strong> â€” the ForgeFactory
+method that proposes metamaterial candidates. - <strong>Paper 23
+(FoldForge):</strong> The material Gluon’s fold logic = …</td>
+<td>keep this as supplement evidence unless it upgrades a specific
+spine-paper claim status with a receipt-backed boundary.</td>
+</tr>
+<tr>
+<td>CQE-paper-20: Paper 20 - Layer-2 Synthesis Ledger</td>
+<td style="text-align: right;">85</td>
+<td>This paper defines the Layer-2 synthesis ledger: the suite-level
+accounting surface that aggregates solved, open, failed, forbidden, and
+transported rows without changing their source-paper status. The closed
+result is ledger behavior. The seed ledger verifies, the rank-24
+terminal registry contains twenty-four forms, reachability distinguishes
+<code>yes_with_template_glue</code>, <code>no</code>, and
+<code>unknown</code>, the transport-obligation verifier returns
+<code>pass_with_open_lifts</code>, and the contributions registry admits
+rows only through a named validator.</td>
+<td>keep this as supplement evidence unless it upgrades a specific
+spine-paper claim status with a receipt-backed boundary.</td>
+</tr>
+<tr>
+<td>CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim
+Contract</td>
+<td style="text-align: right;">85</td>
+<td>Paper 10.50 lets later papers cite the master receipt honestly. It
+makes T10 a powerful audit object without converting open lifts into
+hidden proof claims.</td>
+<td>keep this as supplement evidence unless it upgrades a specific
+spine-paper claim status with a receipt-backed boundary.</td>
+</tr>
+<tr>
+<td>CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission
+Gate</td>
+<td style="text-align: right;">81</td>
+<td>Paper 11.25 describes the tools for reviewing the theory admission
+gate. These tools expose candidate admission, boundary routing,
+rejected-as-datum behavior, and the Pariah/Happy-Family worked boundary
+receipt. The toolkit works with:
+<code>text candidate theory T10 trust anchor Gluon mass trusted spectrum K_max = 9 declared encoder admission receipt verdict</code>
+Primary executable files:
+<code>text production/formal-papers/CQE-paper-11/verify_theory_admission_gate.py production/formal-papers/CQE-paper-11/theory_admission_gate_receipt.json</code>
+Primary bindings:
+``<code>text T_ADMISSION lattice_forge.ledger.build_seed_database CMPLX-Kernel/lib-forge/part1_constants.py CMPLX-Kernel/lib-forge/part2_steps.... | keep this as supplement evidence unless it upgrades a specific spine-paper claim status with a receipt-backed boundary. | | CQE-paper-10: Paper 10 - T10 Master Receipt | 81 | Paper 10 proves the first stack-level receipt theorem in the CQECMPLX suite. Its object is not a new physical mechanism. Its object is the proof that Paper 00 and Papers 01-09 are bound into one inspectable and replayable unit. | keep this as supplement evidence unless it upgrades a specific spine-paper claim status with a receipt-backed boundary. | | SUMMARY-IX-Open-Obligations: Summary Paper IX â€” The Open Obligations: The 2Ã—2 Failure Points and the Empirical Platform Diagnostic System | 79 | This paper is the **complete open obligations manifest** of the CQE_CMPLX corpus. The corpus is honest about what is and isn't proven. The framework for this honesty is the **empirical platform diagnostic system** â€” a **failure-diagnostic system** where the user (or any system asking a question) only needs the by-hand work at the **2Ã—2 failure points**, the moments where the formal substrate breaks down. | keep this as supplement evidence unless it upgrades a specific spine-paper claim status with a receipt-backed boundary. | | SUMMARY-IX-Open-Obligations: Summary Paper IX â€” The Open Obligations: The 2Ã—2 Failure Points and the Empirical Platform Diagnostic System | 79 | This paper is the **complete open obligations manifest** of the CQE_CMPLX corpus. The corpus is honest about what is and isn't proven. The framework for this honesty is the **empirical platform diagnostic system** â€” a **failure-diagnostic system** where the user (or any system asking a question) only needs the by-hand work at the **2Ã—2 failure points**, the moments where the formal substrate breaks down. | keep this as supplement evidence unless it upgrades a specific spine-paper claim status with a receipt-backed boundary. | | additional routed cards |  | 226 more cards are listed in</code>ARCHIVE_EVIDENCE_CARD_MATRIX.json`.</td>
+<td>Use during final body rewrite.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="material-claim-upgrades-from-cards">Material Claim Upgrades From
+Cards</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Upgrade target</th>
+<th>Evidence card</th>
+<th>How it improves the paper</th>
+<th>Boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>receipt/verifier binding</td>
+<td>FORMAL: Paper 23 â€” C-Form: FoldForge Protein Folding Gluon</td>
+<td>Move the relevant result from narrative support into a receipt-bound
+evidence row.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+<tr>
+<td>transport/formalism enrichment</td>
+<td>FORMAL: Paper 22 â€” C-Form: MetaForge Applied Materials Gluon</td>
+<td>Use this card to state the transport object and its downstream
+imports more explicitly.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+<tr>
+<td>receipt/verifier binding</td>
+<td>CQE-paper-20: Paper 20 - Layer-2 Synthesis Ledger</td>
+<td>Move the relevant result from narrative support into a receipt-bound
+evidence row.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+<tr>
+<td>receipt/verifier binding</td>
+<td>CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim
+Contract</td>
+<td>Move the relevant result from narrative support into a receipt-bound
+evidence row.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+<tr>
+<td>receipt/verifier binding</td>
+<td>CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission
+Gate</td>
+<td>Move the relevant result from narrative support into a receipt-bound
+evidence row.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+<tr>
+<td>receipt/verifier binding</td>
+<td>CQE-paper-10: Paper 10 - T10 Master Receipt</td>
+<td>Move the relevant result from narrative support into a receipt-bound
+evidence row.</td>
+<td>Keep the card’s stated boundary; do not upgrade to physical/domain
+validation unless the card carries that evidence.</td>
+</tr>
+</tbody>
+</table>
+<p>These upgrades should be folded into the main body during the next
+prose rewrite: definitions should become more specific, proof sketches
+should cite the relevant receipt/tool/card, and limitations should
+preserve the card’s stated boundary.</p>
+<h2 id="lattice-forge-cam-actionization">Lattice Forge CAM
+Actionization</h2>
+<p>Forge systems are the operational expression layer for the corpus.
+CAM stores addressable memory, labels, receipts, and obligations;
+lattice-forge actionizes that memory into lookup contracts, executable
+methods, receipt rows, events, and reusable cached answers.</p>
+<p>The local paper should therefore state not only what the proof object
+means, but how it becomes callable:</p>
+<pre class="text"><code>CAM address / receipt / label
+  -&gt; forge lookup contract
+  -&gt; seed or overlay query
+  -&gt; typed result
+  -&gt; receipt + event + query-cache row
+  -&gt; reusable action surface</code></pre>
+<h3 id="canonical-source-of-truth-rule">Canonical Source-Of-Truth
+Rule</h3>
+<ul>
+<li>Library/proof API:
+<code>D:\CQE_CMPLX\CMPLX-PartsFactory-main\packages\lattice-forge</code></li>
+<li>Product/domain modules:
+<code>D:\CQE_CMPLX\CQE-CMPLX-1T-Production</code>, promoted only through
+tests, claims, and receipts.</li>
+<li>Historical/provenance copies: read-only evidence.</li>
+<li>Product stick folders: compatibility shims only.</li>
+</ul>
+<h3 id="leech-e8-golay-no-cost-lookup-surface">Leech / E8 / Golay
+No-Cost Lookup Surface</h3>
+<p>This paper may cite the Leech lookup correction only as a downstream
+or adjacent actionization surface unless it owns a lattice/terminal
+claim.</p>
+<p>The current canonical API surface is:</p>
+<ul>
+<li><code>Forge.leech_lookup(address=0, payload=None)</code></li>
+<li><code>Forge.verify_leech_lookup()</code></li>
+<li><code>lattice_forge.lattice_codes.verify_lattice_code_chain</code></li>
+<li><code>lattice_forge.lattice_codes.verify_golay_24</code></li>
+<li><code>lattice_forge.enumerated_glue.derive_classical_leech_minimal_landing</code></li>
+<li><code>lattice_forge.enumerated_glue.encode_leech_ribbon</code></li>
+</ul>
+<p>The verified contract is:</p>
+<pre class="text"><code>incoming CAM state / address
+  -&gt; Niemeier:Leech rootless terminal tree
+  -&gt; Golay-backed classical minimal-shell address
+  -&gt; optional radix-196560 payload ribbon
+  -&gt; receipt + event + query-cache row</code></pre>
+<p>Honest remaining boundaries: Gamma72 landing and polarization claims,
+nontrivial rootful Niemeier glue-coset representative imports, expanded
+Leech invariant/orbit proofs beyond classical minimal-shell accounting,
+and physical identifications requiring empirical evidence.</p>
+<h2 id="journal-apparatus">Journal Apparatus</h2>
+<h3 id="article-type-and-intended-venue-fit">Article Type And Intended
+Venue Fit</h3>
+<p>This manuscript is written as a formal-methods and
+mathematical-systems paper inside the series <em>Formalizing LCR,
+Unifying Standard Models</em>. Its intended reader is a technical
+reviewer who needs claim boundaries, reproducibility routes, and
+cross-paper dependencies to be visible without relying on private
+context.</p>
+<h3 id="structured-contribution-statement">Structured Contribution
+Statement</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th>Statement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Publication ID</td>
+<td><code>FLCR-39</code></td>
+</tr>
+<tr>
+<td>Legacy source slot(s)</td>
+<td><code>06, 10, 11, 20, 32</code></td>
+</tr>
+<tr>
+<td>Ribbon role</td>
+<td>order-1 slot-6: bind state into causal, observer, or synchronization
+ledgers</td>
+</tr>
+<tr>
+<td>Proof form</td>
+<td>ledger, graph, and synchronization proof</td>
+</tr>
+<tr>
+<td>Received state</td>
+<td>state emitted by prior slot 05 and reopened at original slot 06
+(Causal Link and Obligation Ledger)</td>
+</tr>
+<tr>
+<td>Produced state</td>
+<td>formal result of original slot 32 plus the same-family lift path
+toward slot 42</td>
+</tr>
+</tbody>
+</table>
+<h3 id="claim-evidence-table">Claim-Evidence Table</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Lane</th>
+<th>Evidence to attach</th>
+<th>Boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Theorem 39.1</td>
+<td><code>normal_form_result</code></td>
+<td>Receipt, source card, validator, citation, or CAM route named in the
+paper manifest</td>
+<td>every FLCR claim can be evaluated by lane, source, receipt,
+comparator, and falsifier before final admission</td>
+</tr>
+<tr>
+<td>Proposition 39.2</td>
+<td><code>normal_form_result</code></td>
+<td>Receipt, source card, validator, citation, or CAM route named in the
+paper manifest</td>
+<td>evidence comparator can be imported by later papers only through its
+declared source, receipt, and lane.</td>
+</tr>
+<tr>
+<td>Protocol 39.3</td>
+<td><code>falsifier_or_open_obligation</code></td>
+<td>Receipt, source card, validator, citation, or CAM route named in the
+paper manifest</td>
+<td>claims that lack comparator or falsifier fields remain obligations
+regardless of rhetorical strength</td>
+</tr>
+</tbody>
+</table>
+<h3 id="figure-plan">Figure Plan</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Figure</th>
+<th>Purpose</th>
+<th>Caption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FLCR-39-F1</td>
+<td>Causal/obligation ledger graph</td>
+<td>Schematic showing how <code>FLCR-39</code> turns its received state
+into the produced state while preserving claim lanes and residue
+boundaries.</td>
+</tr>
+<tr>
+<td>FLCR-39-F2</td>
+<td>Evidence routing map</td>
+<td>Diagram of source papers, archive cards, CAM/crystal routes,
+validators, and workbook replay paths used by this manuscript.</td>
+</tr>
+<tr>
+<td>FLCR-39-F3</td>
+<td>Same-family lift context</td>
+<td>Diagram placing this paper in the original <code>00-79</code> ribbon
+family and showing predecessor/successor slots.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="in-text-figure-flcr-39-f1-causalobligation-ledger-graph">In-Text
+Figure FLCR-39-F1: Causal/obligation ledger graph</h3>
+<pre class="text"><code>received state
+  -&gt; Causal/obligation ledger graph
+  -&gt; formal claim lane
+  -&gt; evidence object / receipt / citation
+  -&gt; produced state
+  -&gt; remaining residue</code></pre>
+<h3 id="table-plan">Table Plan</h3>
+<table>
+<thead>
+<tr>
+<th>Table</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FLCR-39-T1</td>
+<td>Obligation ledger table</td>
+</tr>
+<tr>
+<td>FLCR-39-T2</td>
+<td>Claim-lane/evidence-boundary table</td>
+</tr>
+<tr>
+<td>FLCR-39-T3</td>
+<td>Archive evidence card and source-backed upgrade table</td>
+</tr>
+<tr>
+<td>FLCR-39-T4</td>
+<td>Workbook replay and falsifier table</td>
+</tr>
+</tbody>
+</table>
+<h3 id="worked-example">Worked Example</h3>
+<p>Convert one obligation into event, dependency, validator, and
+downstream route rows. The example must name the input object, the
+operation, the evidence object, the allowed revised claim, and the
+remaining boundary.</p>
+<h3 id="nomenclature-and-glossary">Nomenclature And Glossary</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Term</th>
+<th>Paper-local meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAM</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>causal edge</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>claim lane</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>crystal</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>ledger</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>negative receipt</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>obligation</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+<tr>
+<td>receipt</td>
+<td>Defined by this paper as part of the <code>ledger_action</code>
+proof role; final copyedit should replace this row with the exact
+paper-local definition.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appendix-flcr-39-a-evidence-package">Appendix FLCR-39-A:
+Evidence Package</h3>
+<p>The appendix for this paper should contain:</p>
+<ol type="1">
+<li>Legacy source excerpts or source-card references used in the final
+claim ledger.</li>
+<li>Receipt and verifier paths, including pass/fail/partial status.</li>
+<li>CAM/crystal query or projection rows used by the paper.</li>
+<li>Kimi/NSIT/window evidence used for conformance or routing.</li>
+<li>Falsifier, calibration, or external-data rows that remain
+unresolved.</li>
+</ol>
+<h3 id="tarpitkappa-promotion-standard">TarPit/Kappa Promotion
+Standard</h3>
+<p>The TarPit derivation bridge creates a standards rule for mass and
+coupling claims across the series. A receipt may close an internal
+result while another receipt keeps the corresponding physical
+interpretation in a calibration lane. FLCR-39 treats that as a promotion
+conflict, not as a failure.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Evidence situation</th>
+<th>Classification</th>
+<th>Required next action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TarPit computes exact mass for an examined symbolic state</td>
+<td><code>closed_internal</code></td>
+<td>Cite TarPit grain/ecology code and report the examined object.</td>
+</tr>
+<tr>
+<td>MassResidueForge proves VOA mass/residue structure</td>
+<td><code>closed_internal</code></td>
+<td>Cite the MassResidueForge receipt and state the carrier
+boundary.</td>
+</tr>
+<tr>
+<td>Kappa receipt asserts no external calibration</td>
+<td><code>closed_internal_strong</code></td>
+<td>Check whether the physical adapter is independent of the target
+observable.</td>
+</tr>
+<tr>
+<td>SM bridge or unit verifier uses measured anchor</td>
+<td><code>calibrated_not_no_fit</code></td>
+<td>Keep the result in calibration lane unless a separate no-fit adapter
+is supplied.</td>
+</tr>
+<tr>
+<td>Assertive receipt and conservative receipt disagree</td>
+<td><code>promotion_conflict</code></td>
+<td>Preserve both receipts and require an adapter-authority
+decision.</td>
+</tr>
+</tbody>
+</table>
+<p>The review standard is simple: the algebra can be accepted as closed
+while the unitful physical promotion remains conditional. A strong
+physical claim is promoted only when the adapter is declared,
+replayable, and not anchored to the target value it predicts.</p>
+<h3 id="lift-tower-evidence-rule">Lift-Tower Evidence Rule</h3>
+<p>The lift-tower pass adds a concrete standards rule: a claim may be
+promoted from “lift proposed” to “lift executed” when every enumerated
+LCR state for the lift has a TarPit row, decomposition row, wall count,
+mass score, and recomposed tower address.</p>
+<p><code>TARPIT_LIFT_TOWER_PASS.json</code> satisfies that rule for the
+current 40-paper FLCR set: 320 enumeration rows, 320 successful TarPit
+runs, and 0 error walls. This does not by itself promote physical
+constants, but it does close the procedural objection that the lifts
+were only described in prose. They now have an executable
+enumeration/recomposition receipt.</p>
+<h3 id="data-and-code-availability">Data And Code Availability</h3>
+<p>All editable source files, manifests, source-routing matrices,
+validation reports, and generated PDF/TeX outputs are local to:</p>
+<pre class="text"><code>D:\Paper Reworks\publication_series\Formalizing_LCR_Unifying_Standard_Models
+D:\Paper Reworks\FINAL_PAPERS_FLCR_UNIFIED</code></pre>
+<p>Code and verifier references are cited by path in the manifest,
+archive evidence cards, receipt catalog, or workbook replay tables.
+External datasets or standards citations must be attached before any
+calibration-bound claim is promoted.</p>
+<h3 id="reviewer-checklist">Reviewer Checklist</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Check</th>
+<th>Reviewer question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claim lane</td>
+<td>Does every strong claim declare its lane and evidence type?</td>
+</tr>
+<tr>
+<td>Boundary</td>
+<td>Does the paper preserve what it does not prove?</td>
+</tr>
+<tr>
+<td>Reproducibility</td>
+<td>Is there a receipt, verifier, source card, citation, or replay table
+for the claim?</td>
+</tr>
+<tr>
+<td>Cross-paper import</td>
+<td>Does the paper cite the prior FLCR/OPR slot before consuming its
+result?</td>
+</tr>
+<tr>
+<td>Interpretation</td>
+<td>Does the analog layer preserve the addressed state while changing
+labels/access paths?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="declarations">Declarations</h3>
+<p>No human-subjects, clinical, or animal-research protocol is asserted
+by this paper. External empirical claims require separate dataset,
+calibration, or domain-validation attachments. Competing-interest and
+funding statements remain to be supplied by the author before
+submission.</p>
+</body>
+</html>

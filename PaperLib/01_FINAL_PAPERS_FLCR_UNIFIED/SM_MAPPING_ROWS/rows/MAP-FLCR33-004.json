@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR33-004",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-06",
+  "O_ext": "Higgs scalar field/potential",
+  "equation_or_source": "Higgs scalar field/potential",
+  "O_lcr": "LCR mass residue",
+  "lane": "normal_form_result",
+  "boundary": "Write explicit mapping from residue term to scalar-sector row or do not claim identity.",
+  "dataset": "",
+  "falsifier": "Write explicit mapping from residue term to scalar-sector row or do not claim identity.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

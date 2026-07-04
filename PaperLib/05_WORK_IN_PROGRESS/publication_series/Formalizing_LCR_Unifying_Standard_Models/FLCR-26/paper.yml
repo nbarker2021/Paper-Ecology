@@ -1,0 +1,236 @@
+publication_id: FLCR-26
+title: Observer Delay And Shared-State Protocols
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 27_Observer_Delay_and_Shared_Reality.md
+- virtuous/27_Observer_Delay_and_Shared_Reality_VIRTUOUS.md
+- supplements/27_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 26.1
+  lane: receipt_bound_internal_result
+  statement: finite observer buffers can synchronize shared center state without implying
+    consciousness or physical collapse
+- id: Proposition 26.2
+  lane: normal_form_result
+  statement: observer-delay protocol can be imported by later papers only through
+    its declared source, receipt, and lane.
+- id: Protocol 26.3
+  lane: falsifier_or_open_obligation
+  statement: human latency, consciousness, and physical collapse claims require external
+    empirical evidence
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- mannyai_carrier_cem_and_research_receipts
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+- MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.603212+00:00'
+external_review_lanes:
+- lane_id: mannyai_carrier_cem_and_research_receipts
+  claim_lane: receipt_bound_internal_result
+  source_root: D:\MannyAI
+  use: Adds carrier-CEM, grant enforcement, learner/specialization, sealed receipt
+    chains, and research receipts as direct review-lane sources.
+  boundary: Cold-start accuracy and domain dispatch remain bounded by the manifest's
+    open obligations unless closed by tests.
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "27"
+      source_file: "27_Observer_Delay_and_Shared_Reality.md"
+      slot_family: "bridge_action"
+      lift_depth: 2
+      dimensional_role: "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms"
+      proof_form_required: "bridge, projection, calibration, or sample-preservation proof"
+
+dimensional_ribbon:
+  ribbon_slot: "27"
+  slot_digit: 7
+  slot_family: "bridge_action"
+  lift_depth: 2
+  lift_name: "lift_2x"
+  order_index: 3
+  dimensional_role: "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms"
+  state_bound_action: "project between discrete, continuous, lattice, or physical-facing forms"
+  proof_form_required: "bridge, projection, calibration, or sample-preservation proof"
+  inherits_from_same_family: "17"
+  lifts_to_same_family: "37"
+  ten_lift_anchor: "20"
+  cycle_window: ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 26 and reopened at original slot 27 (Observer Delay and Shared Reality)"
+  produced_state: "formal result of original slot 27 plus the same-family lift path toward slot 37"
+  semantic_transition: "project the state between discrete, continuous, lattice, or physical-facing forms"
+  accepted_formalism_targets:
+    - "projection maps"
+    - "discretization and sampling theory"
+    - "interpolation/continuum limits"
+    - "calibration boundary statements"
+  analog_invariance_test: "a translation table: changing language is allowed only when the source and target entries remain paired"
+  previous_family_slot: "17"
+  next_family_slot: "37"
+
+claim_binding_queue:
+  queue_count: 2
+  queues:
+    - id: "spinor_double_cover_local"
+      title: "Spinor/SU(2) Double-Cover Local Semantics"
+      lane: "receipt_bound_internal_result"
+      promote_now: "Promote local 2pi sign-flip / 4pi return semantics where the O8/frame-inversion receipt is attached."
+      bind_next: "Bind the O8 receipt and cite standard SU(2)->SO(3) double-cover semantics as standard analogy/support."
+      residue: "Physical observer, quantum measurement, and empirical spin claims remain routed to observer/physics calibration."
+    - id: "negative_receipts_as_guards"
+      title: "Negative And Failed-Route Receipts As Guards"
+      lane: "falsifier_or_open_obligation"
+      promote_now: "Use failed routes, rejected candidates, and boundary receipts as exclusion evidence and counterexample guards."
+      bind_next: "Attach negative receipt path, rejected candidate, failure mode, and the promotion it blocks."
+      residue: "A negative receipt constrains the claim; it does not prove the positive replacement unless separately evidenced."
+
+claim_delta_ledger:
+  delta_count: 2
+  deltas:
+    - id: "spinor_double_cover_local"
+      title: "Spinor Double Cover Local"
+      local_claim: "This paper may claim local frame-inversion or spinor-style behavior only for its finite/internal carrier object."
+      later_evidence: "O8 frame-inversion receipt plus standard SU(2)->SO(3) double-cover semantics."
+      revised_claim: "Promote local 2pi sign-flip / 4pi return semantics as internal carrier semantics when the receipt is attached."
+      boundary: "Do not promote to empirical spin, quantum measurement, or physical observer claims without external physics calibration."
+      workbook_replay: "Show finite frame state, F^2 and F^4 behavior, standard double-cover analogy, and forbidden physical promotion."
+    - id: "negative_receipts_as_guards"
+      title: "Negative Receipts As Guards"
+      local_claim: "This paper may preserve failed routes and rejected candidates as meaningful boundary data."
+      later_evidence: "Negative receipts, failed verifier rows, rejected-as-datum outputs, and obligation ledgers."
+      revised_claim: "Use negative receipts as exclusion evidence and promotion guards."
+      boundary: "A negative receipt blocks a promotion; it does not prove a positive replacement unless separately evidenced."
+      workbook_replay: "Record rejected candidate, failure mode, blocked promotion, and remaining positive-proof requirement."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-26-F1"
+  primary_table: "FLCR-26-T1"
+  appendix_id: "FLCR-26-A"
+  glossary_terms:
+    - "CAM"
+    - "bridge"
+    - "calibration"
+    - "claim lane"
+    - "correspondence"
+    - "crystal"
+    - "projection"
+    - "receipt"
+  planned_figures:
+    - "FLCR-26-F1: Correspondence bridge"
+    - "FLCR-26-F2: Evidence routing map"
+    - "FLCR-26-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-26-T1: Source-target correspondence table"
+    - "FLCR-26-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-26-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-26-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 14
+  top_cards:
+    - title: "SUMMARY-III-Computational-Substrates: Summary Paper III — Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster"
+      archive_score: 83
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+      contributes: "This paper presents the **computational substrate applications** of the Gluon formalism. We do not use the word \"Gluon\" because the fit is good. We use it because the substrate **IS** SU(3), and the computational substrates ARE **specialized gluon field configurations** in different physical regimes."
+    - title: "FORMAL: Paper 25 — C-Form: Energetic Traversal Maps Gluon"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the traversal energy Gluon** — the energy/ledger Gluon that adds energy and traversal costs to cross-language, figure, material, and fold transformations. In the lattice_forge substrate, C is realized as the **traversal Gluon** that: - The traversal Gluon = the `paper25_traversal_maps` transport operator - Each transformation = a traversal path with energy cost ledger - The traversal transport = `traversal_{n+1} = energetic_map(transformation_n, energy_budget)` - The traversal Gluon's ener"
+    - title: "FORMAL: Paper 19 — C-Form: Observer Face-Selection Gluon"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+      contributes: "The proof-carrying content of this paper is the mathematics: the definitions, lemmas, constructions, examples, and receipts that establish the claimed transport. Paper 00, workbook sheets, analog tools, and open-obligation ledgers are supplemental validation and exposure layers. They exist to make the math inspectable, reproducible, and accessible without requiring a particular software stack. In the simplest case, the same state transitions can be marked with ordinary physical tokens, lines, or"
+    - title: "FORMAL_PAPER: CQECMPLX FORMALIZATION PAPER O-2"
+      archive_score: 67
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-O2\\FORMAL_PAPER.md`"
+      contributes: "The **gluon** is the **observer force** — the invariant center `C = Γ(s)` that emerges from boundary interaction resolution. It is not a fundamental exchange particle; it is **emergent at every boundary** via four physical mechanisms: **collision** (correction firing), **shear** (bond chemistry threshold), **spin** (frame inversion F), and **spark** (ninth bit forced). This paper proves that the gluon = observer force = `C = Γ(s)` across all scales."
+    - title: "CQE-paper-26.75: Paper 26.75 - Z-Pinch and Shear Next-State Precondition"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-26.75.md`"
+      contributes: "This supplement defines what Paper 26 exports to later papers. Downstream horizon papers may use: - the period-4 Oloid carrier receipt, - the octonion carrier receipt, - the orient-bit and dominant-basis residue fields, - the fixed-generator shear diagnostic, - the pinch-as-ledger-reclassification rule, - the obligation that physical readings require external measurement. Paper 27 may use the carrier residue as an observer-delay diagnostic. Paper 28 may use the shear diagnostic as a game-lattice"
+    - title: "FORMAL: Paper 26 — C-Form: Z-Pinch and Shear Horizon Gluon"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the Z-pinch/shear Gluon** — the first-shear/pinch Gluon that examines friction-like generation at the horizon of proven layers. In the lattice_forge substrate, C is realized as the **Z-pinch Gluon** that: - The Z-pinch Gluon = the `paper26_zpinch_shear` transport operator - The pinch = the gluon compression operator: `pinch(C) = C / ||C||` (normalization) - The shear = the off-diagonal Gluon transport: `shear(C) = C_xy + C_yx` (off-diagonal components) - The horizon = the K=9 boundary wher"
+    - title: "CQE-paper-27.25: Paper 27.25 - Observer Delay Toolkit Supplement"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-27.25.md`"
+      contributes: "This supplement shows how to reproduce Paper 27's observer-frame receipt. The proof is in Paper 27 and its formal verifier; human observer interpretations remain obligations. Run: `python production/formal-papers/CQE-paper-27/verify_observer_delay_shared_reality.py` The expected status is `pass_with_interpretive_obligations`. The verifier checks the static Z4 template, the temporal-period refutation, the shared `C` invariant, bounded anneal delay, and the non-promotion of consciousness, collapse"
+    - title: "CQE-paper-27: Paper 27 - Observer Delay and Shared Reality"
+      archive_score: 65
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-27.md`"
+      contributes: "Paper 27 closes a finite observer-frame statement and preserves the human observer language as interpretation. The closed result is not consciousness, measurement collapse, or relativistic simultaneity. It is a chart theorem: the static four-frame Z4 template is exact; opposite-boundary reads share the same center coordinate `C`; read-then-anneal delay is bounded by the finite chart; and the tempting promotion from static Z4 to temporal Rule 30 period is explicitly refuted over the tested trace."
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to build correspondence tables: discrete source, continuous/physical target, standard theorem, calibration unit, and non-promotion guard."
+  routed_full_sources: 3
+  routed_partial_sources: 19
+  routed_transient_sources: 9
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

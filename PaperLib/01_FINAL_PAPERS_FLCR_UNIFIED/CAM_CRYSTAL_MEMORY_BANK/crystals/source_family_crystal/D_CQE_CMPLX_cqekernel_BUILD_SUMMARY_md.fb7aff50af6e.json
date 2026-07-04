@@ -1,0 +1,16 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 17,
+  "artifact": "D:\\CQE_CMPLX\\cqekernel\\ + BUILD_SUMMARY.md",
+  "why_it_matters": "Stable stdlib kernel and LCR window machine.",
+  "suggested_slots": [
+    "01",
+    "03",
+    "06",
+    "08",
+    "09"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "fb7aff50af6eb2ab79e1faa84fdbe31c1607bd83ef1947f2ef11bfc472c9e3e7"
+}

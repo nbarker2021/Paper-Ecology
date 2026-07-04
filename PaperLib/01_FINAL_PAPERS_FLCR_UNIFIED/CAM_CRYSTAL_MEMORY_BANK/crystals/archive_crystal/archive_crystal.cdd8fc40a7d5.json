@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0193",
+  "path": "D:\\CQE_CMPLX\\papers\\packages\\Clean_Singular_Identity_Paper_Suite.zip",
+  "name": "Clean_Singular_Identity_Paper_Suite.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 6,
+  "high_signal_entry_count": 6,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "02",
+    "12",
+    "22",
+    "32",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "cdd8fc40a7d5b9178d56595014e26fa0f3fc35746c46c435a9769619938fecd7"
+}

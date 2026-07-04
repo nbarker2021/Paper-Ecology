@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-23",
+  "original_slot": "23",
+  "title": "FoldForge Protein Folding",
+  "status": "source_backed",
+  "source_file": "23_FoldForge_Protein_Folding.md",
+  "linked_flcr_papers": [
+    "FLCR-22"
+  ],
+  "slot_family": "fold_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-3: fold the initial action into a higher-dimensional representation",
+  "proof_form_required": "fold map, coordinate atlas, and representation transport",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

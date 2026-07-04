@@ -1,0 +1,101 @@
+{
+  "artifact": "NSIT_TOOL_CLOSURE_MATRIX",
+  "status": "first_pass_reapplication_matrix",
+  "source_ledgers": [
+    "D:/CQE_CMPLX/git-hosted-roots/CQECMPLX-Production/governance/legacy-tracking/REAPPLICATION_LEDGER.md",
+    "D:/Paper Reworks/NSIT_PAPER_EVIDENCE_INVENTORY.json",
+    "C:/Users/nbark/.claude/projects/d--CQE-CMPLX/memory/reapplication-lane.md",
+    "D:/CQE_CMPLX/CQE-CMPLX-1T-Production/src/cqe_standards",
+    "D:/repo_harvest/CMPLXMCP/validation",
+    "D:/Paper Reworks/NSIT_REASONED_CLOSURE_PASS.json"
+  ],
+  "inventory_baseline": {
+    "validators": 220,
+    "receipt_or_data": 1786,
+    "formal_paper": 1137,
+    "supplement": 114,
+    "memory_or_cam": 86
+  },
+  "closure_modes": [
+    "individual_tool_closure",
+    "batch_tool_unison_closure",
+    "partial_with_residue",
+    "external_data_bind",
+    "not_yet_resource_closeable"
+  ],
+  "known_closures": [
+    {
+      "target": "O2-prime verifiable core",
+      "mode": "individual_tool_closure",
+      "tools": ["lattice_forge/rule90_linearization.py"],
+      "papers": ["06"],
+      "receipt": "rule90_lucas_decomposition_receipt.json",
+      "result": "Rule30 = Rule90 plus correction; Lucas closed form; depth-N decomposition; unbounded McKay collapse remains separate"
+    },
+    {
+      "target": "T1-T4 algebra foundation",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["octonion.py", "jordan_j3.py", "rule30.py", "f4_action.py"],
+      "papers": ["03"],
+      "receipt": "algebra_foundation_T1_T4_receipt.json",
+      "result": "octonions, J3(O), chart isomorphism, exact n=3 closure bound"
+    },
+    {
+      "target": "T5-T7 plus shell-2 doublet",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["f4_action.py", "core.py"],
+      "papers": ["01", "03"],
+      "receipt": "su3_closure_T5_T7_receipt.json; bijective_shell2_doublet_receipt.json",
+      "result": "SU(3)/8x8 closure and single-tape doublet close"
+    },
+    {
+      "target": "O7 exact Niemeier:E8^3 glue cosets",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["E8Forge over three E8 blocks"],
+      "papers": ["08"],
+      "receipt": "o7_niemeier_e8cubed_glue_closed_receipt.json",
+      "result": "glue cosets = {0}; identity glue; 720 roots"
+    },
+    {
+      "target": "O8 spinor SU(2) double cover",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["oloid_kinematic"],
+      "papers": ["01"],
+      "receipt": "o8_spinor_double_cover_closed_receipt.json",
+      "result": "F^2 = -1 at 2pi; F^4 = +1 at 4pi"
+    },
+    {
+      "target": "O2'' registry population",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["f2_arf", "lucas_recurrence", "rule30_decomposition", "f2_edge_glue"],
+      "papers": ["08"],
+      "receipt": "o2pp_registry_populated_receipt.json",
+      "result": "314 facts accepted; 0 rejected"
+    },
+    {
+      "target": "Paper 13 quark-face transport",
+      "mode": "batch_tool_unison_closure",
+      "tools": ["SU(3) T4 closure", "D12 trace conservation", "side-flip chirality", "J3(O) faces", "QuarkFaceForge"],
+      "papers": ["13"],
+      "receipt": "quark_face_transport_literalized_receipt.json",
+      "result": "exact structural color transport closes; measured physics identity remains transport-scoped"
+    }
+  ],
+  "batch_candidates": [
+    {"name": "Rule90/Lucas/correction plus McKay witness", "papers": ["02", "06", "09", "12", "16", "18"]},
+    {"name": "D4/J3/Oloid/Spinor", "papers": ["01", "03", "05", "13", "19", "27"]},
+    {"name": "E8/Leech/Niemeier/Golay", "papers": ["08", "17", "21", "29"]},
+    {"name": "Centroid/VOA/Mass/Energy", "papers": ["09", "15", "18", "25", "29"]},
+    {"name": "Applied forge validation", "papers": ["21", "22", "23", "24", "28"]},
+    {"name": "Reasoned standard-formalism reapplication", "papers": ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"]}
+  ],
+  "reasoned_reapplication_families": [
+    {"name": "Leech/E8/Golay operational lookup", "papers": ["08", "17", "21", "29"], "action": "Promote no-cost lookup when lattice-forge receipts are attached; keep expanded invariant and Gamma72 residue separate."},
+    {"name": "Symbolic-vs-physical carrier split", "papers": ["05", "07", "13", "15", "16", "22", "25", "26"], "action": "Close symbolic addressable-carrier claims internally; route physical identity to calibration."},
+    {"name": "Electron-hole-exciton standard accounting", "papers": ["07", "15", "16", "22"], "action": "Use standard hole, exciton, recombination, screening, band-gap, and effective-mass formalism where the material model is present."},
+    {"name": "SU(2) spinor double-cover local semantics", "papers": ["01", "19", "27"], "action": "Bind O8 receipt and standard double-cover theorem; route physical observer claims to NP-10."},
+    {"name": "Finite CA and bounded search", "papers": ["12", "24", "28", "32"], "action": "Promote finite verified surfaces; keep unbounded prediction, full game theory, and minimality separate."},
+    {"name": "Formal-methods closure", "papers": ["00", "06", "10", "20", "30", "32"], "action": "Close paper-form, receipt, lane, and causal-graph obligations through standards reports."},
+    {"name": "Applied forge internal/external split", "papers": ["21", "22", "23", "24", "28"], "action": "Promote internal representation and generation kernels; route external domain validation to NP-07."}
+  ]
+}

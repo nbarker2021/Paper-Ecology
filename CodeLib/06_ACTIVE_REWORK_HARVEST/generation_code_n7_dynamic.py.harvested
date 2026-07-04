@@ -1,0 +1,50 @@
+source: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/generation_code_n7_dynamic.py
+harvest_date: 2026-07-04T02:40:48-0700
+target: D:/CodeLib/paper-03__triality_surface.py
+status: harvested
+action: append
+porting_rules_applied:
+  - random / heapq usage removed (deterministic ordered structures)
+  - analysis_scripts / LayoutMemory / networkx external dependencies removed
+  - CLI / main block removed
+  - mathematical algorithms preserved: permutation enumeration, hashing, sequence assembly
+  - unified form: clean docstrings, type hints
+  - verify_* functions added for each ported capability
+  - duplicates skipped: PermutationData, ProdigalResult, build_debruijn_graph,
+    find_cycles, find_high_weight_paths, construct_superpermutation, calculate_score,
+    calculate_overlap, calculate_distance, hash_permutation, unhash_permutation,
+    is_valid_permutation, generate_permutations, get_kmers, calculate_golden_ratio_points
+ported_functions:
+  - initialize_data
+  - generate_permutations_on_demand_hypothetical
+  - generate_permutations_on_demand
+  - is_cyclically_distinct
+  - verify_initialize_data
+  - verify_generate_permutations_on_demand_hypothetical
+  - verify_generate_permutations_on_demand
+  - verify_is_cyclically_distinct
+discarded:
+  - main() and __main__ block (CLI / I/O)
+  - generate_hypothetical_prodigals (non-deterministic: random, heapq, networkx, analysis_scripts dependencies)
+  - add_weights_to_debruijn (depends on networkx DiGraph edge attributes)
+  - find_high_weight_paths from source (already present in unified form)
+  - calculate_score from source (already present in unified form)
+  - construct_superpermutation from source (already present in unified form)
+  - build_debruijn_graph from source (already present in unified form)
+  - find_cycles from source (already present in unified form)
+  - PermutationData from source (already present in unified form)
+  - ProdigalResult from source (already present in unified form)
+  - Constants and thresholds (PRODIGAL_OVERLAP_THRESHOLD, NUM_ITERATIONS, etc. — non-mathematical runtime parameters)
+  - File I/O operations (loading winners/losers/prodigals from text files)
+  - LayoutMemory integration (external dependency)
+  - time-based timing and print-based logging
+CAMLib_hashes:
+  initialize_data: sha256://7a162e6596bcc9ad1d7b7006fb8f43d6921b463e27e29581d0c49a60c7c4eea9
+  generate_permutations_on_demand_hypothetical: sha256://d7cb0f9045c500cb3be2bde3009c1fba8d08eb76b8bad8e266229cbc77b60b9b
+  generate_permutations_on_demand: sha256://29e9750d84e06cc364f51208df346fd2a5971536c4f58d19c48aefc48f089d71
+  is_cyclically_distinct: sha256://1238d85ae9ec927a95659f424bb4614b4aa59e2ad402ec5a89943d0518f3002c
+  verify_initialize_data: sha256://31546abc1451123def800c74f90a9ed0d686f2ffc35227994af8602ae504c8c4
+  verify_generate_permutations_on_demand_hypothetical: sha256://cdfb5fe666c4ea78718e9f6f17ff8b8821326cbbd00cef234a95fc771e9331cc
+  verify_generate_permutations_on_demand: sha256://1dd9a9007813cdebe16ea12005558250fcfb29c51c32d38294cb16b46b240337
+  verify_is_cyclically_distinct: sha256://924c45809f4fd0b582e983649d1e6ffb47701c5fbfdcda92facaf7406200745d
+  __harvest_section__: sha256://9e5e4f87f36a432df3995008d416d93c1aef60e8deb39b4b4b8a9e7b9de340bd

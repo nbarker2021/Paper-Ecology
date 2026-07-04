@@ -1,0 +1,64 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0009",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\.cqe\\meso\\4160b3ec00a2149f\\meso.db",
+  "name": "meso.db",
+  "status": "ok",
+  "signal_score": 38,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 5,
+  "signal_tables": [
+    {
+      "table": "meso_cells",
+      "row_count": 34551,
+      "signal_columns": [
+        "cell_hash",
+        "address"
+      ]
+    },
+    {
+      "table": "meso_charts",
+      "row_count": 10,
+      "signal_columns": [
+        "parent_cam",
+        "content_hash"
+      ]
+    },
+    {
+      "table": "meso_promotions",
+      "row_count": 8,
+      "signal_columns": [
+        "cam_hash"
+      ]
+    },
+    {
+      "table": "meso_promotions_node",
+      "row_count": 28555,
+      "signal_columns": [
+        "cam_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "ed80c0dd024d874f24cb762c20ccf328e66aeb54d28f5304bb273bb72b9eb7a0"
+}

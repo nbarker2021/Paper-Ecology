@@ -1,0 +1,88 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0039",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX\\cmplx_submodules\\CMPLX\\core\\mmdb\\mmdb.sqlite3",
+  "name": "mmdb.sqlite3",
+  "status": "ok",
+  "signal_score": 51,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 13,
+  "signal_tables": [
+    {
+      "table": "atoms",
+      "row_count": 1000,
+      "signal_columns": [
+        "receipt_id"
+      ]
+    },
+    {
+      "table": "chunk",
+      "row_count": 3,
+      "signal_columns": [
+        "source_id",
+        "content"
+      ]
+    },
+    {
+      "table": "dependency_edge",
+      "row_count": 0,
+      "signal_columns": [
+        "from_source",
+        "to_source",
+        "edge_type"
+      ]
+    },
+    {
+      "table": "receipt",
+      "row_count": 0,
+      "signal_columns": [
+        "inputs_hash",
+        "outputs_hash",
+        "prev_hash"
+      ]
+    },
+    {
+      "table": "receipts",
+      "row_count": 1000,
+      "signal_columns": [
+        "receipt_id",
+        "input_hash",
+        "output_hash"
+      ]
+    },
+    {
+      "table": "source",
+      "row_count": 3,
+      "signal_columns": [
+        "sha256"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "3070d79a328ef73c09026f2df0dcd65cf52d93b36ce1356d5396ceec4402fe8e"
+}

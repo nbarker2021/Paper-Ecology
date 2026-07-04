@@ -1,0 +1,16 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 15,
+  "artifact": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite81_claude_codex_memory\\Claude work\\CL-Paper-Evidence-DB\\CL_proof-source-*.md",
+  "why_it_matters": "High-scoring unintegrated proof-source docs.",
+  "suggested_slots": [
+    "01",
+    "03",
+    "06",
+    "08",
+    "09"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "43a4e68689fd2ab1e68987b69ee14c77d81b691ddfa1e3d8145c0d7ccc892e08"
+}

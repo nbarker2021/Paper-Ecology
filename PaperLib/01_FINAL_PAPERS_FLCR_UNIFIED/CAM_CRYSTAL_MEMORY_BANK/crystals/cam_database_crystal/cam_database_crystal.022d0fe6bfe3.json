@@ -1,0 +1,128 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0045",
+  "path": "D:\\CQE_CMPLX\\kernel\\staging\\crystal_library\\crystal.db",
+  "name": "crystal.db",
+  "status": "ok",
+  "signal_score": 99,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 10,
+  "signal_tables": [
+    {
+      "table": "builds",
+      "row_count": 1,
+      "signal_columns": [
+        "n_named_claims",
+        "n_receipts",
+        "n_r30_proof_slots",
+        "source_crystal_path",
+        "source_crystal_size",
+        "source_crystal_mtime"
+      ]
+    },
+    {
+      "table": "claims_per_kernel",
+      "row_count": 130,
+      "signal_columns": [
+        "claim_id"
+      ]
+    },
+    {
+      "table": "falsifiers",
+      "row_count": 268,
+      "signal_columns": [
+        "claim_id"
+      ]
+    },
+    {
+      "table": "kernels",
+      "row_count": 169,
+      "signal_columns": [
+        "paper_id",
+        "n_claims",
+        "receipt_path",
+        "receipt_schema",
+        "claims_jsonl_path"
+      ]
+    },
+    {
+      "table": "named_claims",
+      "row_count": 84,
+      "signal_columns": [
+        "claim"
+      ]
+    },
+    {
+      "table": "open_obligations",
+      "row_count": 222,
+      "signal_columns": [
+        "claim_id"
+      ]
+    },
+    {
+      "table": "promotions",
+      "row_count": 50,
+      "signal_columns": [
+        "commit_hash",
+        "short_hash"
+      ]
+    },
+    {
+      "table": "r30_proof_slots",
+      "row_count": 17,
+      "signal_columns": [
+        "slot",
+        "paper_id",
+        "receipt_id",
+        "key_claim"
+      ]
+    },
+    {
+      "table": "receipts",
+      "row_count": 275,
+      "signal_columns": [
+        "receipt_id",
+        "paper_id",
+        "slot",
+        "receipt_path",
+        "has_key_claims",
+        "has_slot_collision"
+      ]
+    },
+    {
+      "table": "suites",
+      "row_count": 101,
+      "signal_columns": [
+        "n_papers_observed",
+        "n_papers_total"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "022d0fe6bfe36935fccb336dbf82aaf5423e0ed22c90df0d9749e0bd975f1c01"
+}

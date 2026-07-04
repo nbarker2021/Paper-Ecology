@@ -1,0 +1,56 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-13",
+  "obligation_closed": "SM-02",
+  "verifier": "published_data_ckm_matrix",
+  "finding": "PDG CKM matrix magnitudes for 3-stage bounded route calibration",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "CKM matrix magnitudes",
+    "published_values": {
+      "V_ud": {
+        "value": 0.9737,
+        "uncertainty": 0.0003
+      },
+      "V_us": {
+        "value": 0.2243,
+        "uncertainty": 0.0008
+      },
+      "V_ub": {
+        "value": 0.00382,
+        "uncertainty": 0.00024
+      },
+      "V_cd": {
+        "value": 0.221,
+        "uncertainty": 0.004
+      },
+      "V_cs": {
+        "value": 0.987,
+        "uncertainty": 0.011
+      },
+      "V_cb": {
+        "value": 0.041,
+        "uncertainty": 0.0014
+      },
+      "V_td": {
+        "value": 0.008,
+        "uncertainty": 0.0003
+      },
+      "V_ts": {
+        "value": 0.0394,
+        "uncertainty": 0.0005
+      },
+      "V_tb": {
+        "value": 0.9991,
+        "uncertainty": 0.0001
+      }
+    },
+    "source": "Particle Data Group 2024 Review",
+    "note": "Route parameters remain uncalibrated; PDG values are the IRL target."
+  },
+  "checks": {
+    "C1_all_nine_elements_recorded": true,
+    "C2_pdg_source_cited": true
+  },
+  "cam_address": "94f6fec3f5326a8b08a7f5855a2105c67b427af64ecdb85952792a6168417112"
+}

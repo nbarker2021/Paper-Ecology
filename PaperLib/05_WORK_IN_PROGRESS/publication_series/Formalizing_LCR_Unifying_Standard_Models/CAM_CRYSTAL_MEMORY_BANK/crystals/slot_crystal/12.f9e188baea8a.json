@@ -1,0 +1,88 @@
+{
+  "kind": "slot_crystal",
+  "granularity": "slot",
+  "slot": "12",
+  "record_count": 2,
+  "decision_counts": {
+    "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+  },
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0008",
+      "record_type": "local_unintegrated_artifact",
+      "title": "verify_rule30_proof_obligations.json",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "ledger_action",
+        "fold_action",
+        "residual_action",
+        "window_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "06",
+        "16",
+        "26",
+        "36",
+        "03",
+        "13",
+        "23",
+        "33",
+        "02",
+        "12",
+        "22",
+        "32",
+        "09",
+        "19",
+        "29",
+        "39"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\receipts\\verify_rule30_proof_obligations.json"
+    },
+    {
+      "record_id": "LOCAL-GAP-0054",
+      "record_type": "local_unintegrated_artifact",
+      "title": "041-claude-real-math-umbrella-open-obligations.md",
+      "decision": "DISCOVERY_EXTERNAL_PAIR_REQUIRED",
+      "assembly_score": 36,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "ledger_action",
+        "terminal_action",
+        "residual_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "06",
+        "16",
+        "26",
+        "36",
+        "08",
+        "18",
+        "28",
+        "38",
+        "02",
+        "12",
+        "22",
+        "32"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite83_cmplx_kernel_production\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\041-claude-real-math-umbrella-open-obligations.md"
+    }
+  ],
+  "content_address": "f9e188baea8a64a0e94da1f909a5a78348ee2ad92d7060a343e0dae73f16639e"
+}

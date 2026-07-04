@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR33-015",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-03",
+  "O_ext": "Electroweak subgroup transfer",
+  "equation_or_source": "`invariant_transfer_su2u1_in_su3_receipt.json`, `SMD-03`, `SMD-06`",
+  "O_lcr": "LCR translation surface",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "Measured electroweak parameters.",
+  "dataset": "",
+  "falsifier": "Measured electroweak parameters.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

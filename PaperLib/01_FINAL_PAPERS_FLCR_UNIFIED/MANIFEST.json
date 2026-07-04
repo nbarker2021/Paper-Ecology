@@ -1,0 +1,1858 @@
+{
+  "schema": "flcr_unified_final_export.v1",
+  "source_root": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models",
+  "export_root": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED",
+  "paper_count": 40,
+  "artifact_policy": "flat shareable export; nested FLCR working folders are not required to browse these final forms",
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "00"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__formal.md",
+          "exists": true,
+          "bytes": 59868
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__companion.md",
+          "exists": true,
+          "bytes": 13952
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__workbook.md",
+          "exists": true,
+          "bytes": 13460
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__paper.pdf",
+          "exists": true,
+          "bytes": 43712
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__paper.tex",
+          "exists": true,
+          "bytes": 44943
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-01\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__paper.yml",
+          "exists": true,
+          "bytes": 14556
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "01"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__formal.md",
+          "exists": true,
+          "bytes": 56250
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__companion.md",
+          "exists": true,
+          "bytes": 10354
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__workbook.md",
+          "exists": true,
+          "bytes": 11065
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__paper.pdf",
+          "exists": true,
+          "bytes": 41070
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__paper.tex",
+          "exists": true,
+          "bytes": 42084
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-02\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-02__The_LCR_Carrier__paper.yml",
+          "exists": true,
+          "bytes": 14097
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "02"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__formal.md",
+          "exists": true,
+          "bytes": 52561
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__companion.md",
+          "exists": true,
+          "bytes": 9978
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__workbook.md",
+          "exists": true,
+          "bytes": 10730
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__paper.pdf",
+          "exists": true,
+          "bytes": 38110
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__paper.tex",
+          "exists": true,
+          "bytes": 39965
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-03\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-03__Correction_Surface_And_Residual_Accounting__paper.yml",
+          "exists": true,
+          "bytes": 12544
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "03"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__formal.md",
+          "exists": true,
+          "bytes": 55530
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__companion.md",
+          "exists": true,
+          "bytes": 10307
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__workbook.md",
+          "exists": true,
+          "bytes": 10843
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__paper.pdf",
+          "exists": true,
+          "bytes": 39362
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__paper.tex",
+          "exists": true,
+          "bytes": 40945
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-04\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__paper.yml",
+          "exists": true,
+          "bytes": 12992
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "04"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__formal.md",
+          "exists": true,
+          "bytes": 51563
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__companion.md",
+          "exists": true,
+          "bytes": 9926
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__workbook.md",
+          "exists": true,
+          "bytes": 10739
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__paper.pdf",
+          "exists": true,
+          "bytes": 36940
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__paper.tex",
+          "exists": true,
+          "bytes": 38760
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-05\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-05__Typed_Boundary_Repair__paper.yml",
+          "exists": true,
+          "bytes": 12571
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "05"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__formal.md",
+          "exists": true,
+          "bytes": 56880
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__companion.md",
+          "exists": true,
+          "bytes": 10722
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__workbook.md",
+          "exists": true,
+          "bytes": 11029
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__paper.pdf",
+          "exists": true,
+          "bytes": 40808
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__paper.tex",
+          "exists": true,
+          "bytes": 41258
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-06\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__paper.yml",
+          "exists": true,
+          "bytes": 13491
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "06"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__formal.md",
+          "exists": true,
+          "bytes": 64365
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__companion.md",
+          "exists": true,
+          "bytes": 12956
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__workbook.md",
+          "exists": true,
+          "bytes": 12445
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__paper.pdf",
+          "exists": true,
+          "bytes": 47998
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__paper.tex",
+          "exists": true,
+          "bytes": 44664
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-07\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__paper.yml",
+          "exists": true,
+          "bytes": 16890
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "07"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__formal.md",
+          "exists": true,
+          "bytes": 56743
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__companion.md",
+          "exists": true,
+          "bytes": 12364
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__workbook.md",
+          "exists": true,
+          "bytes": 12543
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__paper.pdf",
+          "exists": true,
+          "bytes": 41058
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__paper.tex",
+          "exists": true,
+          "bytes": 41703
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-08\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__paper.yml",
+          "exists": true,
+          "bytes": 17287
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "08"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__formal.md",
+          "exists": true,
+          "bytes": 59614
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__companion.md",
+          "exists": true,
+          "bytes": 12811
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__workbook.md",
+          "exists": true,
+          "bytes": 11806
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__paper.pdf",
+          "exists": true,
+          "bytes": 42935
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__paper.tex",
+          "exists": true,
+          "bytes": 43371
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-09\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__paper.yml",
+          "exists": true,
+          "bytes": 14272
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "09"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__formal.md",
+          "exists": true,
+          "bytes": 59472
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__companion.md",
+          "exists": true,
+          "bytes": 10408
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__workbook.md",
+          "exists": true,
+          "bytes": 11101
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__paper.pdf",
+          "exists": true,
+          "bytes": 42730
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__paper.tex",
+          "exists": true,
+          "bytes": 42984
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-10\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__paper.yml",
+          "exists": true,
+          "bytes": 14362
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "10"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__formal.md",
+          "exists": true,
+          "bytes": 58921
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__companion.md",
+          "exists": true,
+          "bytes": 12717
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__workbook.md",
+          "exists": true,
+          "bytes": 11901
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__paper.pdf",
+          "exists": true,
+          "bytes": 42364
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__paper.tex",
+          "exists": true,
+          "bytes": 42193
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-11\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-11__Master_Receipt_And_Stack_Replay__paper.yml",
+          "exists": true,
+          "bytes": 15554
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "11"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__formal.md",
+          "exists": true,
+          "bytes": 60239
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__companion.md",
+          "exists": true,
+          "bytes": 11836
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__workbook.md",
+          "exists": true,
+          "bytes": 11271
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__paper.pdf",
+          "exists": true,
+          "bytes": 42255
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__paper.tex",
+          "exists": true,
+          "bytes": 43140
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-12\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-12__Theory_Admission_Gates__paper.yml",
+          "exists": true,
+          "bytes": 14722
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "12"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__formal.md",
+          "exists": true,
+          "bytes": 62648
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__companion.md",
+          "exists": true,
+          "bytes": 14362
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__workbook.md",
+          "exists": true,
+          "bytes": 12573
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__paper.pdf",
+          "exists": true,
+          "bytes": 44259
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__paper.tex",
+          "exists": true,
+          "bytes": 44307
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-13\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__paper.yml",
+          "exists": true,
+          "bytes": 15711
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "13"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__formal.md",
+          "exists": true,
+          "bytes": 57849
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__companion.md",
+          "exists": true,
+          "bytes": 12457
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__workbook.md",
+          "exists": true,
+          "bytes": 12010
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__paper.pdf",
+          "exists": true,
+          "bytes": 40394
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__paper.tex",
+          "exists": true,
+          "bytes": 41643
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-14\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__paper.yml",
+          "exists": true,
+          "bytes": 14865
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "14"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__formal.md",
+          "exists": true,
+          "bytes": 55212
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__companion.md",
+          "exists": true,
+          "bytes": 11398
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__workbook.md",
+          "exists": true,
+          "bytes": 11250
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__paper.pdf",
+          "exists": true,
+          "bytes": 37926
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__paper.tex",
+          "exists": true,
+          "bytes": 39971
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-15\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__paper.yml",
+          "exists": true,
+          "bytes": 13711
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "15"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__formal.md",
+          "exists": true,
+          "bytes": 59090
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__companion.md",
+          "exists": true,
+          "bytes": 12388
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__workbook.md",
+          "exists": true,
+          "bytes": 12108
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__paper.pdf",
+          "exists": true,
+          "bytes": 41335
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__paper.tex",
+          "exists": true,
+          "bytes": 42252
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-16\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__paper.yml",
+          "exists": true,
+          "bytes": 15150
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "16"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__formal.md",
+          "exists": true,
+          "bytes": 56456
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__companion.md",
+          "exists": true,
+          "bytes": 13818
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__workbook.md",
+          "exists": true,
+          "bytes": 12707
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__paper.pdf",
+          "exists": true,
+          "bytes": 39388
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__paper.tex",
+          "exists": true,
+          "bytes": 40598
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-17\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-17__Continuum_Edge_Residuals__paper.yml",
+          "exists": true,
+          "bytes": 16219
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__formal.md",
+          "exists": true,
+          "bytes": 66166
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__companion.md",
+          "exists": true,
+          "bytes": 13556
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__workbook.md",
+          "exists": true,
+          "bytes": 14662
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__paper.pdf",
+          "exists": true,
+          "bytes": 47770
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__paper.tex",
+          "exists": true,
+          "bytes": 48493
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-18\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__paper.yml",
+          "exists": true,
+          "bytes": 17116
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "20"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__formal.md",
+          "exists": true,
+          "bytes": 55499
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__companion.md",
+          "exists": true,
+          "bytes": 14840
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__workbook.md",
+          "exists": true,
+          "bytes": 12489
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__paper.pdf",
+          "exists": true,
+          "bytes": 38113
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__paper.tex",
+          "exists": true,
+          "bytes": 40004
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-19\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-19__Layer_2_Synthesis_Ledger__paper.yml",
+          "exists": true,
+          "bytes": 16695
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "21"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__formal.md",
+          "exists": true,
+          "bytes": 67070
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__companion.md",
+          "exists": true,
+          "bytes": 12990
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__workbook.md",
+          "exists": true,
+          "bytes": 12045
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__paper.pdf",
+          "exists": true,
+          "bytes": 48342
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__paper.tex",
+          "exists": true,
+          "bytes": 45756
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-20\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__paper.yml",
+          "exists": true,
+          "bytes": 16852
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "22"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__formal.md",
+          "exists": true,
+          "bytes": 61491
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__companion.md",
+          "exists": true,
+          "bytes": 14308
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__workbook.md",
+          "exists": true,
+          "bytes": 12764
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__paper.pdf",
+          "exists": true,
+          "bytes": 41956
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__paper.tex",
+          "exists": true,
+          "bytes": 43242
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-21\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-21__Materials_Candidate_Generation__paper.yml",
+          "exists": true,
+          "bytes": 17598
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "23"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__formal.md",
+          "exists": true,
+          "bytes": 59632
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__companion.md",
+          "exists": true,
+          "bytes": 12426
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__workbook.md",
+          "exists": true,
+          "bytes": 11455
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__paper.pdf",
+          "exists": true,
+          "bytes": 40637
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__paper.tex",
+          "exists": true,
+          "bytes": 42052
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-22\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__paper.yml",
+          "exists": true,
+          "bytes": 14715
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__formal.md",
+          "exists": true,
+          "bytes": 64383
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__companion.md",
+          "exists": true,
+          "bytes": 12987
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__workbook.md",
+          "exists": true,
+          "bytes": 12521
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__paper.pdf",
+          "exists": true,
+          "bytes": 44276
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__paper.tex",
+          "exists": true,
+          "bytes": 45357
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-23\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__paper.yml",
+          "exists": true,
+          "bytes": 16627
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "25"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__formal.md",
+          "exists": true,
+          "bytes": 59141
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__companion.md",
+          "exists": true,
+          "bytes": 12972
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__workbook.md",
+          "exists": true,
+          "bytes": 11961
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__paper.pdf",
+          "exists": true,
+          "bytes": 40730
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__paper.tex",
+          "exists": true,
+          "bytes": 41990
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-24\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-24__Energetic_Traversal_Maps__paper.yml",
+          "exists": true,
+          "bytes": 15068
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "26"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__formal.md",
+          "exists": true,
+          "bytes": 55242
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__companion.md",
+          "exists": true,
+          "bytes": 11771
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__workbook.md",
+          "exists": true,
+          "bytes": 11335
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__paper.pdf",
+          "exists": true,
+          "bytes": 37561
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__paper.tex",
+          "exists": true,
+          "bytes": 39677
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-25\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__paper.yml",
+          "exists": true,
+          "bytes": 13852
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "27"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__formal.md",
+          "exists": true,
+          "bytes": 60497
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__companion.md",
+          "exists": true,
+          "bytes": 12787
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__workbook.md",
+          "exists": true,
+          "bytes": 12016
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__paper.pdf",
+          "exists": true,
+          "bytes": 42150
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__paper.tex",
+          "exists": true,
+          "bytes": 43422
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-26\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__paper.yml",
+          "exists": true,
+          "bytes": 15877
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "29"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__formal.md",
+          "exists": true,
+          "bytes": 63147
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__companion.md",
+          "exists": true,
+          "bytes": 13247
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__workbook.md",
+          "exists": true,
+          "bytes": 12125
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__paper.pdf",
+          "exists": true,
+          "bytes": 44821
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__paper.tex",
+          "exists": true,
+          "bytes": 45188
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-27\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__paper.yml",
+          "exists": true,
+          "bytes": 15387
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "band": "lcr_native",
+      "legacy_papers": [],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__formal.md",
+          "exists": true,
+          "bytes": 58622
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__companion.md",
+          "exists": true,
+          "bytes": 10374
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__workbook.md",
+          "exists": true,
+          "bytes": 13316
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.pdf",
+          "exists": true,
+          "bytes": 48511
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.tex",
+          "exists": true,
+          "bytes": 46929
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__paper.yml",
+          "exists": true,
+          "bytes": 11387
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__formal.md",
+          "exists": true,
+          "bytes": 61418
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__companion.md",
+          "exists": true,
+          "bytes": 13888
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__workbook.md",
+          "exists": true,
+          "bytes": 12097
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__paper.pdf",
+          "exists": true,
+          "bytes": 43000
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__paper.tex",
+          "exists": true,
+          "bytes": 44595
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-29\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__paper.yml",
+          "exists": true,
+          "bytes": 16091
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "band": "lcr_native",
+      "legacy_papers": [
+        "32"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__formal.md",
+          "exists": true,
+          "bytes": 61340
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__companion.md",
+          "exists": true,
+          "bytes": 15118
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__workbook.md",
+          "exists": true,
+          "bytes": 13212
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__paper.pdf",
+          "exists": true,
+          "bytes": 42865
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__paper.tex",
+          "exists": true,
+          "bytes": 44066
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-30\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__paper.yml",
+          "exists": true,
+          "bytes": 18824
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "13"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__formal.md",
+          "exists": true,
+          "bytes": 68008
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__companion.md",
+          "exists": true,
+          "bytes": 13732
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__workbook.md",
+          "exists": true,
+          "bytes": 13688
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__paper.pdf",
+          "exists": true,
+          "bytes": 49274
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__paper.tex",
+          "exists": true,
+          "bytes": 51070
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-31\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__paper.yml",
+          "exists": true,
+          "bytes": 14812
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "13"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__formal.md",
+          "exists": true,
+          "bytes": 67497
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__companion.md",
+          "exists": true,
+          "bytes": 13551
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__workbook.md",
+          "exists": true,
+          "bytes": 13681
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__paper.pdf",
+          "exists": true,
+          "bytes": 48941
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__paper.tex",
+          "exists": true,
+          "bytes": 50585
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-32\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-32__QCD_And_Color_Transport_In_LCR__paper.yml",
+          "exists": true,
+          "bytes": 14814
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "15"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__formal.md",
+          "exists": true,
+          "bytes": 66270
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__companion.md",
+          "exists": true,
+          "bytes": 13607
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__workbook.md",
+          "exists": true,
+          "bytes": 13761
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__paper.pdf",
+          "exists": true,
+          "bytes": 50227
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__paper.tex",
+          "exists": true,
+          "bytes": 52016
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__paper.yml",
+          "exists": true,
+          "bytes": 15132
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__formal.md",
+          "exists": true,
+          "bytes": 50625
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__companion.md",
+          "exists": true,
+          "bytes": 8015
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__workbook.md",
+          "exists": true,
+          "bytes": 10953
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__paper.pdf",
+          "exists": true,
+          "bytes": 41003
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__paper.tex",
+          "exists": true,
+          "bytes": 45655
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-34\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-34__Electron_Hole_Exciton_Accounting__paper.yml",
+          "exists": true,
+          "bytes": 7288
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__formal.md",
+          "exists": true,
+          "bytes": 66084
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__companion.md",
+          "exists": true,
+          "bytes": 14220
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__workbook.md",
+          "exists": true,
+          "bytes": 14838
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__paper.pdf",
+          "exists": true,
+          "bytes": 46243
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__paper.tex",
+          "exists": true,
+          "bytes": 49169
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-35\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-35__GR_Curvature_And_Continuum_Translation__paper.yml",
+          "exists": true,
+          "bytes": 16918
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "22"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__formal.md",
+          "exists": true,
+          "bytes": 73385
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__companion.md",
+          "exists": true,
+          "bytes": 15518
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__workbook.md",
+          "exists": true,
+          "bytes": 14486
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__paper.pdf",
+          "exists": true,
+          "bytes": 53472
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__paper.tex",
+          "exists": true,
+          "bytes": 53034
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-36\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__paper.yml",
+          "exists": true,
+          "bytes": 18543
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__formal.md",
+          "exists": true,
+          "bytes": 71063
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__companion.md",
+          "exists": true,
+          "bytes": 16553
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__workbook.md",
+          "exists": true,
+          "bytes": 15597
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__paper.pdf",
+          "exists": true,
+          "bytes": 48851
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__paper.tex",
+          "exists": true,
+          "bytes": 52903
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-37\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__paper.yml",
+          "exists": true,
+          "bytes": 19113
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__formal.md",
+          "exists": true,
+          "bytes": 83557
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__companion.md",
+          "exists": true,
+          "bytes": 18706
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__workbook.md",
+          "exists": true,
+          "bytes": 17728
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__paper.pdf",
+          "exists": true,
+          "bytes": 61377
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__paper.tex",
+          "exists": true,
+          "bytes": 60661
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-38\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__paper.yml",
+          "exists": true,
+          "bytes": 24762
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "band": "standard_model_bridge_preview",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__formal.md",
+          "exists": true,
+          "bytes": 84936
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__companion.md",
+          "exists": true,
+          "bytes": 16053
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__workbook.md",
+          "exists": true,
+          "bytes": 15765
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__paper.pdf",
+          "exists": true,
+          "bytes": 65524
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__paper.tex",
+          "exists": true,
+          "bytes": 64172
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-39\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__paper.yml",
+          "exists": true,
+          "bytes": 21728
+        }
+      }
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "band": "reconstruction_map",
+      "legacy_papers": [],
+      "files": {
+        "formal.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\formal.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__formal.md",
+          "exists": true,
+          "bytes": 79803
+        },
+        "companion.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\companion.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__companion.md",
+          "exists": true,
+          "bytes": 8950
+        },
+        "workbook.md": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\workbook.md",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__workbook.md",
+          "exists": true,
+          "bytes": 11402
+        },
+        "paper.pdf": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\paper.pdf",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__paper.pdf",
+          "exists": true,
+          "bytes": 75076
+        },
+        "paper.tex": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\paper.tex",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__paper.tex",
+          "exists": true,
+          "bytes": 73784
+        },
+        "paper.yml": {
+          "source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-40\\paper.yml",
+          "dest": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__paper.yml",
+          "exists": true,
+          "bytes": 12045
+        }
+      }
+    }
+  ]
+}

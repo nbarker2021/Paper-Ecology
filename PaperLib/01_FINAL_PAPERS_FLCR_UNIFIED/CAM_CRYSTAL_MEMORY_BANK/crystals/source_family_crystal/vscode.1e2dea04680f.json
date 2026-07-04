@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": ".vscode",
+  "missing_count": 1,
+  "highest_score": 21,
+  "sample_files": [
+    ".vscode\\settings.json"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "1e2dea04680fcd2c3f30902bb70984659339777d147783198f3b1f47cc644104"
+}

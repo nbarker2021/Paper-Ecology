@@ -1,0 +1,36 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0073",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\data\\simulation_results.db",
+  "name": "simulation_results.db",
+  "status": "ok",
+  "signal_score": 4,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 2,
+  "signal_tables": [
+    {
+      "table": "results",
+      "row_count": 10,
+      "signal_columns": [
+        "quality_score"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "799071e704230b881cad3c7eef07afc58058b285ade6a5611d4740c856006d23"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0057",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Barker_Market_Engine.zip",
+  "name": "Barker_Market_Engine.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 11,
+  "high_signal_entry_count": 10,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "carrier_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "05",
+    "15",
+    "25",
+    "35",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "7d276d3f9d70da4cb19316b8f2ee60572e1c46d36b036e9235ba1d03381fe91f"
+}

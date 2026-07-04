@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR33-005",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-06",
+  "O_ext": "ATLAS/CMS/PDG mass row",
+  "equation_or_source": "ATLAS/CMS/PDG mass row",
+  "O_lcr": "no calibrated LCR value yet",
+  "lane": "falsifier_or_open_obligation",
+  "boundary": "Add units, value, uncertainty, and pass/fail tolerance.",
+  "dataset": "",
+  "falsifier": "Add units, value, uncertainty, and pass/fail tolerance.",
+  "closure_state": "open_obligation",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-ATLAS-HIGGS-2012"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Active Comparator Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

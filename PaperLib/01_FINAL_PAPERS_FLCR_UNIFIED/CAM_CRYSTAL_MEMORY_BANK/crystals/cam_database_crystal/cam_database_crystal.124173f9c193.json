@@ -1,0 +1,46 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0007",
+  "path": "D:\\CQE_CMPLX\\PAPERS_LINEAGE.db",
+  "name": "PAPERS_LINEAGE.db",
+  "status": "ok",
+  "signal_score": 27,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 5,
+  "signal_tables": [
+    {
+      "table": "lineage_files",
+      "row_count": 4844,
+      "signal_columns": [
+        "content_sha256"
+      ]
+    },
+    {
+      "table": "paper_labels",
+      "row_count": 331,
+      "signal_columns": []
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "124173f9c193949059dcb14002bfb86a29af766b1a080742e5c10748e158c42b"
+}

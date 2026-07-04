@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0091",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\ForgeFactory_ReForge_Session_Master_v0_2\\ForgeFactory_ReForge_Session_Master_v0_2\\01_papers\\Papers01_20_EnMasse_Refinement_v0_1_Package.zip",
+  "name": "Papers01_20_EnMasse_Refinement_v0_1_Package.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 112,
+  "high_signal_entry_count": 112,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "dbdd334aa771f7e233f96199a220658aa120c0605c2565dde250de7a590edfeb"
+}

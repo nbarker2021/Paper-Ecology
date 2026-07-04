@@ -1,0 +1,233 @@
+publication_id: FLCR-12
+title: Theory Admission Gates
+series: Formalizing LCR, Unifying Standard Models
+band: lcr_native
+status: first_pass_rich_rewrite
+legacy_paths:
+- 11_Theory_Admission_Gate.md
+- virtuous/11_Theory_Admission_Gate_VIRTUOUS.md
+- supplements/11_INTERNAL_REASONING_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 12.1
+  lane: receipt_bound_internal_result
+  statement: a candidate theory is admissible only when its object, lane, evidence
+    class, residue, and falsifier are declared before promotion
+- id: Proposition 12.2
+  lane: normal_form_result
+  statement: admission gate can be imported by later papers only through its declared
+    source, receipt, and lane.
+- id: Protocol 12.3
+  lane: falsifier_or_open_obligation
+  statement: sporadic-boundary and encoder-invariance examples remain import routes,
+    not blanket admission
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- docker_standards_suite
+- docker_observability_security_governance
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+- MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+- D:\DockerContainers\Manny Docker Starter
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.164163+00:00'
+external_review_lanes:
+- lane_id: docker_standards_suite
+  claim_lane: normal_form_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Treats the Docker-hosted MannyAI standards stack as a first-class review lane
+    for structure, claim coverage, receipt status, open obligations, obligation continuity,
+    and suite-aware evidence.
+  boundary: Standards passing proves conformance to the review protocol, not truth
+    of every imported claim.
+- lane_id: docker_observability_security_governance
+  claim_lane: falsifier_or_open_obligation
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Adds operational guardrails, monitoring, deployment policy, Kubernetes/Helm
+    surfaces, and security documentation as automation-review guardrails.
+  boundary: Security/deployment docs are guardrails and falsifier lanes for automation,
+    not restrictions on human hypothesis generation.
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "11"
+      source_file: "11_Theory_Admission_Gate.md"
+      slot_family: "enumeration_action"
+      lift_depth: 1
+      dimensional_role: "order-2 slot-1: start the active one-dimensional action / enumerate the center state"
+      proof_form_required: "enumeration proof and identity preservation"
+
+dimensional_ribbon:
+  ribbon_slot: "11"
+  slot_digit: 1
+  slot_family: "enumeration_action"
+  lift_depth: 1
+  lift_name: "lift_1x"
+  order_index: 2
+  dimensional_role: "order-2 slot-1: start the active one-dimensional action / enumerate the center state"
+  state_bound_action: "start the active one-dimensional action / enumerate the center state"
+  proof_form_required: "enumeration proof and identity preservation"
+  inherits_from_same_family: "01"
+  lifts_to_same_family: "21"
+  ten_lift_anchor: "10"
+  cycle_window: ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 10 and reopened at original slot 11 (Theory Admission Gate)"
+  produced_state: "formal result of original slot 11 plus the same-family lift path toward slot 21"
+  semantic_transition: "select the active center and enumerate the addressable state space at the current lift"
+  accepted_formalism_targets:
+    - "finite set enumeration"
+    - "ordered tuples and projections"
+    - "group actions on finite carriers"
+    - "minimality or lower-bound arguments"
+  analog_invariance_test: "a coordinate chart: renaming the axes does not change which state is addressed"
+  previous_family_slot: "01"
+  next_family_slot: "21"
+
+claim_binding_queue:
+  queue_count: 1
+  queues:
+    - id: "negative_receipts_as_guards"
+      title: "Negative And Failed-Route Receipts As Guards"
+      lane: "falsifier_or_open_obligation"
+      promote_now: "Use failed routes, rejected candidates, and boundary receipts as exclusion evidence and counterexample guards."
+      bind_next: "Attach negative receipt path, rejected candidate, failure mode, and the promotion it blocks."
+      residue: "A negative receipt constrains the claim; it does not prove the positive replacement unless separately evidenced."
+
+claim_delta_ledger:
+  delta_count: 1
+  deltas:
+    - id: "negative_receipts_as_guards"
+      title: "Negative Receipts As Guards"
+      local_claim: "This paper may preserve failed routes and rejected candidates as meaningful boundary data."
+      later_evidence: "Negative receipts, failed verifier rows, rejected-as-datum outputs, and obligation ledgers."
+      revised_claim: "Use negative receipts as exclusion evidence and promotion guards."
+      boundary: "A negative receipt blocks a promotion; it does not prove a positive replacement unless separately evidenced."
+      workbook_replay: "Record rejected candidate, failure mode, blocked promotion, and remaining positive-proof requirement."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-12-F1"
+  primary_table: "FLCR-12-T1"
+  appendix_id: "FLCR-12-A"
+  glossary_terms:
+    - "CAM"
+    - "addressable slot"
+    - "center state"
+    - "claim lane"
+    - "crystal"
+    - "enumeration"
+    - "finite domain"
+    - "receipt"
+  planned_figures:
+    - "FLCR-12-F1: State enumeration chart"
+    - "FLCR-12-F2: Evidence routing map"
+    - "FLCR-12-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-12-T1: State inventory table"
+    - "FLCR-12-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-12-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-12-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 20
+  top_cards:
+    - title: "CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission Gate"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11.25.md`"
+      contributes: "Paper 11.25 describes the tools for reviewing the theory admission gate. These tools expose candidate admission, boundary routing, rejected-as-datum behavior, and the Pariah/Happy-Family worked boundary receipt. The toolkit works with: ```text candidate theory T10 trust anchor Gluon mass trusted spectrum K_max = 9 declared encoder admission receipt verdict ``` Primary executable files: ```text production/formal-papers/CQE-paper-11/verify_theory_admission_gate.py production/formal-papers/CQE-pape"
+    - title: "FORMAL: Paper 11 — C-Form: Theory Admission Gate Gluon"
+      archive_score: 77
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the admission filter Gluon** — the trust anchor that filters external theories by Gluon mass matching. In the lattice_forge substrate, C is realized as the **admission gate** that: - Takes an external theory's Gluon mass (computed from its transport signature) - Compares against the master receipt Gluon (Paper 10) and the trusted Gluon spectrum from `CmplxLookupCache` - Admits if: `mass(theory) ∈ spectrum(trusted_Gluons)` and `mass(theory) ≤ K_max=9` - Outputs: `admitted` (Gluon mass match"
+    - title: "SUMMARY-II-Folded-Strand-Physics: Summary Paper II — Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine"
+      archive_score: 75
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+      contributes: "This paper presents the **physics applications** of the Gluon formalism. We do not use the word \"Gluon\" because the fit is good. We use it because the substrate **IS** SU(3), and the physics IS the **standard model gauge theory in its algebraic / closed-form representation**."
+    - title: "SOURCE: Paper 11 - Theory Admission Gate"
+      archive_score: 71
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-11\\SOURCE.md`"
+      contributes: "This paper admits external theories as transport candidates whose failures become boundary receipts rather than summary dismissals. An external theory enters by an encoder that maps its objects to a binary tape (the worked case is *bit-length parity* of a group order), after which the same `n = 3` SU(3) Weyl test is applied. The admission gate has three outlets: *admitted* (closes, `res^2 = 0`, idempotent), *boundary* (closes where the established theory does not, marking a `-1` boundary state),"
+    - title: "FORMAL: Paper 10 — C-Form: T10 Master Receipt Gluon"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the master receipt Gluon** — the `LookupReceipt` that binds Papers 00-09 into a single inspectable, replayable causal unit. In the lattice_forge substrate, C is realized as the **master receipt** that: - Composes all 10 paper receipts into a single `LookupReceipt` via `CmplxLookupCache` - The master receipt's Gluon = the XOR of all 10 paper C-forms: `C_T10 = C₀ ⊕ C₁ ⊕ ... ⊕ C₉` - The master receipt certifies: every claim in 00-09 has a receipt, every obligation is logged, every transport i"
+    - title: "CQE-paper-11_UPGRADED: Paper 11 - Theory Admission Gate (UPGRADED: Affirmative Encoder-Bound Filter Physics Map)"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11_UPGRADED.md`"
+      contributes: "Paper 11 **proves the theory admission gate** for the CQECMPLX suite. An external theory is not admitted because it sounds compatible with the framework, and it is not discarded because a first transport attempt fails. It **is evaluated as a candidate** against the carried observer center, the Paper 10 master receipt, a trusted spectrum, and the `K=9` sheet boundary inherited from the lattice closure layer."
+    - title: "CQE-paper-11: Paper 11 - Theory Admission Gate"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-11.md`"
+      contributes: "Paper 11 proves the theory admission gate for the CQECMPLX suite. An external theory is not admitted because it sounds compatible with the framework, and it is not discarded because a first transport attempt fails. It is evaluated as a candidate against the carried observer center, the Paper 10 master receipt, a trusted spectrum, and the `K=9` sheet boundary inherited from the lattice closure layer."
+    - title: "PAPER-BODY: Paper 11 - Theory Admission Gate"
+      archive_score: 69
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\PAPER-BODY.md`"
+      contributes: "This paper states a local transport problem, gives a formal vocabulary for it, binds it to a ForgeFactory/Rhenium tool surface, and supplies an analog workbook sheet. The paper is written as a proof-facing document rather than as a description of how the paper was produced. Build-method details are retained only in appendices, receipts, and the Paper 31 meta-walkthrough."
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to increase the state inventory: enumerate the local carrier, admission candidates, or applied reader objects before interpretation is added."
+  routed_full_sources: 3
+  routed_partial_sources: 19
+  routed_transient_sources: 9
+  cam_score_rows_attached: 1
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

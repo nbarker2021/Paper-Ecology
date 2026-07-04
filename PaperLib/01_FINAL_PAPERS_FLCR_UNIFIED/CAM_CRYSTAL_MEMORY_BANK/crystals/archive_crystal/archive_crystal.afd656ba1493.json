@@ -1,0 +1,41 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0007",
+  "path": "D:\\CQE_CMPLX\\Claude-Codex-Memory\\Repo zips\\CMPLX-main.zip",
+  "name": "CMPLX-main.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 648,
+  "high_signal_entry_count": 610,
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "42",
+    "52",
+    "62",
+    "72",
+    "43",
+    "53",
+    "63",
+    "73"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "afd656ba1493560a0c11b1068643b3411c7ecae44ec6b9c63da1ac07dd4f14b9"
+}

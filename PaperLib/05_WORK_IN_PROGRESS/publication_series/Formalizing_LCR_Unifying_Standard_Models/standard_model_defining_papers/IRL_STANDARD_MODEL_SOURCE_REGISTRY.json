@@ -1,0 +1,118 @@
+﻿{
+    "schema":  "flcr_irl_standard_model_source_registry.v1",
+    "date":  "2026-06-28",
+    "sources":  [
+                    {
+                        "id":  "IRL-PDG-2026",
+                        "title":  "Particle Data Group Review of Particle Physics 2026",
+                        "url":  "https://pdg.lbl.gov/",
+                        "use":  "Particle properties, Standard Model reviews, summary tables, gauge boson/Higgs/lepton/quark data.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-PDG-2024",
+                        "title":  "Review of Particle Physics 2024/2025, Phys. Rev. D 110, 030001",
+                        "url":  "https://link.aps.org/doi/10.1103/PhysRevD.110.030001",
+                        "use":  "Stable citable PDG review for particle data and evaluated measurements.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-CODATA-2022",
+                        "title":  "NIST CODATA Recommended Values of the Fundamental Physical Constants: 2022",
+                        "url":  "https://physics.nist.gov/cuu/pdf/wall_2022.pdf",
+                        "use":  "Units-bearing constants and exact SI constants for calibration rows.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-ATLAS-HIGGS-2012",
+                        "title":  "ATLAS observation of a new particle in the search for the Standard Model Higgs boson",
+                        "url":  "https://arxiv.org/abs/1207.7214",
+                        "use":  "Higgs discovery evidence and mass-scale calibration surface.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-CMS-HIGGS-2012",
+                        "title":  "CMS observation of a new boson at a mass of 125 GeV",
+                        "url":  "https://arxiv.org/abs/1207.7235",
+                        "use":  "Independent Higgs discovery evidence and mass-scale calibration surface.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-NOBEL-NEUTRINO-2015",
+                        "title":  "Nobel advanced information: Neutrino Oscillations",
+                        "url":  "https://www.nobelprize.org/uploads/2017/09/advanced-physicsprize2015.pdf",
+                        "use":  "Neutrino oscillation evidence and beyond-minimal Standard Model boundary.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-NIST-CONSTANTS",
+                        "title":  "NIST Fundamental Physical Constants extensive listing",
+                        "url":  "https://physics.nist.gov/cuu/pdf/all.pdf",
+                        "use":  "Numerical constants, units, and uncertainty metadata for calibration tables.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-EXCITON-SPRINGER",
+                        "title":  "Excitons reference entry, Springer Nature",
+                        "url":  "https://link.springer.com/rwe/10.1007/978-3-319-06540-3_14-1",
+                        "use":  "Electron-hole, exciton, Wannier-Mott/Frenkel, binding-energy and dielectric/effective-mass formalism.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-EXCITON-2D-REVIEW",
+                        "title":  "Excitons in two-dimensional materials, arXiv:1911.00087",
+                        "url":  "https://arxiv.org/pdf/1911.00087",
+                        "use":  "Modern exciton review and material-dependent exciton evidence boundary.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-NIST-ALPHA-2022",
+                        "title":  "NIST CODATA inverse fine-structure constant",
+                        "url":  "https://physics.nist.gov/cgi-bin/cuu/Value?alphinv=",
+                        "use":  "Numerical alpha inverse calibration value: 137.035999177 with standard uncertainty 0.000000021.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-CODATA-2022-WALLET",
+                        "title":  "NIST CODATA 2022 wallet card",
+                        "url":  "https://physics.nist.gov/cuu/pdf/wallet_2022.pdf",
+                        "use":  "Compact units and constants reference for calibration tables.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-NIST-CARRIER-DYNAMICS",
+                        "title":  "NIST carrier dynamics by ultrafast time-resolved terahertz spectroscopy",
+                        "url":  "https://www.nist.gov/programs-projects/carrier-dynamics-measured-ultrafast-time-resolved-terahertz-spectroscopy",
+                        "use":  "Exciton/electron-hole separation, recombination, free carrier dynamics, and optoelectronic metrology lane.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-NIST-PV-EXCITON",
+                        "title":  "NIST optoelectrical characterization of photovoltaic materials and devices",
+                        "url":  "https://www.nist.gov/programs-projects/optoelectrical-characterization-nanostructured-photovoltaic-materials-and-devices",
+                        "use":  "Materials lane for exciton separation into free electrons and holes at heterojunction interfaces.",
+                        "lane":  "external_calibration_result"
+                    },
+                    {
+                        "id":  "IRL-LRR-GR-HYPERBOLIC",
+                        "title":  "Living Reviews in Relativity: Hyperbolic Methods for Einstein\u0027s Equations",
+                        "url":  "https://link.springer.com/article/10.12942/lrr-1998-3",
+                        "use":  "GR/continuum formalism boundary for Einstein equations as PDE/hyperbolic systems after gauge and constraint handling.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-PPPL-PLASMA-MAGNETIC",
+                        "title":  "PPPL fusion/plasma magnetic confinement testimony",
+                        "url":  "https://fire.pppl.gov/Prager_Testimony.pdf",
+                        "use":  "Plasma boundary row for charged-particle motion and magnetic confinement.",
+                        "lane":  "standard_theorem_citation_bound_result"
+                    },
+                    {
+                        "id":  "IRL-PPPL-PLASMA-DIAGNOSTICS-2026",
+                        "title":  "PPPL Plasma Diagnostics lecture notes",
+                        "url":  "https://w3.pppl.gov/~hji/Diagnostics_Lecture_Notes_04-28-26.pdf",
+                        "use":  "Plasma definition/calibration row: plasma consists of particles and fields; diagnostics are required for measured claims.",
+                        "lane":  "external_calibration_result"
+                    }
+                ]
+}

@@ -1,0 +1,119 @@
+{
+  "generated": "2026-07-03T10:30:31.555592",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 12,
+  "papers": {
+    "84": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_84.md",
+          "filename": "paper_84.md",
+          "size": 13750,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_84__yang_mills_mass_gap\\paper_84.md",
+          "filename": "paper_84.md",
+          "size": 13750,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-084.md",
+          "filename": "CQE-PAPER-084.md",
+          "size": 8043,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-084.md",
+          "filename": "CQE-PAPER-084.md",
+          "size": 8043,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_84.md"
+    },
+    "85": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_85.md",
+          "filename": "paper_85.md",
+          "size": 12723,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_85__navier_stokes_smoothness\\paper_85.md",
+          "filename": "paper_85.md",
+          "size": 12723,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-085.md",
+          "filename": "CQE-PAPER-085.md",
+          "size": 7741,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-085.md",
+          "filename": "CQE-PAPER-085.md",
+          "size": 7741,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_85.md"
+    },
+    "86": {
+      "variant_count": 4,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_86.md",
+          "filename": "paper_86.md",
+          "size": 15296,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_86__riemann_hypothesis\\paper_86.md",
+          "filename": "paper_86.md",
+          "size": 15296,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\08-unification\\CQE-PAPER-086.md",
+          "filename": "CQE-PAPER-086.md",
+          "size": 6183,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-086.md",
+          "filename": "CQE-PAPER-086.md",
+          "size": 6183,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_86.md"
+    }
+  }
+}

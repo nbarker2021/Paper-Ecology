@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "tmp_cam_crystal_init.py",
+  "missing_count": 1,
+  "highest_score": 38,
+  "sample_files": [
+    "tmp_cam_crystal_init.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "a939045b6f9ce23151dc6d2712539ffe47ff7fdeb10960675c4f87043b5d41f8"
+}

@@ -1,0 +1,259 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0019",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\lattice_forge_src\\ledger\\data\\cmplx_morphism_ledger_seed_v0_6.db",
+  "name": "cmplx_morphism_ledger_seed_v0_6.db",
+  "status": "ok",
+  "signal_score": 100,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 31,
+  "signal_tables": [
+    {
+      "table": "admissibility_edges",
+      "row_count": 66,
+      "signal_columns": [
+        "edge_id",
+        "source_id",
+        "via_morphism_id",
+        "hash"
+      ]
+    },
+    {
+      "table": "build_manifest_registry",
+      "row_count": 1,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "closure_obstruction_registry",
+      "row_count": 53,
+      "signal_columns": [
+        "source_id",
+        "hash"
+      ]
+    },
+    {
+      "table": "construction_status_registry",
+      "row_count": 113,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "convolution_registry",
+      "row_count": 4,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "discriminant_registry",
+      "row_count": 24,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "dynkin_registry",
+      "row_count": 29,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "exact_vectors",
+      "row_count": 12578,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "external_resource_registry",
+      "row_count": 4,
+      "signal_columns": [
+        "resource_id",
+        "source",
+        "resource_type"
+      ]
+    },
+    {
+      "table": "glue_requirements",
+      "row_count": 29,
+      "signal_columns": [
+        "path_hash",
+        "source_id"
+      ]
+    },
+    {
+      "table": "gram_forms",
+      "row_count": 52,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "involution_registry",
+      "row_count": 33,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "morphism_registry",
+      "row_count": 66,
+      "signal_columns": [
+        "morphism_id",
+        "source_id",
+        "morphism_type",
+        "hash"
+      ]
+    },
+    {
+      "table": "morphism_verification_registry",
+      "row_count": 35,
+      "signal_columns": [
+        "morphism_id",
+        "source_id",
+        "source_signature_json",
+        "hash"
+      ]
+    },
+    {
+      "table": "morphism_witness_registry",
+      "row_count": 3,
+      "signal_columns": [
+        "morphism_id",
+        "source_id",
+        "hash"
+      ]
+    },
+    {
+      "table": "nsl_boundary_registry",
+      "row_count": 53,
+      "signal_columns": [
+        "source_id",
+        "shannon_residue",
+        "hash"
+      ]
+    },
+    {
+      "table": "object_invariants",
+      "row_count": 118,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "path_metrics",
+      "row_count": 53,
+      "signal_columns": [
+        "path_hash",
+        "source_id",
+        "edge_count",
+        "exact_edge_count",
+        "template_edge_count",
+        "conceptual_edge_count",
+        "forbidden_edge_count",
+        "hash"
+      ]
+    },
+    {
+      "table": "path_registry",
+      "row_count": 53,
+      "signal_columns": [
+        "path_hash",
+        "source_id"
+      ]
+    },
+    {
+      "table": "prime_factor_registry",
+      "row_count": 7,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "reflection_action_registry",
+      "row_count": 326,
+      "signal_columns": [
+        "source_vector_id",
+        "hash"
+      ]
+    },
+    {
+      "table": "residue_registry",
+      "row_count": 4,
+      "signal_columns": [
+        "source_id"
+      ]
+    },
+    {
+      "table": "root_adjacency_registry",
+      "row_count": 970,
+      "signal_columns": [
+        "source_vector_id",
+        "hash"
+      ]
+    },
+    {
+      "table": "root_neighborhood_profiles",
+      "row_count": 5,
+      "signal_columns": [
+        "hash"
+      ]
+    },
+    {
+      "table": "terminal_24d_forms",
+      "row_count": 24,
+      "signal_columns": [
+        "gram_hash"
+      ]
+    },
+    {
+      "table": "terminal_admissibility_profiles",
+      "row_count": 53,
+      "signal_columns": [
+        "source_id",
+        "best_path_hash",
+        "hash"
+      ]
+    },
+    {
+      "table": "terminal_component_embeddings",
+      "row_count": 107,
+      "signal_columns": [
+        "source_id",
+        "source_vector_ids_json",
+        "hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "a1518ea55e6312e115835d6951a7e0805854f00d0b45c5ffcddc3024d75ab6ad"
+}

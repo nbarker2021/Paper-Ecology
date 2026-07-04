@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-09",
+  "original_slot": "09",
+  "title": "Hamiltonian Window Emergence",
+  "status": "source_backed",
+  "source_file": "09_Hamiltonian_Window_Emergence.md",
+  "linked_flcr_papers": [
+    "FLCR-10"
+  ],
+  "slot_family": "window_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+  "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

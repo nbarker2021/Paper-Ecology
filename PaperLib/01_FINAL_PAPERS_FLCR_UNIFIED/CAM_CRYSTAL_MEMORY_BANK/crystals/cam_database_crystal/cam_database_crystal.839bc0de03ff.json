@@ -1,0 +1,34 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0028",
+  "path": "D:\\CQE_CMPLX\\PAPERS_LIVE.db",
+  "name": "PAPERS_LIVE.db",
+  "status": "ok",
+  "signal_score": 3,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 1,
+  "signal_tables": [
+    {
+      "table": "papers",
+      "row_count": 4844,
+      "signal_columns": []
+    }
+  ],
+  "slot_families": [
+    "closure_lift",
+    "ledger_action"
+  ],
+  "slot_assignments": [
+    "00",
+    "10",
+    "20",
+    "30",
+    "06",
+    "16",
+    "26",
+    "36"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "839bc0de03ff513e186264b73b76fda80a7a692c2ae8daf01b75c64a2a23cec7"
+}

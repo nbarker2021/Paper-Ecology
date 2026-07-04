@@ -1,0 +1,31 @@
+publication_id: SMD-06
+title: "Electroweak Interaction And Symmetry Breaking"
+series: "Formalizing LCR, Unifying Standard Models"
+layer: standard_model_defining_papers
+status: expanded_defining_draft
+object: "electroweak sector"
+routes_to:
+  - "FLCR-31"
+  - "FLCR-33"
+  - "FLCR-40"
+irl_sources:
+  - "IRL-PDG-2026"
+  - "IRL-PDG-2024"
+  - "IRL-ATLAS-HIGGS-2012"
+  - "IRL-CMS-HIGGS-2012"
+closure_now:
+  - "Close electroweak definition as the accepted SU(2)_L x U(1)_Y sector."
+  - "Close structural translation only when field/current/mixing target is named."
+still_open:
+  - "Decay rates, weak mixing angle, and precision fits require calibration data."
+  - "LCR sector accounting does not by itself close electroweak phenomenology."
+formal_claims:
+  - id: "Theorem 06.1"
+    lane: "standard_theorem_citation_bound_result"
+    statement: "Electroweak claims require a bridge from LCR residue or sector accounting to SU(2)xU(1) fields, currents, and broken-phase observables."
+  - id: "Proposition 06.2"
+    lane: "normal_form_result"
+    statement: "This definition can be consumed by an FLCR paper only after the external object, LCR mapping, boundary, and destination paper are named."
+  - id: "Protocol 06.3"
+    lane: "falsifier_or_open_obligation"
+    statement: "Claims outside the closure rows remain obligations until their missing citation, receipt, normal-form, or calibration field is supplied."

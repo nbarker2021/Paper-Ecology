@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-16",
+  "original_slot": "16",
+  "title": "Continuum Edge Residuals",
+  "status": "source_backed",
+  "source_file": "16_Continuum_Edge_Residuals.md",
+  "linked_flcr_papers": [
+    "FLCR-17",
+    "FLCR-35"
+  ],
+  "slot_family": "ledger_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-6: bind state into causal, observer, or synchronization ledgers",
+  "proof_form_required": "ledger, graph, and synchronization proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

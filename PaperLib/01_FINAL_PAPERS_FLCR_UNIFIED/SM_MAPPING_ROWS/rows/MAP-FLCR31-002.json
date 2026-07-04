@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR31-002",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-02",
+  "O_ext": "gauge sector (SM definition target)",
+  "equation_or_source": "`SMD-02`",
+  "O_lcr": "LCR transport and receipt paths",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "Closes local symmetry/connection/covariant-derivative vocabulary as the external target.",
+  "dataset": "",
+  "falsifier": "Closes local symmetry/connection/covariant-derivative vocabulary as the external target.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

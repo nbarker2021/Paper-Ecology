@@ -1,0 +1,421 @@
+================================================================================
+CROSS-REFERENCE AND GAP ANALYSIS REPORT
+Workspace: D:\Paper Ecology
+Libraries: PaperLib, CAMLib, CodeLib, SQLLib
+================================================================================
+
+1. PER-LIBRARY SUMMARY
+--------------------------------------------------------------------------------
+PaperLib:
+  Total files: 102
+  Papers present (00-100): 101/101
+  Missing papers: []
+
+CAMLib:
+  Total files: 102
+  Papers present (00-100): 101/101
+  Missing papers: []
+
+CodeLib:
+  Total files: 102
+  Papers present (00-100): 101/101
+  Missing papers: []
+
+SQLLib:
+  Total files: 102
+  Papers present (00-100): 101/101
+  Missing papers: []
+
+2. COVERAGE MATRIX (Papers 00-100)
+--------------------------------------------------------------------------------
+Paper | PaperLib | CAMLib | CodeLib | SQLLib
+--------------------------------------------------------------------------------
+000   |    Y     |   Y    |    Y    |   Y
+001   |    Y     |   Y    |    Y    |   Y
+002   |    Y     |   Y    |    Y    |   Y
+003   |    Y     |   Y    |    Y    |   Y
+004   |    Y     |   Y    |    Y    |   Y
+005   |    Y     |   Y    |    Y    |   Y
+006   |    Y     |   Y    |    Y    |   Y
+007   |    Y     |   Y    |    Y    |   Y
+008   |    Y     |   Y    |    Y    |   Y
+009   |    Y     |   Y    |    Y    |   Y
+010   |    Y     |   Y    |    Y    |   Y
+011   |    Y     |   Y    |    Y    |   Y
+012   |    Y     |   Y    |    Y    |   Y
+013   |    Y     |   Y    |    Y    |   Y
+014   |    Y     |   Y    |    Y    |   Y
+015   |    Y     |   Y    |    Y    |   Y
+016   |    Y     |   Y    |    Y    |   Y
+017   |    Y     |   Y    |    Y    |   Y
+018   |    Y     |   Y    |    Y    |   Y
+019   |    Y     |   Y    |    Y    |   Y
+020   |    Y     |   Y    |    Y    |   Y
+021   |    Y     |   Y    |    Y    |   Y
+022   |    Y     |   Y    |    Y    |   Y
+023   |    Y     |   Y    |    Y    |   Y
+024   |    Y     |   Y    |    Y    |   Y
+025   |    Y     |   Y    |    Y    |   Y
+026   |    Y     |   Y    |    Y    |   Y
+027   |    Y     |   Y    |    Y    |   Y
+028   |    Y     |   Y    |    Y    |   Y
+029   |    Y     |   Y    |    Y    |   Y
+030   |    Y     |   Y    |    Y    |   Y
+031   |    Y     |   Y    |    Y    |   Y
+032   |    Y     |   Y    |    Y    |   Y
+033   |    Y     |   Y    |    Y    |   Y
+034   |    Y     |   Y    |    Y    |   Y
+035   |    Y     |   Y    |    Y    |   Y
+036   |    Y     |   Y    |    Y    |   Y
+037   |    Y     |   Y    |    Y    |   Y
+038   |    Y     |   Y    |    Y    |   Y
+039   |    Y     |   Y    |    Y    |   Y
+040   |    Y     |   Y    |    Y    |   Y
+041   |    Y     |   Y    |    Y    |   Y
+042   |    Y     |   Y    |    Y    |   Y
+043   |    Y     |   Y    |    Y    |   Y
+044   |    Y     |   Y    |    Y    |   Y
+045   |    Y     |   Y    |    Y    |   Y
+046   |    Y     |   Y    |    Y    |   Y
+047   |    Y     |   Y    |    Y    |   Y
+048   |    Y     |   Y    |    Y    |   Y
+049   |    Y     |   Y    |    Y    |   Y
+050   |    Y     |   Y    |    Y    |   Y
+051   |    Y     |   Y    |    Y    |   Y
+052   |    Y     |   Y    |    Y    |   Y
+053   |    Y     |   Y    |    Y    |   Y
+054   |    Y     |   Y    |    Y    |   Y
+055   |    Y     |   Y    |    Y    |   Y
+056   |    Y     |   Y    |    Y    |   Y
+057   |    Y     |   Y    |    Y    |   Y
+058   |    Y     |   Y    |    Y    |   Y
+059   |    Y     |   Y    |    Y    |   Y
+060   |    Y     |   Y    |    Y    |   Y
+061   |    Y     |   Y    |    Y    |   Y
+062   |    Y     |   Y    |    Y    |   Y
+063   |    Y     |   Y    |    Y    |   Y
+064   |    Y     |   Y    |    Y    |   Y
+065   |    Y     |   Y    |    Y    |   Y
+066   |    Y     |   Y    |    Y    |   Y
+067   |    Y     |   Y    |    Y    |   Y
+068   |    Y     |   Y    |    Y    |   Y
+069   |    Y     |   Y    |    Y    |   Y
+070   |    Y     |   Y    |    Y    |   Y
+071   |    Y     |   Y    |    Y    |   Y
+072   |    Y     |   Y    |    Y    |   Y
+073   |    Y     |   Y    |    Y    |   Y
+074   |    Y     |   Y    |    Y    |   Y
+075   |    Y     |   Y    |    Y    |   Y
+076   |    Y     |   Y    |    Y    |   Y
+077   |    Y     |   Y    |    Y    |   Y
+078   |    Y     |   Y    |    Y    |   Y
+079   |    Y     |   Y    |    Y    |   Y
+080   |    Y     |   Y    |    Y    |   Y
+081   |    Y     |   Y    |    Y    |   Y
+082   |    Y     |   Y    |    Y    |   Y
+083   |    Y     |   Y    |    Y    |   Y
+084   |    Y     |   Y    |    Y    |   Y
+085   |    Y     |   Y    |    Y    |   Y
+086   |    Y     |   Y    |    Y    |   Y
+087   |    Y     |   Y    |    Y    |   Y
+088   |    Y     |   Y    |    Y    |   Y
+089   |    Y     |   Y    |    Y    |   Y
+090   |    Y     |   Y    |    Y    |   Y
+091   |    Y     |   Y    |    Y    |   Y
+092   |    Y     |   Y    |    Y    |   Y
+093   |    Y     |   Y    |    Y    |   Y
+094   |    Y     |   Y    |    Y    |   Y
+095   |    Y     |   Y    |    Y    |   Y
+096   |    Y     |   Y    |    Y    |   Y
+097   |    Y     |   Y    |    Y    |   Y
+098   |    Y     |   Y    |    Y    |   Y
+099   |    Y     |   Y    |    Y    |   Y
+100   |    Y     |   Y    |    Y    |   Y
+
+3. PAPERS IN ALL FOUR LIBRARIES
+--------------------------------------------------------------------------------
+Count: 101/101
+Papers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+
+4. PAPERS MISSING FROM ONE OR MORE LIBRARIES
+--------------------------------------------------------------------------------
+Count: 0/101
+Papers: []
+
+   Detailed breakdown:
+
+5. INCONSISTENCIES
+--------------------------------------------------------------------------------
+5a. Papers in PaperLib but not in CodeLib:
+   []
+
+5b. Papers in CAMLib but not in PaperLib:
+   []
+
+5c. Papers in CodeLib but not in SQLLib:
+   []
+
+5d. Papers in SQLLib but not in CodeLib:
+   []
+
+6. PAPER NUMBERING ANOMALIES
+--------------------------------------------------------------------------------
+Papers outside 00-100: {}
+Duplicate numbers: {}
+Non-numeric paper files: [('PaperLib', 'README.md'), ('CAMLib', 'README.md'), ('CodeLib', 'README.md'), ('SQLLib', 'README.md')]
+
+7. FILE NAMING INCONSISTENCIES
+--------------------------------------------------------------------------------
+Papers with different filenames across libraries: 49
+   Paper 000:
+      PaperLib: paper-00__unified_transport_contract_and_foreword.md
+      CAMLib: paper-00__unified_transport_contract_and_foreword.md
+      CodeLib: paper-00__established_grounding.py
+      SQLLib: paper-00__unified_transport_contract_and_foreword.sql
+   Paper 001:
+      PaperLib: paper-01__unified_lcr_kernel_and_chart.md
+      CAMLib: paper-01__unified_lcr_kernel_and_chart.md
+      CodeLib: paper-01__lcr_carrier.py
+      SQLLib: paper-01__unified_lcr_kernel_and_chart.sql
+   Paper 002:
+      PaperLib: paper-02__unified_correction_surface_and_rule30_decomposition.md
+      CAMLib: paper-02__unified_correction_surface_and_rule30_decomposition.md
+      CodeLib: paper-02__correction_surface.py
+      SQLLib: paper-02__unified_correction_surface_and_rule30_decomposition.sql
+   Paper 003:
+      PaperLib: paper-03__unified_d4_j3_triality_and_correction_surface.md
+      CAMLib: paper-03__unified_d4_j3_triality_and_correction_surface.md
+      CodeLib: paper-03__triality_surface.py
+      SQLLib: paper-03__unified_d4_j3_triality_and_correction_surface.sql
+   Paper 004:
+      PaperLib: paper-04__unified_boundary_repair.md
+      CAMLib: paper-04__unified_boundary_repair.md
+      CodeLib: paper-04__boundary_repair.py
+      SQLLib: paper-04__unified_boundary_repair.sql
+   Paper 005:
+      PaperLib: paper-05__unified_oloid_path_carrier.md
+      CAMLib: paper-05__unified_oloid_path_carrier.md
+      CodeLib: paper-05__oloid_path_carrier.py
+      SQLLib: paper-05__unified_oloid_path_carrier.sql
+   Paper 006:
+      PaperLib: paper-06__unified_causal_link_and_obligation_ledger.md
+      CAMLib: paper-06__unified_causal_link_and_obligation_ledger.md
+      CodeLib: paper-06__causal_code.py
+      SQLLib: paper-06__unified_causal_link_and_obligation_ledger.sql
+   Paper 007:
+      PaperLib: paper-07__unified_discrete_continuous_bridge.md
+      CAMLib: paper-07__unified_discrete_continuous_bridge.md
+      CodeLib: paper-07__discrete_continuous_bridge.py
+      SQLLib: paper-07__unified_discrete_continuous_bridge.sql
+   Paper 008:
+      PaperLib: paper-08__unified_lattice_closure.md
+      CAMLib: paper-08__unified_lattice_closure.md
+      CodeLib: paper-08__lattice_closure_template.py
+      SQLLib: paper-08__unified_lattice_closure.sql
+   Paper 009:
+      PaperLib: paper-09__unified_hamiltonian_temporal_emergence.md
+      CAMLib: paper-09__unified_hamiltonian_temporal_emergence.md
+      CodeLib: paper-09__hamiltonian_window_emergence.py
+      SQLLib: paper-09__unified_hamiltonian_temporal_emergence.sql
+   Paper 010:
+      PaperLib: paper-10__unified_t10_master_receipt.md
+      CAMLib: paper-10__unified_t10_master_receipt.md
+      CodeLib: paper-10__t10_master_receipt.py
+      SQLLib: paper-10__unified_t10_master_receipt.sql
+   Paper 011:
+      PaperLib: paper-11__unified_theory_admission_gate.md
+      CAMLib: paper-11__unified_theory_admission_gate.md
+      CodeLib: paper-11__theory_admission_gate.py
+      SQLLib: paper-11__unified_theory_admission_gate.sql
+   Paper 012:
+      PaperLib: paper-12__unified_ca-prediction-surface.md
+      CAMLib: paper-12__unified_ca_prediction_surface.md
+      CodeLib: paper-12__ca_prediction_surface.py
+      SQLLib: paper-12__unified_ca_prediction_surface.sql
+   Paper 013:
+      PaperLib: paper-13__unified_quark-face-transport.md
+      CAMLib: paper-13__unified_quark_face_transport.md
+      CodeLib: paper-13__quark_face_transport.py
+      SQLLib: paper-13__unified_quark_face_transport.sql
+   Paper 014:
+      PaperLib: paper-14__unified_gr-boundary-repair-curvature.md
+      CAMLib: paper-14__unified_gr_boundary_repair_curvature.md
+      CodeLib: paper-14__boundary_repair_curvature.py
+      SQLLib: paper-14__unified_gr_boundary_repair_curvature.sql
+   Paper 015:
+      PaperLib: paper-15__unified_qft-higgs-mass-residue.md
+      CAMLib: paper-15__unified_qft_higgs_mass_residue.md
+      CodeLib: paper-15__qft_higgs_mass_residue_carrier.py
+      SQLLib: paper-15__unified_qft_higgs_mass_residue.sql
+   Paper 016:
+      PaperLib: paper-16__unified_continuum-edge-residuals.md
+      CAMLib: paper-16__unified_continuum_edge_residuals.md
+      CodeLib: paper-16__continuum_edge_residuals.py
+      SQLLib: paper-16__unified_continuum_edge_residuals.sql
+   Paper 017:
+      PaperLib: paper-17__unified_e6-e8-error-correction-tower.md
+      CAMLib: paper-17__unified_e6_e8_error_correction_tower.md
+      CodeLib: paper-17__error_correction_tower.py
+      SQLLib: paper-17__unified_e6_e8_error_correction_tower.sql
+   Paper 018:
+      PaperLib: paper-18__unified_voa-moonshine-routes.md
+      CAMLib: paper-18__unified_voa_moonshine_routes.md
+      CodeLib: paper-18__voa_moonshine_routes.py
+      SQLLib: paper-18__unified_voa_moonshine_routes.sql
+   Paper 019:
+      PaperLib: paper-19__unified_observer-face-selection.md
+      CAMLib: paper-19__unified_observer_face_selection.md
+      CodeLib: paper-19__observer_face_selection.py
+      SQLLib: paper-19__unified_observer_face_selection.sql
+   Paper 020:
+      PaperLib: paper-20__unified_layer-2-synthesis-ledger.md
+      CAMLib: paper-20__unified_layer_2_synthesis_ledger.md
+      CodeLib: paper-20__layer2_synthesis_ledger.py
+      SQLLib: paper-20__unified_layer_2_synthesis_ledger.sql
+   Paper 021:
+      PaperLib: paper-21__unified_morphforge-polyforge-morphonix.md
+      CAMLib: paper-21__unified_morphforge_polyforge_morphonix.md
+      CodeLib: paper-21__unified_morphforge_polyforge_morphonix.py
+      SQLLib: paper-21__unified_morphforge_polyforge_morphonix.sql
+   Paper 022:
+      PaperLib: paper-22__unified_metaforge-applied-materials.md
+      CAMLib: paper-22__unified_metaforge_applied_materials.md
+      CodeLib: paper-22__unified_metaforge_applied_materials.py
+      SQLLib: paper-22__unified_metaforge_applied_materials.sql
+   Paper 023:
+      PaperLib: paper-23__unified_foldforge-protein-folding.md
+      CAMLib: paper-23__unified_foldforge_protein_folding.md
+      CodeLib: paper-23__unified_foldforge_protein_folding.py
+      SQLLib: paper-23__unified_foldforge_protein_folding.sql
+   Paper 024:
+      PaperLib: paper-24__unified_knightforge-n-dimensional-chess-automata.md
+      CAMLib: paper-24__unified_knightforge_n_dimensional_chess_automata.md
+      CodeLib: paper-24__unified_knightforge_n_dimensional_chess_automata.py
+      SQLLib: paper-24__unified_knightforge_n_dimensional_chess_automata.sql
+   Paper 025:
+      PaperLib: paper-25__unified_energetic-traversal-maps.md
+      CAMLib: paper-25__unified_energetic_traversal_maps.md
+      CodeLib: paper-25__unified_energetic_traversal_maps.py
+      SQLLib: paper-25__unified_energetic_traversal_maps.sql
+   Paper 026:
+      PaperLib: paper-26__unified_z-pinch-and-shear-horizon.md
+      CAMLib: paper-26__unified_z_pinch_and_shear_horizon.md
+      CodeLib: paper-26__unified_z_pinch_and_shear_horizon.py
+      SQLLib: paper-26__unified_z_pinch_and_shear_horizon.sql
+   Paper 027:
+      PaperLib: paper-27__unified_observer-delay-and-shared-reality.md
+      CAMLib: paper-27__unified_observer_delay_and_shared_reality.md
+      CodeLib: paper-27__unified_observer_delay_and_shared_reality.py
+      SQLLib: paper-27__unified_observer_delay_and_shared_reality.sql
+   Paper 028:
+      PaperLib: paper-28__unified_n-dimensional-game-lattices.md
+      CAMLib: paper-28__unified_n_dimensional_game_lattices.md
+      CodeLib: paper-28__unified_n_dimensional_game_lattices.py
+      SQLLib: paper-28__unified_n_dimensional_game_lattices.sql
+   Paper 029:
+      PaperLib: paper-29__unified_monster-universal-energy-bound-hypotheses.md
+      CAMLib: paper-29__unified_monster_universal_energy_bound_hypotheses.md
+      CodeLib: paper-29__unified_monster_universal_energy_bound_hypotheses.py
+      SQLLib: paper-29__unified_monster_universal_energy_bound_hypotheses.sql
+   Paper 030:
+      PaperLib: paper-30__unified_grand-ribbon-meta-framer.md
+      CAMLib: paper-30__unified_grand_ribbon_meta_framer.md
+      CodeLib: paper-30__unified_grand_ribbon_meta_framer.py
+      SQLLib: paper-30__unified_grand_ribbon_meta_framer.sql
+   Paper 031:
+      PaperLib: paper-31__unified_it-was-still-just-lcr.md
+      CAMLib: paper-31__unified_it_was_still_just_lcr.md
+      CodeLib: paper-31__unified_it_was_still_just_lcr.py
+      SQLLib: paper-31__unified_it_was_still_just_lcr.sql
+   Paper 032:
+      PaperLib: paper-32__unified_the-supervisor-cursor.md
+      CAMLib: paper-32__unified_the_supervisor_cursor.md
+      CodeLib: paper-32__unified_the_supervisor_cursor.py
+      SQLLib: paper-32__unified_the_supervisor_cursor.sql
+   Paper 033:
+      PaperLib: paper-33__unified_electroweak-higgs-mass-residue.md
+      CAMLib: paper-33__unified_electroweak_higgs_mass_residue.md
+      CodeLib: paper-33__unified_electroweak_higgs_mass_residue.py
+      SQLLib: paper-33__unified_electroweak_higgs_mass_residue.sql
+   Paper 034:
+      PaperLib: paper-34__unified_gr-curvature-continuum.md
+      CAMLib: paper-34__unified_gr_curvature_continuum.md
+      CodeLib: paper-34__unified_gr_curvature_continuum.py
+      SQLLib: paper-34__unified_gr_curvature_continuum.sql
+   Paper 035:
+      PaperLib: paper-35__unified_electron-hole-exciton-accounting.md
+      CAMLib: paper-35__unified_electron_hole_exciton_accounting.md
+      CodeLib: paper-35__unified_electron_hole_exciton_accounting.py
+      SQLLib: paper-35__unified_electron_hole_exciton_accounting.sql
+   Paper 036:
+      PaperLib: paper-36__unified_condensed-matter-metamaterials.md
+      CAMLib: paper-36__unified_condensed_matter_metamaterials.md
+      CodeLib: paper-36__unified_condensed_matter_metamaterials.py
+      SQLLib: paper-36__unified_condensed_matter_metamaterials.sql
+   Paper 037:
+      PaperLib: paper-37__unified_plasma-energy-traversal.md
+      CAMLib: paper-37__unified_plasma_energy_traversal.md
+      CodeLib: paper-37__unified_plasma_energy_traversal.py
+      SQLLib: paper-37__unified_plasma_energy_traversal.sql
+   Paper 038:
+      PaperLib: paper-38__unified_observer-computation-ai-runtime.md
+      CAMLib: paper-38__unified_observer_computation_ai_runtime.md
+      CodeLib: paper-38__unified_observer_computation_ai_runtime.py
+      SQLLib: paper-38__unified_observer_computation_ai_runtime.sql
+   Paper 039:
+      PaperLib: paper-39__unified_falsifiers-comparators-standards.md
+      CAMLib: paper-39__unified_falsifiers_comparators_standards.md
+      CodeLib: paper-39__unified_falsifiers_comparators_standards.py
+      SQLLib: paper-39__unified_falsifiers_comparators_standards.sql
+   Paper 040:
+      PaperLib: paper-40__unified_grand-reconstruction-map.md
+      CAMLib: paper-40__unified_grand_reconstruction_map.md
+      CodeLib: paper-40__unified_grand_reconstruction_map.py
+      SQLLib: paper-40__unified_grand_reconstruction_map.sql
+   Paper 041:
+      PaperLib: paper-41__unified_su3-generation-1.md
+      CAMLib: paper-41__unified_su3_generation_1.md
+      CodeLib: paper-41__unified_su3_generation_1.py
+      SQLLib: paper-41__unified_su3_generation_1.sql
+   Paper 081:
+      PaperLib: paper-81__unified_Wolfram_P1_Rule_30_Non-Periodicity.md
+      CAMLib: paper-81__unified_Wolfram_P1_Rule_30_Non_Periodicity.md
+      CodeLib: paper-81__unified_Wolfram_P1_Rule_30_Non_Periodicity.py
+      SQLLib: paper-81__unified_Wolfram_P1_Rule_30_Non_Periodicity.sql
+   Paper 083:
+      PaperLib: paper-83__unified_Wolfram_P3_Rule_30_Sub-O(n)_Extraction.md
+      CAMLib: paper-83__unified_Wolfram_P3_Rule_30_Sub_O_n_Extraction.md
+      CodeLib: paper-83__unified_Wolfram_P3_Rule_30_Sub_O_n_Extraction.py
+      SQLLib: paper-83__unified_Wolfram_P3_Rule_30_Sub_O_n_Extraction.sql
+   Paper 084:
+      PaperLib: paper-84__unified_Yang-Mills_Mass_Gap.md
+      CAMLib: paper-84__unified_Yang_Mills_Mass_Gap.md
+      CodeLib: paper-84__unified_Yang_Mills_Mass_Gap.py
+      SQLLib: paper-84__unified_Yang_Mills_Mass_Gap.sql
+   Paper 085:
+      PaperLib: paper-85__unified_Navier-Stokes_Smoothness.md
+      CAMLib: paper-85__unified_Navier_Stokes_Smoothness.md
+      CodeLib: paper-85__unified_Navier_Stokes_Smoothness.py
+      SQLLib: paper-85__unified_Navier_Stokes_Smoothness.sql
+   Paper 087:
+      PaperLib: paper-87__unified_Hodge_Conjecture_Algebraic_Cycles_and_Boundary-Repair_Completion.md
+      CAMLib: paper-87__unified_Hodge_Conjecture_Algebraic_Cycles_and_Boundary_Repair_Completion.md
+      CodeLib: paper-87__unified_Hodge_Conjecture_Algebraic_Cycles_and_Boundary_Repair_Completion.py
+      SQLLib: paper-87__unified_Hodge_Conjecture_Algebraic_Cycles_and_Boundary_Repair_Completion.sql
+   Paper 089:
+      PaperLib: paper-89__unified_Birch_and_Swinnerton-Dyer_Conjecture.md
+      CAMLib: paper-89__unified_Birch_and_Swinnerton_Dyer_Conjecture.md
+      CodeLib: paper-89__unified_Birch_and_Swinnerton_Dyer_Conjecture.py
+      SQLLib: paper-89__unified_Birch_and_Swinnerton_Dyer_Conjecture.sql
+   Paper 090:
+      PaperLib: paper-90__unified_McKay-Thompson_Parity_and_Rule_30_Correction_Collapse.md
+      CAMLib: paper-90__unified_McKay_Thompson_Parity_and_Rule_30_Correction_Collapse.md
+      CodeLib: paper-90__unified_McKay_Thompson_Parity_and_Rule_30_Correction_Collapse.py
+      SQLLib: paper-90__unified_McKay_Thompson_Parity_and_Rule_30_Correction_Collapse.sql
+
+8. SYNTHESIS
+--------------------------------------------------------------------------------
+Overall coverage (unique papers 00-100 across all libs): 101/101 = 100.0%
+Weakest link: PaperLib with 101/101 papers (100.0%)
+
+================================================================================

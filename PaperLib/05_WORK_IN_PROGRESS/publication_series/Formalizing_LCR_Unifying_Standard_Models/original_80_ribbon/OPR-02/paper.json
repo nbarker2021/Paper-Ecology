@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-02",
+  "original_slot": "02",
+  "title": "Correction Surface",
+  "status": "source_backed",
+  "source_file": "02_Correction_Surface.md",
+  "linked_flcr_papers": [
+    "FLCR-03"
+  ],
+  "slot_family": "residual_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+  "proof_form_required": "residual accounting and bounded/unbounded split",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0065",
+  "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\products\\fourpack\\test_mannai.db",
+  "name": "test_mannai.db",
+  "status": "ok",
+  "signal_score": 49,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 5,
+  "signal_tables": [
+    {
+      "table": "crystals",
+      "row_count": 7,
+      "signal_columns": [
+        "hash",
+        "crystal_type",
+        "content",
+        "source"
+      ]
+    },
+    {
+      "table": "datasets",
+      "row_count": 1,
+      "signal_columns": [
+        "source_path",
+        "crystal_count"
+      ]
+    },
+    {
+      "table": "morphisms",
+      "row_count": 0,
+      "signal_columns": [
+        "from_hash",
+        "to_hash"
+      ]
+    },
+    {
+      "table": "query_log",
+      "row_count": 2,
+      "signal_columns": [
+        "query_hash",
+        "result_crystals",
+        "resonance_scores"
+      ]
+    },
+    {
+      "table": "segments",
+      "row_count": 33,
+      "signal_columns": [
+        "crystal_hash",
+        "segment_hash",
+        "window_size"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "7ac40865ea0f2f8d84dd94cbd43bcfa3ae544c8b1567a109f9df13c4443b91ce"
+}

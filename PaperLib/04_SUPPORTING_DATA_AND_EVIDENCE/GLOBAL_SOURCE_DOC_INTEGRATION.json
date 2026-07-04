@@ -1,0 +1,29 @@
+﻿{
+    "Backup":  "D:\\Paper Reworks\\_backup_before_global_source_docs_20260626_171534",
+    "Updated":  [
+                    {
+                        "File":  "06_Causal_Link_and_Obligation_Ledger.md",
+                        "Status":  "updated"
+                    },
+                    {
+                        "File":  "10_T10_Master_Receipt.md",
+                        "Status":  "updated"
+                    },
+                    {
+                        "File":  "12_CA_Prediction_Surface.md",
+                        "Status":  "updated"
+                    },
+                    {
+                        "File":  "20_Layer_2_Synthesis_Ledger.md",
+                        "Status":  "updated"
+                    },
+                    {
+                        "File":  "30_Grand_Ribbon_Meta_Framer.md",
+                        "Status":  "updated"
+                    },
+                    {
+                        "File":  "32_The_Supervisor_Cursor.md",
+                        "Status":  "updated"
+                    }
+                ]
+}

@@ -1,0 +1,491 @@
+{
+  "schema": "flcr_claim_delta_ledger.v1",
+  "paper_count": 40,
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "formal_methods_receipt_closure"
+      ]
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "legacy_papers": [
+        "01"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "spinor_double_cover_local"
+      ]
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "legacy_papers": [
+        "02"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "legacy_papers": [
+        "03"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "legacy_papers": [
+        "04"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "legacy_papers": [
+        "05"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "symbolic_vs_physical_carrier"
+      ]
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "formal_methods_receipt_closure",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "legacy_papers": [
+        "07"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting",
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "leech_e8_golay_lookup"
+      ]
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "legacy_papers": [
+        "09"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "moonshine_voa_finite_sector"
+      ]
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "formal_methods_receipt_closure"
+      ]
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "legacy_papers": [
+        "11"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "finite_ca_bounded_search",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "legacy_papers": [
+        "13"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "ckm_sm_transport_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "legacy_papers": [
+        "14"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "legacy_papers": [
+        "15"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting"
+      ]
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "legacy_papers": [
+        "16"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting",
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "leech_e8_golay_lookup",
+        "spinor_double_cover_local",
+        "moonshine_voa_finite_sector"
+      ]
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "formal_methods_receipt_closure",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "legacy_papers": [
+        "21"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "leech_e8_golay_lookup",
+        "applied_forge_internal_external_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "legacy_papers": [
+        "22"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting",
+        "applied_forge_internal_external_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "legacy_papers": [
+        "23"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "applied_forge_internal_external_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "finite_ca_bounded_search",
+        "applied_forge_internal_external_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "legacy_papers": [
+        "25"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "legacy_papers": [
+        "26"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "symbolic_vs_physical_carrier"
+      ]
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "legacy_papers": [
+        "27"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "spinor_double_cover_local",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "legacy_papers": [
+        "29"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "leech_e8_golay_lookup",
+        "moonshine_voa_finite_sector"
+      ]
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "delta_count": 1,
+      "deltas": [
+        "formal_methods_receipt_closure"
+      ]
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "finite_ca_bounded_search",
+        "formal_methods_receipt_closure",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "ckm_sm_transport_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "ckm_sm_transport_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "legacy_papers": [
+        "15"
+      ],
+      "delta_count": 2,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting"
+      ]
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "legacy_papers": [],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting",
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "legacy_papers": [
+        "22"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "symbolic_vs_physical_carrier",
+        "electron_hole_exciton_accounting",
+        "applied_forge_internal_external_split"
+      ]
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "delta_count": 4,
+      "deltas": [
+        "leech_e8_golay_lookup",
+        "symbolic_vs_physical_carrier",
+        "moonshine_voa_finite_sector",
+        "continuum_sampling_bridge"
+      ]
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "delta_count": 5,
+      "deltas": [
+        "spinor_double_cover_local",
+        "finite_ca_bounded_search",
+        "formal_methods_receipt_closure",
+        "applied_forge_internal_external_split",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "delta_count": 3,
+      "deltas": [
+        "finite_ca_bounded_search",
+        "formal_methods_receipt_closure",
+        "negative_receipts_as_guards"
+      ]
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "legacy_papers": [],
+      "delta_count": 1,
+      "deltas": [
+        "search_by_object_name"
+      ]
+    }
+  ]
+}

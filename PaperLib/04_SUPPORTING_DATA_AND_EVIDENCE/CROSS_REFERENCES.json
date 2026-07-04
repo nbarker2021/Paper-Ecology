@@ -1,0 +1,2745 @@
+{
+  "Paper 0": {
+    "title": "The Transport Contract and Foreword",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 12",
+      "Paper 20",
+      "Paper 21",
+      "Paper 23",
+      "Paper 30",
+      "Paper 31",
+      "Paper 32",
+      "Paper 33",
+      "Paper 40",
+      "Paper 70",
+      "Paper 80",
+      "Paper 90",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 32",
+      "Paper 39",
+      "Paper 51",
+      "Paper 52",
+      "Paper 62",
+      "Paper 63",
+      "Paper 64",
+      "Paper 78",
+      "Paper 79",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 1": {
+    "title": "The LCR Kernel and Chart: A Unified Foundation",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 6",
+      "Paper 9",
+      "Paper 31",
+      "Paper 40",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 90",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 10",
+      "Paper 11",
+      "Paper 20",
+      "Paper 32",
+      "Paper 47",
+      "Paper 76",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 2": {
+    "title": "The Correction Surface Theorem: Algebraic Normal Form Decomposition of Rule 30 into Rule 90 and a Finite Residual, with $O(\\log N)$ Center-Bit Readout",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 13",
+      "Paper 15",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 90"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 3",
+      "Paper 4",
+      "Paper 6",
+      "Paper 7",
+      "Paper 14",
+      "Paper 15",
+      "Paper 16",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 86",
+      "Paper 89",
+      "Paper 90",
+      "Paper 93",
+      "Paper 95",
+      "Paper 100"
+    ]
+  },
+  "Paper 3": {
+    "title": "The D4/J3 Triality Surface, the Correction Surface, and the Arf Edge Glue: A Unified Theory of Local Registration, F2 Quadratic Forms, and Exceptional Algebra",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 9",
+      "Paper 13",
+      "Paper 15",
+      "Paper 40",
+      "Paper 80",
+      "Paper 81",
+      "Paper 90",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 4",
+      "Paper 6",
+      "Paper 14",
+      "Paper 17",
+      "Paper 20",
+      "Paper 26",
+      "Paper 64",
+      "Paper 69",
+      "Paper 76",
+      "Paper 77",
+      "Paper 100"
+    ]
+  },
+  "Paper 4": {
+    "title": "Typed Boundary Repair: A Unified Failure-Preservation Transport Operator for the LCR Carrier",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 15",
+      "Paper 19",
+      "Paper 25",
+      "Paper 40"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 5",
+      "Paper 6",
+      "Paper 17",
+      "Paper 32",
+      "Paper 33",
+      "Paper 36",
+      "Paper 39",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 49",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 53",
+      "Paper 54",
+      "Paper 56",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60",
+      "Paper 62",
+      "Paper 63",
+      "Paper 64",
+      "Paper 65",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 84",
+      "Paper 85",
+      "Paper 86",
+      "Paper 87",
+      "Paper 88",
+      "Paper 89",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 5": {
+    "title": "The Oloid Path Carrier: A Unified Theory of Rolling Transport and Continuous Constraint Propagation",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 9",
+      "Paper 10",
+      "Paper 12",
+      "Paper 17",
+      "Paper 25",
+      "Paper 31",
+      "Paper 40"
+    ],
+    "referenced_by": [
+      "Paper 3",
+      "Paper 4",
+      "Paper 6",
+      "Paper 8",
+      "Paper 34",
+      "Paper 35",
+      "Paper 37",
+      "Paper 38",
+      "Paper 44",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 53",
+      "Paper 55",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60",
+      "Paper 61",
+      "Paper 63",
+      "Paper 64",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 84",
+      "Paper 85",
+      "Paper 86",
+      "Paper 87",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 6": {
+    "title": "Causal Link / Obligation Ledger",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 10",
+      "Paper 12",
+      "Paper 16"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 7",
+      "Paper 9",
+      "Paper 10",
+      "Paper 26",
+      "Paper 37",
+      "Paper 65",
+      "Paper 67",
+      "Paper 73",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 85",
+      "Paper 95",
+      "Paper 100"
+    ]
+  },
+  "Paper 7": {
+    "title": "Discrete-Continuous Bridge",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 16",
+      "Paper 17"
+    ],
+    "referenced_by": [
+      "Paper 6",
+      "Paper 8",
+      "Paper 9",
+      "Paper 67",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 8": {
+    "title": "Lattice Closure Template",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 5",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 16",
+      "Paper 17"
+    ],
+    "referenced_by": [
+      "Paper 6",
+      "Paper 7",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 16",
+      "Paper 21",
+      "Paper 29",
+      "Paper 34",
+      "Paper 44",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60",
+      "Paper 71",
+      "Paper 72",
+      "Paper 74",
+      "Paper 80",
+      "Paper 96",
+      "Paper 100"
+    ]
+  },
+  "Paper 9": {
+    "title": "Hamiltonian Temporal Emergence",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 15",
+      "Paper 16"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 3",
+      "Paper 5",
+      "Paper 7",
+      "Paper 8",
+      "Paper 10",
+      "Paper 11",
+      "Paper 37",
+      "Paper 38",
+      "Paper 44",
+      "Paper 64",
+      "Paper 73",
+      "Paper 77",
+      "Paper 80",
+      "Paper 91",
+      "Paper 93",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 10": {
+    "title": "T10 Master Receipt",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 6",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 12",
+      "Paper 15"
+    ],
+    "referenced_by": [
+      "Paper 5",
+      "Paper 6",
+      "Paper 9",
+      "Paper 11",
+      "Paper 12",
+      "Paper 13",
+      "Paper 15",
+      "Paper 40",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 11": {
+    "title": "Theory Admission Gate",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 12",
+      "Paper 13",
+      "Paper 15",
+      "Paper 19"
+    ],
+    "referenced_by": [
+      "Paper 9",
+      "Paper 10",
+      "Paper 12",
+      "Paper 38",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60",
+      "Paper 61",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 72",
+      "Paper 74",
+      "Paper 93",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 12": {
+    "title": "CA Prediction Surface",
+    "band": "Unknown",
+    "references": [
+      "Paper 10",
+      "Paper 11",
+      "Paper 12",
+      "Paper 13",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 90"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 5",
+      "Paper 6",
+      "Paper 10",
+      "Paper 11",
+      "Paper 13",
+      "Paper 76",
+      "Paper 80",
+      "Paper 88",
+      "Paper 94",
+      "Paper 98",
+      "Paper 100"
+    ]
+  },
+  "Paper 13": {
+    "title": "Standard-Model Quark-Face Transport",
+    "band": "Unknown",
+    "references": [
+      "Paper 10",
+      "Paper 12",
+      "Paper 13",
+      "Paper 14",
+      "Paper 32",
+      "Paper 90"
+    ],
+    "referenced_by": [
+      "Paper 2",
+      "Paper 3",
+      "Paper 11",
+      "Paper 12",
+      "Paper 14",
+      "Paper 15",
+      "Paper 19",
+      "Paper 40",
+      "Paper 100"
+    ]
+  },
+  "Paper 14": {
+    "title": "GR Boundary-Repair Curvature",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 3",
+      "Paper 13",
+      "Paper 14",
+      "Paper 15"
+    ],
+    "referenced_by": [
+      "Paper 13",
+      "Paper 15",
+      "Paper 100"
+    ]
+  },
+  "Paper 15": {
+    "title": "QFT/Higgs Mass-Residue Carrier",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 10",
+      "Paper 13",
+      "Paper 14",
+      "Paper 15",
+      "Paper 16",
+      "Paper 33"
+    ],
+    "referenced_by": [
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 14",
+      "Paper 16",
+      "Paper 34",
+      "Paper 65",
+      "Paper 66",
+      "Paper 84",
+      "Paper 85",
+      "Paper 100"
+    ]
+  },
+  "Paper 16": {
+    "title": "Continuum Edge Residuals",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 8",
+      "Paper 15",
+      "Paper 16",
+      "Paper 17"
+    ],
+    "referenced_by": [
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 15",
+      "Paper 17",
+      "Paper 33",
+      "Paper 35",
+      "Paper 37",
+      "Paper 39",
+      "Paper 41",
+      "Paper 43",
+      "Paper 46",
+      "Paper 49",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 61",
+      "Paper 68",
+      "Paper 69",
+      "Paper 71",
+      "Paper 72",
+      "Paper 74",
+      "Paper 84",
+      "Paper 86",
+      "Paper 87",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 17": {
+    "title": "E6–E8 Error-Correction Tower",
+    "band": "Unknown",
+    "references": [
+      "Paper 3",
+      "Paper 4",
+      "Paper 16",
+      "Paper 17",
+      "Paper 18",
+      "Paper 29"
+    ],
+    "referenced_by": [
+      "Paper 5",
+      "Paper 7",
+      "Paper 8",
+      "Paper 16",
+      "Paper 18",
+      "Paper 29",
+      "Paper 65",
+      "Paper 67",
+      "Paper 100"
+    ]
+  },
+  "Paper 18": {
+    "title": "VOA / Moonshine Representation Routes",
+    "band": "Unknown",
+    "references": [
+      "Paper 17",
+      "Paper 18",
+      "Paper 19",
+      "Paper 20",
+      "Paper 27",
+      "Paper 28",
+      "Paper 29",
+      "Paper 90",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 17",
+      "Paper 19",
+      "Paper 29",
+      "Paper 38",
+      "Paper 54",
+      "Paper 66",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 19": {
+    "title": "Observer Face-Selection",
+    "band": "Unknown",
+    "references": [
+      "Paper 13",
+      "Paper 18",
+      "Paper 19",
+      "Paper 20"
+    ],
+    "referenced_by": [
+      "Paper 4",
+      "Paper 11",
+      "Paper 18",
+      "Paper 27",
+      "Paper 100"
+    ]
+  },
+  "Paper 20": {
+    "title": "Layer-2 Synthesis Ledger",
+    "band": "Unknown",
+    "references": [
+      "Paper 1",
+      "Paper 3",
+      "Paper 20",
+      "Paper 21",
+      "Paper 29",
+      "Paper 40"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 18",
+      "Paper 19",
+      "Paper 25",
+      "Paper 27",
+      "Paper 71",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 21": {
+    "title": "MorphForge / PolyForge / MorphoniX",
+    "band": "Unknown",
+    "references": [
+      "Paper 8",
+      "Paper 21",
+      "Paper 22",
+      "Paper 23",
+      "Paper 24"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 20",
+      "Paper 22",
+      "Paper 23",
+      "Paper 24",
+      "Paper 27",
+      "Paper 28",
+      "Paper 35",
+      "Paper 36"
+    ]
+  },
+  "Paper 22": {
+    "title": "MetaForge Applied Materials",
+    "band": "Unknown",
+    "references": [
+      "Paper 21",
+      "Paper 22",
+      "Paper 23",
+      "Paper 25"
+    ],
+    "referenced_by": [
+      "Paper 21",
+      "Paper 23",
+      "Paper 25"
+    ]
+  },
+  "Paper 23": {
+    "title": "FoldForge Protein Folding",
+    "band": "Unknown",
+    "references": [
+      "Paper 21",
+      "Paper 22",
+      "Paper 23",
+      "Paper 24"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 21",
+      "Paper 22",
+      "Paper 24",
+      "Paper 88",
+      "Paper 96",
+      "Paper 100"
+    ]
+  },
+  "Paper 24": {
+    "title": "KnightForge / N-Dimensional Chess Automata",
+    "band": "Unknown",
+    "references": [
+      "Paper 21",
+      "Paper 23",
+      "Paper 24",
+      "Paper 25",
+      "Paper 28"
+    ],
+    "referenced_by": [
+      "Paper 21",
+      "Paper 23",
+      "Paper 28",
+      "Paper 37",
+      "Paper 100"
+    ]
+  },
+  "Paper 25": {
+    "title": "Energetic Traversal Maps",
+    "band": "Unknown",
+    "references": [
+      "Paper 20",
+      "Paper 22",
+      "Paper 25",
+      "Paper 26",
+      "Paper 27"
+    ],
+    "referenced_by": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 22",
+      "Paper 24",
+      "Paper 26",
+      "Paper 37",
+      "Paper 100"
+    ]
+  },
+  "Paper 26": {
+    "title": "Z-Pinch and Shear Horizon",
+    "band": "Unknown",
+    "references": [
+      "Paper 3",
+      "Paper 6",
+      "Paper 25",
+      "Paper 26",
+      "Paper 27"
+    ],
+    "referenced_by": [
+      "Paper 25",
+      "Paper 27",
+      "Paper 29",
+      "Paper 38",
+      "Paper 95",
+      "Paper 100"
+    ]
+  },
+  "Paper 27": {
+    "title": "Observer Delay and Shared Reality",
+    "band": "Unknown",
+    "references": [
+      "Paper 19",
+      "Paper 20",
+      "Paper 21",
+      "Paper 26",
+      "Paper 27",
+      "Paper 29"
+    ],
+    "referenced_by": [
+      "Paper 18",
+      "Paper 25",
+      "Paper 26",
+      "Paper 28",
+      "Paper 29",
+      "Paper 39",
+      "Paper 52",
+      "Paper 54",
+      "Paper 61",
+      "Paper 62",
+      "Paper 76",
+      "Paper 78",
+      "Paper 79",
+      "Paper 80",
+      "Paper 87",
+      "Paper 89",
+      "Paper 90",
+      "Paper 92",
+      "Paper 94",
+      "Paper 100"
+    ]
+  },
+  "Paper 28": {
+    "title": "N-Dimensional Game Lattices",
+    "band": "Unknown",
+    "references": [
+      "Paper 21",
+      "Paper 24",
+      "Paper 27",
+      "Paper 28",
+      "Paper 30"
+    ],
+    "referenced_by": [
+      "Paper 18",
+      "Paper 24",
+      "Paper 38",
+      "Paper 88",
+      "Paper 94",
+      "Paper 98",
+      "Paper 100"
+    ]
+  },
+  "Paper 29": {
+    "title": "Monster/Universal Energy-Bound Hypotheses",
+    "band": "Unknown",
+    "references": [
+      "Paper 8",
+      "Paper 17",
+      "Paper 18",
+      "Paper 26",
+      "Paper 27",
+      "Paper 29"
+    ],
+    "referenced_by": [
+      "Paper 17",
+      "Paper 18",
+      "Paper 20",
+      "Paper 27",
+      "Paper 38",
+      "Paper 98",
+      "Paper 100"
+    ]
+  },
+  "Paper 30": {
+    "title": "Grand Ribbon Meta-Framer",
+    "band": "Unknown",
+    "references": [
+      "Paper 30",
+      "Paper 31",
+      "Paper 32"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 28",
+      "Paper 31",
+      "Paper 32",
+      "Paper 38",
+      "Paper 40",
+      "Paper 78",
+      "Paper 79",
+      "Paper 100"
+    ]
+  },
+  "Paper 31": {
+    "title": "It Was Still Just LCR",
+    "band": "Unknown",
+    "references": [
+      "Paper 30",
+      "Paper 31",
+      "Paper 32"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 5",
+      "Paper 30",
+      "Paper 32",
+      "Paper 33",
+      "Paper 41"
+    ]
+  },
+  "Paper 32": {
+    "title": "The Supervisor Cursor",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 4",
+      "Paper 30",
+      "Paper 31",
+      "Paper 32"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 13",
+      "Paper 30",
+      "Paper 31",
+      "Paper 39",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 49",
+      "Paper 50",
+      "Paper 57",
+      "Paper 84",
+      "Paper 91"
+    ]
+  },
+  "Paper 33": {
+    "title": "Electroweak, Higgs, Mass Residue Translation",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 31",
+      "Paper 33",
+      "Paper 34",
+      "Paper 35",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 15",
+      "Paper 35",
+      "Paper 41",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53"
+    ]
+  },
+  "Paper 34": {
+    "title": "GR, Curvature, Continuum Translation",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 8",
+      "Paper 15",
+      "Paper 34",
+      "Paper 35"
+    ],
+    "referenced_by": [
+      "Paper 33",
+      "Paper 35",
+      "Paper 37",
+      "Paper 97"
+    ]
+  },
+  "Paper 35": {
+    "title": "Electron-Hole-Exciton Accounting",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 16",
+      "Paper 21",
+      "Paper 33",
+      "Paper 34",
+      "Paper 35",
+      "Paper 36",
+      "Paper 98"
+    ],
+    "referenced_by": [
+      "Paper 33",
+      "Paper 34",
+      "Paper 36",
+      "Paper 65",
+      "Paper 66",
+      "Paper 71",
+      "Paper 73",
+      "Paper 74",
+      "Paper 85"
+    ]
+  },
+  "Paper 36": {
+    "title": "Condensed Matter, Materials & Metamaterials",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 21",
+      "Paper 35",
+      "Paper 36",
+      "Paper 37",
+      "Paper 91",
+      "Paper 95",
+      "Paper 96"
+    ],
+    "referenced_by": [
+      "Paper 35",
+      "Paper 37"
+    ]
+  },
+  "Paper 37": {
+    "title": "Plasma, Energy, Traversal Calibration",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 6",
+      "Paper 9",
+      "Paper 16",
+      "Paper 24",
+      "Paper 25",
+      "Paper 34",
+      "Paper 36",
+      "Paper 37",
+      "Paper 98"
+    ],
+    "referenced_by": [
+      "Paper 36",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74"
+    ]
+  },
+  "Paper 38": {
+    "title": "Observer, Computation & AI Runtime Translation",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 9",
+      "Paper 11",
+      "Paper 18",
+      "Paper 26",
+      "Paper 28",
+      "Paper 29",
+      "Paper 30",
+      "Paper 38",
+      "Paper 39"
+    ],
+    "referenced_by": [
+      "Paper 40",
+      "Paper 47",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95"
+    ]
+  },
+  "Paper 39": {
+    "title": "Falsifiers, Comparators & Standards of Evidence",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 4",
+      "Paper 16",
+      "Paper 27",
+      "Paper 32",
+      "Paper 39",
+      "Paper 40",
+      "Paper 80"
+    ],
+    "referenced_by": [
+      "Paper 38",
+      "Paper 74",
+      "Paper 78",
+      "Paper 80",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 40": {
+    "title": "Grand Reconstruction Map and Trust-Removal Protocol",
+    "band": "Unknown",
+    "references": [
+      "Paper 10",
+      "Paper 13",
+      "Paper 30",
+      "Paper 38",
+      "Paper 40"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 20",
+      "Paper 39",
+      "Paper 62",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 41": {
+    "title": "SU(3) Sector: Generation 1",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 31",
+      "Paper 32",
+      "Paper 33",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 45",
+      "Paper 49",
+      "Paper 50"
+    ],
+    "referenced_by": [
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 50"
+    ]
+  },
+  "Paper 42": {
+    "title": "Unified Paper 42: SU(3) Sector — Generation 2 (Strange & Charm)",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 32",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 49",
+      "Paper 50"
+    ],
+    "referenced_by": [
+      "Paper 41",
+      "Paper 43",
+      "Paper 44",
+      "Paper 57"
+    ]
+  },
+  "Paper 43": {
+    "title": "Unified Paper 43: SU(3) Sector — Generation 3 (Bottom & Top)",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 32",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 45",
+      "Paper 49",
+      "Paper 50"
+    ],
+    "referenced_by": [
+      "Paper 41",
+      "Paper 42",
+      "Paper 44"
+    ]
+  },
+  "Paper 44": {
+    "title": "Unified Paper 44: SU(3) Sector — Color Confinement",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 9",
+      "Paper 32",
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 45",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53"
+    ],
+    "referenced_by": [
+      "Paper 42",
+      "Paper 43",
+      "Paper 57"
+    ]
+  },
+  "Paper 45": {
+    "title": "Unified Paper 45: SU(2) × U(1) Sector — Electroweak Gauge Bosons",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 33",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 53",
+      "Paper 73"
+    ],
+    "referenced_by": [
+      "Paper 41",
+      "Paper 43",
+      "Paper 44",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48"
+    ]
+  },
+  "Paper 46": {
+    "title": "Unified Paper 46: SU(2) × U(1) Sector — Electroweak Symmetry Breaking",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 33",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53"
+    ],
+    "referenced_by": [
+      "Paper 45",
+      "Paper 47",
+      "Paper 48",
+      "Paper 53"
+    ]
+  },
+  "Paper 47": {
+    "title": "Unified Paper 47: SU(2) × U(1) Sector — V-A Weak Interaction",
+    "band": "Unknown",
+    "references": [
+      "Paper 1",
+      "Paper 4",
+      "Paper 5",
+      "Paper 33",
+      "Paper 38",
+      "Paper 45",
+      "Paper 46",
+      "Paper 47",
+      "Paper 48",
+      "Paper 50"
+    ],
+    "referenced_by": [
+      "Paper 45",
+      "Paper 46",
+      "Paper 50"
+    ]
+  },
+  "Paper 48": {
+    "title": "Unified Paper 48: SU(2) × U(1) Sector — Electroweak Phase Diagram",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 33",
+      "Paper 45",
+      "Paper 46",
+      "Paper 48",
+      "Paper 53",
+      "Paper 67",
+      "Paper 69",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 45",
+      "Paper 46",
+      "Paper 47"
+    ]
+  },
+  "Paper 49": {
+    "title": "Unified Paper 49: Mass and Yukawa 1 — Mass Hierarchy",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 32",
+      "Paper 33",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53",
+      "Paper 54",
+      "Paper 73"
+    ],
+    "referenced_by": [
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 46",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 50": {
+    "title": "Unified Paper 50: Mass and Yukawa 2 — CKM and PMNS Matrices",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 32",
+      "Paper 33",
+      "Paper 41",
+      "Paper 47",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53",
+      "Paper 54",
+      "Paper 67",
+      "Paper 73",
+      "Paper 102"
+    ],
+    "referenced_by": [
+      "Paper 41",
+      "Paper 42",
+      "Paper 43",
+      "Paper 44",
+      "Paper 46",
+      "Paper 47",
+      "Paper 49",
+      "Paper 51",
+      "Paper 52",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 51": {
+    "title": "Unified Paper 51: Mass and Yukawa 3 — BSM Constraints and Flavor-Symmetry Breaking",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 4",
+      "Paper 16",
+      "Paper 49",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 54",
+      "Paper 61",
+      "Paper 80",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 52",
+      "Paper 61",
+      "Paper 62"
+    ]
+  },
+  "Paper 52": {
+    "title": "Unified Paper 52: Mass and Yukawa 4 — Neutrino Masses, Seesaw, and PMNS Structure",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 4",
+      "Paper 16",
+      "Paper 27",
+      "Paper 49",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 54",
+      "Paper 61",
+      "Paper 73",
+      "Paper 80",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 51",
+      "Paper 61"
+    ]
+  },
+  "Paper 53": {
+    "title": "Unified Paper 53: Higgs and Vacuum 1 — Higgs Mechanism",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 33",
+      "Paper 46",
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 100",
+      "Paper 102"
+    ],
+    "referenced_by": [
+      "Paper 44",
+      "Paper 45",
+      "Paper 46",
+      "Paper 48",
+      "Paper 49",
+      "Paper 50",
+      "Paper 55",
+      "Paper 56",
+      "Paper 68",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 54": {
+    "title": "Unified Paper 54: Higgs and Vacuum 2 — VOA Excited Weight 5 = Higgs",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 18",
+      "Paper 27",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 90",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 49",
+      "Paper 50",
+      "Paper 51",
+      "Paper 52",
+      "Paper 53",
+      "Paper 55",
+      "Paper 56"
+    ]
+  },
+  "Paper 55": {
+    "title": "Unified Paper 55: Higgs and Vacuum 3 — Vacuum Stability",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 16",
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 68",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 53",
+      "Paper 54",
+      "Paper 56",
+      "Paper 68"
+    ]
+  },
+  "Paper 56": {
+    "title": "Unified Paper 56: Higgs and Vacuum 4 — Higgs Couplings",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 16",
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 57",
+      "Paper 58",
+      "Paper 90",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 57"
+    ]
+  },
+  "Paper 57": {
+    "title": "Unified Paper 57: QCD Phenomenology 1 — Hadron Spectroscopy",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 32",
+      "Paper 42",
+      "Paper 44",
+      "Paper 56",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60"
+    ],
+    "referenced_by": [
+      "Paper 56",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60"
+    ]
+  },
+  "Paper 58": {
+    "title": "Unified Paper 58: QCD Phenomenology 2 — Parton Distributions",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 16",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60"
+    ],
+    "referenced_by": [
+      "Paper 56",
+      "Paper 57",
+      "Paper 59",
+      "Paper 60"
+    ]
+  },
+  "Paper 59": {
+    "title": "Unified Paper 59: QCD Phenomenology 3 — Jets and Fragmentation",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 16",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60"
+    ],
+    "referenced_by": [
+      "Paper 57",
+      "Paper 58",
+      "Paper 60"
+    ]
+  },
+  "Paper 60": {
+    "title": "Unified Paper 60: QCD Phenomenology 4 — Lattice QCD",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 60",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 57",
+      "Paper 58",
+      "Paper 59",
+      "Paper 84"
+    ]
+  },
+  "Paper 61": {
+    "title": "Unified Paper 61: BSM and Dark 1 — Neutrino Masses and Mixing",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 11",
+      "Paper 16",
+      "Paper 27",
+      "Paper 51",
+      "Paper 52",
+      "Paper 61",
+      "Paper 62",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 51",
+      "Paper 52",
+      "Paper 62"
+    ]
+  },
+  "Paper 62": {
+    "title": "Unified Paper 62: BSM and Dark 2 — Dark Matter Candidates and Lattice Charge Constraints",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 4",
+      "Paper 27",
+      "Paper 40",
+      "Paper 51",
+      "Paper 61",
+      "Paper 62",
+      "Paper 80",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 61",
+      "Paper 63"
+    ]
+  },
+  "Paper 63": {
+    "title": "BSM and Dark 3: Dark Energy",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 4",
+      "Paper 5",
+      "Paper 62",
+      "Paper 63",
+      "Paper 64",
+      "Paper 67",
+      "Paper 68",
+      "Paper 80",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 64",
+      "Paper 68"
+    ]
+  },
+  "Paper 64": {
+    "title": "BSM and Dark 4: Inflation",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 9",
+      "Paper 63",
+      "Paper 64",
+      "Paper 67",
+      "Paper 69",
+      "Paper 80",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 63"
+    ]
+  },
+  "Paper 65": {
+    "title": "GR Side 1: Einstein Field Equation (Unified)",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 15",
+      "Paper 17",
+      "Paper 35",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 71",
+      "Paper 80",
+      "Paper 100"
+    ]
+  },
+  "Paper 66": {
+    "title": "Unified Paper 66 — GR Side 2: Black Hole Entropy",
+    "band": "Unknown",
+    "references": [
+      "Paper 5",
+      "Paper 11",
+      "Paper 15",
+      "Paper 18",
+      "Paper 35",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 90",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 65",
+      "Paper 67"
+    ]
+  },
+  "Paper 67": {
+    "title": "Canonical Unified Paper 67",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 7",
+      "Paper 11",
+      "Paper 17",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 48",
+      "Paper 50",
+      "Paper 63",
+      "Paper 64",
+      "Paper 65",
+      "Paper 66",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 100"
+    ]
+  },
+  "Paper 68": {
+    "title": "Unified Paper 68 — Cosmology 2: Cosmological Constant and Dark Energy",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 11",
+      "Paper 16",
+      "Paper 53",
+      "Paper 55",
+      "Paper 63",
+      "Paper 65",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 55",
+      "Paper 63",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 69",
+      "Paper 70"
+    ]
+  },
+  "Paper 69": {
+    "title": "Cosmology 3: Cosmic Microwave Background",
+    "band": "Unknown",
+    "references": [
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 11",
+      "Paper 16",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 48",
+      "Paper 64",
+      "Paper 67",
+      "Paper 68",
+      "Paper 70"
+    ]
+  },
+  "Paper 70": {
+    "title": "Cosmology 4: Large-Scale Structure",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 11",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 72",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69"
+    ]
+  },
+  "Paper 71": {
+    "title": "Unified Paper 71 — Calibration Protocols 1: Empirical Measurement Protocols",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 16",
+      "Paper 20",
+      "Paper 35",
+      "Paper 37",
+      "Paper 65",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 69",
+      "Paper 70",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74"
+    ]
+  },
+  "Paper 72": {
+    "title": "Unified Paper 72 — Calibration Protocols 2: Between-Sample Dynamics, Systematic Error Propagation, and Traceability",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 16",
+      "Paper 37",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 80",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 70",
+      "Paper 71",
+      "Paper 73",
+      "Paper 74"
+    ]
+  },
+  "Paper 73": {
+    "title": "Unified Paper 73 — Calibration Protocols 3: Closure-Stability Sampling",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 9",
+      "Paper 35",
+      "Paper 37",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 91"
+    ],
+    "referenced_by": [
+      "Paper 45",
+      "Paper 49",
+      "Paper 50",
+      "Paper 52",
+      "Paper 71",
+      "Paper 72",
+      "Paper 74"
+    ]
+  },
+  "Paper 74": {
+    "title": "Calibration Protocols 4: Between-Sample Dynamics Dynamics Tests",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 11",
+      "Paper 16",
+      "Paper 35",
+      "Paper 37",
+      "Paper 39",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 75",
+      "Paper 76",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 71",
+      "Paper 72",
+      "Paper 73"
+    ]
+  },
+  "Paper 75": {
+    "title": "Unified Paper 75 — Foundation Math Closure 1: F4 Universality",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 18",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 74",
+      "Paper 76",
+      "Paper 77"
+    ]
+  },
+  "Paper 76": {
+    "title": "Unified Paper 76 — Foundation Math Closure 2: Encoder Invariance",
+    "band": "Unknown",
+    "references": [
+      "Paper 1",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 12",
+      "Paper 18",
+      "Paper 27",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 90",
+      "Paper 91",
+      "Paper 94",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 74",
+      "Paper 75",
+      "Paper 77",
+      "Paper 94"
+    ]
+  },
+  "Paper 77": {
+    "title": "Unified Paper 77 — Foundation Math Closure 3: Superpermutation Minimality",
+    "band": "Unknown",
+    "references": [
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 9",
+      "Paper 18",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 90",
+      "Paper 91",
+      "Paper 96",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 75",
+      "Paper 76"
+    ]
+  },
+  "Paper 78": {
+    "title": "Governance 1: Bibliography, Taxonomy, Claim-Layer Governance",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 27",
+      "Paper 30",
+      "Paper 39",
+      "Paper 78",
+      "Paper 79",
+      "Paper 80"
+    ],
+    "referenced_by": [
+      "Paper 79",
+      "Paper 80"
+    ]
+  },
+  "Paper 79": {
+    "title": "Governance 2: First-Routing Implementation and Universal Normal-Form Intake",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 27",
+      "Paper 30",
+      "Paper 78",
+      "Paper 79",
+      "Paper 80"
+    ],
+    "referenced_by": [
+      "Paper 78",
+      "Paper 80"
+    ]
+  },
+  "Paper 80": {
+    "title": "UFT: The Closed Form of the Language",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 12",
+      "Paper 18",
+      "Paper 27",
+      "Paper 39",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53",
+      "Paper 65",
+      "Paper 78",
+      "Paper 79",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 84",
+      "Paper 85",
+      "Paper 86",
+      "Paper 87",
+      "Paper 88",
+      "Paper 89",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3",
+      "Paper 39",
+      "Paper 51",
+      "Paper 52",
+      "Paper 62",
+      "Paper 63",
+      "Paper 64",
+      "Paper 72",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 78",
+      "Paper 79",
+      "Paper 86",
+      "Paper 88",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 81": {
+    "title": "Wolfram P1: Rule 30 Non-Periodicity",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 86",
+      "Paper 90",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 12",
+      "Paper 80",
+      "Paper 82",
+      "Paper 83",
+      "Paper 86",
+      "Paper 93",
+      "Paper 100"
+    ]
+  },
+  "Paper 82": {
+    "title": "Wolfram P2: Rule 30 Density 1/2",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 86",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 12",
+      "Paper 80",
+      "Paper 81",
+      "Paper 83"
+    ]
+  },
+  "Paper 83": {
+    "title": "Wolfram P3: Rule 30 Sub-O(n) Extraction",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 86",
+      "Paper 90",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 12",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82"
+    ]
+  },
+  "Paper 84": {
+    "title": "Yang-Mills Mass Gap",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 15",
+      "Paper 16",
+      "Paper 32",
+      "Paper 60",
+      "Paper 84",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80"
+    ]
+  },
+  "Paper 85": {
+    "title": "Navier-Stokes Smoothness: Boundary Repair as Regularity Mechanism",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 15",
+      "Paper 35",
+      "Paper 85",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80"
+    ]
+  },
+  "Paper 86": {
+    "title": "Riemann Hypothesis: Critical Line as the Big Bang Crease",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 80",
+      "Paper 81",
+      "Paper 86",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 100"
+    ]
+  },
+  "Paper 87": {
+    "title": "Unified: Hodge Conjecture — Algebraic Cycles and Boundary-Repair Completion",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 27",
+      "Paper 87",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80"
+    ]
+  },
+  "Paper 88": {
+    "title": "Unified: P vs NP — Complexity of Lattice Codes and Finite Presentation",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 12",
+      "Paper 23",
+      "Paper 28",
+      "Paper 80",
+      "Paper 88",
+      "Paper 92",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80",
+      "Paper 96"
+    ]
+  },
+  "Paper 89": {
+    "title": "Unified: Birch and Swinnerton-Dyer Conjecture — Elliptic Curves and Modular Arithmetic",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 27",
+      "Paper 89",
+      "Paper 91",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80"
+    ]
+  },
+  "Paper 90": {
+    "title": "McKay-Thompson Parity and Rule 30 Correction Collapse",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 18",
+      "Paper 27",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 12",
+      "Paper 13",
+      "Paper 18",
+      "Paper 54",
+      "Paper 56",
+      "Paper 66",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 81",
+      "Paper 83",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 91": {
+    "title": "Niemeier Glue, Leech Invariants, Γ72 Landing",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 9",
+      "Paper 18",
+      "Paper 32",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 3",
+      "Paper 18",
+      "Paper 36",
+      "Paper 52",
+      "Paper 60",
+      "Paper 61",
+      "Paper 62",
+      "Paper 63",
+      "Paper 64",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 71",
+      "Paper 72",
+      "Paper 73",
+      "Paper 74",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 84",
+      "Paper 87",
+      "Paper 89",
+      "Paper 90",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ]
+  },
+  "Paper 92": {
+    "title": "F4 Universality Theorem",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 18",
+      "Paper 27",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 75",
+      "Paper 80",
+      "Paper 88",
+      "Paper 90",
+      "Paper 91"
+    ]
+  },
+  "Paper 93": {
+    "title": "Unified Paper 93 — Cold-Start Terminal Selection and Fingerprint Map",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 9",
+      "Paper 11",
+      "Paper 16",
+      "Paper 18",
+      "Paper 38",
+      "Paper 81",
+      "Paper 90",
+      "Paper 91",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 80",
+      "Paper 92"
+    ]
+  },
+  "Paper 94": {
+    "title": "Unified Paper 94 — Encoder Invariance for Sporadic Boundary",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 12",
+      "Paper 16",
+      "Paper 18",
+      "Paper 27",
+      "Paper 28",
+      "Paper 38",
+      "Paper 76",
+      "Paper 90",
+      "Paper 91",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 76",
+      "Paper 80",
+      "Paper 92",
+      "Paper 93"
+    ]
+  },
+  "Paper 95": {
+    "title": "Unified Paper 95 — SPINOR Observation and Open-Gap Observer Evidence",
+    "band": "Unknown",
+    "references": [
+      "Paper 2",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 16",
+      "Paper 18",
+      "Paper 26",
+      "Paper 38",
+      "Paper 90",
+      "Paper 91",
+      "Paper 95",
+      "Paper 96",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 36",
+      "Paper 80",
+      "Paper 93",
+      "Paper 94",
+      "Paper 99"
+    ]
+  },
+  "Paper 96": {
+    "title": "Unified Paper 96 — Superpermutation Minimality Bounds",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 8",
+      "Paper 16",
+      "Paper 18",
+      "Paper 23",
+      "Paper 88",
+      "Paper 90",
+      "Paper 91",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 36",
+      "Paper 77",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95"
+    ]
+  },
+  "Paper 97": {
+    "title": "Unified Paper 97 — Electron-Hole-Exciton Accounting for Open Math (Deep Dive)",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 16",
+      "Paper 18",
+      "Paper 34",
+      "Paper 90",
+      "Paper 91",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 96"
+    ]
+  },
+  "Paper 98": {
+    "title": "Unified Paper 98 — Reasoned Reapplication of Standard Formalism",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 9",
+      "Paper 11",
+      "Paper 12",
+      "Paper 16",
+      "Paper 18",
+      "Paper 28",
+      "Paper 29",
+      "Paper 90",
+      "Paper 91",
+      "Paper 98",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 35",
+      "Paper 37",
+      "Paper 96",
+      "Paper 97"
+    ]
+  },
+  "Paper 99": {
+    "title": "Applied Forge Validation",
+    "band": "Unknown",
+    "references": [
+      "Paper 4",
+      "Paper 5",
+      "Paper 9",
+      "Paper 11",
+      "Paper 16",
+      "Paper 18",
+      "Paper 20",
+      "Paper 39",
+      "Paper 40",
+      "Paper 80",
+      "Paper 90",
+      "Paper 91",
+      "Paper 95",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 100"
+    ]
+  },
+  "Paper 100": {
+    "title": "Capstone: The 100-Paper Series and Complete Framework Synthesis",
+    "band": "Unknown",
+    "references": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4",
+      "Paper 5",
+      "Paper 6",
+      "Paper 7",
+      "Paper 8",
+      "Paper 9",
+      "Paper 10",
+      "Paper 11",
+      "Paper 12",
+      "Paper 13",
+      "Paper 14",
+      "Paper 15",
+      "Paper 16",
+      "Paper 17",
+      "Paper 18",
+      "Paper 19",
+      "Paper 20",
+      "Paper 23",
+      "Paper 24",
+      "Paper 25",
+      "Paper 26",
+      "Paper 27",
+      "Paper 28",
+      "Paper 29",
+      "Paper 30",
+      "Paper 39",
+      "Paper 40",
+      "Paper 49",
+      "Paper 50",
+      "Paper 53",
+      "Paper 65",
+      "Paper 67",
+      "Paper 80",
+      "Paper 81",
+      "Paper 86",
+      "Paper 90",
+      "Paper 91",
+      "Paper 99",
+      "Paper 100"
+    ],
+    "referenced_by": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3",
+      "Paper 33",
+      "Paper 48",
+      "Paper 51",
+      "Paper 52",
+      "Paper 53",
+      "Paper 54",
+      "Paper 55",
+      "Paper 56",
+      "Paper 63",
+      "Paper 64",
+      "Paper 65",
+      "Paper 66",
+      "Paper 67",
+      "Paper 68",
+      "Paper 69",
+      "Paper 70",
+      "Paper 74",
+      "Paper 75",
+      "Paper 76",
+      "Paper 77",
+      "Paper 80",
+      "Paper 81",
+      "Paper 82",
+      "Paper 83",
+      "Paper 84",
+      "Paper 85",
+      "Paper 86",
+      "Paper 87",
+      "Paper 88",
+      "Paper 89",
+      "Paper 90",
+      "Paper 91",
+      "Paper 92",
+      "Paper 93",
+      "Paper 94",
+      "Paper 95",
+      "Paper 96",
+      "Paper 97",
+      "Paper 98",
+      "Paper 99"
+    ]
+  }
+}

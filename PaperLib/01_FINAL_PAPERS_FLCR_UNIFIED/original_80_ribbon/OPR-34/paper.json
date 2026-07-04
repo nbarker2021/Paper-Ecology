@@ -1,0 +1,41 @@
+{
+  "original_publication_id": "OPR-34",
+  "original_slot": "34",
+  "title": "Lift-3 Boundary: Electroweak, Higgs, Curvature, And Admission Limits",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-33",
+    "FLCR-35",
+    "FLCR-12",
+    "FLCR-15",
+    "FLCR-16"
+  ],
+  "slot_family": "boundary_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-4: type the boundary, repair row, or curvature-demand condition",
+  "proof_form_required": "typed boundary row and next-state admissibility",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "14_GR_Boundary_Repair_Curvature.md",
+    "15_QFT_Higgs_Mass_Residue_Carrier.md",
+    "16_Continuum_Edge_Residuals.md",
+    "FLCR-33/formal.md",
+    "FLCR-35/formal.md",
+    "NSIT_TOOL_CLOSURE_MATRIX.md"
+  ],
+  "formal_target": "type which boundary claims are internal repair/admission results and which require external field-theory or GR calibration",
+  "semantic_target": "once gauge/color folds exist, the next state must decide what crosses the boundary as a valid claim, what remains a residue, and what becomes calibration demand",
+  "analog_target": "a typed interface: changing the boundary label does not change whether the state is admitted, blocked, repaired, or routed onward",
+  "claim_lanes": [
+    "receipt_bound_internal_result",
+    "standard_theorem_citation_bound_result",
+    "external_calibration_result",
+    "falsifier_or_open_obligation"
+  ]
+}

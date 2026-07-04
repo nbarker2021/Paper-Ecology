@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-17",
+  "original_slot": "17",
+  "title": "E6 E8 Error Correction Tower",
+  "status": "source_backed",
+  "source_file": "17_E6_E8_Error_Correction_Tower.md",
+  "linked_flcr_papers": [
+    "FLCR-18"
+  ],
+  "slot_family": "bridge_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+  "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0036",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\production\\formal-papers.zip",
+  "name": "formal-papers.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 590,
+  "high_signal_entry_count": 590,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "residual_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "02",
+    "12",
+    "22",
+    "32",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "9194d9188ae454c5d52c4a31596526b8124afc3822a738c10101705fdedf6b2d"
+}

@@ -1,0 +1,2551 @@
+{
+  "schema": "flcr.publication_agent_product_index.v1",
+  "generated_utc": "2026-07-01T02:44:52.999263+00:00",
+  "product_root": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS",
+  "flcr_product_root": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED",
+  "product_count": 80,
+  "flcr_product_count": 40,
+  "protocol": {
+    "schema": "flcr.publication_agent_protocol.v1",
+    "purpose": "Convert pipeline evidence into formalized paper products rather than log dumps.",
+    "body_rule": "Paper bodies summarize evidence as claims, methods, results, boundaries, and obligations. Raw logs, file paths, and database/archive inventories remain in appendices or supporting ledgers.",
+    "required_sections": [
+      "Title",
+      "Abstract",
+      "Keywords",
+      "1. Purpose and slot definition",
+      "2. Definitions and nonstandard terms",
+      "3. Methods",
+      "4. Evidence synthesis",
+      "5. Results currently allowed",
+      "6. Validation and honesty boundary",
+      "7. Publication claims",
+      "8. Obligations and reroute queue",
+      "Appendix A: evidence ledger",
+      "Appendix B: CAM/crystal addresses",
+      "Appendix C: CAM database provenance",
+      "Appendix D: archive provenance"
+    ],
+    "claim_rule": "Only ASSEMBLE records may support publication claims in the results section. Discovery records may appear only as obligations, comparators needed, or source-card queues.",
+    "database_rule": "CAM databases can support methods, provenance, memory, receipts, and source routing immediately, but row-level scientific claims require exact table/row cards and external publication pairing.",
+    "archive_rule": "Archives can support discovery and source provenance immediately. Extracted files must become exact source cards before formal claims are promoted.",
+    "publication_products": "One formalized product is generated per 00-79 slot, with multi-slot evidence summarized by role."
+  },
+  "products": [
+    {
+      "slot": "00",
+      "title": "Established Grounding and Axiom Contract",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-01"
+      ],
+      "record_count": 84,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 3,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 78
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 3,
+        "local_unintegrated_artifact": 5,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 50
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-00__Established_Grounding_and_Axiom_Contract__formalized_paper.md"
+    },
+    {
+      "slot": "01",
+      "title": "LCR Chain Carrier",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-02"
+      ],
+      "record_count": 305,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 80,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 208,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 116,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 169,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 3,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-01__LCR_Chain_Carrier__formalized_paper.md"
+    },
+    {
+      "slot": "02",
+      "title": "Correction Surface",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-03"
+      ],
+      "record_count": 51,
+      "decision_counts": {
+        "ASSEMBLE": 7,
+        "REROUTE_OR_REPAIR": 22,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 22
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 7,
+        "local_unintegrated_artifact": 23,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 18,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-02__Correction_Surface__formalized_paper.md"
+    },
+    {
+      "slot": "03",
+      "title": "D4 J3 Triality Surface",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-04"
+      ],
+      "record_count": 329,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 75,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 237,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 111,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 174,
+        "cam_database_port_candidate": 26
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-03__D4_J3_Triality_Surface__formalized_paper.md"
+    },
+    {
+      "slot": "04",
+      "title": "Boundary Repair",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-05"
+      ],
+      "record_count": 51,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 13,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 6,
+        "cam_database_port_candidate": 28
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-04__Boundary_Repair__formalized_paper.md"
+    },
+    {
+      "slot": "05",
+      "title": "Oloid Path Carrier",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-06"
+      ],
+      "record_count": 18,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 11,
+        "archive_source_artifact": 5
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-05__Oloid_Path_Carrier__formalized_paper.md"
+    },
+    {
+      "slot": "06",
+      "title": "Causal Link and Obligation Ledger",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-07",
+        "FLCR-39"
+      ],
+      "record_count": 352,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 262
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 108,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 173,
+        "cam_database_port_candidate": 56
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-06__Causal_Link_and_Obligation_Ledger__formalized_paper.md"
+    },
+    {
+      "slot": "07",
+      "title": "Discrete Continuous Bridge",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-08"
+      ],
+      "record_count": 330,
+      "decision_counts": {
+        "ASSEMBLE": 8,
+        "REROUTE_OR_REPAIR": 74,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 248
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 8,
+        "local_unintegrated_artifact": 103,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 164,
+        "cam_database_port_candidate": 52
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-07__Discrete_Continuous_Bridge__formalized_paper.md"
+    },
+    {
+      "slot": "08",
+      "title": "Lattice Closure",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-09"
+      ],
+      "record_count": 280,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 190,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 114,
+        "shared_motif_bridge": 2,
+        "archive_source_artifact": 130,
+        "cam_database_port_candidate": 32
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-08__Lattice_Closure__formalized_paper.md"
+    },
+    {
+      "slot": "09",
+      "title": "Hamiltonian Window Emergence",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-10"
+      ],
+      "record_count": 118,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 38
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 82,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 2,
+        "cam_database_port_candidate": 31
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-09__Hamiltonian_Window_Emergence__formalized_paper.md"
+    },
+    {
+      "slot": "10",
+      "title": "T10 Master Receipt",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-11",
+        "FLCR-39"
+      ],
+      "record_count": 89,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 8,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 78
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 3,
+        "local_unintegrated_artifact": 10,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 50
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-10__T10_Master_Receipt__formalized_paper.md"
+    },
+    {
+      "slot": "11",
+      "title": "Theory Admission Gate",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-12",
+        "FLCR-39"
+      ],
+      "record_count": 308,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 208,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 169,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 3,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-11__Theory_Admission_Gate__formalized_paper.md"
+    },
+    {
+      "slot": "12",
+      "title": "CA Prediction Surface",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-13"
+      ],
+      "record_count": 106,
+      "decision_counts": {
+        "ASSEMBLE": 7,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 22
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 7,
+        "local_unintegrated_artifact": 78,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 18,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-12__CA_Prediction_Surface__formalized_paper.md"
+    },
+    {
+      "slot": "13",
+      "title": "Standard Model Quark Face Transport",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-14",
+        "FLCR-31",
+        "FLCR-32"
+      ],
+      "record_count": 337,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 237,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 174,
+        "cam_database_port_candidate": 26
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-13__Standard_Model_Quark_Face_Transport__formalized_paper.md"
+    },
+    {
+      "slot": "14",
+      "title": "GR Boundary Repair Curvature",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-15",
+        "FLCR-35"
+      ],
+      "record_count": 51,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 13,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 6,
+        "cam_database_port_candidate": 28
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-14__GR_Boundary_Repair_Curvature__formalized_paper.md"
+    },
+    {
+      "slot": "15",
+      "title": "QFT Higgs Mass Residue Carrier",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-16",
+        "FLCR-33"
+      ],
+      "record_count": 18,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 11,
+        "archive_source_artifact": 5
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-15__QFT_Higgs_Mass_Residue_Carrier__formalized_paper.md"
+    },
+    {
+      "slot": "16",
+      "title": "Continuum Edge Residuals",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-17",
+        "FLCR-35"
+      ],
+      "record_count": 352,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 262
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 108,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 173,
+        "cam_database_port_candidate": 56
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-16__Continuum_Edge_Residuals__formalized_paper.md"
+    },
+    {
+      "slot": "17",
+      "title": "E6 E8 Error Correction Tower",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-18"
+      ],
+      "record_count": 339,
+      "decision_counts": {
+        "ASSEMBLE": 8,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 248
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 8,
+        "local_unintegrated_artifact": 112,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 164,
+        "cam_database_port_candidate": 52
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-17__E6_E8_Error_Correction_Tower__formalized_paper.md"
+    },
+    {
+      "slot": "18",
+      "title": "VOA Moonshine Representation Routes",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-18"
+      ],
+      "record_count": 280,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 190,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 114,
+        "shared_motif_bridge": 2,
+        "archive_source_artifact": 130,
+        "cam_database_port_candidate": 32
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-18__VOA_Moonshine_Representation_Routes__formalized_paper.md"
+    },
+    {
+      "slot": "19",
+      "title": "Observer Face Selection",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-18",
+        "FLCR-38"
+      ],
+      "record_count": 117,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 37
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 82,
+        "archive_source_artifact": 2,
+        "cam_database_port_candidate": 31
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-19__Observer_Face_Selection__formalized_paper.md"
+    },
+    {
+      "slot": "20",
+      "title": "Layer 2 Synthesis Ledger",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-19",
+        "FLCR-39"
+      ],
+      "record_count": 158,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 78
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 3,
+        "local_unintegrated_artifact": 79,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 50
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-20__Layer_2_Synthesis_Ledger__formalized_paper.md"
+    },
+    {
+      "slot": "21",
+      "title": "MorphForge PolyForge MorphoniX",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-20"
+      ],
+      "record_count": 308,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 208,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 169,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-21__MorphForge_PolyForge_MorphoniX__formalized_paper.md"
+    },
+    {
+      "slot": "22",
+      "title": "MetaForge Applied Materials",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-21",
+        "FLCR-36"
+      ],
+      "record_count": 109,
+      "decision_counts": {
+        "ASSEMBLE": 7,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 23
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 7,
+        "local_unintegrated_artifact": 80,
+        "shared_motif_bridge": 2,
+        "archive_source_artifact": 18,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-22__MetaForge_Applied_Materials__formalized_paper.md"
+    },
+    {
+      "slot": "23",
+      "title": "FoldForge Protein Folding",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-22"
+      ],
+      "record_count": 337,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 237,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 174,
+        "cam_database_port_candidate": 26
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-23__FoldForge_Protein_Folding__formalized_paper.md"
+    },
+    {
+      "slot": "24",
+      "title": "KnightForge N Dimensional Chess Automata",
+      "status": "evidence-rich draft requiring external pair completion",
+      "linked_flcr": [
+        "FLCR-23"
+      ],
+      "record_count": 95,
+      "decision_counts": {
+        "REROUTE_OR_REPAIR": 56,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "local_unintegrated_artifact": 58,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 6,
+        "cam_database_port_candidate": 28
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-24__KnightForge_N_Dimensional_Chess_Automata__formalized_paper.md"
+    },
+    {
+      "slot": "25",
+      "title": "Energetic Traversal Maps",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-24",
+        "FLCR-37"
+      ],
+      "record_count": 62,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 56,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 56,
+        "archive_source_artifact": 5
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-25__Energetic_Traversal_Maps__formalized_paper.md"
+    },
+    {
+      "slot": "26",
+      "title": "Z Pinch and Shear Horizon",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-25",
+        "FLCR-37"
+      ],
+      "record_count": 352,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 262
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 108,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 173,
+        "cam_database_port_candidate": 56
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-26__Z_Pinch_and_Shear_Horizon__formalized_paper.md"
+    },
+    {
+      "slot": "27",
+      "title": "Observer Delay and Shared Reality",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-26",
+        "FLCR-38"
+      ],
+      "record_count": 339,
+      "decision_counts": {
+        "ASSEMBLE": 8,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 248
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 8,
+        "local_unintegrated_artifact": 112,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 164,
+        "cam_database_port_candidate": 52
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-27__Observer_Delay_and_Shared_Reality__formalized_paper.md"
+    },
+    {
+      "slot": "28",
+      "title": "N Dimensional Game Lattices",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-23",
+        "FLCR-38"
+      ],
+      "record_count": 280,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 190,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 114,
+        "shared_motif_bridge": 2,
+        "archive_source_artifact": 130,
+        "cam_database_port_candidate": 32
+      },
+      "external_candidate_count": 3,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-28__N_Dimensional_Game_Lattices__formalized_paper.md"
+    },
+    {
+      "slot": "29",
+      "title": "Monster Universal Energy Bound Hypotheses",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-27",
+        "FLCR-37"
+      ],
+      "record_count": 122,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 37
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 87,
+        "archive_source_artifact": 2,
+        "cam_database_port_candidate": 31
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-29__Monster_Universal_Energy_Bound_Hypotheses__formalized_paper.md"
+    },
+    {
+      "slot": "30",
+      "title": "Grand Ribbon Meta Framer",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-29",
+        "FLCR-38"
+      ],
+      "record_count": 158,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 78
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 3,
+        "local_unintegrated_artifact": 79,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 50
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-30__Grand_Ribbon_Meta_Framer__formalized_paper.md"
+    },
+    {
+      "slot": "31",
+      "title": "It Was Still Just LCR",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-29",
+        "FLCR-38"
+      ],
+      "record_count": 308,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 208,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 169,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-31__It_Was_Still_Just_LCR__formalized_paper.md"
+    },
+    {
+      "slot": "32",
+      "title": "The Supervisor Cursor",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [
+        "FLCR-30",
+        "FLCR-39"
+      ],
+      "record_count": 108,
+      "decision_counts": {
+        "ASSEMBLE": 7,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 22
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 7,
+        "local_unintegrated_artifact": 80,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 18,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-32__The_Supervisor_Cursor__formalized_paper.md"
+    },
+    {
+      "slot": "33",
+      "title": "Fold And Representation Surface At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 337,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 237,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 6
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 119,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 3,
+        "implicit_dependency_bridge": 1,
+        "archive_source_artifact": 174,
+        "cam_database_port_candidate": 26
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-33__Fold_And_Representation_Surface_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "34",
+      "title": "Boundary Repair Surface At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 99,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 59,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 61,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 6,
+        "cam_database_port_candidate": 28
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-34__Boundary_Repair_Surface_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "35",
+      "title": "Carrier And Transport Surface At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 66,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 59,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 59,
+        "archive_source_artifact": 5
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-35__Carrier_And_Transport_Surface_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "36",
+      "title": "Ledger And Causal Binding At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 356,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 262
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 112,
+        "citation_binding_bridge": 3,
+        "shared_motif_bridge": 1,
+        "archive_source_artifact": 173,
+        "cam_database_port_candidate": 56
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-36__Ledger_And_Causal_Binding_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "37",
+      "title": "Bridge And Projection Surface At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 339,
+      "decision_counts": {
+        "ASSEMBLE": 8,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 248
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 8,
+        "local_unintegrated_artifact": 112,
+        "citation_binding_bridge": 3,
+        "archive_source_artifact": 164,
+        "cam_database_port_candidate": 52
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-37__Bridge_And_Projection_Surface_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "38",
+      "title": "Terminal Address Surface At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 280,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 190,
+        "DISCOVERY_MORE_CONTEXT_REQUIRED": 5
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 114,
+        "shared_motif_bridge": 2,
+        "archive_source_artifact": 130,
+        "cam_database_port_candidate": 32
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-38__Terminal_Address_Surface_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "39",
+      "title": "Window And Meta-Readout At Lift 3",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 122,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 83,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 37
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 87,
+        "archive_source_artifact": 2,
+        "cam_database_port_candidate": 31
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-39__Window_And_Meta_Readout_At_Lift_3__formalized_paper.md"
+    },
+    {
+      "slot": "40",
+      "title": "Ten-Window Closure And Lift At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 92,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 3
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 12,
+        "local_unintegrated_artifact": 78,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 3,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-40__Ten_Window_Closure_And_Lift_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "41",
+      "title": "Enumeration Action At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 159,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 85,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 84,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-41__Enumeration_Action_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "42",
+      "title": "Residual And Correction Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 91,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 78,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 0,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-42__Residual_And_Correction_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "43",
+      "title": "Fold And Representation Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 150,
+      "decision_counts": {
+        "ASSEMBLE": 24,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 25,
+        "local_unintegrated_artifact": 77,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-43__Fold_And_Representation_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "44",
+      "title": "Boundary Repair Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 57,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 56
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 56
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-44__Boundary_Repair_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "45",
+      "title": "Carrier And Transport Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 57,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 55
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 55
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-45__Carrier_And_Transport_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "46",
+      "title": "Ledger And Causal Binding At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 156,
+      "decision_counts": {
+        "ASSEMBLE": 26,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 51
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 28,
+        "local_unintegrated_artifact": 78,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-46__Ledger_And_Causal_Binding_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "47",
+      "title": "Bridge And Projection Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 160,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 85,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 50
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 83,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-47__Bridge_And_Projection_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "48",
+      "title": "Terminal Address Surface At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 120,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 4,
+        "local_unintegrated_artifact": 78,
+        "archive_source_artifact": 15,
+        "cam_database_port_candidate": 23
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-48__Terminal_Address_Surface_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "49",
+      "title": "Window And Meta-Readout At Lift 4",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 101,
+      "decision_counts": {
+        "ASSEMBLE": 5,
+        "REROUTE_OR_REPAIR": 84,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 12
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 6,
+        "local_unintegrated_artifact": 83,
+        "archive_source_artifact": 11,
+        "cam_database_port_candidate": 1
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-49__Window_And_Meta_Readout_At_Lift_4__formalized_paper.md"
+    },
+    {
+      "slot": "50",
+      "title": "Ten-Window Closure And Lift At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 91,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 3
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 12,
+        "local_unintegrated_artifact": 77,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-50__Ten_Window_Closure_And_Lift_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "51",
+      "title": "Enumeration Action At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 159,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 85,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 84,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-51__Enumeration_Action_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "52",
+      "title": "Residual And Correction Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 89,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 76,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 76,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 0,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-52__Residual_And_Correction_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "53",
+      "title": "Fold And Representation Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 150,
+      "decision_counts": {
+        "ASSEMBLE": 24,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 25,
+        "local_unintegrated_artifact": 77,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-53__Fold_And_Representation_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "54",
+      "title": "Boundary Repair Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 57,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 56
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 56
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-54__Boundary_Repair_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "55",
+      "title": "Carrier And Transport Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 57,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 55
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 55
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-55__Carrier_And_Transport_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "56",
+      "title": "Ledger And Causal Binding At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 156,
+      "decision_counts": {
+        "ASSEMBLE": 26,
+        "REROUTE_OR_REPAIR": 79,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 51
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 28,
+        "local_unintegrated_artifact": 78,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-56__Ledger_And_Causal_Binding_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "57",
+      "title": "Bridge And Projection Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 89,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 14,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 50
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 12,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-57__Bridge_And_Projection_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "58",
+      "title": "Terminal Address Surface At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 119,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 4,
+        "local_unintegrated_artifact": 77,
+        "archive_source_artifact": 15,
+        "cam_database_port_candidate": 23
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-58__Terminal_Address_Surface_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "59",
+      "title": "Window And Meta-Readout At Lift 5",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 101,
+      "decision_counts": {
+        "ASSEMBLE": 5,
+        "REROUTE_OR_REPAIR": 84,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 12
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 6,
+        "local_unintegrated_artifact": 83,
+        "archive_source_artifact": 11,
+        "cam_database_port_candidate": 1
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-59__Window_And_Meta_Readout_At_Lift_5__formalized_paper.md"
+    },
+    {
+      "slot": "60",
+      "title": "Ten-Window Closure And Lift At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 91,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 3
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 12,
+        "local_unintegrated_artifact": 77,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-60__Ten_Window_Closure_And_Lift_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "61",
+      "title": "Enumeration Action At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 88,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 14,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 13,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-61__Enumeration_Action_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "62",
+      "title": "Residual And Correction Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 21,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 8,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "local_unintegrated_artifact": 8,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 0,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-62__Residual_And_Correction_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "63",
+      "title": "Fold And Representation Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 86,
+      "decision_counts": {
+        "ASSEMBLE": 24,
+        "REROUTE_OR_REPAIR": 13,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 25,
+        "local_unintegrated_artifact": 13,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-63__Fold_And_Representation_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "64",
+      "title": "Boundary Repair Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 10,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 9
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 9
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-64__Boundary_Repair_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "65",
+      "title": "Carrier And Transport Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 11,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 9
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 9
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-65__Carrier_And_Transport_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "66",
+      "title": "Ledger And Causal Binding At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 155,
+      "decision_counts": {
+        "ASSEMBLE": 26,
+        "REROUTE_OR_REPAIR": 78,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 51
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 28,
+        "local_unintegrated_artifact": 77,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 2,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-66__Ledger_And_Causal_Binding_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "67",
+      "title": "Bridge And Projection Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 87,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 12,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 50
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 10,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-67__Bridge_And_Projection_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "68",
+      "title": "Terminal Address Surface At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 119,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 4,
+        "local_unintegrated_artifact": 77,
+        "archive_source_artifact": 15,
+        "cam_database_port_candidate": 23
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-68__Terminal_Address_Surface_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "69",
+      "title": "Window And Meta-Readout At Lift 6",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 94,
+      "decision_counts": {
+        "ASSEMBLE": 5,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 12
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 6,
+        "local_unintegrated_artifact": 76,
+        "archive_source_artifact": 11,
+        "cam_database_port_candidate": 1
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-69__Window_And_Meta_Readout_At_Lift_6__formalized_paper.md"
+    },
+    {
+      "slot": "70",
+      "title": "Ten-Window Closure And Lift At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 91,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "REROUTE_OR_REPAIR": 77,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 3
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 12,
+        "local_unintegrated_artifact": 77,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-70__Ten_Window_Closure_And_Lift_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "71",
+      "title": "Enumeration Action At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 86,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 12,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 11,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-71__Enumeration_Action_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "72",
+      "title": "Residual And Correction Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 13,
+      "decision_counts": {
+        "ASSEMBLE": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 11,
+        "cam_database_port_candidate": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 0,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-72__Residual_And_Correction_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "73",
+      "title": "Fold And Representation Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 84,
+      "decision_counts": {
+        "ASSEMBLE": 24,
+        "REROUTE_OR_REPAIR": 11,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 49
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 25,
+        "local_unintegrated_artifact": 11,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 22
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-73__Fold_And_Representation_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "74",
+      "title": "Boundary Repair Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 3,
+      "decision_counts": {
+        "ASSEMBLE": 1,
+        "REROUTE_OR_REPAIR": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 1,
+        "local_unintegrated_artifact": 2
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-74__Boundary_Repair_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "75",
+      "title": "Carrier And Transport Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 4,
+      "decision_counts": {
+        "ASSEMBLE": 2,
+        "REROUTE_OR_REPAIR": 2
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 2,
+        "local_unintegrated_artifact": 2
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-75__Carrier_And_Transport_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "76",
+      "title": "Ledger And Causal Binding At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 89,
+      "decision_counts": {
+        "ASSEMBLE": 26,
+        "REROUTE_OR_REPAIR": 12,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 51
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 28,
+        "local_unintegrated_artifact": 11,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-76__Ledger_And_Causal_Binding_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "77",
+      "title": "Bridge And Projection Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 82,
+      "decision_counts": {
+        "ASSEMBLE": 25,
+        "REROUTE_OR_REPAIR": 7,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 50
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 27,
+        "local_unintegrated_artifact": 5,
+        "archive_source_artifact": 26,
+        "cam_database_port_candidate": 24
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-77__Bridge_And_Projection_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "78",
+      "title": "Terminal Address Surface At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 49,
+      "decision_counts": {
+        "ASSEMBLE": 3,
+        "REROUTE_OR_REPAIR": 7,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 39
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 4,
+        "local_unintegrated_artifact": 7,
+        "archive_source_artifact": 15,
+        "cam_database_port_candidate": 23
+      },
+      "external_candidate_count": 1,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-78__Terminal_Address_Surface_At_Lift_7__formalized_paper.md"
+    },
+    {
+      "slot": "79",
+      "title": "Window And Meta-Readout At Lift 7",
+      "status": "assembly-ready with validated pairwise evidence",
+      "linked_flcr": [],
+      "record_count": 23,
+      "decision_counts": {
+        "ASSEMBLE": 5,
+        "REROUTE_OR_REPAIR": 6,
+        "DISCOVERY_EXTERNAL_PAIR_REQUIRED": 12
+      },
+      "evidence_type_counts": {
+        "pairwise_external_evidence_package": 6,
+        "local_unintegrated_artifact": 5,
+        "archive_source_artifact": 11,
+        "cam_database_port_candidate": 1
+      },
+      "external_candidate_count": 0,
+      "cam_crystal_count": 1,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\SLOT-79__Window_And_Meta_Readout_At_Lift_7__formalized_paper.md"
+    }
+  ],
+  "flcr_products": [
+    {
+      "paper_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 2425,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 982,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-02__The_LCR_Carrier__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 778,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-03__Correction_Surface_And_Residual_Accounting__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 866,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 877,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-05__Typed_Boundary_Repair__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1642,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1083,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-07__Causal_Links_And_Obligation_Ledgers__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 4635,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 3644,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 472,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1091,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-11__Master_Receipt_And_Stack_Replay__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 2039,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-12__Theory_Admission_Gates__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 938,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-13__Cellular_Automata_Prediction_Surfaces__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 234,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 219,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-15__Curvature_As_Boundary_Repair_Demand__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 75,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-16__Mass_Residue_And_Carrier_Accounting__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 4951,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-17__Continuum_Edge_Residuals__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1214,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 332,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-19__Layer_2_Synthesis_Ledger__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "status": "REROUTE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 984,
+      "blocker_count": 2,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 4882,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-21__Materials_Candidate_Generation__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 3040,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 924,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "status": "DISCOVERY",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 2943,
+      "blocker_count": 4,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-24__Energetic_Traversal_Maps__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 876,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 97,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 387,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 3217,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 4828,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 422,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 781,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-31__Gauge_Groups_Translated_Into_LCR__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 751,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-32__QCD_And_Color_Transport_In_LCR__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 758,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 740,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-34__Electron_Hole_Exciton_Accounting__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 832,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-35__GR_Curvature_And_Continuum_Translation__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1566,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 773,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 2034,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "status": "REROUTE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 1661,
+      "blocker_count": 2,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    },
+    {
+      "paper_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "status": "ASSEMBLE",
+      "pipeline_decision": "ASSEMBLE",
+      "section_count": 16,
+      "evidence_count": 2067,
+      "blocker_count": 0,
+      "intake_tiers": [
+        "required_direct",
+        "supporting_context",
+        "external_candidates",
+        "receipts",
+        "blockers"
+      ],
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\PUBLICATION_AGENT_PRODUCTS\\FLCR_ASSEMBLED\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__assembled_paper.md",
+      "product_kind": "flcr_assembled_intake"
+    }
+  ],
+  "summary": {
+    "assembly_ready_products": 79,
+    "evidence_rich_products": 80,
+    "skeleton_products": 0,
+    "flcr_assembled_products": 40,
+    "flcr_avg_section_count": 16.0
+  }
+}

@@ -1,0 +1,33 @@
+Source: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/Layout Memory and Data Persistence.py
+Status: HARVESTED
+Disposition: canon
+Date: 2026-07-04
+Ported to: D:/CodeLib/paper-05__oloid_path_carrier.py
+CAMLib updated: D:/CAMLib/paper-05__unified_oloid_path_carrier.md
+
+Ported items:
+- LayoutMemory class (replaced stub in paper-05)
+  - add_sequence(), add_trace(), get_layout_score(), get_sources(), get_distances()
+  - all_keys(), indexed_size(), adjacency_histogram(), memory_estimate(), summary()
+
+Discarded items:
+- save_to_file() / load_from_file() (pickle persistence — supplemental I/O, not canon)
+- construct_superpermutation() (undefined imports, superpermutation-specific, not Paper 05 domain)
+- main() entry point (undefined imports, supplemental)
+- OS-specific path handling (DATA_FILENAME)
+- All external module references: utils, analysis_scripts_final, etc.
+- is_valid_permutation dependency (undefined in source)
+
+New verifiers added to paper-05:
+- verify_layout_memory()
+- verify_layout_indexing()
+- verify_layout_consistency()
+
+Classification:
+- Theorem 5.1 (Rolling Path Carrier): LayoutMemory stores adjacency-indexed traces
+- Theorem 5.2 (Oloid Carrier Family): Spatial indexing and histogram substrate
+
+Claim hashes added to CAMLib:
+- Claim 5.8: LayoutMemory In-Memory Adjacency Index
+- Claim 5.9: Spatial Indexing and Histogram Substrate
+- Claim 5.10: Layout Consistency and Multi-Source Provenance

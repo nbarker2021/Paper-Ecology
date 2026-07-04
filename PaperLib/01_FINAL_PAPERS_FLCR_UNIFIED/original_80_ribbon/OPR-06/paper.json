@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-06",
+  "original_slot": "06",
+  "title": "Causal Link and Obligation Ledger",
+  "status": "source_backed",
+  "source_file": "06_Causal_Link_and_Obligation_Ledger.md",
+  "linked_flcr_papers": [
+    "FLCR-07",
+    "FLCR-39"
+  ],
+  "slot_family": "ledger_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-6: bind state into causal, observer, or synchronization ledgers",
+  "proof_form_required": "ledger, graph, and synchronization proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

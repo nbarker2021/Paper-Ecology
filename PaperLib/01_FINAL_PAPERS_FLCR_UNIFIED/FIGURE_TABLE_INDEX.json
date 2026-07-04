@@ -1,0 +1,366 @@
+{
+  "schema": "flcr_figure_table_index.v1",
+  "paper_count": 40,
+  "items": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "slot_family": "closure_lift",
+      "primary_figure": "FLCR-01-F1",
+      "figure_purpose": "Receipt stack and lift boundary",
+      "primary_table": "FLCR-01-T1",
+      "table_purpose": "Receipt/lift table"
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "slot_family": "enumeration_action",
+      "primary_figure": "FLCR-02-F1",
+      "figure_purpose": "State enumeration chart",
+      "primary_table": "FLCR-02-T1",
+      "table_purpose": "State inventory table"
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "slot_family": "residual_action",
+      "primary_figure": "FLCR-03-F1",
+      "figure_purpose": "Residual split diagram",
+      "primary_table": "FLCR-03-T1",
+      "table_purpose": "Residual accounting table"
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "slot_family": "fold_action",
+      "primary_figure": "FLCR-04-F1",
+      "figure_purpose": "Representation fold atlas",
+      "primary_table": "FLCR-04-T1",
+      "table_purpose": "Face/representation correspondence table"
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "slot_family": "boundary_action",
+      "primary_figure": "FLCR-05-F1",
+      "figure_purpose": "Typed boundary/admission diagram",
+      "primary_table": "FLCR-05-T1",
+      "table_purpose": "Boundary verdict table"
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "slot_family": "carrier_action",
+      "primary_figure": "FLCR-06-F1",
+      "figure_purpose": "Carrier path and invariant payload",
+      "primary_table": "FLCR-06-T1",
+      "table_purpose": "Carrier transport table"
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "slot_family": "ledger_action",
+      "primary_figure": "FLCR-07-F1",
+      "figure_purpose": "Causal/obligation ledger graph",
+      "primary_table": "FLCR-07-T1",
+      "table_purpose": "Obligation ledger table"
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "slot_family": "bridge_action",
+      "primary_figure": "FLCR-08-F1",
+      "figure_purpose": "Correspondence bridge",
+      "primary_table": "FLCR-08-T1",
+      "table_purpose": "Source-target correspondence table"
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "slot_family": "terminal_action",
+      "primary_figure": "FLCR-09-F1",
+      "figure_purpose": "Terminal lookup address map",
+      "primary_table": "FLCR-09-T1",
+      "table_purpose": "Lookup/address table"
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "slot_family": "window_action",
+      "primary_figure": "FLCR-10-F1",
+      "figure_purpose": "Windowed corpus readout",
+      "primary_table": "FLCR-10-T1",
+      "table_purpose": "Window readout table"
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "slot_family": "closure_lift",
+      "primary_figure": "FLCR-11-F1",
+      "figure_purpose": "Receipt stack and lift boundary",
+      "primary_table": "FLCR-11-T1",
+      "table_purpose": "Receipt/lift table"
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "slot_family": "enumeration_action",
+      "primary_figure": "FLCR-12-F1",
+      "figure_purpose": "State enumeration chart",
+      "primary_table": "FLCR-12-T1",
+      "table_purpose": "State inventory table"
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "slot_family": "residual_action",
+      "primary_figure": "FLCR-13-F1",
+      "figure_purpose": "Residual split diagram",
+      "primary_table": "FLCR-13-T1",
+      "table_purpose": "Residual accounting table"
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "slot_family": "fold_action",
+      "primary_figure": "FLCR-14-F1",
+      "figure_purpose": "Representation fold atlas",
+      "primary_table": "FLCR-14-T1",
+      "table_purpose": "Face/representation correspondence table"
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "slot_family": "boundary_action",
+      "primary_figure": "FLCR-15-F1",
+      "figure_purpose": "Typed boundary/admission diagram",
+      "primary_table": "FLCR-15-T1",
+      "table_purpose": "Boundary verdict table"
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "slot_family": "carrier_action",
+      "primary_figure": "FLCR-16-F1",
+      "figure_purpose": "Carrier path and invariant payload",
+      "primary_table": "FLCR-16-T1",
+      "table_purpose": "Carrier transport table"
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "slot_family": "ledger_action",
+      "primary_figure": "FLCR-17-F1",
+      "figure_purpose": "Causal/obligation ledger graph",
+      "primary_table": "FLCR-17-T1",
+      "table_purpose": "Obligation ledger table"
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "slot_family": "bridge_action",
+      "primary_figure": "FLCR-18-F1",
+      "figure_purpose": "Correspondence bridge",
+      "primary_table": "FLCR-18-T1",
+      "table_purpose": "Source-target correspondence table"
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "slot_family": "closure_lift",
+      "primary_figure": "FLCR-19-F1",
+      "figure_purpose": "Receipt stack and lift boundary",
+      "primary_table": "FLCR-19-T1",
+      "table_purpose": "Receipt/lift table"
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "slot_family": "enumeration_action",
+      "primary_figure": "FLCR-20-F1",
+      "figure_purpose": "State enumeration chart",
+      "primary_table": "FLCR-20-T1",
+      "table_purpose": "State inventory table"
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "slot_family": "residual_action",
+      "primary_figure": "FLCR-21-F1",
+      "figure_purpose": "Residual split diagram",
+      "primary_table": "FLCR-21-T1",
+      "table_purpose": "Residual accounting table"
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "slot_family": "fold_action",
+      "primary_figure": "FLCR-22-F1",
+      "figure_purpose": "Representation fold atlas",
+      "primary_table": "FLCR-22-T1",
+      "table_purpose": "Face/representation correspondence table"
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "slot_family": "boundary_action",
+      "primary_figure": "FLCR-23-F1",
+      "figure_purpose": "Typed boundary/admission diagram",
+      "primary_table": "FLCR-23-T1",
+      "table_purpose": "Boundary verdict table"
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "slot_family": "carrier_action",
+      "primary_figure": "FLCR-24-F1",
+      "figure_purpose": "Carrier path and invariant payload",
+      "primary_table": "FLCR-24-T1",
+      "table_purpose": "Carrier transport table"
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "slot_family": "ledger_action",
+      "primary_figure": "FLCR-25-F1",
+      "figure_purpose": "Causal/obligation ledger graph",
+      "primary_table": "FLCR-25-T1",
+      "table_purpose": "Obligation ledger table"
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "slot_family": "bridge_action",
+      "primary_figure": "FLCR-26-F1",
+      "figure_purpose": "Correspondence bridge",
+      "primary_table": "FLCR-26-T1",
+      "table_purpose": "Source-target correspondence table"
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "slot_family": "window_action",
+      "primary_figure": "FLCR-27-F1",
+      "figure_purpose": "Windowed corpus readout",
+      "primary_table": "FLCR-27-T1",
+      "table_purpose": "Window readout table"
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "slot_family": "publication_overlay",
+      "primary_figure": "FLCR-28-F1",
+      "figure_purpose": "Publication overlay dependency map",
+      "primary_table": "FLCR-28-T1",
+      "table_purpose": "Dependency and translation table"
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "slot_family": "closure_lift",
+      "primary_figure": "FLCR-29-F1",
+      "figure_purpose": "Receipt stack and lift boundary",
+      "primary_table": "FLCR-29-T1",
+      "table_purpose": "Receipt/lift table"
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "slot_family": "residual_action",
+      "primary_figure": "FLCR-30-F1",
+      "figure_purpose": "Residual split diagram",
+      "primary_table": "FLCR-30-T1",
+      "table_purpose": "Residual accounting table"
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "slot_family": "fold_action",
+      "primary_figure": "FLCR-31-F1",
+      "figure_purpose": "Representation fold atlas",
+      "primary_table": "FLCR-31-T1",
+      "table_purpose": "Face/representation correspondence table"
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "slot_family": "fold_action",
+      "primary_figure": "FLCR-32-F1",
+      "figure_purpose": "Representation fold atlas",
+      "primary_table": "FLCR-32-T1",
+      "table_purpose": "Face/representation correspondence table"
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "slot_family": "carrier_action",
+      "primary_figure": "FLCR-33-F1",
+      "figure_purpose": "Carrier path and invariant payload",
+      "primary_table": "FLCR-33-T1",
+      "table_purpose": "Carrier transport table"
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "slot_family": "publication_overlay",
+      "primary_figure": "FLCR-34-F1",
+      "figure_purpose": "Publication overlay dependency map",
+      "primary_table": "FLCR-34-T1",
+      "table_purpose": "Dependency and translation table"
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "slot_family": "boundary_action",
+      "primary_figure": "FLCR-35-F1",
+      "figure_purpose": "Typed boundary/admission diagram",
+      "primary_table": "FLCR-35-T1",
+      "table_purpose": "Boundary verdict table"
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "slot_family": "residual_action",
+      "primary_figure": "FLCR-36-F1",
+      "figure_purpose": "Residual split diagram",
+      "primary_table": "FLCR-36-T1",
+      "table_purpose": "Residual accounting table"
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "slot_family": "carrier_action",
+      "primary_figure": "FLCR-37-F1",
+      "figure_purpose": "Carrier path and invariant payload",
+      "primary_table": "FLCR-37-T1",
+      "table_purpose": "Carrier transport table"
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "slot_family": "window_action",
+      "primary_figure": "FLCR-38-F1",
+      "figure_purpose": "Windowed corpus readout",
+      "primary_table": "FLCR-38-T1",
+      "table_purpose": "Window readout table"
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "slot_family": "ledger_action",
+      "primary_figure": "FLCR-39-F1",
+      "figure_purpose": "Causal/obligation ledger graph",
+      "primary_table": "FLCR-39-T1",
+      "table_purpose": "Obligation ledger table"
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "slot_family": "publication_overlay",
+      "primary_figure": "FLCR-40-F1",
+      "figure_purpose": "Publication overlay dependency map",
+      "primary_table": "FLCR-40-T1",
+      "table_purpose": "Dependency and translation table"
+    }
+  ]
+}

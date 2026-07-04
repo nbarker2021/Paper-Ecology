@@ -1,0 +1,17 @@
+{
+  "schema": "publication_face_polish_pass.v1",
+  "generated_at": "2026-06-29T17:48:25.992814+00:00",
+  "files_touched": 9,
+  "touched": [
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\ALL_COMPANION_PAPERS.md",
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\ALL_FORMAL_PAPERS.md",
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\ALL_ORIGINAL_80_JOURNAL_SKELETONS.md",
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\ALL_WORKBOOKS.md",
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\MASTER_COMPLETE_ACCOUNTING.md",
+    "D:\\Paper Reworks\\FINAL_PAPERS_FLCR_UNIFIED\\MASTER_PUBLICATION_MANUSCRIPT.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-28\\formal.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MASTER_COMPLETE_ACCOUNTING.md",
+    "D:\\Paper Reworks\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MASTER_PUBLICATION_MANUSCRIPT.md"
+  ],
+  "scope": "paper-facing Markdown prose only; evidence matrices and raw source-routing files are left intact"
+}

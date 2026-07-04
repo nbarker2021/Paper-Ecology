@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-31",
+  "original_slot": "31",
+  "title": "It Was Still Just LCR",
+  "status": "source_backed",
+  "source_file": "31_It_Was_Still_Just_LCR.md",
+  "linked_flcr_papers": [
+    "FLCR-29",
+    "FLCR-38"
+  ],
+  "slot_family": "enumeration_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-1: start the active one-dimensional action / enumerate the center state",
+  "proof_form_required": "enumeration proof and identity preservation",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

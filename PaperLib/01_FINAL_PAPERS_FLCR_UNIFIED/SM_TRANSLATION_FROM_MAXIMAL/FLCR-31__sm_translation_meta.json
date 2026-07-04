@@ -1,0 +1,32 @@
+{
+  "flcr_id": "FLCR-31",
+  "title": "Gauge Groups Translated Into LCR",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-31__Gauge_Groups_Translated_Into_LCR__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-02",
+    "SMD-03",
+    "SMD-04",
+    "SMD-06",
+    "SMD-08"
+  ],
+  "irl_ids": [
+    "IRL-CODATA-2022-WALLET",
+    "IRL-NIST-ALPHA-2022",
+    "IRL-PDG-2026"
+  ],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-11",
+    "FLCR-12",
+    "FLCR-14",
+    "FLCR-18",
+    "FLCR-21",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": true,
+  "line_count": 125,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-31__sm_translation_explained.md"
+}

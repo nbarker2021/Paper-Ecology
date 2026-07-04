@@ -1,0 +1,18 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0077",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeso_charts.db",
+  "name": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeso_charts.db",
+  "status": "ok",
+  "signal_score": 0,
+  "port_recommendation": "NO_PORT_YET",
+  "table_count": 0,
+  "signal_tables": [],
+  "slot_families": [
+    "future_expansion_pressure"
+  ],
+  "slot_assignments": [],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "f1b8f481bb9203562e3224d91dd933fb00f4472b35b7ea7828727838f4c6c3fb"
+}

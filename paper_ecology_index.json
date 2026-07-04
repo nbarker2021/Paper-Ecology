@@ -1,0 +1,879 @@
+{
+  "workspace": "D:/Paper Ecology",
+  "generated_at": "2025-06-10",
+  "libraries": {
+    "CodeLib": {
+      "description": "101 Python files (paper-00 to paper-100) containing verifiers and claims for the CQE/CMPLX paper series",
+      "total_files": 101,
+      "total_lines": 11908,
+      "real_files_count": 73,
+      "stub_files_count": 28,
+      "stub_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "real_files_summary": [
+        {
+          "file": "paper-00__established_grounding.py",
+          "lines": 704,
+          "functions": 34,
+          "verifiers": [
+            "verify_established_grounding",
+            "verify_all_present",
+            "verify_chain",
+            "verify_theorem_registry",
+            "verify_genesis_root_consistency",
+            "verify_self_hash_stability",
+            "verify_chain_integrity"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-01__lcr_carrier.py",
+          "lines": 240,
+          "functions": 14,
+          "verifiers": [
+            "verify_lcr_carrier",
+            "verify_bijective_shell2_doublet",
+            "verify_o8_spinor_double_cover_closed",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-02__correction_surface.py",
+          "lines": 202,
+          "functions": 12,
+          "verifiers": [
+            "verify_correction_surface",
+            "verify_correction_surface_monitor",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-03__triality_surface.py",
+          "lines": 1822,
+          "functions": 83,
+          "verifiers": [
+            "verify_triality_surface",
+            "verify_algebra_foundation_T1_T4",
+            "verify_su3_closure_T5_T7",
+            "verify_d12_idempotent_chain",
+            "verify_triality_annealing",
+            "verify_d4_atlas_bijectivity",
+            "verify_d4_block_tower_exceptional",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-04__boundary_repair.py",
+          "lines": 153,
+          "functions": 6,
+          "verifiers": [
+            "verify_boundary_repair",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-05__oloid_path_carrier.py",
+          "lines": 1460,
+          "functions": 81,
+          "verifiers": [
+            "verify_layout_memory",
+            "verify_layout_indexing",
+            "verify_layout_consistency",
+            "verify_oloid_path_carrier",
+            "verify_oloid_carrier_family",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-06__causal_code.py",
+          "lines": 201,
+          "functions": 12,
+          "verifiers": [
+            "verify_causal_code",
+            "verify_rule90_lucas_decomposition",
+            "verify_triadic_keystone",
+            "verify_correction_extraction_verdict",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-07__discrete_continuous_bridge.py",
+          "lines": 573,
+          "functions": 26,
+          "verifiers": [
+            "verify_e8_root_count",
+            "verify_e8_root_norm",
+            "verify_snap_distance",
+            "verify_weyl_reflection_closure",
+            "verify_midpoint_consistency",
+            "verify_signal_harmonization_convergence",
+            "verify_morsr_stability",
+            "verify_discrete_continuous_bridge",
+            "verify_mdhg_speedlight_bridge",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-08__lattice_closure_template.py",
+          "lines": 243,
+          "functions": 10,
+          "verifiers": [
+            "verify_lattice_closure_template",
+            "verify_e8_even_lattice",
+            "verify_e8_hemisphere_partition",
+            "verify_lattice_code_chain",
+            "verify_lattice_code_closure",
+            "verify_f2_bridge_unipotent_substrate",
+            "verify_o2pp_registry_populated",
+            "verify_niemeier_leech_enumeration",
+            "verify_t8_commutability_tree",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-09__hamiltonian_window_emergence.py",
+          "lines": 164,
+          "functions": 4,
+          "verifiers": [
+            "verify_hamiltonian_window_emergence",
+            "verify_kappa_conservation_law",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-10__t10_master_receipt.py",
+          "lines": 133,
+          "functions": 4,
+          "verifiers": [
+            "verify_t10_master_receipt",
+            "verify_ologn_readout_architecture",
+            "verify_bijection_cold_start",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-11__theory_admission_gate.py",
+          "lines": 108,
+          "functions": 3,
+          "verifiers": [
+            "verify_theory_admission_gate",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-12__ca_prediction_surface.py",
+          "lines": 129,
+          "functions": 8,
+          "verifiers": [
+            "verify_ca_prediction_surface",
+            "verify_center_column_entropy",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-13__quark_face_transport.py",
+          "lines": 139,
+          "functions": 5,
+          "verifiers": [
+            "verify_quark_face_transport",
+            "verify_quark_face_transport_literalized",
+            "verify_standard_model_real_comparison",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-14__boundary_repair_curvature.py",
+          "lines": 103,
+          "functions": 2,
+          "verifiers": [
+            "verify_boundary_repair_curvature",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-15__qft_higgs_mass_residue_carrier.py",
+          "lines": 123,
+          "functions": 6,
+          "verifiers": [
+            "verify_mass_residue_carrier",
+            "verify_eight_states_one_dual_reading",
+            "verify_ninth_is_forced_printout",
+            "verify_mass_framing_2x2x2_vs_3x3",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-16__continuum_edge_residuals.py",
+          "lines": 96,
+          "functions": 4,
+          "verifiers": [
+            "verify_continuum_edge_residuals",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-17__error_correction_tower.py",
+          "lines": 128,
+          "functions": 4,
+          "verifiers": [
+            "verify_error_correction_tower",
+            "verify_golay_leech_tower",
+            "verify_leech_kissing_published_decomposition",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-18__voa_moonshine_routes.py",
+          "lines": 111,
+          "functions": 3,
+          "verifiers": [
+            "verify_voa_moonshine_routes",
+            "verify_centroid_voa_chain",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-19__observer_face_selection.py",
+          "lines": 91,
+          "functions": 4,
+          "verifiers": [
+            "verify_observer_face_selection",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-20__layer2_synthesis_ledger.py",
+          "lines": 161,
+          "functions": 9,
+          "verifiers": [
+            "verify",
+            "verify_layer2_synthesis_ledger",
+            "run_verifier"
+          ],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-28__unified_n_dimensional_game_lattices.py",
+          "lines": 435,
+          "functions": 48,
+          "verifiers": [],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-39__unified_falsifiers_comparators_standards.py",
+          "lines": 186,
+          "functions": 5,
+          "verifiers": [],
+          "classification": "REAL"
+        },
+        {
+          "file": "paper-100__unified_Capstone_100_Paper_Series_and_Complete_Framework_Synthesis.py",
+          "lines": 67,
+          "functions": 3,
+          "verifiers": [
+            "verify_claim_graph_consistency",
+            "verify_uft_subsumption",
+            "verify_falsifiability"
+          ],
+          "classification": "REAL"
+        }
+      ],
+      "stub_files_list": [
+        "paper-21__unified_morphforge_polyforge_morphonix.py",
+        "paper-22__unified_metaforge_applied_materials.py",
+        "paper-23__unified_foldforge_protein_folding.py",
+        "paper-24__unified_knightforge_n_dimensional_chess_automata.py",
+        "paper-25__unified_energetic_traversal_maps.py",
+        "paper-26__unified_z_pinch_and_shear_horizon.py",
+        "paper-27__unified_observer_delay_and_shared_reality.py",
+        "paper-29__unified_monster_universal_energy_bound_hypotheses.py",
+        "paper-30__unified_grand_ribbon_meta_framer.py",
+        "paper-31__unified_it_was_still_just_lcr.py",
+        "paper-32__unified_the_supervisor_cursor.py",
+        "paper-33__unified_electroweak_higgs_mass_residue.py",
+        "paper-34__unified_gr_curvature_continuum.py",
+        "paper-35__unified_electron_hole_exciton_accounting.py",
+        "paper-36__unified_condensed_matter_metamaterials.py",
+        "paper-37__unified_plasma_energy_traversal.py",
+        "paper-38__unified_observer_computation_ai_runtime.py",
+        "paper-40__unified_grand_reconstruction_map.py",
+        "paper-41__unified_su3_generation_1.py",
+        "paper-42__unified_SU3_Generation_2_Strange_Charm.py",
+        "paper-43__unified_SU3_Generation_3_Bottom_Top.py",
+        "paper-44__unified_SU3_Color_Confinement.py",
+        "paper-45__unified_SU2_U1_Electroweak_Gauge_Bosons.py",
+        "paper-46__unified_SU2_U1_Electroweak_Symmetry_Breaking.py",
+        "paper-47__unified_SU2_U1_VA_Weak_Interaction.py",
+        "paper-48__unified_SU2_U1_Electroweak_Phase_Diagram.py",
+        "paper-49__unified_Mass_and_Yukawa_1_Mass_Hierarchy.py",
+        "paper-50__unified_Mass_and_Yukawa_2_CKM_PMNS.py"
+      ],
+      "note": "Papers 51-99 are all REAL with 3 verifier functions each (docstring + assertions), 60-67 lines. Domains cover BSM, QCD, GR, Cosmology, Calibration, Math Closure, Governance, UFT, Wolfram P1-P3, Millennium Problems, and Forge Validation."
+    },
+    "SQLLib": {
+      "description": "101 SQL files matching the CodeLib paper series, containing schema definitions and seed data",
+      "total_files": 101,
+      "total_create_tables": 275,
+      "total_inserts": 386,
+      "files_sample": [
+        {
+          "file": "paper-00__unified_transport_contract_and_foreword.sql",
+          "lines": 248,
+          "create_tables": 7,
+          "inserts": 12,
+          "domain": "transport contract and foreword"
+        },
+        {
+          "file": "paper-01__unified_lcr_kernel_and_chart.sql",
+          "lines": 88,
+          "create_tables": 4,
+          "inserts": 3,
+          "domain": "lcr kernel and chart"
+        },
+        {
+          "file": "paper-03__unified_d4_j3_triality_and_correction_surface.sql",
+          "lines": 150,
+          "create_tables": 8,
+          "inserts": 3,
+          "domain": "d4 j3 triality and correction surface"
+        },
+        {
+          "file": "paper-05__unified_oloid_path_carrier.sql",
+          "lines": 150,
+          "create_tables": 8,
+          "inserts": 2,
+          "domain": "oloid path carrier"
+        },
+        {
+          "file": "paper-100__unified_Capstone_100_Paper_Series_and_Complete_Framework_Synthesis.sql",
+          "lines": 148,
+          "create_tables": 6,
+          "inserts": 11,
+          "domain": "capstone synthesis"
+        }
+      ]
+    },
+    "CMPLX_Standards": {
+      "description": "15 Python files providing model-fit grading, adapters, and validation orchestration",
+      "total_files": 15,
+      "files": [
+        {
+          "file": "cmplx_standards.py",
+          "lines": 311,
+          "functions": 12,
+          "classes": [
+            "FieldCheck"
+          ],
+          "purpose": "Universal model-fit grader — grades records against declared model contracts with weighted fields, allowed values, and conditional checks",
+          "validates": "Any JSON payload against a model contract (field presence, type, allowed values, inclusion band)"
+        },
+        {
+          "file": "run_standards_suite.py",
+          "lines": 438,
+          "functions": 12,
+          "classes": [],
+          "purpose": "Suite orchestrator — loads payloads for all models and runs the grader, producing aggregate suite reports",
+          "validates": "All CMPLX-Standards models in a single forward pass"
+        },
+        {
+          "file": "bipartite_review.py",
+          "lines": 599,
+          "functions": 11,
+          "classes": [],
+          "purpose": "Bipartite review system — Side A historical data review + Side B completeness review, generates unified markdown report",
+          "validates": "Legacy harvests, skip audits, NIST diffs, closure inclusions for data integrity"
+        },
+        {
+          "file": "backfill_receipts.py",
+          "lines": 120,
+          "functions": 3,
+          "classes": [],
+          "purpose": "Backfills missing standard fields (schema, boundary, closed_now) in verify_*.json receipt files",
+          "validates": "Receipt field completeness"
+        },
+        {
+          "file": "fix_maximal_index.py",
+          "lines": 125,
+          "functions": 3,
+          "classes": [],
+          "purpose": "Fixes maximal manuscript index JSON to match CMPLX-Standards model contract field names",
+          "validates": "Maximal manuscript model field alignment"
+        },
+        {
+          "file": "fix_sm_mapping_row.py",
+          "lines": 61,
+          "functions": 1,
+          "classes": [],
+          "purpose": "Fixes sm_mapping_row data to achieve model fit >= 90 by backfilling missing fields",
+          "validates": "SM mapping row model fit threshold"
+        },
+        {
+          "file": "action_route_slot.py",
+          "lines": 198,
+          "functions": 3,
+          "classes": [],
+          "purpose": "Categorizes ROUTE_SLOT and REGISTER_TOOL recommendations from inclusion skip audit",
+          "validates": "Action routing recommendations against existing standards"
+        },
+        {
+          "file": "adapters/application_validator_adapter.py",
+          "lines": 242,
+          "functions": 7,
+          "classes": [],
+          "purpose": "General application validator built from paper validators and receipts",
+          "validates": "Application-level validation by discovering paper tools and receipts"
+        },
+        {
+          "file": "adapters/flcr80_repo_slot_adapter.py",
+          "lines": 30,
+          "functions": 2,
+          "classes": [],
+          "purpose": "Adapter for FLCR80 repo slot readings into CMPLX-Standards payloads",
+          "validates": "FLCR80 repo slot model compliance"
+        },
+        {
+          "file": "adapters/forge_runtime_adapter.py",
+          "lines": 416,
+          "functions": 13,
+          "classes": [],
+          "purpose": "Deploy/check Forge, ReForge, and Lattice Forge as CMPLX-Standards inputs",
+          "validates": "Forge runtime environment records"
+        },
+        {
+          "file": "adapters/legacy_repo_port_adapter.py",
+          "lines": 557,
+          "functions": 18,
+          "classes": [],
+          "purpose": "Ports legacy repo work into CMPLX-Standards validation records with executable and broad-queue lanes",
+          "validates": "Legacy seed queue, MDHG, Snap runtime, Tarpit runtime records"
+        },
+        {
+          "file": "adapters/mdhg_memory_port.py",
+          "lines": 209,
+          "functions": 13,
+          "classes": [
+            "SlotEntry",
+            "MDHGCache",
+            "MDHGMultiScale"
+          ],
+          "purpose": "MDHG memory/cache port for CMPLX-Standards with deterministic hashing and multi-scale admission",
+          "validates": "MDHG cache occupancy and admission statistics"
+        },
+        {
+          "file": "adapters/nist_legacy_adapter.py",
+          "lines": 142,
+          "functions": 8,
+          "classes": [],
+          "purpose": "Wraps legacy NIST review suite output into CMPLX-Standards grade records (diff-only)",
+          "validates": "NIST paper grades against legacy thresholds"
+        },
+        {
+          "file": "adapters/paper_validator_adapter.py",
+          "lines": 204,
+          "functions": 10,
+          "classes": [],
+          "purpose": "Bridges verify_*.json receipts and paper validator patterns into CMPLX-Standards inputs",
+          "validates": "Paper verifier receipts and their status normalization"
+        },
+        {
+          "file": "adapters/__init__.py",
+          "lines": 0,
+          "functions": 0,
+          "classes": [],
+          "purpose": "Adapter package init",
+          "validates": "Nothing"
+        }
+      ]
+    },
+    "cqekernel": {
+      "description": "83 Python files implementing the stdlib-only CQE/CMPLX source-bound C-form runtime",
+      "total_files": 83,
+      "total_lines": 10570,
+      "layers": {
+        "root": {
+          "files": 6,
+          "lines": 2004,
+          "functions": 65,
+          "classes": 11,
+          "description": "Kernel entry points, CLI, v3 kernel, v3 bridge, TMN ability bridge"
+        },
+        "core": {
+          "files": 6,
+          "lines": 948,
+          "functions": 25,
+          "classes": 17,
+          "description": "Kernel, request, policy, status, errors — central governance primitives"
+        },
+        "carrier": {
+          "files": 6,
+          "lines": 775,
+          "functions": 36,
+          "classes": 7,
+          "description": "Binary boundary, 4-bit carrier, LCR gluon, C-form, correction surface"
+        },
+        "ledger": {
+          "files": 6,
+          "lines": 486,
+          "functions": 29,
+          "classes": 5,
+          "description": "Append-only event store, receipts, snapshots, replay engine"
+        },
+        "projection": {
+          "files": 6,
+          "lines": 457,
+          "functions": 15,
+          "classes": 5,
+          "description": "Observer frames, light cone, boundary aperture, closure, eversion"
+        },
+        "ribbon": {
+          "files": 6,
+          "lines": 513,
+          "functions": 13,
+          "classes": 5,
+          "description": "8-slot ribbon, slot provenance, arity, hydration, transport"
+        },
+        "verification": {
+          "files": 5,
+          "lines": 379,
+          "functions": 21,
+          "classes": 9,
+          "description": "Verifier wrapper, falsifier suite, honesty classifier, socratic wrapper"
+        },
+        "firmware": {
+          "files": 6,
+          "lines": 1112,
+          "functions": 51,
+          "classes": 9,
+          "description": "Firmware registry, manifest, ABI, algebra bridge, lattice_forge bridge"
+        },
+        "algebra": {
+          "files": 4,
+          "lines": 629,
+          "functions": 26,
+          "classes": 2,
+          "description": "Octonion, J3O, F4/SU3 action — stdlib stubs for lattice_forge"
+        },
+        "lcr": {
+          "files": 2,
+          "lines": 511,
+          "functions": 10,
+          "classes": 4,
+          "description": "LCR window machine — 2x2/4x4/8x8 envelope partitioning and channel resolution"
+        },
+        "adapters": {
+          "files": 7,
+          "lines": 270,
+          "functions": 8,
+          "classes": 0,
+          "description": "Host adapters: text, bytes, json, csv, filesystem, host packet"
+        },
+        "storage": {
+          "files": 4,
+          "lines": 224,
+          "functions": 18,
+          "classes": 2,
+          "description": "JSONL and SQLite receipt stores, workspace path resolution"
+        },
+        "workbook": {
+          "files": 4,
+          "lines": 228,
+          "functions": 7,
+          "classes": 4,
+          "description": "Analog workbook schema, engine, token map for physical workbench protocol"
+        },
+        "tests": {
+          "files": 12,
+          "lines": 1525,
+          "functions": 128,
+          "classes": 27,
+          "description": "Unit and integration tests for all kernel layers"
+        },
+        "cqe": {
+          "files": 2,
+          "lines": 109,
+          "functions": 5,
+          "classes": 1,
+          "description": "D4 tokens, CQE primitives — stdlib stubs for lattice_forge.cqe"
+        },
+        "tmn_services": {
+          "files": 1,
+          "lines": 400,
+          "functions": 13,
+          "classes": 2,
+          "description": "TMN service orchestrator wrapping 30+ real services from CMPLX-PartsFactory"
+        }
+      }
+    },
+    "CMPLX_Standards_Models": {
+      "description": "15 JSON model contracts defining what CMPLX-Standards grades",
+      "total_files": 15,
+      "models": [
+        {
+          "file": "MODEL_REGISTRY.json",
+          "model_name": "MODEL_REGISTRY",
+          "grades": [
+            "schema",
+            "description",
+            "forward_tool",
+            "legacy_tools",
+            "models"
+          ],
+          "description": "Registry of all available models and their validation tools"
+        },
+        {
+          "file": "ability_seed_model.json",
+          "model_name": "ability_seed",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Ability seed validation — checks record IDs, thresholds, weighted field scoring"
+        },
+        {
+          "file": "application_validation_model.json",
+          "model_name": "application_validation",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Application-level validation model for general app validators"
+        },
+        {
+          "file": "assembled_paper_model.json",
+          "model_name": "assembled_paper",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Assembled paper validation — checks paper bundle assembly completeness"
+        },
+        {
+          "file": "assembly_cluster_model.json",
+          "model_name": "assembly_cluster",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields"
+          ],
+          "description": "Assembly cluster validation — checks cluster records and field weights"
+        },
+        {
+          "file": "code_supplement_model.json",
+          "model_name": "code_supplement",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields"
+          ],
+          "description": "Code supplement validation — grades supplementary code artifacts"
+        },
+        {
+          "file": "external_pair_model.json",
+          "model_name": "external_pair",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "External pair validation — checks cross-references to external datasets"
+        },
+        {
+          "file": "flcr80_repo_slot_model.json",
+          "model_name": "flcr80_repo_slot",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "FLCR80 repo slot validation — checks repo slot records against model"
+        },
+        {
+          "file": "forge_runtime_model.json",
+          "model_name": "forge_runtime",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Forge runtime validation — grades runtime environment records"
+        },
+        {
+          "file": "legacy_repo_port_model.json",
+          "model_name": "legacy_repo_port",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Legacy repo port validation — checks legacy repo intake records"
+        },
+        {
+          "file": "maximal_manuscript_model.json",
+          "model_name": "maximal_manuscript",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Maximal manuscript validation — checks manuscript index completeness"
+        },
+        {
+          "file": "normal_form_ingress_model.json",
+          "model_name": "normal_form_ingress",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "Normal form ingress validation — checks ingress record field compliance"
+        },
+        {
+          "file": "peer_review_metadata_model.json",
+          "model_name": "peer_review_metadata",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields"
+          ],
+          "description": "Peer review metadata validation — grades review metadata records"
+        },
+        {
+          "file": "sm_mapping_row_model.json",
+          "model_name": "sm_mapping_row",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields",
+            "conditional_required_fields"
+          ],
+          "description": "SM mapping row validation — checks Standard Model mapping row completeness"
+        },
+        {
+          "file": "verifier_receipt_model.json",
+          "model_name": "verifier_receipt",
+          "grades": [
+            "model_id",
+            "record_selector",
+            "record_id_paths",
+            "thresholds",
+            "allowed_value_penalty",
+            "allowed_values",
+            "weighted_fields"
+          ],
+          "description": "Verifier receipt validation — grades receipt records from paper verifiers"
+        }
+      ]
+    }
+  }
+}

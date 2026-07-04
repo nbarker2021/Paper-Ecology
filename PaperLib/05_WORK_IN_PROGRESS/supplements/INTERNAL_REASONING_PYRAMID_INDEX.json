@@ -1,0 +1,193 @@
+{
+  "schema": "internal_reasoning_pyramid.v1",
+  "layers": {
+    "5P": {
+      "file": "D:\\Paper Reworks\\supplements\\INTERNAL_REASONING_5P_WINDOW_SUPPLEMENT.md",
+      "window_count": 7,
+      "windows": [
+        {
+          "id": "5P.00-04",
+          "papers": "00-04",
+          "focus": "grounding, carrier, correction, registration, repair",
+          "top_inputs": [
+            "00",
+            "01",
+            "02",
+            "03",
+            "04"
+          ]
+        },
+        {
+          "id": "5P.05-09",
+          "papers": "05-09",
+          "focus": "transport, ledger, bridge, lattice, temporal windows",
+          "top_inputs": [
+            "05",
+            "06",
+            "07",
+            "08",
+            "09"
+          ]
+        },
+        {
+          "id": "5P.10-14",
+          "papers": "10-14",
+          "focus": "master receipt, admission, prediction, quark-face transport, repair curvature",
+          "top_inputs": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+          ]
+        },
+        {
+          "id": "5P.15-19",
+          "papers": "15-19",
+          "focus": "mass residue, continuum edge, lattice tower, VOA/Moonshine, observer selection",
+          "top_inputs": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+          ]
+        },
+        {
+          "id": "5P.20-24",
+          "papers": "20-24",
+          "focus": "synthesis ledger, applied reader, materials, protein, board automata",
+          "top_inputs": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ]
+        },
+        {
+          "id": "5P.25-29",
+          "papers": "25-29",
+          "focus": "energetic traversal, shear/plasma horizon, observer delay, game lattices, Monster ceiling",
+          "top_inputs": [
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "5P.30-32",
+          "papers": "30-32",
+          "focus": "corpus ribbon, retrospective LCR, supervisor cursor",
+          "top_inputs": [
+            "30",
+            "31",
+            "32"
+          ]
+        }
+      ]
+    },
+    "7P": {
+      "file": "D:\\Paper Reworks\\supplements\\INTERNAL_REASONING_7P_WINDOW_SUPPLEMENT.md",
+      "window_count": 5,
+      "windows": [
+        {
+          "id": "7P.00-06",
+          "papers": "00-06",
+          "focus": "base kernel: grounding through causal ledger",
+          "top_inputs": [
+            "00-02",
+            "03-05",
+            "06"
+          ]
+        },
+        {
+          "id": "7P.07-13",
+          "papers": "07-13",
+          "focus": "presentation, lattice, temporal/receipt/admission/prediction, quark-face transport",
+          "top_inputs": [
+            "07-09",
+            "10-12",
+            "13"
+          ]
+        },
+        {
+          "id": "7P.14-20",
+          "papers": "14-20",
+          "focus": "curvature, mass, continuum, lattice tower, VOA, observer selection, synthesis ledger",
+          "top_inputs": [
+            "14-16",
+            "17-19",
+            "20"
+          ]
+        },
+        {
+          "id": "7P.21-27",
+          "papers": "21-27",
+          "focus": "applied reader through observer delay",
+          "top_inputs": [
+            "21-23",
+            "24-26",
+            "27"
+          ]
+        },
+        {
+          "id": "7P.28-32",
+          "papers": "28-32",
+          "focus": "game lattices, Monster ceiling, corpus ribbon, retrospective readout, supervisor cursor",
+          "top_inputs": [
+            "28-29",
+            "30-32"
+          ]
+        }
+      ]
+    },
+    "9P": {
+      "file": "D:\\Paper Reworks\\supplements\\INTERNAL_REASONING_9P_WINDOW_SUPPLEMENT.md",
+      "window_count": 4,
+      "windows": [
+        {
+          "id": "9P.00-08",
+          "papers": "00-08",
+          "focus": "base formal kernel through lattice closure",
+          "top_inputs": [
+            "00-02",
+            "03-05",
+            "06-08"
+          ]
+        },
+        {
+          "id": "9P.09-17",
+          "papers": "09-17",
+          "focus": "temporal windows through E6/E8 tower",
+          "top_inputs": [
+            "09-11",
+            "12-14",
+            "15-17"
+          ]
+        },
+        {
+          "id": "9P.18-26",
+          "papers": "18-26",
+          "focus": "VOA/Moonshine through energetic and plasma/applied physical bridges",
+          "top_inputs": [
+            "18-20",
+            "21-23",
+            "24-26"
+          ]
+        },
+        {
+          "id": "9P.27-32",
+          "papers": "27-32",
+          "focus": "observer delay through supervisor cursor",
+          "top_inputs": [
+            "27-29",
+            "30-32"
+          ]
+        }
+      ]
+    }
+  }
+}

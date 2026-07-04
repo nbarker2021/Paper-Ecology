@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-12",
+  "original_slot": "12",
+  "title": "CA Prediction Surface",
+  "status": "source_backed",
+  "source_file": "12_CA_Prediction_Surface.md",
+  "linked_flcr_papers": [
+    "FLCR-13"
+  ],
+  "slot_family": "residual_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+  "proof_form_required": "residual accounting and bounded/unbounded split",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

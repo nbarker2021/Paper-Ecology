@@ -1,0 +1,36 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0053",
+  "path": "D:\\CQE_CMPLX\\TMN_CONVERSIONS.db",
+  "name": "TMN_CONVERSIONS.db",
+  "status": "ok",
+  "signal_score": 4,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 1,
+  "signal_tables": [
+    {
+      "table": "conversions",
+      "row_count": 1890,
+      "signal_columns": [
+        "score"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "d28823a012335f652e2d0ffde83658fe26ae699a8977ac83ed0dc5f9a901886e"
+}

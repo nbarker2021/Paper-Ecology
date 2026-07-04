@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T04:22:25.526133",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 15,
+  "papers": {
+    "51": {
+      "variant_count": 5,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_51.md",
+          "filename": "paper_51.md",
+          "size": 14992,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_51__mass_yukawa_3\\paper_51.md",
+          "filename": "paper_51.md",
+          "size": 14992,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\05-observer-frame\\CQE-PAPER-051.md",
+          "filename": "CQE-PAPER-051.md",
+          "size": 6769,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\05-observer-frame\\CQE-PAPER-051.md",
+          "filename": "CQE-PAPER-051.md",
+          "size": 6769,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\tile-integration\\PAPER-051-TILE-INTEGRATION.md",
+          "filename": "PAPER-051-TILE-INTEGRATION.md",
+          "size": 981,
+          "score": 1,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_51.md"
+    },
+    "52": {
+      "variant_count": 5,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_52.md",
+          "filename": "paper_52.md",
+          "size": 14226,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_52__mass_yukawa_4\\paper_52.md",
+          "filename": "paper_52.md",
+          "size": 14226,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\05-observer-frame\\CQE-PAPER-052.md",
+          "filename": "CQE-PAPER-052.md",
+          "size": 7006,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\05-observer-frame\\CQE-PAPER-052.md",
+          "filename": "CQE-PAPER-052.md",
+          "size": 7006,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\tile-integration\\PAPER-052-TILE-INTEGRATION.md",
+          "filename": "PAPER-052-TILE-INTEGRATION.md",
+          "size": 992,
+          "score": 1,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_52.md"
+    },
+    "53": {
+      "variant_count": 5,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_53.md",
+          "filename": "paper_53.md",
+          "size": 18857,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_53__higgs_vacuum_1_mechanism\\paper_53.md",
+          "filename": "paper_53.md",
+          "size": 18857,
+          "score": 9,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\05-observer-frame\\CQE-PAPER-053.md",
+          "filename": "CQE-PAPER-053.md",
+          "size": 8768,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\05-observer-frame\\CQE-PAPER-053.md",
+          "filename": "CQE-PAPER-053.md",
+          "size": 8768,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\tile-integration\\PAPER-053-TILE-INTEGRATION.md",
+          "filename": "PAPER-053-TILE-INTEGRATION.md",
+          "size": 1150,
+          "score": 3,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_53.md"
+    }
+  }
+}

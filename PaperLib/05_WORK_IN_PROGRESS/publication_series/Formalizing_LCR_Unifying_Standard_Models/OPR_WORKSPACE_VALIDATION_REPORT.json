@@ -1,0 +1,13 @@
+{
+  "schema": "opr_workspace_validation.v1",
+  "opr_directory_count": 80,
+  "routed_slot_count": 8,
+  "expansion_summary": {
+    "total_slots": 80,
+    "source_backed_slots": 33,
+    "routed_expansion_slots": 8,
+    "unrouted_expansion_slots": 39
+  },
+  "error_count": 0,
+  "errors": []
+}

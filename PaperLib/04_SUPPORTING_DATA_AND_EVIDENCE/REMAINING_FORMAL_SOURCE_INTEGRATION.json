@@ -1,0 +1,413 @@
+{
+  "backup": "D:\\Paper Reworks\\_backup_before_remaining_sources_20260626_171413",
+  "sources_read": 63,
+  "papers_updated": 29,
+  "updates": [
+    {
+      "paper": 0,
+      "path": "D:\\Paper Reworks\\00_Established_Grounding_and_Axiom_Contract.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-CLAIM",
+        "CQE-paper-formal-GLOSSARY",
+        "CQE-paper-formal-PH1"
+      ]
+    },
+    {
+      "paper": 1,
+      "path": "D:\\Paper Reworks\\01_LCR_Chain_Carrier.md",
+      "source_count": 4,
+      "sources": [
+        "CQE-paper-formal-01",
+        "CQE-paper-formal-05",
+        "CQE-paper-formal-08",
+        "CQE-paper-formal-PH1"
+      ]
+    },
+    {
+      "paper": 2,
+      "path": "D:\\Paper Reworks\\02_Correction_Surface.md",
+      "source_count": 1,
+      "sources": [
+        "CQE-paper-formal-02"
+      ]
+    },
+    {
+      "paper": 3,
+      "path": "D:\\Paper Reworks\\03_D4_J3_Triality_Surface.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-02",
+        "CQE-paper-formal-03",
+        "CQE-paper-formal-S4"
+      ]
+    },
+    {
+      "paper": 4,
+      "path": "D:\\Paper Reworks\\04_Boundary_Repair.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-03",
+        "CQE-paper-formal-04",
+        "CQE-paper-formal-S2"
+      ]
+    },
+    {
+      "paper": 5,
+      "path": "D:\\Paper Reworks\\05_Oloid_Path_Carrier.md",
+      "source_count": 1,
+      "sources": [
+        "CQE-paper-formal-05"
+      ]
+    },
+    {
+      "paper": 6,
+      "path": "D:\\Paper Reworks\\06_Causal_Link_and_Obligation_Ledger.md",
+      "source_count": 5,
+      "sources": [
+        "CQE-paper-formal-03",
+        "CQE-paper-formal-05",
+        "CQE-paper-formal-06",
+        "CQE-paper-formal-CLAIM",
+        "CQE-paper-formal-S2"
+      ]
+    },
+    {
+      "paper": 7,
+      "path": "D:\\Paper Reworks\\07_Discrete_Continuous_Bridge.md",
+      "source_count": 1,
+      "sources": [
+        "CQE-paper-formal-07"
+      ]
+    },
+    {
+      "paper": 8,
+      "path": "D:\\Paper Reworks\\08_Lattice_Closure.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-02",
+        "CQE-paper-formal-08",
+        "CQE-paper-formal-S4"
+      ]
+    },
+    {
+      "paper": 10,
+      "path": "D:\\Paper Reworks\\10_T10_Master_Receipt.md",
+      "source_count": 6,
+      "sources": [
+        "CQE-paper-formal-05",
+        "CQE-paper-formal-CLAIM",
+        "CQE-paper-formal-S37",
+        "CQE-paper-formal-S39",
+        "CQE-paper-formal-S40",
+        "CQE-paper-formal-S9"
+      ]
+    },
+    {
+      "paper": 12,
+      "path": "D:\\Paper Reworks\\12_CA_Prediction_Surface.md",
+      "source_count": 14,
+      "sources": [
+        "CQE-paper-formal-S1",
+        "CQE-paper-formal-S11",
+        "CQE-paper-formal-S13",
+        "CQE-paper-formal-S14",
+        "CQE-paper-formal-S2",
+        "CQE-paper-formal-S22",
+        "CQE-paper-formal-S26",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-S4",
+        "CQE-paper-formal-S5",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-S7",
+        "CQE-paper-formal-S8",
+        "CQE-paper-formal-SPECTRE-SERIES"
+      ]
+    },
+    {
+      "paper": 13,
+      "path": "D:\\Paper Reworks\\13_Standard_Model_Quark_Face_Transport.md",
+      "source_count": 6,
+      "sources": [
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2",
+        "CQE-paper-formal-U3"
+      ]
+    },
+    {
+      "paper": 15,
+      "path": "D:\\Paper Reworks\\15_QFT_Higgs_Mass_Residue_Carrier.md",
+      "source_count": 20,
+      "sources": [
+        "CQE-paper-formal-04",
+        "CQE-paper-formal-B1",
+        "CQE-paper-formal-B2",
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-S1",
+        "CQE-paper-formal-S10",
+        "CQE-paper-formal-S18",
+        "CQE-paper-formal-S2",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-S4",
+        "CQE-paper-formal-S5",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-S7",
+        "CQE-paper-formal-S8",
+        "CQE-paper-formal-SPECTRE-SERIES",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2",
+        "CQE-paper-formal-U3"
+      ]
+    },
+    {
+      "paper": 16,
+      "path": "D:\\Paper Reworks\\16_Continuum_Edge_Residuals.md",
+      "source_count": 4,
+      "sources": [
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-U1"
+      ]
+    },
+    {
+      "paper": 17,
+      "path": "D:\\Paper Reworks\\17_E6_E8_Error_Correction_Tower.md",
+      "source_count": 2,
+      "sources": [
+        "CQE-paper-formal-02",
+        "CQE-paper-formal-S4"
+      ]
+    },
+    {
+      "paper": 18,
+      "path": "D:\\Paper Reworks\\18_VOA_Moonshine_Representation_Routes.md",
+      "source_count": 5,
+      "sources": [
+        "CQE-paper-formal-04",
+        "CQE-paper-formal-B1",
+        "CQE-paper-formal-B2",
+        "CQE-paper-formal-S10",
+        "CQE-paper-formal-S18"
+      ]
+    },
+    {
+      "paper": 19,
+      "path": "D:\\Paper Reworks\\19_Observer_Face_Selection.md",
+      "source_count": 11,
+      "sources": [
+        "CQE-paper-formal-06",
+        "CQE-paper-formal-O1",
+        "CQE-paper-formal-O2",
+        "CQE-paper-formal-O3",
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-S23",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2"
+      ]
+    },
+    {
+      "paper": 20,
+      "path": "D:\\Paper Reworks\\20_Layer_2_Synthesis_Ledger.md",
+      "source_count": 20,
+      "sources": [
+        "CQE-paper-formal-03",
+        "CQE-paper-formal-05",
+        "CQE-paper-formal-S1",
+        "CQE-paper-formal-S11",
+        "CQE-paper-formal-S12",
+        "CQE-paper-formal-S13",
+        "CQE-paper-formal-S14",
+        "CQE-paper-formal-S2",
+        "CQE-paper-formal-S22",
+        "CQE-paper-formal-S25",
+        "CQE-paper-formal-S26",
+        "CQE-paper-formal-S27",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-S30",
+        "CQE-paper-formal-S31",
+        "CQE-paper-formal-S32",
+        "CQE-paper-formal-S37",
+        "CQE-paper-formal-S39",
+        "CQE-paper-formal-S40",
+        "CQE-paper-formal-S9"
+      ]
+    },
+    {
+      "paper": 21,
+      "path": "D:\\Paper Reworks\\21_MorphForge_PolyForge_MorphoniX.md",
+      "source_count": 4,
+      "sources": [
+        "CQE-paper-formal-S37",
+        "CQE-paper-formal-S39",
+        "CQE-paper-formal-S40",
+        "CQE-paper-formal-S9"
+      ]
+    },
+    {
+      "paper": 22,
+      "path": "D:\\Paper Reworks\\22_MetaForge_Applied_Materials.md",
+      "source_count": 10,
+      "sources": [
+        "CQE-paper-formal-S1",
+        "CQE-paper-formal-S2",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-S4",
+        "CQE-paper-formal-S5",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-S7",
+        "CQE-paper-formal-S8",
+        "CQE-paper-formal-SPECTRE-SERIES",
+        "CQE-paper-formal-T1"
+      ]
+    },
+    {
+      "paper": 24,
+      "path": "D:\\Paper Reworks\\24_KnightForge_N_Dimensional_Chess_Automata.md",
+      "source_count": 4,
+      "sources": [
+        "CQE-paper-formal-B1",
+        "CQE-paper-formal-B2",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-T1"
+      ]
+    },
+    {
+      "paper": 25,
+      "path": "D:\\Paper Reworks\\25_Energetic_Traversal_Maps.md",
+      "source_count": 11,
+      "sources": [
+        "CQE-paper-formal-04",
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-S12",
+        "CQE-paper-formal-S26",
+        "CQE-paper-formal-S27",
+        "CQE-paper-formal-S30",
+        "CQE-paper-formal-S31",
+        "CQE-paper-formal-S32",
+        "CQE-paper-formal-U1"
+      ]
+    },
+    {
+      "paper": 26,
+      "path": "D:\\Paper Reworks\\26_Z_Pinch_and_Shear_Horizon.md",
+      "source_count": 4,
+      "sources": [
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-U1"
+      ]
+    },
+    {
+      "paper": 27,
+      "path": "D:\\Paper Reworks\\27_Observer_Delay_and_Shared_Reality.md",
+      "source_count": 11,
+      "sources": [
+        "CQE-paper-formal-06",
+        "CQE-paper-formal-O1",
+        "CQE-paper-formal-O2",
+        "CQE-paper-formal-O3",
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-S23",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2"
+      ]
+    },
+    {
+      "paper": 28,
+      "path": "D:\\Paper Reworks\\28_N_Dimensional_Game_Lattices.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-B2",
+        "CQE-paper-formal-S3",
+        "CQE-paper-formal-T1"
+      ]
+    },
+    {
+      "paper": 29,
+      "path": "D:\\Paper Reworks\\29_Monster_Universal_Energy_Bound_Hypotheses.md",
+      "source_count": 10,
+      "sources": [
+        "CQE-paper-formal-04",
+        "CQE-paper-formal-B1",
+        "CQE-paper-formal-B2",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-S10",
+        "CQE-paper-formal-S18",
+        "CQE-paper-formal-S25",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2",
+        "CQE-paper-formal-U3"
+      ]
+    },
+    {
+      "paper": 30,
+      "path": "D:\\Paper Reworks\\30_Grand_Ribbon_Meta_Framer.md",
+      "source_count": 16,
+      "sources": [
+        "CQE-paper-formal-05",
+        "CQE-paper-formal-07",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-S12",
+        "CQE-paper-formal-S26",
+        "CQE-paper-formal-S27",
+        "CQE-paper-formal-S30",
+        "CQE-paper-formal-S31",
+        "CQE-paper-formal-S32",
+        "CQE-paper-formal-S37",
+        "CQE-paper-formal-S39",
+        "CQE-paper-formal-S40",
+        "CQE-paper-formal-S9",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2",
+        "CQE-paper-formal-U3"
+      ]
+    },
+    {
+      "paper": 31,
+      "path": "D:\\Paper Reworks\\31_It_Was_Still_Just_LCR.md",
+      "source_count": 3,
+      "sources": [
+        "CQE-paper-formal-07",
+        "CQE-paper-formal-08",
+        "CQE-paper-formal-S8"
+      ]
+    },
+    {
+      "paper": 32,
+      "path": "D:\\Paper Reworks\\32_The_Supervisor_Cursor.md",
+      "source_count": 15,
+      "sources": [
+        "CQE-paper-formal-06",
+        "CQE-paper-formal-07",
+        "CQE-paper-formal-08",
+        "CQE-paper-formal-O1",
+        "CQE-paper-formal-O2",
+        "CQE-paper-formal-O3",
+        "CQE-paper-formal-PH1",
+        "CQE-paper-formal-PH2",
+        "CQE-paper-formal-PH3",
+        "CQE-paper-formal-S23",
+        "CQE-paper-formal-S6",
+        "CQE-paper-formal-S8",
+        "CQE-paper-formal-U1",
+        "CQE-paper-formal-U2",
+        "CQE-paper-formal-U3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Reconstruction Map Architecture Pass
+
+Generated: 2026-06-29T18:19:03.644567+00:00
+
+## Purpose
+
+Apply peer-review discussion by reframing FLCR-40 as a reconstruction map/trust-removal protocol and reserving FLCR-41..80 for full observer-framework Standard Model rebuilds.
+
+## Changes
+
+- FLCR-40 title, role, abstract, claims, review assessment, and map sections updated.
+- FLCR-31..39 classified as Standard Model bridge previews.
+- FLCR-41..80 architecture note added to the original 80 expansion plan.
+- Series blueprint and map updated.

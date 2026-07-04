@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-18",
+  "original_slot": "18",
+  "title": "VOA Moonshine Representation Routes",
+  "status": "source_backed",
+  "source_file": "18_VOA_Moonshine_Representation_Routes.md",
+  "linked_flcr_papers": [
+    "FLCR-18"
+  ],
+  "slot_family": "terminal_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+  "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

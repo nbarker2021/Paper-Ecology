@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-32",
+  "original_slot": "32",
+  "title": "The Supervisor Cursor",
+  "status": "source_backed",
+  "source_file": "32_The_Supervisor_Cursor.md",
+  "linked_flcr_papers": [
+    "FLCR-30",
+    "FLCR-39"
+  ],
+  "slot_family": "residual_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+  "proof_form_required": "residual accounting and bounded/unbounded split",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

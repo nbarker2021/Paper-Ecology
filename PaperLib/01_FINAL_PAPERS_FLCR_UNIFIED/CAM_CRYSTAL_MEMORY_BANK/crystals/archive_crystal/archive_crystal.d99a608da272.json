@@ -1,0 +1,16 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0185",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CQE_organized\\cqe_organized-20251122T204620Z-1-001\\cqe_organized\\NESTED_ARCHIVES\\d1ecc9dc1e12__fixtures_embeddings__glove.6B.300d.sample.txt.gz",
+  "name": "d1ecc9dc1e12__fixtures_embeddings__glove.6B.300d.sample.txt.gz",
+  "archive_kind": "gzip_single_or_unknown",
+  "entry_count_indexed": 0,
+  "high_signal_entry_count": 0,
+  "slot_families": [
+    "future_expansion_pressure"
+  ],
+  "slot_assignments": [],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "d99a608da27250ff642408c7cba46e08494b36996411730f5512ed661837803c"
+}

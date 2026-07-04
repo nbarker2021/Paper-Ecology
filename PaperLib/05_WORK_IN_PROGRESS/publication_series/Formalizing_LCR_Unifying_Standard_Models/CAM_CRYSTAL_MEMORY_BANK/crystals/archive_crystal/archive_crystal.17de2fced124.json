@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0194",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\ForgeFactory_ReForge_Session_Master_v0_2\\ForgeFactory_ReForge_Session_Master_v0_2\\01_papers\\CQE_Layer2_Unique_TestSuite_v0_1_Package.zip",
+  "name": "CQE_Layer2_Unique_TestSuite_v0_1_Package.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 8,
+  "high_signal_entry_count": 7,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "17de2fced1246317e1e61ab9968daa96460e8d2081b14526cf4ed1e2f69a559d"
+}

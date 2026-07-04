@@ -1,0 +1,29 @@
+Source: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/53e25b8d_AGRM_refactored.py
+Disposition: canon
+Harvested into: D:/CodeLib/paper-05__oloid_path_carrier.py
+CAMLib updated: D:/CAMLib/paper-05__unified_oloid_path_carrier.md
+SQLLib updated: D:/SQLLib/paper-05__unified_oloid_path_carrier.sql
+Date: 2026-07-04
+
+Ported:
+- AGRMHierarchyConfig (configuration)
+- fnv1a64 / stable_hash64 (hash utilities)
+- TraceBuffer class (trace buffer, renamed from Trace to avoid conflict)
+- Shortcuts class (co-visit routing)
+- _Meta, _Entry, _Room, _Floor, _Building classes (hierarchy)
+- MDHGHashTable class (full hierarchical φ-resizing hash table)
+- SweepMetrics class (sweep metrics, renamed from SweepState to avoid conflict)
+- AGRMAudit class (audit summary, replaced stub)
+- AGRMHierarchyController class (main controller, reconstructed from broken source)
+- _collect_hit_hist function (hit history)
+- quantiles_simple function (statistics)
+- UnifiedOloidPathCarrier class (integration of rolling carrier with AGRM hierarchy)
+- verify_agrm_hierarchy, verify_hash_table_properties, verify_routing_correctness functions
+
+Discarded:
+- Self-test / main block (lines 836-871, supplemental)
+- timing-dependent code (time.time calls, non-deterministic)
+- save_state / load_state (JSON persistence, supplemental)
+- snapshot_pack (file I/O, supplemental)
+- reinsert_worst_rooms / reinsert_by_covisits (broken/malformed in source, could not reconstruct cleanly)
+- __slots__ (removed to simplify porting)

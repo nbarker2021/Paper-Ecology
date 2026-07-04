@@ -1,0 +1,108 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0050",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\production\\operations\\forge-dbs\\tmn_unified.db",
+  "name": "tmn_unified.db",
+  "status": "ok",
+  "signal_score": 62,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 11,
+  "signal_tables": [
+    {
+      "table": "brain_contributions",
+      "row_count": 114,
+      "signal_columns": [
+        "mi_score"
+      ]
+    },
+    {
+      "table": "coin_ledger",
+      "row_count": 103,
+      "signal_columns": []
+    },
+    {
+      "table": "coin_mint_log",
+      "row_count": 103,
+      "signal_columns": [
+        "receipt"
+      ]
+    },
+    {
+      "table": "conservation_ledger",
+      "row_count": 1,
+      "signal_columns": []
+    },
+    {
+      "table": "crystals",
+      "row_count": 88,
+      "signal_columns": [
+        "crystal_id",
+        "crystal_type",
+        "e8_root",
+        "snap_address",
+        "receipt_chain",
+        "node_count"
+      ]
+    },
+    {
+      "table": "dag_edges",
+      "row_count": 268,
+      "signal_columns": [
+        "source_id",
+        "edge_type"
+      ]
+    },
+    {
+      "table": "e8_nodes",
+      "row_count": 88,
+      "signal_columns": [
+        "node_id",
+        "crystal_id",
+        "content",
+        "content_type",
+        "e8_coords",
+        "mdhg_address"
+      ]
+    },
+    {
+      "table": "receipts",
+      "row_count": 205,
+      "signal_columns": [
+        "receipt_hash",
+        "parent_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "43",
+    "53",
+    "63",
+    "73",
+    "40",
+    "50",
+    "60",
+    "70"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "462bbecda65f023530e5aa5e0afc9ccba2804c9c722d920b4306267670cf40e3"
+}

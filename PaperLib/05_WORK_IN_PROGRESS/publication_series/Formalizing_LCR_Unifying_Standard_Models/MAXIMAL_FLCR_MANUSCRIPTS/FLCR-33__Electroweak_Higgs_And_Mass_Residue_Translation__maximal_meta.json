@@ -1,0 +1,26 @@
+{
+  "paper_id": "FLCR-33",
+  "title": "Electroweak, Higgs, And Mass Residue Translation",
+  "prose_tier": "maximal_publication",
+  "guardrail_tier": "assemble_clean",
+  "assemble_fulfilled": true,
+  "display_status": "ASSEMBLE",
+  "formal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\FLCR-33\\formal.md",
+  "assembled_link": "../ASSEMBLED_FLCR_PRODUCTS/FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__assembled.md",
+  "generated_at": "2026-07-01T07:53:44.029429+00:00",
+  "schema": "flcr.maximal_manuscript_meta.v2",
+  "renderer": "full_formal_body_v2",
+  "claim_count": 3,
+  "body_line_count": 789,
+  "receipt_count": 29,
+  "has_definitions": true,
+  "has_construction": true,
+  "has_downstream": true,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__maximal.md",
+  "standards_grade": {
+    "model_id": "cmplx.maximal_manuscript",
+    "fit_score": 100.0,
+    "inclusion_band": "perfect_fit",
+    "missing_fields": []
+  }
+}

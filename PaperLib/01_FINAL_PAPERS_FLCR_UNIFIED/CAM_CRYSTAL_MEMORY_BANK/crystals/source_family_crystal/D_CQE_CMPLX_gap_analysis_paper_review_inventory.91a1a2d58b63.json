@@ -1,0 +1,14 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 9,
+  "artifact": "D:\\CQE_CMPLX\\gap_analysis\\paper_review_inventory\\*",
+  "why_it_matters": "Database-first review protocol and DB source map.",
+  "suggested_slots": [
+    "ledger_action",
+    "bridge_action",
+    "window_action"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "91a1a2d58b630ec0018af3e69b1af984b0d3c53c21fb8e194afbbaee5bd223b5"
+}

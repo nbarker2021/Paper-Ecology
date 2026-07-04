@@ -1,0 +1,2632 @@
+{
+  "schema": "flcr_archive_evidence_cards.v1",
+  "catalogs": [
+    "D:\\CQE_CMPLX\\papers\\active-rework\\supplements\\RECEIPT_VERIFIER_CATALOG.md",
+    "D:\\CQE_CMPLX\\papers\\active-rework\\supplements\\CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md"
+  ],
+  "unique_card_count": 320,
+  "paper_count": 40,
+  "papers": [
+    {
+      "publication_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "legacy_papers": [
+        "00"
+      ],
+      "archive_card_count": 86,
+      "top_cards": [
+        {
+          "title": "CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim Contract",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.50.md`"
+        },
+        {
+          "title": "CQE-paper-10: Paper 10 - T10 Master Receipt",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-10.25: Paper 10.25 - Toolkit for the T10 Master Receipt",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.25.md`"
+        },
+        {
+          "title": "SOURCE: Paper 11 - Theory Admission Gate",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-11\\SOURCE.md`"
+        },
+        {
+          "title": "SOURCE: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-13\\SOURCE.md`"
+        },
+        {
+          "title": "SOURCE: Paper 17 - E6-E8 Error-Correction Tower",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-17\\SOURCE.md`"
+        },
+        {
+          "title": "SOURCE: Paper 23 - FoldForge Protein Folding",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-23\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 30 \u2014 C-Form: Grand Ribbon Meta-Framer Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-30\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "legacy_papers": [
+        "01"
+      ],
+      "archive_card_count": 34,
+      "top_cards": [
+        {
+          "title": "CQE-paper-10: Paper 10 - T10 Master Receipt",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-10.25: Paper 10.25 - Toolkit for the T10 Master Receipt",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 01 \u2014 Side-Flip SU(2) Doublet (T_BIJECTIVE)",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-01\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "block-01-dyad-01-08: Block 01 Dyad Brief - Papers 1 and 8",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-01-08.md`"
+        },
+        {
+          "title": "SOURCE: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-13\\SOURCE.md`"
+        },
+        {
+          "title": "A7_HONESTY: Appendix A7: Honesty Policy & Compositional Closure",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A7_HONESTY.md`"
+        },
+        {
+          "title": "CQE-FORMAL-01_LCR_TRIALITY: CQECMPLX FORMALIZATION PAPER 1",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-01_LCR_TRIALITY.md`"
+        },
+        {
+          "title": "CQE-paper-formal-S11_OpsGuide: CQE-paper-formal-S11 OpsGuide",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\opsguides\\CQE-paper-formal-S11_OpsGuide.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "legacy_papers": [
+        "02"
+      ],
+      "archive_card_count": 26,
+      "top_cards": [
+        {
+          "title": "CQE-paper-04.25: Paper 4.25 - Toolkit for Boundary Repair",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-04.25.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-02.50: Paper 2.50 - Correction Surface Claim Contract",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-02.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 01 \u2014 Side-Flip SU(2) Doublet (T_BIJECTIVE)",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-01\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "block-01-dyad-01-08: Block 01 Dyad Brief - Papers 1 and 8",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-01-08.md`"
+        },
+        {
+          "title": "A7_HONESTY: Appendix A7: Honesty Policy & Compositional Closure",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A7_HONESTY.md`"
+        },
+        {
+          "title": "CQE-paper-formal-S11_OpsGuide: CQE-paper-formal-S11 OpsGuide",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\opsguides\\CQE-paper-formal-S11_OpsGuide.md`"
+        },
+        {
+          "title": "CQE-paper-03-polish-2026-06-11.manifest: CQE-paper-03-polish-2026-06-11.manifest",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\promotion-manifests\\CQE-paper-03-polish-2026-06-11.manifest.json`"
+        },
+        {
+          "title": "receipt: receipt",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S22\\receipt.json`"
+        },
+        {
+          "title": "CQE-PAPER-001-ENHANCED: CQE-PAPER-001-ENHANCED",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\enhanced-synthesis\\CQE-PAPER-001-ENHANCED.md`"
+        },
+        {
+          "title": "block-01-dyad-02-07: Block 01 Dyad Brief - Papers 2 and 7",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-02-07.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "legacy_papers": [
+        "03"
+      ],
+      "archive_card_count": 26,
+      "top_cards": [
+        {
+          "title": "CQE-paper-04.25: Paper 4.25 - Toolkit for Boundary Repair",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-04.25.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-02.50: Paper 2.50 - Correction Surface Claim Contract",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-02.50.md`"
+        },
+        {
+          "title": "A7_HONESTY: Appendix A7: Honesty Policy & Compositional Closure",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A7_HONESTY.md`"
+        },
+        {
+          "title": "CQE-paper-formal-S11_OpsGuide: CQE-paper-formal-S11 OpsGuide",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\opsguides\\CQE-paper-formal-S11_OpsGuide.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-03-polish-2026-06-11.manifest: CQE-paper-03-polish-2026-06-11.manifest",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\promotion-manifests\\CQE-paper-03-polish-2026-06-11.manifest.json`"
+        },
+        {
+          "title": "receipt: receipt",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S22\\receipt.json`"
+        },
+        {
+          "title": "CQE-PAPER-001-ENHANCED: CQE-PAPER-001-ENHANCED",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\enhanced-synthesis\\CQE-PAPER-001-ENHANCED.md`"
+        },
+        {
+          "title": "block-01-dyad-02-07: Block 01 Dyad Brief - Papers 2 and 7",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-02-07.md`"
+        },
+        {
+          "title": "TOOL: Paper 03 \u2014 Tool: D4/J3 Triality Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-03\\02-CQE-tool\\TOOL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "legacy_papers": [
+        "04"
+      ],
+      "archive_card_count": 23,
+      "top_cards": [
+        {
+          "title": "CQE-paper-04.25: Paper 4.25 - Toolkit for Boundary Repair",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-04.25.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-02.50: Paper 2.50 - Correction Surface Claim Contract",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-02.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 01 \u2014 Side-Flip SU(2) Doublet (T_BIJECTIVE)",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-01\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-PAPER-004-ENHANCED: CQE-PAPER-004-ENHANCED",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\enhanced-synthesis\\CQE-PAPER-004-ENHANCED.md`"
+        },
+        {
+          "title": "CQE-paper-formal-S11_OpsGuide: CQE-paper-formal-S11 OpsGuide",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\opsguides\\CQE-paper-formal-S11_OpsGuide.md`"
+        },
+        {
+          "title": "CQE-paper-03-polish-2026-06-11.manifest: CQE-paper-03-polish-2026-06-11.manifest",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\promotion-manifests\\CQE-paper-03-polish-2026-06-11.manifest.json`"
+        },
+        {
+          "title": "receipt: receipt",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S19\\receipt.json`"
+        },
+        {
+          "title": "block-01-dyad-02-07: Block 01 Dyad Brief - Papers 2 and 7",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-02-07.md`"
+        },
+        {
+          "title": "CQE-paper-05.25: Paper 5.25 - Toolkit for the Oloid Path Carrier",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-05.25.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "legacy_papers": [
+        "05"
+      ],
+      "archive_card_count": 11,
+      "top_cards": [
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-paper-06.25: Paper 6.25 - Toolkit for Causal Code",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-06.25.md`"
+        },
+        {
+          "title": "CQE-PAPER-001-ENHANCED: CQE-PAPER-001-ENHANCED",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\enhanced-synthesis\\CQE-PAPER-001-ENHANCED.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 05 \u2014 Workbook: Oloid Path Carrier Sheet (v1 \u2014 isomorphic to tool)",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-05\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "SOURCE: Paper 29 - Monster/Universal Energy-Bound Hypotheses",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-29\\SOURCE.md`"
+        },
+        {
+          "title": "CQE-paper-05.25: Paper 5.25 - Toolkit for the Oloid Path Carrier",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-05.25.md`"
+        },
+        {
+          "title": "CQE-paper-05-polish-2026-06-11.manifest: CQE-paper-05-polish-2026-06-11.manifest",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\governance\\legacy-tracking\\promotion-manifests\\CQE-paper-05-polish-2026-06-11.manifest.json`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 05 - Oloid Path Carrier",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-05\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-05.50: Paper 5.50 - Oloid Path Carrier Claim Contract",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-05.50.md`"
+        },
+        {
+          "title": "PAPER_KERNEL: CQE-paper-04 - Boundary Repair Kernel",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-04\\PAPER_KERNEL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "legacy_papers": [
+        "06"
+      ],
+      "archive_card_count": 54,
+      "top_cards": [
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-06.50: Paper 6.50 - Causal Code Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-06.50.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+        },
+        {
+          "title": "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+        },
+        {
+          "title": "CLAIM_CROSSWALK: CLAIM_CROSSWALK",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+        },
+        {
+          "title": "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-PAPER-006-ENHANCED: CQE-PAPER-006-ENHANCED",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\enhanced-synthesis\\CQE-PAPER-006-ENHANCED.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "legacy_papers": [
+        "07"
+      ],
+      "archive_card_count": 14,
+      "top_cards": [
+        {
+          "title": "CQE-paper-08.50: Paper 8.50 - Lattice Closure Claim Contract",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08.50.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "CQE-FORMAL-07_META_CORPUS: CQECMPLX FORMALIZATION PAPER 7",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-07_META_CORPUS.md`"
+        },
+        {
+          "title": "block-01-dyad-02-07: Block 01 Dyad Brief - Papers 2 and 7",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-02-07.md`"
+        },
+        {
+          "title": "SOURCE: Paper 07 - Discrete-Continuous Bridge",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-07\\SOURCE.md`"
+        },
+        {
+          "title": "CQE-paper-07.25: Paper 7.25 - Toolkit for the Discrete-Continuous Bridge",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-07.25.md`"
+        },
+        {
+          "title": "033-umbrella-math-universal-n3-closure: Universal N3 Closure",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\033-umbrella-math-universal-n3-closure.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 07 - Discrete-Continuous Bridge",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-07\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-07.50: Paper 7.50 - Discrete-Continuous Bridge Claim Contract",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-07.50.md`"
+        },
+        {
+          "title": "SOURCE: Paper 07 - Discrete-Continuous Bridge",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-07\\SOURCE.md`"
+        },
+        {
+          "title": "PAPER_KERNEL: CQE-paper-08 - E8/Niemeier/Leech Closure Kernel",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-08\\PAPER_KERNEL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "legacy_papers": [
+        "08"
+      ],
+      "archive_card_count": 25,
+      "top_cards": [
+        {
+          "title": "CQE-paper-08.25: Paper 8.25 - Toolkit for the Lattice Closure Template",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08.25.md`"
+        },
+        {
+          "title": "CQE-paper-08.50: Paper 8.50 - Lattice Closure Claim Contract",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "SUMMARY-V-32-Theorems-Registry: Summary Paper V \u2014 The 32 Theorems in One Table: Closed-Form Registry",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-V-32-Theorems-Registry.md`"
+        },
+        {
+          "title": "block-01-dyad-01-08: Block 01 Dyad Brief - Papers 1 and 8",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\block-01-dyad-01-08.md`"
+        },
+        {
+          "title": "verify_nebe_gamma72_real_data_and_grid_hypothesis: verify_nebe_gamma72_real_data_and_grid_hypothesis",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp8.08.39\\receipts\\verify_nebe_gamma72_real_data_and_grid_hypothesis.json`"
+        },
+        {
+          "title": "Paper_08_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\historical_pastworks\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_08_Appendix_Glossary_ProofTree.md`"
+        },
+        {
+          "title": "CQE-paper-08_UPGRADED: Paper 8 - Lattice Closure Template (UPGRADED: Affirmative Strong-Coupling Hierarchy Physics Map)",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-08_UPGRADED.md`"
+        },
+        {
+          "title": "CQE-FORMAL-08_COMPLETION: CQECMPLX FORMALIZATION PAPER 8",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-08_COMPLETION.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 08 \u2014 Workbook: E8/Niemeier/Leech Closure Sheet",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-08\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "SOURCE: Paper 08 - E8 / Niemeier / Leech Closure",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-08\\SOURCE.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "legacy_papers": [
+        "09"
+      ],
+      "archive_card_count": 14,
+      "top_cards": [
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "CQE-paper-10.25: Paper 10.25 - Toolkit for the T10 Master Receipt",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.25.md`"
+        },
+        {
+          "title": "CQE-paper-11_UPGRADED: Paper 11 - Theory Admission Gate (UPGRADED: Affirmative Encoder-Bound Filter Physics Map)",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11_UPGRADED.md`"
+        },
+        {
+          "title": "CQE-paper-11: Paper 11 - Theory Admission Gate",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-11.md`"
+        },
+        {
+          "title": "CQE-paper-09.50: Paper 9.50 - Hamiltonian Window Claim Contract",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-09.50.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 09 - Hamiltonian Temporal Emergence",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-09\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-FORMAL-03_RECURSIVE_CLOSURE: CQECMPLX FORMALIZATION PAPER 3",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-03_RECURSIVE_CLOSURE.md`"
+        },
+        {
+          "title": "lane-a-dyads-09-16-17-24-25-32: Lane A Dyad Brief - Papers 09/16, 17/24, and 25/32",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\lane-a-dyads-09-16-17-24-25-32.md`"
+        },
+        {
+          "title": "PAPER_KERNEL: CQE-paper-08 - E8/Niemeier/Leech Closure Kernel",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-08\\PAPER_KERNEL.md`"
+        },
+        {
+          "title": "paper_kernel_manifest: paper_kernel_manifest",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-08\\paper_kernel_manifest.json`"
+        },
+        {
+          "title": "CQE-PAPER-009-LCR-Tool-System: CQECMPLX Unified Corpus \u2014 Paper 9 of 16",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\paper-consolidation\\CQE-PAPER-009-LCR-Tool-System.md`"
+        },
+        {
+          "title": "CQE-FORMAL-04_ENERGY_TRIALITY: CQECMPLX FORMALIZATION PAPER 4",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-04_ENERGY_TRIALITY.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "legacy_papers": [
+        "10"
+      ],
+      "archive_card_count": 53,
+      "top_cards": [
+        {
+          "title": "CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim Contract",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.50.md`"
+        },
+        {
+          "title": "CQE-paper-10: Paper 10 - T10 Master Receipt",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FINAL_FORMAL_PAPER: Complete Formal Claims: The Folded Strand",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\lib-forge\\FINAL_FORMAL_PAPER.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "CQE-paper-10.25: Paper 10.25 - Toolkit for the T10 Master Receipt",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.25.md`"
+        },
+        {
+          "title": "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+        },
+        {
+          "title": "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+        },
+        {
+          "title": "CLAIM_CROSSWALK: CLAIM_CROSSWALK",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+        },
+        {
+          "title": "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "legacy_papers": [
+        "11"
+      ],
+      "archive_card_count": 20,
+      "top_cards": [
+        {
+          "title": "CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission Gate",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SOURCE: Paper 11 - Theory Admission Gate",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-11\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-11_UPGRADED: Paper 11 - Theory Admission Gate (UPGRADED: Affirmative Encoder-Bound Filter Physics Map)",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11_UPGRADED.md`"
+        },
+        {
+          "title": "CQE-paper-11: Paper 11 - Theory Admission Gate",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-11.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 11 - Theory Admission Gate",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-11.50: Paper 11.50 - Theory Admission Claim Contract",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-11.50.md`"
+        },
+        {
+          "title": "SOURCE: Paper 29 - Monster/Universal Energy-Bound Hypotheses",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-29\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL: Paper 20 \u2014 C-Form: Layer-2 Synthesis Ledger Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-20\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-PAPER-011: CQE-PAPER-011",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\01-lcr-triality\\CQE-PAPER-011.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "legacy_papers": [
+        "12"
+      ],
+      "archive_card_count": 22,
+      "top_cards": [
+        {
+          "title": "CQE-paper-12.25: Paper 12.25 - Toolkit for the CA Prediction Surface",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-12.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-12.50: Paper 12.50 - CA Prediction Surface Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-12.50.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "CQE-paper-formal-S11_OpsGuide: CQE-paper-formal-S11 OpsGuide",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\opsguides\\CQE-paper-formal-S11_OpsGuide.md`"
+        },
+        {
+          "title": "receipt: receipt",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S22\\receipt.json`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 12 - CA Prediction Surface",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-12\\PAPER-BODY.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 12 \u2014 Workbook: CA Prediction Surface Sheet",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-12\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "SOURCE: Paper 12 - CA Prediction Surface",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-12\\SOURCE.md`"
+        },
+        {
+          "title": "TOOL: Paper 12 \u2014 Tool: CA Prediction Surface Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-12\\02-CQE-tool\\TOOL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "legacy_papers": [
+        "13"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "CQE-paper-13.50: Paper 13.50 - Quark-Face Transport Claim Contract",
+          "archive_score": 101,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-13.25: Paper 13.25 - Toolkit for Quark-Face Transport",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.25.md`"
+        },
+        {
+          "title": "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SOURCE: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-13\\SOURCE.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-13\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+        },
+        {
+          "title": "quark_face_transport_literalized_receipt: quark_face_transport_literalized_receipt",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\receipts\\quark_face_transport_literalized_receipt.json`"
+        },
+        {
+          "title": "Paper_13_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_13_Appendix_Glossary_ProofTree.md`"
+        },
+        {
+          "title": "CQE-paper-13: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.md`"
+        },
+        {
+          "title": "CQE-paper-13.75: Paper 13.75 - Quark-Face Transport as Next-State Precondition",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "legacy_papers": [
+        "14"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+        },
+        {
+          "title": "CQE-paper-14.50: Paper 14.50 - Boundary-Repair Curvature Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.50.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 26 \u2014 C-Form: Z-Pinch and Shear Horizon Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-14\\PAPER-BODY.md`"
+        },
+        {
+          "title": "SOURCE: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-14\\SOURCE.md`"
+        },
+        {
+          "title": "TOOL: Paper 14 \u2014 Tool: GR Boundary-Repair Curvature Verifier",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-14\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "CQE-paper-13.75: Paper 13.75 - Quark-Face Transport as Next-State Precondition",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "legacy_papers": [
+        "15"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "PAPER-BODY: CQE Paper 32 \u2014 The Supervisor Cursor: Superpermutations as the Compressed Dimensional Action Graph",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\PAPER-BODY.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 15 - QFT/Higgs Mass-Residue Carrier",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-15\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-15.50: Paper 15.50 - Mass-Residue Carrier Claim Contract",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-15.50.md`"
+        },
+        {
+          "title": "TOOL: Paper 15 \u2014 Tool: QFT/Higgs Mass-Residue Carrier Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-15\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 15 \u2014 Workbook: QFT/Higgs Mass-Residue Carrier Sheet",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-15\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: CQECMPLX FORMALIZATION PAPER S-7",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S7\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 31 \u2014 C-Form: Meta LCR Enactment Gluon",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-31\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-15.25: Paper 15.25 - Toolkit for Mass-Residue Carrier",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-15.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 29 \u2014 C-Form: Monster/Universal Energy-Bound Hypotheses Gluon",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-29\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "legacy_papers": [
+        "16"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "CQE-paper-16: Paper 16 - Continuum Edge Residuals",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-16.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-PAPER-016-C-Event-Enumerations: CQECMPLX Unified Corpus \u2014 Paper 16 of 16",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\paper-consolidation\\CQE-PAPER-016-C-Event-Enumerations.md`"
+        },
+        {
+          "title": "CQE-paper-16.25: Paper 16.25 - Toolkit for Continuum Edge Residuals",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-16.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 26 \u2014 C-Form: Z-Pinch and Shear Horizon Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 16 - Continuum Edge Residuals",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-16\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-16.50: Paper 16.50 - Continuum Edge Residual Claim Contract",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-16.50.md`"
+        },
+        {
+          "title": "lane-a-dyads-09-16-17-24-25-32: Lane A Dyad Brief - Papers 09/16, 17/24, and 25/32",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\DyadBriefs\\lane-a-dyads-09-16-17-24-25-32.md`"
+        },
+        {
+          "title": "TOOL: Paper 16 \u2014 Tool: Continuum Edge Residuals Verifier",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-16\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 29 \u2014 C-Form: Monster/Universal Energy-Bound Hypotheses Gluon",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-29\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-16_UPGRADED: Paper 16 - Continuum Edge Residuals (UPGRADED: Affirmative Local Edge-Residual Instrument)",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-16_UPGRADED.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "legacy_papers": [
+        "17",
+        "18",
+        "19"
+      ],
+      "archive_card_count": 36,
+      "top_cards": [
+        {
+          "title": "CQE-paper-17.50: Paper 17.50 - Error-Correction Tower Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-17.50.md`"
+        },
+        {
+          "title": "CQE-paper-18.50: Paper 18.50 - VOA / Moonshine Route Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-18.50.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "CQE-paper-19.50: Paper 19.50 - Observer Face-Selection Claim Contract",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-19.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 01 \u2014 Side-Flip SU(2) Doublet (T_BIJECTIVE)",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-01\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SOURCE: Paper 17 - E6-E8 Error-Correction Tower",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-17\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-17.25: Paper 17.25 - Error-Correction Tower Toolkit",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-17.25.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "legacy_papers": [
+        "20"
+      ],
+      "archive_card_count": 53,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-20: Paper 20 - Layer-2 Synthesis Ledger",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-20.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+        },
+        {
+          "title": "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+        },
+        {
+          "title": "CLAIM_CROSSWALK: CLAIM_CROSSWALK",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+        },
+        {
+          "title": "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "legacy_papers": [
+        "21"
+      ],
+      "archive_card_count": 15,
+      "top_cards": [
+        {
+          "title": "CQE-paper-21.25: Paper 21.25 - MorphForge Toolkit Supplement",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-21.25.md`"
+        },
+        {
+          "title": "CQE-paper-22: Paper 22 - MetaForge Applied Materials",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.md`"
+        },
+        {
+          "title": "CQE-paper-21.50: Paper 21.50 - MorphForge Claim Contract",
+          "archive_score": 93,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-21.50.md`"
+        },
+        {
+          "title": "CQE-paper-21: Paper 21 - MorphForge / PolyForge / MorphoniX",
+          "archive_score": 93,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-21.md`"
+        },
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-21.75: Paper 21.75 - MorphForge Next-State Bridge",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-21.75.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 20 \u2014 C-Form: Layer-2 Synthesis Ledger Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-20\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-FORGE-COMPLETION: Forge Ring Completion \u2014 the situationally not-present systems, found and built",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-FORGE-COMPLETION.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "legacy_papers": [
+        "22"
+      ],
+      "archive_card_count": 25,
+      "top_cards": [
+        {
+          "title": "CQE-paper-22.50: Paper 22.50 - MetaForge Claim Contract",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.50.md`"
+        },
+        {
+          "title": "CQE-paper-22: Paper 22 - MetaForge Applied Materials",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.md`"
+        },
+        {
+          "title": "CQE-paper-22.25: Paper 22.25 - MetaForge Toolkit Supplement",
+          "archive_score": 93,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-22.75: Paper 22.75 - MetaForge Next-State Bridge",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.75.md`"
+        },
+        {
+          "title": "package_build_receipt: package_build_receipt",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\showcase\\astro-metaforge-lunch-demo\\evidence\\tests\\package_build_receipt.json`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "metaforge_materials_receipt: metaforge_materials_receipt",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp1.05.22\\receipts\\metaforge_materials_receipt.json`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "ASTRO_METAFORGE_RUNBOOK: Astro-facing MetaForge runbook",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\lib-forge\\CQECMPLX-MetaMaterial-Designer\\ASTRO_METAFORGE_RUNBOOK.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "legacy_papers": [
+        "23"
+      ],
+      "archive_card_count": 18,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-22.75: Paper 22.75 - MetaForge Next-State Bridge",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.75.md`"
+        },
+        {
+          "title": "CQE-paper-23.25: Paper 23.25 - FoldForge Toolkit Supplement",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-23.50: Paper 23.50 - FoldForge Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.50.md`"
+        },
+        {
+          "title": "CQE-paper-23.75: Paper 23.75 - FoldForge Next-State Bridge",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.75.md`"
+        },
+        {
+          "title": "CQE-paper-23: Paper 23 - FoldForge Protein Folding",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.md`"
+        },
+        {
+          "title": "SOURCE: Paper 23 - FoldForge Protein Folding",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-23\\SOURCE.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "legacy_papers": [
+        "24",
+        "28"
+      ],
+      "archive_card_count": 37,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-24.25: Paper 24.25 - KnightForge Toolkit Supplement",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-24.25.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-24.50: Paper 24.50 - KnightForge Claim Contract",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-24.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-23.75: Paper 23.75 - FoldForge Next-State Bridge",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-23.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "legacy_papers": [
+        "25"
+      ],
+      "archive_card_count": 16,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-22.75: Paper 22.75 - MetaForge Next-State Bridge",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.75.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-25: Paper 25 - Energetic Traversal Maps",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-25.md`"
+        },
+        {
+          "title": "CQE-paper-24.75: Paper 24.75 - KnightForge Next-State Bridge",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-24.75.md`"
+        },
+        {
+          "title": "CQE-paper-25.25: Paper 25.25 - Energetic Traversal Toolkit Supplement",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-25.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 26 \u2014 C-Form: Z-Pinch and Shear Horizon Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "TOOL: Paper 25 \u2014 Tool: Energetic Traversal Maps Verifier",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-25\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "paper_kernel_manifest: paper_kernel_manifest",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-26\\paper_kernel_manifest.json`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "legacy_papers": [
+        "26"
+      ],
+      "archive_card_count": 20,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-26.25: Paper 26.25 - Z-Pinch and Shear Toolkit Supplement",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-26.25.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-26: Paper 26 - Z-Pinch and Shear Horizon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-26.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "TOOL: Paper 26 \u2014 Tool: Z-Pinch and Shear Horizon Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-26\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "SOURCE: Paper 26 - Z-Pinch and Shear Horizon",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-26\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: Paper 29 - Monster/Universal Energy-Bound Hypotheses",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-29\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: CQECMPLX FORMALIZATION PAPER O-2",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-O2\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "Paper_26_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_26_Appendix_Glossary_ProofTree.md`"
+        },
+        {
+          "title": "CQE-paper-26.75: Paper 26.75 - Z-Pinch and Shear Next-State Precondition",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-26.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "legacy_papers": [
+        "27"
+      ],
+      "archive_card_count": 14,
+      "top_cards": [
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 19 \u2014 C-Form: Observer Face-Selection Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-19\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: CQECMPLX FORMALIZATION PAPER O-2",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-O2\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "CQE-paper-26.75: Paper 26.75 - Z-Pinch and Shear Next-State Precondition",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-26.75.md`"
+        },
+        {
+          "title": "FORMAL: Paper 26 \u2014 C-Form: Z-Pinch and Shear Horizon Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-26\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-27.25: Paper 27.25 - Observer Delay Toolkit Supplement",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-27.25.md`"
+        },
+        {
+          "title": "CQE-paper-27: Paper 27 - Observer Delay and Shared Reality",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-27.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 27 - Observer Delay and Shared Reality",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-27\\PAPER-BODY.md`"
+        },
+        {
+          "title": "paper_kernel_manifest: paper_kernel_manifest",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-26\\paper_kernel_manifest.json`"
+        },
+        {
+          "title": "paper_kernel_manifest: paper_kernel_manifest",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\paper-kernels-v1\\papers\\CQE-paper-28\\paper_kernel_manifest.json`"
+        },
+        {
+          "title": "Paper_27_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_27_Appendix_Glossary_ProofTree.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "legacy_papers": [
+        "29"
+      ],
+      "archive_card_count": 29,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-29.50: Paper 29.50 - Monster Horizon Claim Contract",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-29.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-FORMAL-07_META_CORPUS: CQECMPLX FORMALIZATION PAPER 7",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-07_META_CORPUS.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 06 \u2014 Workbook: Causal Code Sheet",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-06\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "TOOL: Paper 29 \u2014 Tool: Monster/Universal Energy-Bound Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-29\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "SOURCE: Paper 29 - Monster/Universal Energy-Bound Hypotheses",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-29\\SOURCE.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: Paper 29 - Monster/Universal Energy-Bound Hypotheses",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-29\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "legacy_papers": [],
+      "archive_card_count": 0,
+      "top_cards": []
+    },
+    {
+      "publication_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "legacy_papers": [
+        "30",
+        "31"
+      ],
+      "archive_card_count": 107,
+      "top_cards": [
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "CQE-paper-30.25: Paper 30.25 - Grand Ribbon Toolkit Supplement",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-30.25.md`"
+        },
+        {
+          "title": "CQE-paper-30.25: Paper 30.25 - Grand Ribbon Toolkit Supplement",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-30.25.md`"
+        },
+        {
+          "title": "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+        },
+        {
+          "title": "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+        },
+        {
+          "title": "CLAIM_CROSSWALK: CLAIM_CROSSWALK",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+        },
+        {
+          "title": "Paper_22_MetaForge_Applied_Materials: Paper 22 - MetaForge Applied Materials",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\papers_md\\Paper_22_MetaForge_Applied_Materials.md`"
+        },
+        {
+          "title": "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 10 \u2014 C-Form: T10 Master Receipt Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-10\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 30 \u2014 C-Form: Grand Ribbon Meta-Framer Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-30\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 30 \u2014 C-Form: Grand Ribbon Meta-Framer Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-30\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "legacy_papers": [
+        "32"
+      ],
+      "archive_card_count": 54,
+      "top_cards": [
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "FORMAL_UNIFICATION_CHARTER: CQECMPLX FORMAL UNIFICATION CHARTER",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\FORMAL_UNIFICATION_CHARTER.md`"
+        },
+        {
+          "title": "A5_TOOLKIT_GUIDE: Appendix A5: Toolkit Application Guide",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\appendices\\A5_TOOLKIT_GUIDE.md`"
+        },
+        {
+          "title": "CLAIM_CROSSWALK: CLAIM_CROSSWALK",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\claims\\CLAIM_CROSSWALK.csv`"
+        },
+        {
+          "title": "R30_PROOF_PROMOTION_LEDGER: R30-PROOF Promotion Ledger",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\operations\\crystal_library\\R30_PROOF_PROMOTION_LEDGER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 32 \u2014 C-Form: The Supervisor Cursor Gluon",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "PAPER-BODY: CQE Paper 32 \u2014 The Supervisor Cursor: Superpermutations as the Compressed Dimensional Action Graph",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-PAPER-087: CQE-PAPER-087",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\08-unification\\CQE-PAPER-087.md`"
+        },
+        {
+          "title": "CQE-FORMAL-07_META_CORPUS: CQECMPLX FORMALIZATION PAPER 7",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-FORMAL-07_META_CORPUS.md`"
+        },
+        {
+          "title": "CQE-paper-SIGMA9: Paper \u03a39 \u2014 THE TRIALITY AT THE GAME / KNIGHT LATTICE",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-SIGMA9.md`"
+        },
+        {
+          "title": "CONTENTIONS_AND_RESOLUTION_PLAN: CMPLX-R30 Contentions And Resolution Plan",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-R30-main\\FORMALIZATION\\CONTENTIONS_AND_RESOLUTION_PLAN.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "CQE-paper-13.50: Paper 13.50 - Quark-Face Transport Claim Contract",
+          "archive_score": 101,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-13.25: Paper 13.25 - Toolkit for Quark-Face Transport",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.25.md`"
+        },
+        {
+          "title": "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SOURCE: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-13\\SOURCE.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-13\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+        },
+        {
+          "title": "quark_face_transport_literalized_receipt: quark_face_transport_literalized_receipt",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\receipts\\quark_face_transport_literalized_receipt.json`"
+        },
+        {
+          "title": "Paper_13_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_13_Appendix_Glossary_ProofTree.md`"
+        },
+        {
+          "title": "CQE-paper-13: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.md`"
+        },
+        {
+          "title": "CQE-paper-13.75: Paper 13.75 - Quark-Face Transport as Next-State Precondition",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "legacy_papers": [
+        "13"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "CQE-paper-13.50: Paper 13.50 - Quark-Face Transport Claim Contract",
+          "archive_score": 101,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.50.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-13.25: Paper 13.25 - Toolkit for Quark-Face Transport",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-13.25.md`"
+        },
+        {
+          "title": "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SOURCE: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-13\\SOURCE.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-13\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+        },
+        {
+          "title": "quark_face_transport_literalized_receipt: quark_face_transport_literalized_receipt",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp2.02.23\\receipts\\quark_face_transport_literalized_receipt.json`"
+        },
+        {
+          "title": "Paper_13_Appendix_Glossary_ProofTree: Axioms",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\Papers00_30_BestForm_v0_1_Package\\Papers00_30_BestForm_v0_1\\appendices\\Paper_13_Appendix_Glossary_ProofTree.md`"
+        },
+        {
+          "title": "CQE-paper-13: Paper 13 - Standard-Model Quark-Face Transport",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.md`"
+        },
+        {
+          "title": "CQE-paper-13.75: Paper 13.75 - Quark-Face Transport as Next-State Precondition",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-13.75.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "legacy_papers": [
+        "15"
+      ],
+      "archive_card_count": 12,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "PAPER-BODY: CQE Paper 32 \u2014 The Supervisor Cursor: Superpermutations as the Compressed Dimensional Action Graph",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-32\\PAPER-BODY.md`"
+        },
+        {
+          "title": "PAPER-BODY: Paper 15 - QFT/Higgs Mass-Residue Carrier",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-15\\PAPER-BODY.md`"
+        },
+        {
+          "title": "CQE-paper-15.50: Paper 15.50 - Mass-Residue Carrier Claim Contract",
+          "archive_score": 69,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-15.50.md`"
+        },
+        {
+          "title": "TOOL: Paper 15 \u2014 Tool: QFT/Higgs Mass-Residue Carrier Verifier",
+          "archive_score": 67,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-15\\02-CQE-tool\\TOOL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "WORKBOOK: Paper 15 \u2014 Workbook: QFT/Higgs Mass-Residue Carrier Sheet",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\production-papers\\CQE-paper-15\\03-CQE-workbook\\WORKBOOK.md`"
+        },
+        {
+          "title": "FORMAL_PAPER: CQECMPLX FORMALIZATION PAPER S-7",
+          "archive_score": 63,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\formal-papers\\CQE-paper-formal-S7\\FORMAL_PAPER.md`"
+        },
+        {
+          "title": "FORMAL: Paper 31 \u2014 C-Form: Meta LCR Enactment Gluon",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-31\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-15.25: Paper 15.25 - Toolkit for Mass-Residue Carrier",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-15.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 29 \u2014 C-Form: Monster/Universal Energy-Bound Hypotheses Gluon",
+          "archive_score": 61,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-29\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "legacy_papers": [],
+      "archive_card_count": 0,
+      "top_cards": []
+    },
+    {
+      "publication_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "legacy_papers": [
+        "14",
+        "16"
+      ],
+      "archive_card_count": 24,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-14: Paper 14 - GR Boundary-Repair Curvature",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.md`"
+        },
+        {
+          "title": "CQE-paper-14.50: Paper 14.50 - Boundary-Repair Curvature Claim Contract",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-14.50.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "CQE-paper-16: Paper 16 - Continuum Edge Residuals",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-16.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 17 \u2014 C-Form: E6-E8 Error-Correction Tower Gluon",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQECMPLX-Production\\papers\\CQE-paper-17\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-PAPER-016-C-Event-Enumerations: CQECMPLX Unified Corpus \u2014 Paper 16 of 16",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\extracts\\promoted-2026-06-19\\paper-consolidation\\CQE-PAPER-016-C-Event-Enumerations.md`"
+        },
+        {
+          "title": "CQE-paper-14.25: Paper 14.25 - Toolkit for Boundary-Repair Curvature",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-14.25.md`"
+        },
+        {
+          "title": "CQE-paper-16.25: Paper 16.25 - Toolkit for Continuum Edge Residuals",
+          "archive_score": 65,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\corpus\\legacy\\papers-source\\CQE-paper-16.25.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "legacy_papers": [
+        "22"
+      ],
+      "archive_card_count": 25,
+      "top_cards": [
+        {
+          "title": "CQE-paper-22.50: Paper 22.50 - MetaForge Claim Contract",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.50.md`"
+        },
+        {
+          "title": "CQE-paper-22: Paper 22 - MetaForge Applied Materials",
+          "archive_score": 97,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.md`"
+        },
+        {
+          "title": "CQE-paper-22.25: Paper 22.25 - MetaForge Toolkit Supplement",
+          "archive_score": 93,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.25.md`"
+        },
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-22.75: Paper 22.75 - MetaForge Next-State Bridge",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-22.75.md`"
+        },
+        {
+          "title": "package_build_receipt: package_build_receipt",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\showcase\\astro-metaforge-lunch-demo\\evidence\\tests\\package_build_receipt.json`"
+        },
+        {
+          "title": "FORMAL: Paper 21 \u2014 C-Form: MorphForge / PolyForge / MorphoniX Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-21\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "metaforge_materials_receipt: metaforge_materials_receipt",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\ecology\\kernels\\Kp1.05.22\\receipts\\metaforge_materials_receipt.json`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "ASTRO_METAFORGE_RUNBOOK: Astro-facing MetaForge runbook",
+          "archive_score": 71,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\production\\lib-forge\\CQECMPLX-MetaMaterial-Designer\\ASTRO_METAFORGE_RUNBOOK.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "legacy_papers": [
+        "25",
+        "26",
+        "29"
+      ],
+      "archive_card_count": 65,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-26.25: Paper 26.25 - Z-Pinch and Shear Toolkit Supplement",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-26.25.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "legacy_papers": [
+        "19",
+        "27",
+        "28",
+        "30",
+        "31"
+      ],
+      "archive_card_count": 144,
+      "top_cards": [
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "SUMMARY-III-Computational-Substrates: Summary Paper III \u2014 Computational Substrates: The Gluon as Fold, Knight, Traversal, Pinch, Delay, Game, Monster",
+          "archive_score": 83,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-III-Computational-Substrates.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 25 \u2014 C-Form: Energetic Traversal Maps Gluon",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-25\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "FORMAL: Paper 24 \u2014 C-Form: KnightForge / N-Dimensional Chess Automata Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-24\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "COMPLETE_RECURSIVE_CLOSURE_MAP: CQECMPLX \u2014 COMPLETE RECURSIVE LIGHT-CONE CLOSURE OF ALL 33 PAPERS",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\COMPLETE_RECURSIVE_CLOSURE_MAP.md`"
+        },
+        {
+          "title": "SUMMARY-II-Folded-Strand-Physics: Summary Paper II \u2014 Folded Strand Physics: The Gluon as Quark, Mass, Curvature, Tower, and Moonshine",
+          "archive_score": 75,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-II-Folded-Strand-Physics.md`"
+        },
+        {
+          "title": "CQE-paper-30.25: Paper 30.25 - Grand Ribbon Toolkit Supplement",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-30.25.md`"
+        },
+        {
+          "title": "CQE-paper-30.25: Paper 30.25 - Grand Ribbon Toolkit Supplement",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-30.25.md`"
+        },
+        {
+          "title": "CQE-paper-28.25: Paper 28.25 - N-Dimensional Game Lattice Toolkit Supplement",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-28.25.md`"
+        },
+        {
+          "title": "CQE-paper-19.50: Paper 19.50 - Observer Face-Selection Claim Contract",
+          "archive_score": 73,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-19.50.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "legacy_papers": [
+        "06",
+        "10",
+        "11",
+        "20",
+        "32"
+      ],
+      "archive_card_count": 234,
+      "top_cards": [
+        {
+          "title": "FORMAL: Paper 23 \u2014 C-Form: FoldForge Protein Folding Gluon",
+          "archive_score": 89,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 22 \u2014 C-Form: MetaForge Applied Materials Gluon",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "CQE-paper-20: Paper 20 - Layer-2 Synthesis Ledger",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-20.md`"
+        },
+        {
+          "title": "CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim Contract",
+          "archive_score": 85,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.50.md`"
+        },
+        {
+          "title": "CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission Gate",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11.25.md`"
+        },
+        {
+          "title": "CQE-paper-10: Paper 10 - T10 Master Receipt",
+          "archive_score": 81,
+          "source_path": "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "SUMMARY-IX-Open-Obligations: Summary Paper IX \u2014 The Open Obligations: The 2\u00d72 Failure Points and the Empirical Platform Diagnostic System",
+          "archive_score": 79,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        },
+        {
+          "title": "FORMAL: Paper 11 \u2014 C-Form: Theory Admission Gate Gluon",
+          "archive_score": 77,
+          "source_path": "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-11\\01-CQE-formal\\FORMAL.md`"
+        }
+      ]
+    },
+    {
+      "publication_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "legacy_papers": [],
+      "archive_card_count": 0,
+      "top_cards": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Master docs routing doctrine",
+  "purpose": "Make the clean master documents the target surface for all paper, code, receipt, and source-discovery work.",
+  "bands": [
+    {
+      "range": "Papers 1-40",
+      "role": "Method and vocabulary definition layer",
+      "rule": "Describe the method in full, define every non-Standard-Model term, prove finite and executable claims at their proper scope, and provide the analog/workbook access layer."
+    },
+    {
+      "range": "Papers 41-80",
+      "role": "Standard Model and physics redefinition layer",
+      "rule": "Translate accepted Standard Model and adjacent physics objects into the observer-state framework through explicit adapters, comparator rows, units, calibration data, residuals, and falsifiers."
+    },
+    {
+      "range": "Orbital sources",
+      "role": "Everything else discovered across D drive, repositories, Claude/Kimi/MannyAI work, Docker systems, code, receipts, papers, and external literature",
+      "rule": "Route each artifact into the master as method support, physics adapter, application, validator, comparator, receipt, glossary term, figure/table source, or future expansion pressure. Nothing remains merely miscellaneous."
+    }
+  ],
+  "routing_lanes": [
+    {
+      "lane": "method_definition",
+      "destination": "Papers 1-40 and clean master term contract",
+      "test": "Does the source define a term, operation, memory rule, forge action, receipt rule, analog exercise, proof form, or claim-lane behavior?"
+    },
+    {
+      "lane": "standard_model_redefinition",
+      "destination": "Papers 41-80",
+      "test": "Does the source translate gauge, QCD, electroweak, Higgs, fermion, condensed-matter, plasma, GR/continuum, observer, computation, or measurement structure?"
+    },
+    {
+      "lane": "application_or_case_study",
+      "destination": "Application subsections, appendices, workbook exercises, and later domain papers",
+      "test": "Does the source show the method acting in materials, proteins, games, voice/waves, energy, plasma, datasets, or runtime systems?"
+    },
+    {
+      "lane": "validator_or_receipt",
+      "destination": "Receipt tables, standards checks, falsifier/comparator papers, and master evidence ledgers",
+      "test": "Does the source produce a reproducible check, manifest, database row, proof receipt, audit, test result, or build output?"
+    },
+    {
+      "lane": "external_comparator",
+      "destination": "Physics translation requirements and citation-bound claim lanes",
+      "test": "Does the source provide accepted equations, measured constants, datasets, contemporary papers, or standard definitions that constrain the translation?"
+    },
+    {
+      "lane": "future_expansion_pressure",
+      "destination": "Open obligation channels, source-gap queue, and 41-80 planning",
+      "test": "Does the source show a missing topic, unassigned derivation, underused tool, or claim that can advance the master but lacks exact placement today?"
+    }
+  ],
+  "nonstandard_term_rule": "Any term not already standard in the cited physics/math literature must be defined by the 1-40 method band before it is used as a physics claim in 41-80.",
+  "single_line_warning": "The corpus must not remain focused on one narrow finding line. New evidence must be tested for whether it closes, advances, redirects, or splits any part of the master claim architecture."
+}

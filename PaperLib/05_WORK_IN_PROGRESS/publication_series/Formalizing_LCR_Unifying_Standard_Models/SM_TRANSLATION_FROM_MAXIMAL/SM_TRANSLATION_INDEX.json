@@ -1,0 +1,456 @@
+{
+  "schema": "flcr.sm_translation_from_maximal.v1",
+  "generated_at": "2026-07-01T08:02:12.064965+00:00",
+  "output_dir": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL",
+  "translation_paper_count": 10,
+  "smd_routing": {
+    "SMD-01": {
+      "paper_id": "SMD-01",
+      "title": "Standard Model Definition Contract And Evidence Boundary",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    },
+    "SMD-02": {
+      "paper_id": "SMD-02",
+      "title": "Gauge Principle, Connections, And Local Symmetry",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-35",
+        "FLCR-40"
+      ]
+    },
+    "SMD-03": {
+      "paper_id": "SMD-03",
+      "title": "Gauge Group SU3 SU2 U1 And Representation Content",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-40"
+      ]
+    },
+    "SMD-04": {
+      "paper_id": "SMD-04",
+      "title": "Fermion Fields, Generations, Flavor, And Mixing",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-38",
+        "FLCR-40"
+      ]
+    },
+    "SMD-05": {
+      "paper_id": "SMD-05",
+      "title": "QCD Color Dynamics And Hadronic Boundary",
+      "routes_to": [
+        "FLCR-32",
+        "FLCR-37",
+        "FLCR-40"
+      ]
+    },
+    "SMD-06": {
+      "paper_id": "SMD-06",
+      "title": "Electroweak Interaction And Symmetry Breaking",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-33",
+        "FLCR-40"
+      ]
+    },
+    "SMD-07": {
+      "paper_id": "SMD-07",
+      "title": "Higgs Sector, Vacuum Structure, And Mass Terms",
+      "routes_to": [
+        "FLCR-33",
+        "FLCR-34",
+        "FLCR-40"
+      ]
+    },
+    "SMD-08": {
+      "paper_id": "SMD-08",
+      "title": "Renormalization, Effective Field Theory, And Running Parameters",
+      "routes_to": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-37",
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    },
+    "SMD-09": {
+      "paper_id": "SMD-09",
+      "title": "Neutrino Sector, Oscillation Evidence, And Beyond-Minimal Residues",
+      "routes_to": [
+        "FLCR-33",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    },
+    "SMD-10": {
+      "paper_id": "SMD-10",
+      "title": "Electron Hole Exciton And Condensed Matter Correspondence",
+      "routes_to": [
+        "FLCR-34",
+        "FLCR-36",
+        "FLCR-40"
+      ]
+    },
+    "SMD-11": {
+      "paper_id": "SMD-11",
+      "title": "GR Continuum Interface And Units-Bearing Calibration",
+      "routes_to": [
+        "FLCR-35",
+        "FLCR-37",
+        "FLCR-40"
+      ]
+    },
+    "SMD-12": {
+      "paper_id": "SMD-12",
+      "title": "Standard Model Comparator And Falsifier Protocol",
+      "routes_to": [
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    }
+  },
+  "papers": [
+    {
+      "flcr_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-31__Gauge_Groups_Translated_Into_LCR__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-02",
+        "SMD-03",
+        "SMD-04",
+        "SMD-06",
+        "SMD-08"
+      ],
+      "irl_ids": [
+        "IRL-CODATA-2022-WALLET",
+        "IRL-NIST-ALPHA-2022",
+        "IRL-PDG-2026"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-14",
+        "FLCR-18",
+        "FLCR-21",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 125,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-31__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-31__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-32__QCD_And_Color_Transport_In_LCR__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-03",
+        "SMD-05",
+        "SMD-08",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-PDG-2024",
+        "IRL-PDG-2026"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-14",
+        "FLCR-18",
+        "FLCR-22",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 117,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-32__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-32__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-06",
+        "SMD-07",
+        "SMD-08",
+        "SMD-09",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-ATLAS-HIGGS-2012",
+        "IRL-CMS-HIGGS-2012",
+        "IRL-CODATA-2022-WALLET"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-03",
+        "FLCR-11",
+        "FLCR-13",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 126,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-33__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-33__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-34__Electron_Hole_Exciton_Accounting__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-07",
+        "SMD-10",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-EXCITON-2D-REVIEW",
+        "IRL-EXCITON-SPRINGER",
+        "IRL-NIST-CARRIER-DYNAMICS",
+        "IRL-NIST-PV-EXCITON"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-11",
+        "FLCR-14",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-24",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 109,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-34__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-34__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-35__GR_Curvature_And_Continuum_Translation__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-02",
+        "SMD-11",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-CODATA-2022-WALLET",
+        "IRL-LRR-GR-HYPERBOLIC"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-05",
+        "FLCR-11",
+        "FLCR-15",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-25",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 108,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-35__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-35__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-10",
+        "SMD-11",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-EXCITON-2D-REVIEW",
+        "IRL-NIST-CARRIER-DYNAMICS",
+        "IRL-NIST-PV-EXCITON"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-11",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 109,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-36__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-36__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-05",
+        "SMD-08",
+        "SMD-11",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-CODATA-2022-WALLET",
+        "IRL-PPPL-PLASMA-DIAGNOSTICS-2026",
+        "IRL-PPPL-PLASMA-MAGNETIC"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-24",
+        "FLCR-25",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 118,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-37__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-37__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-04",
+        "SMD-09",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-NOBEL-NEUTRINO-2015",
+        "IRL-PDG-2026"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-08",
+        "FLCR-11",
+        "FLCR-18",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 106,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-38__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-38__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-08",
+        "SMD-12"
+      ],
+      "irl_ids": [
+        "IRL-CODATA-2022-WALLET",
+        "IRL-NIST-ALPHA-2022",
+        "IRL-PDG-2026"
+      ],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-09",
+        "FLCR-11",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-18",
+        "FLCR-19",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": true,
+      "line_count": 100,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-39__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-39__sm_translation_meta.json"
+    },
+    {
+      "flcr_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__maximal.md",
+      "smd_dependencies": [
+        "SMD-01",
+        "SMD-02",
+        "SMD-03",
+        "SMD-04",
+        "SMD-05",
+        "SMD-06",
+        "SMD-07",
+        "SMD-08",
+        "SMD-09",
+        "SMD-10",
+        "SMD-11",
+        "SMD-12"
+      ],
+      "irl_ids": [],
+      "native_flcr_deps": [
+        "FLCR-01",
+        "FLCR-04",
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-14",
+        "FLCR-18",
+        "FLCR-20",
+        "FLCR-26",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "has_closed_rows": true,
+      "has_comparators": false,
+      "line_count": 177,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-40__sm_translation_explained.md",
+      "meta_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-40__sm_translation_meta.json"
+    }
+  ],
+  "crosswalk": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\SM_TRANSLATION_MASTER_CROSSWALK.md",
+  "irl_registry": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\standard_model_defining_papers\\IRL_STANDARD_MODEL_SOURCE_REGISTRY.md"
+}

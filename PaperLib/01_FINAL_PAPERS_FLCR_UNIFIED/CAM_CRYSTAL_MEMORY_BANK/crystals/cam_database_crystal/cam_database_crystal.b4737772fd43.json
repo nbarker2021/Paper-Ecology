@@ -1,0 +1,52 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0058",
+  "path": "D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\odysseus\\data\\scheduled_emails.db",
+  "name": "scheduled_emails.db",
+  "status": "ok",
+  "signal_score": 5,
+  "port_recommendation": "NO_PORT_YET",
+  "table_count": 9,
+  "signal_tables": [
+    {
+      "table": "sender_signatures",
+      "row_count": 0,
+      "signal_columns": [
+        "from_address",
+        "source"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "b4737772fd43ace71af94559e46421aec5d12e59cae1d198245d1c99bf89ee94"
+}

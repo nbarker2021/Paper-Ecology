@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR32-012",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "QCD/color external target",
+  "equation_or_source": "`IRL-PDG-2026`, `SMD-05`, `SMD-08`",
+  "O_lcr": "LCR translation surface",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "LCR identity with full QCD dynamics.",
+  "dataset": "IRL-PDG-2026: IRL-PDG-2026",
+  "falsifier": "LCR identity with full QCD dynamics.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-PDG-2026"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0154",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\cqekernel_bound_v2.zip",
+  "name": "cqekernel_bound_v2.zip",
+  "archive_kind": "zip",
+  "entry_count_indexed": 24,
+  "high_signal_entry_count": 21,
+  "slot_families": [
+    "terminal_action",
+    "enumeration_action",
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "01",
+    "11",
+    "21",
+    "31",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "150fc57374fdf242dc6e39c6a79b84862aa2dcf2679c40e14a28c190fa257137"
+}

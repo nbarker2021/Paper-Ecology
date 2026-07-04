@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR33-012",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-01",
+  "O_ext": "IRL-CODATA-2022-WALLET",
+  "equation_or_source": "IRL-CODATA-2022-WALLET",
+  "O_lcr": "translation calibration target",
+  "lane": "external_calibration_result",
+  "boundary": "Units close calibration format, not the physical derivation.",
+  "dataset": "IRL-CODATA-2022-WALLET: IRL-CODATA-2022-WALLET",
+  "falsifier": "Units close calibration format, not the physical derivation.",
+  "closure_state": "closed_by_external_calibration",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-CODATA-2022-WALLET"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Online Source Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

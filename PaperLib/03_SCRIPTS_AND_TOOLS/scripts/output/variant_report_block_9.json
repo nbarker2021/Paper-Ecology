@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T03:23:18.914992",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 33,
+  "papers": {
+    "27": {
+      "variant_count": 11,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\27_Observer_Delay_and_Shared_Reality.md",
+          "filename": "27_Observer_Delay_and_Shared_Reality.md",
+          "size": 336783,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\27_Observer_Delay_and_Shared_Reality.md",
+          "filename": "27_Observer_Delay_and_Shared_Reality.md",
+          "size": 337912,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_27.md",
+          "filename": "paper_27.md",
+          "size": 29689,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_27__monster_ceiling_large_invariants\\paper_27.md",
+          "filename": "paper_27.md",
+          "size": 29689,
+          "score": 6,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-27.md",
+          "filename": "CQE-paper-27.md",
+          "size": 6662,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\27_Observer_Delay_and_Shared_Reality.md"
+    },
+    "28": {
+      "variant_count": 11,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\28_N_Dimensional_Game_Lattices.md",
+          "filename": "28_N_Dimensional_Game_Lattices.md",
+          "size": 426735,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\28_N_Dimensional_Game_Lattices.md",
+          "filename": "28_N_Dimensional_Game_Lattices.md",
+          "size": 430368,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_28.md",
+          "filename": "paper_28.md",
+          "size": 16467,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-28.md",
+          "filename": "CQE-paper-28.md",
+          "size": 6156,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-28_UPGRADED.md",
+          "filename": "CQE-paper-28_UPGRADED.md",
+          "size": 7299,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\28_N_Dimensional_Game_Lattices.md"
+    },
+    "29": {
+      "variant_count": 11,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\29_Monster_Universal_Energy_Bound_Hypotheses.md",
+          "filename": "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+          "size": 635044,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\29_Monster_Universal_Energy_Bound_Hypotheses.md",
+          "filename": "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+          "size": 632283,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_29.md",
+          "filename": "paper_29.md",
+          "size": 18294,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-29.md",
+          "filename": "CQE-paper-29.md",
+          "size": 7535,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-29_UPGRADED.md",
+          "filename": "CQE-paper-29_UPGRADED.md",
+          "size": 8391,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\29_Monster_Universal_Energy_Bound_Hypotheses.md"
+    }
+  }
+}

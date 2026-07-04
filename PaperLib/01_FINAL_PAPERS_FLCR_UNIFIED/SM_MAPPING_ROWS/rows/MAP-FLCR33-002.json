@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR33-002",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-07",
+  "O_ext": "Higgs discovery as external calibration surface",
+  "equation_or_source": "ATLAS/CMS 2012, PDG source registry, `SMD-07`",
+  "O_lcr": "LCR transport / face / carrier surfaces",
+  "lane": "external_calibration_result",
+  "boundary": "Closes external observed-boson evidence, not LCR mass-residue identity.",
+  "dataset": "IRL-ATLAS-HIGGS-2012: IRL-ATLAS-HIGGS-2012",
+  "falsifier": "Closes external observed-boson evidence, not LCR mass-residue identity.",
+  "closure_state": "closed_by_external_calibration",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-ATLAS-HIGGS-2012"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

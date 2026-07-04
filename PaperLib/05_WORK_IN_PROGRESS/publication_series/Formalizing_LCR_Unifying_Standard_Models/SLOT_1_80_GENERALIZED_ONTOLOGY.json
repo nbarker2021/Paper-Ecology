@@ -1,0 +1,1928 @@
+{
+  "schema": "flcr.slot_1_80_generalized_ontology.v1",
+  "generated_utc": "2026-07-01T02:55:53.061759+00:00",
+  "band_rules": [
+    {
+      "band": "1-40",
+      "role": "method and nonstandard vocabulary definition"
+    },
+    {
+      "band": "41-80",
+      "role": "Standard Model and physics redefinition"
+    },
+    {
+      "band": "orbital",
+      "role": "all supporting sources, receipts, validators, applications, and external comparators"
+    }
+  ],
+  "multi_slot_rule": "Assign every item to all matching slot families. Primary slot is the highest scoring family; secondary slots remain active routes for obligations, comparators, and workbook/application material.",
+  "families": [
+    {
+      "slot_family": "closure_lift",
+      "digit": "0",
+      "generalized_meaning": "closure, lift, aggregate receipt, prestate declaration, and open-slot preservation",
+      "method_use": "define scope, axioms, receipts, and what is allowed to advance",
+      "physics_use": "declare the domain-local prestate, conservation/closure boundary, and calibration burden",
+      "slots": [
+        "00",
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70"
+      ],
+      "source_backed_slots": [
+        "00",
+        "10",
+        "20",
+        "30"
+      ],
+      "expansion_slots": [
+        "40",
+        "50",
+        "60",
+        "70"
+      ]
+    },
+    {
+      "slot_family": "enumeration_action",
+      "digit": "1",
+      "generalized_meaning": "first active enumeration, carrier identity, and address-preserving object creation",
+      "method_use": "define the local object and prove the addressed state exists",
+      "physics_use": "identify the physical object/state space being translated and its observables",
+      "slots": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "41",
+        "51",
+        "61",
+        "71"
+      ],
+      "source_backed_slots": [
+        "01",
+        "11",
+        "21",
+        "31"
+      ],
+      "expansion_slots": [
+        "41",
+        "51",
+        "61",
+        "71"
+      ]
+    },
+    {
+      "slot_family": "residual_action",
+      "digit": "2",
+      "generalized_meaning": "correction, residue, vacancy, mismatch, error term, or unresolved delta",
+      "method_use": "separate exact finite result from residue and obligation",
+      "physics_use": "assign residuals, uncertainty, missing variables, or unmodeled interaction terms",
+      "slots": [
+        "02",
+        "12",
+        "22",
+        "32",
+        "42",
+        "52",
+        "62",
+        "72"
+      ],
+      "source_backed_slots": [
+        "02",
+        "12",
+        "22",
+        "32"
+      ],
+      "expansion_slots": [
+        "42",
+        "52",
+        "62",
+        "72"
+      ]
+    },
+    {
+      "slot_family": "fold_action",
+      "digit": "3",
+      "generalized_meaning": "fold, representation transport, coordinate atlas, and symmetry/readout conversion",
+      "method_use": "show how the same state is preserved across representations",
+      "physics_use": "map accepted mathematical representations into observer-state coordinates",
+      "slots": [
+        "03",
+        "13",
+        "23",
+        "33",
+        "43",
+        "53",
+        "63",
+        "73"
+      ],
+      "source_backed_slots": [
+        "03",
+        "13",
+        "23"
+      ],
+      "expansion_slots": [
+        "33",
+        "43",
+        "53",
+        "63",
+        "73"
+      ]
+    },
+    {
+      "slot_family": "boundary_action",
+      "digit": "4",
+      "generalized_meaning": "boundary repair, admissibility, interface condition, curvature or constraint demand",
+      "method_use": "type the boundary condition that permits the next state",
+      "physics_use": "define physical boundary/interface conditions and repair constraints",
+      "slots": [
+        "04",
+        "14",
+        "24",
+        "34",
+        "44",
+        "54",
+        "64",
+        "74"
+      ],
+      "source_backed_slots": [
+        "04",
+        "14",
+        "24"
+      ],
+      "expansion_slots": [
+        "34",
+        "44",
+        "54",
+        "64",
+        "74"
+      ]
+    },
+    {
+      "slot_family": "carrier_action",
+      "digit": "5",
+      "generalized_meaning": "carrier, path, traversal, transport, propagation, and state motion",
+      "method_use": "show how state moves without losing address",
+      "physics_use": "translate propagation, transport, mass/field carriers, or path integrals",
+      "slots": [
+        "05",
+        "15",
+        "25",
+        "35",
+        "45",
+        "55",
+        "65",
+        "75"
+      ],
+      "source_backed_slots": [
+        "05",
+        "15",
+        "25"
+      ],
+      "expansion_slots": [
+        "35",
+        "45",
+        "55",
+        "65",
+        "75"
+      ]
+    },
+    {
+      "slot_family": "ledger_action",
+      "digit": "6",
+      "generalized_meaning": "causal ledger, link binding, obligation bookkeeping, and synchronization",
+      "method_use": "track receipts, dependencies, and causal relations",
+      "physics_use": "track interaction ledgers, conservation accounting, detector/readout timing, or causal chains",
+      "slots": [
+        "06",
+        "16",
+        "26",
+        "36",
+        "46",
+        "56",
+        "66",
+        "76"
+      ],
+      "source_backed_slots": [
+        "06",
+        "16",
+        "26"
+      ],
+      "expansion_slots": [
+        "36",
+        "46",
+        "56",
+        "66",
+        "76"
+      ]
+    },
+    {
+      "slot_family": "bridge_action",
+      "digit": "7",
+      "generalized_meaning": "bridge, projection, calibration surface, and cross-form sample preservation",
+      "method_use": "connect discrete, analog, computational, and continuous versions",
+      "physics_use": "define units, calibration maps, measurement adapters, and comparator equations",
+      "slots": [
+        "07",
+        "17",
+        "27",
+        "37",
+        "47",
+        "57",
+        "67",
+        "77"
+      ],
+      "source_backed_slots": [
+        "07",
+        "17",
+        "27"
+      ],
+      "expansion_slots": [
+        "37",
+        "47",
+        "57",
+        "67",
+        "77"
+      ]
+    },
+    {
+      "slot_family": "terminal_action",
+      "digit": "8",
+      "generalized_meaning": "terminal lookup, address closure, invariant split, and stable library object",
+      "method_use": "make a reusable lookup or invariant object",
+      "physics_use": "define lookup-ready constants, stable phases, invariant classes, or terminal observables",
+      "slots": [
+        "08",
+        "18",
+        "28",
+        "38",
+        "48",
+        "58",
+        "68",
+        "78"
+      ],
+      "source_backed_slots": [
+        "08",
+        "18",
+        "28"
+      ],
+      "expansion_slots": [
+        "38",
+        "48",
+        "58",
+        "68",
+        "78"
+      ]
+    },
+    {
+      "slot_family": "window_action",
+      "digit": "9",
+      "generalized_meaning": "window, observer readout, meta-frame, timing, and next-lift preplot",
+      "method_use": "define the readout window and route the next lift",
+      "physics_use": "define observer frame, measurement window, time-scale, or domain handoff",
+      "slots": [
+        "09",
+        "19",
+        "29",
+        "39",
+        "49",
+        "59",
+        "69",
+        "79"
+      ],
+      "source_backed_slots": [
+        "09",
+        "19",
+        "29"
+      ],
+      "expansion_slots": [
+        "39",
+        "49",
+        "59",
+        "69",
+        "79"
+      ]
+    },
+    {
+      "slot_family": "publication_overlay",
+      "digit": "*",
+      "generalized_meaning": "orbital synthesis, clean-master presentation, cross-paper evidence routing, and publication assembly",
+      "method_use": "route material across multiple slots without pretending the overlay is the proof owner",
+      "physics_use": "coordinate multi-domain physics rebuilds, figures, indexes, appendices, and synthesis obligations",
+      "slots": [],
+      "source_backed_slots": [],
+      "expansion_slots": []
+    }
+  ],
+  "slots": [
+    {
+      "original_slot": "00",
+      "proposed_original_publication_id": "OPR-00",
+      "title": "Established Grounding and Axiom Contract",
+      "status": "source_backed",
+      "source_file": "00_Established_Grounding_and_Axiom_Contract.md",
+      "linked_flcr_papers": [
+        "FLCR-01"
+      ],
+      "slot_family": "closure_lift",
+      "lift_depth": 0,
+      "dimensional_role": "0x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "10",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "01",
+      "proposed_original_publication_id": "OPR-01",
+      "title": "LCR Chain Carrier",
+      "status": "source_backed",
+      "source_file": "01_LCR_Chain_Carrier.md",
+      "linked_flcr_papers": [
+        "FLCR-02"
+      ],
+      "slot_family": "enumeration_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "11",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "02",
+      "proposed_original_publication_id": "OPR-02",
+      "title": "Correction Surface",
+      "status": "source_backed",
+      "source_file": "02_Correction_Surface.md",
+      "linked_flcr_papers": [
+        "FLCR-03"
+      ],
+      "slot_family": "residual_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "12",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "03",
+      "proposed_original_publication_id": "OPR-03",
+      "title": "D4 J3 Triality Surface",
+      "status": "source_backed",
+      "source_file": "03_D4_J3_Triality_Surface.md",
+      "linked_flcr_papers": [
+        "FLCR-04"
+      ],
+      "slot_family": "fold_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "13",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "04",
+      "proposed_original_publication_id": "OPR-04",
+      "title": "Boundary Repair",
+      "status": "source_backed",
+      "source_file": "04_Boundary_Repair.md",
+      "linked_flcr_papers": [
+        "FLCR-05"
+      ],
+      "slot_family": "boundary_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "14",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "05",
+      "proposed_original_publication_id": "OPR-05",
+      "title": "Oloid Path Carrier",
+      "status": "source_backed",
+      "source_file": "05_Oloid_Path_Carrier.md",
+      "linked_flcr_papers": [
+        "FLCR-06"
+      ],
+      "slot_family": "carrier_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "15",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "06",
+      "proposed_original_publication_id": "OPR-06",
+      "title": "Causal Link and Obligation Ledger",
+      "status": "source_backed",
+      "source_file": "06_Causal_Link_and_Obligation_Ledger.md",
+      "linked_flcr_papers": [
+        "FLCR-07",
+        "FLCR-39"
+      ],
+      "slot_family": "ledger_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "16",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "07",
+      "proposed_original_publication_id": "OPR-07",
+      "title": "Discrete Continuous Bridge",
+      "status": "source_backed",
+      "source_file": "07_Discrete_Continuous_Bridge.md",
+      "linked_flcr_papers": [
+        "FLCR-08"
+      ],
+      "slot_family": "bridge_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "17",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "08",
+      "proposed_original_publication_id": "OPR-08",
+      "title": "Lattice Closure",
+      "status": "source_backed",
+      "source_file": "08_Lattice_Closure.md",
+      "linked_flcr_papers": [
+        "FLCR-09"
+      ],
+      "slot_family": "terminal_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "18",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "09",
+      "proposed_original_publication_id": "OPR-09",
+      "title": "Hamiltonian Window Emergence",
+      "status": "source_backed",
+      "source_file": "09_Hamiltonian_Window_Emergence.md",
+      "linked_flcr_papers": [
+        "FLCR-10"
+      ],
+      "slot_family": "window_action",
+      "lift_depth": 0,
+      "dimensional_role": "order-1 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": null,
+      "same_family_next_lift": "19",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "10",
+      "proposed_original_publication_id": "OPR-10",
+      "title": "T10 Master Receipt",
+      "status": "source_backed",
+      "source_file": "10_T10_Master_Receipt.md",
+      "linked_flcr_papers": [
+        "FLCR-11",
+        "FLCR-39"
+      ],
+      "slot_family": "closure_lift",
+      "lift_depth": 1,
+      "dimensional_role": "1x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "00",
+      "same_family_next_lift": "20",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "11",
+      "proposed_original_publication_id": "OPR-11",
+      "title": "Theory Admission Gate",
+      "status": "source_backed",
+      "source_file": "11_Theory_Admission_Gate.md",
+      "linked_flcr_papers": [
+        "FLCR-12",
+        "FLCR-39"
+      ],
+      "slot_family": "enumeration_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "01",
+      "same_family_next_lift": "21",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "12",
+      "proposed_original_publication_id": "OPR-12",
+      "title": "CA Prediction Surface",
+      "status": "source_backed",
+      "source_file": "12_CA_Prediction_Surface.md",
+      "linked_flcr_papers": [
+        "FLCR-13"
+      ],
+      "slot_family": "residual_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "02",
+      "same_family_next_lift": "22",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "13",
+      "proposed_original_publication_id": "OPR-13",
+      "title": "Standard Model Quark Face Transport",
+      "status": "source_backed",
+      "source_file": "13_Standard_Model_Quark_Face_Transport.md",
+      "linked_flcr_papers": [
+        "FLCR-14",
+        "FLCR-31",
+        "FLCR-32"
+      ],
+      "slot_family": "fold_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "03",
+      "same_family_next_lift": "23",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "14",
+      "proposed_original_publication_id": "OPR-14",
+      "title": "GR Boundary Repair Curvature",
+      "status": "source_backed",
+      "source_file": "14_GR_Boundary_Repair_Curvature.md",
+      "linked_flcr_papers": [
+        "FLCR-15",
+        "FLCR-35"
+      ],
+      "slot_family": "boundary_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "04",
+      "same_family_next_lift": "24",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "15",
+      "proposed_original_publication_id": "OPR-15",
+      "title": "QFT Higgs Mass Residue Carrier",
+      "status": "source_backed",
+      "source_file": "15_QFT_Higgs_Mass_Residue_Carrier.md",
+      "linked_flcr_papers": [
+        "FLCR-16",
+        "FLCR-33"
+      ],
+      "slot_family": "carrier_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "05",
+      "same_family_next_lift": "25",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "16",
+      "proposed_original_publication_id": "OPR-16",
+      "title": "Continuum Edge Residuals",
+      "status": "source_backed",
+      "source_file": "16_Continuum_Edge_Residuals.md",
+      "linked_flcr_papers": [
+        "FLCR-17",
+        "FLCR-35"
+      ],
+      "slot_family": "ledger_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "06",
+      "same_family_next_lift": "26",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "17",
+      "proposed_original_publication_id": "OPR-17",
+      "title": "E6 E8 Error Correction Tower",
+      "status": "source_backed",
+      "source_file": "17_E6_E8_Error_Correction_Tower.md",
+      "linked_flcr_papers": [
+        "FLCR-18"
+      ],
+      "slot_family": "bridge_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "07",
+      "same_family_next_lift": "27",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "18",
+      "proposed_original_publication_id": "OPR-18",
+      "title": "VOA Moonshine Representation Routes",
+      "status": "source_backed",
+      "source_file": "18_VOA_Moonshine_Representation_Routes.md",
+      "linked_flcr_papers": [
+        "FLCR-18"
+      ],
+      "slot_family": "terminal_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "08",
+      "same_family_next_lift": "28",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "19",
+      "proposed_original_publication_id": "OPR-19",
+      "title": "Observer Face Selection",
+      "status": "source_backed",
+      "source_file": "19_Observer_Face_Selection.md",
+      "linked_flcr_papers": [
+        "FLCR-18",
+        "FLCR-38"
+      ],
+      "slot_family": "window_action",
+      "lift_depth": 1,
+      "dimensional_role": "order-2 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "09",
+      "same_family_next_lift": "29",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "20",
+      "proposed_original_publication_id": "OPR-20",
+      "title": "Layer 2 Synthesis Ledger",
+      "status": "source_backed",
+      "source_file": "20_Layer_2_Synthesis_Ledger.md",
+      "linked_flcr_papers": [
+        "FLCR-19",
+        "FLCR-39"
+      ],
+      "slot_family": "closure_lift",
+      "lift_depth": 2,
+      "dimensional_role": "2x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "10",
+      "same_family_next_lift": "30",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "21",
+      "proposed_original_publication_id": "OPR-21",
+      "title": "MorphForge PolyForge MorphoniX",
+      "status": "source_backed",
+      "source_file": "21_MorphForge_PolyForge_MorphoniX.md",
+      "linked_flcr_papers": [
+        "FLCR-20"
+      ],
+      "slot_family": "enumeration_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "11",
+      "same_family_next_lift": "31",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "22",
+      "proposed_original_publication_id": "OPR-22",
+      "title": "MetaForge Applied Materials",
+      "status": "source_backed",
+      "source_file": "22_MetaForge_Applied_Materials.md",
+      "linked_flcr_papers": [
+        "FLCR-21",
+        "FLCR-36"
+      ],
+      "slot_family": "residual_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "12",
+      "same_family_next_lift": "32",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "23",
+      "proposed_original_publication_id": "OPR-23",
+      "title": "FoldForge Protein Folding",
+      "status": "source_backed",
+      "source_file": "23_FoldForge_Protein_Folding.md",
+      "linked_flcr_papers": [
+        "FLCR-22"
+      ],
+      "slot_family": "fold_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "13",
+      "same_family_next_lift": "33",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "24",
+      "proposed_original_publication_id": "OPR-24",
+      "title": "KnightForge N Dimensional Chess Automata",
+      "status": "source_backed",
+      "source_file": "24_KnightForge_N_Dimensional_Chess_Automata.md",
+      "linked_flcr_papers": [
+        "FLCR-23"
+      ],
+      "slot_family": "boundary_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "14",
+      "same_family_next_lift": "34",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "25",
+      "proposed_original_publication_id": "OPR-25",
+      "title": "Energetic Traversal Maps",
+      "status": "source_backed",
+      "source_file": "25_Energetic_Traversal_Maps.md",
+      "linked_flcr_papers": [
+        "FLCR-24",
+        "FLCR-37"
+      ],
+      "slot_family": "carrier_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "15",
+      "same_family_next_lift": "35",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "26",
+      "proposed_original_publication_id": "OPR-26",
+      "title": "Z Pinch and Shear Horizon",
+      "status": "source_backed",
+      "source_file": "26_Z_Pinch_and_Shear_Horizon.md",
+      "linked_flcr_papers": [
+        "FLCR-25",
+        "FLCR-37"
+      ],
+      "slot_family": "ledger_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "16",
+      "same_family_next_lift": "36",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "27",
+      "proposed_original_publication_id": "OPR-27",
+      "title": "Observer Delay and Shared Reality",
+      "status": "source_backed",
+      "source_file": "27_Observer_Delay_and_Shared_Reality.md",
+      "linked_flcr_papers": [
+        "FLCR-26",
+        "FLCR-38"
+      ],
+      "slot_family": "bridge_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "17",
+      "same_family_next_lift": "37",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "28",
+      "proposed_original_publication_id": "OPR-28",
+      "title": "N Dimensional Game Lattices",
+      "status": "source_backed",
+      "source_file": "28_N_Dimensional_Game_Lattices.md",
+      "linked_flcr_papers": [
+        "FLCR-23",
+        "FLCR-38"
+      ],
+      "slot_family": "terminal_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "18",
+      "same_family_next_lift": "38",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "29",
+      "proposed_original_publication_id": "OPR-29",
+      "title": "Monster Universal Energy Bound Hypotheses",
+      "status": "source_backed",
+      "source_file": "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+      "linked_flcr_papers": [
+        "FLCR-27",
+        "FLCR-37"
+      ],
+      "slot_family": "window_action",
+      "lift_depth": 2,
+      "dimensional_role": "order-3 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "19",
+      "same_family_next_lift": "39",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "30",
+      "proposed_original_publication_id": "OPR-30",
+      "title": "Grand Ribbon Meta Framer",
+      "status": "source_backed",
+      "source_file": "30_Grand_Ribbon_Meta_Framer.md",
+      "linked_flcr_papers": [
+        "FLCR-29",
+        "FLCR-38"
+      ],
+      "slot_family": "closure_lift",
+      "lift_depth": 3,
+      "dimensional_role": "3x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "20",
+      "same_family_next_lift": "40",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "31",
+      "proposed_original_publication_id": "OPR-31",
+      "title": "It Was Still Just LCR",
+      "status": "source_backed",
+      "source_file": "31_It_Was_Still_Just_LCR.md",
+      "linked_flcr_papers": [
+        "FLCR-29",
+        "FLCR-38"
+      ],
+      "slot_family": "enumeration_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "21",
+      "same_family_next_lift": "41",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "32",
+      "proposed_original_publication_id": "OPR-32",
+      "title": "The Supervisor Cursor",
+      "status": "source_backed",
+      "source_file": "32_The_Supervisor_Cursor.md",
+      "linked_flcr_papers": [
+        "FLCR-30",
+        "FLCR-39"
+      ],
+      "slot_family": "residual_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "22",
+      "same_family_next_lift": "42",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "33",
+      "proposed_original_publication_id": "OPR-33",
+      "title": "Fold And Representation Surface At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "fold_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "23",
+      "same_family_next_lift": "43",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "34",
+      "proposed_original_publication_id": "OPR-34",
+      "title": "Boundary Repair Surface At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "boundary_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "24",
+      "same_family_next_lift": "44",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "35",
+      "proposed_original_publication_id": "OPR-35",
+      "title": "Carrier And Transport Surface At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "carrier_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "25",
+      "same_family_next_lift": "45",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "36",
+      "proposed_original_publication_id": "OPR-36",
+      "title": "Ledger And Causal Binding At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "ledger_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "26",
+      "same_family_next_lift": "46",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "37",
+      "proposed_original_publication_id": "OPR-37",
+      "title": "Bridge And Projection Surface At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "bridge_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "27",
+      "same_family_next_lift": "47",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "38",
+      "proposed_original_publication_id": "OPR-38",
+      "title": "Terminal Address Surface At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "terminal_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "28",
+      "same_family_next_lift": "48",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "39",
+      "proposed_original_publication_id": "OPR-39",
+      "title": "Window And Meta-Readout At Lift 3",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "window_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "29",
+      "same_family_next_lift": "49",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "40",
+      "proposed_original_publication_id": "OPR-40",
+      "title": "Ten-Window Closure And Lift At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "closure_lift",
+      "lift_depth": 4,
+      "dimensional_role": "4x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "30",
+      "same_family_next_lift": "50",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "41",
+      "proposed_original_publication_id": "OPR-41",
+      "title": "Enumeration Action At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "enumeration_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "31",
+      "same_family_next_lift": "51",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "42",
+      "proposed_original_publication_id": "OPR-42",
+      "title": "Residual And Correction Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "residual_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "32",
+      "same_family_next_lift": "52",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "43",
+      "proposed_original_publication_id": "OPR-43",
+      "title": "Fold And Representation Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "fold_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "33",
+      "same_family_next_lift": "53",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "44",
+      "proposed_original_publication_id": "OPR-44",
+      "title": "Boundary Repair Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "boundary_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "34",
+      "same_family_next_lift": "54",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "45",
+      "proposed_original_publication_id": "OPR-45",
+      "title": "Carrier And Transport Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "carrier_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "35",
+      "same_family_next_lift": "55",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "46",
+      "proposed_original_publication_id": "OPR-46",
+      "title": "Ledger And Causal Binding At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "ledger_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "36",
+      "same_family_next_lift": "56",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "47",
+      "proposed_original_publication_id": "OPR-47",
+      "title": "Bridge And Projection Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "bridge_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "37",
+      "same_family_next_lift": "57",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "48",
+      "proposed_original_publication_id": "OPR-48",
+      "title": "Terminal Address Surface At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "terminal_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "38",
+      "same_family_next_lift": "58",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "49",
+      "proposed_original_publication_id": "OPR-49",
+      "title": "Window And Meta-Readout At Lift 4",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "window_action",
+      "lift_depth": 4,
+      "dimensional_role": "order-5 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "39",
+      "same_family_next_lift": "59",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "50",
+      "proposed_original_publication_id": "OPR-50",
+      "title": "Ten-Window Closure And Lift At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "closure_lift",
+      "lift_depth": 5,
+      "dimensional_role": "5x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "40",
+      "same_family_next_lift": "60",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "51",
+      "proposed_original_publication_id": "OPR-51",
+      "title": "Enumeration Action At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "enumeration_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "41",
+      "same_family_next_lift": "61",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "52",
+      "proposed_original_publication_id": "OPR-52",
+      "title": "Residual And Correction Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "residual_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "42",
+      "same_family_next_lift": "62",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "53",
+      "proposed_original_publication_id": "OPR-53",
+      "title": "Fold And Representation Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "fold_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "43",
+      "same_family_next_lift": "63",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "54",
+      "proposed_original_publication_id": "OPR-54",
+      "title": "Boundary Repair Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "boundary_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "44",
+      "same_family_next_lift": "64",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "55",
+      "proposed_original_publication_id": "OPR-55",
+      "title": "Carrier And Transport Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "carrier_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "45",
+      "same_family_next_lift": "65",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "56",
+      "proposed_original_publication_id": "OPR-56",
+      "title": "Ledger And Causal Binding At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "ledger_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "46",
+      "same_family_next_lift": "66",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "57",
+      "proposed_original_publication_id": "OPR-57",
+      "title": "Bridge And Projection Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "bridge_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "47",
+      "same_family_next_lift": "67",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "58",
+      "proposed_original_publication_id": "OPR-58",
+      "title": "Terminal Address Surface At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "terminal_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "48",
+      "same_family_next_lift": "68",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "59",
+      "proposed_original_publication_id": "OPR-59",
+      "title": "Window And Meta-Readout At Lift 5",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "window_action",
+      "lift_depth": 5,
+      "dimensional_role": "order-6 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "49",
+      "same_family_next_lift": "69",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "60",
+      "proposed_original_publication_id": "OPR-60",
+      "title": "Ten-Window Closure And Lift At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "closure_lift",
+      "lift_depth": 6,
+      "dimensional_role": "6x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "50",
+      "same_family_next_lift": "70",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "61",
+      "proposed_original_publication_id": "OPR-61",
+      "title": "Enumeration Action At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "enumeration_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "51",
+      "same_family_next_lift": "71",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "62",
+      "proposed_original_publication_id": "OPR-62",
+      "title": "Residual And Correction Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "residual_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "52",
+      "same_family_next_lift": "72",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "63",
+      "proposed_original_publication_id": "OPR-63",
+      "title": "Fold And Representation Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "fold_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "53",
+      "same_family_next_lift": "73",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "64",
+      "proposed_original_publication_id": "OPR-64",
+      "title": "Boundary Repair Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "boundary_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "54",
+      "same_family_next_lift": "74",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "65",
+      "proposed_original_publication_id": "OPR-65",
+      "title": "Carrier And Transport Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "carrier_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "55",
+      "same_family_next_lift": "75",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "66",
+      "proposed_original_publication_id": "OPR-66",
+      "title": "Ledger And Causal Binding At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "ledger_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "56",
+      "same_family_next_lift": "76",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "67",
+      "proposed_original_publication_id": "OPR-67",
+      "title": "Bridge And Projection Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "bridge_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "57",
+      "same_family_next_lift": "77",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "68",
+      "proposed_original_publication_id": "OPR-68",
+      "title": "Terminal Address Surface At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "terminal_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "58",
+      "same_family_next_lift": "78",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "69",
+      "proposed_original_publication_id": "OPR-69",
+      "title": "Window And Meta-Readout At Lift 6",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "window_action",
+      "lift_depth": 6,
+      "dimensional_role": "order-7 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "59",
+      "same_family_next_lift": "79",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "70",
+      "proposed_original_publication_id": "OPR-70",
+      "title": "Ten-Window Closure And Lift At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "closure_lift",
+      "lift_depth": 7,
+      "dimensional_role": "7x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "60",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "71",
+      "proposed_original_publication_id": "OPR-71",
+      "title": "Enumeration Action At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "enumeration_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-1: start the active one-dimensional action / enumerate the center state",
+      "proof_form_required": "enumeration proof and identity preservation",
+      "same_family_previous_lift": "61",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "72",
+      "proposed_original_publication_id": "OPR-72",
+      "title": "Residual And Correction Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "residual_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+      "proof_form_required": "residual accounting and bounded/unbounded split",
+      "same_family_previous_lift": "62",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "73",
+      "proposed_original_publication_id": "OPR-73",
+      "title": "Fold And Representation Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "fold_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "63",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "74",
+      "proposed_original_publication_id": "OPR-74",
+      "title": "Boundary Repair Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "boundary_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "64",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "75",
+      "proposed_original_publication_id": "OPR-75",
+      "title": "Carrier And Transport Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "carrier_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "65",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "76",
+      "proposed_original_publication_id": "OPR-76",
+      "title": "Ledger And Causal Binding At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "ledger_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "66",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "77",
+      "proposed_original_publication_id": "OPR-77",
+      "title": "Bridge And Projection Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "bridge_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "67",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "78",
+      "proposed_original_publication_id": "OPR-78",
+      "title": "Terminal Address Surface At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "terminal_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "68",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    },
+    {
+      "original_slot": "79",
+      "proposed_original_publication_id": "OPR-79",
+      "title": "Window And Meta-Readout At Lift 7",
+      "status": "expansion_needed",
+      "source_file": null,
+      "linked_flcr_papers": [],
+      "slot_family": "window_action",
+      "lift_depth": 7,
+      "dimensional_role": "order-8 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "69",
+      "same_family_next_lift": null,
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      }
+    }
+  ]
+}

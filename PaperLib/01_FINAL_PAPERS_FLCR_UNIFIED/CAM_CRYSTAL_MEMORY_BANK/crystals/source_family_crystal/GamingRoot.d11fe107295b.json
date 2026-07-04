@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": ".GamingRoot",
+  "missing_count": 1,
+  "highest_score": 11,
+  "sample_files": [
+    ".GamingRoot"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "d11fe107295b9818e82ae65a0d02aaa18166939e66ec2d63afca7641e9587c4e"
+}

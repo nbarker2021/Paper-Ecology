@@ -1,0 +1,53 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0035",
+  "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\lattice_forge\\data\\cache\\cmplx_lookup.sqlite",
+  "name": "cmplx_lookup.sqlite",
+  "status": "ok",
+  "signal_score": 28,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 4,
+  "signal_tables": [
+    {
+      "table": "rule30_window",
+      "row_count": 1,
+      "signal_columns": [
+        "source_id"
+      ]
+    },
+    {
+      "table": "source_register",
+      "row_count": 2,
+      "signal_columns": [
+        "source_id"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "terminal_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "08",
+    "18",
+    "28",
+    "38"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "bc64721a5ed2344132172e324c8f8ba34945b7b2bba176fc7e3dae3bb72b1da1"
+}

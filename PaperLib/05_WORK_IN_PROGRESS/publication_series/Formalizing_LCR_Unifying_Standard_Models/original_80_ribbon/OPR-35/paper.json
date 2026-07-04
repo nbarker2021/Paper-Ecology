@@ -1,0 +1,43 @@
+{
+  "original_publication_id": "OPR-35",
+  "original_slot": "35",
+  "title": "Lift-3 Carrier: Electron-Hole-Exciton, Materials, Plasma, And Traversal",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-34",
+    "FLCR-36",
+    "FLCR-37",
+    "FLCR-24",
+    "FLCR-25"
+  ],
+  "slot_family": "carrier_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-5: carry the state through a path, traversal, or admissible motion",
+  "proof_form_required": "carrier/transducer/path proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "22_MetaForge_Applied_Materials.md",
+    "25_Energetic_Traversal_Maps.md",
+    "26_Z_Pinch_and_Shear_Horizon.md",
+    "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md",
+    "supplements/APPLIED_FORGES_WORKBOOK.md",
+    "FLCR-34/formal.md",
+    "FLCR-36/formal.md",
+    "FLCR-37/formal.md"
+  ],
+  "formal_target": "state carrier transport as path/transducer/invariant preservation, then map electron-hole-exciton and materials/plasma language as bounded carrier interpretations",
+  "semantic_target": "after boundary typing, the system needs a carrier paper showing how addressed state moves through actual traversal, material, exciton, and plasma-facing models",
+  "analog_target": "a conserved payload through several media: the access label changes at each medium, while the transported invariant remains auditable",
+  "claim_lanes": [
+    "receipt_bound_internal_result",
+    "standard_theorem_citation_bound_result",
+    "cam_crystal_reapplication_result",
+    "external_calibration_result"
+  ]
+}

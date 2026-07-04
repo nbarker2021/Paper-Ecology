@@ -1,0 +1,388 @@
+{
+  "schema": "flcr_broad_capability_reapplication_review.v1",
+  "generated_at": "2026-06-29T16:22:23.019276+00:00",
+  "rule": "Review each newly admitted capability both as a standalone evidence item and as a recursive operator over CAM, claim lanes, forges, receipts, and paper routing.",
+  "reapplications": [
+    {
+      "id": "REAPPLY-GLM-CAM-CRYSTAL",
+      "source_capability": "CAP-GLM-CAM-CRYSTAL",
+      "claim_lane": "CAM_crystal_reapplication_result",
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "standalone_result": "The corpus has a working CAM evidence crystal: papers, obligations, verifier findings, download documents, and an integration crystal are addressable nodes with morphisms, ribbons, segmented string windows, and projection queries.",
+      "recursive_result": "When reapplied, the CAM crystal becomes a paper-brain feedback operator: new findings can be projected into the papers they resonate with, obligations can be reattached to concrete source nodes, and paper-creation feeds can be generated from resonance instead of manual memory.",
+      "newly_solved": [
+        "Local source discovery is no longer only a human search task; it has a content-addressed scan/projection surface.",
+        "CAM is no longer only an architectural claim in FLCR-28/40; it has a concrete local crystal that can route evidence and obligations.",
+        "The paper suite gains a repeatable way to ask which sources belong in which proof surface."
+      ],
+      "still_not_closed": [
+        "The local crystal is not yet an exhaustive intake of every future or private source.",
+        "Projection resonance is routing evidence, not proof of external physical identity."
+      ]
+    },
+    {
+      "id": "REAPPLY-GLM-OBLIGATION-CLOSURE",
+      "source_capability": "CAP-GLM-OBLIGATION-CLOSURE",
+      "claim_lane": "normal_form_result",
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-13",
+        "FLCR-16",
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-40"
+      ],
+      "standalone_result": "The GLM closure matrix independently compares verifier findings to named obligations and advances 11 obligations to partial closure while identifying the untouched set.",
+      "recursive_result": "When fed back through the claim lanes, the matrix stops the suite from carrying stale open labels where bounded verifier evidence already exists, while preserving untouched obligations as active next channels.",
+      "newly_solved": [
+        "Obligation status promotion becomes auditable instead of rhetorical.",
+        "Papers 09, 10, 13, 16, 18, and 33 gain bounded closure support from specific verifier findings.",
+        "The suite gains a clean split between partial closure, engineering scope, and untouched physical/calibration bridges."
+      ],
+      "still_not_closed": [
+        "Partial closure is not unconditional closure.",
+        "CKM, quark/color measurement, Higgs/QFT mass calibration, GR curvature bridges, and full Moonshine remain separate dependency lanes where the matrix says they remain open."
+      ]
+    },
+    {
+      "id": "REAPPLY-RULE30-ADDRESS-HORIZON",
+      "source_capability": "CAP-RULE30-ADDRESS-HORIZON",
+      "claim_lane": "receipt_bound_internal_result",
+      "target_papers": [
+        "FLCR-10",
+        "FLCR-13",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "standalone_result": "The Rule-30 address horizon supplies a hashed one-megabit center-column reference, a named one-gigabit resource target, and a billion-bit address-space package.",
+      "recursive_result": "When reapplied, the address horizon becomes a finite prediction and enumeration substrate: CA prediction, process hashing, paper-window addressing, and CAM projection can share a concrete bit-address carrier.",
+      "newly_solved": [
+        "The CA prediction layer now has a finite, content-addressed reference rather than a purely conceptual Rule-30 mention.",
+        "Finite horizon claims can be stated strongly without pretending they prove infinite non-periodicity.",
+        "Rule-30 data can be used as an addressable carrier for recursive paper and process scans."
+      ],
+      "still_not_closed": [
+        "The finite reference does not prove infinite non-periodicity.",
+        "The one-gigabit Wolfram resource remains a named external acquisition/calibration lane if bit-for-bit reproduction is required."
+      ]
+    },
+    {
+      "id": "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "source_capability": "CAP-PROCESS-CENTROID-AUDIT",
+      "claim_lane": "falsifier_or_open_obligation",
+      "target_papers": [
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "standalone_result": "The process audit shows that most iterative tools do not explicitly return through a centroid/CAM wrap-back loop.",
+      "recursive_result": "When reapplied, this becomes an automation falsifier: any future tool or forge claiming closed CAM action must return its result through centroid, receipt, and project-crystal update rather than ending as a one-way script.",
+      "newly_solved": [
+        "A large class of apparent theoretical gaps is reclassified as process hardening: the math is not missing; the wrap-back protocol is missing.",
+        "FLCR-39 gains a concrete validator requirement for agent automation.",
+        "FLCR-28 gains a negative test for whether a crystal projector is actually closing its own loop."
+      ],
+      "still_not_closed": [
+        "The audit does not retrofit all 331 missing wrap-back processes.",
+        "Each tool still needs an adapter if it is to become a closed CAM action surface."
+      ]
+    },
+    {
+      "id": "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "source_capability": "CAP-GAUSSHAUS-KERNEL-RING",
+      "claim_lane": "normal_form_result",
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "standalone_result": "The kernel ring defines the governance split: kernel as ledger and receipt substrate, ring as admission, input/output gating, validator routing, and obligation propagation.",
+      "recursive_result": "When reapplied, the kernel ring supplies the 2x2 handshake missing between arbitrary crystal form and actionable CAM lookup: an adapter can admit the object, run the forge, validate the output, and write the child crystal back.",
+      "newly_solved": [
+        "The suite now has an explicit answer to how CAM is actionized into instant lookups and controlled forge calls.",
+        "Theory admission, forge admission, and validation authority can share one governance grammar.",
+        "The top-layer abstraction problem is narrowed: any form may be addressable if it satisfies the ring's admission and receipt contracts."
+      ],
+      "still_not_closed": [
+        "The ring governs admission; it does not replace domain validators.",
+        "Each target domain still needs its own admissible input vocabulary and promotion criteria."
+      ]
+    },
+    {
+      "id": "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY",
+      "source_capability": "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+      "claim_lane": "CAM_crystal_reapplication_result",
+      "target_papers": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-24",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "standalone_result": "The forge topology describes a typed family of expression surfaces: candidate generation, lattice resolution, CAD/geometry boundary, manufacturing process bridge, SplatForge readout, and simulation/test comparison.",
+      "recursive_result": "When reapplied, the topology becomes the general expression grammar for the system: every applied paper can say which forge surface is acting, what it reads, what it writes, which validator promotes it, and which residue remains.",
+      "newly_solved": [
+        "Lattice Forge and the forges stop reading as separate tools; they become the way CAM is expressed into domain action.",
+        "Materials, proteins, games, plasma, computation, and publication tooling can share a typed read/write/receipt surface.",
+        "Physical-realization boundaries become clearer because CAD, process, simulation, printed artifact, and measurement are not collapsed into one result."
+      ],
+      "still_not_closed": [
+        "The topology does not manufacture external test data.",
+        "Every physical claim still requires machine, process, simulation, and metrology receipts where relevant."
+      ]
+    },
+    {
+      "id": "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY",
+      "source_capability": "CAP-PROOFVALIDATED-PAPER-ASSEMBLY",
+      "claim_lane": "receipt_bound_internal_result",
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-20",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "standalone_result": "The assembly protocol defines a paper as a formal/tool/workbook/verifier unit rather than a prose-only artifact.",
+      "recursive_result": "When reapplied, the publication series becomes self-validating: each paper can be checked for formal claims, tool binding, workbook analogue, runnable receipt, and exportable verifier identity.",
+      "newly_solved": [
+        "Paper completeness gains a concrete acceptance test.",
+        "The formal/companion/workbook triad is strengthened into an executable publication object.",
+        "The master manuscript can distinguish missing prose from missing proof machinery."
+      ],
+      "still_not_closed": [
+        "Not every FLCR paper currently has a bespoke runnable verifier matching the older protocol.",
+        "The current PDFs are publication artifacts; executable proof parity still needs paper-local runner expansion."
+      ]
+    }
+  ],
+  "combined_recursive_effects": [
+    {
+      "id": "COMBO-CAM-CLOSURE-LEDGER",
+      "inputs": [
+        "CAP-GLM-CAM-CRYSTAL",
+        "CAP-GLM-OBLIGATION-CLOSURE"
+      ],
+      "target_papers": [
+        "FLCR-07",
+        "FLCR-28",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "result": "CAM projection plus closure matrix forms a feedback ledger: evidence can be found, routed, compared to obligations, promoted where bounded, and left as residue where not.",
+      "solves": "This closes the missing method for moving from discovered crystals to paper-specific obligation updates."
+    },
+    {
+      "id": "COMBO-KERNEL-FORGE-ACTION",
+      "inputs": [
+        "CAP-GAUSSHAUS-KERNEL-RING",
+        "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+        "CAP-PROCESS-CENTROID-AUDIT"
+      ],
+      "target_papers": [
+        "FLCR-20",
+        "FLCR-28",
+        "FLCR-36",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "result": "Kernel admission, typed forge action, and centroid wrap-back together define closed CAM action: admit, act, validate, receipt, propagate obligation, and return to the project crystal.",
+      "solves": "This closes the vague 'forges apply CAM' claim into a concrete operational loop."
+    },
+    {
+      "id": "COMBO-ADDRESSABLE-PUBLICATION-RUNNER",
+      "inputs": [
+        "CAP-RULE30-ADDRESS-HORIZON",
+        "CAP-GLM-CAM-CRYSTAL",
+        "CAP-PROOFVALIDATED-PAPER-ASSEMBLY"
+      ],
+      "target_papers": [
+        "FLCR-10",
+        "FLCR-13",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "result": "Rule-30 finite address data, CAM node routing, and paper-runner protocol combine into an addressable publication runner: paper windows and proof artifacts can be enumerated, hashed, routed, and replayed.",
+      "solves": "This closes the gap between a paper as text and a paper as a state-bound ribbon with executable receipts."
+    },
+    {
+      "id": "COMBO-APPLIED-PHYSICS-BOUNDARY",
+      "inputs": [
+        "CAP-GAUSSHAUS-FORGE-TOPOLOGY",
+        "CAP-GLM-OBLIGATION-CLOSURE",
+        "CAP-RULE30-ADDRESS-HORIZON"
+      ],
+      "target_papers": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-40"
+      ],
+      "result": "Applied forge topology supplies the domain boundary, GLM closure supplies bounded mathematical promotions, and address horizons supply finite computational evidence.",
+      "solves": "This lets later Standard Model and physics-facing papers state strong bounded claims while separating calibration-dependent physical identity claims."
+    }
+  ],
+  "paper_targets": {
+    "FLCR-07": [
+      "REAPPLY-GLM-CAM-CRYSTAL",
+      "REAPPLY-GLM-OBLIGATION-CLOSURE",
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-20": [
+      "REAPPLY-GLM-CAM-CRYSTAL",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-28": [
+      "REAPPLY-GLM-CAM-CRYSTAL",
+      "REAPPLY-RULE30-ADDRESS-HORIZON",
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-29": [
+      "REAPPLY-GLM-CAM-CRYSTAL"
+    ],
+    "FLCR-30": [
+      "REAPPLY-GLM-CAM-CRYSTAL"
+    ],
+    "FLCR-39": [
+      "REAPPLY-GLM-CAM-CRYSTAL",
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-40": [
+      "REAPPLY-GLM-CAM-CRYSTAL",
+      "REAPPLY-GLM-OBLIGATION-CLOSURE",
+      "REAPPLY-RULE30-ADDRESS-HORIZON",
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-09": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-10": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE",
+      "REAPPLY-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-13": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE",
+      "REAPPLY-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-16": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-18": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-27": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-31": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-32": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-33": [
+      "REAPPLY-GLM-OBLIGATION-CLOSURE"
+    ],
+    "FLCR-23": [
+      "REAPPLY-RULE30-ADDRESS-HORIZON"
+    ],
+    "FLCR-38": [
+      "REAPPLY-RULE30-ADDRESS-HORIZON",
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-GAUSSHAUS-KERNEL-RING"
+    ],
+    "FLCR-06": [
+      "REAPPLY-PROCESS-CENTROID-AUDIT",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-26": [
+      "REAPPLY-PROCESS-CENTROID-AUDIT"
+    ],
+    "FLCR-11": [
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-12": [
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-36": [
+      "REAPPLY-GAUSSHAUS-KERNEL-RING",
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-21": [
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-22": [
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-24": [
+      "REAPPLY-GAUSSHAUS-FORGE-TOPOLOGY"
+    ],
+    "FLCR-01": [
+      "REAPPLY-PROOFVALIDATED-PAPER-ASSEMBLY"
+    ],
+    "FLCR-37": []
+  },
+  "papers_updated": 28,
+  "net_new_solutions": [
+    "content-addressed evidence routing for discovered paper sources",
+    "auditable obligation promotion from GLM verifier findings",
+    "finite Rule-30 address horizon for CA prediction and recursive addressing",
+    "process-level falsifier for one-way automation that does not wrap back to CAM",
+    "kernel-ring admission grammar for turning arbitrary crystal forms into actionable CAM lookup/forge calls",
+    "typed forge topology as the expression grammar for applied papers",
+    "paper-as-executable-triad acceptance criteria"
+  ],
+  "remaining_global_boundaries": [
+    "exhaustive future/private source intake",
+    "external physical calibration and measured identity claims",
+    "infinite non-periodicity proof",
+    "paper-local runner parity for all FLCR papers",
+    "domain-specific machine/process/simulation/metrology receipts"
+  ]
+}

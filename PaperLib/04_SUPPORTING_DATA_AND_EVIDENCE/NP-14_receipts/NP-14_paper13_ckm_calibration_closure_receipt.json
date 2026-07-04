@@ -1,0 +1,17 @@
+{
+  "paper": "NP-14",
+  "accumulator_term": "CQE-paper-13 ckm_calibration_receipt.json",
+  "status": "pass_with_open_obligations",
+  "passed": 4,
+  "total": 4,
+  "closure_source": "Paper 13 rework Claim Ledger and receipt catalog",
+  "notes": [
+    "The original receipt had no status.",
+    "Reworked Paper 13 labels CKM calibration as an external bridge, not a closed numeric identification."
+  ],
+  "open_obligations": [
+    "Exact external CKM calibration.",
+    "Measured quark/color-charge identification."
+  ],
+  "boundary": "Finite algebraic quark-face transport closed; measured CKM matrix calibration remains ECO and is routed to NP-06."
+}

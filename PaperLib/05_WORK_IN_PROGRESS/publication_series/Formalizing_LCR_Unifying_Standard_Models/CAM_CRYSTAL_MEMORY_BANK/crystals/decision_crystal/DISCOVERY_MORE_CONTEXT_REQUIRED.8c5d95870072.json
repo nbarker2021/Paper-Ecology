@@ -1,0 +1,133 @@
+{
+  "kind": "decision_crystal",
+  "granularity": "assembly_decision",
+  "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+  "record_count": 5,
+  "records": [
+    {
+      "record_id": "LOCAL-GAP-0077",
+      "record_type": "local_unintegrated_artifact",
+      "title": "042-claude-real-math-umbrella-theorem-registry.md",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CMPLX-Kernel\\CMPLX-Kernel_Production_20260607T223706\\source\\CQE_CMPLX-workspace\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\042-claude-real-math-umbrella-theorem-registry.md"
+    },
+    {
+      "record_id": "LOCAL-GAP-0095",
+      "record_type": "local_unintegrated_artifact",
+      "title": "automate_via_tarpit.py",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\vendor\\GaussHaus\\src\\lattice_forge\\orders_crystal\\automate_via_tarpit.py"
+    },
+    {
+      "record_id": "LOCAL-GAP-0096",
+      "record_type": "local_unintegrated_artifact",
+      "title": "automate_via_tarpit.py",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 34,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action",
+        "terminal_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33",
+        "08",
+        "18",
+        "28",
+        "38"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\GaussHaus\\src\\lattice_forge\\orders_crystal\\automate_via_tarpit.py"
+    },
+    {
+      "record_id": "ARCHIVE-0158",
+      "record_type": "archive_source_artifact",
+      "title": "DockerContainers.zip",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 32,
+      "slot_families": [
+        "enumeration_action",
+        "fold_action"
+      ],
+      "slot_assignments": [
+        "01",
+        "11",
+        "21",
+        "31",
+        "03",
+        "13",
+        "23",
+        "33"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\DockerContainers.zip"
+    },
+    {
+      "record_id": "ARCHIVE-0185",
+      "record_type": "archive_source_artifact",
+      "title": "d1ecc9dc1e12__fixtures_embeddings__glove.6B.300d.sample.txt.gz",
+      "decision": "DISCOVERY_MORE_CONTEXT_REQUIRED",
+      "assembly_score": 30,
+      "slot_families": [
+        "future_expansion_pressure"
+      ],
+      "slot_assignments": [
+        "29",
+        "30",
+        "39"
+      ],
+      "external_paper_title": "",
+      "source_identity": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CQE_organized\\cqe_organized-20251122T204620Z-1-001\\cqe_organized\\NESTED_ARCHIVES\\d1ecc9dc1e12__fixtures_embeddings__glove.6B.300d.sample.txt.gz"
+    }
+  ],
+  "content_address": "8c5d9587007220c5b6a61833e2054408b63e42416d733664ede99189d53d580e"
+}

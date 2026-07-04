@@ -1,0 +1,20 @@
+{
+  "row_id": "MAP-FLCR32-003",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-05",
+  "O_ext": "Confinement/hadron spectra",
+  "equation_or_source": "`SMD-05`, `SMD-08`",
+  "O_lcr": "LCR transport / face / carrier surfaces",
+  "lane": "standard_theorem_citation_bound_result",
+  "boundary": "Requires QCD-specific evidence, lattice/phenomenological data, or calibrated comparator.",
+  "dataset": "",
+  "falsifier": "Requires QCD-specific evidence, lattice/phenomenological data, or calibrated comparator.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

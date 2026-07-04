@@ -1,0 +1,44 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-08",
+  "obligation_closed": "RH-EXT-01",
+  "verifier": "published_data_riemann_zeta_zeros",
+  "finding": "First nontrivial Riemann zeta zeros from Odlyzko/OEIS",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "imaginary parts of first zeta zeros",
+    "published_values": [
+      {
+        "n": 1,
+        "t": 14.134725141734695
+      },
+      {
+        "n": 2,
+        "t": 21.022039638771556
+      },
+      {
+        "n": 3,
+        "t": 25.01085758014569
+      },
+      {
+        "n": 4,
+        "t": 30.424876125859512
+      },
+      {
+        "n": 5,
+        "t": 32.93506158773919
+      },
+      {
+        "n": 6,
+        "t": 37.586178158825675
+      }
+    ],
+    "source": "OEIS A002410/A058303; Odlyzko tables",
+    "note": "Structural 1/3 gap claim is a finite chart identity; continuous L^2(R) bridge remains open."
+  },
+  "checks": {
+    "C1_first_six_zeros_recorded": true,
+    "C2_oeis_source_cited": true
+  },
+  "cam_address": "2e27eda2eef3f4848630b78b9c96affbcd2422519c8be84cb37da2fcd53aa001"
+}

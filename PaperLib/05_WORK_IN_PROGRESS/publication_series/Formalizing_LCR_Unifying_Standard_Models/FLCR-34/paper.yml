@@ -1,0 +1,165 @@
+publication_id: FLCR-34
+title: Electron-Hole-Exciton Accounting
+series: Formalizing LCR, Unifying Standard Models
+band: standard_model_bridge_preview
+status: first_pass_rich_rewrite
+legacy_paths:
+- NP-12_Electron_Hole_Exciton_Accounting_For_Open_Math.md
+- supplements/SM_BRIDGE_SUPPLEMENT.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 34.1
+  lane: standard_theorem_citation_bound_result
+  statement: standard electron, hole, recombination, screening, and exciton models
+    can explain part of the open residue surface when material context is declared
+- id: Proposition 34.2
+  lane: normal_form_result
+  statement: exciton accounting can be imported by later papers only through its declared
+    source, receipt, and lane.
+- id: Protocol 34.3
+  lane: falsifier_or_open_obligation
+  statement: material-specific bands, lifetimes, mobilities, and spectra require data-bound
+    calibration
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:58.850366+00:00'
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots: []
+  orbital_status: "publication overlay or incoming evidence paper; no legacy original slot assigned"
+
+dimensional_ribbon:
+  ribbon_slot: "orbital"
+  slot_family: "publication_overlay"
+  dimensional_role: "routes external, standard-model, or synthesis material around the original proof ribbon"
+  proof_form_required: "source intake, correspondence table, dependency statement, and falsifier boundary"
+
+state_bound_proof_contract:
+  received_state: "mature LCR-native corpus and orbital evidence intake"
+  produced_state: "Electron-Hole-Exciton Accounting as publication overlay or synthesis route"
+  semantic_transition: "route external, comparative, or synthesis material around the original proof ribbon without overwriting original slot obligations"
+  accepted_formalism_targets:
+    - "source routing and dependency graphs"
+    - "citation-bound comparison"
+    - "normal-form correspondence tables"
+    - "falsifier and calibration boundaries"
+  analog_invariance_test: "an orbital index: it may point to many source states, but it must not relabel them as a single proved theorem without a lane"
+  previous_family_slot: null
+  next_family_slot: null
+
+claim_binding_queue:
+  queue_count: 0
+  queues:
+    - id: "search_by_object_name"
+      title: "No direct reasoned-closure queue assigned"
+      lane: "falsifier_or_open_obligation"
+
+claim_delta_ledger:
+  delta_count: 1
+  deltas:
+    - id: "search_by_object_name"
+      title: "Search By Object Name"
+      local_claim: "No direct reasoned-closure queue was assigned from the first queue map."
+      later_evidence: "Search source routing, verifier catalog, CAM/crystal routes, and paper-local object names."
+      revised_claim: "Create a specific binding queue when an object-name match finds a validator, receipt, theorem, or calibration route."
+      boundary: "Until then, claims remain in their existing lanes."
+      workbook_replay: "Search by object name and add the first concrete receipt/citation/calibration candidate."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-34-F1"
+  primary_table: "FLCR-34-T1"
+  appendix_id: "FLCR-34-A"
+  glossary_terms:
+    - "CAM"
+    - "claim lane"
+    - "crystal"
+    - "dependency"
+    - "publication overlay"
+    - "receipt"
+    - "synthesis lane"
+    - "translation claim"
+  planned_figures:
+    - "FLCR-34-F1: Publication overlay dependency map"
+    - "FLCR-34-F2: Evidence routing map"
+    - "FLCR-34-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-34-T1: Dependency and translation table"
+    - "FLCR-34-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-34-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-34-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 0
+  top_cards:
+    - title: "No routed archive card attached yet"
+      archive_score: 0
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work as orbital evidence: route all imports through dependency, citation, normal-form, calibration, and falsifier lanes."
+  routed_full_sources: 2
+  routed_partial_sources: 16
+  routed_transient_sources: 11
+  cam_score_rows_attached: 0
+  nsit_rows_attached: 0
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

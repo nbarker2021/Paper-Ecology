@@ -1,0 +1,338 @@
+publication_id: FLCR-39
+title: Falsifiers, Comparators, And Standards Of Evidence
+series: Formalizing LCR, Unifying Standard Models
+band: standard_model_bridge_preview
+status: first_pass_rich_rewrite
+legacy_paths:
+- 06_Causal_Link_and_Obligation_Ledger.md
+- 10_T10_Master_Receipt.md
+- 11_Theory_Admission_Gate.md
+- 20_Layer_2_Synthesis_Ledger.md
+- 32_The_Supervisor_Cursor.md
+- NSIT_VALIDITY_REBUILD_PROTOCOL.md
+triad_role:
+  formal: formal.md
+  companion: companion.md
+  workbook: workbook.md
+generated_outputs:
+  latex: paper.tex
+  pdf: paper.pdf
+claim_lanes:
+- receipt_bound_internal_result
+- standard_theorem_citation_bound_result
+- cam_crystal_reapplication_result
+- normal_form_result
+- external_calibration_result
+- grand_synthesis_claim
+- falsifier_or_open_obligation
+formal_claims:
+- id: Theorem 39.1
+  lane: normal_form_result
+  statement: every FLCR claim can be evaluated by lane, source, receipt, comparator,
+    and falsifier before final admission
+- id: Proposition 39.2
+  lane: normal_form_result
+  statement: evidence comparator can be imported by later papers only through its
+    declared source, receipt, and lane.
+- id: Protocol 39.3
+  lane: falsifier_or_open_obligation
+  statement: claims that lack comparator or falsifier fields remain obligations regardless
+    of rhetorical strength
+evidence_inputs:
+- CAM_CLAIM_100_SCORE_AUDIT.md
+- NSIT_TOOL_CLOSURE_MATRIX.md
+- NSIT_REASONED_CLOSURE_PASS.md
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- EXT-FFS-THEORY-2026
+- EXT-RQM-CONSISTENT-2026
+- docker_standards_suite
+- docker_mcp_and_deployment_surface
+- docker_observability_security_governance
+receipts:
+- FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+- PEER_REVIEWER_ASSESSMENT_PASS.json
+- REVIEWER_CLAIM_LEDGER_PASS.json
+- EXTERNAL_ORIENTATION_GRANULARITY_PASS.json
+- MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json
+validators:
+- mannyai_nist_style_paper_standards
+- flcr_briefed_peer_review_suite
+cam_crystal_sources:
+- PAPER_REWORKS_CRYSTAL_PROJECTION.json
+- AGENT_CRYSTAL_WORK_HARVEST.json
+- D:\DockerContainers\Manny Docker Starter\mannyai\standards
+- C:\Users\nbark\Downloads\Papers-20260626T194053Z-3-001\Papers
+- D:\DockerContainers\Manny Docker Starter
+kimi_window_inputs:
+- window_summary.json
+- node DBs
+- window DBs
+companion_targets:
+- explain the local result without weakening the claim
+- name the strongest claim and its boundary
+- show how later papers may import the result
+workbook_targets:
+- reconstruct the local object
+- assign claim lanes
+- prepare receipt stubs
+normal_form_gate:
+  required_for_finalization: false
+  status: incoming_kimi_universal_normal_form_reserved
+lattice_forge_actionization:
+  enabled: true
+  actionization_contract: Forge systems are the operational expression layer for the
+    corpus. CAM stores addressable memory, labels, receipts, and obligations; lattice-forge
+    actionizes that memory into lookup contracts, executable methods, receipt rows,
+    events, and reusable cached answers.
+  leech_lookup_surface_allowed: false
+  canonical_apis:
+  - Forge.leech_lookup(address=0, payload=None)
+  - Forge.verify_leech_lookup()
+  - lattice_forge.lattice_codes.verify_lattice_code_chain
+  - lattice_forge.lattice_codes.verify_golay_24
+  - lattice_forge.enumerated_glue.derive_classical_leech_minimal_landing
+  - lattice_forge.enumerated_glue.encode_leech_ribbon
+external_evidence_inputs:
+- EXT-FFS-THEORY-2026
+- EXT-RQM-CONSISTENT-2026
+external_evidence_routes:
+- source: EXT-FFS-THEORY-2026
+  lane: falsifier_or_open_obligation
+  use: 'Creates a concrete comparator: LCR condensed-matter claims should be tested
+    against fractional Fermi sea occupancy, Friedel oscillations, generalized hydrodynamics,
+    and TLL-incompatibility claims.'
+  boundary: Failure to match those external signatures is a falsifier or narrowing
+    condition for relevant LCR material claims.
+- source: EXT-RQM-CONSISTENT-2026
+  lane: falsifier_or_open_obligation
+  use: 'Creates a representation-equivalence comparator: LCR relabeling claims must
+    specify the postulates and adapters under which predictions are preserved.'
+  boundary: A relabeling without an equivalence proof remains only notation.
+standards_review:
+  nist_adapter_report: FLCR_NIST_AND_REVIEW_SUITE_REPORT.json
+  baseline_canonical_report: NIST_CANONICAL_32_BASELINE_REPORT.json
+  receipt_policy: Suite-level review reports are manifest-bound review receipts. They
+    do not replace paper-local mathematical receipts, external citations, calibration
+    rows, or CAM/tool runs.
+  last_applied: '2026-06-29T18:41:59.057022+00:00'
+external_review_lanes:
+- lane_id: docker_standards_suite
+  claim_lane: normal_form_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Treats the Docker-hosted MannyAI standards stack as a first-class review lane
+    for structure, claim coverage, receipt status, open obligations, obligation continuity,
+    and suite-aware evidence.
+  boundary: Standards passing proves conformance to the review protocol, not truth
+    of every imported claim.
+- lane_id: docker_mcp_and_deployment_surface
+  claim_lane: receipt_bound_internal_result
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Adds Docker/MCP deployment, container topology, normalized compose, running-container
+    snapshots, and ReForge integration as operational review lanes.
+  boundary: Deployment topology is infrastructure evidence; services should not be
+    assumed live unless current health checks are run.
+- lane_id: docker_observability_security_governance
+  claim_lane: falsifier_or_open_obligation
+  source_root: D:\DockerContainers\Manny Docker Starter
+  use: Adds operational guardrails, monitoring, deployment policy, Kubernetes/Helm
+    surfaces, and security documentation as automation-review guardrails.
+  boundary: Security/deployment docs are guardrails and falsifier lanes for automation,
+    not restrictions on human hypothesis generation.
+
+dual_positioning:
+  paper_is_both: "sequential semantic explainer and formal proof carrier"
+  formal_layer: "accepted math, IRL formalism, receipts, validators, CAM/crystal evidence, and claim lanes"
+  companion_layer: "author interpretation and explanation of why this state happens next"
+  workbook_layer: "analog proof that relabeling changes access paths, not the addressed state"
+  original_ribbon_slots:
+    - ribbon_slot: "06"
+      source_file: "06_Causal_Link_and_Obligation_Ledger.md"
+      slot_family: "ledger_action"
+      lift_depth: 0
+      dimensional_role: "order-1 slot-6: bind state into causal, observer, or synchronization ledgers"
+      proof_form_required: "ledger, graph, and synchronization proof"
+    - ribbon_slot: "10"
+      source_file: "10_T10_Master_Receipt.md"
+      slot_family: "closure_lift"
+      lift_depth: 1
+      dimensional_role: "1x ten-window closure/lift"
+      proof_form_required: "aggregate receipt and open-slot preservation"
+    - ribbon_slot: "11"
+      source_file: "11_Theory_Admission_Gate.md"
+      slot_family: "enumeration_action"
+      lift_depth: 1
+      dimensional_role: "order-2 slot-1: start the active one-dimensional action / enumerate the center state"
+      proof_form_required: "enumeration proof and identity preservation"
+    - ribbon_slot: "20"
+      source_file: "20_Layer_2_Synthesis_Ledger.md"
+      slot_family: "closure_lift"
+      lift_depth: 2
+      dimensional_role: "2x ten-window closure/lift"
+      proof_form_required: "aggregate receipt and open-slot preservation"
+    - ribbon_slot: "32"
+      source_file: "32_The_Supervisor_Cursor.md"
+      slot_family: "residual_action"
+      lift_depth: 3
+      dimensional_role: "order-4 slot-2: mark the correction, residue, vacancy, or mismatch surface"
+      proof_form_required: "residual accounting and bounded/unbounded split"
+
+dimensional_ribbon:
+  ribbon_slot: "06"
+  slot_digit: 6
+  slot_family: "ledger_action"
+  lift_depth: 0
+  lift_name: "lift_0x"
+  order_index: 1
+  dimensional_role: "order-1 slot-6: bind state into causal, observer, or synchronization ledgers"
+  state_bound_action: "bind state into causal, observer, or synchronization ledgers"
+  proof_form_required: "ledger, graph, and synchronization proof"
+  inherits_from_same_family: null
+  lifts_to_same_family: "16"
+  ten_lift_anchor: "00"
+  cycle_window: ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09"]
+
+state_bound_proof_contract:
+  received_state: "state emitted by prior slot 05 and reopened at original slot 06 (Causal Link and Obligation Ledger)"
+  produced_state: "formal result of original slot 32 plus the same-family lift path toward slot 42"
+  semantic_transition: "bind state changes into causal, observer, synchronization, or obligation ledgers; bind the preceding window into a replayable state and expose the next lift without erasing residue; select the active center and enumerate the addressable state space at the current lift; bind the preceding window into a replayable state and expose the next lift without erasing residue; measure the mismatch, residue, vacancy, correction surface, or remaining obligation after enumeration"
+  accepted_formalism_targets:
+    - "directed graphs and partial orders"
+    - "causal/event ledgers"
+    - "synchronization protocols"
+    - "traceability and provenance invariants"
+    - "conservative extension discipline"
+    - "event sourcing and replay logs"
+    - "finite receipt verification"
+    - "dependency graph invariants"
+    - "finite set enumeration"
+    - "ordered tuples and projections"
+    - "group actions on finite carriers"
+    - "minimality or lower-bound arguments"
+    - "residue classes and quotient accounting"
+    - "error-correction or syndrome notation"
+    - "truth tables and exhaustive finite checks"
+    - "bounded versus unbounded domain separation"
+  analog_invariance_test: "an audit trail: interpretations may differ, but the ordered entries and dependencies remain fixed / a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a coordinate chart: renaming the axes does not change which state is addressed / a sealed ledger or completed window whose contents are preserved while the next layer receives only typed imports / a correction ledger: the label on the defect can change, but the unresolved difference remains the same object"
+  previous_family_slot: "05"
+  next_family_slot: "42"
+
+claim_binding_queue:
+  queue_count: 3
+  queues:
+    - id: "finite_ca_bounded_search"
+      title: "Finite CA And Bounded Search Promotion"
+      lane: "receipt_bound_internal_result"
+      promote_now: "Promote finite-state, bounded-search, local-rule, and exhaustive verification claims when the state space and transition law are explicit."
+      bind_next: "Attach state-space size, transition law, verifier name, receipt path, and bounded domain statement."
+      residue: "Unbounded Rule 30 prediction, global minimality, and all-game/all-system claims remain separate."
+    - id: "formal_methods_receipt_closure"
+      title: "Formal-Methods Receipt And Governance Closure"
+      lane: "normal_form_result"
+      promote_now: "Promote claim-envelope, receipt, lane, causal-graph, and conformance obligations as formal-methods artifacts when standards reports are attached."
+      bind_next: "Attach NSIT standards report, content-addressed receipt, lane grant, replay path, and dependency graph row."
+      residue: "Missing hashes, missing schemas, or unrun adapters remain engineering residues, not mathematical openness."
+    - id: "negative_receipts_as_guards"
+      title: "Negative And Failed-Route Receipts As Guards"
+      lane: "falsifier_or_open_obligation"
+      promote_now: "Use failed routes, rejected candidates, and boundary receipts as exclusion evidence and counterexample guards."
+      bind_next: "Attach negative receipt path, rejected candidate, failure mode, and the promotion it blocks."
+      residue: "A negative receipt constrains the claim; it does not prove the positive replacement unless separately evidenced."
+
+claim_delta_ledger:
+  delta_count: 3
+  deltas:
+    - id: "finite_ca_bounded_search"
+      title: "Finite Ca Bounded Search"
+      local_claim: "This paper may describe finite CA, search, game, or local-rule behavior within the bounded surface it actually enumerates."
+      later_evidence: "Verifier state-space count, transition law, exhaustive/bounded receipt, and negative/minimality guards."
+      revised_claim: "Promote finite-state and bounded-search claims when the state space and transition law are explicit."
+      boundary: "Unbounded prediction, global minimality, all-game coverage, and all-system generalization remain separate."
+      workbook_replay: "Record state-space size, transition law, receipt, coverage limit, and non-promoted unbounded claim."
+    - id: "formal_methods_receipt_closure"
+      title: "Formal Methods Receipt Closure"
+      local_claim: "This paper may treat receipts, claim lanes, dependency graphs, and replay contracts as formal objects, not mere editorial apparatus."
+      later_evidence: "NSIT standards, claim envelopes, content-addressed receipts, lane grants, Kimi 192/192 conformance, and graph/replay artifacts."
+      revised_claim: "Promote form, receipt, lane, and governance obligations to formal-methods closures when the standard report or artifact is attached."
+      boundary: "Missing hashes, schemas, adapters, or replay runs remain engineering residues rather than mathematical disproof."
+      workbook_replay: "Attach envelope, receipt, lane grant, replay path, and dependency row for each governed claim."
+    - id: "negative_receipts_as_guards"
+      title: "Negative Receipts As Guards"
+      local_claim: "This paper may preserve failed routes and rejected candidates as meaningful boundary data."
+      later_evidence: "Negative receipts, failed verifier rows, rejected-as-datum outputs, and obligation ledgers."
+      revised_claim: "Use negative receipts as exclusion evidence and promotion guards."
+      boundary: "A negative receipt blocks a promotion; it does not prove a positive replacement unless separately evidenced."
+      workbook_replay: "Record rejected candidate, failure mode, blocked promotion, and remaining positive-proof requirement."
+
+journal_apparatus:
+  article_type: "formal methods / mathematical systems manuscript"
+  primary_figure: "FLCR-39-F1"
+  primary_table: "FLCR-39-T1"
+  appendix_id: "FLCR-39-A"
+  glossary_terms:
+    - "CAM"
+    - "causal edge"
+    - "claim lane"
+    - "crystal"
+    - "ledger"
+    - "negative receipt"
+    - "obligation"
+    - "receipt"
+  planned_figures:
+    - "FLCR-39-F1: Causal/obligation ledger graph"
+    - "FLCR-39-F2: Evidence routing map"
+    - "FLCR-39-F3: Same-family lift context"
+  planned_tables:
+    - "FLCR-39-T1: Obligation ledger table"
+    - "FLCR-39-T2: Claim-lane/evidence-boundary table"
+    - "FLCR-39-T3: Archive evidence card and source-backed upgrade table"
+    - "FLCR-39-T4: Workbook replay and falsifier table"
+
+archive_evidence_cards:
+  card_count: 234
+  top_cards:
+    - title: "FORMAL: Paper 23 — C-Form: FoldForge Protein Folding Gluon"
+      archive_score: 89
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-23\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the protein fold Gluon** — the contact-map/topo Gluon that transports protein chain fold hypotheses through contact-map and topology receipts. In the lattice_forge substrate, C is realized as the **fold Gluon** that: - The fold Gluon = the `foldforge` transport operator - Each fold hypothesis = a ribbon path with contact-map receipts (tempus fugit) - The fold transport = `fold_{n+1} = foldforge_hypothesis(fold_n, contact_map)` - The fold Gluon's topology = the contact-map persistent homolo"
+    - title: "FORMAL: Paper 22 — C-Form: MetaForge Applied Materials Gluon"
+      archive_score: 85
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\papers\\CQE-paper-22\\01-CQE-formal\\FORMAL.md`"
+      contributes: "**C = the material Gluon** — the applied materials Gluon that transports the morphic Gluon (Paper 21) into physical material candidates. In the lattice_forge substrate, C is realized as the **material Gluon** that: - The material Gluon = the `metaforge` transport operator - Each material candidate = a token from Paper 21 with physical properties (Gluon mass, energy, stability) - The material transport = `material_{n+1} = metaforge_token(token_n, constraints)` - The material Gluon's mass = the ma"
+    - title: "CQE-paper-20: Paper 20 - Layer-2 Synthesis Ledger"
+      archive_score: 85
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-20.md`"
+      contributes: "This paper defines the Layer-2 synthesis ledger: the suite-level accounting surface that aggregates solved, open, failed, forbidden, and transported rows without changing their source-paper status. The closed result is ledger behavior. The seed ledger verifies, the rank-24 terminal registry contains twenty-four forms, reachability distinguishes `yes_with_template_glue`, `no`, and `unknown`, the transport-obligation verifier returns `pass_with_open_lifts`, and the contributions registry admits ro"
+    - title: "CQE-paper-10.50: Paper 10.50 - T10 Master Receipt Claim Contract"
+      archive_score: 85
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.50.md`"
+      contributes: "Paper 10.50 lets later papers cite the master receipt honestly. It makes T10 a powerful audit object without converting open lifts into hidden proof claims."
+    - title: "CQE-paper-11.25: Paper 11.25 - Toolkit for the Theory Admission Gate"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-11.25.md`"
+      contributes: "Paper 11.25 describes the tools for reviewing the theory admission gate. These tools expose candidate admission, boundary routing, rejected-as-datum behavior, and the Pariah/Happy-Family worked boundary receipt. The toolkit works with: ```text candidate theory T10 trust anchor Gluon mass trusted spectrum K_max = 9 declared encoder admission receipt verdict ``` Primary executable files: ```text production/formal-papers/CQE-paper-11/verify_theory_admission_gate.py production/formal-papers/CQE-pape"
+    - title: "CQE-paper-10: Paper 10 - T10 Master Receipt"
+      archive_score: 81
+      source_path: "`D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\Papers\\Source_BACKUP\\CQE-paper-10.md`"
+      contributes: "Paper 10 proves the first stack-level receipt theorem in the CQECMPLX suite. Its object is not a new physical mechanism. Its object is the proof that Paper 00 and Papers 01-09 are bound into one inspectable and replayable unit."
+    - title: "SUMMARY-IX-Open-Obligations: Summary Paper IX — The Open Obligations: The 2×2 Failure Points and the Empirical Platform Diagnostic System"
+      archive_score: 79
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+      contributes: "This paper is the **complete open obligations manifest** of the CQE_CMPLX corpus. The corpus is honest about what is and isn't proven. The framework for this honesty is the **empirical platform diagnostic system** — a **failure-diagnostic system** where the user (or any system asking a question) only needs the by-hand work at the **2×2 failure points**, the moments where the formal substrate breaks down."
+    - title: "SUMMARY-IX-Open-Obligations: Summary Paper IX — The Open Obligations: The 2×2 Failure Points and the Empirical Platform Diagnostic System"
+      archive_score: 79
+      source_path: "`D:\\CQE_CMPLX\\CQECMPLX-Production\\lib-forge\\summary_papers\\SUMMARY-IX-Open-Obligations.md`"
+      contributes: "This paper is the **complete open obligations manifest** of the CQE_CMPLX corpus. The corpus is honest about what is and isn't proven. The framework for this honesty is the **empirical platform diagnostic system** — a **failure-diagnostic system** where the user (or any system asking a question) only needs the by-hand work at the **2×2 failure points**, the moments where the formal substrate breaks down."
+
+past_work_crystal_expansion:
+  status: "expanded_from_routed_past_work_and_crystal_surfaces"
+  slot_family_rule: "Use past work to turn obligations into graph rows: event, observer, dependency, validator, falsifier, and next lane."
+  routed_full_sources: 14
+  routed_partial_sources: 20
+  routed_transient_sources: 11
+  cam_score_rows_attached: 5
+  nsit_rows_attached: 1
+  global_evidence_surfaces:
+    - "Paper Reworks crystal projection: 33 paper markdown files, 9 supplements, 5 queues, 6 lattice-forge unification artifacts, 140 faces, 140 vignettes, and 280 CAM nodes."
+    - "Kimi standards/window intake: 192/192 corpus conformance verdicts PASS; 140/142 obligations have candidate routes; 2/4/8/16/32 window lattice is available for cross-paper reads."
+    - "Agent crystal harvest: Claude memory, Kimi MannyAI starter, D:/MannyAI current build, repo-harvest CAM, NotebookLM/MannyAI bundles, and downloaded crystal payloads are orbital evidence surfaces."
+    - "NSIT inventory baseline: 220 validators, 1786 receipt/data artifacts, 1137 formal-paper-like artifacts, 114 supplements, and 86 memory/CAM artifacts."

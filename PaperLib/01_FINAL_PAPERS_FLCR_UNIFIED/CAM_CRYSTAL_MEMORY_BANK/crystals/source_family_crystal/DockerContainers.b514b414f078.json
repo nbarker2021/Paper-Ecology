@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "DockerContainers",
+  "missing_count": 330,
+  "highest_score": 74,
+  "sample_files": [
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-CLAIM\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-UF\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-CHEM\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-OC\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-03\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-01\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-O3\\manifest.json",
+    "DockerContainers\\Manny Docker Starter\\mannyai\\papers\\nodes\\CQE-paper-formal-U2\\manifest.json"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "b514b414f0782b2921d5ab8c57d0c17accab1c526d625829912edd3799fbfb08"
+}

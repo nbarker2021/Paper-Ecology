@@ -1,0 +1,21 @@
+{
+  "original_publication_id": "OPR-13",
+  "original_slot": "13",
+  "title": "Standard Model Quark Face Transport",
+  "status": "source_backed",
+  "source_file": "13_Standard_Model_Quark_Face_Transport.md",
+  "linked_flcr_papers": [
+    "FLCR-14",
+    "FLCR-31",
+    "FLCR-32"
+  ],
+  "slot_family": "fold_action",
+  "lift_depth": 1,
+  "dimensional_role": "order-2 slot-3: fold the initial action into a higher-dimensional representation",
+  "proof_form_required": "fold map, coordinate atlas, and representation transport",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

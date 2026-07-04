@@ -1,0 +1,45 @@
+{
+  "original_publication_id": "OPR-38",
+  "original_slot": "38",
+  "title": "Lift-3 Terminal: Forges, Lattice Lookup, CAM, Crystal Projector, And Runtime Addresses",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-20",
+    "FLCR-21",
+    "FLCR-22",
+    "FLCR-23",
+    "FLCR-28",
+    "FLCR-38"
+  ],
+  "slot_family": "terminal_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+  "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "08_Lattice_Closure.md",
+    "21_MorphForge_PolyForge_MorphoniX.md",
+    "22_MetaForge_Applied_Materials.md",
+    "23_FoldForge_Protein_Folding.md",
+    "28_N_Dimensional_Game_Lattices.md",
+    "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+    "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+    "lattice_forge_unification/LATTICE_FORGE_UNIFICATION_MAP.md",
+    "FLCR-28/formal.md"
+  ],
+  "formal_target": "show the terminal address layer where CAM, crystals, forges, and lattice-forge lookups actionize the proof state into instant addressable forms",
+  "semantic_target": "after bridges are defined, the system needs terminal addresses: the point where the proof state becomes a callable forge/CAM/crystal/lattice lookup",
+  "analog_target": "an addressable library shelf: the storage form can vary, but the lookup key must return the same state object and evidence boundary",
+  "claim_lanes": [
+    "receipt_bound_internal_result",
+    "cam_crystal_reapplication_result",
+    "normal_form_result",
+    "falsifier_or_open_obligation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-05",
+  "original_slot": "05",
+  "title": "Oloid Path Carrier",
+  "status": "source_backed",
+  "source_file": "05_Oloid_Path_Carrier.md",
+  "linked_flcr_papers": [
+    "FLCR-06"
+  ],
+  "slot_family": "carrier_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-5: carry the state through a path, traversal, or admissible motion",
+  "proof_form_required": "carrier/transducer/path proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

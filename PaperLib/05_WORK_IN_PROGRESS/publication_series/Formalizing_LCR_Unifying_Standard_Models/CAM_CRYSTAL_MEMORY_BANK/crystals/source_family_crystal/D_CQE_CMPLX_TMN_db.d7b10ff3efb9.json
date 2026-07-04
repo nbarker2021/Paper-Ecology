@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 11,
+  "artifact": "D:\\CQE_CMPLX\\TMN_*.db",
+  "why_it_matters": "Tool/runtime/formalization mapping.",
+  "suggested_slots": [
+    "01",
+    "06",
+    "07",
+    "09",
+    "11",
+    "16",
+    "17",
+    "19"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "d7b10ff3efb9588abc1222ba5dd2e150aaaf8940bbc4164cd743b20f88e8f07c"
+}

@@ -1,0 +1,37 @@
+{
+  "original_publication_id": "OPR-33",
+  "original_slot": "33",
+  "title": "Lift-3 Fold: Gauge, Color, And Face-Transport Normal Forms",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-31",
+    "FLCR-32",
+    "FLCR-14"
+  ],
+  "slot_family": "fold_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-3: fold the initial action into a higher-dimensional representation",
+  "proof_form_required": "fold map, coordinate atlas, and representation transport",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "13_Standard_Model_Quark_Face_Transport.md",
+    "supplements/SM_BRIDGE_SUPPLEMENT.md",
+    "FLCR-31/formal.md",
+    "FLCR-32/formal.md",
+    "PAPER_REWORKS_CRYSTAL_PROJECTION.json"
+  ],
+  "formal_target": "represent gauge/color language as a fold of LCR face transport, with all physical identity claims citation/calibration-bound",
+  "semantic_target": "after the supervisor cursor and residual slot 32, the next missing move is a representation fold: the corpus needs a chart that can hold gauge/color translations without pretending translation is measurement",
+  "analog_target": "a face atlas: the same state can be read through different faces, but every face label must point back to the same indexed source object",
+  "claim_lanes": [
+    "standard_theorem_citation_bound_result",
+    "normal_form_result",
+    "falsifier_or_open_obligation"
+  ]
+}

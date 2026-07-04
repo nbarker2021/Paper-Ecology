@@ -1,0 +1,547 @@
+﻿[
+    {
+        "module":  "lattice_codes",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "promoted_core",
+        "recommended_destination":  "promoted to canonical PartsFactory lattice-forge",
+        "cam_actionized_surface":  "Golay/code-chain CAM lookup for Leech and lattice-tower receipts",
+        "promotion_status":  "promoted_2026_06_26"
+    },
+    {
+        "module":  "nebe_gamma72",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "data_bridge",
+        "recommended_destination":  "canonical optional data bridge or package-data candidate",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "unipotent_orbits",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "data_bridge",
+        "recommended_destination":  "canonical optional data bridge or package-data candidate",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "bijection_method",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "formal_suite_src"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "binary_boundary_adapter",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "cayley_dickson_oloid",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "cqe_app",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "enumerated_glue",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "promoted_core",
+        "recommended_destination":  "promoted to canonical PartsFactory lattice-forge",
+        "cam_actionized_surface":  "Leech minimal-shell address, membership, and radix-ribbon lookup surface",
+        "promotion_status":  "promoted_2026_06_26"
+    },
+    {
+        "module":  "equity_premium_5",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "glass_tg_13",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "gravity_bridge",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "herd_immunity_19",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "madelung_17",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "monster_ceiling",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "observation_85",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "oloid_model_selection",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "oloid_predictor",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "orders_crystal.automate_via_tarpit",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "orders_crystal.builder",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "orders_crystal.format_any_topic",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "orders_crystal.morsr_radar",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "pariah_monster_11",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "physical_constants_12",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "proton_radius_21",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "rule_of_72_20",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "shannon_22",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "sm_coupling_bridge",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "sm_nbody_bridge",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "taylor_14",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "temporal_z4_scope",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "unified_tarpit",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "universal_frame",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "extension_review",
+        "recommended_destination":  "manual review before promotion",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "bode_16",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "product/application CAM window; keep as product extension until generalized"
+    },
+    {
+        "module":  "ecs_8",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "product/application CAM window; keep as product extension until generalized"
+    },
+    {
+        "module":  "qcd_84",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "qcd_ceiling",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "vacuum_86",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "product/application CAM window; keep as product extension until generalized"
+    },
+    {
+        "module":  "vacuum_pi_8",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "product",
+        "recommended_destination":  "product extension namespace, not canonical core until receipts prove generality",
+        "cam_actionized_surface":  "product/application CAM window; keep as product extension until generalized"
+    },
+    {
+        "module":  "centroid_voa",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "cqe_rule30_solver",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "Rule 30 CAM face, vignette, or proof-obligation window"
+    },
+    {
+        "module":  "forge_compat",
+        "variants":  [
+                         "one_t"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "one_loop_rg",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "orders_crystal.e8_morsr",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "physics/lattice proof CAM face with verifier or bridge receipt"
+    },
+    {
+        "module":  "rule30_nth_bit",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "Rule 30 CAM face, vignette, or proof-obligation window"
+    },
+    {
+        "module":  "rule30_spectral_predictor",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "Rule 30 CAM face, vignette, or proof-obligation window"
+    },
+    {
+        "module":  "sm_charge_ledger",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "receipt/ledger CAM rows and query-cache surfaces"
+    },
+    {
+        "module":  "transport_obligations",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "proof",
+        "recommended_destination":  "canonical candidate if zero-dep and covered by proof tests/claims",
+        "cam_actionized_surface":  "unclassified CAM action surface; define before promotion"
+    },
+    {
+        "module":  "cmplx_lookup_cache",
+        "variants":  [
+                         "one_t",
+                         "gausshaus",
+                         "r30_proof",
+                         "formal_suite_src",
+                         "cqecmplx_forge_09"
+                     ],
+        "class":  "receipt",
+        "recommended_destination":  "canonical candidate if schema-stable; otherwise receipt supplement/archive",
+        "cam_actionized_surface":  "receipt/ledger CAM rows and query-cache surfaces"
+    },
+    {
+        "module":  "sm_anomaly_ledger",
+        "variants":  [
+                         "one_t",
+                         "gausshaus"
+                     ],
+        "class":  "receipt",
+        "recommended_destination":  "canonical candidate if schema-stable; otherwise receipt supplement/archive",
+        "cam_actionized_surface":  "receipt/ledger CAM rows and query-cache surfaces"
+    }
+]

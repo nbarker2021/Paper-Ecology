@@ -1,0 +1,404 @@
+{
+  "schema": "opr_missing_band_33_40_routing.v1",
+  "purpose": "Route existing FLCR, CAM/crystal, NSIT, forge, and orbital material into the first missing original-ribbon band.",
+  "slots": [
+    {
+      "slot": "33",
+      "original_slot": "33",
+      "proposed_original_publication_id": "OPR-33",
+      "title": "Lift-3 Fold: Gauge, Color, And Face-Transport Normal Forms",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-14"
+      ],
+      "slot_family": "fold_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-3: fold the initial action into a higher-dimensional representation",
+      "proof_form_required": "fold map, coordinate atlas, and representation transport",
+      "same_family_previous_lift": "23",
+      "same_family_next_lift": "43",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md",
+        "FLCR-31/formal.md",
+        "FLCR-32/formal.md",
+        "PAPER_REWORKS_CRYSTAL_PROJECTION.json"
+      ],
+      "formal_target": "represent gauge/color language as a fold of LCR face transport, with all physical identity claims citation/calibration-bound",
+      "semantic_target": "after the supervisor cursor and residual slot 32, the next missing move is a representation fold: the corpus needs a chart that can hold gauge/color translations without pretending translation is measurement",
+      "analog_target": "a face atlas: the same state can be read through different faces, but every face label must point back to the same indexed source object",
+      "linked_flcr": [
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-14"
+      ],
+      "claim_lanes": [
+        "standard_theorem_citation_bound_result",
+        "normal_form_result",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "34",
+      "original_slot": "34",
+      "proposed_original_publication_id": "OPR-34",
+      "title": "Lift-3 Boundary: Electroweak, Higgs, Curvature, And Admission Limits",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-33",
+        "FLCR-35",
+        "FLCR-12",
+        "FLCR-15",
+        "FLCR-16"
+      ],
+      "slot_family": "boundary_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-4: type the boundary, repair row, or curvature-demand condition",
+      "proof_form_required": "typed boundary row and next-state admissibility",
+      "same_family_previous_lift": "24",
+      "same_family_next_lift": "44",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "15_QFT_Higgs_Mass_Residue_Carrier.md",
+        "16_Continuum_Edge_Residuals.md",
+        "FLCR-33/formal.md",
+        "FLCR-35/formal.md",
+        "NSIT_TOOL_CLOSURE_MATRIX.md"
+      ],
+      "formal_target": "type which boundary claims are internal repair/admission results and which require external field-theory or GR calibration",
+      "semantic_target": "once gauge/color folds exist, the next state must decide what crosses the boundary as a valid claim, what remains a residue, and what becomes calibration demand",
+      "analog_target": "a typed interface: changing the boundary label does not change whether the state is admitted, blocked, repaired, or routed onward",
+      "linked_flcr": [
+        "FLCR-33",
+        "FLCR-35",
+        "FLCR-12",
+        "FLCR-15",
+        "FLCR-16"
+      ],
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "external_calibration_result",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "35",
+      "original_slot": "35",
+      "proposed_original_publication_id": "OPR-35",
+      "title": "Lift-3 Carrier: Electron-Hole-Exciton, Materials, Plasma, And Traversal",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-34",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-24",
+        "FLCR-25"
+      ],
+      "slot_family": "carrier_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-5: carry the state through a path, traversal, or admissible motion",
+      "proof_form_required": "carrier/transducer/path proof",
+      "same_family_previous_lift": "25",
+      "same_family_next_lift": "45",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "22_MetaForge_Applied_Materials.md",
+        "25_Energetic_Traversal_Maps.md",
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md",
+        "supplements/APPLIED_FORGES_WORKBOOK.md",
+        "FLCR-34/formal.md",
+        "FLCR-36/formal.md",
+        "FLCR-37/formal.md"
+      ],
+      "formal_target": "state carrier transport as path/transducer/invariant preservation, then map electron-hole-exciton and materials/plasma language as bounded carrier interpretations",
+      "semantic_target": "after boundary typing, the system needs a carrier paper showing how addressed state moves through actual traversal, material, exciton, and plasma-facing models",
+      "analog_target": "a conserved payload through several media: the access label changes at each medium, while the transported invariant remains auditable",
+      "linked_flcr": [
+        "FLCR-34",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-24",
+        "FLCR-25"
+      ],
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "standard_theorem_citation_bound_result",
+        "cam_crystal_reapplication_result",
+        "external_calibration_result"
+      ]
+    },
+    {
+      "slot": "36",
+      "original_slot": "36",
+      "proposed_original_publication_id": "OPR-36",
+      "title": "Lift-3 Ledger: Observer, AI Runtime, Falsifier, And Tool-Closure Accounting",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-30"
+      ],
+      "slot_family": "ledger_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-6: bind state into causal, observer, or synchronization ledgers",
+      "proof_form_required": "ledger, graph, and synchronization proof",
+      "same_family_previous_lift": "26",
+      "same_family_next_lift": "46",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "10_T10_Master_Receipt.md",
+        "32_The_Supervisor_Cursor.md",
+        "FLCR-38/formal.md",
+        "FLCR-39/formal.md",
+        "NSIT_REASONED_CLOSURE_PASS.md",
+        "CAM_CLAIM_100_SCORE_AUDIT.md"
+      ],
+      "formal_target": "bind observer/runtime claims into ledgers, dependency graphs, falsifier rows, and tool-closure accounting",
+      "semantic_target": "after carrier motion, the system must record who observed what, which tool closed what, and which obligations still spring forward",
+      "analog_target": "an audit graph: the interpretation may add names for nodes, but the dependency edges and receipts remain fixed",
+      "linked_flcr": [
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-30"
+      ],
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "37",
+      "original_slot": "37",
+      "proposed_original_publication_id": "OPR-37",
+      "title": "Lift-3 Bridge: Discrete-Continuous, Standard-Model, And Calibration Correspondence",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-08",
+        "FLCR-31",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37"
+      ],
+      "slot_family": "bridge_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+      "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+      "same_family_previous_lift": "27",
+      "same_family_next_lift": "47",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "07_Discrete_Continuous_Bridge.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.md",
+        "FLCR-31/formal.md",
+        "FLCR-35/formal.md",
+        "FLCR-36/formal.md",
+        "FLCR-37/formal.md"
+      ],
+      "formal_target": "turn cross-domain translation into explicit correspondence tables with units, citations, calibration requirements, and non-promotion guards",
+      "semantic_target": "after ledgers exist, the next state is a bridge: what can safely cross from LCR-native proof into standard mathematics or measured physics language",
+      "analog_target": "a bilingual correspondence table: every translated phrase must keep its source row and target row paired",
+      "linked_flcr": [
+        "FLCR-08",
+        "FLCR-31",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37"
+      ],
+      "claim_lanes": [
+        "standard_theorem_citation_bound_result",
+        "normal_form_result",
+        "external_calibration_result",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "38",
+      "original_slot": "38",
+      "proposed_original_publication_id": "OPR-38",
+      "title": "Lift-3 Terminal: Forges, Lattice Lookup, CAM, Crystal Projector, And Runtime Addresses",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-38"
+      ],
+      "slot_family": "terminal_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-8: land into lattice, game, runtime, or terminal address surfaces",
+      "proof_form_required": "terminal lookup, invariant split, and addressability proof",
+      "same_family_previous_lift": "28",
+      "same_family_next_lift": "48",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "08_Lattice_Closure.md",
+        "21_MorphForge_PolyForge_MorphoniX.md",
+        "22_MetaForge_Applied_Materials.md",
+        "23_FoldForge_Protein_Folding.md",
+        "28_N_Dimensional_Game_Lattices.md",
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "supplements/LATTICE_FORGE_UNIFICATION_SUPPLEMENT.md",
+        "lattice_forge_unification/LATTICE_FORGE_UNIFICATION_MAP.md",
+        "FLCR-28/formal.md"
+      ],
+      "formal_target": "show the terminal address layer where CAM, crystals, forges, and lattice-forge lookups actionize the proof state into instant addressable forms",
+      "semantic_target": "after bridges are defined, the system needs terminal addresses: the point where the proof state becomes a callable forge/CAM/crystal/lattice lookup",
+      "analog_target": "an addressable library shelf: the storage form can vary, but the lookup key must return the same state object and evidence boundary",
+      "linked_flcr": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-38"
+      ],
+      "claim_lanes": [
+        "receipt_bound_internal_result",
+        "cam_crystal_reapplication_result",
+        "normal_form_result",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "39",
+      "original_slot": "39",
+      "proposed_original_publication_id": "OPR-39",
+      "title": "Lift-3 Window: Whole-Corpus Readout, Normal-Form Intake, And Pre-Closure Synthesis",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "slot_family": "window_action",
+      "lift_depth": 3,
+      "dimensional_role": "order-4 slot-9: read the ribbon through windows, meta-readouts, or synthesis bands",
+      "proof_form_required": "window count, source preservation, and meta-ribbon proof",
+      "same_family_previous_lift": "29",
+      "same_family_next_lift": "49",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md",
+        "32_The_Supervisor_Cursor.md",
+        "FLCR-29/formal.md",
+        "FLCR-30/formal.md",
+        "FLCR-39/formal.md",
+        "FLCR-40/formal.md",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.md"
+      ],
+      "formal_target": "read the full prior band through windows, standards, normal-form intake, and explicit preconditions for slot 40 closure",
+      "semantic_target": "before the `40` closure, the corpus must be viewed as a whole window: what is known, what is routed, what is blocked, and what can lift",
+      "analog_target": "a moving aperture over the corpus: the window summarizes without changing the underlying receipts or open obligations",
+      "linked_flcr": [
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "claim_lanes": [
+        "normal_form_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ]
+    },
+    {
+      "slot": "40",
+      "original_slot": "40",
+      "proposed_original_publication_id": "OPR-40",
+      "title": "Lift-4 Closure: Receipt-Bound Grand Normal Form After Slots 33-39",
+      "status": "routed_expansion",
+      "source_file": null,
+      "linked_flcr_papers": [
+        "FLCR-40",
+        "FLCR-39",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "slot_family": "closure_lift",
+      "lift_depth": 4,
+      "dimensional_role": "4x ten-window closure/lift",
+      "proof_form_required": "aggregate receipt and open-slot preservation",
+      "same_family_previous_lift": "30",
+      "same_family_next_lift": "50",
+      "triad_strategy": {
+        "formal": "bind accepted math, verifier receipts, CAM/crystal reapplications, and claim lanes for this exact original slot",
+        "companion": "explain why this state happens after the prior slot and why the same-family lift matters",
+        "workbook": "prove the relabeling/analog path preserves the addressed state"
+      },
+      "source_lanes": [
+        "FLCR-40/formal.md",
+        "FLCR-39/formal.md",
+        "POSITIONING_VALIDATION_REPORT.md",
+        "STATE_BOUND_PROOF_CONTRACT_MATRIX.md",
+        "ORIGINAL_80_PUBLICATION_EXPANSION_PLAN.md"
+      ],
+      "formal_target": "close the `30-39` lift only after slots `33-39` have formal contracts, source lanes, analog invariance tests, and falsifier boundaries",
+      "semantic_target": "slot `40` is not a standalone grand finale; it is the receipt of the completed lift-3 band and the springboard into lift 4",
+      "analog_target": "a sealed bundle: the closure label changes the window state, but every included slot remains individually addressable",
+      "linked_flcr": [
+        "FLCR-40",
+        "FLCR-39",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "claim_lanes": [
+        "normal_form_result",
+        "grand_synthesis_claim",
+        "falsifier_or_open_obligation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "schema": "flcr.assembled_flcr_products.v1",
+  "generated_at": "2026-07-01T06:22:56.882342+00:00",
+  "output_dir": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS",
+  "product_count": 40,
+  "assemble_fulfilled_count": 39,
+  "guardrail_tiers": {
+    "assemble_clean": 39,
+    "assemble_with_testing_caveat": 1
+  },
+  "standards_model": "cmplx.assembled_paper",
+  "products": [
+    {
+      "paper_id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-01__Grounding_Contract_And_Axiom_Discipline__assembled.md",
+      "section_count": 16,
+      "evidence_count": 2427,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 77.941176,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 7
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-01__intake.json"
+    },
+    {
+      "paper_id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-02__The_LCR_Carrier__assembled.md",
+      "section_count": 16,
+      "evidence_count": 984,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-02__intake.json"
+    },
+    {
+      "paper_id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-03__Correction_Surface_And_Residual_Accounting__assembled.md",
+      "section_count": 16,
+      "evidence_count": 778,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-03__intake.json"
+    },
+    {
+      "paper_id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-04__D4_J3_O_Triality_And_Representation_Transport__assembled.md",
+      "section_count": 16,
+      "evidence_count": 866,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-04__intake.json"
+    },
+    {
+      "paper_id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-05__Typed_Boundary_Repair__assembled.md",
+      "section_count": 16,
+      "evidence_count": 877,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 77.941176,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 7
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-05__intake.json"
+    },
+    {
+      "paper_id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1644,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-06__intake.json"
+    },
+    {
+      "paper_id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-07__Causal_Links_And_Obligation_Ledgers__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1084,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-07__intake.json"
+    },
+    {
+      "paper_id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-08__Discrete_Continuous_Bridge_Without_Physical_Overclaim__assembled.md",
+      "section_count": 16,
+      "evidence_count": 4637,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-08__intake.json"
+    },
+    {
+      "paper_id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-09__Lattice_Closure_And_Terminal_Addresses__assembled.md",
+      "section_count": 16,
+      "evidence_count": 3646,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-09__intake.json"
+    },
+    {
+      "paper_id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__assembled.md",
+      "section_count": 16,
+      "evidence_count": 473,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-10__intake.json"
+    },
+    {
+      "paper_id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-11__Master_Receipt_And_Stack_Replay__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1092,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-11__intake.json"
+    },
+    {
+      "paper_id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-12__Theory_Admission_Gates__assembled.md",
+      "section_count": 16,
+      "evidence_count": 2041,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-12__intake.json"
+    },
+    {
+      "paper_id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-13__Cellular_Automata_Prediction_Surfaces__assembled.md",
+      "section_count": 16,
+      "evidence_count": 940,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-13__intake.json"
+    },
+    {
+      "paper_id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__assembled.md",
+      "section_count": 16,
+      "evidence_count": 234,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-14__intake.json"
+    },
+    {
+      "paper_id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-15__Curvature_As_Boundary_Repair_Demand__assembled.md",
+      "section_count": 16,
+      "evidence_count": 219,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 77.941176,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 7
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-15__intake.json"
+    },
+    {
+      "paper_id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-16__Mass_Residue_And_Carrier_Accounting__assembled.md",
+      "section_count": 16,
+      "evidence_count": 75,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 63.235294,
+        "inclusion_band": "weak_inclusive",
+        "missing_field_count": 10
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-16__intake.json"
+    },
+    {
+      "paper_id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-17__Continuum_Edge_Residuals__assembled.md",
+      "section_count": 16,
+      "evidence_count": 4953,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-17__intake.json"
+    },
+    {
+      "paper_id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1215,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 77.941176,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 7
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-18__intake.json"
+    },
+    {
+      "paper_id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-19__Layer_2_Synthesis_Ledger__assembled.md",
+      "section_count": 16,
+      "evidence_count": 332,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 67.647059,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 9
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-19__intake.json"
+    },
+    {
+      "paper_id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__assembled.md",
+      "section_count": 16,
+      "evidence_count": 769,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-20__intake.json"
+    },
+    {
+      "paper_id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-21__Materials_Candidate_Generation__assembled.md",
+      "section_count": 16,
+      "evidence_count": 4884,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-21__intake.json"
+    },
+    {
+      "paper_id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__assembled.md",
+      "section_count": 16,
+      "evidence_count": 3042,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-22__intake.json"
+    },
+    {
+      "paper_id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__assembled.md",
+      "section_count": 16,
+      "evidence_count": 926,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-23__intake.json"
+    },
+    {
+      "paper_id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "status": "ASSEMBLE_PENDING_NEW_TEST",
+      "guardrail_tier": "assemble_with_testing_caveat",
+      "assemble_fulfilled": false,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-24__Energetic_Traversal_Maps__assembled.md",
+      "section_count": 16,
+      "evidence_count": 2945,
+      "blocker_count": 1,
+      "standards_grade": {
+        "fit_score": 61.854839,
+        "inclusion_band": "weak_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-24__intake.json"
+    },
+    {
+      "paper_id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-25__Shear_Plasma_And_Carrier_Horizons__assembled.md",
+      "section_count": 16,
+      "evidence_count": 878,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-25__intake.json"
+    },
+    {
+      "paper_id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-26__Observer_Delay_And_Shared_State_Protocols__assembled.md",
+      "section_count": 16,
+      "evidence_count": 97,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-26__intake.json"
+    },
+    {
+      "paper_id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__assembled.md",
+      "section_count": 16,
+      "evidence_count": 387,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-27__intake.json"
+    },
+    {
+      "paper_id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-28__CAM_Crystal_Projectors_And_MannyAI_Runtime__assembled.md",
+      "section_count": 16,
+      "evidence_count": 3219,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-28__intake.json"
+    },
+    {
+      "paper_id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-29__Corpus_Ribbon_And_Retrospective_LCR_Readout__assembled.md",
+      "section_count": 16,
+      "evidence_count": 4830,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-29__intake.json"
+    },
+    {
+      "paper_id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__assembled.md",
+      "section_count": 16,
+      "evidence_count": 423,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-30__intake.json"
+    },
+    {
+      "paper_id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-31__Gauge_Groups_Translated_Into_LCR__assembled.md",
+      "section_count": 16,
+      "evidence_count": 781,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-31__intake.json"
+    },
+    {
+      "paper_id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-32__QCD_And_Color_Transport_In_LCR__assembled.md",
+      "section_count": 16,
+      "evidence_count": 751,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-32__intake.json"
+    },
+    {
+      "paper_id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__assembled.md",
+      "section_count": 16,
+      "evidence_count": 758,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-33__intake.json"
+    },
+    {
+      "paper_id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-34__Electron_Hole_Exciton_Accounting__assembled.md",
+      "section_count": 16,
+      "evidence_count": 740,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-34__intake.json"
+    },
+    {
+      "paper_id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-35__GR_Curvature_And_Continuum_Translation__assembled.md",
+      "section_count": 16,
+      "evidence_count": 832,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-35__intake.json"
+    },
+    {
+      "paper_id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-36__Condensed_Matter_Materials_And_Metamaterials__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1568,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-36__intake.json"
+    },
+    {
+      "paper_id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-37__Plasma_Energy_And_Traversal_Calibration__assembled.md",
+      "section_count": 16,
+      "evidence_count": 773,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-37__intake.json"
+    },
+    {
+      "paper_id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-38__Observer_Computation_And_AI_Runtime_Translation__assembled.md",
+      "section_count": 16,
+      "evidence_count": 2036,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-38__intake.json"
+    },
+    {
+      "paper_id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-39__Falsifiers_Comparators_And_Standards_Of_Evidence__assembled.md",
+      "section_count": 16,
+      "evidence_count": 1443,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-39__intake.json"
+    },
+    {
+      "paper_id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "status": "ASSEMBLE",
+      "guardrail_tier": "assemble_clean",
+      "assemble_fulfilled": true,
+      "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-40__Grand_Reconstruction_Map_And_Trust_Removal_Protocol__assembled.md",
+      "section_count": 16,
+      "evidence_count": 2069,
+      "blocker_count": 0,
+      "standards_grade": {
+        "fit_score": 73.529412,
+        "inclusion_band": "partial_inclusive",
+        "missing_field_count": 8
+      },
+      "intake_json": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\ASSEMBLED_FLCR_PRODUCTS\\FLCR-40__intake.json"
+    }
+  ]
+}

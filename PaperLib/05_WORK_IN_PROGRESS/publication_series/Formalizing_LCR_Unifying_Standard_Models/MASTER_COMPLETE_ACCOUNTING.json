@@ -1,0 +1,1448 @@
+{
+  "generated_utc": "2026-07-01T02:41:42.885415+00:00",
+  "roots": {
+    "publication_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models",
+    "flat_export": "D:\\CQE_CMPLX\\papers\\active-rework\\FINAL_PAPERS_FLCR_UNIFIED",
+    "zip": "D:\\CQE_CMPLX\\papers\\active-rework\\Formalizing_LCR_Unifying_Standard_Models_FINAL_FLAT.zip"
+  },
+  "doctrine": {
+    "analog_toolkit": "universal STEM access kit, proof aid, overclaim guard",
+    "guardrails": "AI automation and claim-promotion controls, not human creativity restrictions",
+    "claim_posture": "state maximal claim, show proven parts, route obligations",
+    "physics_direction": "later papers move toward literal physics through adapters/calibration/falsifiers"
+  },
+  "papers": [
+    {
+      "id": "FLCR-01",
+      "title": "Grounding Contract And Axiom Discipline",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "00_Established_Grounding_and_Axiom_Contract.md",
+        "supplements/00_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 59868,
+      "companion_bytes": 13952,
+      "workbook_bytes": 13460,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-02",
+      "title": "The LCR Carrier",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "01_LCR_Chain_Carrier.md",
+        "supplements/01_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 56250,
+      "companion_bytes": 10354,
+      "workbook_bytes": 11065,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-03",
+      "title": "Correction Surface And Residual Accounting",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "02_Correction_Surface.md",
+        "supplements/02_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 52561,
+      "companion_bytes": 9978,
+      "workbook_bytes": 10730,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-04",
+      "title": "D4, J3(O), Triality, And Representation Transport",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "03_D4_J3_Triality_Surface.md",
+        "supplements/03_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 55530,
+      "companion_bytes": 10307,
+      "workbook_bytes": 10843,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-05",
+      "title": "Typed Boundary Repair",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "04_Boundary_Repair.md",
+        "supplements/04_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 51563,
+      "companion_bytes": 9926,
+      "workbook_bytes": 10739,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-06",
+      "title": "Oloid Path Carrier And Transport Geometry",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "05_Oloid_Path_Carrier.md",
+        "supplements/05_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 56880,
+      "companion_bytes": 10722,
+      "workbook_bytes": 11029,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-07",
+      "title": "Causal Links And Obligation Ledgers",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "supplements/06_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 64365,
+      "companion_bytes": 12956,
+      "workbook_bytes": 12445,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-08",
+      "title": "Discrete-Continuous Bridge Without Physical Overclaim",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "07_Discrete_Continuous_Bridge.md",
+        "supplements/07_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 56743,
+      "companion_bytes": 12364,
+      "workbook_bytes": 12543,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-09",
+      "title": "Lattice Closure And Terminal Addresses",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "08_Lattice_Closure.md",
+        "supplements/08_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 59614,
+      "companion_bytes": 12811,
+      "workbook_bytes": 11806,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-10",
+      "title": "Temporal Windows And Hamiltonian Readouts",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "09_Hamiltonian_Window_Emergence.md",
+        "virtuous/09_Hamiltonian_Window_Emergence_VIRTUOUS.md",
+        "supplements/09_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 59472,
+      "companion_bytes": 10408,
+      "workbook_bytes": 11101,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-11",
+      "title": "Master Receipt And Stack Replay",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "10_T10_Master_Receipt.md",
+        "virtuous/10_T10_Master_Receipt_VIRTUOUS.md",
+        "supplements/10_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 58921,
+      "companion_bytes": 12717,
+      "workbook_bytes": 11901,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-12",
+      "title": "Theory Admission Gates",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "11_Theory_Admission_Gate.md",
+        "virtuous/11_Theory_Admission_Gate_VIRTUOUS.md",
+        "supplements/11_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 60239,
+      "companion_bytes": 11836,
+      "workbook_bytes": 11271,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-13",
+      "title": "Cellular Automata Prediction Surfaces",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "12_CA_Prediction_Surface.md",
+        "virtuous/12_CA_Prediction_Surface_VIRTUOUS.md",
+        "supplements/12_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 62648,
+      "companion_bytes": 14362,
+      "workbook_bytes": 12573,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-14",
+      "title": "Quark-Face Algebra Before Standard-Model Translation",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "virtuous/13_Standard-Model_Quark-Face_Transport_VIRTUOUS.md",
+        "supplements/13_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 57849,
+      "companion_bytes": 12457,
+      "workbook_bytes": 12010,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-15",
+      "title": "Curvature As Boundary-Repair Demand",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "virtuous/14_GR_Boundary-Repair_Curvature_VIRTUOUS.md",
+        "supplements/14_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 55212,
+      "companion_bytes": 11398,
+      "workbook_bytes": 11250,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-16",
+      "title": "Mass Residue And Carrier Accounting",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md",
+        "virtuous/15_QFT_Higgs_Mass-Residue_Carrier_VIRTUOUS.md",
+        "supplements/15_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 59090,
+      "companion_bytes": 12388,
+      "workbook_bytes": 12108,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-17",
+      "title": "Continuum Edge Residuals",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "16_Continuum_Edge_Residuals.md",
+        "virtuous/16_Continuum_Edge_Residuals_VIRTUOUS.md",
+        "supplements/16_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 56456,
+      "companion_bytes": 13818,
+      "workbook_bytes": 12707,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-18",
+      "title": "Exceptional Towers, VOA Routes, And Observer Face Selection",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "17_E6_E8_Error_Correction_Tower.md",
+        "18_VOA_Moonshine_Representation_Routes.md",
+        "19_Observer_Face_Selection.md",
+        "supplements/17_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/18_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/19_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 66166,
+      "companion_bytes": 13556,
+      "workbook_bytes": 14662,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-19",
+      "title": "Layer-2 Synthesis Ledger",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "20_Layer_2_Synthesis_Ledger.md",
+        "virtuous/20_Layer-2_Synthesis_Ledger_VIRTUOUS.md",
+        "supplements/20_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 55499,
+      "companion_bytes": 14840,
+      "workbook_bytes": 12489,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-20",
+      "title": "Applied Forge Reader And Descriptor Kernel",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "21_MorphForge_PolyForge_MorphoniX.md",
+        "virtuous/21_MorphForge___PolyForge___MorphoniX_VIRTUOUS.md",
+        "supplements/21_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 67070,
+      "companion_bytes": 12990,
+      "workbook_bytes": 12045,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-21",
+      "title": "Materials Candidate Generation",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md",
+        "virtuous/22_MetaForge_Applied_Materials_VIRTUOUS.md",
+        "supplements/22_INTERNAL_REASONING_SUPPLEMENT.md",
+        "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 61491,
+      "companion_bytes": 14308,
+      "workbook_bytes": 12764,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-22",
+      "title": "Protein Descriptor And Fold-Facing Kernel",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "23_FoldForge_Protein_Folding.md",
+        "virtuous/23_FoldForge_Protein_Folding_VIRTUOUS.md",
+        "supplements/23_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 59632,
+      "companion_bytes": 12426,
+      "workbook_bytes": 11455,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-23",
+      "title": "Finite Game Lattices And Local Rule Automata",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "24_KnightForge_N_Dimensional_Chess_Automata.md",
+        "28_N_Dimensional_Game_Lattices.md",
+        "virtuous/24_KnightForge___N-Dimensional_Chess_Automata_VIRTUOUS.md",
+        "virtuous/28_N-Dimensional_Game_Lattices_VIRTUOUS.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 64383,
+      "companion_bytes": 12987,
+      "workbook_bytes": 12521,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-24",
+      "title": "Energetic Traversal Maps",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md",
+        "virtuous/25_Energetic_Traversal_Maps_VIRTUOUS.md",
+        "supplements/25_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 59141,
+      "companion_bytes": 12972,
+      "workbook_bytes": 11961,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-25",
+      "title": "Shear, Plasma, And Carrier Horizons",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "virtuous/26_Z-Pinch_and_Shear_Horizon_VIRTUOUS.md",
+        "supplements/26_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 55242,
+      "companion_bytes": 11771,
+      "workbook_bytes": 11335,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-26",
+      "title": "Observer Delay And Shared-State Protocols",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "virtuous/27_Observer_Delay_and_Shared_Reality_VIRTUOUS.md",
+        "supplements/27_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 60497,
+      "companion_bytes": 12787,
+      "workbook_bytes": 12016,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-27",
+      "title": "Monster Ceiling And Large-Invariant Boundaries",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md",
+        "virtuous/29_Monster_Universal_Energy-Bound_Hypotheses_VIRTUOUS.md",
+        "supplements/29_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "PRIME_CHART_MONSTER_RENORMALIZATION_PASS.json",
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 63147,
+      "companion_bytes": 13247,
+      "workbook_bytes": 12125,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-28",
+      "title": "CAM, Crystal Projectors, And MannyAI Runtime",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "supplements/CRYSTAL_CAM_PROJECTOR_SUPPLEMENT.md",
+        "AGENT_CRYSTAL_WORK_HARVEST.md",
+        "PAPER_REWORKS_CRYSTAL_REPORT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 58622,
+      "companion_bytes": 10374,
+      "workbook_bytes": 13316,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-29",
+      "title": "Corpus Ribbon And Retrospective LCR Readout",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md",
+        "virtuous/30_Grand_Ribbon_Meta-Framer_VIRTUOUS.md",
+        "virtuous/31_It_Was_Still_Just_LCR_VIRTUOUS.md"
+      ],
+      "receipts": [
+        "PRIME_CHART_MONSTER_RENORMALIZATION_PASS.json",
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 61418,
+      "companion_bytes": 13888,
+      "workbook_bytes": 12097,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-30",
+      "title": "Supervisor Cursor And Universal Normal-Form Intake",
+      "band": "lcr_native",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "32_The_Supervisor_Cursor.md",
+        "virtuous/32_The_Supervisor_Cursor_VIRTUOUS.md",
+        "supplements/32_INTERNAL_REASONING_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 61340,
+      "companion_bytes": 15118,
+      "workbook_bytes": 13212,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-31",
+      "title": "Gauge Groups Translated Into LCR",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 68008,
+      "companion_bytes": 13732,
+      "workbook_bytes": 13688,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-32",
+      "title": "QCD And Color Transport In LCR",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "13_Standard_Model_Quark_Face_Transport.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 67497,
+      "companion_bytes": 13551,
+      "workbook_bytes": 13681,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-33",
+      "title": "Electroweak, Higgs, And Mass Residue Translation",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "15_QFT_Higgs_Mass_Residue_Carrier.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 66270,
+      "companion_bytes": 13607,
+      "workbook_bytes": 13761,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-34",
+      "title": "Electron-Hole-Exciton Accounting",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "NP-12_Electron_Hole_Exciton_Accounting_For_Open_Math.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 50625,
+      "companion_bytes": 8015,
+      "workbook_bytes": 10953,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-35",
+      "title": "GR, Curvature, And Continuum Translation",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "14_GR_Boundary_Repair_Curvature.md",
+        "16_Continuum_Edge_Residuals.md",
+        "supplements/SM_BRIDGE_SUPPLEMENT.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 66084,
+      "companion_bytes": 14220,
+      "workbook_bytes": 14838,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-36",
+      "title": "Condensed Matter, Materials, And Metamaterials",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "22_MetaForge_Applied_Materials.md",
+        "supplements/METAFORGE_MATERIALS_SUPPLEMENT.md",
+        "NP-12_Electron_Hole_Exciton_Accounting_For_Open_Math.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 73385,
+      "companion_bytes": 15518,
+      "workbook_bytes": 14486,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-37",
+      "title": "Plasma, Energy, And Traversal Calibration",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "25_Energetic_Traversal_Maps.md",
+        "26_Z_Pinch_and_Shear_Horizon.md",
+        "29_Monster_Universal_Energy_Bound_Hypotheses.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json"
+      ],
+      "formal_bytes": 71063,
+      "companion_bytes": 16553,
+      "workbook_bytes": 15597,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-38",
+      "title": "Observer, Computation, And AI Runtime Translation",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "19_Observer_Face_Selection.md",
+        "27_Observer_Delay_and_Shared_Reality.md",
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "31_It_Was_Still_Just_LCR.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 83557,
+      "companion_bytes": 18706,
+      "workbook_bytes": 17728,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-39",
+      "title": "Falsifiers, Comparators, And Standards Of Evidence",
+      "band": "standard_model_bridge_preview",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "06_Causal_Link_and_Obligation_Ledger.md",
+        "10_T10_Master_Receipt.md",
+        "11_Theory_Admission_Gate.md",
+        "20_Layer_2_Synthesis_Ledger.md",
+        "32_The_Supervisor_Cursor.md",
+        "NSIT_VALIDITY_REBUILD_PROTOCOL.md"
+      ],
+      "receipts": [
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 84936,
+      "companion_bytes": 16053,
+      "workbook_bytes": 15765,
+      "pdf_present": true
+    },
+    {
+      "id": "FLCR-40",
+      "title": "Grand Reconstruction Map And Trust-Removal Protocol",
+      "band": "reconstruction_map",
+      "status": "first_pass_rich_rewrite",
+      "legacy_paths": [
+        "30_Grand_Ribbon_Meta_Framer.md",
+        "32_The_Supervisor_Cursor.md",
+        "ORBITAL_DATA_CROSS_POPULATION_AUDIT.md",
+        "NSIT_REASONED_CLOSURE_PASS.md"
+      ],
+      "receipts": [
+        "TARPIT_LIFT_TOWER_PASS.json",
+        "UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.json",
+        "DAMASCUS_TARPIT_FOLDING_PASS.json",
+        "FINE_BONDING_STABILIZATION_DERIVATION_PASS.json",
+        "PRIME_CHART_MONSTER_RENORMALIZATION_PASS.json",
+        "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+        "PEER_REVIEWER_ASSESSMENT_PASS.json",
+        "REVIEWER_CLAIM_LEDGER_PASS.json",
+        "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+        "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json"
+      ],
+      "formal_bytes": 79803,
+      "companion_bytes": 8950,
+      "workbook_bytes": 11402,
+      "pdf_present": true
+    }
+  ],
+  "standard_model_defining_layer": [
+    {
+      "id": "SMB-01",
+      "title": "SMB-01",
+      "formal_bytes": 8349,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-01",
+      "title": "SMD-01",
+      "formal_bytes": 7697,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-02",
+      "title": "SMD-02",
+      "formal_bytes": 6996,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-03",
+      "title": "SMD-03",
+      "formal_bytes": 7170,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-04",
+      "title": "SMD-04",
+      "formal_bytes": 7145,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-05",
+      "title": "SMD-05",
+      "formal_bytes": 6840,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-06",
+      "title": "SMD-06",
+      "formal_bytes": 7151,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-07",
+      "title": "SMD-07",
+      "formal_bytes": 7300,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-08",
+      "title": "SMD-08",
+      "formal_bytes": 8045,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-09",
+      "title": "SMD-09",
+      "formal_bytes": 7349,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-10",
+      "title": "SMD-10",
+      "formal_bytes": 7831,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-11",
+      "title": "SMD-11",
+      "formal_bytes": 7872,
+      "companion_present": true,
+      "workbook_present": true
+    },
+    {
+      "id": "SMD-12",
+      "title": "SMD-12",
+      "formal_bytes": 7758,
+      "companion_present": true,
+      "workbook_present": true
+    }
+  ],
+  "receipts": [
+    {
+      "name": "AGENT_DISCOVERY_SYNTHESIS_PASS.md",
+      "json": "AGENT_DISCOVERY_SYNTHESIS_PASS.json",
+      "bytes": 6250,
+      "modified": 1782770772.298334,
+      "status": "",
+      "summary": "# Agent Discovery Synthesis Pass"
+    },
+    {
+      "name": "ARCHIVE_INTAKE_PASS.md",
+      "json": "ARCHIVE_INTAKE_PASS.json",
+      "bytes": 35130,
+      "modified": 1782873591.29832,
+      "status": "",
+      "summary": "# Archive Intake Pass"
+    },
+    {
+      "name": "ASSERTIVE_CLOSURE_APPLICATION_PASS.md",
+      "json": "ASSERTIVE_CLOSURE_APPLICATION_PASS.json",
+      "bytes": 4285,
+      "modified": 1782679818.7281697,
+      "status": "",
+      "summary": "# Assertive Closure Application Pass"
+    },
+    {
+      "name": "BROAD_CAPABILITY_INTAKE_PASS.md",
+      "json": "BROAD_CAPABILITY_INTAKE_PASS.json",
+      "bytes": 4883,
+      "modified": 1782749853.2018454,
+      "status": "",
+      "summary": "# Broad Capability Intake Pass"
+    },
+    {
+      "name": "BROAD_CAPABILITY_REAPPLICATION_REVIEW_PASS.md",
+      "json": "BROAD_CAPABILITY_REAPPLICATION_REVIEW_PASS.json",
+      "bytes": 9669,
+      "modified": 1782750143.0202754,
+      "status": "",
+      "summary": "# Broad Capability Reapplication Review Pass"
+    },
+    {
+      "name": "CAM_DATABASE_INTAKE_PASS.md",
+      "json": "CAM_DATABASE_INTAKE_PASS.json",
+      "bytes": 28134,
+      "modified": 1782873597.8682086,
+      "status": "",
+      "summary": "# CAM Database Intake Pass"
+    },
+    {
+      "name": "CUTTING_EDGE_EXTERNAL_PAPER_DISCOVERY_2026_PASS.md",
+      "json": "",
+      "bytes": 17299,
+      "modified": 1782757930.405485,
+      "status": "",
+      "summary": "# Cutting-Edge External Paper Discovery Pass, 2026 Window"
+    },
+    {
+      "name": "D_DRIVE_INVENTORY_PAPER_GAP_PASS.md",
+      "json": "D_DRIVE_INVENTORY_PAPER_GAP_PASS.json",
+      "bytes": 62476,
+      "modified": 1782873531.5292828,
+      "status": "",
+      "summary": "# D-Drive Inventory Paper Gap Pass"
+    },
+    {
+      "name": "DAMASCUS_TARPIT_FOLDING_PASS.md",
+      "json": "DAMASCUS_TARPIT_FOLDING_PASS.json",
+      "bytes": 1452,
+      "modified": 1782682218.2766397,
+      "status": "pass",
+      "summary": "# Damascus TarPit Folding Pass"
+    },
+    {
+      "name": "EXTERNAL_ORIENTATION_GRANULARITY_PASS.md",
+      "json": "EXTERNAL_ORIENTATION_GRANULARITY_PASS.json",
+      "bytes": 2456,
+      "modified": 1782753019.547824,
+      "status": "Reduce self-reference and improve proof granularity without introducing new evidence or new claims.",
+      "summary": "# External Orientation And Claim Granularity Pass"
+    },
+    {
+      "name": "EXTERNAL_PAPER_INGRESS_80_DERIVATION_PASS.md",
+      "json": "EXTERNAL_PAPER_INGRESS_80_DERIVATION_PASS.json",
+      "bytes": 1034,
+      "modified": 1782873678.691982,
+      "status": "",
+      "summary": "# External Paper Ingress 80 \u2014 Derivation Pass"
+    },
+    {
+      "name": "FINE_BONDING_STABILIZATION_DERIVATION_PASS.md",
+      "json": "FINE_BONDING_STABILIZATION_DERIVATION_PASS.json",
+      "bytes": 4073,
+      "modified": 1782682774.8298438,
+      "status": "pass",
+      "summary": "# Fine-Bonding Stabilization Derivation Pass"
+    },
+    {
+      "name": "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.md",
+      "json": "MANNYAI_DOCKER_REVIEW_LANE_INTAKE_PASS.json",
+      "bytes": 6765,
+      "modified": 1782758997.872892,
+      "status": "",
+      "summary": "# MannyAI Docker Review Lane Intake Pass"
+    },
+    {
+      "name": "MANNYAI_STANDARDS_WINDOW_APPLICATION_PASS.md",
+      "json": "MANNYAI_STANDARDS_WINDOW_APPLICATION_PASS.json",
+      "bytes": 3993,
+      "modified": 1782662826.7414854,
+      "status": "",
+      "summary": "# MannyAI Standards And Window Application Pass"
+    },
+    {
+      "name": "ONLINE_SOURCE_APPLICATION_PASS.md",
+      "json": "ONLINE_SOURCE_APPLICATION_PASS.json",
+      "bytes": 5428,
+      "modified": 1782679044.8076837,
+      "status": "Apply authoritative online sources directly to FLCR-31..40 and the Standard Model Defining layer by claim lane.",
+      "summary": "# Online Source Application Pass"
+    },
+    {
+      "name": "PAPER_ASSEMBLY_AUDIT_PASS.md",
+      "json": "PAPER_ASSEMBLY_AUDIT_PASS.json",
+      "bytes": 20690,
+      "modified": 1782873690.9196882,
+      "status": "",
+      "summary": "# Paper Assembly Audit Pass"
+    },
+    {
+      "name": "PEER_REVIEW_SEQUENCE_PASS.md",
+      "json": "PEER_REVIEW_SEQUENCE_PASS.json",
+      "bytes": 5414,
+      "modified": 1782698692.0351276,
+      "status": "",
+      "summary": "# FLCR Sequential Peer-Review Pass"
+    },
+    {
+      "name": "PEER_REVIEWER_ASSESSMENT_PASS.md",
+      "json": "PEER_REVIEWER_ASSESSMENT_PASS.json",
+      "bytes": 8283,
+      "modified": 1782755613.417356,
+      "status": "",
+      "summary": "# Peer Reviewer Assessment Pass"
+    },
+    {
+      "name": "PRIME_CHART_MONSTER_RENORMALIZATION_PASS.md",
+      "json": "PRIME_CHART_MONSTER_RENORMALIZATION_PASS.json",
+      "bytes": 3797,
+      "modified": 1782683137.4121718,
+      "status": "pass",
+      "summary": "# Prime-Chart Monster Renormalization Pass"
+    },
+    {
+      "name": "RECENT_QUANTUM_EVIDENCE_INTAKE_PASS.md",
+      "json": "RECENT_QUANTUM_EVIDENCE_INTAKE_PASS.json",
+      "bytes": 5831,
+      "modified": 1782757443.5979798,
+      "status": "",
+      "summary": "# Recent Quantum Evidence Intake Pass"
+    },
+    {
+      "name": "RECONSTRUCTION_MAP_ARCHITECTURE_PASS.md",
+      "json": "RECONSTRUCTION_MAP_ARCHITECTURE_PASS.json",
+      "bytes": 541,
+      "modified": 1782757143.6445675,
+      "status": "Apply peer-review discussion by reframing FLCR-40 as a reconstruction map/trust-removal protocol and reserving FLCR-41..80 for full observer-framework Standard ",
+      "summary": "# Reconstruction Map Architecture Pass"
+    },
+    {
+      "name": "RESOLVED_STATE_CLOSURE_PASS.md",
+      "json": "RESOLVED_STATE_CLOSURE_PASS.json",
+      "bytes": 8317,
+      "modified": 1782748651.1459527,
+      "status": "",
+      "summary": "# Resolved-State Closure Pass"
+    },
+    {
+      "name": "REVIEWER_CLAIM_LEDGER_PASS.md",
+      "json": "REVIEWER_CLAIM_LEDGER_PASS.json",
+      "bytes": 1796,
+      "modified": 1782755304.720134,
+      "status": "Make each paper's formal claims reviewable as granular rows with evidence requirements, boundaries, and next review actions.",
+      "summary": "# Reviewer Claim Ledger Pass"
+    },
+    {
+      "name": "TARPIT_DERIVATION_BRIDGE_PASS.md",
+      "json": "TARPIT_DERIVATION_BRIDGE_PASS.json",
+      "bytes": 7542,
+      "modified": 1782682811.1061242,
+      "status": "The internal mass functional is present and executable. The remaining gap is not the existence of a mass algebra; it is the authority of the adapter that maps T",
+      "summary": "# TarPit Derivation Bridge Pass"
+    },
+    {
+      "name": "TARPIT_LIFT_TOWER_PASS.md",
+      "json": "TARPIT_LIFT_TOWER_PASS.json",
+      "bytes": 2989,
+      "modified": 1782681380.9817612,
+      "status": "pass",
+      "summary": "# TarPit Lift Tower Pass"
+    },
+    {
+      "name": "UNCONSIDERED_IMPLEMENTATION_INTAKE_PASS.md",
+      "json": "UNCONSIDERED_IMPLEMENTATION_INTAKE_PASS.json",
+      "bytes": 4625,
+      "modified": 1782749334.8385334,
+      "status": "",
+      "summary": "# Unconsidered Implementation Intake Pass"
+    },
+    {
+      "name": "UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.md",
+      "json": "UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.json",
+      "bytes": 5732,
+      "modified": 1782681994.54511,
+      "status": "pass",
+      "summary": "# Universal TarPit Process Derivation Pass"
+    },
+    {
+      "name": "ARCHIVE_EVIDENCE_CARD_MATRIX.md",
+      "json": "ARCHIVE_EVIDENCE_CARD_MATRIX.json",
+      "bytes": 16190,
+      "modified": 1782777850.1998363,
+      "status": "",
+      "summary": "# Archive Evidence Card Matrix"
+    },
+    {
+      "name": "CLAIM_BINDING_QUEUE_MATRIX.md",
+      "json": "CLAIM_BINDING_QUEUE_MATRIX.json",
+      "bytes": 3724,
+      "modified": 1782777840.3370125,
+      "status": "",
+      "summary": "# Claim Binding Queue Matrix"
+    },
+    {
+      "name": "CLAIM_DELTA_LEDGER_MATRIX.md",
+      "json": "CLAIM_DELTA_LEDGER_MATRIX.json",
+      "bytes": 3330,
+      "modified": 1782777844.353276,
+      "status": "",
+      "summary": "# Claim Delta Ledger Matrix"
+    },
+    {
+      "name": "DUAL_POSITIONING_MATRIX.md",
+      "json": "DUAL_POSITIONING_MATRIX.json",
+      "bytes": 7682,
+      "modified": 1782777836.6095662,
+      "status": "",
+      "summary": "# Dual Positioning Matrix"
+    },
+    {
+      "name": "LATTICE_FORGE_ACTIONIZATION_MATRIX.md",
+      "json": "LATTICE_FORGE_ACTIONIZATION_MATRIX.json",
+      "bytes": 818,
+      "modified": 1782619512.9061756,
+      "status": "",
+      "summary": "# Lattice Forge Actionization Matrix"
+    },
+    {
+      "name": "NORMAL_FORM_INGRESS_MATRIX.md",
+      "json": "NORMAL_FORM_INGRESS_MATRIX.json",
+      "bytes": 6334,
+      "modified": 1782859080.7286675,
+      "status": "",
+      "summary": "# Normal Form Ingress Matrix"
+    },
+    {
+      "name": "OPR_33_40_ROUTING_MATRIX.md",
+      "json": "OPR_33_40_ROUTING_MATRIX.json",
+      "bytes": 3490,
+      "modified": 1782610105.600413,
+      "status": "Route existing FLCR, CAM/crystal, NSIT, forge, and orbital material into the first missing original-ribbon band.",
+      "summary": "# OPR 33-40 Routing Matrix"
+    },
+    {
+      "name": "PAST_WORK_CRYSTAL_ENRICHMENT_MATRIX.md",
+      "json": "PAST_WORK_CRYSTAL_ENRICHMENT_MATRIX.json",
+      "bytes": 7906,
+      "modified": 1782777853.15734,
+      "status": "",
+      "summary": "# Past Work And Crystal Enrichment Matrix"
+    },
+    {
+      "name": "SOURCE_PLACEMENT_MATRIX.md",
+      "json": "SOURCE_PLACEMENT_MATRIX.json",
+      "bytes": 3746,
+      "modified": 1782607008.7515264,
+      "status": "",
+      "summary": "# FLCR Source Placement Matrix"
+    },
+    {
+      "name": "STATE_BOUND_PROOF_CONTRACT_MATRIX.md",
+      "json": "STATE_BOUND_PROOF_CONTRACT_MATRIX.json",
+      "bytes": 20623,
+      "modified": 1782777838.4582949,
+      "status": "",
+      "summary": "# State-Bound Proof Contract Matrix"
+    },
+    {
+      "name": "CMPLX_STANDARDS_NORMAL_FORM_INGRESS_REPORT.md",
+      "json": "CMPLX_STANDARDS_NORMAL_FORM_INGRESS_REPORT.json",
+      "bytes": 4390,
+      "modified": 1782790561.2780604,
+      "status": "",
+      "summary": "# CMPLX-Standards Report"
+    },
+    {
+      "name": "CRITICAL_CONNECTIONS_REPORT.md",
+      "json": "CRITICAL_CONNECTIONS_REPORT.json",
+      "bytes": 11491,
+      "modified": 1782873607.334133,
+      "status": "",
+      "summary": "# Critical Connections Report"
+    },
+    {
+      "name": "EXTERNAL_PAPER_INGRESS_80_VALIDATION_REPORT.md",
+      "json": "EXTERNAL_PAPER_INGRESS_80_VALIDATION_REPORT.json",
+      "bytes": 964,
+      "modified": 1782873677.9939137,
+      "status": "",
+      "summary": "# External Paper Ingress 80 Validation Report"
+    },
+    {
+      "name": "FLCR_NIST_AND_REVIEW_SUITE_REPORT.md",
+      "json": "FLCR_NIST_AND_REVIEW_SUITE_REPORT.json",
+      "bytes": 45652,
+      "modified": 1782858995.3598614,
+      "status": "",
+      "summary": "# FLCR NIST And Review Suite Report"
+    },
+    {
+      "name": "FORMAL_OUTPUT_REBUILD_REPORT.md",
+      "json": "FORMAL_OUTPUT_REBUILD_REPORT.json",
+      "bytes": 226,
+      "modified": 1782759109.850099,
+      "status": "",
+      "summary": "# Formal Output Rebuild Report"
+    },
+    {
+      "name": "OPR_WORKSPACE_VALIDATION_REPORT.md",
+      "json": "OPR_WORKSPACE_VALIDATION_REPORT.json",
+      "bytes": 321,
+      "modified": 1782610132.8121986,
+      "status": "",
+      "summary": "# OPR Workspace Validation Report"
+    },
+    {
+      "name": "ORIGINAL_80_JOURNAL_ENRICHMENT_REPORT.md",
+      "json": "ORIGINAL_80_JOURNAL_ENRICHMENT_REPORT.json",
+      "bytes": 513,
+      "modified": 1782699314.0204518,
+      "status": "",
+      "summary": "# Original 80 Journal Enrichment Report"
+    },
+    {
+      "name": "PAPER_CONTENT_NEEDS_REPORT.md",
+      "json": "PAPER_CONTENT_NEEDS_REPORT.json",
+      "bytes": 3411,
+      "modified": 1782873609.6470623,
+      "status": "",
+      "summary": "# Paper Content Needs Report"
+    },
+    {
+      "name": "POSITIONING_VALIDATION_REPORT.md",
+      "json": "POSITIONING_VALIDATION_REPORT.json",
+      "bytes": 166,
+      "modified": 1782873602.7879164,
+      "status": "",
+      "summary": "# Positioning Validation Report"
+    },
+    {
+      "name": "PUBLICATION_FACE_POLISH_REPORT.md",
+      "json": "PUBLICATION_FACE_POLISH_REPORT.json",
+      "bytes": 306,
+      "modified": 1782755305.9928143,
+      "status": "",
+      "summary": "# Publication Face Polish Report"
+    },
+    {
+      "name": "PUBLICATION_PROSE_CLEANUP_REPORT.md",
+      "json": "PUBLICATION_PROSE_CLEANUP_REPORT.json",
+      "bytes": 335,
+      "modified": 1782700005.2169096,
+      "status": "",
+      "summary": "# Publication Prose Cleanup Report"
+    },
+    {
+      "name": "APPENDIX_INDEX.md",
+      "json": "APPENDIX_INDEX.json",
+      "bytes": 7556,
+      "modified": 1782777847.7536023,
+      "status": "",
+      "summary": "# Appendix Index"
+    },
+    {
+      "name": "FIGURE_TABLE_INDEX.md",
+      "json": "FIGURE_TABLE_INDEX.json",
+      "bytes": 4307,
+      "modified": 1782777847.7500863,
+      "status": "",
+      "summary": "# Figure And Table Index"
+    },
+    {
+      "name": "GLOSSARY_INDEX.md",
+      "json": "GLOSSARY_INDEX.json",
+      "bytes": 5873,
+      "modified": 1782778947.5215123,
+      "status": "",
+      "summary": "# Glossary Index"
+    },
+    {
+      "name": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.md",
+      "json": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.json",
+      "bytes": 73063,
+      "modified": 1782873693.5365956,
+      "status": "",
+      "summary": "# Pairwise External Evidence Package Index"
+    },
+    {
+      "name": "PUBLICATION_AGENT_PRODUCT_INDEX.md",
+      "json": "PUBLICATION_AGENT_PRODUCT_INDEX.json",
+      "bytes": 42255,
+      "modified": 1782873695.9251592,
+      "status": "",
+      "summary": "# Publication Agent Product Index"
+    },
+    {
+      "name": "BUILD_AND_SUBMISSION_PROTOCOL.md",
+      "json": "",
+      "bytes": 2236,
+      "modified": 1782608738.289601,
+      "status": "",
+      "summary": "# Build And Submission Protocol"
+    },
+    {
+      "name": "CMPLX_STANDARDS_PROTOCOL.md",
+      "json": "",
+      "bytes": 1658,
+      "modified": 1782790580.5180602,
+      "status": "",
+      "summary": "# CMPLX-Standards Protocol"
+    },
+    {
+      "name": "EXTERNAL_PAPER_EXPLORER_SCALE_PROTOCOL.md",
+      "json": "",
+      "bytes": 5141,
+      "modified": 1782787087.7712615,
+      "status": "",
+      "summary": "# External Paper Explorer Scale Protocol"
+    },
+    {
+      "name": "NORMAL_FORM_INGRESS_PROTOCOL.md",
+      "json": "",
+      "bytes": 1812,
+      "modified": 1782859080.7296667,
+      "status": "",
+      "summary": "# Normal Form Ingress Protocol"
+    },
+    {
+      "name": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.md",
+      "json": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_PROTOCOL.json",
+      "bytes": 1562,
+      "modified": 1782873693.4861588,
+      "status": "Turn every new local discovery into a paired package: internal artifact plus current peer-reviewed external paper, correlation statement, adapted validation/NIS",
+      "summary": "# Pairwise External Evidence Package Protocol"
+    },
+    {
+      "name": "PUBLICATION_AGENT_PROTOCOL.md",
+      "json": "PUBLICATION_AGENT_PROTOCOL.json",
+      "bytes": 1341,
+      "modified": 1782873693.833931,
+      "status": "Convert pipeline evidence into formalized paper products rather than log dumps.",
+      "summary": "# Publication Agent Protocol"
+    }
+  ]
+}

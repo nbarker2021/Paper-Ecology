@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR33-003",
+  "flcr_id": "FLCR-33",
+  "smd_id": "SMD-07",
+  "O_ext": "LCR mass-residue accounting",
+  "equation_or_source": "`FLCR-16`, `SMD-07`",
+  "O_lcr": "LCR transport / face / carrier surfaces",
+  "lane": "receipt_bound_internal_result",
+  "boundary": "Closes residue bookkeeping as an internal carrier, not measured masses.",
+  "dataset": "",
+  "falsifier": "Closes residue bookkeeping as an internal carrier, not measured masses.",
+  "closure_state": "closed_by_flcr_proof",
+  "evidence_paths": [],
+  "irl_ids": [],
+  "native_flcr_deps": [
+    "FLCR-16"
+  ],
+  "maximal_claim_ref": "",
+  "source_section": "Closed Rows Applied In This Paper",
+  "obligation_id": null,
+  "has_native_deps": "yes"
+}

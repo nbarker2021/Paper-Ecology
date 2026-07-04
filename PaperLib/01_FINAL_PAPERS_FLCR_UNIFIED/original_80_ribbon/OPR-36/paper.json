@@ -1,0 +1,42 @@
+{
+  "original_publication_id": "OPR-36",
+  "original_slot": "36",
+  "title": "Lift-3 Ledger: Observer, AI Runtime, Falsifier, And Tool-Closure Accounting",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-38",
+    "FLCR-39",
+    "FLCR-07",
+    "FLCR-11",
+    "FLCR-30"
+  ],
+  "slot_family": "ledger_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-6: bind state into causal, observer, or synchronization ledgers",
+  "proof_form_required": "ledger, graph, and synchronization proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "06_Causal_Link_and_Obligation_Ledger.md",
+    "10_T10_Master_Receipt.md",
+    "32_The_Supervisor_Cursor.md",
+    "FLCR-38/formal.md",
+    "FLCR-39/formal.md",
+    "NSIT_REASONED_CLOSURE_PASS.md",
+    "CAM_CLAIM_100_SCORE_AUDIT.md"
+  ],
+  "formal_target": "bind observer/runtime claims into ledgers, dependency graphs, falsifier rows, and tool-closure accounting",
+  "semantic_target": "after carrier motion, the system must record who observed what, which tool closed what, and which obligations still spring forward",
+  "analog_target": "an audit graph: the interpretation may add names for nodes, but the dependency edges and receipts remain fixed",
+  "claim_lanes": [
+    "receipt_bound_internal_result",
+    "cam_crystal_reapplication_result",
+    "normal_form_result",
+    "falsifier_or_open_obligation"
+  ]
+}

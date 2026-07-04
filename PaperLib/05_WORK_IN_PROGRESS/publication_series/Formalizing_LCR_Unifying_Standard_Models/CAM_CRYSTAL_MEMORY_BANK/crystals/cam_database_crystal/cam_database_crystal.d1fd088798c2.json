@@ -1,0 +1,68 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0052",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\production\\operations\\forge-dbs\\TMN_TOOLS_LCR.db",
+  "name": "TMN_TOOLS_LCR.db",
+  "status": "ok",
+  "signal_score": 38,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 5,
+  "signal_tables": [
+    {
+      "table": "lcr_tiles",
+      "row_count": 43,
+      "signal_columns": []
+    },
+    {
+      "table": "lcr_tools",
+      "row_count": 104,
+      "signal_columns": [
+        "source_zip",
+        "lcr_role",
+        "lcr_triple",
+        "toolcrystal_json"
+      ]
+    },
+    {
+      "table": "sql_crystals",
+      "row_count": 96,
+      "signal_columns": [
+        "lcr_aspect"
+      ]
+    },
+    {
+      "table": "tool_atoms",
+      "row_count": 416,
+      "signal_columns": [
+        "lcr_aspect"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "d1fd088798c258f4acdd4b63aab68c7c659c3c1ce4b26ee24e481a69c1911156"
+}

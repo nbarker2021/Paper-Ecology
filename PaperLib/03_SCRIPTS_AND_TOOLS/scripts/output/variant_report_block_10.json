@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T03:23:21.377942",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 42,
+  "papers": {
+    "30": {
+      "variant_count": 14,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\30_Grand_Ribbon_Meta_Framer.md",
+          "filename": "30_Grand_Ribbon_Meta_Framer.md",
+          "size": 696687,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\30_Grand_Ribbon_Meta_Framer.md",
+          "filename": "30_Grand_Ribbon_Meta_Framer.md",
+          "size": 686676,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_30.md",
+          "filename": "paper_30.md",
+          "size": 17301,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-30.md",
+          "filename": "CQE-paper-30.md",
+          "size": 7192,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-30_UPGRADED.md",
+          "filename": "CQE-paper-30_UPGRADED.md",
+          "size": 8071,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\30_Grand_Ribbon_Meta_Framer.md"
+    },
+    "31": {
+      "variant_count": 14,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\31_It_Was_Still_Just_LCR.md",
+          "filename": "31_It_Was_Still_Just_LCR.md",
+          "size": 327723,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\31_It_Was_Still_Just_LCR.md",
+          "filename": "31_It_Was_Still_Just_LCR.md",
+          "size": 323372,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_31.md",
+          "filename": "paper_31.md",
+          "size": 16183,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-31.md",
+          "filename": "CQE-paper-31.md",
+          "size": 6256,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-31_UPGRADED.md",
+          "filename": "CQE-paper-31_UPGRADED.md",
+          "size": 7046,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\31_It_Was_Still_Just_LCR.md"
+    },
+    "32": {
+      "variant_count": 14,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\32_The_Supervisor_Cursor.md",
+          "filename": "32_The_Supervisor_Cursor.md",
+          "size": 674218,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_32.md",
+          "filename": "paper_32.md",
+          "size": 20837,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\32_The_Supervisor_Cursor.md",
+          "filename": "32_The_Supervisor_Cursor.md",
+          "size": 665165,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_32__qcd_color_transport\\paper_32.md",
+          "filename": "paper_32.md",
+          "size": 20837,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-32.md",
+          "filename": "CQE-paper-32.md",
+          "size": 6399,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\32_The_Supervisor_Cursor.md"
+    }
+  }
+}

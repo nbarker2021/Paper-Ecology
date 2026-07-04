@@ -1,0 +1,49 @@
+{
+  "model_id": "unified_paper_model",
+  "version": "1.0.0",
+  "description": "CMPLX-Standards model for grading unified papers in the 101-paper suite",
+  "record_selector": "papers",
+  "record_id_paths": ["canonical_id", "paper_number"],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.90,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "weighted_fields": {
+    "canonical_id": 2.0,
+    "title": 2.0,
+    "header": 1.5,
+    "claim_ledger": 2.0,
+    "definitions": 1.5,
+    "theorems": 2.0,
+    "hand_reconstruction": 1.5,
+    "rejected_claims": 1.0,
+    "relation_to_later_papers": 1.0,
+    "open_obligations": 1.5,
+    "bibliography": 1.0,
+    "data_vs_interpretation": 1.5,
+    "python_verifiers": 1.0,
+    "cross_references_unified": 2.0
+  },
+  "allowed_values": {
+    "band": ["A — Core", "B — Physics", "B — Cosmology", "B — Math Closure", "C — Applications", "Unknown"]
+  },
+  "conditional_required_fields": {
+    "band": {
+      "A — Core": [
+        {"path": "lattice_code_chain", "weight": 1.0},
+        {"path": "triality_surface", "weight": 1.0}
+      ],
+      "B — Physics": [
+        {"path": "standard_model_sector", "weight": 1.0},
+        {"path": "gauge_group", "weight": 0.5}
+      ],
+      "C — Applications": [
+        {"path": "millennium_prize_status", "weight": 0.5},
+        {"path": "bounded_validation", "weight": 1.0}
+      ]
+    }
+  },
+  "allowed_value_penalty": 0.15
+}

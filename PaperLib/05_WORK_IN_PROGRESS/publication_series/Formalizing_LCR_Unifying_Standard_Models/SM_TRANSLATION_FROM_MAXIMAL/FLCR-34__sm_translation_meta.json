@@ -1,0 +1,33 @@
+{
+  "flcr_id": "FLCR-34",
+  "title": "Electron-Hole-Exciton Accounting",
+  "maximal_source": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\MAXIMAL_FLCR_MANUSCRIPTS\\FLCR-34__Electron_Hole_Exciton_Accounting__maximal.md",
+  "smd_dependencies": [
+    "SMD-01",
+    "SMD-07",
+    "SMD-10",
+    "SMD-12"
+  ],
+  "irl_ids": [
+    "IRL-EXCITON-2D-REVIEW",
+    "IRL-EXCITON-SPRINGER",
+    "IRL-NIST-CARRIER-DYNAMICS",
+    "IRL-NIST-PV-EXCITON"
+  ],
+  "native_flcr_deps": [
+    "FLCR-01",
+    "FLCR-03",
+    "FLCR-04",
+    "FLCR-11",
+    "FLCR-14",
+    "FLCR-16",
+    "FLCR-18",
+    "FLCR-24",
+    "FLCR-28",
+    "FLCR-30"
+  ],
+  "has_closed_rows": true,
+  "has_comparators": true,
+  "line_count": 109,
+  "path": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\SM_TRANSLATION_FROM_MAXIMAL\\FLCR-34__sm_translation_explained.md"
+}

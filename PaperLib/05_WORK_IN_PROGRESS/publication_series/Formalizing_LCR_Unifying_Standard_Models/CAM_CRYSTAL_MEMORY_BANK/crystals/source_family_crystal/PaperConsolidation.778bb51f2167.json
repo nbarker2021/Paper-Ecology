@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "PaperConsolidation",
+  "missing_count": 18,
+  "highest_score": 57,
+  "sample_files": [
+    "PaperConsolidation\\sources\\CQE-PAPER-011-Forge-Pipeline.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-002-Proof-Architecture.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-003-Claim-Taxonomy.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-006-Electroweak-Higgs.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-010-TMN-Formalization-Library.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-003-CRITIQUE-ADDITIONS.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-004_critique.md",
+    "PaperConsolidation\\sources\\CQE-PAPER-001-Foundation.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "778bb51f2167377d790638a587a45f1f00b3354c12d88e64c6fb0bab09aa180f"
+}

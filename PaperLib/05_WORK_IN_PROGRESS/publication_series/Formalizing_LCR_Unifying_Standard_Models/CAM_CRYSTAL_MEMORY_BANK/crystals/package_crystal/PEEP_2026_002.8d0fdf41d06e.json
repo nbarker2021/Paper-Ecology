@@ -1,0 +1,98 @@
+{
+  "kind": "package_crystal",
+  "granularity": "pairwise_package",
+  "package_id": "PEEP-2026-002",
+  "title": "Real-Valued Quantum Mechanics As Binary/Real Readout Constraint",
+  "faces": {
+    "internal_source": {
+      "source": "FLCR-04; FLCR-08; FLCR-31; FLCR-40; J3(O)/binary invariance discussion",
+      "finding": "The corpus claims that a selected complex-resolution window can admit a deterministic binary or real-valued readout. This needs a current external comparator around real-valued quantum formalism."
+    },
+    "external_publication": {
+      "title": "Quantum Mechanics Based on Real Numbers: A Consistent Description",
+      "journal": "Physical Review Letters",
+      "year": 2026,
+      "volume_issue_page": "136, 240202",
+      "doi": "10.1103/4k13-sdjh",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/4k13-sdjh",
+      "date_published": "2026-06-16",
+      "peer_review_status": "peer_reviewed_journal_article"
+    },
+    "correlation": "The paper supplies a current peer-reviewed comparator for whether real-number structures can reproduce standard quantum predictions under a changed composition postulate. In the FLCR suite it constrains the proposed move from complex dynamics to a deterministic real/binary readout.",
+    "claim_lane": "external_comparator_plus_normal_form_constraint",
+    "crystal_faces": [
+      "field face: real vs complex formalism",
+      "composition face: tensor/composition rule vs FLCR adapter",
+      "observer face: readout relation vs physical postulate",
+      "falsifier face: where binary/real readout fails to reproduce complex prediction"
+    ],
+    "paper_routes": [
+      "FLCR-04",
+      "FLCR-08",
+      "FLCR-31",
+      "FLCR-33",
+      "FLCR-38",
+      "FLCR-40",
+      "FLCR-41..80"
+    ],
+    "obligations": [
+      "State exactly which FLCR composition rule is being compared to the PRL real-number construction.",
+      "Separate finite binary readout claims from full quantum-theory equivalence claims.",
+      "Add a falsifier row: identify an experiment or calculation where the FLCR readout would diverge from standard complex quantum mechanics.",
+      "Use this pair as a required comparator before promoting J3(O)/binary invariance into 41-80 physics papers."
+    ],
+    "nist_review": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "source_identity",
+          "status": "PASS"
+        },
+        {
+          "check": "external_peer_review_status",
+          "status": "PASS"
+        },
+        {
+          "check": "date_window_2025_or_current_year",
+          "status": "PASS"
+        },
+        {
+          "check": "correlation_specificity",
+          "status": "PASS"
+        },
+        {
+          "check": "claim_lane_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "paper_routes_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "obligations_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "falsifier_or_comparator_declared",
+          "status": "PASS"
+        },
+        {
+          "check": "no_silent_physics_promotion",
+          "status": "PASS"
+        }
+      ],
+      "pass_count": 9,
+      "total_checks": 9
+    },
+    "validation_review": {
+      "status": "READY_FOR_PAPER_ROUTING",
+      "has_internal_anchor": true,
+      "has_external_paper": true,
+      "has_correlation": true,
+      "has_crystal_faces": true,
+      "has_obligations": true,
+      "next_action": "Attach package to routed papers, then convert obligations into paper-local claim rows and workbook exercises."
+    }
+  },
+  "content_address": "8d0fdf41d06e258e52aeb5e1861bf13db2f1dbfe4657e9d8459df4162457d881"
+}

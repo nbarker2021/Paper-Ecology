@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T03:23:16.602516",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 42,
+  "papers": {
+    "24": {
+      "variant_count": 17,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\24_KnightForge_N_Dimensional_Chess_Automata.md",
+          "filename": "24_KnightForge_N_Dimensional_Chess_Automata.md",
+          "size": 381950,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\24_KnightForge_N_Dimensional_Chess_Automata.md",
+          "filename": "24_KnightForge_N_Dimensional_Chess_Automata.md",
+          "size": 384815,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_24.md",
+          "filename": "paper_24.md",
+          "size": 18740,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-24.md",
+          "filename": "CQE-paper-24.md",
+          "size": 5144,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-24_UPGRADED.md",
+          "filename": "CQE-paper-24_UPGRADED.md",
+          "size": 6009,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\24_KnightForge_N_Dimensional_Chess_Automata.md"
+    },
+    "25": {
+      "variant_count": 14,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\25_Energetic_Traversal_Maps.md",
+          "filename": "25_Energetic_Traversal_Maps.md",
+          "size": 486513,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\25_Energetic_Traversal_Maps.md",
+          "filename": "25_Energetic_Traversal_Maps.md",
+          "size": 491794,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_25.md",
+          "filename": "paper_25.md",
+          "size": 18168,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-25.md",
+          "filename": "CQE-paper-25.md",
+          "size": 7546,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-25_UPGRADED.md",
+          "filename": "CQE-paper-25_UPGRADED.md",
+          "size": 8502,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\25_Energetic_Traversal_Maps.md"
+    },
+    "26": {
+      "variant_count": 11,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\26_Z_Pinch_and_Shear_Horizon.md",
+          "filename": "26_Z_Pinch_and_Shear_Horizon.md",
+          "size": 307986,
+          "score": 10,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\26_Z_Pinch_and_Shear_Horizon.md",
+          "filename": "26_Z_Pinch_and_Shear_Horizon.md",
+          "size": 308992,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_26.md",
+          "filename": "paper_26.md",
+          "size": 17352,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-26.md",
+          "filename": "CQE-paper-26.md",
+          "size": 6785,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-26_UPGRADED.md",
+          "filename": "CQE-paper-26_UPGRADED.md",
+          "size": 7228,
+          "score": 5,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\26_Z_Pinch_and_Shear_Horizon.md"
+    }
+  }
+}

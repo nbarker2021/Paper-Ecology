@@ -1,0 +1,17 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "local_intake_target",
+  "rank": 14,
+  "artifact": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\...\\receipts\\*.json",
+  "why_it_matters": "Machine receipts for Rule 30, E8, Leech, observer, boundary, etc.",
+  "suggested_slots": [
+    "01",
+    "03",
+    "06",
+    "08",
+    "09",
+    "41-79"
+  ],
+  "frame": "agent-discovered first-intake target",
+  "content_address": "409e4b6195c7ed81405b193c5ab7138ad0b9295de2418a374ee699fbba79555d"
+}

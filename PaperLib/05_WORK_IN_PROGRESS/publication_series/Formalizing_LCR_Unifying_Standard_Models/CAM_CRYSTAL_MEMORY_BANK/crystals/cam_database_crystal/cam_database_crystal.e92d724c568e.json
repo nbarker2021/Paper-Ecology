@@ -1,0 +1,41 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0044",
+  "path": "D:\\CQE_CMPLX\\TMN_DOCS.db",
+  "name": "TMN_DOCS.db",
+  "status": "ok",
+  "signal_score": 24,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 9,
+  "signal_tables": [
+    {
+      "table": "files",
+      "row_count": 55,
+      "signal_columns": [
+        "hashcode"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "e92d724c568e3f3bde2570b7c3f0b824b03b0b64bfa727662e82cbee9171085e"
+}

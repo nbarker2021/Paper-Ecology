@@ -1,0 +1,17 @@
+{
+  "original_publication_id": "OPR-62",
+  "original_slot": "62",
+  "title": "Residual And Correction Surface At Lift 6",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [],
+  "slot_family": "residual_action",
+  "lift_depth": 6,
+  "dimensional_role": "order-7 slot-2: mark the correction, residue, vacancy, or mismatch surface",
+  "proof_form_required": "residual accounting and bounded/unbounded split",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

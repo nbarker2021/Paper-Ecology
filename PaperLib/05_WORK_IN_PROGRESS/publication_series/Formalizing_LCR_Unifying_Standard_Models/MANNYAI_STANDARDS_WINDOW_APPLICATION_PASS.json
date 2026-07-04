@@ -1,0 +1,84 @@
+{
+  "schema": "flcr_mannyai_standards_window_application_pass.v1",
+  "date": "2026-06-28",
+  "authority_rule": "MannyAI standards reports define publication pass/fail status; older verify_summary script results are evidence artifacts and obligation locators.",
+  "source_artifacts": {
+    "corpus_conformance_report": {
+      "path": "D:/DockerContainers/Manny Docker Starter/mannyai/standards/corpus_conformance_report.json",
+      "canonical_count": 32,
+      "total_verdicts": 192,
+      "pass": 192,
+      "fail": 0,
+      "open": 0
+    },
+    "suite_resolution_report": {
+      "path": "D:/DockerContainers/Manny Docker Starter/mannyai/standards/suite_resolution_report.json",
+      "paper_count": 99,
+      "total_items": 782,
+      "resolved_items": 776,
+      "unresolved_items": 6,
+      "reworks_indexed": 52
+    },
+    "glue_report": {
+      "path": "D:/DockerContainers/Manny Docker Starter/mannyai/standards/glue_report.json",
+      "total_obligations": 95,
+      "obligations_with_candidates": 95,
+      "coverage_ratio": 1.0
+    },
+    "window_summary": {
+      "path": "D:/DockerContainers/Manny Docker Starter/mannyai/brain/window_summary.json",
+      "root_window_id": "window_00_31",
+      "levels": [
+        {"size": 2, "count": 16},
+        {"size": 4, "count": 8},
+        {"size": 8, "count": 4},
+        {"size": 16, "count": 2},
+        {"size": 32, "count": 1}
+      ]
+    }
+  },
+  "unresolved_suite_rows": [
+    {
+      "paper_node": "CQE-paper-formal-07",
+      "item": "1.1 verify_grand_ribbon_meta_framer.py",
+      "route_to": ["FLCR-30", "FLCR-40"],
+      "lane": "falsifier_or_open_obligation"
+    },
+    {
+      "paper_node": "CQE-paper-formal-PH1",
+      "item": "5.1 kappa = ln(phi)/16 approx 0.0301",
+      "route_to": ["FLCR-31", "FLCR-33", "FLCR-39"],
+      "lane": "standard_theorem_or_citation_bound_result"
+    },
+    {
+      "paper_node": "CQE-paper-formal-PH2",
+      "item": "6.1 Observer_5 = 3 + 2",
+      "route_to": ["FLCR-38", "FLCR-40"],
+      "lane": "normal_form_result"
+    },
+    {
+      "paper_node": "CQE-paper-formal-S11",
+      "item": "1.2 Randomness and Cryptographic Vulnerabilities",
+      "route_to": ["FLCR-13", "FLCR-39"],
+      "lane": "falsifier_or_open_obligation"
+    },
+    {
+      "paper_node": "CQE-paper-formal-S29",
+      "item": "The 8 Estimators",
+      "route_to": ["FLCR-28", "FLCR-39"],
+      "lane": "cam_crystal_reapplication_result"
+    },
+    {
+      "paper_node": "CQE-paper-formal-U1",
+      "item": "1.1 verify_quark_face_transport_literalized.py",
+      "route_to": ["FLCR-14", "FLCR-31", "FLCR-32", "FLCR-40"],
+      "lane": "receipt_bound_internal_result"
+    }
+  ],
+  "paper_ownership": {
+    "FLCR-28": "MannyAI runtime intake, CAM-first doctrine, crystal/projector adapter discipline, and 8-estimator manifest lane.",
+    "FLCR-30": "2/4/8/16/32 window scheduling, universal normal-form intake, and grand-ribbon verifier binding.",
+    "FLCR-39": "Validation authority and comparator policy for standards, glue, windows, and legacy verifier evidence.",
+    "FLCR-40": "Dependency-explicit synthesis consuming standards/window results without hiding unresolved rows."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "generated": "2026-07-03T02:37:46.742629",
+  "scan_roots": [
+    "D:\\CQE_CMPLX\\papers\\UFT0-100",
+    "D:\\CQE_CMPLX\\CQECMPLX-Production\\papers",
+    "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup",
+    "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite",
+    "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\forgefactory-v0.3-lineage-read\\ForgeFactory_v0_3",
+    "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\papers",
+    "D:\\CQE_CMPLX\\papers",
+    "D:\\PaperLib"
+  ],
+  "paper_count": 3,
+  "variant_count": 70,
+  "papers": {
+    "12": {
+      "variant_count": 24,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\12_CA_Prediction_Surface.md",
+          "filename": "12_CA_Prediction_Surface.md",
+          "size": 783562,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\01-lcr-triality\\CQE-PAPER-012.md",
+          "filename": "CQE-PAPER-012.md",
+          "size": 8306,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_full_checkpoint_v2_tar\\CMPLX-R30\\PROOF\\papers\\12_physical_constants_invariants.md",
+          "filename": "12_physical_constants_invariants.md",
+          "size": 8987,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_main_1\\CMPLX-R30-main\\PROOF\\papers\\12_physical_constants_invariants.md",
+          "filename": "12_physical_constants_invariants.md",
+          "size": 8987,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQE_CMPLX_1T_Dev_main\\CQE-CMPLX-1T-Dev-main\\src\\corpus\\extracts\\promoted-2026-06-19\\formal-suite\\01-lcr-triality\\CQE-PAPER-012.md",
+          "filename": "CQE-PAPER-012.md",
+          "size": 8306,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\12_CA_Prediction_Surface.md"
+    },
+    "13": {
+      "variant_count": 24,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_13.md",
+          "filename": "paper_13.md",
+          "size": 22738,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers\\UFT0-100"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\13_Standard_Model_Quark_Face_Transport.md",
+          "filename": "13_Standard_Model_Quark_Face_Transport.md",
+          "size": 393987,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\UFT_paper_series\\paper_13__ca_prediction_surfaces\\paper_13.md",
+          "filename": "paper_13.md",
+          "size": 22738,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_full_checkpoint_v2_tar\\CMPLX-R30\\PROOF\\papers\\13_magic_square_f4_g2.md",
+          "filename": "13_magic_square_f4_g2.md",
+          "size": 10698,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_main_1\\CMPLX-R30-main\\PROOF\\papers\\13_magic_square_f4_g2.md",
+          "filename": "13_magic_square_f4_g2.md",
+          "size": 10698,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\UFT0-100\\paper_13.md"
+    },
+    "14": {
+      "variant_count": 22,
+      "top_variants": [
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\14_GR_Boundary_Repair_Curvature.md",
+          "filename": "14_GR_Boundary_Repair_Curvature.md",
+          "size": 178647,
+          "score": 8,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup\\CQE-paper-14.md",
+          "filename": "CQE-paper-14.md",
+          "size": 5626,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\CQE-CMPLX-1T-Production\\src\\papers\\source_backup"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_full_checkpoint_v2_tar\\CMPLX-R30\\PROOF\\papers\\14_d12_moonshine_chain.md",
+          "filename": "14_d12_moonshine_chain.md",
+          "size": 12228,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CMPLX_R30_main_1\\CMPLX-R30-main\\PROOF\\papers\\14_d12_moonshine_chain.md",
+          "filename": "14_d12_moonshine_chain.md",
+          "size": 12228,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\papers\\archive_intake\\CQECMPLX_Production_main_11\\CQECMPLX-Production-main\\Papers\\Source_BACKUP\\CQE-paper-14.md",
+          "filename": "CQE-paper-14.md",
+          "size": 5469,
+          "score": 7,
+          "source_dir": "D:\\CQE_CMPLX\\papers"
+        }
+      ],
+      "best_guess": "D:\\CQE_CMPLX\\papers\\active-rework\\_backup_before_archive_supplement_20260626_212645\\14_GR_Boundary_Repair_Curvature.md"
+    }
+  }
+}

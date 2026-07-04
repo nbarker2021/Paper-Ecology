@@ -1,0 +1,749 @@
+{
+  "schema": "flcr_glossary_index.v2_draft",
+  "terms": [
+    {
+      "term": "addressable slot",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ]
+    },
+    {
+      "term": "admission",
+      "papers": [
+        "FLCR-05",
+        "FLCR-15",
+        "FLCR-23",
+        "FLCR-35"
+      ]
+    },
+    {
+      "term": "antipode",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": []
+    },
+    {
+      "term": "atlas",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-22",
+        "FLCR-31",
+        "FLCR-32"
+      ]
+    },
+    {
+      "term": "boundary",
+      "papers": [
+        "FLCR-05",
+        "FLCR-15",
+        "FLCR-23",
+        "FLCR-35"
+      ]
+    },
+    {
+      "term": "bounded domain",
+      "papers": [
+        "FLCR-03",
+        "FLCR-13",
+        "FLCR-21",
+        "FLCR-30",
+        "FLCR-36"
+      ]
+    },
+    {
+      "term": "bridge",
+      "papers": [
+        "FLCR-08",
+        "FLCR-18",
+        "FLCR-26"
+      ]
+    },
+    {
+      "term": "calibration",
+      "papers": [
+        "FLCR-08",
+        "FLCR-18",
+        "FLCR-26"
+      ]
+    },
+    {
+      "term": "CAM",
+      "papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-08",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-15",
+        "FLCR-16",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-19",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-24",
+        "FLCR-25",
+        "FLCR-26",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-34",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "carrier",
+      "papers": [
+        "FLCR-06",
+        "FLCR-16",
+        "FLCR-24",
+        "FLCR-33",
+        "FLCR-37"
+      ],
+      "citation_keys": [
+        "PEEP-2026-001",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "causal edge",
+      "papers": [
+        "FLCR-07",
+        "FLCR-17",
+        "FLCR-25",
+        "FLCR-39"
+      ]
+    },
+    {
+      "term": "center state",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ]
+    },
+    {
+      "term": "chart map",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-31"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-005",
+        "PEEP-2026-010"
+      ]
+    },
+    {
+      "term": "claim lane",
+      "papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-08",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-15",
+        "FLCR-16",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-19",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-24",
+        "FLCR-25",
+        "FLCR-26",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-34",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "commutability tree",
+      "papers": [
+        "FLCR-09",
+        "FLCR-19",
+        "FLCR-29"
+      ],
+      "source": "chunk3-kernel_staging/CL-IRL-Glossary-Extended-Terms.md",
+      "citation_keys": []
+    },
+    {
+      "term": "correction surface",
+      "papers": [
+        "FLCR-03",
+        "FLCR-13",
+        "FLCR-21",
+        "FLCR-30",
+        "FLCR-36"
+      ]
+    },
+    {
+      "term": "correspondence",
+      "papers": [
+        "FLCR-08",
+        "FLCR-18",
+        "FLCR-26"
+      ]
+    },
+    {
+      "term": "crystal",
+      "papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-08",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-15",
+        "FLCR-16",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-19",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-24",
+        "FLCR-25",
+        "FLCR-26",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-34",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "citation_keys": [
+        "PEEP-2026-003"
+      ]
+    },
+    {
+      "term": "d4 chart space",
+      "papers": [
+        "FLCR-13",
+        "FLCR-23"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-005",
+        "PEEP-2026-009"
+      ]
+    },
+    {
+      "term": "dependency",
+      "papers": [
+        "FLCR-28",
+        "FLCR-34",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "dependency graph",
+      "papers": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-19",
+        "FLCR-29"
+      ]
+    },
+    {
+      "term": "enumeration",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ]
+    },
+    {
+      "term": "face",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-22",
+        "FLCR-31",
+        "FLCR-32"
+      ],
+      "citation_keys": [
+        "PEEP-2026-007",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "falsifier",
+      "papers": [
+        "FLCR-05",
+        "FLCR-15",
+        "FLCR-23",
+        "FLCR-35"
+      ],
+      "citation_keys": [
+        "PEEP-2026-011"
+      ]
+    },
+    {
+      "term": "finite domain",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ]
+    },
+    {
+      "term": "fold",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-22",
+        "FLCR-31",
+        "FLCR-32"
+      ],
+      "citation_keys": [
+        "PEEP-2026-007",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "idempotent",
+      "papers": [
+        "FLCR-07",
+        "FLCR-17",
+        "FLCR-27"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-005",
+        "PEEP-2026-006",
+        "PEEP-2026-012"
+      ]
+    },
+    {
+      "term": "invariant payload",
+      "papers": [
+        "FLCR-06",
+        "FLCR-16",
+        "FLCR-24",
+        "FLCR-33",
+        "FLCR-37"
+      ],
+      "citation_keys": [
+        "PEEP-2026-002",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "j3o",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-31"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-005",
+        "PEEP-2026-010"
+      ]
+    },
+    {
+      "term": "lattice surface",
+      "papers": [
+        "FLCR-09"
+      ]
+    },
+    {
+      "term": "ledger",
+      "papers": [
+        "FLCR-07",
+        "FLCR-17",
+        "FLCR-25",
+        "FLCR-39"
+      ]
+    },
+    {
+      "term": "lift boundary",
+      "papers": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-19",
+        "FLCR-29"
+      ]
+    },
+    {
+      "term": "lookup",
+      "papers": [
+        "FLCR-09"
+      ]
+    },
+    {
+      "term": "lucas skip pad",
+      "papers": [
+        "FLCR-13",
+        "FLCR-23"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": []
+    },
+    {
+      "term": "mckay-thompson primitive",
+      "papers": [
+        "FLCR-18",
+        "FLCR-27"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-007",
+        "PEEP-2026-008"
+      ]
+    },
+    {
+      "term": "multi-scale",
+      "papers": [
+        "FLCR-10",
+        "FLCR-27",
+        "FLCR-38"
+      ]
+    },
+    {
+      "term": "n=3 su3 closure",
+      "papers": [
+        "FLCR-04",
+        "FLCR-13"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "negative receipt",
+      "papers": [
+        "FLCR-07",
+        "FLCR-17",
+        "FLCR-25",
+        "FLCR-39"
+      ]
+    },
+    {
+      "term": "obligation",
+      "papers": [
+        "FLCR-07",
+        "FLCR-17",
+        "FLCR-25",
+        "FLCR-39"
+      ]
+    },
+    {
+      "term": "open-slot preservation",
+      "papers": [
+        "FLCR-01",
+        "FLCR-11",
+        "FLCR-19",
+        "FLCR-29"
+      ]
+    },
+    {
+      "term": "path composition",
+      "papers": [
+        "FLCR-06",
+        "FLCR-16",
+        "FLCR-24",
+        "FLCR-33",
+        "FLCR-37"
+      ]
+    },
+    {
+      "term": "projection",
+      "papers": [
+        "FLCR-08",
+        "FLCR-18",
+        "FLCR-26"
+      ]
+    },
+    {
+      "term": "publication overlay",
+      "papers": [
+        "FLCR-28",
+        "FLCR-34",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "query cache",
+      "papers": [
+        "FLCR-09"
+      ]
+    },
+    {
+      "term": "readout",
+      "papers": [
+        "FLCR-10",
+        "FLCR-27",
+        "FLCR-38"
+      ]
+    },
+    {
+      "term": "readout law",
+      "papers": [
+        "FLCR-13",
+        "FLCR-23"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-018"
+      ]
+    },
+    {
+      "term": "receipt",
+      "papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-08",
+        "FLCR-09",
+        "FLCR-10",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-14",
+        "FLCR-15",
+        "FLCR-16",
+        "FLCR-17",
+        "FLCR-18",
+        "FLCR-19",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-24",
+        "FLCR-25",
+        "FLCR-26",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-32",
+        "FLCR-33",
+        "FLCR-34",
+        "FLCR-35",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "citation_keys": [
+        "PEEP-2026-004"
+      ]
+    },
+    {
+      "term": "repair row",
+      "papers": [
+        "FLCR-05",
+        "FLCR-15",
+        "FLCR-23",
+        "FLCR-35"
+      ]
+    },
+    {
+      "term": "representation transport",
+      "papers": [
+        "FLCR-04",
+        "FLCR-14",
+        "FLCR-22",
+        "FLCR-31",
+        "FLCR-32"
+      ],
+      "citation_keys": [
+        "PEEP-2026-002",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "residue",
+      "papers": [
+        "FLCR-03",
+        "FLCR-13",
+        "FLCR-21",
+        "FLCR-30",
+        "FLCR-36"
+      ]
+    },
+    {
+      "term": "rule90 decomposition",
+      "papers": [
+        "FLCR-13",
+        "FLCR-23"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-018"
+      ]
+    },
+    {
+      "term": "same-family lift",
+      "papers": [
+        "FLCR-10",
+        "FLCR-27",
+        "FLCR-38"
+      ]
+    },
+    {
+      "term": "shell",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-018"
+      ]
+    },
+    {
+      "term": "side",
+      "papers": [
+        "FLCR-02",
+        "FLCR-12",
+        "FLCR-20"
+      ],
+      "source": "chunk3-kernel_staging/canonical_porting_terms.json",
+      "citation_keys": [
+        "PEEP-2026-018"
+      ]
+    },
+    {
+      "term": "synthesis lane",
+      "papers": [
+        "FLCR-28",
+        "FLCR-34",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "terminal address",
+      "papers": [
+        "FLCR-09"
+      ]
+    },
+    {
+      "term": "translation claim",
+      "papers": [
+        "FLCR-28",
+        "FLCR-34",
+        "FLCR-40"
+      ]
+    },
+    {
+      "term": "transport",
+      "papers": [
+        "FLCR-06",
+        "FLCR-16",
+        "FLCR-24",
+        "FLCR-33",
+        "FLCR-37"
+      ],
+      "citation_keys": [
+        "PEEP-2026-001",
+        "PEEP-2026-005"
+      ]
+    },
+    {
+      "term": "unbounded burden",
+      "papers": [
+        "FLCR-03",
+        "FLCR-13",
+        "FLCR-21",
+        "FLCR-30",
+        "FLCR-36"
+      ]
+    },
+    {
+      "term": "window",
+      "papers": [
+        "FLCR-10",
+        "FLCR-27",
+        "FLCR-38"
+      ]
+    }
+  ],
+  "chunk3_merge": {
+    "merged_utc": "2026-06-29",
+    "new_terms": 13,
+    "peep_citation_bind": [
+      "PEEP-2026-001",
+      "PEEP-2026-002",
+      "PEEP-2026-003",
+      "PEEP-2026-004",
+      "PEEP-2026-005"
+    ]
+  }
+}

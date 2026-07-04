@@ -1,0 +1,41 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0074",
+  "path": "D:\\CQE_CMPLX\\kernel\\staging\\papers\\suite78_cmplx_1t_root\\data\\simulation_results.db",
+  "name": "simulation_results.db",
+  "status": "ok",
+  "signal_score": 4,
+  "port_recommendation": "LOW_SIGNAL_KEEP_INDEXED",
+  "table_count": 2,
+  "signal_tables": [
+    {
+      "table": "results",
+      "row_count": 10,
+      "signal_columns": [
+        "quality_score"
+      ]
+    }
+  ],
+  "slot_families": [
+    "ledger_action",
+    "bridge_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "eef88d3acb564025ca038655b8d56ba1de4c8c3d31ab3d10a3af22fdd9a54e4d"
+}

@@ -1,0 +1,1010 @@
+{
+  "schema": "FLCR-PrimeChartMonsterRenormalizationPass/1.0",
+  "created_utc": "2026-06-28T21:45:37.412171+00:00",
+  "status": "pass",
+  "result": "The 29,30,31 -> 31,33,37 lift is a usable LCR prime-mask transition: both charts preserve prime/composite/prime and the Rule-30 parity output. Upward traversal should therefore keep two accounts: a Happy-family Monster-admitted supersingular account and a Pariah/asymmetry bridge account. At 47,59,71 the Monster renormalizes the admitted side into 196883 and leaves off-chain bridge residues as a separate LCR asymmetry body.",
+  "supersingular_monster_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    41,
+    47,
+    59,
+    71
+  ],
+  "charts": [
+    {
+      "chart_id": "seed_29_30_31",
+      "title": "Rule-30 prime-mask seed",
+      "account": "seed",
+      "source": "user hypothesis + Rule 30 slot",
+      "values": {
+        "L": 29,
+        "C": 30,
+        "R": 31
+      },
+      "prime_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        0,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 1,
+        "R_minus_C": 1,
+        "R_minus_L": 2
+      },
+      "midpoint": 30.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": false,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        30
+      ],
+      "tarpit_readout": {
+        "program": "0>>0<<1010+0}0>}11><0<}+1>>}++0+",
+        "success": true,
+        "steps": 32,
+        "bonds": 8,
+        "mirrors": 0,
+        "digital_root": 7,
+        "final_mass": 0.5048957404860979,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 8,
+        "triads": 16
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "encoded_31_33_37",
+      "title": "Next encoded LCR prime-face chart",
+      "account": "pariah_asymmetry",
+      "source": "user hypothesis",
+      "values": {
+        "L": 31,
+        "C": 33,
+        "R": 37
+      },
+      "prime_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        0,
+        0
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 2,
+        "R_minus_C": 4,
+        "R_minus_L": 6
+      },
+      "midpoint": 34.0,
+      "center_minus_midpoint": -1.0,
+      "center_is_prime": false,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        33,
+        37
+      ],
+      "tarpit_readout": {
+        "program": "+<}0<<}1+}>>1<0+0<<>+10001><001}",
+        "success": true,
+        "steps": 32,
+        "bonds": 8,
+        "mirrors": 0,
+        "digital_root": 8,
+        "final_mass": 0.5154184974765107,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 8,
+        "triads": 16
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 1.6666666666666665,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 0.6666666666666666,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": false,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "bridge_37_39_41",
+      "title": "Prime-face bridge toward Monster ceiling",
+      "account": "pariah_asymmetry",
+      "source": "computed prime-face bridge",
+      "values": {
+        "L": 37,
+        "C": 39,
+        "R": 41
+      },
+      "prime_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        0,
+        0,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 2,
+        "R_minus_C": 2,
+        "R_minus_L": 4
+      },
+      "midpoint": 39.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": false,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        37,
+        39
+      ],
+      "tarpit_readout": {
+        "program": "}}+<>01+01<}+<>>}0+0}0<1+<>}+>0>",
+        "success": true,
+        "steps": 32,
+        "bonds": 6,
+        "mirrors": 0,
+        "digital_root": 2,
+        "final_mass": 0.5215828072097689,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 6,
+        "triads": 12
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "bridge_41_44_47",
+      "title": "Prime-face bridge toward Monster ceiling",
+      "account": "pariah_asymmetry",
+      "source": "computed prime-face bridge",
+      "values": {
+        "L": 41,
+        "C": 44,
+        "R": 47
+      },
+      "prime_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        0,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 3,
+        "R_minus_C": 3,
+        "R_minus_L": 6
+      },
+      "midpoint": 44.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": false,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        44
+      ],
+      "tarpit_readout": {
+        "program": "><>1>1>0}0+}1>}>>}1>++++0+0>1}+1",
+        "success": true,
+        "steps": 32,
+        "bonds": 4,
+        "mirrors": 0,
+        "digital_root": 9,
+        "final_mass": 0.499871935131151,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 4,
+        "triads": 8
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 1.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 0.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": false,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": false,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": false,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "bridge_47_53_59",
+      "title": "Prime-face bridge toward Monster ceiling",
+      "account": "pariah_asymmetry",
+      "source": "computed prime-face bridge",
+      "values": {
+        "L": 47,
+        "C": 53,
+        "R": 59
+      },
+      "prime_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 6,
+        "R_minus_C": 6,
+        "R_minus_L": 12
+      },
+      "midpoint": 53.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": true,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        53
+      ],
+      "tarpit_readout": {
+        "program": "<1<++>}++1>>+}>1}10<01+<+1>+1++<",
+        "success": true,
+        "steps": 32,
+        "bonds": 2,
+        "mirrors": 0,
+        "digital_root": 3,
+        "final_mass": 0.5067728590195505,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 2,
+        "triads": 4
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "bridge_59_65_71",
+      "title": "Prime-face bridge toward Monster ceiling",
+      "account": "pariah_asymmetry",
+      "source": "computed prime-face bridge",
+      "values": {
+        "L": 59,
+        "C": 65,
+        "R": 71
+      },
+      "prime_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        0,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 6,
+        "R_minus_C": 6,
+        "R_minus_L": 12
+      },
+      "midpoint": 65.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": false,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": false,
+      "off_chain_values": [
+        65
+      ],
+      "tarpit_readout": {
+        "program": "10>>}+<<>>01+}>}}0++++1+1<0<>}>0",
+        "success": true,
+        "steps": 32,
+        "bonds": 5,
+        "mirrors": 0,
+        "digital_root": 1,
+        "final_mass": 0.5068138478448078,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 5,
+        "triads": 10
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "happy_29_31_41",
+      "title": "Monster-admitted supersingular triple",
+      "account": "happy_family",
+      "source": "supersingular Monster prime chain",
+      "values": {
+        "L": 29,
+        "C": 31,
+        "R": 41
+      },
+      "prime_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 2,
+        "R_minus_C": 10,
+        "R_minus_L": 12
+      },
+      "midpoint": 35.0,
+      "center_minus_midpoint": -4.0,
+      "center_is_prime": true,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": true,
+      "off_chain_values": [],
+      "tarpit_readout": {
+        "program": "<00>1}}}>00<1++}1>}011+1<}<><10+",
+        "success": true,
+        "steps": 32,
+        "bonds": 6,
+        "mirrors": 0,
+        "digital_root": 1,
+        "final_mass": 0.5114710854465346,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 6,
+        "triads": 12
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 1.6666666666666665,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 0.6666666666666666,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": false,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "happy_31_41_47",
+      "title": "Monster-admitted supersingular triple",
+      "account": "happy_family",
+      "source": "supersingular Monster prime chain",
+      "values": {
+        "L": 31,
+        "C": 41,
+        "R": 47
+      },
+      "prime_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 10,
+        "R_minus_C": 6,
+        "R_minus_L": 16
+      },
+      "midpoint": 39.0,
+      "center_minus_midpoint": 2.0,
+      "center_is_prime": true,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": true,
+      "off_chain_values": [],
+      "tarpit_readout": {
+        "program": "0+0<}+1+<}1<++01<111}1<+<}+11><0",
+        "success": true,
+        "steps": 32,
+        "bonds": 4,
+        "mirrors": 0,
+        "digital_root": 1,
+        "final_mass": 0.510313417744524,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 4,
+        "triads": 8
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "happy_41_47_59",
+      "title": "Monster-admitted supersingular triple",
+      "account": "happy_family",
+      "source": "supersingular Monster prime chain",
+      "values": {
+        "L": 41,
+        "C": 47,
+        "R": 59
+      },
+      "prime_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 6,
+        "R_minus_C": 12,
+        "R_minus_L": 18
+      },
+      "midpoint": 50.0,
+      "center_minus_midpoint": -3.0,
+      "center_is_prime": true,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": true,
+      "off_chain_values": [],
+      "tarpit_readout": {
+        "program": ">01+}<}+0>>>1<<1}1<><+>}00>0>1}1",
+        "success": true,
+        "steps": 32,
+        "bonds": 5,
+        "mirrors": 0,
+        "digital_root": 8,
+        "final_mass": 0.5078785502450563,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 5,
+        "triads": 10
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    },
+    {
+      "chart_id": "happy_47_59_71",
+      "title": "Monster-admitted supersingular triple",
+      "account": "happy_family",
+      "source": "supersingular Monster prime chain",
+      "values": {
+        "L": 47,
+        "C": 59,
+        "R": 71
+      },
+      "prime_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "parity_lcr": [
+        1,
+        1,
+        1
+      ],
+      "supersingular_mask_lcr": [
+        1,
+        1,
+        1
+      ],
+      "rule30_on_parity": 0,
+      "rule30_on_prime_mask": 0,
+      "correction_on_parity": 0,
+      "correction_on_prime_mask": 0,
+      "gaps": {
+        "C_minus_L": 12,
+        "R_minus_C": 12,
+        "R_minus_L": 24
+      },
+      "midpoint": 59.0,
+      "center_minus_midpoint": 0.0,
+      "center_is_prime": true,
+      "faces_are_prime": true,
+      "all_values_monster_admitted": true,
+      "off_chain_values": [],
+      "tarpit_readout": {
+        "program": "0+><}}000<0}}1}++}}1<1}+<11+0+0>",
+        "success": true,
+        "steps": 32,
+        "bonds": 7,
+        "mirrors": 0,
+        "digital_root": 3,
+        "final_mass": 0.5147095370642567,
+        "output_walls": 1,
+        "error_walls": 0,
+        "dusts": 7,
+        "triads": 14
+      },
+      "bondedness": {
+        "total_bonds": 3,
+        "triads_formed": 3,
+        "avg_dimensional_demand": 2.0,
+        "avg_mass": 0.999999,
+        "2d_emergent_fraction": 1.0,
+        "pair_rows": [
+          {
+            "a": "L prime-face",
+            "b": "C center-carrier",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "L prime-face",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          },
+          {
+            "a": "C center-carrier",
+            "b": "R prime-face",
+            "bond_mass": 0.999999,
+            "is_2d_emergent": true,
+            "triad": true
+          }
+        ],
+        "total_bonded_mass": 2.999997
+      }
+    }
+  ],
+  "account_summary": {
+    "happy_family": {
+      "charts": 4,
+      "rule30_parity_outputs": [
+        0
+      ],
+      "prime_mask_outputs": [
+        0
+      ],
+      "off_chain_values": [],
+      "avg_tarpit_mass": 0.5110931476250928,
+      "total_pair_bonds": 12,
+      "total_triads": 12
+    },
+    "pariah_asymmetry": {
+      "charts": 5,
+      "rule30_parity_outputs": [
+        0
+      ],
+      "prime_mask_outputs": [
+        0
+      ],
+      "off_chain_values": [
+        33,
+        37,
+        39,
+        44,
+        53,
+        65
+      ],
+      "avg_tarpit_mass": 0.5100919893363578,
+      "total_pair_bonds": 15,
+      "total_triads": 15
+    },
+    "seed": {
+      "charts": 1,
+      "rule30_parity_outputs": [
+        0
+      ],
+      "prime_mask_outputs": [
+        0
+      ],
+      "off_chain_values": [
+        30
+      ],
+      "avg_tarpit_mass": 0.5048957404860979,
+      "total_pair_bonds": 3,
+      "total_triads": 3
+    }
+  },
+  "monster_renormalization": {
+    "top_monster_triple": [
+      47,
+      59,
+      71
+    ],
+    "top_product": 196883,
+    "mckay_row": 196884,
+    "next_prime_after_ceiling": 73,
+    "next_prime_divides_monster_order": false,
+    "happy_top_chart": "happy_47_59_71",
+    "happy_top_values": {
+      "L": 47,
+      "C": 59,
+      "R": 71
+    },
+    "pariah_asymmetry_values": [
+      33,
+      37,
+      39,
+      44,
+      53,
+      65
+    ],
+    "pariah_groups_named_for_accounting": [
+      "J1",
+      "J3",
+      "J4",
+      "O'N",
+      "Ly",
+      "Ru"
+    ],
+    "renormalization_rule": "At the 47,59,71 ceiling, the Happy-family account keeps the Monster-admitted supersingular product 196883 and McKay row 196884. The Pariah/asymmetry account keeps off-chain bridge centers and primes as boundary residues instead of forcing them into the Monster product."
+  },
+  "claim_lanes": [
+    {
+      "id": "PCM-01",
+      "lane": "normal_form_result",
+      "claim": "The seed 29,30,31 and encoded 31,33,37 charts preserve the prime/composite/prime LCR mask.",
+      "result": "prime-mask LCR = 1,0,1 for both charts"
+    },
+    {
+      "id": "PCM-02",
+      "lane": "receipt_bound_internal_result",
+      "claim": "The prime-mask and parity charts can be run through the same Rule-30 bit/correction readout.",
+      "result": "seed and encoded charts both produce Rule-30 parity output 0 and no correction fire"
+    },
+    {
+      "id": "PCM-03",
+      "lane": "CAM_crystal_reapplication_result",
+      "claim": "Upward prime charts should be carried as two ledgers rather than collapsed into one interpretation.",
+      "result": "Happy-family ledger for Monster-admitted primes; Pariah/asymmetry ledger for off-chain bridge residues"
+    },
+    {
+      "id": "PCM-04",
+      "lane": "standard_theorem_or_code_bound_result",
+      "claim": "The Monster ceiling row remains 47*59*71=196883 and 196884=1+196883.",
+      "result": "196883 and 196884"
+    },
+    {
+      "id": "PCM-05",
+      "lane": "grand_synthesis_claim_with_dependencies",
+      "claim": "The Monster acts as a renormalization boundary distributing admitted structure and asymmetry residues into two accounts.",
+      "result": "At the 47,59,71 ceiling, the Happy-family account keeps the Monster-admitted supersingular product 196883 and McKay row 196884. The Pariah/asymmetry account keeps off-chain bridge centers and primes as boundary residues instead of forcing them into the Monster product."
+    }
+  ],
+  "source_papers": [
+    "FLCR-27",
+    "FLCR-29",
+    "FLCR-40"
+  ]
+}

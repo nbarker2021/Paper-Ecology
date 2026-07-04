@@ -1,0 +1,55 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0072",
+  "path": "D:\\CQE_CMPLX\\unpack-and-bind\\D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+  "name": "D\uf03a\uf05cCQE_CMPLX\uf05cunpack-and-bind\uf05cmeta_chart.db",
+  "status": "ok",
+  "signal_score": 32,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 3,
+  "signal_tables": [
+    {
+      "table": "meta_charts",
+      "row_count": 1,
+      "signal_columns": [
+        "content_hash"
+      ]
+    },
+    {
+      "table": "meta_entries",
+      "row_count": 3,
+      "signal_columns": [
+        "w_window"
+      ]
+    },
+    {
+      "table": "meta_projections",
+      "row_count": 3,
+      "signal_columns": [
+        "content_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "073e563eb96320caf20ad870d21e135111c081b1be941644b70be1d32f298e59"
+}

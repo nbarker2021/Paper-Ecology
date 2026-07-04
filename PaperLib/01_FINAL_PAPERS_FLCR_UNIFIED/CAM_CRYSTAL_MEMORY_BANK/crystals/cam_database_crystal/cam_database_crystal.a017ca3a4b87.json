@@ -1,0 +1,28 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0075",
+  "path": "D:\\CQE_CMPLX\\CQECMPLX-AirLock\\cqe-production-v0.1\\.test_scratch\\manual\\shared-memory\\ledger.sqlite",
+  "name": "ledger.sqlite",
+  "status": "ok",
+  "signal_score": 40,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 1,
+  "signal_tables": [],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "a017ca3a4b87271cf7b37e051422c01fe8af86835e701a7f06a57d6e61298311"
+}

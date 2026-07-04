@@ -1,0 +1,26 @@
+{
+  "kind": "archive_crystal",
+  "granularity": "archive",
+  "archive_id": "ARCH-0173",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX-1T\\docs\\3_staged\\family_exemplar_starters\\Family Builds-legacy\\CQE_organized\\cqe_organized-20251122T204620Z-1-001\\cqe_organized\\NESTED_ARCHIVES\\6d9503fda0bb__fixtures_data__triviaqa-sample.tgz",
+  "name": "6d9503fda0bb__fixtures_data__triviaqa-sample.tgz",
+  "archive_kind": "tar",
+  "entry_count_indexed": 24,
+  "high_signal_entry_count": 23,
+  "slot_families": [
+    "ledger_action",
+    "bridge_action"
+  ],
+  "slot_assignments": [
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37"
+  ],
+  "frame": "archive-intake content and source-card discovery view",
+  "content_address": "fbfdf41793ffc282a770cb8399f071aab1b447b2139de81c9dbebe3aa4388cc5"
+}

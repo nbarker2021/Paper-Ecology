@@ -1,0 +1,15 @@
+# Analog Contract - OPR-67
+
+## Label-Preserving Transfer
+
+The analog layer demonstrates that labels, coordinates, or access paths may
+change while the addressed state remains invariant.
+
+## Required Proof Form
+
+bridge, projection, calibration, or sample-preservation proof
+
+## Replay Boundary
+
+The analog replay is admissible only when it names the invariant state, the
+changed label or medium, the evidence lane, and the downstream import boundary.

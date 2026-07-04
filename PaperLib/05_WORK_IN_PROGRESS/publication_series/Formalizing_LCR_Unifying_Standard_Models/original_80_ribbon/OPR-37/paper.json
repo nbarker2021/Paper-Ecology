@@ -1,0 +1,42 @@
+{
+  "original_publication_id": "OPR-37",
+  "original_slot": "37",
+  "title": "Lift-3 Bridge: Discrete-Continuous, Standard-Model, And Calibration Correspondence",
+  "status": "expansion_needed",
+  "source_file": null,
+  "linked_flcr_papers": [
+    "FLCR-08",
+    "FLCR-31",
+    "FLCR-35",
+    "FLCR-36",
+    "FLCR-37"
+  ],
+  "slot_family": "bridge_action",
+  "lift_depth": 3,
+  "dimensional_role": "order-4 slot-7: project between discrete, continuous, lattice, or physical-facing forms",
+  "proof_form_required": "bridge, projection, calibration, or sample-preservation proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  },
+  "routing_status": "routed_from_existing_flcr_and_orbital_sources",
+  "source_lanes": [
+    "07_Discrete_Continuous_Bridge.md",
+    "supplements/SM_BRIDGE_SUPPLEMENT.md",
+    "ORBITAL_DATA_CROSS_POPULATION_AUDIT.md",
+    "FLCR-31/formal.md",
+    "FLCR-35/formal.md",
+    "FLCR-36/formal.md",
+    "FLCR-37/formal.md"
+  ],
+  "formal_target": "turn cross-domain translation into explicit correspondence tables with units, citations, calibration requirements, and non-promotion guards",
+  "semantic_target": "after ledgers exist, the next state is a bridge: what can safely cross from LCR-native proof into standard mathematics or measured physics language",
+  "analog_target": "a bilingual correspondence table: every translated phrase must keep its source row and target row paired",
+  "claim_lanes": [
+    "standard_theorem_citation_bound_result",
+    "normal_form_result",
+    "external_calibration_result",
+    "falsifier_or_open_obligation"
+  ]
+}

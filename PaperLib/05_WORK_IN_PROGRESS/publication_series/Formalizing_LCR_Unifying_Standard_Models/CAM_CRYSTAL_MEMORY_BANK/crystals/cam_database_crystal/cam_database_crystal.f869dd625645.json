@@ -1,0 +1,75 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0069",
+  "path": "D:\\CQE_CMPLX\\git-hosted-roots\\CQECMPLX-Production\\archive\\stale-review\\2026-06-27\\production\\packages\\cqecmplx-forge\\src\\CrystalForge\\crystal_vault.db",
+  "name": "crystal_vault.db",
+  "status": "ok",
+  "signal_score": 62,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 4,
+  "signal_tables": [
+    {
+      "table": "brain_contributions",
+      "row_count": 4,
+      "signal_columns": [
+        "mi_score"
+      ]
+    },
+    {
+      "table": "crystals",
+      "row_count": 2,
+      "signal_columns": [
+        "crystal_id",
+        "crystal_type",
+        "e8_root",
+        "snap_address",
+        "receipt_chain",
+        "node_count"
+      ]
+    },
+    {
+      "table": "e8_nodes",
+      "row_count": 4,
+      "signal_columns": [
+        "node_id",
+        "crystal_id",
+        "content",
+        "content_type",
+        "e8_coords",
+        "mdhg_address"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "48",
+    "58",
+    "68",
+    "78",
+    "46",
+    "56",
+    "66",
+    "76",
+    "47",
+    "57",
+    "67",
+    "77",
+    "43",
+    "53",
+    "63",
+    "73",
+    "40",
+    "50",
+    "60",
+    "70"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "f869dd62564578f5156b0d10c7efe4a0e617989f9eeffcfaaa6377bc3e744adb"
+}

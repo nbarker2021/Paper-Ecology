@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-26",
+  "original_slot": "26",
+  "title": "Z Pinch and Shear Horizon",
+  "status": "source_backed",
+  "source_file": "26_Z_Pinch_and_Shear_Horizon.md",
+  "linked_flcr_papers": [
+    "FLCR-25",
+    "FLCR-37"
+  ],
+  "slot_family": "ledger_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-6: bind state into causal, observer, or synchronization ledgers",
+  "proof_form_required": "ledger, graph, and synchronization proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "original_publication_id": "OPR-03",
+  "original_slot": "03",
+  "title": "D4 J3 Triality Surface",
+  "status": "source_backed",
+  "source_file": "03_D4_J3_Triality_Surface.md",
+  "linked_flcr_papers": [
+    "FLCR-04"
+  ],
+  "slot_family": "fold_action",
+  "lift_depth": 0,
+  "dimensional_role": "order-1 slot-3: fold the initial action into a higher-dimensional representation",
+  "proof_form_required": "fold map, coordinate atlas, and representation transport",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

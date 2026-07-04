@@ -1,0 +1,12 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "FLCR",
+  "missing_count": 1,
+  "highest_score": 31,
+  "sample_files": [
+    "FLCR\\paper.pdf"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "f2af515bf454edc4cc82beac9afd83bc382bcb3a2172949c7276cc316c2896b0"
+}

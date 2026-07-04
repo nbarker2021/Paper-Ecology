@@ -1,0 +1,22 @@
+# --- HARVESTED FROM cqe_signal_harmonizer.py ---
+# Source: D:/CodeLib/06_ACTIVE_REWORK_HARVEST/cqe_signal_harmonizer.py
+# Harvest date: 2026-07-14
+# Disposition: canon (Paper 07 — E8 Lattice Consensus / Signal Harmonization)
+# Ported capabilities:
+#   - E8 root generation (_generate_e8_roots, E8_ROOTS, E8_NORM)
+#   - _snap_to_nearest_root
+#   - _weyl_reflect
+#   - _midpoint_ecc
+#   - Signal class (8D projection)
+#   - ConsensusResult dataclass
+#   - MORSRStabilityProbe class
+#   - SignalHarmonizer class (iterative geometric consensus)
+#   - verify_e8_root_count, verify_e8_root_norm, verify_snap_distance,
+#     verify_weyl_reflection_closure, verify_midpoint_consistency,
+#     verify_signal_harmonization_convergence, verify_morsr_stability
+# Discarded:
+#   - demo() function (sensor fusion, ML ensemble, data reconciliation, noise stress)
+#   - if __name__ == "__main__" block
+#   - Application-context docstrings (sensor fusion, ML ensemble, voting systems)
+#   - datetime, timezone, random, itertools.combinations imports (unused in core)
+# Status: HARVESTED

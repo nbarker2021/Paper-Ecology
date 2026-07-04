@@ -1,0 +1,22 @@
+{
+  "row_id": "MAP-FLCR32-010",
+  "flcr_id": "FLCR-32",
+  "smd_id": "SMD-01",
+  "O_ext": "IRL-PDG-2026",
+  "equation_or_source": "IRL-PDG-2026",
+  "O_lcr": "translation calibration target",
+  "lane": "external_calibration_result",
+  "boundary": "Does not convert finite quark-face transport into full QCD dynamics.",
+  "dataset": "IRL-PDG-2026: IRL-PDG-2026",
+  "falsifier": "Does not convert finite quark-face transport into full QCD dynamics.",
+  "closure_state": "closed_by_standard_formalism",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-PDG-2026"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Online Source Rows",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

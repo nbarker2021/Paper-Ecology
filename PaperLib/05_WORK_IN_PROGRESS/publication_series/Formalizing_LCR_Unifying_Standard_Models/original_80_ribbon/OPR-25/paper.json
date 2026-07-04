@@ -1,0 +1,20 @@
+{
+  "original_publication_id": "OPR-25",
+  "original_slot": "25",
+  "title": "Energetic Traversal Maps",
+  "status": "source_backed",
+  "source_file": "25_Energetic_Traversal_Maps.md",
+  "linked_flcr_papers": [
+    "FLCR-24",
+    "FLCR-37"
+  ],
+  "slot_family": "carrier_action",
+  "lift_depth": 2,
+  "dimensional_role": "order-3 slot-5: carry the state through a path, traversal, or admissible motion",
+  "proof_form_required": "carrier/transducer/path proof",
+  "triad": {
+    "formal_contract": "formal_contract.md",
+    "semantic_contract": "semantic_contract.md",
+    "analog_contract": "analog_contract.md"
+  }
+}

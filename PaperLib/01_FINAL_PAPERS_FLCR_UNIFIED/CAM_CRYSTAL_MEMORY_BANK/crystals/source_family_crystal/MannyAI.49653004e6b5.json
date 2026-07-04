@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "MannyAI",
+  "missing_count": 113,
+  "highest_score": 66,
+  "sample_files": [
+    "MannyAI\\src\\manny_mcp\\plugins\\cam_list_crystals.py",
+    "MannyAI\\src\\SplatForgeField\\reconstruct.py",
+    "MannyAI\\src\\SplatForgeField\\grammar.py",
+    "MannyAI\\src\\SplatForgeField\\runtime.py",
+    "MannyAI\\src\\SplatForgeField\\field.py",
+    "MannyAI\\src\\SplatForgeField\\adapter.py",
+    "MannyAI\\src\\SplatForgeField\\__init__.py",
+    "MannyAI\\src\\SplatForgeField\\render.py"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "49653004e6b55960ed4814df10d560ab29c7940d03417d986cc81434ffc85d79"
+}

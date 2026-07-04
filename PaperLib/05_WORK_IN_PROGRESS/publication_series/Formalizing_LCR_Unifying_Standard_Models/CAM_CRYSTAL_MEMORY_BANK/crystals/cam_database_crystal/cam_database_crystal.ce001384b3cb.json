@@ -1,0 +1,47 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0068",
+  "path": "D:\\CQE_CMPLX\\g\\CMPLX\\cmplx_submodules\\CMPLXUNI\\src\\mmdb\\vector_store.db",
+  "name": "vector_store.db",
+  "status": "ok",
+  "signal_score": 25,
+  "port_recommendation": "REVIEW_FOR_PORT",
+  "table_count": 4,
+  "signal_tables": [
+    {
+      "table": "vectors",
+      "row_count": 0,
+      "signal_columns": [
+        "e8_projection",
+        "content_hash"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "03",
+    "13",
+    "23",
+    "33",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "ce001384b3cbce6efe2088fe124f0f949fa87a7f4b347e73513d2e2964475ebf"
+}

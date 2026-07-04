@@ -1,0 +1,40 @@
+{
+  "target": "paper_reworks.crystal_zoo.virtuous",
+  "crystal_id": "34e2b37edeeb",
+  "paper_files": 24,
+  "generated_manifest_entries": 23,
+  "obligation_springboards": 80,
+  "reasoning_audit": "D:\\Paper Reworks\\virtuous\\OBLIGATION_REASONING_AUDIT.md",
+  "faces": 30,
+  "vignettes": 30,
+  "cam_nodes_written": 60,
+  "registry_health": {
+    "ok": true,
+    "service": "crystal_registry",
+    "crystals": 1,
+    "tools": 0,
+    "total_nodes": 60
+  },
+  "route_counts": {
+    "all_forges_applicability_router": 30,
+    "cam_receipt_auditor": 30,
+    "forge_router": 30,
+    "paper_obligation_router": 4,
+    "paper_skeleton_enrichment": 1
+  },
+  "label_counts": {
+    "batch_09_32": 24,
+    "cam": 30,
+    "folder": 1,
+    "forgeable": 30,
+    "markdown": 24,
+    "next_need": 4,
+    "obligation": 4,
+    "obligation_bearing": 1,
+    "paper": 28,
+    "paper_09": 4,
+    "paper_reworks": 2,
+    "skeleton": 1,
+    "transition": 1
+  }
+}

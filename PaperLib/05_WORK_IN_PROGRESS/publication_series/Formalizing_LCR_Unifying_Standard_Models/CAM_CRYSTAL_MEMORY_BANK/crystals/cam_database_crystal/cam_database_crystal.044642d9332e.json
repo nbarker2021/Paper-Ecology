@@ -1,0 +1,142 @@
+{
+  "kind": "cam_database_crystal",
+  "granularity": "database",
+  "db_id": "CAMDB-0046",
+  "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\lib-forge\\odysseus\\data\\app.db",
+  "name": "app.db",
+  "status": "ok",
+  "signal_score": 71,
+  "port_recommendation": "PORT_FIRST",
+  "table_count": 31,
+  "signal_tables": [
+    {
+      "table": "api_tokens",
+      "row_count": 0,
+      "signal_columns": [
+        "token_hash"
+      ]
+    },
+    {
+      "table": "calendars",
+      "row_count": 1,
+      "signal_columns": [
+        "source"
+      ]
+    },
+    {
+      "table": "chat_messages",
+      "row_count": 0,
+      "signal_columns": [
+        "content"
+      ]
+    },
+    {
+      "table": "chat_messages_fts",
+      "row_count": 0,
+      "signal_columns": [
+        "content"
+      ]
+    },
+    {
+      "table": "chat_messages_fts_content",
+      "row_count": 0,
+      "signal_columns": []
+    },
+    {
+      "table": "document_versions",
+      "row_count": 1,
+      "signal_columns": [
+        "content",
+        "source"
+      ]
+    },
+    {
+      "table": "documents",
+      "row_count": 1,
+      "signal_columns": [
+        "current_content",
+        "source_email_uid",
+        "source_email_folder",
+        "source_email_account_id",
+        "source_email_message_id"
+      ]
+    },
+    {
+      "table": "editor_drafts",
+      "row_count": 0,
+      "signal_columns": [
+        "source_image_id"
+      ]
+    },
+    {
+      "table": "email_accounts",
+      "row_count": 0,
+      "signal_columns": [
+        "from_address"
+      ]
+    },
+    {
+      "table": "gallery_images",
+      "row_count": 0,
+      "signal_columns": [
+        "file_hash",
+        "camera_make",
+        "camera_model"
+      ]
+    },
+    {
+      "table": "memories",
+      "row_count": 0,
+      "signal_columns": [
+        "source"
+      ]
+    },
+    {
+      "table": "notes",
+      "row_count": 0,
+      "signal_columns": [
+        "content",
+        "source",
+        "ai_content_hash"
+      ]
+    },
+    {
+      "table": "user_tools",
+      "row_count": 0,
+      "signal_columns": [
+        "html_content"
+      ]
+    }
+  ],
+  "slot_families": [
+    "terminal_action",
+    "ledger_action",
+    "bridge_action",
+    "fold_action",
+    "closure_lift"
+  ],
+  "slot_assignments": [
+    "08",
+    "18",
+    "28",
+    "38",
+    "06",
+    "16",
+    "26",
+    "36",
+    "07",
+    "17",
+    "27",
+    "37",
+    "03",
+    "13",
+    "23",
+    "33",
+    "00",
+    "10",
+    "20",
+    "30"
+  ],
+  "frame": "existing CAM/database addressing port view",
+  "content_address": "044642d9332edae062f34753d1135eec0afc5c087619de41813fb12cb8c114e2"
+}

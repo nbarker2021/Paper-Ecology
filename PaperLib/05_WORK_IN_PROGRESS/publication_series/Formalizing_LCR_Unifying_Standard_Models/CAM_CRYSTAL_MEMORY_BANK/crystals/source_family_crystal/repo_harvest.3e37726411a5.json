@@ -1,0 +1,19 @@
+{
+  "kind": "source_family_crystal",
+  "granularity": "source_family",
+  "source_family": "repo_harvest",
+  "missing_count": 74665,
+  "highest_score": 83,
+  "sample_files": [
+    "repo_harvest\\GaussHaus\\src\\lattice_forge\\orders_crystal\\automate_via_tarpit.py",
+    "repo_harvest\\GaussHaus\\src\\lattice_forge\\orders_crystal\\e8_morsr.py",
+    "repo_harvest\\GaussHaus\\src\\lattice_forge\\data\\wolfram-rule30-center\\manifest.json",
+    "repo_harvest\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge\\rule30.py",
+    "repo_harvest\\GaussHaus\\src\\products\\paneforge\\lib-forge\\lattice_forge\\centroid_voa.py",
+    "repo_harvest\\GaussHaus\\src\\products\\splatforge\\lib-forge\\lattice_forge\\centroid_voa.py",
+    "repo_harvest\\CQECMPLX-Production\\showcase\\astro-metaforge-lunch-demo\\evidence\\tests\\formal_materials_receipt.json",
+    "repo_harvest\\CMPLX-PartsFactory\\packages\\lattice-forge\\docs\\cqe\\extracted_formalizations\\texts\\044-claude-real-math-d4-j30-idempotent-bridge-tests.md"
+  ],
+  "frame": "D-drive inventory gap source-family view",
+  "content_address": "3e37726411a5b8fc2329bc744cca27526e09bef2c6b7e2261e6f1ea02307dc64"
+}

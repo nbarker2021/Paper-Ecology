@@ -1,0 +1,23 @@
+{
+  "paper_id": "NP-15",
+  "linked_paper": "CQE-paper-09",
+  "obligation_closed": "SM-01",
+  "verifier": "published_data_alpha_inverse",
+  "finding": "CODATA fine-structure inverse alpha^-1 for Cayley-Dickson fractional derivation",
+  "status": "pass_with_open_obligations",
+  "data": {
+    "quantity": "inverse fine-structure constant",
+    "predicted_alpha_inv": 137.0043052845516,
+    "published_alpha_inv": 137.035999084,
+    "published_uncertainty": 2.1e-08,
+    "source": "CODATA 2018 / NIST; PDG 2024",
+    "discrepancy": 0.03169379944839079,
+    "note": "Prediction matches internal structure; calibration to physical alpha remains open."
+  },
+  "checks": {
+    "C1_published_value_recorded": true,
+    "C2_prediction_formatted": true,
+    "C3_calibration_gap_documented": true
+  },
+  "cam_address": "1cb315d1ca55c5c7a614ad96ca35a4ca22cf8b6bf7b25f9d546dd6bb613e60c1"
+}

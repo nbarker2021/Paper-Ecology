@@ -1,0 +1,23 @@
+{
+  "row_id": "MAP-FLCR31-014",
+  "flcr_id": "FLCR-31",
+  "smd_id": "SMD-03",
+  "O_ext": "Coupling calibration target",
+  "equation_or_source": "`IRL-NIST-ALPHA-2022`, `IRL-CODATA-2022-WALLET`",
+  "O_lcr": "LCR translation surface",
+  "lane": "external_calibration_result",
+  "boundary": "LCR derivation of the value; scale/scheme-specific comparison.",
+  "dataset": "IRL-CODATA-2022-WALLET: IRL-CODATA-2022-WALLET; IRL-NIST-ALPHA-2022: NIST CODATA inverse fine-structure constant",
+  "falsifier": "LCR derivation of the value; scale/scheme-specific comparison.",
+  "closure_state": "closed_by_external_calibration",
+  "evidence_paths": [],
+  "irl_ids": [
+    "IRL-CODATA-2022-WALLET",
+    "IRL-NIST-ALPHA-2022"
+  ],
+  "native_flcr_deps": [],
+  "maximal_claim_ref": "",
+  "source_section": "Assertive Closure Promotions",
+  "obligation_id": null,
+  "has_native_deps": ""
+}

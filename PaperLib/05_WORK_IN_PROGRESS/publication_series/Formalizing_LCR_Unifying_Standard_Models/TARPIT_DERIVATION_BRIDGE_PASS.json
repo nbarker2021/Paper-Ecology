@@ -1,0 +1,214 @@
+{
+  "artifact": "TARPIT_DERIVATION_BRIDGE_PASS",
+  "created_utc": "2026-06-28",
+  "purpose": "Bind TarPit exact data-mass, MassResidueForge, kappa receipts, SM coupling bridge, and calibration receipts into one derivation-status map for FLCR mass/coupling claims.",
+  "primary_question": "If TarPit computes exact mass for examined data, where is the remaining gap for physical derivations?",
+  "finding": "The internal mass functional is present and executable. The remaining gap is not the existence of a mass algebra; it is the authority of the adapter that maps TarPit/VOA/kappa internal mass coordinates into unitful Standard Model observables without hidden anchors.",
+  "core_sources": [
+    {
+      "id": "tarpit_interface",
+      "path": "D:/CQE_CMPLX/CMPLX-PartsFactory-main/src/cmplx/symbolic/tarpit/INTERFACE.md",
+      "closes": "TarPit exposes DimensionalExtent.norm, mass_1d, mass_2d, TarpitEcology.run, output walls, and final_mass."
+    },
+    {
+      "id": "tarpit_grain",
+      "path": "D:/CQE_CMPLX/CMPLX-PartsFactory-main/src/cmplx/symbolic/tarpit/grain.py",
+      "closes": "mass_1d = norm / L_max, clipped below 1.0; mass_2d = parallelogram_area / A_max, clipped below 1.0."
+    },
+    {
+      "id": "tarpit_ecology",
+      "path": "D:/CQE_CMPLX/CMPLX-PartsFactory-main/src/cmplx/symbolic/tarpit/ecology.py",
+      "closes": "final_mass is the mean grain mass over the final examined grain set."
+    },
+    {
+      "id": "mass_residue_forge",
+      "path": "D:/CQE_CMPLX/CQECMPLX-Formal-Suite/lib/src/MassResidueForge/__init__.py",
+      "closes": "Internal mass = VOA conformal weight; 2 massless vacua, 6 massive excited states, internal mass gap 5, residue carrier C AND NOT R."
+    },
+    {
+      "id": "mass_residue_receipt",
+      "path": "D:/CQE_CMPLX/CQECMPLX-Formal-Suite/lib/lattice_forge/receipts/CQE-paper-15-mass_residue_literalized_receipt.json",
+      "closes": "10/10 internal mass-residue checks pass."
+    },
+    {
+      "id": "kappa_receipt",
+      "path": "D:/CQE_CMPLX/CQECMPLX-Formal-Suite/lib/lattice_forge/receipts/verify_kappa_derivation.json",
+      "closes": "kappa = ln(phi)/16, channel formulas for alpha and G_N, and external_calibration_needed=false as asserted by this receipt."
+    },
+    {
+      "id": "sm_coupling_bridge",
+      "path": "D:/CQE_CMPLX/GaussHaus/src/lattice_forge/sm_coupling_bridge.py",
+      "closes": "Exact SU(5) normalization and calibrated readouts from declared measured anchors; numeric low-energy values are input-derived unless promoted by a no-fit adapter."
+    },
+    {
+      "id": "calibrate_units",
+      "path": "D:/CQE_CMPLX/CQECMPLX-Formal-Suite/lib/lattice_forge/verify_calibrate_units.py",
+      "closes": "VOA/kappa to GeV calibration surface exists but currently declares Higgs anchor and external_calibration_needed=true."
+    },
+    {
+      "id": "higgs_data_receipt",
+      "path": "D:/Paper Reworks/NP-15_receipts/higgs_mass_data_receipt.json",
+      "closes": "Published Higgs, W, Z, and top values are recorded; Higgs derivation from chart residue remains open in that receipt."
+    }
+  ],
+  "status_rows": [
+    {
+      "claim": "TarPit exact data mass",
+      "status": "closed_internal",
+      "basis": "DimensionalExtent.mass_1d/mass_2d and TarpitEcology.final_mass are executable and tested."
+    },
+    {
+      "claim": "VOA mass-residue carrier",
+      "status": "closed_internal",
+      "basis": "MassResidueForge and CQE-paper-15 literalized receipt pass."
+    },
+    {
+      "claim": "kappa as event-energy quantum",
+      "status": "closed_internal_strong",
+      "basis": "verify_kappa_derivation receipt and repeated kappa usage across the formal suite."
+    },
+    {
+      "claim": "physical alpha, G_N, and Higgs constants no-fit from kappa",
+      "status": "promotion_conflict",
+      "basis": "verify_kappa_derivation asserts no calibration; sm_coupling_bridge and calibrate_units keep measured-anchor boundaries. Requires adapter-authority reconciliation."
+    },
+    {
+      "claim": "CKM structure",
+      "status": "closed_structural_numeric_pending",
+      "basis": "CKM receipt maps exact SU3 closure and bounded route to 3 angles plus CP phase; numeric values remain calibrated target values."
+    },
+    {
+      "claim": "Higgs/electroweak unit scale",
+      "status": "closed_internal_calibration_pending",
+      "basis": "Mass residue, internal VEV-like two-vacua structure, and data receipts exist; no-fit GeV adapter remains to be made authoritative."
+    }
+  ],
+  "real_gap": {
+    "not_gap": [
+      "No gap in computing exact internal TarPit mass for examined data.",
+      "No gap in assigning internal mass/residue to the 2x2x2 VOA chart.",
+      "No gap in recording measured IRL targets for alpha, CKM, Higgs, W, Z, top."
+    ],
+    "actual_gap": [
+      "Adapter authority: define which 2x2 handshake maps TarPit/VOA/kappa internal mass to physical units and observables.",
+      "Promotion reconciliation: resolve receipt conflict between no-calibration kappa receipts and calibration-bound SM bridge receipts.",
+      "Unit proof: show that the adapter produces GeV/coupling units without using the target observable as an anchor.",
+      "Residual ledger: compute residuals against PDG/CODATA with uncertainties and label any remaining difference."
+    ]
+  },
+  "next_executable_derivation": {
+    "name": "tarpit_kappa_physical_adapter",
+    "inputs": [
+      "TarPit final_mass or DimensionalExtent mass vector",
+      "VOA weight/residue state",
+      "kappa = ln(phi)/16",
+      "sector tag: alpha, Higgs, CKM, gravity, or gauge coupling",
+      "declared unit map"
+    ],
+    "outputs": [
+      "predicted physical quantity",
+      "unit",
+      "source-free/no-fit flag",
+      "residual against PDG/CODATA target",
+      "claim lane promotion decision"
+    ],
+    "promotion_rule": "Promote to physical derivation only if the adapter does not use the target observable as an anchor and the residual is within the declared uncertainty or declared tolerance for a pre-registered estimate lane."
+  },
+  "executed_lift_tower_pass": {
+    "script": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/tools/tarpit_lift_tower_pass.py",
+    "receipt_json": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/TARPIT_LIFT_TOWER_PASS.json",
+    "receipt_markdown": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/TARPIT_LIFT_TOWER_PASS.md",
+    "status": "pass",
+    "counts": {
+      "papers": 40,
+      "states_per_paper": 8,
+      "enumeration_rows": 320,
+      "successful_tarpit_runs": 320,
+      "error_walls": 0,
+      "slot_family_towers": 10,
+      "decade_towers": 4
+    },
+    "global_summary": {
+      "avg_final_mass": 0.509744047836896,
+      "mass_sum": 163.11809530780678,
+      "voa_mass_sum": 1200,
+      "correction_fires": 80,
+      "obstruction_fires": 80,
+      "total_output_walls": 320,
+      "total_bonds": 1430,
+      "total_triads": 2860
+    },
+    "meaning": "The first 2x2x2 enumeration is fully decomposed for every FLCR lift and recomposed into higher paper, slot-family, and decade towers. The physical adapter now consumes tower rows instead of loose prose."
+  },
+  "universal_process_derivation_pass": {
+    "script": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/tools/universal_tarpit_process_derivation_pass.py",
+    "receipt_json": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.json",
+    "receipt_markdown": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/UNIVERSAL_TARPIT_PROCESS_DERIVATION_PASS.md",
+    "status": "pass",
+    "counts": {
+      "process_families": 8,
+      "lcr_components": 71,
+      "pair_bonds": 346,
+      "pair_triads": 346,
+      "compared_targets": 12,
+      "external_or_adapter_required_targets": 15
+    },
+    "process_families": [
+      "fine_structure_constant",
+      "electroweak_mass_residue",
+      "ckm_bounded_route",
+      "crystal_zoo_bondedness",
+      "chemical_bond_energy_forms",
+      "universe_scale_tarpit_tower",
+      "waveform_encoding_collapse",
+      "beta_decay_topology"
+    ],
+    "meaning": "TarPit readout is promoted from a mass-only adapter to a universal process metric substrate: assembled LCR data forms, pairwise bondedness, crystal comparison, process TarPit mass, and residual rows against standard targets."
+  },
+  "damascus_tarpit_folding_pass": {
+    "script": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/tools/damascus_tarpit_folding_pass.py",
+    "receipt_json": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/DAMASCUS_TARPIT_FOLDING_PASS.json",
+    "receipt_markdown": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/DAMASCUS_TARPIT_FOLDING_PASS.md",
+    "status": "pass",
+    "counts": {
+      "fold_layers": 6,
+      "forms_per_fold": 8,
+      "total_form_analyses": 48,
+      "all_success": true
+    },
+    "final_fold_summary": {
+      "avg_tarpit_mass": 0.5055534794443203,
+      "avg_emission_mass": 4.504056742071443,
+      "total_pair_bonds": 168,
+      "total_pair_triads": 168,
+      "open_load_sum": 15.0,
+      "nearest_crystals": [
+        "kagome"
+      ]
+    },
+    "meaning": "Emitted forms are recursively readable. The Damascus pass folds process emissions back through TarPit multiple times, preserving lineage while measuring mass, bondedness, crystal proximity, open load, and closed load."
+  },
+  "fine_bonding_stabilization_derivation_pass": {
+    "script": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/tools/fine_bonding_stabilization_pass.py",
+    "receipt_json": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/FINE_BONDING_STABILIZATION_DERIVATION_PASS.json",
+    "receipt_markdown": "D:/Paper Reworks/publication_series/Formalizing_LCR_Unifying_Standard_Models/FINE_BONDING_STABILIZATION_DERIVATION_PASS.md",
+    "status": "pass",
+    "stabilization": {
+      "fold0_pair_bonds": 120,
+      "stable_pair_bonds": 168,
+      "stable_triads": 168,
+      "pair_bond_jump": 48,
+      "open_load_constant": 15,
+      "crystal_family_constant": "kagome"
+    },
+    "hamming_137_lane": {
+      "hamming_address": "1-3-7",
+      "decimal_address": 137,
+      "pfc2_realization": "137 = 120 + 13 + 4",
+      "fano_automorphism_order": 168,
+      "boundary_dispersion_after_e8_floor": 17,
+      "weak_face_selector_residue_mod_4": 1
+    },
+    "meaning": "The fine-bonding target is now localized to the first Damascus refold. The observed 168 stabilization matches the Fano/Hamming automorphism order, while the alpha-address lane is represented as Hamming 1-3-7 and PFC2 120+13+4. The next adapter must prove the diagonal-removal boundary split without using alpha as a target anchor."
+  }
+}

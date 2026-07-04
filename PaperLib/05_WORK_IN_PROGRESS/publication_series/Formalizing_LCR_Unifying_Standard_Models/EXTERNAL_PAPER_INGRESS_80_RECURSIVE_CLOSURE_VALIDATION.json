@@ -1,0 +1,1458 @@
+{
+  "schema": "flcr.external_ingress_recursive_closure_validation.v1",
+  "generated_utc": "2026-07-01T02:41:18.284250+00:00",
+  "conversion_chain_record": "CONVERSION_CHAIN_RECURSIVE_CLOSURE_RECORD_2026_06_30.md",
+  "source_manifest": "D:\\CQE_CMPLX\\papers\\active-rework\\publication_series\\Formalizing_LCR_Unifying_Standard_Models\\EXTERNAL_PAPER_INGRESS_80_SEED_MANIFEST.json",
+  "record_count": 80,
+  "status_counts": {
+    "RECURSIVE_REVIEW_REQUIRED": 80
+  },
+  "logic_bound_counts": {
+    "external_support": 16,
+    "external_comparator": 56,
+    "topic_extension": 8
+  },
+  "pass_interpretation": "Ingress-shape pass is not recursive closure. Records with RECURSIVE_REVIEW_REQUIRED are valid intake seeds but cannot pass as closed claims.",
+  "rows": [
+    {
+      "ingress_id": "EXT80-01",
+      "route": "FLCR-01",
+      "title": "Replicability, Robustness, and Reproducibility in Psychological Science",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-02",
+      "route": "FLCR-02",
+      "title": "Toward Causal Representation Learning",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-03",
+      "route": "FLCR-03",
+      "title": "SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-04",
+      "route": "FLCR-04",
+      "title": "The Standard Model, The Exceptional Jordan Algebra, and Triality",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-05",
+      "route": "FLCR-05",
+      "title": "The 2020 motile active matter roadmap",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-06",
+      "route": "FLCR-06",
+      "title": "Geometric Phase in Optics: From Wavefront Manipulation to Waveguiding",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-07",
+      "route": "FLCR-07",
+      "title": "A review of biomedical datasets relating to drug discovery: a knowledge graph perspective",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-08",
+      "route": "FLCR-08",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-09",
+      "route": "FLCR-09",
+      "title": "Building a Fault-Tolerant Quantum Computer Using Concatenated Cat Codes",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-10",
+      "route": "FLCR-10",
+      "title": "Noisy intermediate-scale quantum algorithms",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-11",
+      "route": "FLCR-11",
+      "title": "Leveraging Container Technologies in a GIScience Project: A Perspective from Open Reproducible Research",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-12",
+      "route": "FLCR-12",
+      "title": "The Theory Crisis in Psychology: How to Move Forward",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-13",
+      "route": "FLCR-13",
+      "title": "Progress, gaps and obstacles in the classification of cellular automata",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-14",
+      "route": "FLCR-14",
+      "title": "The anomalous magnetic moment of the muon in the Standard Model",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-15",
+      "route": "FLCR-15",
+      "title": "Topological defects and the formation of geometrical patterns in active matter",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-16",
+      "route": "FLCR-16",
+      "title": "A portrait of the Higgs boson by the CMS experiment ten years after the discovery",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-17",
+      "route": "FLCR-17",
+      "title": "Physics-informed machine learning",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-18",
+      "route": "FLCR-18",
+      "title": "Space, Matter and Interactions in a Quantum Early Universe. Part II: Superalgebras and Vertex Algebras",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-19",
+      "route": "FLCR-19",
+      "title": "Blockchain Adoption for Sustainable Supply Chain Management: Economic, Environmental, and Social Perspectives",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-20",
+      "route": "FLCR-20",
+      "title": "Recent advances and applications of deep learning methods in materials science",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-21",
+      "route": "FLCR-21",
+      "title": "Machine learning for materials discovery",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-22",
+      "route": "FLCR-22",
+      "title": "Could graph neural networks learn better molecular representation for drug discovery? A comparison study of descriptor-based and graph-based models",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-23",
+      "route": "FLCR-23",
+      "title": "Progress, gaps and obstacles in the classification of cellular automata",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-24",
+      "route": "FLCR-24",
+      "title": "Receptor-informed network control theory links LSD and psilocybin to a flattening of the brain's control energy landscape",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "topic_extension",
+      "knowledge_weight": 0.58,
+      "claim_ceiling": "Useful routing comparator; requires stricter local derivation before promotion.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-25",
+      "route": "FLCR-25",
+      "title": "Gamma-ray flares from relativistic magnetic reconnection in the jet of the quasar 3C 279",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-26",
+      "route": "FLCR-26",
+      "title": "Distributed Control Strategies for Microgrids: An Overview",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-27",
+      "route": "FLCR-27",
+      "title": "Moonshine beyond the Monster",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-28",
+      "route": "FLCR-28",
+      "title": "Unicorn: Runtime Provenance-Based Detector for Advanced Persistent Threats",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-29",
+      "route": "FLCR-29",
+      "title": "Provenance in Place",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-30",
+      "route": "FLCR-30",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_support",
+      "knowledge_weight": 0.7,
+      "claim_ceiling": "May support protocol shape or tooling analogy; cannot validate internal math claims.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-31",
+      "route": "FLCR-31",
+      "title": "Simulating lattice gauge theories within quantum technologies",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-32",
+      "route": "FLCR-32",
+      "title": "Multisystem Bayesian constraints on the transport coefficients of QCD matter",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-33",
+      "route": "FLCR-33",
+      "title": "Top, Higgs, diboson and electroweak fit to the Standard Model effective field theory",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-34",
+      "route": "FLCR-34",
+      "title": "Dynamical Exciton Condensates in Biased Electron-Hole Bilayers",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-35",
+      "route": "FLCR-35",
+      "title": "Tests of general relativity with binary black holes from the second LIGO-Virgo gravitational-wave transient catalog",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-36",
+      "route": "FLCR-36",
+      "title": "Topological phononic metamaterials",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-37",
+      "route": "FLCR-37",
+      "title": "Design of inertial fusion implosions reaching the burning plasma regime",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-38",
+      "route": "FLCR-38",
+      "title": "Investigating Explainability of Generative AI for Code through Scenario-based Design",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-39",
+      "route": "FLCR-39",
+      "title": "Forensic investigation of falsified antimalarials using isotope ratio mass spectrometry: a pilot investigation",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-40",
+      "route": "FLCR-40",
+      "title": "Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ethics, and key requirements to responsible AI systems and regulation",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.78,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-41",
+      "route": "STD-EXT-41",
+      "title": "Trailhead for quantum simulation of SU(3) Yang-Mills lattice gauge theory in the local multiplet basis",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-42",
+      "route": "STD-EXT-42",
+      "title": "Cabibbo anomaly versus electroweak precision tests: An exploration of extensions of the standard model",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-43",
+      "route": "STD-EXT-43",
+      "title": "Overview and theoretical prospects for CKM matrix and CP violation from the UTfit Collaboration",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-44",
+      "route": "STD-EXT-44",
+      "title": "The fate of hints: updated global analysis of three-flavor neutrino oscillations",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-45",
+      "route": "STD-EXT-45",
+      "title": "Combination of Higgs measurements from ATLAS and CMS: couplings and kappa framework",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-46",
+      "route": "STD-EXT-46",
+      "title": "Measurement of the top quark mass in the dileptonic ttbar decay channel using the mass observables M_b\u2113, M_T2, and M_b\u2113\u03bd",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-47",
+      "route": "STD-EXT-47",
+      "title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-48",
+      "route": "STD-EXT-48",
+      "title": "Direct detection and complementary constraints for sub-GeV dark matter",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-49",
+      "route": "STD-EXT-49",
+      "title": "Baryogenesis from the weak scale to the grand unification scale",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-50",
+      "route": "STD-EXT-50",
+      "title": "Cosmological inference using gravitational wave standard sirens: A mock data analysis",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-51",
+      "route": "STD-EXT-51",
+      "title": "QCD phase diagram and critical point from holographic black holes",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-52",
+      "route": "STD-EXT-52",
+      "title": "Noninvertible Global Symmetries in the Standard Model",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-53",
+      "route": "STD-EXT-53",
+      "title": "Top, Higgs, diboson and electroweak fit to the Standard Model effective field theory",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-54",
+      "route": "STD-EXT-54",
+      "title": "Scattering Amplitudes and the Positive Grassmannian",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-55",
+      "route": "STD-EXT-55",
+      "title": "Confinement in a Z2 lattice gauge theory on a quantum computer",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-56",
+      "route": "STD-EXT-56",
+      "title": "Pion and kaon parton distribution functions from basis light front quantization and QCD evolution",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-57",
+      "route": "STD-EXT-57",
+      "title": "Jet charge and machine learning",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-58",
+      "route": "STD-EXT-58",
+      "title": "Flavor probes of axion-like particles",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-59",
+      "route": "STD-EXT-59",
+      "title": "A note on gauge anomaly cancellation in effective field theories",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-60",
+      "route": "STD-EXT-60",
+      "title": "The nonperturbative functional renormalization group and its applications",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-61",
+      "route": "STD-EXT-61",
+      "title": "Quarks, Gluons and Lattices",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-62",
+      "route": "STD-EXT-62",
+      "title": "Practical quantum advantage in quantum simulation",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-63",
+      "route": "STD-EXT-63",
+      "title": "Invisible decays of axion-like particles: constraints and prospects",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-64",
+      "route": "STD-EXT-64",
+      "title": "The search for neutrinoless double-beta decay",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-65",
+      "route": "STD-EXT-65",
+      "title": "Probing minimal grand unification through gravitational waves, proton decay, and fermion masses",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-66",
+      "route": "STD-EXT-66",
+      "title": "An effective formalism for testing extensions to General Relativity with gravitational waves",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-67",
+      "route": "STD-EXT-67",
+      "title": "First Sagittarius A* Event Horizon Telescope Results. VI. Testing the Black Hole Metric",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-68",
+      "route": "STD-EXT-68",
+      "title": "Detecting gravitational waves from cosmological phase transitions with LISA: an update",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-69",
+      "route": "STD-EXT-69",
+      "title": "Wakefield acceleration",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-70",
+      "route": "STD-EXT-70",
+      "title": "Enhanced performance in fusion plasmas through turbulence suppression by megaelectronvolt ions",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-71",
+      "route": "STD-EXT-71",
+      "title": "Interlayer exciton formation, relaxation, and transport in TMD van der Waals heterostructures",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-72",
+      "route": "STD-EXT-72",
+      "title": "Odd- and even-denominator fractional quantum Hall states in monolayer WSe2",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-73",
+      "route": "STD-EXT-73",
+      "title": "Non-Hermitian physics",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-74",
+      "route": "STD-EXT-74",
+      "title": "Quantum error correction below the surface code threshold",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-75",
+      "route": "STD-EXT-75",
+      "title": "First and Second Law of Quantum Thermodynamics: A Consistent Derivation Based on a Microscopic Definition of Entropy",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-76",
+      "route": "STD-EXT-76",
+      "title": "Proliferating active matter",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-77",
+      "route": "STD-EXT-77",
+      "title": "Machine learning interpretable models of cell mechanics from protein images",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-78",
+      "route": "STD-EXT-78",
+      "title": "Selective prebiotic formation of RNA pyrimidine and DNA purine nucleosides",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-79",
+      "route": "STD-EXT-79",
+      "title": "Empowering biomedical discovery with AI agents",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    },
+    {
+      "ingress_id": "EXT80-80",
+      "route": "STD-EXT-80",
+      "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+      "status": "RECURSIVE_REVIEW_REQUIRED",
+      "missing_ingress_fields": [],
+      "missing_recursive_fields": [
+        "recursive_fit_status",
+        "recursive_fit_rationale",
+        "closure_outcome",
+        "next_recursive_action"
+      ],
+      "invalid_outcome": false,
+      "logic_bound": "external_comparator",
+      "knowledge_weight": 0.8400000000000001,
+      "claim_ceiling": "May constrain or calibrate a domain translation; cannot close without equation-level extraction.",
+      "next_action": "Run full recursive fit review: extract variables/equations, compare to local claim, decide best-fit/bundle/rework/new-paper/internal-solve outcome."
+    }
+  ]
+}
