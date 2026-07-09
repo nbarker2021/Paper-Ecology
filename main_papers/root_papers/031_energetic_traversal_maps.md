@@ -590,6 +590,61 @@ The landscape types map to forge systems: Crystal → MetaForge (Paper 027), Pro
 
 ---
 
+## 16.5 The LCR Three Projections as One κ-Quantum Transport (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-011)
+
+The curvature model above (§2–§6) treats repair curvature \(\kappa(s,t)\) as a
+*local* barrier property. CQE-PAPER-011 contributes a complementary, *global*
+statement: the three projections L, C, R of the LCR Triality are **one energy
+transport operator** at a single quantum
+
+\[
+\kappa_{\mathrm{q}} = \frac{\ln\varphi}{16} \approx 0.030075739,
+\]
+
+where \(\varphi = (1+\sqrt5)/2\) and the denominator \(16 = 8\text{ edges}\times 2\text{ chiralities}\) is fixed by the depth-3 wrap bound (T5 idempotency, M₃²=M₃ exact over \(\mathbb{Q}\)).
+
+### 16.5.1 The three channels
+
+| Channel | Projection | Activation condition | VOA weight | Energy |
+|---|---|---|---:|---:|
+| **L** | L-projection | \(C=0\) (boundary parity) | 5 | \(5\kappa_{\mathrm{q}}\) |
+| **C** | C-projection | \(C=1\) (centroid inversion, \(\neg L\)) | 5 | \(5\kappa_{\mathrm{q}}\) |
+| **R** | R-projection | \(\partial=1\) (correction at chiral doublet) | 5 | \(5\kappa_{\mathrm{q}}\) |
+
+Engine `lattice_forge.energy_transport` verifies the honest channel structure:
+- every non-vacuum state is carried by **at least one** channel (no state left untransported);
+- the **chiral doublet** \(\Delta=\{(0,1,0),(1,1,0)\}\) carries **both** the C-channel (\(C=1\)) and the R-channel (\(\partial=1\)) — it is the maximal, unified-transport locus;
+- the 2 vacua \(\{(0,0,0),(1,1,1)\}\) carry weight 0 and no transport.
+
+### 16.5.2 Unified VOA energy spectrum
+
+The 6 excited chart states each carry conformal weight 5, so the VOA partition
+
+\[
+Z(q) = 2q^0 + 6q^5
+\]
+
+is the unified energy spectrum: 2 vacua at weight 0, 6 excited states at weight 5,
+each at energy \(5\kappa_{\mathrm{q}}\). Total excited energy \(= 6\times 5\kappa_{\mathrm{q}} \approx 0.90227\). This is verified by `verify_voa_partition` (vacuum count, excited count, partition match, density) and tied to the transport by `verify_three_projections`.
+
+### 16.5.3 Standard-Model couplings from κ
+
+The single quantum \(\kappa_{\mathrm{q}}\) seeds the SM calibration suite
+(`calibrate_units`, `calibrate_ckm` — E-category, externally calibrated against
+CODATA/PDG 2024). Reported matches: Higgs vev 246.22 GeV, \(\alpha_{\mathrm{em}}^{-1}=137.035999084\), \(\sin^2\theta_W=0.23122\), \(m_W=80.379\) GeV, \(m_Z=91.1876\) GeV, \(G_F=1.1663787\times10^{-5}\), and the CKM elements \(|V_{ud}|=0.97446\), \(|V_{us}|=0.22452\), \(|V_{ub}|=0.00365\), \(|V_{cb}|=0.041\).
+
+**Honesty note:** these are *calibration* claims (category E), not internally
+derived receipts — they require measured anchors and are correctly flagged as
+externally calibrated. No OEIS A033996 assertion appears in CQE-PAPER-011.
+
+### 16.5.4 Relation to the local curvature model
+
+The two pictures are compatible: \(\kappa_{\mathrm{q}}\) is the *per-edge quantum*
+of the global LCR transport, while \(\kappa(s,t)\) (§2) is the *barrier curvature*
+of a specific transition. Both vanish on correction-free crossings and are positive
+exactly when the correction operator fires. The global quantum is the residue of
+the depth-3 closure; the local curvature is its differential expression along a path.
+
 ## 17. Practical Worked Example
 
 **Domain:** Water molecule transport across a crystal lattice defect at a silicon vacancy.
