@@ -16,7 +16,7 @@ Working method (per user directive 2026-07-09):
 | 00-foundation/CQE-PAPER-000.md | EXTEND 001 + STD + MNY | PaperEcology/001, CMPLX-Standards, forge-base/lib/lattice_forge/axiom_verifiers.py | DONE. A1–A4 physical axioms + 3 IPMC meta-theorems + Monster 196883 + calibration folded into 001. Standards: VERIFIER_TAXONOMY.md + MATH_VOCABULARY.md. forge-base: axiom_verifiers.py (11 verifiers, 43 checks, 0 defects). |
 | 00-foundation/CQE-PAPER-001.md | TBD | — | read next |
 | 00-foundation/CQE-PAPER-002.md | EXTEND 002 + STD + MNY | PaperEcology/002, CMPLX-Standards, forge-base/lib/lattice_forge/boundary_complex.py | DONE. Routed to 002 (Rule-30/correction). Added: boundary chain complex (C0/C1/C2, d^2=0), honest anneal BFS (paper's per-state table FLAGGED X), spectre correction verifier. 2nd A033996 fabrication + anneal error caught. All 14 verifiers: 58 checks, 0 defects. |
-| 00-foundation/CQE-PAPER-003.md | TBD | — | read next |
+| 00-foundation/CQE-PAPER-003.md | EXTEND 003 + STD + MNY | PaperEcology/003, CMPLX-Standards, forge-base/lib/lattice_forge/chiral_doublet.py | DONE. Routed to 003 (ANF polynomial + chiral doublet). Added §13 Chiral Doublet (side axis, bit¬L, antipodal pairs, Z₄ static/temporal, 25% density). 3rd A033996 + §3.2 false Δ + §6.2 false Z₄ period + anneal inconsistency FLAGGED X. Engine chiral_doublet.py. All 16 verifiers: 68 checks, 0 defects. |
 | 01-lcr-triality/CQE-PAPER-010.md | TBD | — | |
 | 01-lcr-triality/CQE-PAPER-011.md | TBD | — | |
 | 01-lcr-triality/CQE-PAPER-012.md | TBD | — | |

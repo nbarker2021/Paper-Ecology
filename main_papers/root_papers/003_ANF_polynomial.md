@@ -676,6 +676,69 @@ The 6 standards applied: `paper.claim_coverage`, `paper.obligation_continuity`, 
 
 ---
 
+## 13. The Chiral Doublet (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-003)
+
+The firing set \(F_\partial = \{(0,1,0),(1,1,0)\}\) (Definition 3.10) is the
+**chiral doublet** \(\Delta = \operatorname{supp}(\partial)\). It is the sole locus of asymmetry
+in the eight-state vocabulary. This section folds the chiral-doublet analysis of
+CQE-PAPER-003 into the 240-form, with honest recomputation and three
+fabrication/error flags.
+
+### 13.1 Asymmetry Resolver and Bit Emission
+
+The **side axis** \(\operatorname{side}(L,C,R) = \operatorname{sign}(R - L) \in \{-1,0,+1\}\)
+(classifier in `lattice_forge.core.side`) resolves the doublet:
+\(\operatorname{side}(0,1,0)=0\) (seed, Lie conjugate \(L=R\)),
+\(\operatorname{side}(1,1,0)=-1\) (centroid, chiral \(L\neq R\)).
+
+On the centroid-inversion path (\(C=1, R=0\)), the **bit emission**
+\(\operatorname{bit}(s) = \neg L\) (engine `lattice_forge.chiral_doublet.bit_emission`):
+\(\operatorname{bit}(0,1,0)=1 \neq 0 = \operatorname{bit}(1,1,0)\). This is the bit
+asymmetry that drives the empirical 50/50 density.
+
+### 13.2 Antipodal Pair Structure (honest)
+
+Under LR transposition \(\alpha(L,C,R)=(R,C,L)\):
+- Self-antipodal (Lie conjugates, \(L=R\)): \((0,1,0)\), \((1,1,1)\).
+- **Mutual antipodes**: \((0,1,1) \leftrightarrow (1,1,0)\), and \((0,0,1)\leftrightarrow(1,0,0)\).
+- The chiral doublet \(\Delta=\{(0,1,0),(1,1,0)\}\) is **NOT** a mutual-antipode
+  pair under \(\alpha\); \((0,1,0)\) is self-antipodal and \((1,1,0)\) pairs with \((0,1,1)\).
+
+**Fabrication flag (X):** CQE-PAPER-003 §3.2 claims "the true chiral doublet is
+\(\{(0,1,1),(1,1,0)\}\)". This is **false**: \(\partial(0,1,1)=C\land\neg R = 1\land\neg 1 = 0\),
+so \((0,1,1)\notin\operatorname{supp}(\partial)\). The honest \(\Delta\) (from
+\(\partial=C\land\neg R\)) is \(\{(0,1,0),(1,1,0)\}\). The §3.2 claim is contradicted by
+the paper's own §1.2 table and by Definition 3.10. **FLAGGED X.**
+
+### 13.3 Z₄ Periodicity (honest)
+
+The 4-fold cyclic action \((L,C,R)\mapsto(C,R,L)\) on the 8 states gives:
+**2 fixed points** \(\{(0,0,0),(1,1,1)\}\), **0 period-2**, **6 period-3**
+(engine `verify_z4_chiral`, static exact). Temporal Z₄ is **refuted** — the Rule 30
+center column does not repeat with period 4 across enumeration events
+(counterexamples at depths 1, 3, 6).
+
+**Fabrication flag (X):** CQE-PAPER-003 §6.2 claims "2 fixed, 0 period-2,
+6 period-4". A 4-fold shift on 8 elements cannot yield 6 states of exact period 4
+(they fall in period-3 orbits). The honest distribution is **6 period-3**. **FLAGGED X.**
+
+### 13.4 Empirical Density
+
+Symmetric dyads (bit = bit∘α): 6 states (75% theoretical). Chiral doublet:
+2 states (25% theoretical). At 4,096 depths the observed split is
+≈74.7% / 25.3%, matching theory. The 25% chiral activation drives the
+empirical 50/50 bit density.
+
+### 13.5 Verification
+
+| Verification | Checks | Defects | Status | Engine |
+|---|---:|---:|---|---|
+| Chiral doublet uniqueness (6 properties) | 6 | 0 | PASS | `verify_chiral_doublet` |
+| Static Z₄ exact / temporal refuted | 4 | 0 | PASS | `verify_z4_chiral` |
+
+**Total (this section): 10 checks, 0 defects.** Combined with Paper 003's
+28-check ANF verification: 38 checks, 0 defects.
+
 ## 14. Forward References
 
 The ANF polynomial is the generator of the correction surface and the ribbon pattern. It is referenced in every layer closure and in every paper that depends on the correction operator.
@@ -825,3 +888,28 @@ The ANF polynomial is not merely the first polynomial in a series — it is the 
 The ANF polynomial. Three linear monomials. One bilinear monomial. Zero constant term. Zero degree-3 term. Four non-zero coefficients. Eight states. Density one-half. Uniquely Rule 30. All backed by receipt R2.1 (Paper 002), verified by direct GF(2) algebra, and forward-referenced to every layer closure in the 240-paper ribbon.
 
 Paper 004 follows: the 8-state space chart and shell grading.
+
+
+---
+
+## 20. Recraft Note — CQECMPLX-Formal-Suite CQE-PAPER-003
+
+Recrafted (2026-07-09) from `CQECMPLX-Formal-Suite/00-foundation/CQE-PAPER-003.md`
+into the 240-form Paper 003. **Routing: EXTEND 003** (by content — both treat the
+correction operator / chiral doublet; CQE-PAPER-003's title "Chiral Doublet" maps
+to root 003's firing-set / correction-operator development). Genuine additions:
+
+- **§13 Chiral Doublet**: side-axis resolver, bit emission ¬L, antipodal pair
+  structure, Z₄ static/temporal analysis, empirical 25% density.
+- **Engine** `lattice_forge.chiral_doublet` (`bit_emission`, `wrap_sequence`,
+  `verify_z4_chiral`, `verify_chiral_doublet`). All 16 axiom verifiers: 68 checks, 0 defects.
+
+**Fabrications / errors caught (NOT carried):**
+1. **A033996 knight-CA (3rd occurrence)** — CQE-PAPER-003 §5.2. Same false OEIS
+   match flagged for 001/002. Honest knight-graph count n=2..8 → 0,8,16,25,36,49,64.
+2. **§3.2 false chiral doublet** {(0,1,1),(1,1,0)} — (0,1,1)∉supp(∂).
+   Honest Δ={(0,1,0),(1,1,0)}. FLAGGED X.
+3. **§6.2 false Z₄ period** ("6 period-4") — honest cyclic action gives 6 period-3.
+   FLAGGED X.
+4. **§3.4 anneal table** (per-state distances) — same inconsistency as 002; honest
+   BFS gives all non-vacua at d=3. FLAGGED X (see Paper 002 §2.14).
