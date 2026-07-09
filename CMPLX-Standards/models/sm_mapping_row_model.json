@@ -1,0 +1,49 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.sm_mapping_row",
+  "version": "0.1.0",
+  "description": "Grades explicit FLCR-to-Standard-Model mapping rows (pilot FLCR-31..33).",
+  "record_selector": "records",
+  "record_id_paths": ["row_id", "id"],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.9,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "allowed_value_penalty": 0.15,
+  "allowed_values": {
+    "closure_state": [
+      "closed_by_standard_formalism",
+      "closed_by_flcr_proof",
+      "closed_by_cam_reapplication",
+      "closed_by_external_calibration",
+      "open_obligation"
+    ]
+  },
+  "weighted_fields": {
+    "row_id": 3,
+    "flcr_id": 2,
+    "smd_id": 2,
+    "O_ext": 4,
+    "O_lcr": 4,
+    "lane": 3,
+    "boundary": 3,
+    "closure_state": 3,
+    "equation_or_source": 2,
+    "dataset": 2,
+    "falsifier": 2,
+    "maximal_claim_ref": 2,
+    "has_native_deps": 1
+  },
+  "conditional_required_fields": {
+    "closure_state": {
+      "closed_by_external_calibration": [
+        {"path": "dataset", "weight": 4}
+      ],
+      "open_obligation": [
+        {"path": "falsifier", "weight": 2}
+      ]
+    }
+  }
+}

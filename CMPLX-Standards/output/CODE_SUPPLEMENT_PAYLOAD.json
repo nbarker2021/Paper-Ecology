@@ -1,0 +1,113 @@
+{
+  "supplements": [
+    {
+      "supplement_id": "SUPP-LATTICE-FORGE-001",
+      "title": "lattice_forge substrate library",
+      "supplement_type": "machine_verifier",
+      "language": "Python",
+      "file_count": 123686,
+      "size_bytes": 4743814198,
+      "status": "verified",
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-08",
+        "FLCR-12",
+        "FLCR-13"
+      ],
+      "source_repo": "CMPLX-PartsFactory-main/packages/lattice-forge",
+      "verifier_count": 44,
+      "receipt_count": 2878,
+      "has_tests": true,
+      "has_documentation": true
+    },
+    {
+      "supplement_id": "SUPP-CQEKERNEL-001",
+      "title": "cqekernel stdlib kernel",
+      "supplement_type": "machine_verifier",
+      "language": "Python",
+      "file_count": 350,
+      "size_bytes": 1394189,
+      "status": "verified",
+      "target_papers": [
+        "FLCR-00",
+        "FLCR-06",
+        "FLCR-10",
+        "FLCR-20"
+      ],
+      "source_repo": "cqekernel",
+      "verifier_count": 11,
+      "receipt_count": 150,
+      "has_tests": true,
+      "has_documentation": true
+    },
+    {
+      "supplement_id": "SUPP-REAL-PAPERS-001",
+      "title": "REAL-PAPERS formal academic papers",
+      "supplement_type": "code_supplement",
+      "language": "Markdown",
+      "file_count": 32740,
+      "size_bytes": 433526176,
+      "status": "active",
+      "target_papers": [
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05"
+      ],
+      "source_repo": "CQECMPLX-Production/REAL-PAPERS",
+      "verifier_count": 0,
+      "receipt_count": 0,
+      "has_tests": false,
+      "has_documentation": true
+    },
+    {
+      "supplement_id": "SUPP-RECEIPTS-001",
+      "title": "CQE receipt verification system",
+      "supplement_type": "receipt_index",
+      "language": "JSON",
+      "file_count": 2878,
+      "size_bytes": 357003264,
+      "status": "verified",
+      "target_papers": [
+        "FLCR-00",
+        "FLCR-01",
+        "FLCR-02",
+        "FLCR-03",
+        "FLCR-04",
+        "FLCR-05",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-08"
+      ],
+      "source_repo": "CQE_CMPLX/.cqe/receipts",
+      "verifier_count": 696,
+      "receipt_count": 2878,
+      "has_tests": true,
+      "has_documentation": true
+    },
+    {
+      "supplement_id": "SUPP-ANALOG-001",
+      "title": "Analog workbook and materials pipeline",
+      "supplement_type": "analog_workbook",
+      "language": "Python",
+      "file_count": 2920,
+      "size_bytes": 4743814198,
+      "status": "active",
+      "target_papers": [
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-25",
+        "FLCR-26"
+      ],
+      "source_repo": "CMPLX-PartsFactory-main/packages/lattice-forge",
+      "verifier_count": 0,
+      "receipt_count": 0,
+      "has_tests": true,
+      "has_documentation": true
+    }
+  ]
+}

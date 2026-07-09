@@ -1,0 +1,83 @@
+{
+  "schema": "cmplx.archive_harvest_report.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "source": "ARCHIVE_HISTORY_CRYSTAL_QUEUE.json",
+  "summary": {
+    "total_archives": 296,
+    "extracted": 286,
+    "queued_large": 8,
+    "unsupported_format": 2,
+    "flcr_papers_covered": 14,
+    "new_records_ingested": 0,
+    "model_fit_impact": "none"
+  },
+  "archive_breakdown": {
+    "forge_reforge_archive": {
+      "count": 155,
+      "description": "Historical forge and reforge build artifacts, snapshots, and intermediate outputs."
+    },
+    "general_history_archive": {
+      "count": 37,
+      "description": "General historical files, documentation, and notes."
+    },
+    "paper_package_archive": {
+      "count": 38,
+      "description": "FLCR paper packages, publication bundles, and flat document collections."
+    },
+    "legacy_repo_zip": {
+      "count": 24,
+      "description": "Legacy repository snapshots and code archives."
+    },
+    "product_archive": {
+      "count": 20,
+      "description": "Product builds (GaussHaus, Fourpack, runtime, frontpages)."
+    },
+    "rule30_proof_archive": {
+      "count": 22,
+      "description": "Rule 30 proof checkpoints and invariant proof archives."
+    }
+  },
+  "flcr_coverage": {
+    "covered": ["FLCR-01", "FLCR-06", "FLCR-09", "FLCR-12", "FLCR-13", "FLCR-20", "FLCR-21", "FLCR-23", "FLCR-26", "FLCR-28", "FLCR-30", "FLCR-38", "FLCR-39", "FLCR-40"],
+    "missing_from_archives": ["FLCR-02", "FLCR-03", "FLCR-04", "FLCR-05", "FLCR-07", "FLCR-08", "FLCR-10", "FLCR-11", "FLCR-14", "FLCR-15", "FLCR-16", "FLCR-17", "FLCR-18", "FLCR-19", "FLCR-22", "FLCR-24", "FLCR-25", "FLCR-27", "FLCR-29", "FLCR-31", "FLCR-32", "FLCR-33", "FLCR-34", "FLCR-35", "FLCR-36", "FLCR-37"]
+  },
+  "model_mappability_assessment": {
+    "ability_seed": {
+      "assessment": "LOW",
+      "reason": "Archives are file bundles, not structured seed records. Existing ability_seed records already cover the legacy and local sources."
+    },
+    "assembled_paper": {
+      "assessment": "LOW",
+      "reason": "Paper archives contain flat documents, not structured paper metadata. FLCR papers already present in assembled_paper model."
+    },
+    "verifier_receipt": {
+      "assessment": "MEDIUM",
+      "reason": "Some archives (rule30_proof_archive, legacy_repo_zip) may contain verify_*.json receipts that could map to verifier_receipt model. Requires per-archive deep inspection."
+    },
+    "sm_mapping_row": {
+      "assessment": "LOW",
+      "reason": "Archives do not contain structured mapping rows."
+    }
+  },
+  "recommended_deep_inspection": [
+    {
+      "archive_route": "legacy_repo_zip",
+      "count": 24,
+      "rationale": "Legacy repos may contain unharvested code, receipt, or registry data that maps to ability_seed or verifier_receipt.",
+      "priority": "high"
+    },
+    {
+      "archive_route": "rule30_proof_archive",
+      "count": 22,
+      "rationale": "Proof checkpoints may contain verify_*.json receipts and formal proof bindings that map to verifier_receipt or normal_form.",
+      "priority": "high"
+    },
+    {
+      "archive_route": "product_archive",
+      "count": 20,
+      "rationale": "Product builds (GaussHaus, Fourpack) may contain runtime receipts and validator outputs.",
+      "priority": "medium"
+    }
+  ],
+  "conclusion": "No new records ingested in this pass. The 296 archive_history crystals are documented and indexed. 286 are already extracted with file indexes. Model-mappable records require targeted deep inspection of legacy_repo_zip, rule30_proof_archive, and product_archive routes. This work is deferred to a future focused harvest session."
+}

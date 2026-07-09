@@ -1,0 +1,85 @@
+{
+  "title": "Paper 5 — The Oloid Path Carrier: A Unified Theory of Rolling Transport and Continuous Constraint Propagation",
+  "abstract": "This paper proves the first path-carrier theorem: transport can be continuous without being straight-line. Paper 4 converts a registered interaction failure into a typed boundary constraint. This paper proves that such a constraint can be carried along a legal rolling path without requiring straight-line transport and without rewriting the path rule. The verified claim is affirmative and structural: legal rolling steps preserve path continuity; head/tail dyads remain binary; Paper 4 constraints can be attached as payloads; and payloads do not alter the carrier rule. The oloid path carrier is a deterministic finite-state transducer whose 8 states are the LCR carrier states and whose 8 transitions correspond to the 8 segments of the closed path around the oloid.",
+  "D": 6,
+  "I": 8,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "05.1",
+      "claim": "Rolling carrier state space q = (sheet, phase, parity) and deterministic roll(q,b) function",
+      "evidence": "Definitions 2.2–2.3 — closed-form arithmetic on finite domains"
+    },
+    {
+      "id": "05.2",
+      "claim": "Oloid is a developable surface formed by intersection of two perpendicular unit circles (Schatz 1929)",
+      "evidence": "Definition 2.6 — standard mathematical object"
+    },
+    {
+      "id": "05.3",
+      "claim": "Cayley–Dickson oloid normal form module exists in lattice_forge/",
+      "evidence": "cayley_dickson_oloid.py — CAYLEY_DICKSON_SHEET_PATTERN, CayleyDicksonOloidNormalForm, verify_cayley_dickson_oloid_normal_form"
+    },
+    {
+      "id": "05.4",
+      "claim": "Substrate map: 8 LCR states, 8×4 transition table, depth-4096 verification",
+      "evidence": "substrate_map.py:366-460"
+    },
+    {
+      "id": "05.5",
+      "claim": "Worked trace for input [1,0,1,1,0,0,1,0] is computable and reproducible",
+      "evidence": "§7.1 direct computation"
+    },
+    {
+      "id": "05.6",
+      "claim": "Receipt verification items (trace_length, adjacent_pairs, head_tail_dyads, payload_noninterference) are executable checks",
+      "evidence": "verify_oloid_path_carrier.py / oloid_path_carrier_receipt.json"
+    }
+  ],
+  "I_claims": [
+    {
+      "id": "05.I1",
+      "claim": "8-segment LCR parameterization of the oloid path (ZERO → e3+ → C+ → FULL → C- → e1- → C0 → e2-0 → ZERO)",
+      "reasoning": "Author's structural reading; Cayley–Dickson doubling gives 2³ = 8 structure but specific oloid-path correspondence is framing"
+    },
+    {
+      "id": "05.I2",
+      "claim": "Fano plane order of the 7 non-trivial LCR states",
+      "reasoning": "Author's framing; Fano plane has 7 points and 7 lines, and the 7 LCR states can be put in bijection"
+    },
+    {
+      "id": "05.I3",
+      "claim": "Transducer noninterference theorem (repair row is side-channel)",
+      "reasoning": "Structural reading; the transducer is a finite-state machine but noninterference is a logical consequence, not a literal module"
+    },
+    {
+      "id": "05.I4",
+      "claim": "Path closure, graph continuity, and payload noninterference as oloid-path properties",
+      "reasoning": "Substrate map preservation at depth 4096 is D; specific oloid-path properties are I"
+    },
+    {
+      "id": "05.I5",
+      "claim": "Cayley–Dickson doubling of the oloid to higher dimensions (Open Problems 10.1, 10.3, 10.4)",
+      "reasoning": "Cayley–Dickson construction is D; specific 4-dimensional oloid is not constructed"
+    },
+    {
+      "id": "05.I6",
+      "claim": "Carrier action S = −m∫ds and geodesic interpretation of the oloid path",
+      "reasoning": "Natural geometric formalism but specific physical constants and minimization claim are interpretive"
+    },
+    {
+      "id": "05.I7",
+      "claim": "SM gauge structure correspondence (8 contact points → 8 SM fermion states; repair row → gauge field)",
+      "reasoning": "Conjectural; not derived"
+    },
+    {
+      "id": "05.I8",
+      "claim": "E6→E7→E8 dyadic lift as named bridge obligation",
+      "reasoning": "Named bridge, not closed proof"
+    }
+  ],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

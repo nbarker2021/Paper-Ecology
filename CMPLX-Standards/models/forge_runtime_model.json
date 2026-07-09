@@ -1,0 +1,87 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.forge_runtime",
+  "version": "0.1.0",
+  "description": "Grades whether Lattice Forge, ForgeFactory, ReForge, and Rhenium are deployed as a usable standards/runtime substrate.",
+  "record_selector": "records",
+  "record_id_paths": [
+    "deployment_id",
+    "component",
+    "record_id"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.9,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "allowed_value_penalty": 0.25,
+  "allowed_values": {
+    "status": [
+      "pass"
+    ],
+    "kind": [
+      "runtime_path",
+      "package_install",
+      "import_resolution",
+      "lattice_seed",
+      "reforge_registry",
+      "reforge_smoke",
+      "forge_lookup"
+    ],
+    "provenance_label": [
+      "forge_runtime_adapter"
+    ]
+  },
+  "weighted_fields": {
+    "deployment_id": 3,
+    "kind": 3,
+    "component": 3,
+    "status": 5,
+    "expected_path": 3,
+    "actual_path": 3,
+    "command": 2,
+    "result_status": 4,
+    "evidence_level": 3,
+    "receipt_id": 2,
+    "output_summary": 3,
+    "blockers": 2,
+    "provenance_label": 2
+  },
+  "conditional_required_fields": {
+    "kind": {
+      "lattice_seed": [
+        {
+          "path": "receipt_id",
+          "weight": 4
+        },
+        {
+          "path": "output_summary.summary",
+          "weight": 3
+        }
+      ],
+      "forge_lookup": [
+        {
+          "path": "receipt_id",
+          "weight": 4
+        },
+        {
+          "path": "output_summary.answer",
+          "weight": 3
+        }
+      ],
+      "reforge_registry": [
+        {
+          "path": "output_summary.engine_count",
+          "weight": 4
+        }
+      ],
+      "reforge_smoke": [
+        {
+          "path": "output_summary.fragment_count",
+          "weight": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1707 @@
+{
+  "schema": "cqe_cmplx.promoted_legacy_ability_seeds.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "epistemology": "7 direct-port legacy seeds promoted after CMPLX-Standards gate validation.",
+  "promotion_status": "passed_gate",
+  "counts": {
+    "total_seeds": 7
+  },
+  "seeds": [
+    {
+      "seed_id": "LEGACY-TMN-MINT-003",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "TMN mint, wallet, and label economy lineage",
+      "ability_family": "mint",
+      "source_repo": "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory",
+      "source_surface": "D:\\repo_harvest",
+      "source_path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\mint\\mint.py",
+      "source_paths": [
+        {
+          "path": "D:\\repo_harvest\\CMPLX-TMN-main\\src\\mint\\mint.py",
+          "bytes": 25207,
+          "modified_utc": "2026-06-26T16:43:48.840562+00:00",
+          "sha256": "abdc72cc5664fb4325c3fd7e772dd4675583319caade58af333ee7e060e5edab"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-TMN-main\\configs\\coin_library.json",
+          "bytes": 22494,
+          "modified_utc": "2026-06-26T16:43:48.765782+00:00",
+          "sha256": "0ccc6d92d3046103b929748e22fcb9c05a5feace85db7b2dffc07ea7d7607a76"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-TMN1\\databases\\first_mint.py",
+          "bytes": 8874,
+          "modified_utc": "2026-06-26T16:43:51.569524+00:00",
+          "sha256": "4c07d63acf2f69c689a22a59261b5d7d3232181bb470a955997d3b60a77ba2e1"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\mint.py",
+          "bytes": 21252,
+          "modified_utc": "2026-06-26T16:43:08.454767+00:00",
+          "sha256": "0a4377187ec7eaa72213c9d3150b5176a191f21c5d3749f36859e3d1456523dc"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\wallet.py",
+          "bytes": 12510,
+          "modified_utc": "2026-06-26T16:43:08.455818+00:00",
+          "sha256": "bf31e57827082475baddf63dec9cc902256a74d8fd2621547949530a63987ae6"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\wallet\\economy.py",
+          "bytes": 23502,
+          "modified_utc": "2026-06-26T16:43:08.454767+00:00",
+          "sha256": "0294b7e00573caa04a0d295133a727b2fb11a9bb0b18d1110ffc288a6a07fc4e"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-28",
+        "FLCR-40"
+      ],
+      "pipeline_targets": [
+        "tool:mint",
+        "validator:receipt-ledger",
+        "base:agent-economy"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.84,
+      "blockers": [
+        "coin_library_scope_review",
+        "ledger_semantics_review"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "Label-to-coin matching, shell weights, escrow, citation boosts, wallets, and receipt chains are already implemented across TMN-main and PartsFactory.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-MDGH-MMDB-005",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "MMDB, MDHG, SpeedLight, and populated atom corpus",
+      "ability_family": "mmdb_mdhg_memory_pipeline",
+      "source_repo": "CMPLXUNI/CMPLXDevKit/CMPLXMCP",
+      "source_surface": "D:\\repo_harvest",
+      "source_path": "D:\\repo_harvest\\CMPLXUNI\\mmdb\\atoms_23k.json",
+      "source_paths": [
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\mmdb\\atoms_23k.json",
+          "bytes": 5605369,
+          "modified_utc": "2026-06-26T16:44:41.829518+00:00",
+          "sha256": null
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\mmdb\\receipts_23k.json",
+          "bytes": 7585669,
+          "modified_utc": "2026-06-26T16:44:41.855420+00:00",
+          "sha256": null
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\mmdb\\mmdb.sqlite3",
+          "bytes": 897024,
+          "modified_utc": "2026-06-26T16:44:41.835029+00:00",
+          "sha256": "134fa3d571b05fdd0167e4ea4984714dbd5376806bf739a8be6ddc6cca94b2de"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\core\\mmdb\\mmdb.py",
+          "bytes": 15735,
+          "modified_utc": "2026-06-26T16:44:42.138457+00:00",
+          "sha256": "10a025549d18e4f2b61035575de49a7d8d0bdfaa86aa5346c6107559a554eaf6"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\core\\mmdb\\mmdb_core.py",
+          "bytes": 10619,
+          "modified_utc": "2026-06-26T16:44:42.145860+00:00",
+          "sha256": "43a89f8ea791d0153110dc00b147ef0714fdffc20b6e9975e4f4b36e204e8291"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXDevKit\\CMPLXLOCALMCP\\mcp_os\\agrm_mdhg_integration\\mdhg_ca.py",
+          "bytes": 20851,
+          "modified_utc": "2026-06-26T16:43:23.950082+00:00",
+          "sha256": "f0c575f76df8d531e72bd773edc4738880e3f67bbb69e999b775cdd988d2483d"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXMCP\\agrm_snap\\mdhg_v0_2_2025_08_13.py",
+          "bytes": 2685,
+          "modified_utc": "2026-06-26T16:43:20.168369+00:00",
+          "sha256": "759b340813daf644969282a0db9c1e653cd5ba1bd14a9d352d1623a0d55d13f9"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "pipeline_targets": [
+        "base:cam-index",
+        "tool:memory-pipeline",
+        "validator:receipt-corpus"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.89,
+      "blockers": [
+        "verify_receipt_corpus_integrity",
+        "choose_mmdb_contract"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "CMPLXUNI contributes a populated 23k atom/receipt corpus and clean MMDB contracts; DevKit adds a stdlib MDHG geometric cache.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-E8-LEECH-006",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "E8, Leech, Golay, and Niemeier lattice primitives",
+      "ability_family": "e8_leech_lattice",
+      "source_repo": "CMPLXUNI/CMPLX-R30/PartsFactory",
+      "source_surface": "D:\\repo_harvest",
+      "source_path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\e8.py",
+      "source_paths": [
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\e8.py",
+          "bytes": 13668,
+          "modified_utc": "2026-06-26T16:44:42.173440+00:00",
+          "sha256": "106cc5c1d4e83e5c317788047a41ad4db9edb932976fccd7fbf5376fed62b335"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLXUNI\\src\\cmplx\\lattice\\leech.py",
+          "bytes": 14718,
+          "modified_utc": "2026-06-26T16:44:42.173440+00:00",
+          "sha256": "10eff62e05af83bccdcff3a82e6ccc10198f336f2410b7defbb5c8afdbc3626f"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\lattice_codes.py",
+          "bytes": 31138,
+          "modified_utc": "2026-06-26T16:43:13.302891+00:00",
+          "sha256": "b708275a234cf8ea9629656ecba5d62b8211bc3df236270b22aebb5b6c08a6d5"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\enumerated_glue.py",
+          "bytes": 19993,
+          "modified_utc": "2026-06-26T16:43:13.299882+00:00",
+          "sha256": "05980151354a105f878076633952fe5a536857393b2940a8a2048c3cf44932fa"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\cmplx\\crystal\\fabric.py",
+          "bytes": 7259,
+          "modified_utc": "2026-06-26T16:43:08.206363+00:00",
+          "sha256": "b73fd8ab25412e20edca05e3d7ec9e39b0202fac0ea085c06c574b88e94f5765"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-PartsFactory\\src\\cmplx\\primitives\\core.py",
+          "bytes": 57775,
+          "modified_utc": "2026-06-26T16:43:08.289055+00:00",
+          "sha256": "cf3eff08e6ef41f20de1cc6843e734f22357b3dedc7c846dc691ebe328d0811a"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-31"
+      ],
+      "pipeline_targets": [
+        "tool:lattice",
+        "validator:geometry",
+        "paper:e8-leech-map"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.85,
+      "blockers": [
+        "dedupe_lattice_implementations",
+        "verify_exact_vs_surrogate_labels"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "Multiple repos contain reusable E8 roots, Leech/Golay code towers, Niemeier ledgers, and project-to-Leech helpers.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-REPO-KERNEL-009",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "Repo kernel, forms, provenance, and harvest dossiers",
+      "ability_family": "repo_kernel_provenance",
+      "source_repo": "CMPLX-Kernel/PartsFactory/repo_harvest",
+      "source_surface": "D:\\CQE_CMPLX",
+      "source_path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-1T\\FORM.md",
+      "source_paths": [
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-1T\\FORM.md",
+          "bytes": 1260,
+          "modified_utc": "2026-06-08T17:28:25.874172+00:00",
+          "sha256": "84f932bfb4ddf4bb4f65cb4597148f0b46bfef7727038a345ecdd7f310895162"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Formalization\\FORM.md",
+          "bytes": 992,
+          "modified_utc": "2026-06-08T17:28:27.144759+00:00",
+          "sha256": "813aeb96b74e655227bd60989fd9973f900f5e4500fd6b647bb3e205444a379f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Manny\\FORM.md",
+          "bytes": 838,
+          "modified_utc": "2026-06-08T17:28:27.338775+00:00",
+          "sha256": "05f4dcc3cfca198385d7d16a9d631471d4229284346eb5d6f9b2d92cab8a7df4"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-Monorepo\\FORM.md",
+          "bytes": 1294,
+          "modified_utc": "2026-06-08T17:28:27.996545+00:00",
+          "sha256": "df8f01c8bccd0b4cde56190e5eba396e7e1386bc0ae9293ed7486f1165eb9e03"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-PartsFactory\\FORM.md",
+          "bytes": 1278,
+          "modified_utc": "2026-06-08T17:28:28.583136+00:00",
+          "sha256": "e6ff88d57f5afb4b224898bb05e36708c9352d8c32246178021d1ed848b4a809"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-R30\\FORM.md",
+          "bytes": 1212,
+          "modified_utc": "2026-06-08T17:28:28.834142+00:00",
+          "sha256": "335418ce63500493c25db904e9509cb311ce9a787fd60d63513004d46519217d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-TMN-main\\FORM.md",
+          "bytes": 933,
+          "modified_utc": "2026-06-08T17:28:29.366087+00:00",
+          "sha256": "bdcd6339c0bdcfaef39626817a32089d183798223acd3dffbabd361be02265f9"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX-TMN1\\FORM.md",
+          "bytes": 1019,
+          "modified_utc": "2026-06-08T17:28:29.063672+00:00",
+          "sha256": "fbe3990410726b5764d94783acfeb2477ce954448531652618a5d35ce7d90611"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXDevKit\\FORM.md",
+          "bytes": 1075,
+          "modified_utc": "2026-06-08T17:28:26.915518+00:00",
+          "sha256": "497baa47d4641e7f6d041bbc0f696075aadbd69dc13a5ead4cf0d19810c0d34c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXMCP\\FORM.md",
+          "bytes": 1260,
+          "modified_utc": "2026-06-08T17:28:27.578281+00:00",
+          "sha256": "766336791fa91c97caa437933bb4980f096cbacd1e811a903987c845089da25b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLXUNI\\FORM.md",
+          "bytes": 1091,
+          "modified_utc": "2026-06-08T17:28:29.987444+00:00",
+          "sha256": "0ed943b5f0b82122dbe4386a95376f86410560f024650ede3244d786fb5624bf"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\CMPLX\\FORM.md",
+          "bytes": 1224,
+          "modified_utc": "2026-06-08T17:28:16.542941+00:00",
+          "sha256": "495e8c59b1109e477a149fd2c1d5067bb1780986f8f7cd7564047b2f65afca98"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-Kernel\\kernel\\repo_forms\\repos\\scout-demo-service\\FORM.md",
+          "bytes": 825,
+          "modified_utc": "2026-06-08T17:28:30.175955+00:00",
+          "sha256": "00fa85866e7996209f17980fb408f5b9ef6e3247eaf0e85db984fbda003ac1ff"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\services\\repo-kernel\\server.py",
+          "bytes": 584047,
+          "modified_utc": "2026-06-06T20:24:02.920806+00:00",
+          "sha256": "151392389569ea254840332dafd784e26f439182bc28ca3719a956aa2e7647a1"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-1T.md",
+          "bytes": 15455,
+          "modified_utc": "2026-06-26T21:19:14.199935+00:00",
+          "sha256": "59c670fd03c6fe98f57d0d667b9d14440c4778aeb58f84d78f1ce4af0fefebee"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-Formalization.md",
+          "bytes": 27285,
+          "modified_utc": "2026-06-26T21:19:05.976456+00:00",
+          "sha256": "7d7ebc89b2b7dc9445b68721c64eeeb2126f00f4bb77731bec53319041ee584d"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-Manny.md",
+          "bytes": 11605,
+          "modified_utc": "2026-06-26T21:17:13.987925+00:00",
+          "sha256": "c2f27e1bb4dd296e1b57db92051311edb0be40245a26ac6e5bfcb8e05cab4a38"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-PartsFactory.md",
+          "bytes": 14762,
+          "modified_utc": "2026-06-26T17:01:15.317899+00:00",
+          "sha256": "e87aae61951800c8e28d1533ebe1601a514a00bec54d6ce75981a7e2cf2a7e95"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-R30.md",
+          "bytes": 19382,
+          "modified_utc": "2026-06-27T04:16:01.375200+00:00",
+          "sha256": "b2823573fb55308d86ff81a428818a7ff727ee1e10cba47a03d4c2d4d90a2e07"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-TMN-main.md",
+          "bytes": 12281,
+          "modified_utc": "2026-06-26T16:57:41.908799+00:00",
+          "sha256": "5096af723dcbcec3ec48f7efd3a905a2d8685a217b121b37420e5626e5fb3fae"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX-TMN1.md",
+          "bytes": 20603,
+          "modified_utc": "2026-06-26T21:18:25.405455+00:00",
+          "sha256": "5e37100dbbf6732f4f88a07da4eb927e5ffe72e76460e5d5096b5800deff0b2a"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLX.md",
+          "bytes": 17024,
+          "modified_utc": "2026-06-27T04:20:28.309313+00:00",
+          "sha256": "546077b8b63aea6a194acb434507e9537cb33c54287eccf52e56a5d82ffb6422"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXDevKit.md",
+          "bytes": 15508,
+          "modified_utc": "2026-06-27T04:16:02.394284+00:00",
+          "sha256": "5d549dc6ecc5a6f58c21481f169682f14f016a592f0faaadc042f31f711c4331"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXMCP.md",
+          "bytes": 19249,
+          "modified_utc": "2026-06-26T21:18:03.150014+00:00",
+          "sha256": "436f18d098e5cdf19a4e0bca55be1cc4567355cbc5c72ed68b59450618c85d7a"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CMPLXUNI.md",
+          "bytes": 17452,
+          "modified_utc": "2026-06-27T04:15:46.130538+00:00",
+          "sha256": "00e8dd889c1e2407ef0e42405aaeb1bf0b60ca6d9e12c27c45f6e2adccadfca2"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CQE-CMPLX-1T-Dev.md",
+          "bytes": 14123,
+          "modified_utc": "2026-06-26T17:02:49.062056+00:00",
+          "sha256": "17710b2281773baf8a60749a0930bbc9f3351f68c691e5997e9d30a7e3a29318"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\CQECMPLX-Production.md",
+          "bytes": 15829,
+          "modified_utc": "2026-06-26T16:59:54.198256+00:00",
+          "sha256": "edee53473af9c98ccc186c4563ad452c6438d8a53de713413afb0cb1cc552229"
+        },
+        {
+          "path": "D:\\repo_harvest\\_CAM\\dossiers\\GaussHaus.md",
+          "bytes": 19052,
+          "modified_utc": "2026-06-27T04:15:14.370065+00:00",
+          "sha256": "a29de2836c660cd1a8f941d322e4bd517ecbebd71b0ea7d3423d6055cce4e47c"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-29",
+        "FLCR-40"
+      ],
+      "pipeline_targets": [
+        "tool:repo-kernel",
+        "validator:provenance",
+        "base:cam-dossiers"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.83,
+      "blockers": [
+        "avoid_duplicate_canonicalization"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "Repo forms and dossiers already provide a provenance map for older findings and a route for binding code evidence into CAM review objects.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-FORMAL-SUITE-012",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "Formal suite validators and theorem acceptance records",
+      "ability_family": "formal_suite_validators",
+      "source_repo": "CQECMPLX-Formal-Suite/CMPLX-Formalization",
+      "source_surface": "D:\\CQE_CMPLX",
+      "source_path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_alpha_em_from_pfc2_e8_estimate.py",
+      "source_paths": [
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_alpha_em_from_pfc2_e8_estimate.py",
+          "bytes": 4604,
+          "modified_utc": "2026-06-18T17:03:23.068110+00:00",
+          "sha256": "816039c6a96329df255237a375277f784570ea1872baba988c775bffdfa2d8cb"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_calibrate_ckm.py",
+          "bytes": 1550,
+          "modified_utc": "2026-06-17T16:11:34.067501+00:00",
+          "sha256": "c02146bc53fd75e6ea3e0ff5502d811babf642b6264a24106a03d9a9fa74e198"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_calibrate_games.py",
+          "bytes": 1432,
+          "modified_utc": "2026-06-17T16:16:31.566257+00:00",
+          "sha256": "3e9b93639755725a3eea9c5ae85147de879697650d2f2d1a070e20e427913358"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_calibrate_gamma72.py",
+          "bytes": 1656,
+          "modified_utc": "2026-06-17T16:15:18.813014+00:00",
+          "sha256": "37e4369df4329e61126d43d9a62a749d458f8379b59157c7b422db43d78eab38"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_calibrate_protein.py",
+          "bytes": 1663,
+          "modified_utc": "2026-06-17T16:17:43.875328+00:00",
+          "sha256": "b20b31aaa8bb0a27c8eaa9d72e2a75d033bb31bd08c8c3c8aba8d7211a9c8c8c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_calibrate_units.py",
+          "bytes": 2793,
+          "modified_utc": "2026-06-17T16:13:23.617069+00:00",
+          "sha256": "daa64a311560a04bf310b1403b97ac70f446c2798b0cdca21bf5d9087e89664f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_chart_enumeration.py",
+          "bytes": 3356,
+          "modified_utc": "2026-06-17T08:54:04.201566+00:00",
+          "sha256": "04710140e74dd208116b31f6b68a743674639247dd004ce806489cae586873c5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_chart_j3o_isomorphism.py",
+          "bytes": 2848,
+          "modified_utc": "2026-06-17T17:30:18.597414+00:00",
+          "sha256": "38ccef37807a29a31940800c07278f86ad51ec4dbd8f6c23a17494cd80e1d449"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_completion.py",
+          "bytes": 1137,
+          "modified_utc": "2026-06-17T17:31:57.320942+00:00",
+          "sha256": "8cf9607b8a8ecf5dd83742db9b77a1ba48bdb600194b31266e6d6c9a7a5e6828"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_correction_boundary.py",
+          "bytes": 3931,
+          "modified_utc": "2026-06-17T08:55:14.648452+00:00",
+          "sha256": "d4090c31bee71a9ae0a31831596c9a6f1a3385b06b20efd4463d1a5cf31a52e0"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_couplings_from_nbody_3_5_projection.py",
+          "bytes": 6304,
+          "modified_utc": "2026-06-18T23:10:47.200829+00:00",
+          "sha256": "5f82f7b29dea9ce0c04e38aa0539e920ebcb91986c17ac80ee4cfba506f067c2"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_golden_ratio_fixedpoint.py",
+          "bytes": 4626,
+          "modified_utc": "2026-06-17T08:54:33.630507+00:00",
+          "sha256": "bdd3fe7275294a7629c70810273deae12ed7d1878f440d25b5a537b556f0863c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_hyperpermutation_fixedpoint.py",
+          "bytes": 1346,
+          "modified_utc": "2026-06-17T17:32:36.569353+00:00",
+          "sha256": "46390b452ca06e98599f0fcceed5a55093516876bb8807222b8a19cc91245f58"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_nbody_3_5_hierarchy_bridge.py",
+          "bytes": 10438,
+          "modified_utc": "2026-06-18T23:09:29.957428+00:00",
+          "sha256": "9cf03bfb7c98c6ef0dce848fef69f672e394cd1de6f130fd0bb45616890cc30b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_numeric_rg_extraction_from_3_5_thresholds.py",
+          "bytes": 11130,
+          "modified_utc": "2026-06-18T23:14:14.441924+00:00",
+          "sha256": "9ab102b37f10c5cc2da09e44b5570a0c373cb67b7b448a248398da5b95df5ba5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_observer_post_su3_electroweak_route.py",
+          "bytes": 9587,
+          "modified_utc": "2026-06-18T23:01:52.803536+00:00",
+          "sha256": "584927d76d620c9018171157e405a2f547e25077821c82cb8ac4c2f410c0d5f4"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_pmns_neutrino_standard_form_estimate.py",
+          "bytes": 8529,
+          "modified_utc": "2026-06-18T03:47:57.030166+00:00",
+          "sha256": "7e0bbfa1b5aeb6b107706133e5365de35d64efc68ed94d3442215826aed27666"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_rg_flow_from_closure_transport.py",
+          "bytes": 2701,
+          "modified_utc": "2026-06-18T03:16:29.284091+00:00",
+          "sha256": "4de7c124f935e5ab011130d3c4e0b08cb56081001558fba83121c05646097779"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_rg_thresholds_from_e8_shear_complement.py",
+          "bytes": 14174,
+          "modified_utc": "2026-06-18T23:21:49.779403+00:00",
+          "sha256": "a23d66a06cb4d580a2479e12760de8b311caa47e58564c058d2eb5aabe72e61d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_sm_anomaly_cancellation_from_charge_table.py",
+          "bytes": 2143,
+          "modified_utc": "2026-06-18T03:16:29.281041+00:00",
+          "sha256": "eac10faa1c22d2be1fd34614c3ff5b014b919bafca1d30d3f5d157625d2e16aa"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_sm_charge_table_from_su5_embedding.py",
+          "bytes": 5576,
+          "modified_utc": "2026-06-18T03:23:36.237833+00:00",
+          "sha256": "9766eb4b284c2f44886088c33d933d45f023fa69f0a68c7566409ea336cf5dca"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_sm_charge_table_from_u1_su2_su3.py",
+          "bytes": 2302,
+          "modified_utc": "2026-06-18T03:16:29.278040+00:00",
+          "sha256": "b0a9971f8b4108b07347c856caf0757d9c7854666e2f7160a7dc09fb9c669653"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_spectre_7fold_substitution.py",
+          "bytes": 1523,
+          "modified_utc": "2026-06-17T17:33:05.988994+00:00",
+          "sha256": "94b43437e5b64f14d74752230413dec3784ba812bf624a95a751fcffa5350ce7"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_spectre_tiling_deephole_path.py",
+          "bytes": 25035,
+          "modified_utc": "2026-06-18T23:37:35.784890+00:00",
+          "sha256": "15a35abdb4b13860a6a7d2205b5c08862406160d0c44194620630dea0ccc8557"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_standard_form_parameter_estimates.py",
+          "bytes": 10914,
+          "modified_utc": "2026-06-18T03:48:19.113257+00:00",
+          "sha256": "6a7ef19117cef1c4d30491f9ba0e1f625abba1b38eea18dfed002cad323205be"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_su5_observer_decomposition.py",
+          "bytes": 7545,
+          "modified_utc": "2026-06-18T22:57:09.414227+00:00",
+          "sha256": "214e8f58f986dc95f66860927cfe46f15083bd094b3b6d80875460f2e75c4897"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_su5_spin_state_interface.py",
+          "bytes": 5225,
+          "modified_utc": "2026-06-18T03:26:30.106970+00:00",
+          "sha256": "0a9e58b11e0071865e45b19758e3c166dc69dbf01a51c5cb0cad75861afe24aa"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_triality_operator.py",
+          "bytes": 3818,
+          "modified_utc": "2026-06-17T08:54:55.884745+00:00",
+          "sha256": "c9fe6a5fe9f99209f2d31a918d7786b08f2382c0b9e19217c0cb659b8c91c823"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\lattice_forge\\verify_wolfram_1m_bit.py",
+          "bytes": 1487,
+          "modified_utc": "2026-06-17T17:31:29.778098+00:00",
+          "sha256": "def722f24da43a3a676cad574787f5f5ad3e1bf1aaf923d374462aeae0bdcb7d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\cqecmplx\\entropy\\sdk\\python\\entropy_core\\verify.py",
+          "bytes": 4464,
+          "modified_utc": "2026-06-16T18:06:57.457541+00:00",
+          "sha256": "425db594df4c484448eec20e948a8d3943e9b827b2091a88a32c52730900778f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\cqecmplx\\r30\\verify.py",
+          "bytes": 7980,
+          "modified_utc": "2026-06-16T18:06:57.965224+00:00",
+          "sha256": "b2d16ba5159639159d17bb7199c4ebb38b55fafa5fa7d37bfcecc34a51f5d301"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\lattice_forge\\algebra\\verify_o1.py",
+          "bytes": 2202,
+          "modified_utc": "2026-06-16T18:06:59.152487+00:00",
+          "sha256": "9009b572ca4eca3daf3a77511979d2a30b3d1f13675e252febfdbac5025ac806"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\reforge_kimi_adapter\\__init__.py",
+          "bytes": 242,
+          "modified_utc": "2026-06-16T18:06:58.308847+00:00",
+          "sha256": "b47244273db0aeab787c5a66d75af028e6992a351c6ef7c38bdad97155688a82"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\reforge_kimi_adapter\\adapter.py",
+          "bytes": 7298,
+          "modified_utc": "2026-06-16T18:06:58.306846+00:00",
+          "sha256": "58bd894b1cd16a3a3b8bd841f0f7951129aa221ba7c8ce847b3c7694f2e8a611"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CQECMPLX-Formal-Suite\\lib\\src\\reforge_kimi_adapter\\cli.py",
+          "bytes": 928,
+          "modified_utc": "2026-06-16T18:06:58.307847+00:00",
+          "sha256": "3e4352d2733cf6b533f77b4808168e1c396c7066afed635e37daf9da9bba0737"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\appendices\\THEOREM_REGISTRY.md",
+          "bytes": 25371,
+          "modified_utc": "2026-06-26T16:43:17.081736+00:00",
+          "sha256": "94ef16a314d8e790af6987e42902693a59101ff42425bc06264f7a501c01a4f7"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\001-d12-action-envelope.md",
+          "bytes": 2997,
+          "modified_utc": "2026-06-26T16:43:17.090808+00:00",
+          "sha256": "2befa8d6374ce229ebcfb22a8bd3508ab26aef314ed177c4594a1747689ab311"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\002-d4-j3o-idempotent-bridge.md",
+          "bytes": 2932,
+          "modified_utc": "2026-06-26T16:43:17.090808+00:00",
+          "sha256": "139794ddeec3fb8cfc475eeadc15af72be542f29236de2765d503bd6bf845a59"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\003-n3-su3-weyl-closure.md",
+          "bytes": 3001,
+          "modified_utc": "2026-06-26T16:43:17.092075+00:00",
+          "sha256": "d9c0d65bed3f767274b744618e2715eded0ee11c650a465700330ce61d9f18d4"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\005-rule90-linearization-decomposition.md",
+          "bytes": 3811,
+          "modified_utc": "2026-06-26T16:43:17.092075+00:00",
+          "sha256": "53b9eac18cb5875bf89842479e783b609e3bf664e22747f24c5cf023ab3a65b5"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\006-f2-arf-governance.md",
+          "bytes": 3107,
+          "modified_utc": "2026-06-26T16:43:17.092821+00:00",
+          "sha256": "8b5a0283ffedcc48c51a8c2b77a0012f8219cb45c24a5d59b2895c6f5b8ea00c"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\007-d4-chart-codec.md",
+          "bytes": 2860,
+          "modified_utc": "2026-06-26T16:43:17.092821+00:00",
+          "sha256": "23303e7f3b7259ef5397a83dfa8a93bdcc68c1272a312d0334f06a8de5688b89"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\008-oloid-carrier-bounded.md",
+          "bytes": 4594,
+          "modified_utc": "2026-06-26T16:43:17.092821+00:00",
+          "sha256": "ae8e9c4d8fda471f31914b110c834b63066f02fd78dfa352330a93098f94e02c"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\009-g2-f4-t5-conjugate-triple.md",
+          "bytes": 2667,
+          "modified_utc": "2026-06-26T16:43:17.093832+00:00",
+          "sha256": "5672b940f83e533865b322b76b508bbfe7e111a9f0de6159743ae1f28d83ba4b"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\010-f4-niemeier-template-closure.md",
+          "bytes": 2979,
+          "modified_utc": "2026-06-26T16:43:17.094216+00:00",
+          "sha256": "99bc73becb518f98690fa0926a518db61bf737f9ea66406f363463ee0d3a68d9"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\011-rule30-local-readout-receipts.md",
+          "bytes": 2840,
+          "modified_utc": "2026-06-26T16:43:17.094216+00:00",
+          "sha256": "3221a9acf244418f2b8f38880b647d81f311a4fca5c59975af769647edec1597"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\012-rule30-cqe-assembled-tool.md",
+          "bytes": 2624,
+          "modified_utc": "2026-06-26T16:43:17.094216+00:00",
+          "sha256": "ed81134918b6a008f8028f6d4f2c6a092302dd99ca56c7e1b858996497e4b541"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\013-cqe-light-cone-launch.md",
+          "bytes": 2241,
+          "modified_utc": "2026-06-26T16:43:17.094216+00:00",
+          "sha256": "bc6a058770072e4f9dc6e0b39cc8749ca5c55b5eab55c211b06d1d0711c95a38"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\014-cqe-ribbon-receipt-portal.md",
+          "bytes": 2620,
+          "modified_utc": "2026-06-26T16:43:17.095452+00:00",
+          "sha256": "28279be926ad6e991566d62ff73f66c30611dcff339260fcd6b84397b68420a7"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\015-rule30-block-tower-extractor.md",
+          "bytes": 2355,
+          "modified_utc": "2026-06-26T16:43:17.095452+00:00",
+          "sha256": "fd55673b9bb04de4c6bd2747f5d640f7670ed45da2d649900a4f7fba0320ab14"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\016-rule30-chart-local-readout.md",
+          "bytes": 2307,
+          "modified_utc": "2026-06-26T16:43:17.096097+00:00",
+          "sha256": "b2b2db969a91615434328febcda4a0a7018737164617e8e75836af1ca3702bf6"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\017-voa-mckay-harness-boundary.md",
+          "bytes": 2992,
+          "modified_utc": "2026-06-26T16:43:17.096097+00:00",
+          "sha256": "024c5d23458088045327e306cff1b19d25643223a7edaeb813b34a4372801c6f"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\018-rule30-proof-obligation-ledger.md",
+          "bytes": 2721,
+          "modified_utc": "2026-06-26T16:43:17.096097+00:00",
+          "sha256": "c98dd6aabdcb4f33506f8eb09d1de1ad87f36d4b017acbd57a91ea3cd23e12af"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\019-rule30-hardened-morphon.md",
+          "bytes": 2239,
+          "modified_utc": "2026-06-26T16:43:17.097317+00:00",
+          "sha256": "b3ac7aaeb1796ed5c1d1d444130e34c9159bd1c6bd90316ddd7a4feeb7ae5b62"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\020-rule30-vignette-algebra.md",
+          "bytes": 1937,
+          "modified_utc": "2026-06-26T16:43:17.097317+00:00",
+          "sha256": "abf2773aca57faf682b49ba4fd6a45dae72f34c385214759e847c1e5741f9386"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\021-rule30-moving-frame.md",
+          "bytes": 2105,
+          "modified_utc": "2026-06-26T16:43:17.097317+00:00",
+          "sha256": "1367f92af3db7340f3a3a9aaaa2c0fd72532a588ca24a9174aaa48342adb45d0"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\022-rule30-color-chirality-cipher.md",
+          "bytes": 2146,
+          "modified_utc": "2026-06-26T16:43:17.098125+00:00",
+          "sha256": "605d79f3ff02d871d4e89525c4e79a73690f6f9e652d047c743aabf15468498f"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\023-rule30-discrete-lagrangian.md",
+          "bytes": 2301,
+          "modified_utc": "2026-06-26T16:43:17.098125+00:00",
+          "sha256": "2656d9147ef2b808e806c4cfa3f7bd1cc87c5c1094d28902e3efb484066107ac"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\024-rule30-lagrangian-depth-trace.md",
+          "bytes": 2115,
+          "modified_utc": "2026-06-26T16:43:17.098689+00:00",
+          "sha256": "7c4fe7cd6f2178c241201ccb55ade05e997c55754a58f06d25f6b48b554bda43"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\025-rule30-mandelbrot-boundary-scalar.md",
+          "bytes": 1897,
+          "modified_utc": "2026-06-26T16:43:17.098689+00:00",
+          "sha256": "dcc23ce4b2210fd9e223c3eb7a7109800c1e98c1a1e20928c7ad1c9f7a44b462"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\026-rule30-reduced-alphabet-catalog.md",
+          "bytes": 2306,
+          "modified_utc": "2026-06-26T16:43:17.098689+00:00",
+          "sha256": "493fd7db5cb7c7ae9df68cac91a28f07edbd209b9dfffea408a109f078800e59"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\027-rule30-symmetry-environment.md",
+          "bytes": 2443,
+          "modified_utc": "2026-06-26T16:43:17.099714+00:00",
+          "sha256": "ba3adbe5ba734a2003495a783dff34be5eee26e2b866c56d527ba44ac9d0317a"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\028-rule30-physics-method-stack.md",
+          "bytes": 2232,
+          "modified_utc": "2026-06-26T16:43:17.100503+00:00",
+          "sha256": "f1b9ddaa7323b6151732c39e7c839376a4001350c95bffcc8b24f1b6f5b80587"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\029-rule30-whole-integer-scalar-coverage.md",
+          "bytes": 2173,
+          "modified_utc": "2026-06-26T16:43:17.100503+00:00",
+          "sha256": "ed6fe59d946a10102f805d0ff2f27b1ec5387e47526d5ba006fe0a4518fca1cf"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\accepted\\030-rule30-readout-ribbon-machine.md",
+          "bytes": 2439,
+          "modified_utc": "2026-06-26T16:43:17.100503+00:00",
+          "sha256": "2222498895799ce999ee06e03910d70d44623c7264cd4ce4bceb8d0f850ca0b9"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\escrow\\004-d12-moonshine-chain.md",
+          "bytes": 3500,
+          "modified_utc": "2026-06-26T16:43:17.101512+00:00",
+          "sha256": "fbed2e344774b542d84007ecea07c8f6da9872123f9ce857ee36ad30acb4b8b8"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-Formalization\\intake\\escrow\\README.md",
+          "bytes": 577,
+          "modified_utc": "2026-06-26T16:43:17.101974+00:00",
+          "sha256": "997c5f5cc306ed9b201a4dd92852bab459b5e434c990411b186fe19e4120ddde"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-20",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "pipeline_targets": [
+        "validator:formal-suite",
+        "paper:theorem-registry",
+        "tool:intake-gate"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.82,
+      "blockers": [
+        "convert_markdown_registry_to_structured_index"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "Formalization provides the theorem registry, intake protocol, proof/open-obligation discipline, and verifier references needed by CMPLX-Standards.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-R30-PROOF-015",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "Rule30/J3(O)/Lucas proof-grade lattice_forge spine",
+      "ability_family": "rule30_proof_spine",
+      "source_repo": "CMPLX-R30",
+      "source_surface": "D:\\repo_harvest\\CMPLX-R30",
+      "source_path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\rule90_linearization.py",
+      "source_paths": [
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\rule90_linearization.py",
+          "bytes": 8259,
+          "modified_utc": "2026-06-26T16:43:13.319646+00:00",
+          "sha256": "b973a8492036c38809abc9afef12f813488478fee798d15c8e81f4a29f1cf19f"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\chart_codec.py",
+          "bytes": 7223,
+          "modified_utc": "2026-06-26T16:43:13.296543+00:00",
+          "sha256": "cf20fb97537a079c72d1c18f5db260099016381386c073c097b9a8cc912cab96"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\f4_action.py",
+          "bytes": 31565,
+          "modified_utc": "2026-06-26T16:43:13.300892+00:00",
+          "sha256": "5a4d58f68670af3c0a8bf092a849217d41797202652bd6730d76b9c2a9d2480f"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\centroid_voa.py",
+          "bytes": 21821,
+          "modified_utc": "2026-06-26T16:43:13.295542+00:00",
+          "sha256": "cdbe6b409ac1de9285e01de9b4781eac1261fc1eacce181d164bb65cad0d1625"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\octonion.py",
+          "bytes": 10787,
+          "modified_utc": "2026-06-26T16:43:13.308892+00:00",
+          "sha256": "aa8c726b53804348f1cc4af7691c9fe413d183a21258150993e61b091e454e8a"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\src\\lattice_forge\\jordan_j3.py",
+          "bytes": 15120,
+          "modified_utc": "2026-06-26T16:43:13.301891+00:00",
+          "sha256": "27d7502182808e6c11c1f9538e5877feb1ca220beb7c9afe51fe154b52a6e88e"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\PROOF\\theorems\\THEOREM_REGISTRY.md",
+          "bytes": 31182,
+          "modified_utc": "2026-06-26T16:43:13.351726+00:00",
+          "sha256": "ad711218448086e3734f8973004551ffd9c9618bd6dbfdf42b5547302da61cd6"
+        },
+        {
+          "path": "D:\\repo_harvest\\CMPLX-R30\\DATA\\wolfram-rule30-center\\wolfram_rule30_center_1m.json",
+          "bytes": 2000008,
+          "modified_utc": "2026-06-26T16:43:13.248624+00:00",
+          "sha256": null
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-09",
+        "FLCR-12",
+        "FLCR-13"
+      ],
+      "pipeline_targets": [
+        "tool:lattice-forge",
+        "validator:proof-spine",
+        "paper:rule30"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.9,
+      "blockers": [
+        "do_not_overclaim_cold_start_o_log_n",
+        "strip_path_surgery"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "R30 contains the proof-grade Rule30, Lucas, J3(O), exact-rational S3/F4 closure, lattice-code, theorem-registry, and oracle-data spine.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    },
+    {
+      "seed_id": "LEGACY-PARTSFACTORY-LATTICE-016",
+      "seed_type": "legacy_repo_ability_seed",
+      "title": "PartsFactory lattice-forge runtime and service validators",
+      "ability_family": "parts_factory_lattice_forge",
+      "source_repo": "CMPLX-PartsFactory-main",
+      "source_surface": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main",
+      "source_path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\examples\\sample_project\\sample.py",
+      "source_paths": [
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\examples\\sample_project\\sample.py",
+          "bytes": 757,
+          "modified_utc": "2026-06-06T20:23:59.239469+00:00",
+          "sha256": "a64dab7b8d40be8b92a86a0b2f49a399fb835203bea81e5f21aa3bf57efeaf17"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\examples\\sample_project\\tests\\test_sample.py",
+          "bytes": 414,
+          "modified_utc": "2026-06-06T20:23:59.250216+00:00",
+          "sha256": "3173675e3292d2814b7bb05fb3646ea0e17c098d33e94bc2497f24c1d1c40f4e"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\experiments\\exp_subon_extractor.py",
+          "bytes": 4226,
+          "modified_utc": "2026-06-06T20:23:59.257153+00:00",
+          "sha256": "cb2684b33eb914566a13f33d7838cb1c1a29a9e433a063526e9be6242f54a2c5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\experiments\\probe_d4_recursive.py",
+          "bytes": 9607,
+          "modified_utc": "2026-06-06T20:23:59.289021+00:00",
+          "sha256": "361f1e6744565708439bac736585fef0c79ce94f8460cf39e0b1573dac05d3b9"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\experiments\\probe_logtime.py",
+          "bytes": 7628,
+          "modified_utc": "2026-06-06T20:23:59.292585+00:00",
+          "sha256": "243e6c580e47cb0cf19fdbe6a55764e35b1ef8ed04aa9a49749fc63ee0af810d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\enumerate_library_needs.py",
+          "bytes": 17622,
+          "modified_utc": "2026-06-06T20:23:59.338653+00:00",
+          "sha256": "427527561f7ffc4b38799400205af4f48a38ae40569935d8afc175d4344b8b9a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\extract_cqe_formalization_targets.py",
+          "bytes": 11835,
+          "modified_utc": "2026-06-06T20:23:59.352814+00:00",
+          "sha256": "b6634715d6591b94b5e05971a2fd8e9c332bd8a105d920db07ae3869e391179d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\materialize_empirical_platforms.py",
+          "bytes": 3049,
+          "modified_utc": "2026-06-06T20:23:59.386833+00:00",
+          "sha256": "1f0714af86e09faefa566c4c7e31d0e0cadf90644f76a194e7d94b42879edfe0"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\orchestrate_weyl_bond_waves.py",
+          "bytes": 259,
+          "modified_utc": "2026-06-06T20:23:59.386833+00:00",
+          "sha256": "d414f0a27b6e6d3fdc28c1b7d2da9812de9e054de3f584d3af09bf4c605696bf"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\ring1_open_audit.py",
+          "bytes": 5369,
+          "modified_utc": "2026-06-06T20:23:59.400461+00:00",
+          "sha256": "e1191ad61c2cd025f95c2991031c0ed5471cb9454186e32464f400cd8b716edd"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_all_proofs.py",
+          "bytes": 30355,
+          "modified_utc": "2026-06-06T20:23:59.425842+00:00",
+          "sha256": "5e5fcc5748b3fdb321e0b4a98fab429adbdff0989a3014c76dc3fbbe05b4fa47"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_empirical_matrix.py",
+          "bytes": 1354,
+          "modified_utc": "2026-06-06T20:23:59.448385+00:00",
+          "sha256": "9a8b892292db1a685627531eb29cb0cb11eb77c676c4e9c94da5f20f97914d3a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_lattice_space_exhaustion.py",
+          "bytes": 257,
+          "modified_utc": "2026-06-06T20:23:59.464429+00:00",
+          "sha256": "9cf5594c522191f7d0e1b9dd10e315e33921fac6e7d26ae1c39cd7d2a3046025"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_niemeier_backwalk.py",
+          "bytes": 242,
+          "modified_utc": "2026-06-06T20:23:59.474696+00:00",
+          "sha256": "bef9611f3b304c0d87b2569bc07a03eed55b24e1b02962cf3ca834d78647de08"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_open_claims_harness.py",
+          "bytes": 1794,
+          "modified_utc": "2026-06-06T20:23:59.480541+00:00",
+          "sha256": "789e98b3b7ac8555ea28f8ccc093c9f46d658ef46eb93e4ffc19e3cd6cf6e3b2"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_regimes_proofs.py",
+          "bytes": 5863,
+          "modified_utc": "2026-06-06T20:23:59.496507+00:00",
+          "sha256": "179d7d8c9aa8a5ddd04dd5c7c3dac6da70de30ba9422111ab8cd8ea1c7eb9596"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_ring1_ring2_pipeline.py",
+          "bytes": 5280,
+          "modified_utc": "2026-06-06T20:23:59.513151+00:00",
+          "sha256": "f73e135f941901db3987023fe4d7ca1b81e6d8894eb4c7532a1eae21c49c3b04"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_ring2_bundle.py",
+          "bytes": 7277,
+          "modified_utc": "2026-06-06T20:23:59.513151+00:00",
+          "sha256": "f77f6fce163a3eb1ca179bfb1c526ada5432702eb6f75793a7c7a64a03b29d89"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_transport_tower_proofs.py",
+          "bytes": 6396,
+          "modified_utc": "2026-06-06T20:23:59.528533+00:00",
+          "sha256": "2dd1bef32da3445eaeb2ea4c7c17d87de170bfad6ff40e35cd374b8470940c71"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\run_whitepaper_sidecar.py",
+          "bytes": 5232,
+          "modified_utc": "2026-06-06T20:23:59.533005+00:00",
+          "sha256": "90bbded04bd8040e9081a3eb8a9b606169117377dd15a45f5b03ae05b67fc7f7"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\smoke.py",
+          "bytes": 7853,
+          "modified_utc": "2026-06-06T20:23:59.533005+00:00",
+          "sha256": "e15374d3e6297f128f2d90e5564c09adfd37e0eaf91438b97397f3370b9e962e"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\tier_b_density_estimate.py",
+          "bytes": 950,
+          "modified_utc": "2026-06-06T20:23:59.552673+00:00",
+          "sha256": "ea6bdb7c7ab510fa1b87f6bd822df48b32f1e2cea30ef5d66d25c0d06207ad7a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\tier_b_period_search.py",
+          "bytes": 1217,
+          "modified_utc": "2026-06-06T20:23:59.559999+00:00",
+          "sha256": "46e18e26eba171a80eb9c9228eddd0f3aea991852969c4957594d053e2a35e1f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\scripts\\verify_algebra_o1.py",
+          "bytes": 232,
+          "modified_utc": "2026-06-06T20:23:59.579478+00:00",
+          "sha256": "2e1017f9c4cac766041a436bfa657310e2879229b0cfa0f4cfab11fe2cecacb1"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\__init__.py",
+          "bytes": 6717,
+          "modified_utc": "2026-06-27T04:54:26.619876+00:00",
+          "sha256": "0b5b7e3a463a5f96184019fd8034413322c7839a55c5744eef949ac082681148"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\actuation.py",
+          "bytes": 11132,
+          "modified_utc": "2026-06-06T20:23:59.614996+00:00",
+          "sha256": "35ddcb8e38de5812530732b2ce66adc91d06a64c6e9acf1b1eea68111ebfac9f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\algebra\\__init__.py",
+          "bytes": 446,
+          "modified_utc": "2026-06-06T20:24:00.147763+00:00",
+          "sha256": "f67a0c0c8b0095bd6c84d398e4ca8f6894e7d971f4bdf85f2dbefe1378697bb7"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\algebra\\o1_registry.py",
+          "bytes": 2678,
+          "modified_utc": "2026-06-06T20:24:00.147763+00:00",
+          "sha256": "5be8236ad1ed92d481157216264ae7e94e87403348f784b23ad97b8773adc032"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\algebra\\verify_o1.py",
+          "bytes": 2202,
+          "modified_utc": "2026-06-06T20:24:00.171641+00:00",
+          "sha256": "9009b572ca4eca3daf3a77511979d2a30b3d1f13675e252febfdbac5025ac806"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\__init__.py",
+          "bytes": 1114,
+          "modified_utc": "2026-06-06T20:24:00.179534+00:00",
+          "sha256": "b4da042dfe849889478d5bf00a38ec77987ce851250f54264bb2c5f96f155024"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\e8_weyl_pod.py",
+          "bytes": 2954,
+          "modified_utc": "2026-06-06T20:24:00.193388+00:00",
+          "sha256": "a4718846b966b152793e1d5bf27d2aaab58f5cdf1a1aa59c47a8942af41e2681"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\exceptional_spine.py",
+          "bytes": 4609,
+          "modified_utc": "2026-06-06T20:24:00.197413+00:00",
+          "sha256": "dbde19c4e02e7de64d0a5180d8f4339d73d29c21010a20d4f14249e284c224fb"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\generator.py",
+          "bytes": 7022,
+          "modified_utc": "2026-06-06T20:24:00.211131+00:00",
+          "sha256": "bcda2140677308a0086243ca022176ab96e6fed3547e6207e412c80e309b199a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\glue_weyl.py",
+          "bytes": 1284,
+          "modified_utc": "2026-06-06T20:24:00.227607+00:00",
+          "sha256": "817e4e303573e849051a08b00bb91f7e7496ea804ca6542522ac18f8b762ae44"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\hydrate.py",
+          "bytes": 2108,
+          "modified_utc": "2026-06-06T20:24:00.233730+00:00",
+          "sha256": "2ce647b175d873df24e35bc69af0f39fb923ac26ca089bba6b08d8b8870e2fe4"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\lattice_catalog.py",
+          "bytes": 3413,
+          "modified_utc": "2026-06-06T20:24:00.243845+00:00",
+          "sha256": "9600a4d75e71fc78b4360f9b1c8b215ec6eee61f8b70e2fcea80214e7c251627"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\lattice_space_job.py",
+          "bytes": 4814,
+          "modified_utc": "2026-06-06T20:24:00.248157+00:00",
+          "sha256": "0c3dd6f96091dbe3c221fc741616f7190e62983616b2a7b26dac0ad096a2e510"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\proof_capture.py",
+          "bytes": 2416,
+          "modified_utc": "2026-06-06T20:24:00.258811+00:00",
+          "sha256": "44fd688339bddc944ab3ba4c9b7a66b25e34a71b7ba3cca6adeb90ead0f243b4"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\runner.py",
+          "bytes": 14814,
+          "modified_utc": "2026-06-06T20:24:00.258811+00:00",
+          "sha256": "5d61573b37f972074de6b700595c0779ddc716f4c8ed336054ccf8b5c80833ec"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\schema.py",
+          "bytes": 21872,
+          "modified_utc": "2026-06-06T20:24:00.280812+00:00",
+          "sha256": "34cdedb296639ec6e667537017ea433f6697d11d8637d758dc3237549d92fe0c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\weyl_bond_dual.py",
+          "bytes": 8501,
+          "modified_utc": "2026-06-06T20:24:00.306891+00:00",
+          "sha256": "14635dc9e453cd462d315bcdaacc194c96dba3fe6aca3dd91cd484d442af675f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\backwalk\\weyl_bond_quadrant.py",
+          "bytes": 3047,
+          "modified_utc": "2026-06-06T20:24:00.306891+00:00",
+          "sha256": "de8a35f0f08c594d0fb5d9b405209370fffde08cb7516628276373316064f620"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\block_d4.py",
+          "bytes": 9259,
+          "modified_utc": "2026-06-06T20:23:59.631798+00:00",
+          "sha256": "a3bb6c23155fc1f469ec7da7288bd370cf18d4dc788e0491f796cbd0f237d264"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\block_tower.py",
+          "bytes": 6881,
+          "modified_utc": "2026-06-06T20:23:59.647128+00:00",
+          "sha256": "e936b628bcb00eec18053d67919cde5004e856ef4205a1fd6c6b808e09d972e8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\chart_codec.py",
+          "bytes": 7035,
+          "modified_utc": "2026-06-06T20:23:59.647128+00:00",
+          "sha256": "7541f4230c9c206e51c04bde6af8558a8d9c69d84c4ffe8981e9a4751373f608"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\chart_codec_d4.py",
+          "bytes": 5797,
+          "modified_utc": "2026-06-06T20:23:59.665152+00:00",
+          "sha256": "561a248e808c7f61f12c4993db20840c01ce5b70cf42d5d7dfe976eb3d7fde5b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cli.py",
+          "bytes": 52097,
+          "modified_utc": "2026-06-27T04:54:19.343770+00:00",
+          "sha256": "bc54ac64a9383b3527ebbc7783bf6219518797652f886c03574d76856ce4bc06"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cmplx\\__init__.py",
+          "bytes": 190,
+          "modified_utc": "2026-06-06T20:24:00.323050+00:00",
+          "sha256": "2156c0c33fefa20df6d98c0279bc4fe447ff4c7171ebd3e86913883509464778"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cmplx\\runtime.py",
+          "bytes": 2628,
+          "modified_utc": "2026-06-06T20:24:00.354051+00:00",
+          "sha256": "41695375753fece7b6d025e18158e9757c4bfdebc926eb8a569f514364720ef5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\contribution_validators.py",
+          "bytes": 6569,
+          "modified_utc": "2026-06-06T20:23:59.695077+00:00",
+          "sha256": "b2e7d30a7a4d1bf896ece60100f4d1c7fe595a362b32013fc332d3ccc6623b00"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\contributions_registry.py",
+          "bytes": 9118,
+          "modified_utc": "2026-06-06T20:23:59.705692+00:00",
+          "sha256": "297356a52792d3bb2843d6e75cf330177dece334a353ab8b4d2bda98e4431309"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\core.py",
+          "bytes": 7632,
+          "modified_utc": "2026-06-06T20:23:59.711534+00:00",
+          "sha256": "e8470dba81ce1f89c41eac47e324261ebf3ada1938aa43b8354bf7e13c1578d3"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\__init__.py",
+          "bytes": 1494,
+          "modified_utc": "2026-06-06T20:24:00.373070+00:00",
+          "sha256": "1d52beb11aed41e05b2e3431cfa063c9f076bad9ba36996b3263da63fbdd491d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\extraction.py",
+          "bytes": 3603,
+          "modified_utc": "2026-06-06T20:24:00.377149+00:00",
+          "sha256": "97b4fa6e7271c2c78441155007919c4ce8cd6c0fc36e299e89fbfe2deb44f63a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\frame.py",
+          "bytes": 7497,
+          "modified_utc": "2026-06-06T20:24:00.397049+00:00",
+          "sha256": "f621c7676aaeca1c75b3a2d6938dcde0eeb02eb71f40efa48a774264b3c60f36"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\hypervisor.py",
+          "bytes": 9497,
+          "modified_utc": "2026-06-06T20:24:00.408124+00:00",
+          "sha256": "87f0a022abb073a1fd5206a234f54c4f45085202566c9c9f8dfad4af031b25ac"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\light_cone.py",
+          "bytes": 6250,
+          "modified_utc": "2026-06-06T20:24:00.417920+00:00",
+          "sha256": "fcce9358c9dd6961e62bde58e0905c03b2fea78fdf4178037e876ee079fb5871"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\paper_match.py",
+          "bytes": 3790,
+          "modified_utc": "2026-06-06T20:24:00.425303+00:00",
+          "sha256": "1200c7c5cc7497672a9dea2fdbcf800078a1be1fb02d13bdcab766db587a0796"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\sidecar.py",
+          "bytes": 1387,
+          "modified_utc": "2026-06-06T20:24:00.434528+00:00",
+          "sha256": "ffa30e6bdd21af5b04534496e86b38e2f695e5eac2bca521fcf7a73204ec0615"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe\\softmax_homology.py",
+          "bytes": 2265,
+          "modified_utc": "2026-06-06T20:24:00.434528+00:00",
+          "sha256": "7f344812bf2d8493241d91f23422f79cceeb2a2656f78967db3f1ebb2a1ea057"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\cqe_idempotent_cache.py",
+          "bytes": 7756,
+          "modified_utc": "2026-06-06T20:23:59.720352+00:00",
+          "sha256": "26a87e1ba8b33e8dbb00d9e462da32bf5f0cb5eff857bfc2bbf4923bf9d208cb"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\d12_action.py",
+          "bytes": 7260,
+          "modified_utc": "2026-06-06T20:23:59.726930+00:00",
+          "sha256": "a1edae1f0919f3924fee02e727de2a0f883b19ebf9ea86a76b94c2caa4ff2be8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\decomposition\\__init__.py",
+          "bytes": 1153,
+          "modified_utc": "2026-06-06T20:24:00.504816+00:00",
+          "sha256": "1f10841083e808fbff571689483193e0a7fe04fe850df7796b00bc4d38b3eef5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\decomposition\\checkpoint_store.py",
+          "bytes": 4409,
+          "modified_utc": "2026-06-06T20:24:00.515812+00:00",
+          "sha256": "2c434c4a8200c7a0d9ec462d9210bc8ca02e02ccfa9725776f2e0f0ae0437bd7"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\decomposition\\empirical.py",
+          "bytes": 5088,
+          "modified_utc": "2026-06-06T20:24:00.535366+00:00",
+          "sha256": "278ddfaa07e4c827697b417a3472f14d8e988789e53d4f4c5390ceb41761a6b5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\decomposition\\fast_rule30.py",
+          "bytes": 1416,
+          "modified_utc": "2026-06-06T20:24:00.544439+00:00",
+          "sha256": "1bd9c9d0b1791733b020ab4a1b005a530899516fe87b96cc504a5f4d13bfb80f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\decomposition\\rule30_decomposition.py",
+          "bytes": 7829,
+          "modified_utc": "2026-06-06T20:24:00.559243+00:00",
+          "sha256": "7540d49d5e74dd829f9aafe112e4d9cc329da059fdcb207281fa20ed63d8c755"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\empirical\\__init__.py",
+          "bytes": 306,
+          "modified_utc": "2026-06-06T20:24:00.584098+00:00",
+          "sha256": "65ef11cc3e548ec40eae7e4cda25b894a1d6b2f0ec64dd3a4676799907d20dcb"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\empirical\\exhaust.py",
+          "bytes": 410,
+          "modified_utc": "2026-06-06T20:24:00.591949+00:00",
+          "sha256": "4629fdb9ebead1c063db5273fc6647c9d8b72c4b929fd16924b5c8dd88213e67"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\empirical\\manifest.py",
+          "bytes": 2444,
+          "modified_utc": "2026-06-06T20:24:00.609553+00:00",
+          "sha256": "b431f238a7ad7ce81b20cff6c29de0fedb4843f338d2d72f89af8869c4bc2251"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\empirical\\resolver.py",
+          "bytes": 9546,
+          "modified_utc": "2026-06-06T20:24:00.621038+00:00",
+          "sha256": "194d5da593062b92c00d00aa5e290eb52a6ca13ebec3d1e1360dd7753ba7c611"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\empirical\\runner.py",
+          "bytes": 5659,
+          "modified_utc": "2026-06-06T20:24:00.631529+00:00",
+          "sha256": "12f89716755c04fbebfd596b28f31934125c3a75db82fd1a7f5786c0a55b33ba"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\enumerated_glue.py",
+          "bytes": 19503,
+          "modified_utc": "2026-06-24T19:40:55.342444+00:00",
+          "sha256": "865ca854f53be3c45e1a2447152f4b37d674537fd50902a20afb3cd5ddb34ece"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\f2_majorana.py",
+          "bytes": 13428,
+          "modified_utc": "2026-06-06T20:23:59.758889+00:00",
+          "sha256": "a646bf24fb94dbe7b28244c9ae21d7868cc3f0aea33da0fec2318e887b3d816c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\f4_action.py",
+          "bytes": 30761,
+          "modified_utc": "2026-06-06T20:23:59.774565+00:00",
+          "sha256": "226b9717d7e8259772ab8279bc4f6021ed58b0befde16fa7d0fb46baf2fb28d5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\falsify\\__init__.py",
+          "bytes": 261,
+          "modified_utc": "2026-06-06T20:24:00.653542+00:00",
+          "sha256": "b605ab4f2431563b12c65be61fc4a757a707fd8150afee56604b5c474e82dc2b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\falsify\\tier_a.py",
+          "bytes": 8337,
+          "modified_utc": "2026-06-06T20:24:00.658806+00:00",
+          "sha256": "f727e000bf45101b22d7e84bd14c4f36f7ea2e1db21df2e8c8fde23f8055e515"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\falsify\\tier_b.py",
+          "bytes": 1323,
+          "modified_utc": "2026-06-06T20:24:00.670555+00:00",
+          "sha256": "8fcd07732a74c2702d8d619a6c876d2fb6fd380db17a75aefcea7a745dfeaf64"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\forced_involution_cache.py",
+          "bytes": 14745,
+          "modified_utc": "2026-06-06T20:23:59.796463+00:00",
+          "sha256": "37fb17017b63dc357e96154516c0d1ba89de4cc0e168419921b91bbf17260db8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\forge.py",
+          "bytes": 52342,
+          "modified_utc": "2026-06-27T05:01:13.460447+00:00",
+          "sha256": "c8d0735be9ee2fbe5e9a4a349c08fc346b8c087a962c0b77888065af962ffcbf"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\formulaic_instantiation.py",
+          "bytes": 12262,
+          "modified_utc": "2026-06-06T20:23:59.814076+00:00",
+          "sha256": "2b20b18e054907e22d18345008594a8c05b60fbe8d06534008b9696ef3f9919c"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\g2_f4_t5_conjugate.py",
+          "bytes": 12681,
+          "modified_utc": "2026-06-06T20:23:59.824264+00:00",
+          "sha256": "6cf5fbfcb8d548d3bc0b320099444e471577f52cba2244977fa67dceff88e2c3"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\gauss_fourier_lift.py",
+          "bytes": 12672,
+          "modified_utc": "2026-06-06T20:23:59.824264+00:00",
+          "sha256": "db52eda0d3c399825a9bd75070e758c7b07ce7dfb5e6d45581be33047266e564"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\honesty_harness.py",
+          "bytes": 15281,
+          "modified_utc": "2026-06-06T20:23:59.838808+00:00",
+          "sha256": "a58f661ffa01ee870cc7e44c87fb7e9bf2eb0a1c095c3d62f34984bd5936361b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\j_modular_matrix.py",
+          "bytes": 7569,
+          "modified_utc": "2026-06-06T20:23:59.838808+00:00",
+          "sha256": "cf8c867ef67df827610c02c630ed0841d1524716c3d6193b120959c8447f0712"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\jordan_j3.py",
+          "bytes": 14772,
+          "modified_utc": "2026-06-06T20:23:59.854150+00:00",
+          "sha256": "8bd21c021fb78bfb8eb05f5f53ed425deb73a8041712b81bdbb3e30340a8c5bb"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\lattice_codes.py",
+          "bytes": 30519,
+          "modified_utc": "2026-06-27T05:02:11.833033+00:00",
+          "sha256": "f63ed342b7993e5e9ec16cddb709455d7058c7e0e81dff187618b9ab9d1221f8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\__init__.py",
+          "bytes": 378,
+          "modified_utc": "2026-06-06T20:24:00.679057+00:00",
+          "sha256": "5b0faf3eb13be3df5b687906d0c099e4a92e05bef61c091b259a1409c399f327"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\build.py",
+          "bytes": 68809,
+          "modified_utc": "2026-06-27T05:04:49.115532+00:00",
+          "sha256": "7b15af68fa2e6d0da105da7276bec898134cebbadf43bb1004e73088e65baaf0"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\exact.py",
+          "bytes": 3344,
+          "modified_utc": "2026-06-06T20:24:00.699053+00:00",
+          "sha256": "6c1db3c324b96572d4dd3145054ce4a76d65218dfb6385354a7aa5c80010b2fa"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\ledger.py",
+          "bytes": 31635,
+          "modified_utc": "2026-06-06T20:24:00.711679+00:00",
+          "sha256": "7fabea6b5da89d5dc7f1e75cbb9ca31a041fa0bfe39da2bfad32ece32487f195"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\nsl.py",
+          "bytes": 1261,
+          "modified_utc": "2026-06-06T20:24:00.715693+00:00",
+          "sha256": "84e73f07582591593f151697cd7ef984b3b4d85d4bb8dd59901af71b4bf9a75d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\roots.py",
+          "bytes": 8383,
+          "modified_utc": "2026-06-06T20:24:00.726941+00:00",
+          "sha256": "956469d1c684b9abedcf87db654ca0bd59d3cded673d83af3dab1d613194d3a8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\ledger\\schema.py",
+          "bytes": 14415,
+          "modified_utc": "2026-06-06T20:24:00.739967+00:00",
+          "sha256": "103a4269bc5c659266fd3523037c1457fe190159d13958d8ce2a9a2e5f5e45b5"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\mckay_matrix_tables.py",
+          "bytes": 7750,
+          "modified_utc": "2026-06-06T20:23:59.870210+00:00",
+          "sha256": "ed7d240505687ca0437ef6112e632983259146afce65d7c0ef5d340f272b8cc8"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\monster_d4_lift_claim.py",
+          "bytes": 10893,
+          "modified_utc": "2026-06-06T20:23:59.870210+00:00",
+          "sha256": "d4adf6d367151cb2bb8d7898ae5f64c4cad0b7658a9b6c2acb408dfdf498a7af"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\morphonics.py",
+          "bytes": 30453,
+          "modified_utc": "2026-06-27T04:55:35.548991+00:00",
+          "sha256": "9ef346851499d67158961fa0217a73ffa136e2e53e32497b078b108b8f0edf30"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\o1_weyl_lookup.py",
+          "bytes": 367,
+          "modified_utc": "2026-06-06T20:23:59.902020+00:00",
+          "sha256": "c7eca4c27180d546a99f67e2c6308cd1f951b54d87760a1d1917b17c69190e01"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\octonion.py",
+          "bytes": 10500,
+          "modified_utc": "2026-06-06T20:23:59.912011+00:00",
+          "sha256": "e8a3c5414538b7557d03853d68a4e5c475809456504d01a284a2d575c1f6b74b"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\oloid_dual_path.py",
+          "bytes": 18000,
+          "modified_utc": "2026-06-06T20:23:59.922478+00:00",
+          "sha256": "73122cc8673bf2b95b889297148dd07db5ee9f8615a396e54eeb408a9923b132"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\oloid_kinematic.py",
+          "bytes": 15892,
+          "modified_utc": "2026-06-06T20:23:59.922478+00:00",
+          "sha256": "a8d20d94fc3dbd117d394b0177ae9dfcff8174196c320ac70523ec39c407b46d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\oloid_octonionic.py",
+          "bytes": 10967,
+          "modified_utc": "2026-06-06T20:23:59.933939+00:00",
+          "sha256": "68f7548b62ac525e188990d5452c00787f1d3a94823d7cab4458b5630928cf4f"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\oloid_rolling.py",
+          "bytes": 12994,
+          "modified_utc": "2026-06-06T20:23:59.933939+00:00",
+          "sha256": "f758e0c0e5bac40e670c36918766025807fc979b6f4dcde862c4115e60047917"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\overlay.py",
+          "bytes": 7161,
+          "modified_utc": "2026-06-06T20:23:59.949629+00:00",
+          "sha256": "0a5d069b82c8e25fa96b3eef935c5e8a892fcd5bfd5c92143216510a571c0975"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\paths.py",
+          "bytes": 1214,
+          "modified_utc": "2026-06-06T20:23:59.949629+00:00",
+          "sha256": "1e3021c0e6bbbe3c449b86110dd9ce7912e2f535905e0e53d90df4862a831635"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\quad_oloid.py",
+          "bytes": 15126,
+          "modified_utc": "2026-06-06T20:23:59.981467+00:00",
+          "sha256": "ed28844e7fa8b0e4b9730ca4fc2d95c859f9c40f103162d0076727bc19894f95"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\reduced_nbody.py",
+          "bytes": 11861,
+          "modified_utc": "2026-06-06T20:23:59.997575+00:00",
+          "sha256": "76ed6edc5ba9a2a5985c6ed5d00b1ae58157d991147a0617e3de3f2979c3fd41"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\residual_window_lift.py",
+          "bytes": 9321,
+          "modified_utc": "2026-06-06T20:24:00.013465+00:00",
+          "sha256": "1cdf8debd1751fec48221ef6573d3e5c67f1c259bd4e243cf7a1135b724d8a38"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\rule30.py",
+          "bytes": 278211,
+          "modified_utc": "2026-06-06T20:24:00.030032+00:00",
+          "sha256": "9b1fbcdb6f8eff2e3c5d389ad4b8431b9828422a971c46c8d4ce61f1d287251e"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\rule30_block_extractor.py",
+          "bytes": 9126,
+          "modified_utc": "2026-06-06T20:24:00.030032+00:00",
+          "sha256": "38386a42e3b5445ec4b49ab92201057efc2539dbd6d54a83279816e4f89aa6cc"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\rule30_cqe_tool.py",
+          "bytes": 7324,
+          "modified_utc": "2026-06-06T20:24:00.045122+00:00",
+          "sha256": "b8b0a4326e4a66d4c329c2abd2952c8a125461e5ff59cf895c43b1440f64633a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\rule30_predictor.py",
+          "bytes": 8478,
+          "modified_utc": "2026-06-06T20:24:00.056790+00:00",
+          "sha256": "dc25002c52368da6bf5a9365f9d1924b727e52736d6a823c9bfd2b719210d826"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\rule90_linearization.py",
+          "bytes": 8028,
+          "modified_utc": "2026-06-06T20:24:00.063893+00:00",
+          "sha256": "12e06a623fb8b7b75b5d9e33696de6c329a5aa6b3cf1249ab1d576ef180b0c78"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\seed.py",
+          "bytes": 1696,
+          "modified_utc": "2026-06-06T20:24:00.072107+00:00",
+          "sha256": "6998817730a7b8d0b2493a48ce5c320424fecf15fafac06502fce166d2f4e7e9"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\server.py",
+          "bytes": 21335,
+          "modified_utc": "2026-06-06T20:24:00.079196+00:00",
+          "sha256": "dd245116021e4775eac73e9bbe02acc54ac21fbfe6596af784034d34a3f9ffe1"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\substrate_map.py",
+          "bytes": 17151,
+          "modified_utc": "2026-06-06T20:24:00.096229+00:00",
+          "sha256": "d6f7a50f9a003a1e96de239cf06015060c7d73243ff5f7689b53325437a3851d"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\terminal_tree.py",
+          "bytes": 14529,
+          "modified_utc": "2026-06-06T20:24:00.106510+00:00",
+          "sha256": "a40a03c4ce89f69b18726de31a3297f1a87551f0c2e9219ba9ada153c9f8d51a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\three_move_closure.py",
+          "bytes": 7455,
+          "modified_utc": "2026-06-06T20:24:00.108521+00:00",
+          "sha256": "a7895a6636af416abd871bdd55f31f629534484dd5eb4cf5a72865004bc27f77"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\tools\\__init__.py",
+          "bytes": 577,
+          "modified_utc": "2026-06-06T20:24:00.816925+00:00",
+          "sha256": "a9bc027bb4ce45f5914c472a04a77bd5b3d8d655157c7fc24cea951c12532e6a"
+        },
+        {
+          "path": "D:\\CQE_CMPLX\\CMPLX-PartsFactory-main\\packages\\lattice-forge\\src\\lattice_forge\\tools\\base.py",
+          "bytes": 1214,
+          "modified_utc": "2026-06-06T20:24:00.824940+00:00",
+          "sha256": "da85a9cc6b3a69d95ad6afa67d061d71e664b4d8680c0b98c4b03f6523e458d2"
+        }
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-30"
+      ],
+      "pipeline_targets": [
+        "tool:lattice-forge",
+        "validator:testkit-mcp",
+        "service:proof-lab"
+      ],
+      "pairing_status": "candidate_legacy_ability",
+      "nist_gate_readiness": "not_applicable_legacy_ability_seed",
+      "confidence": 0.86,
+      "blockers": [
+        "dirty_repo_scope_review"
+      ],
+      "port_mode": "direct_port",
+      "port_rationale": "Existing implementation or document can be reused after normal review.",
+      "rationale": "The current PartsFactory checkout holds the serviceable lattice-forge runtime, testkit MCP, proof lab, and repo-kernel tools.",
+      "provenance_label": "legacy_repo_harvest",
+      "cmplx_standards_gate": "pending_legacy_ability_adapter",
+      "forge_reforge_action": "register_and_validate"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.normal_form_ingress",
+  "version": "0.1.0",
+  "description": "Grades non-receipt-bound obligation rows for readiness to enter the normal-form conversion gate.",
+  "record_selector": "entries",
+  "record_id_paths": [
+    "obligation_id",
+    "record_id",
+    "id"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.9,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "allowed_value_penalty": 0.2,
+  "allowed_values": {
+    "promotion_status": [
+      "blocked_until_normal_form_review"
+    ],
+    "cmplx_standards_gate.status": [
+      "PENDING",
+      "PASS",
+      "FAIL",
+      "OPEN"
+    ],
+    "claim_family": [
+      "standard_import",
+      "receipt_replay",
+      "cam_reapplication",
+      "normal_form_derivation",
+      "external_calibration",
+      "cross_paper_synthesis",
+      "residue_falsifier",
+      "ledger_action"
+    ]
+  },
+  "weighted_fields": {
+    "obligation_id": 2,
+    "flcr_id": 2,
+    "source_status": 1,
+    "evidence_type_needed": 2,
+    "claim_family": 2,
+    "claim_text": 4,
+    "standard_normal_form.id": 3,
+    "standard_normal_form.tuple": 4,
+    "standard_normal_form.acceptance_rule": 3,
+    "paper_specific_normal_form.id": 3,
+    "paper_specific_normal_form.paper": 2,
+    "paper_specific_normal_form.source_section": 2,
+    "paper_specific_normal_form.typed_object": 3,
+    "paper_specific_normal_form.statement": 4,
+    "paper_specific_normal_form.local_boundary": 3,
+    "advanced_normal_form.id": 3,
+    "advanced_normal_form.window_form.left_context": 2,
+    "advanced_normal_form.window_form.center_claim": 4,
+    "advanced_normal_form.window_form.right_residue": 3,
+    "advanced_normal_form.octad_review_vector.source": 2,
+    "advanced_normal_form.octad_review_vector.object": 2,
+    "advanced_normal_form.octad_review_vector.operation": 2,
+    "advanced_normal_form.octad_review_vector.lane": 2,
+    "advanced_normal_form.octad_review_vector.boundary": 3,
+    "advanced_normal_form.octad_review_vector.falsifier": 3,
+    "advanced_normal_form.octad_review_vector.validator": 3,
+    "flcr_conversion_rule.id": 3,
+    "flcr_conversion_rule.source_language": 2,
+    "flcr_conversion_rule.target_language": 2,
+    "flcr_conversion_rule.steps": 5,
+    "flcr_conversion_rule.flcr_algebra.L.value": 3,
+    "flcr_conversion_rule.flcr_algebra.C.value": 3,
+    "flcr_conversion_rule.flcr_algebra.R.value": 3,
+    "cmplx_standards_gate.standard_id": 3,
+    "cmplx_standards_gate.status": 2,
+    "cmplx_standards_gate.required_material": 4,
+    "cmplx_standards_gate.promotion_rule": 3,
+    "cmplx_standards_gate.failure_rule": 3,
+    "promotion_status": 2
+  },
+  "conditional_required_fields": {
+    "claim_family": {
+      "standard_import": [
+        {
+          "path": "advanced_normal_form.name",
+          "weight": 2
+        },
+        {
+          "path": "flcr_conversion_rule.flcr_algebra.L.value.dependencies",
+          "weight": 1
+        }
+      ],
+      "receipt_replay": [
+        {
+          "path": "cmplx_standards_gate.required_material",
+          "weight": 2
+        }
+      ],
+      "cam_reapplication": [
+        {
+          "path": "advanced_normal_form.name",
+          "weight": 2
+        }
+      ],
+      "normal_form_derivation": [
+        {
+          "path": "standard_normal_form.name",
+          "weight": 2
+        },
+        {
+          "path": "paper_specific_normal_form.name",
+          "weight": 2
+        }
+      ],
+      "external_calibration": [
+        {
+          "path": "advanced_normal_form.window_form.right_residue",
+          "weight": 3
+        }
+      ],
+      "cross_paper_synthesis": [
+        {
+          "path": "paper_specific_normal_form.dependencies",
+          "weight": 2
+        }
+      ],
+      "residue_falsifier": [
+        {
+          "path": "advanced_normal_form.octad_review_vector.falsifier",
+          "weight": 3
+        }
+      ],
+      "ledger_action": [
+        {
+          "path": "cmplx_standards_gate.required_material",
+          "weight": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "model_id": "cmplx.code_supplement",
+  "record_count": 5,
+  "average_fit": 100.0,
+  "perfect_fit": 5,
+  "model_inclusive": 0,
+  "partial_inclusive": 0,
+  "weak_inclusive": 0,
+  "non_inclusive": 0,
+  "graded_records": [
+    {
+      "record_id": "SUPP-LATTICE-FORGE-001",
+      "fit_score": 100.0,
+      "distance_to_perfect": 0.0,
+      "inclusion_band": "perfect_fit",
+      "field_fit": 1.0,
+      "vocabulary_penalty": 0.0,
+      "missing_fields": [],
+      "allowed_value_failures": [],
+      "checks": [
+        {
+          "path": "supplement_id",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "title",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "supplement_type",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "language",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "file_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "size_bytes",
+          "weight": 1.0,
+          "present": true,
+          "score": 1.0,
+          "message": "present"
+        },
+        {
+          "path": "status",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "target_papers",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "source_repo",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "verifier_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "receipt_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_tests",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_documentation",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-CQEKERNEL-001",
+      "fit_score": 100.0,
+      "distance_to_perfect": 0.0,
+      "inclusion_band": "perfect_fit",
+      "field_fit": 1.0,
+      "vocabulary_penalty": 0.0,
+      "missing_fields": [],
+      "allowed_value_failures": [],
+      "checks": [
+        {
+          "path": "supplement_id",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "title",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "supplement_type",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "language",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "file_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "size_bytes",
+          "weight": 1.0,
+          "present": true,
+          "score": 1.0,
+          "message": "present"
+        },
+        {
+          "path": "status",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "target_papers",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "source_repo",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "verifier_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "receipt_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_tests",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_documentation",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-REAL-PAPERS-001",
+      "fit_score": 100.0,
+      "distance_to_perfect": 0.0,
+      "inclusion_band": "perfect_fit",
+      "field_fit": 1.0,
+      "vocabulary_penalty": 0.0,
+      "missing_fields": [],
+      "allowed_value_failures": [],
+      "checks": [
+        {
+          "path": "supplement_id",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "title",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "supplement_type",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "language",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "file_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "size_bytes",
+          "weight": 1.0,
+          "present": true,
+          "score": 1.0,
+          "message": "present"
+        },
+        {
+          "path": "status",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "target_papers",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "source_repo",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "verifier_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "receipt_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_tests",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_documentation",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-RECEIPTS-001",
+      "fit_score": 100.0,
+      "distance_to_perfect": 0.0,
+      "inclusion_band": "perfect_fit",
+      "field_fit": 1.0,
+      "vocabulary_penalty": 0.0,
+      "missing_fields": [],
+      "allowed_value_failures": [],
+      "checks": [
+        {
+          "path": "supplement_id",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "title",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "supplement_type",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "language",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "file_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "size_bytes",
+          "weight": 1.0,
+          "present": true,
+          "score": 1.0,
+          "message": "present"
+        },
+        {
+          "path": "status",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "target_papers",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "source_repo",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "verifier_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "receipt_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_tests",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_documentation",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        }
+      ]
+    },
+    {
+      "record_id": "SUPP-ANALOG-001",
+      "fit_score": 100.0,
+      "distance_to_perfect": 0.0,
+      "inclusion_band": "perfect_fit",
+      "field_fit": 1.0,
+      "vocabulary_penalty": 0.0,
+      "missing_fields": [],
+      "allowed_value_failures": [],
+      "checks": [
+        {
+          "path": "supplement_id",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "title",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "supplement_type",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "language",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "file_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "size_bytes",
+          "weight": 1.0,
+          "present": true,
+          "score": 1.0,
+          "message": "present"
+        },
+        {
+          "path": "status",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "target_papers",
+          "weight": 3.0,
+          "present": true,
+          "score": 3.0,
+          "message": "present"
+        },
+        {
+          "path": "source_repo",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "verifier_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "receipt_count",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_tests",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        },
+        {
+          "path": "has_documentation",
+          "weight": 2.0,
+          "present": true,
+          "score": 2.0,
+          "message": "present"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "paper_to_supplement": {
+    "FLCR-01": [
+      "SUPP-LATTICE-FORGE-001",
+      "SUPP-REAL-PAPERS-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-02": [
+      "SUPP-LATTICE-FORGE-001",
+      "SUPP-REAL-PAPERS-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-03": [
+      "SUPP-LATTICE-FORGE-001",
+      "SUPP-REAL-PAPERS-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-08": [
+      "SUPP-LATTICE-FORGE-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-12": [
+      "SUPP-LATTICE-FORGE-001"
+    ],
+    "FLCR-13": [
+      "SUPP-LATTICE-FORGE-001"
+    ],
+    "FLCR-00": [
+      "SUPP-CQEKERNEL-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-06": [
+      "SUPP-CQEKERNEL-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-10": [
+      "SUPP-CQEKERNEL-001"
+    ],
+    "FLCR-20": [
+      "SUPP-CQEKERNEL-001"
+    ],
+    "FLCR-04": [
+      "SUPP-REAL-PAPERS-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-05": [
+      "SUPP-REAL-PAPERS-001",
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-07": [
+      "SUPP-RECEIPTS-001"
+    ],
+    "FLCR-21": [
+      "SUPP-ANALOG-001"
+    ],
+    "FLCR-22": [
+      "SUPP-ANALOG-001"
+    ],
+    "FLCR-23": [
+      "SUPP-ANALOG-001"
+    ],
+    "FLCR-25": [
+      "SUPP-ANALOG-001"
+    ],
+    "FLCR-26": [
+      "SUPP-ANALOG-001"
+    ]
+  },
+  "supplement_to_paper": {
+    "SUPP-LATTICE-FORGE-001": [
+      "FLCR-01",
+      "FLCR-02",
+      "FLCR-03",
+      "FLCR-08",
+      "FLCR-12",
+      "FLCR-13"
+    ],
+    "SUPP-CQEKERNEL-001": [
+      "FLCR-00",
+      "FLCR-06",
+      "FLCR-10",
+      "FLCR-20"
+    ],
+    "SUPP-REAL-PAPERS-001": [
+      "FLCR-01",
+      "FLCR-02",
+      "FLCR-03",
+      "FLCR-04",
+      "FLCR-05"
+    ],
+    "SUPP-RECEIPTS-001": [
+      "FLCR-00",
+      "FLCR-01",
+      "FLCR-02",
+      "FLCR-03",
+      "FLCR-04",
+      "FLCR-05",
+      "FLCR-06",
+      "FLCR-07",
+      "FLCR-08"
+    ],
+    "SUPP-ANALOG-001": [
+      "FLCR-21",
+      "FLCR-22",
+      "FLCR-23",
+      "FLCR-25",
+      "FLCR-26"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Paper-23: FoldForge Protein Folding",
+  "abstract": "FoldForge, protein descriptor, residue windows, contact map, candidate bifurcation, bounded winding witness",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "23.1",
+      "claim": "- Claim 23.1 [D]: Residue chain reads as local (L, C, R) windows.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "23.2",
+      "claim": "Claim 23.2 [D]: Replayable contact-map receipt (symmetric, zero-diagonal).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "23.3",
+      "claim": "Claim 23.3 [D]: Candidate bifurcation marks at local side-changes.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "23.4",
+      "claim": "Claim 23.4 [D]: Bounded winding witness (8-state operator, gap-aware).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "23.5",
+      "claim": "Claim 23.5 [D]: Descriptor status = pass_with_open_obligations.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Paper-31: It Was Still Just LCR",
+  "abstract": "LCR readout, retrospective meta-proof, Rule 30 boundary law, center invariance, grand ribbon, dependency direction",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "31.1",
+      "claim": "SU(3), SU(2), U(1) gauge group mappings to LCR",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "31.2",
+      "claim": "Gauge transformation consistency verification",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "31.3",
+      "claim": "Lie algebra to LCR carrier mapping tests",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "31.4",
+      "claim": "Center invariance under LR reversal (from Paper 31 claims)",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "31.5",
+      "claim": "Rule 30 boundary table enumeration (from Paper 31 claims)",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

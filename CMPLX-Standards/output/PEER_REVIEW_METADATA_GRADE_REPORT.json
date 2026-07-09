@@ -1,0 +1,292 @@
+{
+  "schema": "cmplx_standards_report.v1",
+  "model_id": "cmplx.peer_review_metadata",
+  "summary": {
+    "record_count": 40,
+    "average_fit_score": 100.0,
+    "all_pass_gate": true,
+    "min_fit": 100.0
+  },
+  "grades": [
+    {
+      "publication_id": "FLCR-01",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-02",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-03",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-04",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-05",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-06",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-07",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-08",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-09",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-10",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-11",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-12",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-13",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-14",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-15",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-16",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-17",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-18",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-19",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-20",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-21",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-22",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-23",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-24",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-25",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-26",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-27",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-28",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-29",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-30",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-31",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-32",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-33",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-34",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-35",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-36",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-37",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-38",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-39",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "publication_id": "FLCR-40",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    }
+  ]
+}

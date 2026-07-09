@@ -1,0 +1,39 @@
+{
+  "title": "Paper-37: Plasma, Energy, Traversal Calibration",
+  "abstract": "plasma physics, energy traversal, joule conversion, kappa normalization, boundary repair, plasma confinement",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "37.1",
+      "claim": "Plasma unipotent orbit flow calculations",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "37.2",
+      "claim": "MHD Z4-scope stability maps",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "37.3",
+      "claim": "Alfvén cone light-cone traversal",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "37.4",
+      "claim": "Debye length and fusion energy calculations",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "37.5",
+      "claim": "Joule conversion and kappa normalization",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

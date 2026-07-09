@@ -1,0 +1,39 @@
+{
+  "title": "Paper-39: Falsifiers, Comparators & Standards of Evidence",
+  "abstract": "falsifiers, comparators, standards of evidence, claim lanes, content-addressed receipts, NIST review suite",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "39.1",
+      "claim": "Claim falsification suite",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "39.2",
+      "claim": "Cross-paper claim comparison",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "39.3",
+      "claim": "Standard model validation controllers",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "39.4",
+      "claim": "Artifact provenance integrity audit",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "39.5",
+      "claim": "lattice_forge imports ---",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

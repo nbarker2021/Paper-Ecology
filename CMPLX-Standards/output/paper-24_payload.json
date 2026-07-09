@@ -1,0 +1,39 @@
+{
+  "title": "Paper-24: KnightForge / N-Dimensional Chess Automata",
+  "abstract": "KnightForge, board automata, L-conjugate closure, finite greedy placement, VOA sector split, frame operator",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "24.1",
+      "claim": "# 1.  LCR carrier substrate (shared with Papers 01–03, 16, 18)",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "24.2",
+      "claim": "LCRState = Tuple[int, int, int]",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "24.3",
+      "claim": "If L == R : already at rest.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "24.4",
+      "claim": "If L == C : swap C and R  (transposition (23)) -> (L, R, C).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "24.5",
+      "claim": "If C == R : swap L and C  (transposition (12)) -> (C, L, R).",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

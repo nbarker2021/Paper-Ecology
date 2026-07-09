@@ -1,0 +1,39 @@
+{
+  "title": "Paper-35: Electron-Hole-Exciton Accounting",
+  "abstract": "electron-hole, exciton, semiconductor physics, mass residue, electroweak charge, GR curvature",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "35.1",
+      "claim": "# Physical constants (SI)",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "35.2",
+      "claim": "ELECTRON_MASS_KG = 9.10938356e-31      # kg",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "35.3",
+      "claim": "# Utilities",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "35.4",
+      "claim": "def _canonical_json(obj) -> str:",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "35.5",
+      "claim": "# 1. Exciton Binding Energy (Hydrogenic Model)",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

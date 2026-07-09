@@ -1,0 +1,105 @@
+{
+  "title": "Paper 4 — Typed Boundary Repair: A Unified Failure-Preservation Transport Operator",
+  "abstract": "A typed boundary repair converts a failed join between two charts on a shared boundary into a typed proof-obligation row that preserves the D4 axis class and the sheet value of the boundary. The repair operation is idempotent on already-normalized rows. Untyped failures cannot be consumed as repair evidence. The Arf-matching criterion (Paper 3) is the consistency condition. The D4 axis/sheet matching is the structural condition. The repair operation produces a row in the obligation ledger with explicit lane, source, and resolution. This is the CQECMPLX failure-preservation transport law.",
+  "D": 9,
+  "I": 9,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "04.1",
+      "claim": "D4 axis/sheet codec: 4 axis classes × 2 sheets = 8 LCR states",
+      "evidence": "d12_action.py / Paper 3 Theorem 8.1"
+    },
+    {
+      "id": "04.2",
+      "claim": "Arf invariant of correction quadratic form Q = C + CR is 0",
+      "evidence": "f2_majorana.py / Paper 3 Theorem 5.1"
+    },
+    {
+      "id": "04.3",
+      "claim": "Arf-matching edge glue: two charts can be joined iff Arf invariants match on shared boundary",
+      "evidence": "f2_majorana.py / Milnor & Husemoller 1973"
+    },
+    {
+      "id": "04.4",
+      "claim": "OBLIGATION_ROWS.json contains 1,105 rows, 9 receipt_bound, 5 hold papers",
+      "evidence": "OBLIGATION_ROWS.json literal file content"
+    },
+    {
+      "id": "04.5",
+      "claim": "8 claim lanes exist with explicit schema",
+      "evidence": "CLAIM_LANE_SCHEMA.json"
+    },
+    {
+      "id": "04.6",
+      "claim": "7 evidence classes exist with explicit schema",
+      "evidence": "CLAIM_LANE_SCHEMA.json"
+    },
+    {
+      "id": "04.7",
+      "claim": "Binary boundary adapter: adapt, anneal_to_lie_conjugate, matching_tail, CIRCLE_F, CIRCLE_P, CORRECTION_FIRING",
+      "evidence": "binary_boundary_adapter.py literal module"
+    },
+    {
+      "id": "04.8",
+      "claim": "Transport obligations: 4 layers with explicit classifications and witnesses",
+      "evidence": "transport_obligations.py literal module"
+    },
+    {
+      "id": "04.9",
+      "claim": "Concrete correction states (0,1,0) and (1,1,0) with Paper 3 coordinates (2,0) and (3,1)",
+      "evidence": "Paper 2 and Paper 3 outputs"
+    }
+  ],
+  "I_claims": [
+    {
+      "id": "04.I1",
+      "claim": "Typed boundary repair as a specific operation with 4 components (lane, source, resolution, falsifier)",
+      "reasoning": "Structural reading; no typed_boundary_repair.py module exists in lattice_forge/"
+    },
+    {
+      "id": "04.I2",
+      "claim": "Type preservation theorem (repair preserves D4 axis class and sheet)",
+      "reasoning": "Framing; the math is that repair preserves chart value, which is a logical consequence of Arf-matching"
+    },
+    {
+      "id": "04.I3",
+      "claim": "Idempotence theorem (repair applied twice = same ledger row)",
+      "reasoning": "Framing; idempotence is natural but not literally in the data"
+    },
+    {
+      "id": "04.I4",
+      "claim": "Exclusion of untyped failures (minimal falsifier {status:failed} rejected)",
+      "reasoning": "Standard typed-evidence doctrine applied as structural framing"
+    },
+    {
+      "id": "04.I5",
+      "claim": "Ledger row as 5-tuple (id, ℓ, s, e, τ)",
+      "reasoning": "Framing; OBLIGATION_ROWS.json has a different but consistent schema"
+    },
+    {
+      "id": "04.I6",
+      "claim": "3 status classifications (closed-now / open-derived / staged-open)",
+      "reasoning": "Structural reading of OBLIGATION_ROWS.json status field (actual statuses are 5 variants)"
+    },
+    {
+      "id": "04.I7",
+      "claim": "Failure-preservation transport law and constraint-transport physics map",
+      "reasoning": "Author's structural reading of the CQECMPLX transport discipline"
+    },
+    {
+      "id": "04.I8",
+      "claim": "Civil-engineering crack map as non-toy domain analogy",
+      "reasoning": "Analog interpretation; faithful mapping but not derived from code"
+    },
+    {
+      "id": "04.I9",
+      "claim": "Repair is a constraint, not a proof — this is its correct transport type",
+      "reasoning": "Structural reading of the CQECMPLX honesty discipline"
+    }
+  ],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

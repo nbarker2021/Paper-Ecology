@@ -1,0 +1,39 @@
+{
+  "title": "Paper-32: The Supervisor Cursor",
+  "abstract": "superpermutation, supervisor cursor, request schedule, coverage record, minimality corridor, Egan upper row",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "32.1",
+      "claim": "Higgs mechanism simulation",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "32.2",
+      "claim": "Symmetry breaking pattern verification",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "32.3",
+      "claim": "Mass generation via LCR carriers",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "32.4",
+      "claim": "Superpermutation coverage validation (from Paper 32 claims)",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "32.5",
+      "claim": "Minimality scope checking (from Paper 32 claims)",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

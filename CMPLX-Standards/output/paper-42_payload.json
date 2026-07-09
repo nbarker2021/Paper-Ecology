@@ -1,0 +1,39 @@
+{
+  "title": "Paper-42: SU(3) Sector — Generation 2 (Strange & Charm)",
+  "abstract": "Unified paper for domain 42.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "42.1",
+      "claim": "D: F4 adjoint (4,1)½· (14,1)₀ is the generation-2 anchor.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "42.2",
+      "claim": "D: Strange quark mass m_s ≈ 95 MeV (at 2 GeV); K± mass ≈ 495 MeV ≈ 5 × m_s within 4%.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "42.3",
+      "claim": "D: Charm quark mass m_c ≈ 1.27 GeV; bridge element in non-surjective D4 → J3(O) map.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "42.4",
+      "claim": "D: Mass hierarchy m_s < m_c.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "42.5",
+      "claim": "X: Predicted m_c/m_s ≈ 4.7 is lower bound; observed 13.4 indicates incomplete perturbation model.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

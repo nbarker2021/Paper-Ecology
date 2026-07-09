@@ -1,0 +1,78 @@
+{
+  "schema": "cmplx_standards_model_registry.v1",
+  "description": "NIST/NSIT to CMPLX-Standards forward mapping for Phase 7 Lane A.",
+  "forward_tool": "CMPLX-Standards/run_standards_suite.py",
+  "legacy_tools": {
+    "run_flcr_nist_review_suite.py": {
+      "role": "legacy_provenance",
+      "adapter": "adapters/nist_legacy_adapter.py",
+      "forward_replacement": "run_standards_suite.py --full --legacy-nist-diff"
+    },
+    "NSIT_VALIDITY_REBUILD_PROTOCOL.md": {
+      "role": "historical_bootstrap",
+      "forward_replacement": "CMPLX_STANDARDS_PROTOCOL.md"
+    }
+  },
+  "models": {
+    "normal_form_ingress_model.json": {
+      "key": "normal_form",
+      "replaces": "NSIT normal-form gate labels",
+      "input": "NORMAL_FORM_INGRESS_MATRIX.json"
+    },
+    "assembled_paper_model.json": {
+      "key": "assembled_paper",
+      "replaces": "paper assembly audit ad-hoc checks",
+      "input": "ASSEMBLED_FLCR_PRODUCTS/*__intake.json"
+    },
+    "external_pair_model.json": {
+      "key": "external_pair",
+      "replaces": "date_window_2025 hard gate",
+      "input": "PAIRWISE_EXTERNAL_EVIDENCE_PACKAGE_INDEX.json",
+      "date_policy_values": ["prefer_2025", "any_peer_reviewed"]
+    },
+    "ability_seed_model.json": {
+      "key": "ability_seed",
+      "replaces": "LOCAL/LEGACY seed catalog labels",
+      "input": "LOCAL_ABILITY_SEED_QUEUE.json + LEGACY_REPO_ABILITY_SEED_QUEUE.json"
+    },
+    "verifier_receipt_model.json": {
+      "key": "verifier_receipt",
+      "replaces": "NSIT open/closed receipt labels",
+      "adapter": "adapters/paper_validator_adapter.py"
+    },
+    "forge_runtime_model.json": {
+      "key": "forge_runtime",
+      "replaces": "ad-hoc Forge/ReForge deployment checks",
+      "adapter": "adapters/forge_runtime_adapter.py",
+      "input": "live runtime: lattice-forge + forgefactory + _runtime/forge_reasoning overlay"
+    },
+    "application_validation_model.json": {
+      "key": "application_validation",
+      "replaces": "application-specific validation one-offs",
+      "adapter": "adapters/application_validator_adapter.py",
+      "input": "paper validators + receipts + application target manifests"
+    },
+    "legacy_repo_port_model.json": {
+      "key": "legacy_repo_port",
+      "replaces": "manual repo-port status notes",
+      "adapter": "adapters/legacy_repo_port_adapter.py",
+      "input": "selected legacy repo implementations/contracts promoted into standards records"
+    },
+    "flcr80_repo_slot_model.json": {
+      "key": "flcr80_repo_slot",
+      "replaces": "arbitrary repo-readiness scoring",
+      "adapter": "adapters/flcr80_repo_slot_adapter.py",
+      "input": "ORIGINAL_80_DIMENSIONAL_RIBBON_MAP.json + unified registry + local/legacy/archive seed queues"
+    },
+    "maximal_manuscript_model.json": {
+      "key": "maximal_manuscript",
+      "replaces": "ad-hoc maximal manuscript checks",
+      "input": "MAXIMAL_FLCR_MANUSCRIPTS/MAXIMAL_FLCR_INDEX.json"
+    },
+    "sm_mapping_row_model.json": {
+      "key": "sm_mapping_row",
+      "replaces": "manual FLCR-to-SM mapping row audits",
+      "input": "SM_MAPPING_ROWS/SM_MAPPING_MATRIX.json"
+    }
+  }
+}

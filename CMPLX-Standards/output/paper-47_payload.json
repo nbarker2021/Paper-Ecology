@@ -1,0 +1,39 @@
+{
+  "title": "Paper-47: SU(2) × U(1) Sector — V-A Weak Interaction",
+  "abstract": "Unified paper for domain 47.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "47.1",
+      "claim": "The V-A weak interaction is the selection of sheet 0 (left-handed) by SU(2).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "47.2",
+      "claim": "Right-handed fermions (sheet 1) do not participate in the weak interaction.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "47.3",
+      "claim": "The V-A structure is universal for all fermions (leptons and quarks).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "47.4",
+      "claim": "Parity violation is maximal in the weak interaction.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "47.5",
+      "claim": "C, P, T are individually violated, but CPT is conserved (Lüders-Pauli theorem).",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

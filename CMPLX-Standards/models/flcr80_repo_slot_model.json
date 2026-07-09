@@ -1,0 +1,81 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.flcr80_repo_slot",
+  "version": "0.1.0",
+  "description": "Grades all repo/seed/archive readings against the fixed original 80 FLCR ribbon slots.",
+  "record_selector": "slot_records",
+  "record_id_paths": [
+    "ribbon_slot"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.9,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "allowed_value_penalty": 0.25,
+  "allowed_values": {
+    "slot_family": [
+      "closure_lift",
+      "enumeration_action",
+      "residual_action",
+      "fold_action",
+      "boundary_action",
+      "carrier_action",
+      "ledger_action",
+      "bridge_action",
+      "terminal_action",
+      "window_action"
+    ],
+    "band": [
+      "saturated",
+      "strong",
+      "mapped",
+      "weak",
+      "empty"
+    ]
+  },
+  "weighted_fields": {
+    "ribbon_slot": 5,
+    "slot_family": 5,
+    "lift_depth": 4,
+    "state_bound_action": 5,
+    "proof_form_required": 5,
+    "candidate_count": 4,
+    "max_score": 4,
+    "mean_top20_score": 3,
+    "mean_top20_lcr_form_score": 4,
+    "mean_top20_claim_support_score": 4,
+    "mean_top20_closure_need_score": 4,
+    "mean_top20_evidence_mode_score": 4,
+    "content_readiness_score": 5,
+    "content_readiness_band": 5,
+    "band": 5,
+    "kind_counts": 3,
+    "required_rework_action_counts": 4,
+    "top_source_groups": 3,
+    "top_candidates": 5
+  },
+  "conditional_required_fields": {
+    "band": {
+      "saturated": [
+        {
+          "path": "top_candidates",
+          "weight": 4
+        }
+      ],
+      "strong": [
+        {
+          "path": "top_candidates",
+          "weight": 4
+        }
+      ],
+      "mapped": [
+        {
+          "path": "top_candidates",
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

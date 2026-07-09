@@ -1,0 +1,270 @@
+{
+  "schema": "cmplx_standards_paper_validation_payload.v1",
+  "generated_utc": "2026-07-05T08:41:29+00:00",
+  "paper_id": "paper-66",
+  "paper_number": 66,
+  "title": "Unified Paper 66 — GR Side 2: Black Hole Entropy",
+  "canonical_id": "Unified 66 / Paper 66",
+  "model_contract": "assembled_paper",
+  "fit_score": 74.24,
+  "inclusion_band": "partial_inclusive",
+  "grade": "I",
+  "status": "draft",
+  "d_claims": [
+    {
+      "claim_id": "C66.CODE.verify_bekenstein_hawking_formula",
+      "claim": "Check S_BH = A / (4 G_N hbar) for Schwarzschild and Kerr.",
+      "evidence": "paper-66__unified_GR_Side_2_Black_Hole_Entropy.py"
+    },
+    {
+      "claim_id": "C66.CODE.verify_page_curve",
+      "claim": "Validate Page curve in unitary black hole evaporation models.",
+      "evidence": "paper-66__unified_GR_Side_2_Black_Hole_Entropy.py"
+    },
+    {
+      "claim_id": "C66.CODE.verify_holographic_bound",
+      "claim": "Confirm holographic entropy bound for spherical regions.",
+      "evidence": "paper-66__unified_GR_Side_2_Black_Hole_Entropy.py"
+    }
+  ],
+  "i_claims": [
+    {
+      "claim_id": "I66.1",
+      "claim": "CodeLib verifier completeness for Paper 66 is inferred from available stubs",
+      "reasoning": "Verifier coverage is partial or stub-based"
+    }
+  ],
+  "x_claims": [
+    {
+      "claim_id": "X66.OBL",
+      "claim": "FLCR-66-OBL-001 (SM mapping file missing).** Status: open. The SM mapping file `SM_MAPPING_ROWS/SM_MAPPING_FLCR-66.md` does not exist. The 4 rows claimed in the source are inferred, not backed by a file. A mapping file must be created or the claim must be formally withdrawn.",
+      "obligation": "Open obligation pending external calibration or proof completion"
+    },
+    {
+      "claim_id": "X66.OBL",
+      "claim": "FLCR-66-OBL-002 (Monster VOA → BH entropy).** Status: open. An explicit map from the Monster VOA states (Paper 18, Theorem 4.1) to the Bekenstein–Hawking entropy is not yet derived. The structural identification $S = \\ln \\sum_n c_n e^{-\\beta E_n}$ is present, but the exact proportionality constants and the physical identification of VOA weights with black-hole energy levels remain unproven.",
+      "obligation": "Open obligation pending external calibration or proof completion"
+    }
+  ],
+  "open_obligations": [
+    "FLCR-66-OBL-001 (SM mapping file missing).** Status: open. The SM mapping file `SM_MAPPING_ROWS/SM_MAPPING_FLCR-66.md` does not exist. The 4 rows claimed in the source are inferred, not backed by a file. A mapping file must be created or the claim must be formally withdrawn.",
+    "FLCR-66-OBL-002 (Monster VOA → BH entropy).** Status: open. An explicit map from the Monster VOA states (Paper 18, Theorem 4.1) to the Bekenstein–Hawking entropy is not yet derived. The structural identification $S = \\ln \\sum_n c_n e^{-\\beta E_n}$ is present, but the exact proportionality constants and the physical identification of VOA weights with black-hole energy levels remain unproven.",
+    "FLCR-66-OBL-003 (E6 area quantization).** Status: open. An explicit tiling of the horizon by the 72 E6 roots is not yet constructed. The area quantization $A = 72\\,n\\,l_P^2$ and the Niemeier glue $\\Gamma_{72}$ are structural claims; the geometry of the tiling, the adjacency relations on the 2-sphere, and the derivation of $\\chi = 2$ from the glue group remain open.",
+    "FLCR-66-OBL-004 (Information paradox proof).** Status: partially closed. A structural resolution is given in Corollary 5.4: information is preserved in the receipt correlations. However, an explicit encoding of the quantum information (e.g., Page curve, entanglement entropy) in the receipt correlations remains open.",
+    "FLCR-66-OBL-005 (Hawking radiation as boundary repair proof).** Status: partially closed. A structural identification is given in Corollary 5.3: Hawking radiation is boundary repair radiation. However, an explicit quantum field-theoretic derivation showing that the Bogoliubov transformation equals the action of the repair operator on the horizon boundary remains open."
+  ],
+  "verifier_references": [
+    {
+      "source": "paper-66__unified_GR_Side_2_Black_Hole_Entropy.py",
+      "exists": true
+    }
+  ],
+  "graded_record": {
+    "paper_id": "paper-66",
+    "title": "Unified Paper 66 — GR Side 2: Black Hole Entropy",
+    "status": "ASSEMBLE",
+    "pipeline_decision": "ASSEMBLE",
+    "formal_md": true,
+    "formal_sections": {
+      "abstract": false,
+      "keywords": false,
+      "claims": true
+    },
+    "required_direct": {
+      "open_obligations": true,
+      "paired_dois": false,
+      "peep_bindings": false,
+      "assembly_audit_falsifier_gaps": false
+    },
+    "supporting_context": {
+      "timeline_node_count": 0,
+      "registry_discovery_count": 0
+    },
+    "external_candidates": {
+      "seed_count": 0,
+      "ingress_count": 0
+    },
+    "receipts": true,
+    "closure_inclusions": false,
+    "meta": {
+      "intake_version": "1.0",
+      "epistemology": "unified"
+    },
+    "assembled_section_count": 7,
+    "has_proof_receipt_index": true,
+    "has_obligation_crosswalk": true,
+    "has_external_calibration": false,
+    "has_falsifiers_section": true,
+    "has_honesty_boundary": true
+  },
+  "checks": [
+    {
+      "path": "paper_id",
+      "weight": 3,
+      "present": true,
+      "score": 3
+    },
+    {
+      "path": "title",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "status",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "pipeline_decision",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "formal_md",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "formal_sections.abstract",
+      "weight": 4,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "formal_sections.keywords",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "formal_sections.claims",
+      "weight": 5,
+      "present": true,
+      "score": 5
+    },
+    {
+      "path": "required_direct.open_obligations",
+      "weight": 3,
+      "present": true,
+      "score": 3
+    },
+    {
+      "path": "required_direct.paired_dois",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "required_direct.peep_bindings",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "required_direct.assembly_audit_falsifier_gaps",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "supporting_context.timeline_node_count",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "supporting_context.registry_discovery_count",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "external_candidates.seed_count",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "external_candidates.ingress_count",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "receipts",
+      "weight": 4,
+      "present": true,
+      "score": 4
+    },
+    {
+      "path": "closure_inclusions",
+      "weight": 3,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "meta.intake_version",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "meta.epistemology",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "assembled_section_count",
+      "weight": 3,
+      "present": true,
+      "score": 3
+    },
+    {
+      "path": "has_proof_receipt_index",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "has_obligation_crosswalk",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "has_external_calibration",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "has_falsifiers_section",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "has_honesty_boundary",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "receipts",
+      "weight": 3.0,
+      "present": true,
+      "score": 3.0
+    },
+    {
+      "path": "formal_sections.claims",
+      "weight": 3.0,
+      "present": true,
+      "score": 3.0
+    }
+  ]
+}

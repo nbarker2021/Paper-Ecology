@@ -1,0 +1,29 @@
+{
+  "title": "Paper-59: QCD Phenomenology 3 — Jets and Fragmentation",
+  "abstract": "- Full content exists in `paper-59__unified_QCD_Phenomenology_3_Jets_and_Fragmentation.md`.",
+  "D": 3,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "59.1",
+      "claim": "verify_irc_safety: Check infrared and collinear safety of clustering algorithms.",
+      "evidence": "CodeLib / verify_irc_safety"
+    },
+    {
+      "id": "59.2",
+      "claim": "verify_ff_dglap: Validate fragmentation function DGLAP evolution.",
+      "evidence": "CodeLib / verify_ff_dglap"
+    },
+    {
+      "id": "59.3",
+      "claim": "verify_hadronization_models: Confirm hadronization model predictions for identified hadrons.",
+      "evidence": "CodeLib / verify_hadronization_models"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

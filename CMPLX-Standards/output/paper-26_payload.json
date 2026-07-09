@@ -1,0 +1,39 @@
+{
+  "title": "Paper-26: Z-Pinch and Shear Horizon",
+  "abstract": "Z-pinch, shear horizon, Oloid carrier, octonion carrier, Rule 30 center column, orient bit",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "26.1",
+      "claim": "D: The integer Oloid carrier is a finite period-4 rolling algebra.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "26.2",
+      "claim": "D: The octonion carrier realizes the same quarter-period structure (e4^2=-1, e4^4=1, non-associative).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "26.3",
+      "claim": "D: Orient bit and dominant basis index give replayable path-history residue.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "26.4",
+      "claim": "D: Fixed-generator comparison gives a reproducible shear analog (8 nonzero shear rows).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "26.5",
+      "claim": "D: Pinch is a transport-ledger reclassification.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

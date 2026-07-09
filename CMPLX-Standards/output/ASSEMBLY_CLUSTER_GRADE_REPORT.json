@@ -1,0 +1,68 @@
+{
+  "schema": "cmplx_standards_report.v1",
+  "model_id": "cmplx.assembly_cluster",
+  "summary": {
+    "record_count": 8,
+    "average_fit_score": 100.0,
+    "all_pass_gate": true,
+    "min_fit": 100.0
+  },
+  "grades": [
+    {
+      "assembly_id": "LEGACY-TRIAD-TMN-CORE-001",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-CAM-INGRESS-002",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-PROOF-STANDARDS-003",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-FORGE-GOVERNANCE-004",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-DOMAIN-EXTENSION-005",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-MANNYAI-CARRIER-001",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-STANDARDS-FORGE-002",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-INGRESS-TO-PRODUCT-003",
+      "fit_score": 100.0,
+      "inclusion_band": "perfect_fit",
+      "missing_fields": [],
+      "allowed_value_failures": []
+    }
+  ]
+}

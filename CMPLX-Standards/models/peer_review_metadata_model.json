@@ -1,0 +1,42 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.peer_review_metadata",
+  "version": "0.1.0",
+  "description": "Captures NIST peer review metadata for FLCR papers. References assembled_paper/normal_form records without requiring these fields in the base model. Optional extension: 'standards' array (6 standard-level checks per paper) preserved for audit traceability without affecting base model fit scoring.",
+  "record_selector": "papers",
+  "record_id_paths": [
+    "publication_id",
+    "paper_id"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.90,
+    "partial_inclusive": 0.6,
+    "weak_inclusive": 0.3
+  },
+  "allowed_value_penalty": 0.2,
+  "allowed_values": {
+    "nist_verdict": [
+      "PASS",
+      "FAIL",
+      "PARTIAL"
+    ],
+    "peer_recommendation": [
+      "major revision, technically promising",
+      "minor revision",
+      "accept",
+      "reject"
+    ]
+  },
+  "weighted_fields": {
+    "publication_id": 3,
+    "title": 2,
+    "nist_verdict": 3,
+    "peer_recommendation": 3,
+    "peer_scores": 2,
+    "apply_next": 1,
+    "claim_count": 1,
+    "receipt_count": 1,
+    "open_obligation_count": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.external_pair",
+  "version": "0.1.0",
+  "description": "Grades pairwise external evidence packages. Date policy is explicit: prefer_2025 (default promotion) or any_peer_reviewed (widened comparator hunt).",
+  "record_selector": "packages",
+  "record_id_paths": [
+    "package_id",
+    "queue_id",
+    "record_id"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.9,
+    "partial_inclusive": 0.65,
+    "weak_inclusive": 0.35
+  },
+  "allowed_value_penalty": 0.25,
+  "allowed_values": {
+    "date_policy": [
+      "prefer_2025",
+      "any_peer_reviewed"
+    ],
+    "external_paper.peer_review_status": [
+      "peer_reviewed_journal_article"
+    ],
+    "adapted_nist_pair_review.status": [
+      "PASS",
+      "REVIEW",
+      "FAIL"
+    ]
+  },
+  "weighted_fields": {
+    "package_id": 2,
+    "internal_anchor.source": 3,
+    "internal_anchor.finding": 3,
+    "external_paper.title": 4,
+    "external_paper.journal": 2,
+    "external_paper.year": 3,
+    "external_paper.doi": 3,
+    "external_paper.peer_review_status": 4,
+    "correlation": 5,
+    "claim_lane": 3,
+    "paper_routes": 3,
+    "obligations": 4,
+    "crystal_faces": 3,
+    "date_policy": 3,
+    "peer_review_gate_pass": 4,
+    "date_gate_pass": 5,
+    "adapted_nist_pair_review.status": 3,
+    "validation_pair_review.status": 2
+  },
+  "conditional_required_fields": {
+    "date_policy": {
+      "prefer_2025": [
+        {
+          "path": "date_gate_check",
+          "weight": 2
+        },
+        {
+          "path": "date_gate_pass",
+          "weight": 4
+        }
+      ],
+      "any_peer_reviewed": [
+        {
+          "path": "peer_review_gate_pass",
+          "weight": 4
+        },
+        {
+          "path": "date_gate_pass",
+          "weight": 3
+        }
+      ]
+    }
+  }
+}

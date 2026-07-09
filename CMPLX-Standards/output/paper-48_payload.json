@@ -1,0 +1,39 @@
+{
+  "title": "Paper-48: SU(2) × U(1) Sector — Electroweak Phase Diagram",
+  "abstract": "- Full content exists in `paper-48__unified_SU2_U1_Electroweak_Phase_Diagram.md`.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "48.1",
+      "claim": "The electroweak phase transition at T_c ≈ 160 GeV is the boundary-repair threshold:",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "48.2",
+      "claim": "In the symmetric phase (T > T_c): W, Z, fermions are massless; SU(2) × U(1) unbroken.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "48.3",
+      "claim": "In the broken phase (T < T_c): W, Z are massive; fermions have Yukawa masses; U(1)_EM remains.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "48.4",
+      "claim": "The Higgs VEV v(T) decreases with temperature and vanishes at T_c.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "48.5",
+      "claim": "W, Z, fermion, and Higgs masses are temperature-dependent and vanish at T_c.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

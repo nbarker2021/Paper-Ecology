@@ -1,0 +1,39 @@
+{
+  "title": "Paper-40: Grand Reconstruction Map and Trust-Removal Protocol",
+  "abstract": "grand reconstruction map, trust-removal protocol, named blockers, evidence items, receipts, prior proof routing",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "40.1",
+      "claim": "D: 5 named blockers are explicit with why_not_closed, next_binding_action, owner.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "40.2",
+      "claim": "D: 10 receipts back the standards (T10, Grand Ribbon, Quark-Face, PRIME_CHART, etc.).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "40.3",
+      "claim": "D: 2067 evidence items back the standards.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "40.4",
+      "claim": "D: 240/240 standards conformance (40 papers × 6 standards), not 192/192.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "40.5",
+      "claim": "I: 6 routes exist (prior proof, analog reconstruction, code/tool, comparator, calibration, named blocker).",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

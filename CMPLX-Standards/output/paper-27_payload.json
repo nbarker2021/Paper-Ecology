@@ -1,0 +1,39 @@
+{
+  "title": "Paper-27: Observer Delay and Shared Reality",
+  "abstract": "observer frame, shared center, Rule 30 observer window, static Z4 template, temporal-period refutation, anneal delay",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "27.1",
+      "claim": "D: The static four-frame Z4 template is exact over the eight chart states.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "27.2",
+      "claim": "D: The static Z4 template does not promote to a temporal Rule 30 period (refuted).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "27.3",
+      "claim": "D: Opposite-boundary observers agree on C (shared center) for all 64 sampled rows.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "27.4",
+      "claim": "D: Boundary disagreement remains observable (37 side-disagreement rows).",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "27.5",
+      "claim": "D: Read-then-anneal delay is bounded in sampled chart steps (max 3 S3 steps).",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

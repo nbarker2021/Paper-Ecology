@@ -1,0 +1,39 @@
+{
+  "title": "Paper-46: SU(2) × U(1) Sector — Electroweak Symmetry Breaking",
+  "abstract": "- Full content exists in `paper-46__unified_SU2_U1_Electroweak_Symmetry_Breaking.md`.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "46.1",
+      "claim": "The Higgs mechanism breaks SU(2) × U(1) → U(1)_EM. The 3 W/Z bosons acquire mass",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "46.2",
+      "claim": "The Higgs boson mass is m_H = 125.25 GeV, the first stable mass from VOA",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "46.3",
+      "claim": "Fermions acquire mass via Yukawa couplings: m_f = y_f v / √2.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "46.4",
+      "claim": "The Higgs VEV is v = 246 GeV; all masses are proportional to v.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "46.5",
+      "claim": "Electroweak symmetry breaking is a typed boundary repair (Paper 5).",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

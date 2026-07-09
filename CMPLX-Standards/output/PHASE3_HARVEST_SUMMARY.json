@@ -1,0 +1,66 @@
+{
+  "schema": "cmplx.phase3_harvest_summary.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "sources_reviewed": 7,
+  "total_records_found": 4094,
+  "new_records_ingested": 0,
+  "model_fit_impact": "none",
+  "reports": {
+    "FLCR24_SPLIT_LANE_HUNT_REPORT": {
+      "schema": "flcr.flcr24_split_lane_hunt_report.v1",
+      "summary": "Protocol 24.3 hunt (joule + thermodynamic identity). No full external evidence found. ASSEMBLE_PENDING_NEW_TEST.",
+      "model_mappability": "LOW",
+      "reason": "Hunt reports are audit artifacts, not structured model records. Single candidate with partial scope only.",
+      "action": "No ingestion. Report retained as evidence.",
+      "records": 1
+    },
+    "FLCR24_WIDENED_HUNT_REPORT": {
+      "schema": "flcr.flcr24_widened_hunt_report.v1",
+      "summary": "Protocol 24.3 hunt (joule + thermodynamic identity). No full external evidence found. ASSEMBLE_PENDING_NEW_TEST.",
+      "model_mappability": "LOW",
+      "reason": "Hunt reports are audit artifacts, not structured model records. Single candidate with partial scope only.",
+      "action": "No ingestion. Report retained as evidence.",
+      "records": 1
+    },
+    "CRITICAL_CONNECTIONS_REPORT": {
+      "schema": "cqe.critical_connections_report.v1",
+      "summary": "890 connections across 40 papers. Types: {'implicit_dependency': 231, 'discovery_bridge': 75, 'missing_link': 406, 'shared_motif': 178}",
+      "model_mappability": "LOW",
+      "reason": "Connection graph is analytical metadata, not structured model records. No record_id paths match existing models.",
+      "action": "No ingestion. Future: could map to assembly_cluster dependency graph extension.",
+      "records": 890
+    },
+    "PROOF_CHAIN_CONTEXT_REVIEW": {
+      "schema": "cqe.proof_chain_context_review.v1",
+      "summary": "324 records flagged. 324 require DISCOVERY action. All recommended REROUTE_OR_REPAIR.",
+      "model_mappability": "LOW",
+      "reason": "Context review records are gap-analysis artifacts, not structured model records. Missing normal_form fields.",
+      "action": "No ingestion. Future: could map to peer_review_metadata gap tracking extension.",
+      "records": 324
+    },
+    "PAPER_AGGREGATION_CONTENT_SCAN": {
+      "schema": "unknown",
+      "summary": "2136 unique content records, 3692 temporal locations, 1550 duplicate groups.",
+      "model_mappability": "LOW",
+      "reason": "Content scan is an aggregation/deduplication audit. Records are content hashes with temporal locations, not model-mappable.",
+      "action": "No ingestion. Report retained as evidence.",
+      "records": 2136
+    },
+    "PAPER_CONTENT_NEEDS_REPORT": {
+      "schema": "cqe.paper_content_needs_report.v1",
+      "summary": "21 gaps across 40 papers. Severity: {'medium': 20, 'high': 1}",
+      "model_mappability": "LOW",
+      "reason": "Content needs are per-paper gap lists. Missing required fields for assembled_paper or normal_form.",
+      "action": "No ingestion. Future: could map to peer_review_metadata content_needs extension.",
+      "records": 21
+    },
+    "OBLIGATION_ROWS": {
+      "schema": "flcr.obligation_rows.v1",
+      "summary": "721 obligation rows for hold papers: ['FLCR-10', 'FLCR-20', 'FLCR-29', 'FLCR-30', 'FLCR-39']. Statuses: {'receipt_bound', 'derived_pending_receipt', 'derived_pending_dependencies', 'derived_pending_citation', 'staged_open'}",
+      "model_mappability": "MEDIUM",
+      "reason": "Obligation rows have obligation_id, flcr_id, claim_text, evidence_type_needed, status. Missing many normal_form fields (standard_normal_form, paper_specific_normal_form, advanced_normal_form).",
+      "action": "No ingestion into existing models. Could map to normal_form if backfilled with required fields.",
+      "records": 721
+    }
+  }
+}

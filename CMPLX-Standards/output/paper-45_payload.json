@@ -1,0 +1,39 @@
+{
+  "title": "Paper-45: SU(2) × U(1) Sector — Electroweak Gauge Bosons",
+  "abstract": "Unified paper for domain 45.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "45.1",
+      "claim": "The 4 electroweak gauge bosons (W+, W−, Z, γ) are the explicit SM translation",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "45.2",
+      "claim": "The 2 sheets of the D4 codec correspond to 2 chiralities: sheet 0 = left-handed,",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "45.3",
+      "claim": "The Weinberg angle θ_W with sin²θ_W ≈ 0.2312 (PDG 2024) is the mixing between",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "45.4",
+      "claim": "The F4 exceptional Lie group (52 dimensions) contains SU(2) × U(1) as a subgroup.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "45.5",
+      "claim": "The full SM gauge group SU(3) × SU(2) × U(1) is embedded in F4.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

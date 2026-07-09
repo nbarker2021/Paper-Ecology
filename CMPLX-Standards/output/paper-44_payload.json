@@ -1,0 +1,39 @@
+{
+  "title": "Paper-44: SU(3) Sector — Color Confinement",
+  "abstract": "Unified paper for domain 44.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "44.1",
+      "claim": "D: J3(O) cell boundary condition equals F4 adjoint anchor for each generation.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "44.2",
+      "claim": "D: Confinement boundary is uniform for all generations; perturbation offset increases with generation.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "44.3",
+      "claim": "D: Lattice closure (Paper 8) implies confinement boundary is closed surface.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "44.4",
+      "claim": "D: Color charge magnitude fixed by D4 root length (√2), independent of quark mass.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "44.5",
+      "claim": "D: D4 lattice has 24 roots; confinement boundary has 24 intersection points with F4 adjoint line.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

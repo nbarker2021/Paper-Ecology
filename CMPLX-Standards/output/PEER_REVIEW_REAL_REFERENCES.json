@@ -1,0 +1,199 @@
+{
+  "updates": [
+    {
+      "publication_id": "FLCR-01",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper1-decomposition",
+      "real_paper_title": "Exact Decomposition of Wolfram Rule 30",
+      "real_reference_count": 13,
+      "real_references": [
+        {
+          "number": "1",
+          "citation": "Wolfram, S. (1983). \"Statistical mechanics of cellular automata.\" Reviews of Modern Physics, 55(3), 601-644."
+        },
+        {
+          "number": "2",
+          "citation": "Wolfram, S. (2002). A New Kind of Science. Wolfram Media."
+        },
+        {
+          "number": "3",
+          "citation": "Lucas, E. (1878). \"Theorie des fonctions numeriques simplement periodiques.\" American Journal of Mathematics, 1(2), 184-196."
+        },
+        {
+          "number": "4",
+          "citation": "Conway, J.H. &amp; Sloane, N.J.A. (1999). Sphere Packings, Lattices and Groups. Springer-Verlag."
+        },
+        {
+          "number": "5",
+          "citation": "Nebe, G. (1998). \"Extremal even unimodular lattices in dimension 72.\" Journal of Algebra, 207(1), 327-337."
+        }
+      ],
+      "abstract_preview": "# Exact Decomposition of Wolfram Rule 30\n\n**Authors**: Nicholas Barker, CQECMPLX Research  \n**Date**: 2026-06-08  \n**Substrate**: lattice_forge (pure Python stdlib, zero dependencies)  \n**Classification**: Prize Submission \u2014 Wolfram Rule 30 Problem 3\n\n---\n\n## Abstract\n\nWe prove that Rule 30 decompos",
+      "has_formal_structure": true,
+      "has_real_citations": true,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-02",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper1-decomposition",
+      "real_paper_title": "Exact Decomposition of Wolfram Rule 30",
+      "real_reference_count": 13,
+      "real_references": [
+        {
+          "number": "1",
+          "citation": "Wolfram, S. (1983). \"Statistical mechanics of cellular automata.\" Reviews of Modern Physics, 55(3), 601-644."
+        },
+        {
+          "number": "2",
+          "citation": "Wolfram, S. (2002). A New Kind of Science. Wolfram Media."
+        },
+        {
+          "number": "3",
+          "citation": "Lucas, E. (1878). \"Theorie des fonctions numeriques simplement periodiques.\" American Journal of Mathematics, 1(2), 184-196."
+        },
+        {
+          "number": "4",
+          "citation": "Conway, J.H. &amp; Sloane, N.J.A. (1999). Sphere Packings, Lattices and Groups. Springer-Verlag."
+        },
+        {
+          "number": "5",
+          "citation": "Nebe, G. (1998). \"Extremal even unimodular lattices in dimension 72.\" Journal of Algebra, 207(1), 327-337."
+        }
+      ],
+      "abstract_preview": "# Exact Decomposition of Wolfram Rule 30\n\n**Authors**: Nicholas Barker, CQECMPLX Research  \n**Date**: 2026-06-08  \n**Substrate**: lattice_forge (pure Python stdlib, zero dependencies)  \n**Classification**: Prize Submission \u2014 Wolfram Rule 30 Problem 3\n\n---\n\n## Abstract\n\nWe prove that Rule 30 decompos",
+      "has_formal_structure": true,
+      "has_real_citations": true,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-03",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper1-decomposition",
+      "real_paper_title": "Exact Decomposition of Wolfram Rule 30",
+      "real_reference_count": 13,
+      "real_references": [
+        {
+          "number": "1",
+          "citation": "Wolfram, S. (1983). \"Statistical mechanics of cellular automata.\" Reviews of Modern Physics, 55(3), 601-644."
+        },
+        {
+          "number": "2",
+          "citation": "Wolfram, S. (2002). A New Kind of Science. Wolfram Media."
+        },
+        {
+          "number": "3",
+          "citation": "Lucas, E. (1878). \"Theorie des fonctions numeriques simplement periodiques.\" American Journal of Mathematics, 1(2), 184-196."
+        },
+        {
+          "number": "4",
+          "citation": "Conway, J.H. &amp; Sloane, N.J.A. (1999). Sphere Packings, Lattices and Groups. Springer-Verlag."
+        },
+        {
+          "number": "5",
+          "citation": "Nebe, G. (1998). \"Extremal even unimodular lattices in dimension 72.\" Journal of Algebra, 207(1), 327-337."
+        }
+      ],
+      "abstract_preview": "# Exact Decomposition of Wolfram Rule 30\n\n**Authors**: Nicholas Barker, CQECMPLX Research  \n**Date**: 2026-06-08  \n**Substrate**: lattice_forge (pure Python stdlib, zero dependencies)  \n**Classification**: Prize Submission \u2014 Wolfram Rule 30 Problem 3\n\n---\n\n## Abstract\n\nWe prove that Rule 30 decompos",
+      "has_formal_structure": true,
+      "has_real_citations": true,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-18",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper2-voa",
+      "real_paper_title": "Vertex Operator Algebra and Moonshine Routes",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "# Centroid VOA &amp; Z4 Period of Rule 30 Chart States\n\n**Authors**: Nicholas Barker, CQECMPLX Research  \n**Date**: 2026-06-08  \n**Substrate**: lattice_forge (pure Python stdlib, zero dependencies)  \n**Classification**: Prize Submission -- Wolfram Rule 30 Problem 1\n\n---\n\n## Abstract\n\nWe prove that t",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-17",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper2-voa",
+      "real_paper_title": "Vertex Operator Algebra and Moonshine Routes",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "# Centroid VOA &amp; Z4 Period of Rule 30 Chart States\n\n**Authors**: Nicholas Barker, CQECMPLX Research  \n**Date**: 2026-06-08  \n**Substrate**: lattice_forge (pure Python stdlib, zero dependencies)  \n**Classification**: Prize Submission -- Wolfram Rule 30 Problem 1\n\n---\n\n## Abstract\n\nWe prove that t",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-08",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper3-lattice",
+      "real_paper_title": "Lattice Code Chain and Error Correction Tower",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-17",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper3-lattice",
+      "real_paper_title": "Lattice Code Chain and Error Correction Tower",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-01",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper4-prizes",
+      "real_paper_title": "Wolfram Rule 30 Prize Problems Solutions",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-02",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper4-prizes",
+      "real_paper_title": "Wolfram Rule 30 Prize Problems Solutions",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-03",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper4-prizes",
+      "real_paper_title": "Wolfram Rule 30 Prize Problems Solutions",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-29",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper5-moonshine",
+      "real_paper_title": "Monster Moonshine and VOA Correspondence",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    },
+    {
+      "publication_id": "FLCR-18",
+      "real_paper_directory": "D:\\CQE_CMPLX\\CQECMPLX-Production\\REAL-PAPERS\\paper5-moonshine",
+      "real_paper_title": "Monster Moonshine and VOA Correspondence",
+      "real_reference_count": 0,
+      "real_references": [],
+      "abstract_preview": "",
+      "has_formal_structure": true,
+      "has_real_citations": false,
+      "integration_status": "mapped_from_agent_output"
+    }
+  ]
+}

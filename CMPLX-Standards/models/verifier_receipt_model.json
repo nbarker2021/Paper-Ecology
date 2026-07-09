@@ -1,0 +1,52 @@
+{
+  "schema": "cmplx_standards_model.v1",
+  "model_id": "cmplx.verifier_receipt",
+  "version": "0.1.1",
+  "description": "Grades on-disk verify_*.json PASS receipts for closure and standards-driven inclusion. Updated to accept all CMPLX pass-with-open-* variants.",
+  "record_selector": "receipts",
+  "record_id_paths": [
+    "receipt_id",
+    "verifier",
+    "record_id"
+  ],
+  "thresholds": {
+    "perfect_fit": 1.0,
+    "model_inclusive": 0.92,
+    "partial_inclusive": 0.7,
+    "weak_inclusive": 0.4
+  },
+  "allowed_value_penalty": 0.3,
+  "allowed_values": {
+    "normalized_status": [
+      "PASS",
+      "pass",
+      "pass_with_open_gaps",
+      "pass_with_open_low_energy_running",
+      "pass_with_open_numeric_projection_gaps",
+      "pass_with_open_obligations",
+      "pass_estimate_with_physical_boundary",
+      "pass_with_threshold_residuals",
+      "pass_with_open_numeric_gaps",
+      "pass_with_open_majorana_absolute_mass_and_no_fit_gaps",
+      "pass_with_open_residual_weight_law",
+      "pass_with_located_deephole_klein_sources_open_executable_binding",
+      "pass_with_open_normalization_gaps"
+    ],
+    "verifier_pass": [
+      "yes"
+    ]
+  },
+  "weighted_fields": {
+    "receipt_id": 2,
+    "path": 3,
+    "status": 4,
+    "normalized_status": 4,
+    "verifier_pass": 5,
+    "schema": 2,
+    "checks": 4,
+    "honesty_boundary": 4,
+    "verifier": 2,
+    "closed_now": 2,
+    "boundary": 2
+  }
+}

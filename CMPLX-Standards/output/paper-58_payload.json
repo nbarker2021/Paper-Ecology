@@ -1,0 +1,29 @@
+{
+  "title": "Paper-58: QCD Phenomenology 2 — Parton Distributions",
+  "abstract": "- Full content exists in `paper-58__unified_QCD_Phenomenology_2_Parton_Distributions.md`.",
+  "D": 3,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "58.1",
+      "claim": "verify_pdf_sum_rules: Check momentum, valence, and baryon-number sum rules.",
+      "evidence": "CodeLib / verify_pdf_sum_rules"
+    },
+    {
+      "id": "58.2",
+      "claim": "verify_dglap_evolution: Validate DGLAP evolution against analytical limits.",
+      "evidence": "CodeLib / verify_dglap_evolution"
+    },
+    {
+      "id": "58.3",
+      "claim": "verify_global_fit_chi2: Confirm global QCD fit chi-squared consistency.",
+      "evidence": "CodeLib / verify_global_fit_chi2"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

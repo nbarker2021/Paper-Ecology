@@ -1,0 +1,39 @@
+{
+  "title": "Paper-29: Monster/Universal Energy-Bound Hypotheses",
+  "abstract": "Monster group, supersingular primes, Monstrous Moonshine, McKay row, centroid VOA, universal ceiling",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "29.1",
+      "claim": "D: A valid paper ribbon has exactly eight slots in order C, L, R, B, T, O, W, A.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "29.2",
+      "claim": "D: Papers 00-29 form a 30-position proof sweep under the ribbon schema.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "29.3",
+      "claim": "D: Each filled slot has both value and provenance.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "29.4",
+      "claim": "D: A live terminal composition tree returns a single canonical route.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "29.5",
+      "claim": "D: The transport-obligation ledger passes with open lifts visible.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}

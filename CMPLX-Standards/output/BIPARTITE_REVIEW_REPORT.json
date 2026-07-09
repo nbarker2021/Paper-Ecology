@@ -1,0 +1,483 @@
+{
+  "schema": "cmplx.bipartite_review.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "side_a": {
+    "side": "A",
+    "title": "Historical Data Review",
+    "sources_scanned": 18,
+    "sources_missing": 0,
+    "total_findings": 18,
+    "severity_breakdown": {
+      "medium": 3,
+      "low": 12,
+      "high": 3
+    },
+    "findings": [
+      {
+        "category": "legacy_seed_coverage",
+        "severity": "medium",
+        "count": 16,
+        "description": "16 legacy seeds identified in harvest. Only 7 marked direct-port. None explicitly in current suite as ability_seed records.",
+        "recommendation": "Promote the 7 direct_port candidates into ability_seed model after CMPLX-Standards gate validation."
+      },
+      {
+        "category": "triad_octad_assemblies",
+        "severity": "low",
+        "count": 8,
+        "description": "5 triads and 3 octads defined as candidate assemblies. These are composite groupings, not individual records.",
+        "recommendation": "Triads/octads belong in a higher-level assembly model (not yet defined). Consider adding 'assembly_cluster' model."
+      },
+      {
+        "category": "unresolved_blockers",
+        "severity": "high",
+        "count": 24,
+        "description": "24 unique blockers preventing legacy seed promotion: ['avoid_duplicate_canonicalization', 'choose_mmdb_contract', 'coin_library_scope_review', 'convert_markdown_registry_to_structured_index', 'decouple_http_service_assumptions', 'dedupe_lattice_implementations', 'dedupe_three_registry_surfaces', 'dirty_repo_scope_review']...",
+        "recommendation": "Resolve blockers or document as accepted residues. Many are CMPLX-Standards gate prerequisites."
+      },
+      {
+        "category": "high_volume_skipped",
+        "severity": "high",
+        "count": 1301,
+        "description": "1301 of 9392 registry rows flagged (13.9%). Top skip reasons: {'substantive_content_in_low_type': 452, 'slot_keyword_present': 348, 'pipeline_action_mismatch': 297, 'path_naming_convention': 204}.",
+        "recommendation": "ROUTE_SLOT (254) and REGISTER_TOOL (43) recommendations should be actioned."
+      },
+      {
+        "category": "flcr_papers_misrouted",
+        "severity": "high",
+        "count": 3,
+        "description": "3 FLCR papers in skip audit top findings were marked MANUAL_REVIEW but heuristics suggest ROUTE_SLOT.",
+        "recommendation": "All FLCR papers (FLCR-01 through FLCR-40) should be in assembled_paper or normal_form models. Verify none are missing."
+      },
+      {
+        "category": "nist_peer_metadata",
+        "severity": "medium",
+        "count": 40,
+        "description": "NIST legacy diff contains peer_recommendation and apply_next for each FLCR-01..40. These fields are NOT in current assembled_paper or normal_form model contracts.",
+        "recommendation": "Create a 'peer_review_metadata' sub-model or extension to capture NIST-derived peer recommendations without polluting model fit."
+      },
+      {
+        "category": "nist_standards_detail",
+        "severity": "low",
+        "count": 240,
+        "description": "Each NIST record has 6 standard-level checks (claim_coverage, obligation_continuity, etc.). Current suite abstracts these into fit_score but loses granularity.",
+        "recommendation": "Consider preserving per-standard granularity as optional extensions for audit traceability."
+      },
+      {
+        "category": "closure_state_unverified",
+        "severity": "medium",
+        "description": "CLOSURE_INCLUSION_PASS_STATE exists but was not inspected in detail. It may contain additional records or bindings not reflected in current suite.",
+        "recommendation": "Ingest and diff against current suite if closure pass produced new records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "archive_crystal_queue has 6 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review ARCHIVE_HISTORY_CRYSTAL_QUEUE.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "flcr24_split_lane has 8 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review FLCR24_SPLIT_LANE_HUNT_REPORT.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "flcr24_widened has 7 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review FLCR24_WIDENED_HUNT_REPORT.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "legacy_repo_findings has 6 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review LEGACY_REPO_FINDINGS_ASSEMBLY.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "tmn_legacy_triad has 10 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review TMN_LEGACY_TRIAD_STANDARDS_GRADE.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "critical_connections has 13 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review CRITICAL_CONNECTIONS_REPORT.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "proof_chain has 12 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review PROOF_CHAIN_CONTEXT_REVIEW.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "paper_aggregation has 10 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review PAPER_AGGREGATION_CONTENT_SCAN.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "paper_content_needs has 8 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review PAPER_CONTENT_NEEDS_REPORT.json for model-mappable records."
+      },
+      {
+        "category": "unharvested_source",
+        "severity": "low",
+        "description": "obligation_rows has 10 top-level keys and may contain data not yet mapped to any model.",
+        "recommendation": "Review OBLIGATION_ROWS.json for model-mappable records."
+      }
+    ],
+    "per_source": {
+      "legacy_harvest": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "legacy_seed_coverage",
+            "severity": "medium",
+            "count": 16,
+            "description": "16 legacy seeds identified in harvest. Only 7 marked direct-port. None explicitly in current suite as ability_seed records.",
+            "recommendation": "Promote the 7 direct_port candidates into ability_seed model after CMPLX-Standards gate validation."
+          },
+          {
+            "category": "triad_octad_assemblies",
+            "severity": "low",
+            "count": 8,
+            "description": "5 triads and 3 octads defined as candidate assemblies. These are composite groupings, not individual records.",
+            "recommendation": "Triads/octads belong in a higher-level assembly model (not yet defined). Consider adding 'assembly_cluster' model."
+          },
+          {
+            "category": "unresolved_blockers",
+            "severity": "high",
+            "count": 24,
+            "description": "24 unique blockers preventing legacy seed promotion: ['avoid_duplicate_canonicalization', 'choose_mmdb_contract', 'coin_library_scope_review', 'convert_markdown_registry_to_structured_index', 'decouple_http_service_assumptions', 'dedupe_lattice_implementations', 'dedupe_three_registry_surfaces', 'dirty_repo_scope_review']...",
+            "recommendation": "Resolve blockers or document as accepted residues. Many are CMPLX-Standards gate prerequisites."
+          }
+        ]
+      },
+      "inclusion_skip": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "high_volume_skipped",
+            "severity": "high",
+            "count": 1301,
+            "description": "1301 of 9392 registry rows flagged (13.9%). Top skip reasons: {'substantive_content_in_low_type': 452, 'slot_keyword_present': 348, 'pipeline_action_mismatch': 297, 'path_naming_convention': 204}.",
+            "recommendation": "ROUTE_SLOT (254) and REGISTER_TOOL (43) recommendations should be actioned."
+          },
+          {
+            "category": "flcr_papers_misrouted",
+            "severity": "high",
+            "count": 3,
+            "description": "3 FLCR papers in skip audit top findings were marked MANUAL_REVIEW but heuristics suggest ROUTE_SLOT.",
+            "recommendation": "All FLCR papers (FLCR-01 through FLCR-40) should be in assembled_paper or normal_form models. Verify none are missing."
+          }
+        ]
+      },
+      "nist_legacy_diff": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "nist_peer_metadata",
+            "severity": "medium",
+            "count": 40,
+            "description": "NIST legacy diff contains peer_recommendation and apply_next for each FLCR-01..40. These fields are NOT in current assembled_paper or normal_form model contracts.",
+            "recommendation": "Create a 'peer_review_metadata' sub-model or extension to capture NIST-derived peer recommendations without polluting model fit."
+          },
+          {
+            "category": "nist_standards_detail",
+            "severity": "low",
+            "count": 240,
+            "description": "Each NIST record has 6 standard-level checks (claim_coverage, obligation_continuity, etc.). Current suite abstracts these into fit_score but loses granularity.",
+            "recommendation": "Consider preserving per-standard granularity as optional extensions for audit traceability."
+          }
+        ]
+      },
+      "closure_inclusion": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "closure_state_unverified",
+            "severity": "medium",
+            "description": "CLOSURE_INCLUSION_PASS_STATE exists but was not inspected in detail. It may contain additional records or bindings not reflected in current suite.",
+            "recommendation": "Ingest and diff against current suite if closure pass produced new records."
+          }
+        ]
+      },
+      "archive_crystal_queue": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "archive_crystal_queue has 6 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review ARCHIVE_HISTORY_CRYSTAL_QUEUE.json for model-mappable records."
+          }
+        ]
+      },
+      "flcr24_split_lane": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "flcr24_split_lane has 8 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review FLCR24_SPLIT_LANE_HUNT_REPORT.json for model-mappable records."
+          }
+        ]
+      },
+      "flcr24_widened": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "flcr24_widened has 7 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review FLCR24_WIDENED_HUNT_REPORT.json for model-mappable records."
+          }
+        ]
+      },
+      "peep_cross_lane": {
+        "status": "ok",
+        "findings": []
+      },
+      "legacy_repo_findings": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "legacy_repo_findings has 6 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review LEGACY_REPO_FINDINGS_ASSEMBLY.json for model-mappable records."
+          }
+        ]
+      },
+      "tmn_legacy_triad": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "tmn_legacy_triad has 10 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review TMN_LEGACY_TRIAD_STANDARDS_GRADE.json for model-mappable records."
+          }
+        ]
+      },
+      "critical_connections": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "critical_connections has 13 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review CRITICAL_CONNECTIONS_REPORT.json for model-mappable records."
+          }
+        ]
+      },
+      "proof_chain": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "proof_chain has 12 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review PROOF_CHAIN_CONTEXT_REVIEW.json for model-mappable records."
+          }
+        ]
+      },
+      "paper_aggregation": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "paper_aggregation has 10 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review PAPER_AGGREGATION_CONTENT_SCAN.json for model-mappable records."
+          }
+        ]
+      },
+      "paper_content_needs": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "paper_content_needs has 8 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review PAPER_CONTENT_NEEDS_REPORT.json for model-mappable records."
+          }
+        ]
+      },
+      "obligation_rows": {
+        "status": "ok",
+        "findings": [
+          {
+            "category": "unharvested_source",
+            "severity": "low",
+            "description": "obligation_rows has 10 top-level keys and may contain data not yet mapped to any model.",
+            "recommendation": "Review OBLIGATION_ROWS.json for model-mappable records."
+          }
+        ]
+      },
+      "seed_candidate_queue": {
+        "status": "ok",
+        "findings": []
+      },
+      "local_ability_seed_queue": {
+        "status": "ok",
+        "findings": []
+      },
+      "legacy_repo_ability_seed_queue": {
+        "status": "ok",
+        "findings": []
+      }
+    }
+  },
+  "side_b": {
+    "side": "B",
+    "title": "Completeness & Inclusion Review",
+    "models_checked": 11,
+    "total_records_audited": 442,
+    "total_findings": 3,
+    "severity_breakdown": {
+      "high": 3
+    },
+    "findings": [
+      {
+        "category": "low_model_fit",
+        "severity": "high",
+        "model": "sm_mapping_row",
+        "fit": 87.238212,
+        "description": "Model 'sm_mapping_row' average fit 87.24 below 90 threshold.",
+        "recommendation": "Requires immediate remediation before any promotion."
+      },
+      {
+        "category": "zero_perfect_fit",
+        "severity": "high",
+        "model": "assembled_paper",
+        "description": "Model 'assembled_paper' has zero perfect-fit records.",
+        "recommendation": "Every model should have at least some perfect-fit records. Investigate model contract or data quality."
+      },
+      {
+        "category": "zero_perfect_fit",
+        "severity": "high",
+        "model": "sm_mapping_row",
+        "description": "Model 'sm_mapping_row' has zero perfect-fit records.",
+        "recommendation": "Every model should have at least some perfect-fit records. Investigate model contract or data quality."
+      }
+    ]
+  },
+  "summary": {
+    "total_findings": 21,
+    "high_severity": 6,
+    "medium_severity": 3,
+    "low_severity": 12,
+    "recommendations": [
+      {
+        "severity": "medium",
+        "category": "legacy_seed_coverage",
+        "text": "Promote the 7 direct_port candidates into ability_seed model after CMPLX-Standards gate validation."
+      },
+      {
+        "severity": "low",
+        "category": "triad_octad_assemblies",
+        "text": "Triads/octads belong in a higher-level assembly model (not yet defined). Consider adding 'assembly_cluster' model."
+      },
+      {
+        "severity": "high",
+        "category": "unresolved_blockers",
+        "text": "Resolve blockers or document as accepted residues. Many are CMPLX-Standards gate prerequisites."
+      },
+      {
+        "severity": "high",
+        "category": "high_volume_skipped",
+        "text": "ROUTE_SLOT (254) and REGISTER_TOOL (43) recommendations should be actioned."
+      },
+      {
+        "severity": "high",
+        "category": "flcr_papers_misrouted",
+        "text": "All FLCR papers (FLCR-01 through FLCR-40) should be in assembled_paper or normal_form models. Verify none are missing."
+      },
+      {
+        "severity": "medium",
+        "category": "nist_peer_metadata",
+        "text": "Create a 'peer_review_metadata' sub-model or extension to capture NIST-derived peer recommendations without polluting model fit."
+      },
+      {
+        "severity": "low",
+        "category": "nist_standards_detail",
+        "text": "Consider preserving per-standard granularity as optional extensions for audit traceability."
+      },
+      {
+        "severity": "medium",
+        "category": "closure_state_unverified",
+        "text": "Ingest and diff against current suite if closure pass produced new records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review ARCHIVE_HISTORY_CRYSTAL_QUEUE.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review FLCR24_SPLIT_LANE_HUNT_REPORT.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review FLCR24_WIDENED_HUNT_REPORT.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review LEGACY_REPO_FINDINGS_ASSEMBLY.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review TMN_LEGACY_TRIAD_STANDARDS_GRADE.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review CRITICAL_CONNECTIONS_REPORT.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review PROOF_CHAIN_CONTEXT_REVIEW.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review PAPER_AGGREGATION_CONTENT_SCAN.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review PAPER_CONTENT_NEEDS_REPORT.json for model-mappable records."
+      },
+      {
+        "severity": "low",
+        "category": "unharvested_source",
+        "text": "Review OBLIGATION_ROWS.json for model-mappable records."
+      },
+      {
+        "severity": "high",
+        "category": "low_model_fit",
+        "text": "Requires immediate remediation before any promotion."
+      },
+      {
+        "severity": "high",
+        "category": "zero_perfect_fit",
+        "text": "Every model should have at least some perfect-fit records. Investigate model contract or data quality."
+      },
+      {
+        "severity": "high",
+        "category": "zero_perfect_fit",
+        "text": "Every model should have at least some perfect-fit records. Investigate model contract or data quality."
+      }
+    ]
+  }
+}

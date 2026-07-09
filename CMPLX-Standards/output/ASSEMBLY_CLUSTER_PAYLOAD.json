@@ -1,0 +1,491 @@
+{
+  "schema": "cmplx_standards_assembly_cluster_payload.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "model_id": "cmplx.assembly_cluster",
+  "assembly_count": 8,
+  "triad_count": 5,
+  "octad_count": 3,
+  "assemblies": [
+    {
+      "assembly_id": "LEGACY-TRIAD-TMN-CORE-001",
+      "title": "TMN operational core: crystal, brain, mint",
+      "seed_ids": [
+        "LEGACY-TMN-CRYSTAL-001",
+        "LEGACY-TMN-BRAIN-002",
+        "LEGACY-TMN-MINT-003"
+      ],
+      "claim_window": "A content-addressed crystal store, E8-root brain, and SNAP-label mint form the minimal self-accounting MannyAI carrier.",
+      "review_question": "Can these three be normalized into one receipt-bound CAM base without divergent MDHG or brain schemas?",
+      "assembly_type": "triad",
+      "seed_count": 3,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "cam_crystal_store",
+        "brain",
+        "mint"
+      ],
+      "source_repos": [
+        "CMPLX-TMN-main",
+        "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite"
+      ],
+      "mean_confidence": 0.86,
+      "blockers": [
+        "coin_library_scope_review",
+        "ledger_semantics_review",
+        "reconcile_personal_node_vs_registry_brain",
+        "strip_demo_credentials",
+        "unify_divergent_mdhg_addressers",
+        "weight_persistence_review"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-CAM-INGRESS-002",
+      "title": "CAM ingress: MCP registry, MMDB/MDHG, RAG tiling",
+      "seed_ids": [
+        "LEGACY-MCP-REGISTRY-004",
+        "LEGACY-MDGH-MMDB-005",
+        "LEGACY-RAG-TILING-008"
+      ],
+      "claim_window": "Tool calls, memory pipeline, and document-to-atomic ingress can be treated as one ingestion face.",
+      "review_question": "Which registry surface becomes canonical, and how does paper ingress mint CAM atoms and receipts?",
+      "assembly_type": "triad",
+      "seed_count": 3,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "mcp_registry",
+        "mmdb_mdhg_memory_pipeline",
+        "rag_tiling_library"
+      ],
+      "source_repos": [
+        "CMPLXMCP/CMPLXDevKit/CMPLXUNI",
+        "CMPLXUNI/CMPLXDevKit/CMPLXMCP",
+        "CMPLXUNI/TMN1"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-36",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite"
+      ],
+      "mean_confidence": 0.827,
+      "blockers": [
+        "choose_mmdb_contract",
+        "dedupe_three_registry_surfaces",
+        "handlers_import_external_packages",
+        "paper_pipeline_adapter_needed",
+        "verify_receipt_corpus_integrity"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-PROOF-STANDARDS-003",
+      "title": "Proof and standards: R30, formal suite, lattice-forge runtime",
+      "seed_ids": [
+        "LEGACY-R30-PROOF-015",
+        "LEGACY-FORMAL-SUITE-012",
+        "LEGACY-PARTSFACTORY-LATTICE-016"
+      ],
+      "claim_window": "The proof-grade Rule30/J3(O)/Lucas spine, theorem registry, and current lattice-forge services define the validator backbone.",
+      "review_question": "Can CMPLX-Standards consume theorem records and live verifier outputs as one normal-form gate?",
+      "assembly_type": "triad",
+      "seed_count": 3,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "rule30_proof_spine",
+        "formal_suite_validators",
+        "parts_factory_lattice_forge"
+      ],
+      "source_repos": [
+        "CMPLX-PartsFactory-main",
+        "CMPLX-R30",
+        "CQECMPLX-Formal-Suite/CMPLX-Formalization"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-09",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port"
+      ],
+      "mean_confidence": 0.86,
+      "blockers": [
+        "convert_markdown_registry_to_structured_index",
+        "dirty_repo_scope_review",
+        "do_not_overclaim_cold_start_o_log_n",
+        "strip_path_surgery"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-FORGE-GOVERNANCE-004",
+      "title": "Forge governance: Morphon ports, AirLock/ReForge, repo provenance",
+      "seed_ids": [
+        "LEGACY-MORPHON-CONTROLLER-007",
+        "LEGACY-AIRLOCK-FORGEFACTORY-011",
+        "LEGACY-REPO-KERNEL-009"
+      ],
+      "claim_window": "Provider ports, guarded conversion, and repo provenance define how old findings become current tools.",
+      "review_question": "What is the minimum Forge/ReForge contract for promoting a seed from history into MannyAI runtime?",
+      "assembly_type": "triad",
+      "seed_count": 3,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "morphon_controller",
+        "airlock_forgefactory",
+        "repo_kernel_provenance"
+      ],
+      "source_repos": [
+        "CMPLX-Kernel/PartsFactory/repo_harvest",
+        "CMPLX-PartsFactory/TMN-main",
+        "CQECMPLX-AirLock/ForgeFactory"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-03",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite"
+      ],
+      "mean_confidence": 0.79,
+      "blockers": [
+        "avoid_duplicate_canonicalization",
+        "decouple_http_service_assumptions",
+        "lineage_dedupe_required"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-TRIAD-DOMAIN-EXTENSION-005",
+      "title": "Domain extension: E8/Leech, MORSR/NVEST, paper solvers",
+      "seed_ids": [
+        "LEGACY-E8-LEECH-006",
+        "LEGACY-MORSR-NVEST-013",
+        "LEGACY-PAPERS-SOLVERS-014"
+      ],
+      "claim_window": "Geometry primitives, domain conservation tools, and generated solvers become extension lanes after standards review.",
+      "review_question": "Which pieces are generally valid algebra and which are domain-only adapters?",
+      "assembly_type": "triad",
+      "seed_count": 3,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "e8_leech_lattice",
+        "morsr_nvest",
+        "papers_tool_solvers"
+      ],
+      "source_repos": [
+        "CMPLX-MORSR/CQE_MORSR/CMPLX-NVEST",
+        "CMPLXUNI/CMPLX-R30/PartsFactory",
+        "papers_tool_solvers"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-18",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "rebuild_better"
+      ],
+      "mean_confidence": 0.67,
+      "blockers": [
+        "dedupe_lattice_implementations",
+        "domain_boundary_review_required",
+        "generated_code_review_required",
+        "source_paths_may_be_sparse",
+        "verify_exact_vs_surrogate_labels"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-MANNYAI-CARRIER-001",
+      "title": "MannyAI carrier octad",
+      "seed_ids": [
+        "LEGACY-TMN-CRYSTAL-001",
+        "LEGACY-TMN-BRAIN-002",
+        "LEGACY-TMN-MINT-003",
+        "LEGACY-MCP-REGISTRY-004",
+        "LEGACY-MDGH-MMDB-005",
+        "LEGACY-MORPHON-CONTROLLER-007",
+        "LEGACY-REPO-KERNEL-009",
+        "LEGACY-PARTSFACTORY-LATTICE-016"
+      ],
+      "claim_window": "Eight legacy seeds form the practical MannyAI carrier: memory, brain, economy, tools, ports, provenance, and validators.",
+      "review_question": "Can this octad be normalized into one reproducible CAM-base bootstrap?",
+      "assembly_type": "octad",
+      "seed_count": 8,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "cam_crystal_store",
+        "brain",
+        "mint",
+        "mcp_registry",
+        "mmdb_mdhg_memory_pipeline",
+        "morphon_controller",
+        "repo_kernel_provenance",
+        "parts_factory_lattice_forge"
+      ],
+      "source_repos": [
+        "CMPLX-Kernel/PartsFactory/repo_harvest",
+        "CMPLX-PartsFactory-main",
+        "CMPLX-PartsFactory/TMN-main",
+        "CMPLX-TMN-main",
+        "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory",
+        "CMPLXMCP/CMPLXDevKit/CMPLXUNI",
+        "CMPLXUNI/CMPLXDevKit/CMPLXMCP"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-03",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite"
+      ],
+      "mean_confidence": 0.854,
+      "blockers": [
+        "avoid_duplicate_canonicalization",
+        "choose_mmdb_contract",
+        "coin_library_scope_review",
+        "decouple_http_service_assumptions",
+        "dedupe_three_registry_surfaces",
+        "dirty_repo_scope_review",
+        "handlers_import_external_packages",
+        "ledger_semantics_review",
+        "reconcile_personal_node_vs_registry_brain",
+        "strip_demo_credentials",
+        "unify_divergent_mdhg_addressers",
+        "verify_receipt_corpus_integrity",
+        "weight_persistence_review"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-STANDARDS-FORGE-002",
+      "title": "CMPLX-Standards and Forge/ReForge octad",
+      "seed_ids": [
+        "LEGACY-R30-PROOF-015",
+        "LEGACY-FORMAL-SUITE-012",
+        "LEGACY-PARTSFACTORY-LATTICE-016",
+        "LEGACY-AIRLOCK-FORGEFACTORY-011",
+        "LEGACY-MCP-REGISTRY-004",
+        "LEGACY-REPO-KERNEL-009",
+        "LEGACY-PAPERS-SOLVERS-014",
+        "LEGACY-E8-LEECH-006"
+      ],
+      "claim_window": "The proof, standards, forge, tool, provenance, solver, and geometry lanes define the universal grading surface.",
+      "review_question": "What fields must every paper/tool/claim normal form expose for CMPLX-Standards to grade model fit?",
+      "assembly_type": "octad",
+      "seed_count": 8,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "rule30_proof_spine",
+        "formal_suite_validators",
+        "parts_factory_lattice_forge",
+        "airlock_forgefactory",
+        "mcp_registry",
+        "repo_kernel_provenance",
+        "papers_tool_solvers",
+        "e8_leech_lattice"
+      ],
+      "source_repos": [
+        "CMPLX-Kernel/PartsFactory/repo_harvest",
+        "CMPLX-PartsFactory-main",
+        "CMPLX-R30",
+        "CMPLXMCP/CMPLXDevKit/CMPLXUNI",
+        "CMPLXUNI/CMPLX-R30/PartsFactory",
+        "CQECMPLX-AirLock/ForgeFactory",
+        "CQECMPLX-Formal-Suite/CMPLX-Formalization",
+        "papers_tool_solvers"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-01",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-09",
+        "FLCR-11",
+        "FLCR-12",
+        "FLCR-13",
+        "FLCR-18",
+        "FLCR-20",
+        "FLCR-21",
+        "FLCR-22",
+        "FLCR-23",
+        "FLCR-27",
+        "FLCR-28",
+        "FLCR-29",
+        "FLCR-30",
+        "FLCR-31",
+        "FLCR-38",
+        "FLCR-39",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite",
+        "rebuild_better"
+      ],
+      "mean_confidence": 0.809,
+      "blockers": [
+        "avoid_duplicate_canonicalization",
+        "convert_markdown_registry_to_structured_index",
+        "dedupe_lattice_implementations",
+        "dedupe_three_registry_surfaces",
+        "dirty_repo_scope_review",
+        "do_not_overclaim_cold_start_o_log_n",
+        "generated_code_review_required",
+        "handlers_import_external_packages",
+        "lineage_dedupe_required",
+        "strip_path_surgery",
+        "verify_exact_vs_surrogate_labels"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    },
+    {
+      "assembly_id": "LEGACY-OCTAD-INGRESS-TO-PRODUCT-003",
+      "title": "Ingress-to-product octad",
+      "seed_ids": [
+        "LEGACY-RAG-TILING-008",
+        "LEGACY-MDGH-MMDB-005",
+        "LEGACY-MCP-REGISTRY-004",
+        "LEGACY-MORPHON-CONTROLLER-007",
+        "LEGACY-TMN-BRAIN-002",
+        "LEGACY-TMN-MINT-003",
+        "LEGACY-MORSR-NVEST-013",
+        "LEGACY-ODYSSEUS-010"
+      ],
+      "claim_window": "Paper/doc ingress can flow through CAM, tools, ports, brain, mint, domain adapters, and agent-skill surfaces.",
+      "review_question": "Where do product-specific actions stop and general MannyAI abilities begin?",
+      "assembly_type": "octad",
+      "seed_count": 8,
+      "missing_seed_ids": [],
+      "ability_families": [
+        "rag_tiling_library",
+        "mmdb_mdhg_memory_pipeline",
+        "mcp_registry",
+        "morphon_controller",
+        "brain",
+        "mint",
+        "morsr_nvest",
+        "agent_skill_integration"
+      ],
+      "source_repos": [
+        "CMPLX-MORSR/CQE_MORSR/CMPLX-NVEST",
+        "CMPLX-PartsFactory/TMN-main",
+        "CMPLX-TMN-main/CMPLX-TMN1/PartsFactory",
+        "CMPLXMCP/CMPLXDevKit/CMPLXUNI",
+        "CMPLXUNI/CMPLXDevKit/CMPLXMCP",
+        "CMPLXUNI/TMN1",
+        "Odysseus/CMPLX-Kernel"
+      ],
+      "proposed_flcr_targets": [
+        "FLCR-03",
+        "FLCR-06",
+        "FLCR-07",
+        "FLCR-11",
+        "FLCR-23",
+        "FLCR-26",
+        "FLCR-28",
+        "FLCR-30",
+        "FLCR-36",
+        "FLCR-37",
+        "FLCR-38",
+        "FLCR-40"
+      ],
+      "port_modes": [
+        "direct_port",
+        "minor_rewrite",
+        "rebuild_better"
+      ],
+      "mean_confidence": 0.765,
+      "blockers": [
+        "choose_mmdb_contract",
+        "coin_library_scope_review",
+        "decouple_http_service_assumptions",
+        "dedupe_three_registry_surfaces",
+        "domain_boundary_review_required",
+        "handlers_import_external_packages",
+        "ledger_semantics_review",
+        "paper_pipeline_adapter_needed",
+        "reconcile_personal_node_vs_registry_brain",
+        "semantic_review_required",
+        "source_paths_may_be_sparse",
+        "verify_receipt_corpus_integrity",
+        "weight_persistence_review"
+      ],
+      "promotion_status": "candidate_assembly_only",
+      "cmplx_standards_gate": "requires_normal_form_and_live_validator_binding",
+      "forge_reforge_action": "braid_review_then_select_port_or_rebuild"
+    }
+  ]
+}

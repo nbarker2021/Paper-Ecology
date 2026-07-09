@@ -1,0 +1,259 @@
+{
+  "schema": "cmplx_standards_paper_validation_payload.v1",
+  "generated_utc": "2026-07-05T08:41:29+00:00",
+  "paper_id": "paper-78",
+  "paper_number": 78,
+  "title": "Paper 78 — Governance 1: Bibliography, Taxonomy, Claim-Layer Governance",
+  "canonical_id": "Unified 78 / Paper 78",
+  "model_contract": "assembled_paper",
+  "fit_score": 60.61,
+  "inclusion_band": "weak_inclusive",
+  "grade": "I",
+  "status": "deprecated",
+  "d_claims": [
+    {
+      "claim_id": "C78.CODE.verify_claim_lane_counts",
+      "claim": "Verify 7 non-default claim lanes and 7 evidence classes.",
+      "evidence": "paper-78__unified_Governance_1_Bibliography_Taxonomy_Governance_verifier.py"
+    },
+    {
+      "claim_id": "C78.CODE.verify_taxonomy_mece",
+      "claim": "Taxonomy categories are mutually exclusive and collectively exhaustive.",
+      "evidence": "paper-78__unified_Governance_1_Bibliography_Taxonomy_Governance_verifier.py"
+    },
+    {
+      "claim_id": "C78.CODE.verify_five_standards",
+      "claim": "Verify 5 standards of claim-layer governance.",
+      "evidence": "paper-78__unified_Governance_1_Bibliography_Taxonomy_Governance_verifier.py"
+    }
+  ],
+  "i_claims": [
+    {
+      "claim_id": "I78.1",
+      "claim": "CodeLib verifier completeness for Paper 78 is inferred from available stubs",
+      "reasoning": "Verifier coverage is partial or stub-based"
+    }
+  ],
+  "x_claims": [
+    {
+      "claim_id": "X78.1",
+      "claim": "Exact numerical derivation for Paper 78 parameters remains open",
+      "obligation": "Requires external calibration or future proof"
+    }
+  ],
+  "open_obligations": [],
+  "verifier_references": [
+    {
+      "source": "paper-78__unified_Governance_1_Bibliography_Taxonomy_Governance_verifier.py",
+      "exists": true
+    }
+  ],
+  "graded_record": {
+    "paper_id": "paper-78",
+    "title": "Paper 78 — Governance 1: Bibliography, Taxonomy, Claim-Layer Governance",
+    "status": "ASSEMBLE",
+    "pipeline_decision": "ASSEMBLE",
+    "formal_md": true,
+    "formal_sections": {
+      "abstract": false,
+      "keywords": false,
+      "claims": true
+    },
+    "required_direct": {
+      "open_obligations": false,
+      "paired_dois": false,
+      "peep_bindings": false,
+      "assembly_audit_falsifier_gaps": false
+    },
+    "supporting_context": {
+      "timeline_node_count": 0,
+      "registry_discovery_count": 0
+    },
+    "external_candidates": {
+      "seed_count": 0,
+      "ingress_count": 0
+    },
+    "receipts": true,
+    "closure_inclusions": false,
+    "meta": {
+      "intake_version": "1.0",
+      "epistemology": "unified"
+    },
+    "assembled_section_count": 6,
+    "has_proof_receipt_index": true,
+    "has_obligation_crosswalk": false,
+    "has_external_calibration": false,
+    "has_falsifiers_section": false,
+    "has_honesty_boundary": false
+  },
+  "checks": [
+    {
+      "path": "paper_id",
+      "weight": 3,
+      "present": true,
+      "score": 3
+    },
+    {
+      "path": "title",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "status",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "pipeline_decision",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "formal_md",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "formal_sections.abstract",
+      "weight": 4,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "formal_sections.keywords",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "formal_sections.claims",
+      "weight": 5,
+      "present": true,
+      "score": 5
+    },
+    {
+      "path": "required_direct.open_obligations",
+      "weight": 3,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "required_direct.paired_dois",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "required_direct.peep_bindings",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "required_direct.assembly_audit_falsifier_gaps",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "supporting_context.timeline_node_count",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "supporting_context.registry_discovery_count",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "external_candidates.seed_count",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "external_candidates.ingress_count",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "receipts",
+      "weight": 4,
+      "present": true,
+      "score": 4
+    },
+    {
+      "path": "closure_inclusions",
+      "weight": 3,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "meta.intake_version",
+      "weight": 1,
+      "present": true,
+      "score": 1
+    },
+    {
+      "path": "meta.epistemology",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "assembled_section_count",
+      "weight": 3,
+      "present": true,
+      "score": 3
+    },
+    {
+      "path": "has_proof_receipt_index",
+      "weight": 2,
+      "present": true,
+      "score": 2
+    },
+    {
+      "path": "has_obligation_crosswalk",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "has_external_calibration",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "has_falsifiers_section",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "has_honesty_boundary",
+      "weight": 2,
+      "present": false,
+      "score": 0.0
+    },
+    {
+      "path": "receipts",
+      "weight": 3.0,
+      "present": true,
+      "score": 3.0
+    },
+    {
+      "path": "formal_sections.claims",
+      "weight": 3.0,
+      "present": true,
+      "score": 3.0
+    }
+  ]
+}

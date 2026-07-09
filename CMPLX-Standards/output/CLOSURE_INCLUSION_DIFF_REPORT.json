@@ -1,0 +1,99 @@
+{
+  "schema": "cmplx.closure_inclusion_diff_report.v1",
+  "generated_utc": "2026-07-03T20:00:00+00:00",
+  "source": "CLOSURE_INCLUSION_PASS_STATE + CLOSURE_INCLUSION_QUEUE",
+  "summary": {
+    "total_closure_entries": 78,
+    "unique_papers": 40,
+    "paper_coverage": "FLCR-01 through FLCR-40",
+    "total_proposals": 5724,
+    "applied_proposals": 5427,
+    "eligible_proposals": 297,
+    "suite_records_added": 0,
+    "suite_regression": false
+  },
+  "diff_analysis": {
+    "applied_proposals": {
+      "count": 5427,
+      "status": "applied",
+      "verifier_status": "PASS",
+      "disposition": "Already ingested into suite via receipt-bound ingestion. These correspond to verified proof receipts already present in the assembled_paper and verifier_receipt models.",
+      "action": "No action needed."
+    },
+    "eligible_proposals": {
+      "count": 297,
+      "status": "eligible",
+      "verifier_status": "unknown",
+      "disposition": "Pending evidence proposals (PEEP) that have not yet been verified. They do not map directly to any existing model contract without additional fields (receipt_id, normalized_status, verifier_pass, checks, honesty_boundary).",
+      "action": "HOLD pending verification. Once verified and fields are populated, they can be ingested into verifier_receipt or assembled_paper models."
+    }
+  },
+  "eligible_proposal_breakdown": {
+    "by_paper": {
+      "FLCR-01": 6,
+      "FLCR-02": 8,
+      "FLCR-03": 7,
+      "FLCR-05": 6,
+      "FLCR-06": 6,
+      "FLCR-07": 6,
+      "FLCR-08": 5,
+      "FLCR-09": 7,
+      "FLCR-10": 6,
+      "FLCR-11": 6,
+      "FLCR-12": 6,
+      "FLCR-13": 6,
+      "FLCR-14": 6,
+      "FLCR-15": 6,
+      "FLCR-16": 6,
+      "FLCR-17": 6,
+      "FLCR-18": 6,
+      "FLCR-19": 6,
+      "FLCR-20": 6,
+      "FLCR-21": 6,
+      "FLCR-22": 6,
+      "FLCR-23": 6,
+      "FLCR-24": 6,
+      "FLCR-25": 6,
+      "FLCR-26": 6,
+      "FLCR-27": 6,
+      "FLCR-28": 6,
+      "FLCR-29": 6,
+      "FLCR-30": 6,
+      "FLCR-31": 6,
+      "FLCR-32": 6,
+      "FLCR-33": 6,
+      "FLCR-34": 6,
+      "FLCR-35": 6,
+      "FLCR-36": 6,
+      "FLCR-37": 6,
+      "FLCR-38": 6,
+      "FLCR-39": 6,
+      "FLCR-40": 6,
+      "FLCR-04": 0
+    },
+    "note": "FLCR-04 has zero eligible proposals. All other papers have 5-8 eligible proposals pending."
+  },
+  "model_fit_assessment": {
+    "eligible_to_verifier_receipt": {
+      "fit_estimate": "< 30",
+      "reason": "Missing required fields: receipt_id, normalized_status, verifier_pass, checks, honesty_boundary, verifier."
+    },
+    "eligible_to_assembled_paper": {
+      "fit_estimate": "< 30",
+      "reason": "Proposals are evidence-level bindings, not paper-level records. Missing title, status, authors, etc."
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "action": "Verify the 297 eligible PEEP proposals and populate verifier_receipt fields before ingestion.",
+      "blocked_by": "P4-W1 (peer_review_metadata model) — PEEP proposals may map better to peer_review_metadata extensions."
+    },
+    {
+      "priority": "medium",
+      "action": "Create a pipeline to convert eligible closure proposals into verifier_receipt records after verification.",
+      "blocked_by": "None"
+    }
+  ],
+  "conclusion": "No new records ingested in this pass. The 297 eligible proposals are held pending verification. The closure inclusion queue is fully aligned with the suite for applied proposals. No regression in existing suite records."
+}

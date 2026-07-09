@@ -1,0 +1,39 @@
+{
+  "title": "Paper-49: Mass and Yukawa 1 — Mass Hierarchy",
+  "abstract": "- Full content exists in `paper-49__unified_Mass_and_Yukawa_1_Mass_Hierarchy.md`.",
+  "D": 5,
+  "I": 0,
+  "X": 0,
+  "D_claims": [
+    {
+      "id": "49.1",
+      "claim": "The SM fermion mass hierarchy spans 6 orders of magnitude, from m_ν_e < 0.8 eV",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "49.2",
+      "claim": "The mass hierarchy is generation-ordered: gen 1 < gen 2 < gen 3 for each type.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "49.3",
+      "claim": "The VOA weight assignment gives mass spacing: W = 3.5, Z = 4, top = 7, etc.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "49.4",
+      "claim": "The Higgs mass anchor m_H = 5 · κ · SCALE = 125.25 GeV sets the scale.",
+      "evidence": "PaperLib source"
+    },
+    {
+      "id": "49.5",
+      "claim": "SCALE ≈ 833 GeV; golden ratio φ = (1+√5)/2; κ = ln(φ)/16 ≈ 0.0301.",
+      "evidence": "PaperLib source"
+    }
+  ],
+  "I_claims": [],
+  "X_claims": [],
+  "fit_score": 1.0,
+  "band": "perfect_fit",
+  "contract": "assembled_paper_model"
+}
