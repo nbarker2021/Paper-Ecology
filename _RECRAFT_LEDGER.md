@@ -1,0 +1,39 @@
+# Recraft Ledger — CQE_CMPLX → 240-Paper Form
+
+Working method (per user directive 2026-07-09):
+- Every source artifact is recrafted line-by-line into the 240-paper form.
+- No "cp" silos. Each file routes to one or more buckets by content:
+  - PE  = PaperEcology (extend existing NNN / new NNN / CodeLib verifier / CAM crystal / DerivationLedger receipt)
+  - STD = CMPLX-Standards (verifier taxonomy, C2 tags, math/algebra/calculus vocabulary)
+  - MNY = MannyAI / forge-base (engine code, adapters, AI-system-aids)
+  - DROP = stale/duplicate of existing content
+- Decisions are made per-file by reasoning; logged here; committed per bucket.
+
+## Source: CQECMPLX-Formal-Suite (55 CQE-PAPER-* + calculus/lib)
+
+| Source file | Decision | Target | Notes |
+|---|---|---|---|
+| 00-foundation/CQE-PAPER-000.md | EXTEND 001 + STD + (MNY verify) | PaperEcology/001, CMPLX-Standards | A1–A4 physical axioms + 3 IPMC meta-theorems + Monster 196883 + calibration table. Engines already in lattice_forge. |
+| 00-foundation/CQE-PAPER-001.md | TBD | — | read next |
+| 00-foundation/CQE-PAPER-002.md | TBD | — | read next |
+| 00-foundation/CQE-PAPER-003.md | TBD | — | read next |
+| 01-lcr-triality/CQE-PAPER-010.md | TBD | — | |
+| 01-lcr-triality/CQE-PAPER-011.md | TBD | — | |
+| 01-lcr-triality/CQE-PAPER-012.md | TBD | — | |
+| 01-lcr-triality/CQE-PAPER-013.md | TBD | — | |
+| 02-recursive-closure/CQE-PAPER-020..023 | TBD | — | |
+| 03-energy-transport/CQE-PAPER-030..033 | TBD | — | |
+| 04-tarpit-ecology/CQE-PAPER-040..043 | TBD | — | |
+| 05-observer-frame/CQE-PAPER-050..053 | TBD | — | |
+| 06-meta-corpus/CQE-PAPER-060..063 | TBD | — | |
+| 07-completion/CQE-PAPER-070 | TBD | — | |
+| 08-unification/CQE-PAPER-080..089 | TBD | — | |
+| 09-spectre-geometry/CQE-PAPER-090..100 | TBD | — | |
+| 10-crystallization/CQE-PAPER-100..103 | TBD | — | |
+| supplement/CQE-PAPER-SUP-001.md | TBD | — | |
+| calculus/ (dir) | TBD | — | per-file |
+| lib/ (dir) | TBD | — | per-file, likely CodeLib/MannyAI |
+| harness/ (dir) | TBD | — | per-file |
+| datasets/ (dir) | TBD | — | likely DROP (data) |
+| appendices/ (dir) | TBD | — | |
+| workbooks/ (dir) | TBD | — | |
