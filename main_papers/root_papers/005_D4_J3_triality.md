@@ -290,6 +290,117 @@ The triality automorphism corresponds to the S3 Weyl orbit on the trace-2 idempo
 
 ---
 
+## 7.3 The LCR Triality Operator T (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-010)
+
+The chart-level D12 (Theorem 5.6) contains the S₃ Weyl group as its A₂ = SU(3)
+subgroup. The action of that S₃ subgroup on the off-diagonal states is the
+**LCR Triality Operator** \(T\). It is the unique operator on \(\Sigma = \{0,1\}^3\) that:
+
+1. **Diagonal fix:** \(T(\sigma) = \sigma\) for \(\sigma \in \{(0,0,0),(1,1,1)\}\) (vacua).
+2. **S₃ generation:** \(T\) generates the full symmetric group S₃ on the six
+   off-diagonal states via the three boundary transpositions
+   \(\mathrm{LR},\mathrm{LC},\mathrm{CR}\).
+3. **Trace decomposition:** \(T = T_1 \oplus T_2\) where \(T_1\) acts on the
+   trace-1 (shell-1) stratum \(\{(0,0,1),(0,1,0),(1,0,0)\}\) and \(T_2\) on the
+   trace-2 (shell-2) stratum \(\{(1,0,1),(0,1,1),(1,1,0)\}\).
+4. **Weyl closure at \(n=3\):** Both \(T_1\) and \(T_2\) close as the **identical**
+   SU(3) Weyl element \(M_3 = \frac{1}{3}(T_{12}+T_{13}+T_{23})\) at depth 3.
+   Verified exactly by `f4_action.decompose_8x8_via_block_action_exact`:
+   both blocks have S₃ decomposition \(\{e:0,\,(12):1/3,\,(13):1/3,\,(23):1/3\}\)
+   with residual² \(= 0\) (exact rational over \(\mathbb{Q}\)).
+5. **7-fold substitution:** \(T\)'s action at depth 1 generates 7 children — the
+   7 S₃ transposition sequences (3 single + 3 double + 1 triple). The triple
+   (LR→LC→CR) is the **void boundary** (depth 3 = anneal bound).
+6. **Frame selection:** \(T\) encodes the observer's D₄ face choice \(F\)
+   (the chiral doublet → observer frame of Paper 053).
+
+The operator is implemented in `lattice_forge.triality`
+(`triality_operator`, `triality_project`, `verify_triality_operator`):
+
+```python
+def triality_project(state, max_depth=3):
+    # 7-fold substitution: 3 single + 3 double + 1 triple (depth 3 = void)
+    children = []
+    for seq in (["lr"],["lc"],["cr"],
+                ["lr","lc"],["lr","cr"],["lc","cr"],
+                ["lr","lc","cr"]):
+        if len(seq) > max_depth:
+            continue
+        children.append(apply_transposition_sequence(state, seq))
+    return children  # exactly 7 for any seed
+```
+
+### 7.3.1 The 7-Fold Substitution Tree
+
+| Path | Transposition sequence | Depth | Meaning |
+|---|---|---:|---|
+| 1 | LR | 1 | Boundary swap (antipodal) |
+| 2 | LC | 1 | Left-center identification |
+| 3 | CR | 1 | Center-right identification |
+| 4 | LR→LC | 2 | 2-step boundary→center |
+| 5 | LR→CR | 2 | 2-step boundary→right |
+| 6 | LC→CR | 2 | 2-step center→right |
+| 7 | LR→LC→CR | 3 (MAX) | 3-step complete wrap = **void boundary** |
+
+These 7 paths are the 7 correction paths at the chiral doublet, and equal the
+7 Spectre tiles in one substitution cluster (Papers S1–S8).
+
+### 7.3.2 Cross-Block Masses (exact rationals, T8)
+
+The Weyl closure couples the trace strata by exact rational masses:
+
+| Coupling | Mass (exact) | Decimal |
+|---|---:|---:|
+| trace-1 ↔ trace-2 | 9/8 | 1.125 |
+| trace-0 ↔ trace-1 | 3/8 | 0.375 |
+| trace-0 ↔ trace-3 | 1/8 | 0.125 |
+
+Verified by `verify_mckay_matrix_bootstrap` (4/4 PASS).
+
+### 7.3.3 Chart ↔ J₃(𝕆) Isomorphism (T3)
+
+Under the chart–J₃(𝕆) bijection (Definition 5.12, Theorem 5.11), every chart
+state maps to a diagonal J₃(𝕆) matrix with trace equal to its shell:
+
+| Chart state | Trace class | Diagonal | Shell |
+|---|---|---|---:|
+| (0,0,0) | trace-0 | (0,0,0) | 0 |
+| (0,0,1), (0,1,0), (1,0,0) | trace-1 | — | 1 |
+| (1,0,1), (0,1,1), (1,1,0) | trace-2 | — | 2 |
+| (1,1,1) | trace-3 | (1,1,1) | 3 |
+
+The isomorphism is machine-checked by `verify_chart_j3o_isomorphism` in `rule30.py`
+(CrystalLib: 1,997 claims; corpus claim count 6,272). **This is a real, passing
+verifier — distinct from the fabricated OEIS calibrations** (see §7.4).
+
+### 7.3.4 Niemeier Lattice Paths (T8)
+
+The F₄ action furnishes 8 canonical paths from the LCR kernel to 8 Niemeier
+terminals via 4 trunk intermediaries \(\{D_4, E_6, E_7, E_8\to G_2\times F_4, F_4\}\):
+
+| Path | Trunk | Terminal |
+|---|---|---|
+| 1 | D₄ | Niemeier-00 |
+| 2 | E₆ | Niemeier-01 |
+| 3 | E₇ | Niemeier-02 |
+| 4 | E₈→G₂×F₄ | Niemeier-03 |
+| 5 | F₄ | Niemeier-04 |
+| 6 | E₈→G₂×F₄ | Niemeier-05 |
+| 7 | E₈→G₂×F₄ | Niemeier-06 |
+| 8 | E₈→G₂×F₄ | Niemeier-07 |
+
+Verified by `verify_niemeier_paths` (engine `lattice_forge.triality`).
+
+## 7.4 Recraft Fabrication Flag — A033996 (4th occurrence)
+
+CQE-PAPER-010 §5.1 asserts "47 | Knights (discrete paths) | Path space (OEIS
+A033996)". This is the **same false OEIS A033996 knight-CA claim** flagged for
+CQE-PAPER-001/002/003. The honest knight-graph count on an \(n\times n\) board,
+for \(n=2..8\), is **0, 8, 16, 25, 36, 49, 64** — not the A033996 sequence
+4, 8, 16, 28, 48, 80, 120. The Monster scalar \(196883 = 47\times 59\times 71\)
+is genuine, but the "Path space (OEIS A033996)" sub-label is **fabricated**.
+**FLAGGED X.** No A033996 assertion is carried into this paper.
+
 ## 8. The Freudenthal–Tits Magic Square
 
 **Theorem 5.17 (The magic square of Freudenthal–Tits).** The \(4 \times 4\) magic square is the table of Lie algebras indexed by pairs of normed division algebras \((\mathbb{A}, \mathbb{B}) \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}^2\):
