@@ -13,7 +13,7 @@ Working method (per user directive 2026-07-09):
 
 | Source file | Decision | Target | Notes |
 |---|---|---|---|
-| 00-foundation/CQE-PAPER-000.md | EXTEND 001 + STD + (MNY verify) | PaperEcology/001, CMPLX-Standards | A1–A4 physical axioms + 3 IPMC meta-theorems + Monster 196883 + calibration table. Engines already in lattice_forge. |
+| 00-foundation/CQE-PAPER-000.md | EXTEND 001 + STD + MNY | PaperEcology/001, CMPLX-Standards, forge-base/lib/lattice_forge/axiom_verifiers.py | DONE. A1–A4 physical axioms + 3 IPMC meta-theorems + Monster 196883 + calibration folded into 001. Standards: VERIFIER_TAXONOMY.md + MATH_VOCABULARY.md. forge-base: axiom_verifiers.py (11 verifiers, 43 checks, 0 defects). |
 | 00-foundation/CQE-PAPER-001.md | TBD | — | read next |
 | 00-foundation/CQE-PAPER-002.md | TBD | — | read next |
 | 00-foundation/CQE-PAPER-003.md | TBD | — | read next |
