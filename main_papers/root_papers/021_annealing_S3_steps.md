@@ -716,6 +716,31 @@ Within Layer 3, Paper 021 is the first action (*1), establishing the annealing d
 
 ---
 
+## 16B. 7-Fold Substitution = 7 Correction Paths (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-021)
+
+CQE-PAPER-021's Theorem 21: the Spectre tile's 7-fold substitution rule is exactly the 7 correction
+paths of `∂ = C ∧ ¬R` at the chiral doublet — the 7 non-identity S₃ sequences:
+
+| Path | S₃ sequence | Depth | Correction meaning |
+|---|---|---:|---|
+| 1 | LR | 1 | boundary swap (antipodal) |
+| 2 | LC | 1 | left-center identification |
+| 3 | CR | 1 | center-right identification |
+| 4 | LR → LC | 2 | 2-step boundary→center |
+| 5 | LR → CR | 2 | 2-step boundary→right |
+| 6 | LC → CR | 2 | 2-step center→right |
+| 7 | LR → LC → CR | 3 | void boundary (∂ = 0) |
+
+Engine `lattice_forge.recursive_closure_engine.verify_s3_action` independently confirms the 7 S₃
+sequences = the 7-fold substitution paths (S₃ has order 6; the 7 non-identity elements are the 7
+paths). The chiral doublet `Δ = {(0,1,0),(1,1,0)}` is the locus where `∂` fires and generates the
+substitution. `verify_spectre_correction` (boundary_complex) confirms the Spectre tile family =
+correction firing at the chiral doublet, idempotent to Center bar, periodic within enumeration.
+
+**Honesty note:** the 7-fold / 7-path bijection is engine-supported. The "343-tile void mega-cluster"
+geometry (CQE-PAPER-021 §6.3) repeats the unsupported 343-count flagged in 14B.1 — **FLAGGED X** there.
+No A033996 claim in CQE-PAPER-021.
+
 ## 16. References
 
 ### 16.1 Canonical Papers

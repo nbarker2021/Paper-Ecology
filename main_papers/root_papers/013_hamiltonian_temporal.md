@@ -355,6 +355,23 @@ This paper fails if any of the following occur:
 
 ---
 
+## 13B. Anneal Delay Bound = Light-Cone Depth (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-013)
+
+CQE-PAPER-013's Thesis 13: the anneal delay — S₃ transposition steps to reach a Lie-conjugate
+vacuum — is bounded by **3** for all eight chart states, and this bound equals the light-cone
+depth of the LCR Triality's causal cone. The bound follows from T5 idempotency `M₃² = M₃`
+(exact over ℚ, residual 2.5×10⁻¹⁶; verified by `verify_n3_su3_closure_exact`).
+
+Engine `lattice_forge.boundary_complex.verify_anneal_distance` confirms: `anneal_distance(s) ≤ 3`
+for all `s ∈ Σ`, and the maximum is exactly 3 (achieved by **all six non-vacua**, not merely
+two states — see 012B.2). The T5 closure scale search (`search_for_su3_closure_scale`) finds
+`n=3` as the sharp closure scale (residual `2.5e-16`), with `n=1,2` non-zero and `n>3` at machine zero.
+
+**Honesty note:** CQE-PAPER-013's delay-distribution table (Table 2.2, "50% / 25% / 25%") and the
+per-state delay column are inconsistent with the honest BFS. The *bound* (≤3) and its tightness
+(max = 3) are correct; the *distribution* and per-state depths in that table are **FALSE — FLAGGED X.**
+No A033996 claim appears in CQE-PAPER-013.
+
 ## 15. References
 
 ### 15.1 Paper Series

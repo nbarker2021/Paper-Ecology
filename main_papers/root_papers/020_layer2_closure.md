@@ -603,6 +603,37 @@ This paper cross-references five data libraries:
 
 ---
 
+## 14B. Recursive Closure Operator & Universal Depth-3 Ceiling (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-020 / 022 / 023)
+
+CQE-PAPER-020 defines the recursive closure operator as the self-application of the LCR Triality,
+`RECURSIVE_CLOSURE = TRIALITY.project(TRIALITY)`, generating the closure hierarchy. CQE-PAPER-022
+argues depth 3 is the universal causal ceiling (anneal = substitution = closure = T5 scale = void).
+CQE-PAPER-023 proves the light-cone **is** the recursive closure.
+
+Engine `lattice_forge.recursive_closure_engine` verifies the honest core:
+
+| Verifier | Honest result |
+|---|---|
+| `verify_s3_action` | S₃ order 6; vacua fixed; off-diagonal two weight-orbits of 3 |
+| `verify_recursive_closure` | `triality_project` returns 7 children (7-fold); void boundary cap at depth ≥ 3; closure stabilizes at depth 3 |
+| `verify_recursive_light_cone_closure` | depth ceiling 3; base = 8 chart states; boundary = ∂ (2 chiral); apex = void (identity at depth 3) |
+
+### 14B.1 Fabrication flagged (343-tile void / 400 states)
+
+CQE-PAPER-020/022/023 claim the closure produces `1 → 7 → 49 → 343 = 400` distinct states with a
+343-tile void mega-cluster where `∂ = 0`. The engine's `triality_project` applies the 7 sequences to a
+*state*; from fixed points it returns copies of itself, so `recursive_closure` **dedups** and does
+**not** reach 400. The 343-tile count is a Spectre aperiodic-tiling assertion, **not** an engine
+closure count. **FLAGGED X** — we verify only what the engine actually produces (7-fold substitution,
+depth-3 void cap, stabilization).
+
+### 14B.2 Depth-3 ceiling (honest)
+
+The universal bound of 3 is real and engine-confirmed via two independent routes:
+- **Anneal:** `anneal_distance(s) ≤ 3` for all `s` (BFS on S₃ graph).
+- **T5:** `M₃² = M₃` exact at `n=3` (closure scale search).
+Both route to the same algebraic ceiling; the 343-count is the only unsupported item.
+
 ## 15. References
 
 ### 15.1 Framework Documents
