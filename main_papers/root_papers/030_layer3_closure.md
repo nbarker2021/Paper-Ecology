@@ -542,6 +542,23 @@ The inaccuracies in the Rule 30 center column values in Papers 010/020 are corre
 
 ---
 
+## 15B. Energy Quantum κ = ln(φ)/16 (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-030)
+
+CQE-PAPER-030 derives the fundamental energy quantum from the depth-3 closure fixed point:
+φ = (1+√5)/2 is the unique fixed point of the 3-step S₃ recursion (T5 idempotency M₃²=M₃
+exact ℚ at n=3), and κ = ln(φ)/16 is the log of that fixed point divided by the total path
+capacity 16 = 8 spectral edges × 2 chiralities.
+
+Engine `lattice_forge.axiom_verifiers.verify_kappa_derivation` confirms κ = ln(φ)/16 exact,
+and `lattice_forge.energy_quantum.verify_unified_energy_transport` confirms κ is the universal
+quantum: edge energy = κ, VOA excited-state energy = 5κ (2 vacua weight 0, 6 excited weight 5),
+total excited energy = 30κ, path-capacity denominator 16 = 8×2.
+
+**Honesty note:** the SM couplings (Higgs vev, α_em, sin²θ_W, m_W, m_Z, G_F, CKM) are produced
+by `calibrate_units` / `calibrate_ckm`, which are **E-category (externally calibrated)** verifiers —
+they require measured CODATA/PDG anchors and are NOT derived from κ inside the engine. No A033996
+claim in CQE-PAPER-030.
+
 ## 15. References
 
 ### 15.1 Framework Documents

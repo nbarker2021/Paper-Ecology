@@ -645,6 +645,40 @@ of a specific transition. Both vanish on correction-free crossings and are posit
 exactly when the correction operator fires. The global quantum is the residue of
 the depth-3 closure; the local curvature is its differential expression along a path.
 
+## 16.6 VOA Partition Z(q) = 2q⁰ + 6q⁵ (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-031)
+
+CQE-PAPER-031's Theorem 31: the chart partitions uniquely into 2 true vacua (weight 0,
+energy 0) and 6 excited states (weight 5, energy 5κ = 0.150378…). Engine
+`lattice_forge.centroid_voa.verify_voa_partition` (2 vacua, 6 excited, partition match,
+density) and `verify_voa_sector_decomposition` confirm this. The partition is the energy
+spectrum; non-periodicity is proven by the static weight distribution over 4,096 depths.
+No A033996 claim in CQE-PAPER-031.
+
+## 16.7 Mass = Bonded Interactions × κ (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-032)
+
+CQE-PAPER-032's Theorem 32: `m(state) = N_bonds × κ`, mass being total bondedness. Engine
+`lattice_forge.energy_quantum.verify_tarpit_mass_formula` confirms the linear formula (single
+tile = κ, depth-1 cluster = 7κ, depth-2 = 49κ) and that the Higgs-vev relation
+`v = 120 × κ × α × scale` is a `calibrate_units` calibration claim (E-category).
+
+**FLAGGED X:** the void-apex figure `m = 343 × κ = 10.302` uses **N_bonds = 343**, the
+**unsupported 343-tile closure count** (flagged in the recraft of CQE-PAPER-020/022/023). The
+deduping closure engine does NOT produce 343 distinct states, so that specific mass value rests
+on an unverified tiling count. The *formula* is honest; the *343 basis* is not.
+
+## 16.8 Coupling Transport = κ Powers (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-033)
+
+CQE-PAPER-033 routes the three SM couplings through the three LCR channels: αₛ = 5κ/π (L),
+αₑₘ = κ²·sin²θ_W (C), G_N = κ³ (R). Engine `lattice_forge.energy_quantum.verify_coupling_transport`
+computes the honest raw values: αₛ = 5κ/π ≈ 0.04785 (the running to 0.1179 is calibration),
+G_N = κ³ ≈ 2.72×10⁻⁵ geometric units (conversion to 6.67×10⁻¹¹ is calibration).
+
+**FLAGGED X (arithmetic error in source):** CQE-PAPER-033 §6.1 claims
+`1/(κ²·sin²θ_W) = 137.035999…`, but the true reciprocal of κ²·sin²θ_W (≈2.09×10⁻⁴) is
+**≈4782, not 137**. The αₑₘ⁻¹ = 137.036 figure is a `calibrate_units` calibration result
+(E-category), **not** produced by the κ formula. The paper's internal derivation of αₑₘ from κ
+is therefore not valid. No A033996 claim in CQE-PAPER-033.
+
 ## 17. Practical Worked Example
 
 **Domain:** Water molecule transport across a crystal lattice defect at a silicon vacancy.
