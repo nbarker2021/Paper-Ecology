@@ -1,0 +1,131 @@
+arXiv:2512.08225v2 [hep-th] 19 Feb 2026
+
+KYUSHU-HET-343
+Haagerup Symmetry in (E8)1?
+Jan Albert1, Yamato Honda2, Justin Kaidi2,3,4, Yunqin Zheng5 1Princeton Center for Theoretical Science, Princeton University, Princeton, NJ 08544, USA
+2Department of Physics, Kyushu University, Fukuoka 819-0395, Japan 3Institute for Advanced Study, Kyushu University, Fukuoka 819-0395, Japan 4Quantum and Spacetime Research Institute (QuaSR), Kyushu University, Fukuoka 819-0395, Japan 5Kavli Institute for Theoretical Sciences, University of Chinese Academy of Sciences, Beijing, 100190, China
+(Dated: February 20, 2026)
+We suggest that the chiral (e8)1 theory--in many senses the simplest VOA--may have Haagerup symmetry Hi for i = 1, 2, 3. Likewise, we suggest that the non-chiral (E8)1 WZW model may have Hi × Hiop symmetry, and that gauging the diagonal symmetry gives a c = 8 theory with Z(H3) symmetry, which is the theory predicted in [1]. Along the way, we show that (E8)1 also has a Fib × Fibop symmetry, and that gauging the diagonal symmetry gives the (G2)1 × (F4)1 WZW model, explaining the well-known conformal embedding (G2)1 × (F4)1  (E8)1. Finally, we suggest a relation to theories with H3 symmetry at c = 2, 6, complimenting the discussion with new modular bootstrap results.
+
+Symmetry has long been a central organizing principle in theoretical physics, underlying phenomena from crystalline order to particle interactions. Traditional notions of symmetry are rooted in groups of transformations that act on physical systems, but recent advances in quantum field theory and condensed matter physics have revealed a richer landscape of "non-invertible" symmetries, which cannot be described by ordinary groups, instead generalizing to algebraic structures known as fusion categories. Among these, the Haagerup categories [2, 3] stand out for being the simplest examples resisting realization in familiar quantum theories. In this work, we propose that the conformal field theory associated with the exceptional Lie algebra E8 at level one--one of the simplest two-dimensional theories--naturally hosts Haagerup-type symmetry. These results provide a concrete new setting in which exotic symmetry structures may emerge in otherwise well-known quantum systems.
+The Haagerup fusion categories Hi for i = 1, 2, 3 where originally identified in [2, 3], with the latter two having six simple objects and the following fusion ring,
+
+3 = 1 ,  = 2 ,
+
+2 = 1 +  +  + 2 ,
+
+(1)
+
+as is explained in more detail in the Supplemental Materials. An explicit construction of a gapless theory with Haagerup symmetry was given in [4], though this theory has multiple vacua 1. On the other hand, a variety of recent results point to the existence of a gapless theory with a unique vacuum with Haagerup symmetry--for example, a series of numerical results have hinted at the
+
+existence of such a theory around central charge c  2 [7­11].
+In significantly older work, Evans and Gannon argued for the existence of c  8Z theories with Z(H3) symmetry, with Z(H3) being the Drinfeld center of H3 [1]. Though they were unable to give a complete construction of such theories, they were able to use the modular data of Z(H3) to constrain the modular characters, and in the case of c = 8 they noticed an intriguing connection to the chiral (e8)1 theory, as well as its sub-VOA (e6)1 × (a2)1.
+In the current work, we offer an explanation for this connection at the level of the non-chiral (E8)1 WZW model; to avoid confusion, we will denote the chiral theory by (e8)1, and the non-chiral theory by (E8)1. In particular, we will suggest that (E8)1 has an H3 × H3op symmetry 2, and that gauging the diagonal H3 symmetry (using recent techniques for non-invertible gauging developed in e.g. [12­15]) gives the putative Z(H3) theory predicted by Evans and Gannon. The role of the invertible Z3 element in the diagonal H3 is played by the Z3B conjugacy class in E8, whose centralizer is E6 × A2.
+We will also see that (e8)1 is self-dual under certain gaugings, which would imply that (e8)1 has Hi symmetry for i = 1, 2, 3, as well as a number of additional duality defects. Finally, we will discuss connections to the c  2 theory predicted in [8­11], suggest the existence of a c  6 counterpart, and compliment the discussion with new modular bootstrap results, summarized in Figures 2 and 3. Details will be given in upcoming work [16].
+Let us also note that Appendix B, which gives a simple prescription for computing the change in fusion categories upon discrete gauging, may be of independent interest to the reader.
+
+1 A gapped theory with Haagerup symmetry was constructed in [5]. Non-unitary candidates for RCFTs with Haagerup symmetry have also appeared in [6].
+
+2 Here Cop represents the opposite category to C, which has the same objects and fusion rules but with oppposite associators. For braided categories, the braiding is also inverted.
+
+2
+
+I. WARM-UP: AUTOMORPHISMS OF E8
+
+By far the most well-understood class of symmetries in two-dimensional rational conformal field theories (RCFTs) are those generated by Verlinde lines [17, 18]. Verlinde lines commute not only with the Virasoro generators, but also with the full chiral algebra of the RCFT. It is the latter property which enables their straightforward classification, and for diagonal RCFTs they can be shown to be in one-to-one correspondence with RCFT primaries, further sharing the same fusion rules.
+However, Verlinde lines are not the only symmetries of RCFTs. Indeed, there can be a variety of line operators which are topological, but which do not commute with the chiral algebra. The current letter will focus on a certain class of such symmetries in the (E8)1 WZW model.3
+The basic idea can be illustrated via the following simple example. Consider the well-known conformal embedding (E7)1 × (A1)1  (E8)1. Unlike (E8)1, which has no non-trivial primary operators, and hence whose torus partition function can be written solely in terms of the vacuum character,
+
+ZE8 ( ) := |E0 8 |2 ,
+
+(2)
+
+with
+
+E0 8 = q-1/3 1 + 248q + 4124q2 + 34752q3 + . . . , (3)
+
+each of (E7)1 and (A1)1 has a single non-trivial primary,
+
+with
+
+respective
+
+conformal
+
+weights
+
+h
+
+=
+
+3 4
+
+and
+
+1 4
+
+.
+
+As
+
+such,
+
+the diagonal torus partition function is written as a sum
+
+of four terms,
+
+ZE7×A1 ( ) = |0E7 0A1 |2 + |E3/74A0 1 |2 +|E0 7 A1/14|2 + |E3/74A1/14|2 . (4)
+
+In this diagonal theory, there is a Verlinde line corresponding to each non-trivial primary, which in total generate a Z2 × Z2 symmetry. In particular, we have topological lines i for i = 1, 2 such that
+
+1|1E7 = |1E7 , 2|1A1 = |1A1 ,
+
+1|3/4E7 = -|3/4E7 , 2|1/4A1 = -|1/4A1 , (5)
+
+and the remaining actions are trivial.
+It is straightforward to verify that gauging the diagonal symmetry generated by  := 12 takes us from the diagonal (E7)1 × (A1)1 WZW model to the (E8)1 WZW model. Indeed, computing the twisted-twined partition
+
+3 Previous discussions of symmetries of (E8)1 which do not commute with the chiral algebra can be found in [19­22].
+
+functions,
+
+ZE7×A1 | = |E0 7 A0 1 |2 - |E3/74A0 1 |2
+
+-|E0 7 A1/14|2 + |E3/741A/14|2 ,
+
+ZE7×A1 | = 0E7 0A1 3E/74A1/14
+
++E0 7 1A/143E/740A1 + c.c. ,
+
+ZE7×A1 | = E0 7 A0 1 E3/74A1/14
+
+-0E7 1A/14E3/74A0 1 + c.c. ,
+
+(6)
+
+taking their sum, and dividing by the order of the group (two), we immediately land upon
+
+ZE7×A1/( ) = |E0 7 A0 1 + 3E/74A1/14|2 ,
+
+(7)
+
+which is equivalent to the (E8)1 partition function in (2), upon recalling the well-known fact that
+
+E0 8 = 0E7 A0 1 + E3/74A1/14 ,
+
+(8)
+
+which follows from the decomposition 248  (133, 1)  (1, 3)  (56, 2).
+Because it was possible to go from (E7)1 × (A1)1 to (E8)1 by gauging a discrete symmetry, there must exist a symmetry which can be gauged to go back. This symmetry will clearly not commute with the chiral algebra of E8, and instead should be such that its centralizer in E8 is E7 × A1. Of course, the symmetry in this case is well-known--it is the subgroup Z2A  Aut(E8) (see e.g. [23]).
+However, let us assume that we did not know this. A simpler way to arrive at this is to "lift" the Verlinde lines of (E7)1 × (A1)1 in the following way (this lifting procedure is discussed in more detail in Appendix B). Since  is trivial in (E8)1, let us focus on 2. We now use the action of 2 on primaries in (A1)1 to define two operations in (E8)1, acting on the chiral and anti-chiral characters as
+
+L : (E0 7 0A1 , 3E/741A/14)  (0E7 0A1 , -E3/741A/14) , R : (0E7 0A1 , 3E/741A/14)  (E0 7 A0 1 , -E3/741A/14) . (9)
+
+Each of these can be thought of as defining a symmetry in one of the two chiral halves (e8)1 making up the (E8)1 theory.
+While both of these symmetries are anomalous (see e.g. Table 2 in [19]), the diagonal symmetry  := LR is non-anomalous, and gauging it takes us back to (E7)1 × (A1)1--in other words,  generates Z2A. This can be seen by computing the twisted-twined partition functions via (9) and the modular S-matrix, giving
+
+ZE8 ( )| = |0E7 0A1 - 3E/74A1/14|2 , ZE8 ( )| = |3E/74A0 1 + E0 7 A1/14|2 , ZE8 ( )| = |E3/740A1 - E0 7 A1/14|2 ,
+
+(10)
+
+

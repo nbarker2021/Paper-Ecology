@@ -1,0 +1,138 @@
+arXiv:2507.19897v2 [astro-ph.CO] 26 Jan 2026
+
+Prepared for submission to JCAP
+From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r
+Wen-Zheng Chen ID a,b, Yang Liu ID a,, Yi-Ming Wang ID a,b, Hong Li ID a,b,
+aKey Laboratory of Particle Astrophysics, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, People's Republic of China bUniversity of Chinese Academy of Sciences, Beijing 100049, People's Republic of China
+E-mail: liuy92@ihep.ac.cn, hongli@ihep.ac.cn
+Abstract. Delensing--the process of mitigating the lensing-induced B-mode contamina-
+tion in cosmic microwave background (CMB) observations--will be a pivotal challenge for next-generation CMB experiments seeking to detect primordial gravitational waves (PGWs) through B-mode polarization. This process requires an accurate lensing tracer, which can be obtained either through internal reconstruction from high-resolution CMB observations or from external large-scale structure (LSS) surveys. Ground-based large-aperture telescopes (LATs) are crucial for internal reconstruction, yet existing and planned facilities are confined to the southern hemisphere, limiting effective delensing to that region. In this work, we assess the impact of introducing a northern hemisphere LAT, assumed to be situated near AliCPT (hence termed Ali-like LAT, or LATN), on delensing performance and PGW detection, using simulations. Our baseline setup includes a space-based small-aperture mission (LiteBIRDlike, SAT) and a southern LAT (SO-like, LATS). External LSS tracers, which have been shown to play an important role in delensing before the availability of ultra-sensitive polarization data, are also considered. We find that southern-hemisphere internal delensing reduces the uncertainty in r by 17% compared to the no-delensing case. Adding LATN enables full-sky internal delensing, achieving a further 18% reduction--comparable to that from including LSS tracers (13%). Once LATN is included, the marginal benefit of LSS tracers drops to 10%. These results highlight the significant role of LATN in advancing delensing capabilities and improving PGW constraints.
+Keywords: CMBR polarisation, CMBR experiments, gravitational waves, CMBR polariza-
+tion, cosmological parameters from CMBR
+ArXiv ePrint: 2507.19897
+ Corresponding author.
+
+Contents
+
+1 Introduction
+
+1
+
+2 Large-scale B-mode Delensing
+
+3
+
+2.1 Delensing Method Description
+
+4
+
+2.2 Bias Analysis
+
+5
+
+2.2.1 Bias Analysis of the Gradient-Order Template Method
+
+5
+
+2.2.2 Bias Analysis of the Inverse-Lensing Method
+
+6
+
+2.2.3 Bias Analysis Formula on power spectral level
+
+6
+
+3 Step-by-Step Delensing Process: Techniques and Implementation
+
+7
+
+3.1 Data Simulation
+
+7
+
+3.2 Needlet Internal Linear Combination
+
+10
+
+3.3 Map combination
+
+13
+
+3.4 Lensing Reconstruction
+
+15
+
+3.4.1 Internal Lensing Reconstruction
+
+15
+
+3.4.2 External Lensing Reconstruction
+
+17
+
+3.5 Lensing B-mode Template Construction
+
+18
+
+3.5.1 Constructing LT on map-level
+
+18
+
+3.5.2 Bandpower calculation and bias estimation
+
+19
+
+3.6 Likelihood analysis and r constraint
+
+20
+
+4 Delensing Pipeline Performance
+
+21
+
+4.1 Results of lensing reconstruction
+
+21
+
+4.2 Results of LT construction
+
+22
+
+4.3 Results on the r constraint
+
+24
+
+5 Conclusions
+
+26
+
+A Quantification of the Delensing bias terms
+
+29
+
+B Alternative choice in the likelihood analysis
+
+32
+
+B.1 Covariance conditioning Schemes
+
+32
+
+B.2 Alternative likelihood function
+
+33
+
+C Joint delensing on full sky
+
+37
+
+D Alternative choice to mitigate extragalactic bias
+
+37
+
+1 Introduction
+The Cosmic Microwave Background (CMB) radiation, a faint glow left over from the early universe, serves as a crucial window into the cosmos' infancy. As one of the most important sources of information about the early universe, the CMB anisotropies provide a detailed snapshot of cosmic conditions just a few hundred thousand years after the Big Bang, offering critical insights into cosmology. In particular, the study of CMB B-mode polarization
+
+­1­
+
+

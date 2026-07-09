@@ -1,0 +1,14 @@
+# 03 — Environment Contract
+
+- **Interpreter:** use `D:\Paper Ecology\EnvLib\.venv\Scripts\python.exe` — the one canonical
+  ecology env (numpy / scipy / mcp / anyio / pypdf / pytest + editable `cqe-kernel`). Recreate
+  via `D:\Paper Ecology\EnvLib\bootstrap_env.py` (offline-first) or `bootstrap_env.ps1`.
+- **Offline / kit:** `D:\Paper Ecology\EnvLib\wheelhouse\` installs everything with `--no-index`
+  (no internet). The ecology is meant to run fully local. Any dep added to
+  `requirements.ecology.txt` MUST also be added to the wheelhouse + `WHEELHOUSE_MANIFEST.json`.
+- **Kernel purity:** `cqe-kernel` is stdlib-only, ZERO runtime deps — that is its defining
+  property. Install it editable only; never add a runtime dependency to it.
+- **Shell:** PowerShell 7 (`pwsh`) is the default; the automation profile launches with
+  `-ExecutionPolicy Bypass` so Cursor shell integration loads. Do not assume `bash`.
+
+MannyAI runtime paths (per `AGENTS.md`): `FORGE_BASE=D:/forge-base/lib`, then `src`.

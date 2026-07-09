@@ -1,0 +1,152 @@
+Tests of scalar polarizations with multi-messenger events
+Sk Md Adil Imam1,  and Macarena Lagos1,  1Institute of Astrophysics, Department of Physics and Astronomy, Universidad Andr´es Bello, Santiago, Chile
+Gravitational wave (GW) observations provide a unique opportunity to test Einstein's General Relativity (GR) in the strong-field regime. While GR predicts only two tensor polarization modes, generic metric theories allow up to six independent modes. We perform a parameterized test of GR using the parameterized post-Einsteinian (PPE) framework applied to GW170817, incorporating for the first time the polarization angle constraints from the gamma-ray burst afterglow alongside other electromagnetic (EM) counterpart information. We extend the GR waveform by adding a scalar breathing mode and modifications to the tensor modes, introducing three non-GR parameters. We perform Bayesian inference for both quadrupole  = |m| = 2 and dipole  = |m| = 1 angular harmonics, with two frequency evolution models. For  = |m| = 2 , we find mild preference for a scalar mode (scalar amplitude deviates from zero at  2), while for the  = |m| = 1, we find no preference for a scalar mode. The EM constraint on the polarization angle places very tight bounds on non-GR parameters; for instance, in the case  = |m| = 2, the bound on the scalar (tensor) amplitude modification parameter improves by roughly 60% (30%), highlighting the impact that long-term follow up of GW events can have on tests of gravity.
+
+arXiv:2604.24526v1 [gr-qc] 27 Apr 2026
+
+I. INTRODUCTION
+While the theory of General Relativity (GR) has been exquisitely confirmed around the Solar System by constraining deviations to less than the 10-4 level [1], its predictive power reaches its limits at high energies, where GR is known to be incomplete [2]. Gravitational waves (GWs) are a key observable that provides direct information on the high-energy regime of gravity, since the signals detectable to date come from extreme astrophysical compact objects with strong gravitational fields [3­5]. GW data from the current detector network (LIGO [6], VIRGO [7], KAGRA [8]) have already been used to perform various tests of gravity [3, 9­27], and the planned and proposed next-generation GW detectors (e.g. Einstein Telescope [28], Cosmic Explorer [29], LISA [30]) will improve the sensitivity of GW measurements by approximately an order of magnitude.
+In GR, gravitational waves contain only two transverse tensor polarization modes: plus (+) and cross (×) modes [31­36]. Modified metric theories of gravity, however, can allow up to six independent polarization modes. For example, scalar-tensor and massive-graviton models can give rise to additional breathing (b) and/or longitudinal polarization scalar modes, due to the presence of a scalar degree of freedom [1]. In contrast, vector-tensor gravity theories typically predict two longitudinal vector polarizations [1]. More comprehensive theories like tensorvector-scalar theories allow all six possible polarization states [37, 38], whereas Einstein­Aether models support five distinct modes [39­41]. Similarly, bimetric theories are expected to exhibit the complete set of six polarizations [1, 42­44]. Detection of non-tensorial polarization modes in GW signals would provide direct evidence that GR is incomplete.
+Binary neutron star (BNS) mergers offer a distinct advantage for polarization tests: they produce electromagnetic (EM) counterparts that constrain the binary's orientation. The orientation is characterized by two angu-
+ adil.imam@unab.cl  macarena.lagos.u@unab.cl
+
+lar parameters--the inclination angle  and the polarization angle --which are the primary quantities determining the polarization content of the GW signal in GR. GW170817 [45] was the first multi-messenger event with comprehensive EM observations that enabled such measurements. The radio observations of the gamma-ray burst afterglow--characterized through Very Long Baseline Interferometry (VLBI) [46, 47]--provided constraints on both the inclination angle [48] and the polarization angle [49]. The kilonova observation further provided sky localization and redshift measurements [50], which break parameter degeneracies inherent in GW-only analyses. Since EM counterparts are not typically expected from binary black hole mergers, BNS systems thus provide unique opportunities to improve polarization measurements through the combination of GW and EM data.
+Most research to date has tested gravity through modifications to the amplitude and phase of GWs [51], but not through polarization content. The few polarization tests performed use binary black hole / neutron star mergers, where parameter degeneracies result in poorly constrained polarizations [19­21, 23, 26, 51­60]. Some studies construct waveform models that allow multiple polarization modes (typically tensor and scalar) to coexist [61]. In [61], accounting for scalar mode polarization induced energy loss up to second order yields corrections to both the amplitude and phase of the tensor modes, with these modifications parameterized by the scalar polarization parameter. The detector strain is written as a sum over polarizations weighted by antenna pattern functions, and Bayesian inference is used to estimate their amplitudes. This differs from pure polarization tests [53, 57], which assume one mode at a time and compare models; mixed models instead constrain non-tensor components while retaining the tensor contribution.
+Parameterized tests of GR, such as the Flexible-TheoryIndependent method [21] and those in [19, 20, 23, 26], typically modify only the phase of the standard tensor (+, ×) modes, without introducing additional polarizations or amplitude changes. The deviations are applied across the inspiral and taper toward merger­ringdown; the leading -1PN parameter -2 captures possible indirect dipole radiation. Other parameterized tests, such as [60, 61], do
+
+2
+
+include extra polarizations with waveforms motivated by specific gravity theories. This is the approach that will be used in this paper.
+Alternatively, in [26, 54, 56], the null-stream method forms linear combinations of detector outputs that cancel the GR tensor modes, so any residual indicates nontensor polarizations. This approach is model-independent and does not assume a specific waveform, but it does not use full alternative-polarization waveforms; residuals are treated phenomenologically, so constraints depend on detector geometry and do not capture detailed phase or amplitude effects to be able to map them to specific gravity theories.
+In this paper, we use the angular information from EM counterparts--incorporating for the first time the polarization angle constraints from the gamma-ray burst afterglow--to improve polarization tests of gravity using GW170817. Note that at least five non-aligned differentialarm GW detectors are needed in order to resolve all five independent GW polarizations (as the two scalar modes are not distinguishable by these types of detectors), [33, 62]. Given this current limitation of GW detectors, and motivated by the most commonly studied scalar-tensor gravity theories, we focus on testing the existence of only a scalar breathing polarization, additionally including amplitude and phase modifications of the tensor polarizations for consistency. Fig. 1 illustrates how space is distorted in the presence of the tensor and breathing polarizations.
+
++ pol riz tion y
+
+× pol riz tion y
+
+b pol riz tion y
+
+x
+
+x
+
+x
+
+a a
+
+a a
+
+Figure 1. Illustration of how the polarizations +, × and b (scalar breathing) of a GW traveling towards z^ affect a ring of test particles. The red circle represents the unperturbed ring, while the orange and blue ellipses/circles represent the perturbed ring at different moments in time.
+
+We use a theory-agnostic approach and use the parameterized post-Einsteinian (PPE) framework [63] for describing the deviations from GR during the inspiral, where we will add six extra non-GR waveform parameters. We model deviations from GR in both the quadrupole  = m = 2 and dipole  = m = 1 angular harmonics, with two possible frequency evolutions. We perform Bayesian inference on the GW170817 signal before the merger incorporating all the EM information through priors. For  = m = 2, we find mild evidence for a scalar polarization mode, along with deviations from the GR tensor polarizations. Instead, for  = m = 1 we find no deviation from GR. We analyze how much each EM constraint (sky location, luminosity distances, inclination angle, polarization angle) helps improve the breathing scalar mode. The polarization angle
+
+constraint places very tight bounds on non-GR parameters; for instance, in the case  = |m| = 2, the bound on the tensor amplitude modification parameter improves by roughly a factor of two.
+The paper is structured as follows: Section II describes the waveform model for the three polarization modes studied within the PPE framework, and describes the incorporation of EM information and methodology for parameter estimation. In Section III we present the resulting constraints on deviations from GR, and the impact of the EM information. In Section IV we provide a summary and conclusions of this work. Throughout this work, we use geometric units where G = c = 1.
+
+II. METHODOLOGY
+This section is structured as follows. In Sec. II A we summarize the polarizations of gravitational waves and describe the PPE formalism for tensor and breathing modes. In Sec. II B we summarize the EM counterparts to the event GW170817 and the parameter constraints it provides. In Sec. II C we summarize the methodology of the Bayesian parameter estimation performed here, and the priors used.
+
+A. Waveform Model
+
+A generic metric theory of gravity can allow up to six independent polarization modes [34, 62]: plus (+), cross (×), vector-x (x), vector-y (y), breathing (b), and longitudinal (). For arbitrary polarization content, the response h induced in a GW detector can be written as:
+
+h = Fp(, , )hp(t, , c),
+
+(1)
+
+p
+
+where the sum runs over the six polarizations p  {+, ×, x, y, b, } and the detector response functions Fp for an L-shaped detector are given by [64]
+
+F+
+
+=
+
+1 2
+
+(1
+
++
+
+cos2
+
+) cos 2
+
+cos 2
+
+-
+
+cos  sin 2
+
+sin 2,
+
+(2)
+
+F×
+
+=
+
+1 2
+
+(1
+
++
+
+cos2
+
+) sin 2
+
+cos 2
+
++
+
+cos  cos 2
+
+sin 2,
+
+(3)
+
+Fx = - sin  (cos  cos 2 cos  - sin 2 sin ) ,
+
+(4)
+
+Fy = - sin  (cos  cos 2 sin  + sin 2 cos ) ,
+
+(5)
+
+Fb
+
+=
+
+-
+
+1 2
+
+cos
+
+2
+
+sin2
+
+,
+
+(6)
+
+F
+
+=
+
+1 2
+
+cos 2 sin2
+
+,
+
+(7)
+
+where  and  denote the polar and azimuthal sky coordinates of the source, and  is the polarization angle characterizing the orientation of the binary plane in the sky.
+With three operational detectors during GW170817 (two LIGO sites and Virgo)1, we can constrain up to three independent polarization modes [18, 65­67]. We focus on the two tensor modes (+, ×) plus one scalar mode. We choose a scalar mode over vector modes because vector polarizations
+
+1 The two LIGO detectors are nearly coaligned, providing approximately two independent measurements.
+
+

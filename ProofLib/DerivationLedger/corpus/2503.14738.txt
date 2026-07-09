@@ -1,0 +1,58 @@
+arXiv:2503.14738v3 [astro-ph.CO] 9 Oct 2025
+
+DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and
+Cosmological Constraints
+M. Abdul Karim ,1 J. Aguilar,2 S. Ahlen ,3 S. Alam ,4 L. Allen,5 C. Allende Prieto ,6, 7 O. Alves,8 A. Anand ,2 U. Andrade ,9, 8 E. Armengaud ,1 A. Aviles ,10, 11 S. Bailey ,2 C. Baltay,12 P. Bansal ,9, 8 A. Bault ,2 J. Behera,13 S. BenZvi ,14 D. Bianchi ,15, 16 C. Blake ,17 S. Brieden ,18 A. Brodzeller ,2 D. Brooks,19
+E. Buckley-Geer,20, 21 E. Burtin,1 R. Calderon ,22 R. Canning,23 A. Carnero Rosell ,6, 7 P. Carrilho,18 L. Casas,24 F. J. Castander ,25, 26 R. Cereskaite,27 M. Charles ,28 E. Chaussidon ,2 J. Chaves-Montero ,24 D. Chebat ,1
+X. Chen ,12 T. Claybaugh,2 S. Cole ,29 A. P. Cooper ,30 A. Cuceu ,2, 31 K. S. Dawson ,32 A. de la Macorra ,33 A. de Mattia ,1 N. Deiosso ,34 J. Della Costa ,35, 5 R. Demina,14 A. Dey ,5 B. Dey ,36, 37 Z. Ding ,38 P. Doel,19
+J. Edelstein,39, 40 D. J. Eisenstein,41 W. Elbers ,29 P. Fagrelius,5 K. Fanning ,42, 43 E. Ferna´ndez-Garc´ia ,44 S. Ferraro ,2, 40 A. Font-Ribera ,24 J. E. Forero-Romero ,45, 46 C. S. Frenk ,29 C. Garcia-Quintero ,41, 31
+L. H. Garrison ,47, 48 E. Gaztan~aga,25, 23, 26 H. Gil-Mar´in ,49, 25, 50 S. Gontcho A Gontcho ,2 D. Gonzalez ,51 A. X. Gonzalez-Morales ,51 C. Gordon ,24 D. Green ,52 G. Gutierrez,21 J. Guy ,2 B. Hadzhiyska ,53, 2, 40 C. Hahn ,54 S. He,55 M. Herbold ,28 H. K. Herrera-Alcantar ,56, 1 M.-F. Ho ,9, 8 K. Honscheid ,57, 58, 28
+C. Howlett ,59 D. Huterer ,8 M. Ishak ,60 S. Juneau ,5 N. V. Kamble ,60 N. G. Kara¸cayli ,57, 61, 58, 28 R. Kehoe,62 S. Kent ,20, 21 A. G. Kim ,2 D. Kirkby ,52 T. Kisner ,2 S. E. Koposov ,18, 53 A. Kremin ,2 A. Krolewski,63, 64, 65
+O. Lahav,19 C. Lamman ,41 M. Landriau ,2 D. Lang,64 J. Lasker ,66 J.M. Le Goff,1 L. Le Guillou ,67 A. Leauthaud ,68, 69 M. E. Levi ,2 Q. Li ,32 T. S. Li ,36 K. Lodha ,70, 71 M. Lokken,24 F. Lozano-Rodr´iguez ,51 C. Magneville,1 M. Manera ,72, 24 P. Martini ,57, 61, 28 W. L. Matthewson ,70 A. Meisner ,5 J. Mena-Fern´andez ,73
+A. Menegas,29 T. Mergulh~ao ,18 R. Miquel,74, 24 J. Moustakas ,75 A. Mun~oz-Guti´errez,33 D. Mun~oz-Santos,76 A. D. Myers,77 S. Nadathur ,23 K. Naidoo ,23 L. Napolitano ,77 J. A. Newman ,37 G. Niz ,51, 11
+H. E. Noriega ,10, 33 E. Paillas ,78 N. Palanque-Delabrouille ,1, 2 J. Pan ,8 J. A. Peacock ,18 M. P. Ibanez ,18 W. J. Percival ,63, 64, 65 A. P´erez-Fern´andez ,79 I. P´erez-Ra`fols ,80 M. M. Pieri ,76 C. Poppett,2, 39, 40
+F. Prada ,44 D. Rabinowitz,12 A. Raichoor ,2 C. Ram´irez-P´erez,24 M. Rashkovetskyi ,41 C. Ravoux ,81 J. Rich,1, 67 A. Rocher ,55, 1 C. Rockosi ,68, 69, 82 J. Rohlf ,3 J. O. Roma´n-Herrera ,51 A. J. Ross ,57, 61, 28 G. Rossi,83 R. Ruggeri ,84 V. Ruhlmann-Kleider ,1 L. Samushia ,85, 13, 86 E. Sanchez ,34 N. Sanders ,87 D. Schlegel,2 M. Schubnell,8 H. Seo ,87 A. Shafieloo ,70, 71 R. Sharples ,88, 29 J. Silber ,2 F. Sinigaglia ,6, 7 D. Sprayberry,5 T. Tan ,1 G. Tarl´e ,8 P. Taylor,28 W. Turner ,57, 61, 28 L. A. Uren~a-Lo´pez ,51 R. Vaisakh ,62 F. Valdes ,5 G. Valogiannis ,20, 21 M. Vargas-Magan~a ,33 L. Verde ,74, 50 M. Walther ,89, 90 B. A. Weaver,5 D. H. Weinberg ,61, 28 M. White ,91, 40 M. Wolfson,28 C. Y`eche ,1 J. Yu ,55 E. A. Zaborowski ,57, 58, 28
+P. Zarrouk ,67 Z. Zhai,92 H. Zhang ,63, 65 C. Zhao ,93 G. B. Zhao ,94, 95 R. Zhou ,2 and H. Zou 94
+(DESI Collaboration)
+1IRFU, CEA, Universit´e Paris-Saclay, F-91191 Gif-sur-Yvette, France 2Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA 3Physics Dept., Boston University, 590 Commonwealth Avenue, Boston, MA 02215, USA 4Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400005, India
+5NSF NOIRLab, 950 N. Cherry Ave., Tucson, AZ 85719, USA 6Departamento de Astrof´isica, Universidad de La Laguna (ULL), E-38206, La Laguna, Tenerife, Spain
+7Instituto de Astrof´isica de Canarias, C/ V´ia La´ctea, s/n, E-38205 La Laguna, Tenerife, Spain 8Department of Physics, University of Michigan, 450 Church Street, Ann Arbor, MI 48109, USA 9Leinweber Center for Theoretical Physics, University of Michigan, 450 Church Street, Ann Arbor, Michigan 48109-1040, USA
+10Instituto de Ciencias F´isicas, Universidad Nacional Auto´noma de
+M´exico, Av. Universidad s/n, Cuernavaca, Morelos, C. P. 62210, M´exico 11Instituto Avanzado de Cosmolog´ia A. C., San Marcos 11 - Atenas
+202. Magdalena Contreras. Ciudad de M´exico C. P. 10720, M´exico 12Physics Department, Yale University, P.O. Box 208120, New Haven, CT 06511, USA 13Department of Physics, Kansas State University, 116 Cardwell Hall, Manhattan, KS 66506, USA
+14Department of Physics & Astronomy, University of Rochester, 206
+Bausch and Lomb Hall, P.O. Box 270171, Rochester, NY 14627-0171, USA 15Dipartimento di Fisica "Aldo Pontremoli", Universita` degli Studi di Milano, Via Celoria 16, I-20133 Milano, Italy
+16INAF-Osservatorio Astronomico di Brera, Via Brera 28, 20122 Milano, Italy 17Centre for Astrophysics & Supercomputing, Swinburne University
+of Technology, P.O. Box 218, Hawthorn, VIC 3122, Australia 18Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh EH9 3HJ, UK
+19Department of Physics & Astronomy, University College London, Gower Street, London, WC1E 6BT, UK 20Department of Astronomy and Astrophysics, University of Chicago, 5640 South Ellis Avenue, Chicago, IL 60637, USA
+
+2
+21Fermi National Accelerator Laboratory, PO Box 500, Batavia, IL 60510, USA 22CEICO, Institute of Physics of the Czech Academy of Sciences, Na Slovance 1999/2, 182 21, Prague, Czech Republic. 23Institute of Cosmology and Gravitation, University of Portsmouth, Dennis Sciama Building, Portsmouth, PO1 3FX, UK
+24Institut de F´isica d'Altes Energies (IFAE), The Barcelona Institute of Science
+and Technology, Edifici Cn, Campus UAB, 08193, Bellaterra (Barcelona), Spain 25Institut d'Estudis Espacials de Catalunya (IEEC), c/ Esteve Terradas
+1, Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels, Spain 26Institute of Space Sciences, ICE-CSIC, Campus UAB, Carrer de Can Magrans s/n, 08913 Bellaterra, Barcelona, Spain
+27Department of Physics and Astronomy, University of Sussex, Brighton BN1 9QH, U.K 28The Ohio State University, Columbus, 43210 OH, USA
+29Institute for Computational Cosmology, Department of Physics, Durham University, South Road, Durham DH1 3LE, UK 30Institute of Astronomy and Department of Physics, National Tsing
+Hua University, 101 Kuang-Fu Rd. Sec. 2, Hsinchu 30013, Taiwan 31NASA Einstein Fellow
+32Department of Physics and Astronomy, The University of Utah, 115 South 1400 East, Salt Lake City, UT 84112, USA 33Instituto de F´isica, Universidad Nacional Aut´onoma de M´exico, Circuito de la
+Investigacio´n Cient´ifica, Ciudad Universitaria, Cd. de M´exico C. P. 04510, M´exico 34CIEMAT, Avenida Complutense 40, E-28040 Madrid, Spain
+35Department of Astronomy, San Diego State University, 5500 Campanile Drive, San Diego, CA 92182, USA 36Department of Astronomy & Astrophysics, University of Toronto, Toronto, ON M5S 3H4, Canada 37Department of Physics & Astronomy and Pittsburgh Particle Physics, Astrophysics, and Cosmology
+Center (PITT PACC), University of Pittsburgh, 3941 O'Hara Street, Pittsburgh, PA 15260, USA 38University of Chinese Academy of Sciences, Nanjing 211135, People's Republic of China.
+39Space Sciences Laboratory, University of California, Berkeley, 7 Gauss Way, Berkeley, CA 94720, USA 40University of California, Berkeley, 110 Sproul Hall #5800 Berkeley, CA 94720, USA
+41Center for Astrophysics | Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA 42Kavli Institute for Particle Astrophysics and Cosmology, Stanford University, Menlo Park, CA 94305, USA
+43SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA 94025, USA 44Instituto de Astrof´isica de Andaluc´ia (CSIC), Glorieta de la Astronom´ia, s/n, E-18008 Granada, Spain 45Departamento de F´isica, Universidad de los Andes, Cra. 1 No. 18A-10, Edificio Ip, CP 111711, Bogota´, Colombia 46Observatorio Astrono´mico, Universidad de los Andes, Cra. 1 No. 18A-10, Edificio H, CP 111711 Bogota´, Colombia 47Center for Computational Astrophysics, Flatiron Institute, 162 5th Avenue, New York, NY 10010, USA
+48Scientific Computing Core, Flatiron Institute, 162 5th Avenue, New York, NY 10010, USA 49Departament de F´isica Qu`antica i Astrof´isica, Universitat de Barcelona, Mart´i i Franqu`es 1, E08028 Barcelona, Spain 50Institut de Ci`encies del Cosmos (ICCUB), Universitat de Barcelona (UB), c. Mart´i i Franqu`es, 1, 08028 Barcelona, Spain.
+51Departamento de F´isica, DCI-Campus Leo´n, Universidad de
+Guanajuato, Loma del Bosque 103, Leo´n, Guanajuato C. P. 37150, M´exico 52Department of Physics and Astronomy, University of California, Irvine, 92697, USA 53Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, UK 54Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA 55Institute of Physics, Laboratory of Astrophysics, E´cole Polytechnique F´ed´erale de Lausanne
+(EPFL), Observatoire de Sauverny, Chemin Pegasi 51, CH-1290 Versoix, Switzerland 56Institut d'Astrophysique de Paris. 98 bis boulevard Arago. 75014 Paris, France 57Center for Cosmology and AstroParticle Physics, The Ohio State
+University, 191 West Woodruff Avenue, Columbus, OH 43210, USA 58Department of Physics, The Ohio State University, 191 West Woodruff Avenue, Columbus, OH 43210, USA
+59School of Mathematics and Physics, University of Queensland, Brisbane, QLD 4072, Australia 60Department of Physics, The University of Texas at Dallas, 800 W. Campbell Rd., Richardson, TX 75080, USA
+61Department of Astronomy, The Ohio State University, 4055
+McPherson Laboratory, 140 W 18th Avenue, Columbus, OH 43210, USA 62Department of Physics, Southern Methodist University, 3215 Daniel Avenue, Dallas, TX 75275, USA 63Department of Physics and Astronomy, University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada 64Perimeter Institute for Theoretical Physics, 31 Caroline St. North, Waterloo, ON N2L 2Y5, Canada 65Waterloo Centre for Astrophysics, University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada
+66Astrophysics & Space Institute, Schmidt Sciences, New York, NY 10011, USA 67Sorbonne Universit´e, CNRS/IN2P3, Laboratoire de Physique
+Nucl´eaire et de Hautes Energies (LPNHE), FR-75005 Paris, France 68Department of Astronomy and Astrophysics, UCO/Lick Observatory,
+University of California, 1156 High Street, Santa Cruz, CA 95064, USA 69Department of Astronomy and Astrophysics, University of California,
+Santa Cruz, 1156 High Street, Santa Cruz, CA 95065, USA 70Korea Astronomy and Space Science Institute, 776, Daedeokdae-ro, Yuseong-gu, Daejeon 34055, Republic of Korea
+71University of Science and Technology, 217 Gajeong-ro, Yuseong-gu, Daejeon 34113, Republic of Korea 72Departament de F´isica, Serra Hu´nter, Universitat Aut`onoma de Barcelona, 08193 Bellaterra (Barcelona), Spain
+
+

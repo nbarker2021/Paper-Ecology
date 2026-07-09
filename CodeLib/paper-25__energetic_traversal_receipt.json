@@ -1,0 +1,207 @@
+{
+  "paper": "paper-25",
+  "verifier": "energetic_traversal_verifier",
+  "status": "pass_with_open_obligations",
+  "results": {
+    "nsl_rows": {
+      "closed_example": {
+        "N": 0.1,
+        "S": 0.2,
+        "L": 0.3,
+        "absorption": 1.0,
+        "alpha": 1.0,
+        "beta": 1.0,
+        "gamma": 1.0,
+        "theta": -0.3999999999999999,
+        "is_closed": true
+      },
+      "open_example": {
+        "N": 0.5,
+        "S": 0.4,
+        "L": 0.3,
+        "absorption": 0.2,
+        "alpha": 1.0,
+        "beta": 1.0,
+        "gamma": 1.0,
+        "theta": 1.0,
+        "is_closed": false
+      },
+      "theta_formula_verified": true,
+      "closure_gate_verified": true
+    },
+    "path_totals": {
+      "open_path": {
+        "steps": [
+          {
+            "nsl": {
+              "N": 0.1,
+              "S": 0.2,
+              "L": 0.3,
+              "absorption": 1.0,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.3999999999999999,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          },
+          {
+            "nsl": {
+              "N": 0.1,
+              "S": 0.2,
+              "L": 0.3,
+              "absorption": 1.0,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.3999999999999999,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          },
+          {
+            "nsl": {
+              "N": 0.5,
+              "S": 0.4,
+              "L": 0.3,
+              "absorption": 0.2,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": 1.0,
+              "is_closed": false
+            },
+            "status": "open_lift"
+          },
+          {
+            "nsl": {
+              "N": 0.5,
+              "S": 0.4,
+              "L": 0.3,
+              "absorption": 0.2,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": 1.0,
+              "is_closed": false
+            },
+            "status": "open_lift"
+          }
+        ],
+        "unit_policy": "normalized_analog_units",
+        "theta_path": 1.2000000000000002,
+        "path_closed": false
+      },
+      "closed_path": {
+        "steps": [
+          {
+            "nsl": {
+              "N": 0.05,
+              "S": 0.05,
+              "L": 0.05,
+              "absorption": 0.5,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.35,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          },
+          {
+            "nsl": {
+              "N": 0.05,
+              "S": 0.05,
+              "L": 0.05,
+              "absorption": 0.5,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.35,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          },
+          {
+            "nsl": {
+              "N": 0.05,
+              "S": 0.05,
+              "L": 0.05,
+              "absorption": 0.5,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.35,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          },
+          {
+            "nsl": {
+              "N": 0.05,
+              "S": 0.05,
+              "L": 0.05,
+              "absorption": 0.5,
+              "alpha": 1.0,
+              "beta": 1.0,
+              "gamma": 1.0,
+              "theta": -0.35,
+              "is_closed": true
+            },
+            "status": "demonstrated"
+          }
+        ],
+        "unit_policy": "normalized_analog_units",
+        "theta_path": -1.4,
+        "path_closed": true
+      },
+      "additive_verified": true,
+      "spine_verified": true
+    },
+    "voa_sector_split": {
+      "formula": "Z(q) = 2*q**0 + 6*q**5",
+      "test_q": 0.5,
+      "z_value": 2.1875,
+      "verified": true
+    },
+    "lcr_pathfinding": {
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        2,
+        2
+      ],
+      "path_length": 4,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "verified": true
+    },
+    "critical_points": {
+      "total_interior": 9,
+      "minima": 1,
+      "maxima": 0,
+      "saddles": 8,
+      "plateaus": 0,
+      "verified": true
+    }
+  }
+}

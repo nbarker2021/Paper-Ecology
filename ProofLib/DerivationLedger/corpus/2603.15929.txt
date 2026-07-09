@@ -1,0 +1,118 @@
+arXiv:2603.15929v2 [cs.AI] 31 Mar 2026
+
+Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium
+Vasily Ilin
+March 2026
+Abstract
+We present a complete Lean 4 formalization of the equilibrium characterization in the Vlasov-Maxwell-Landau (VML) system, which describes the motion of charged plasma. The project demonstrates the full AI-assisted mathematical research loop: an AI reasoning model (Gemini DeepThink) generated the proof from a conjecture, an agentic coding tool (Claude Code) translated it into Lean from natural-language prompts, a specialized prover (Aristotle) closed 111 lemmas, and the Lean kernel verified the result. A single mathematician supervised the process over 10 days at a cost of $200, writing zero lines of code.
+The entire development process is public: all 229 human prompts, and 213 git commits are archived in the repository. We report detailed lessons on AI failure modes ­ hypothesis creep, definition-alignment bugs, agent avoidance behaviors ­ and on what worked: the abstract/concrete proof split, adversarial self-review, and the critical role of human review of key definitions and theorem statements. Notably, the formalization was completed before the final draft of the corresponding math paper was finished.
+1 Introduction
+Formal verification of mathematics in proof assistants like Lean 4 [de Moura and Ullrich, 2021, The mathlib Community, 2020] has traditionally required deep expertise in both the mathematics and the proof assistant itself. The learning curve is steep: even experienced mathematicians report months of effort to formalize results that take pages to prove on paper [Urban, 2026]. This bottleneck has limited formal verification to a small community of specialists.
+Recent advances in AI-assisted theorem proving are changing this landscape rapidly (Figure 1). Large language models can now generate Lean tactics [Chen et al., 2025], agentic coding tools can manage entire Lean projects [Liu et al., 2026], and cloud-based automated theorem provers can close individual lemmas without human intervention [Achim et al., 2025].
+Yet most published work on AI-assisted formalization focuses on competition mathematics (IMO, Putnam) or textbook results. Recent breakthroughs include AxiomProver autonomously generating a formal Lean proof of Fel's open conjecture [Chen et al., 2026c] from a naturallanguage problem statement alone, GPT-5.2 generating informal proofs of open Erdos problems that were then auto-formalized in Lean by Aristotle [Sothanaphan, 2026], and Google DeepMind's Aletheia agent [Feng et al., 2026b,a] autonomously producing research papers in natural language. Liu et al. [2026] formalized effective Brascamp-Lieb inequalities (8K lines) with human experts
+University of Washington. Email: vilin@uw.edu. Repository: https://github.com/Vilin97/aristotle/tree/ landau.
+1
+
+Project
+
+Prover LOC New thm New defs Team AI role Logs Domain
+
+Gauss [Math, Inc., 2026]
+
+Lean 4 181K
+
+
+
+Bayer & David [Bayer et al., 2025] Isabelle 20K 
+
+This work
+
+Lean 4 10K 
+
+Numina [Liu et al., 2026]
+
+Lean 4 8K 
+
+AxiomProver [Chen et al., 2026b] Lean 4 4.3K 
+
+AxiomProver [Chen et al., 2026c] Lean 4 2.7K 
+
+2HDM [Tooby-Smith, 2026]
+
+Lean 4 1.6K 
+
+Aristotle [Sothanaphan, 2026]
+
+Lean 4 1.4K 
+
+AxiomProver [Chen et al., 2026a] Lean 4 0.2K 
+
+
+
+6+§ sorry elim.  Geometry
+
+
+
+15
+
+none
+
+ Num. theory
+
+
+
+1 all code  Math. phys.
+
+
+
+13
+
+collab.
+
+
+
+Analysis
+
+
+
+21 fully auton.  Num. theory
+
+
+
+21 fully auton. 
+
+Algebra
+
+
+
+1 minimal 
+
+Physics
+
+
+
+1 fully auton. 
+
+Combin.
+
+
+
+5 fully auton.  Alg. geom.
+
+Table 1: Recent research-level formalizations with publicly available code, sorted by LOC. "New
+thm" = theorem previously unpublished. "New defs" = required definitions or theory not in the proof library ( = substantial,  = lightweight,  = none). "AI role": sorry elim. = eliminated sorry's in human-written scaffold; all code = AI generated all proof-assistant code from NL prompts;
+collab. = human-AI pair programming; fully auton. = AI from NL problem statement alone. "Logs" = full development process public (all commits, prompts, and interaction logs). Discovered an error in the published proof. 22K lines (definitions, statements) written by human experts; Gauss eliminated 160K lines of sorry's in 3 weeks. §No paper; 6+ named contributors on blog
+post.
+
+collaborating on the Lean code, and Bayer et al. [2025] formalized their own new theorem in Isabelle in parallel with the mathematical research, writing the proof assistant code themselves.
+Our work is distinguished not by full autonomy ­ AxiomProver's Fel's conjecture result is more autonomous ­ but by the combination of several features that, to our knowledge, no single prior project shares (Table 1):
+· Scale and depth. 34 files and 10K+ lines of Lean, in hard analysis: Coulomb singularity cancellation, Leibniz integral rule, energy methods on the torus.
+· New theory. The theorem cannot even be stated with existing Mathlib ­ the Landau operator, torus differential structure, and VML system had to be defined from scratch.
+· New result. The characterization of smooth steady states of the full VML system with Coulomb collisions and electromagnetic coupling does not appear in the prior literature in this precise form and is, to our knowledge, new as a stated and proved result.
+· Fully documented process. A single mathematician wrote zero code while actively steering the formalization over 10 days; every prompt, commit, and tool call is public. The contributions are:
+1. A demonstration of the full AI-assisted mathematical research loop: from an open conjecture, through AI-generated resolution and detailed proof (Gemini DeepThink, requiring no mathematical corrections), to a complete machine-verified formalization (Claude Code + Aristotle) ­ all with the human acting solely as supervisor. To our knowledge, this is the first project to close this entire pipeline on a research-level result in hard analysis.
+2. A complete Lean 4 formalization of a new theorem in mathematical physics (the VML steadystate characterization), verified with zero sorry's.
+3. A detailed, fully transparent account of the process: every prompt, every commit, every tool call is public.
+2
+
+

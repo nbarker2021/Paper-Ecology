@@ -1,0 +1,36 @@
+arXiv:2604.16891v1 [hep-ph] 18 Apr 2026
+
+Cavity-mode couplings in axion dark matter searches
+Byeong Rok Koa aDepartment of Accelerator Science, Korea University Sejong Campus, Sejong 30019, Republic of Korea E-mail: brko@korea.ac.kr
+Abstract: Axion dark matter searches use a microwave cavity for the resonant conversion of axions into photons to enhance experimental sensitivity, with the cavity generally configured as a two-port system for both signal pickup and cavity characterization measurements. In this study, we investigated cavity-mode couplings in such a two-port system and examined their impact on axion dark matter search experiments, which typically use one strongly coupled port and one weakly coupled port. We found that, in such a two-port cavity system, the measured coupling strength of one port depends on that of the other; hence, the coupling coefficients appearing in the relation for the unloaded quality factor of the cavity mode can vary substantially with the measured coupling strengths. Meanwhile, the scanning rate, the figure-of-merit for axion dark matter searches, cancels the systematic contribution from the strongly coupled port; hence, the remaining systematic uncertainty arises only from the weakly coupled port and may be negligible, depending on its coupling strength. Nevertheless, we recommend measuring the coupling strength of the weakly coupled port to eliminate this systematic uncertainty and thereby recover any experimental sensitivity that may have been lost, for example by approximately 10% when the coupling strength of the weakly coupled port is 0.05.
+Keywords: Dark Matter, Axions and ALPs, Cavity-Mode Couplings
+
+Contents
+
+1 Introduction
+
+1
+
+2 Axion haloscopes with two-port cavity systems
+
+2
+
+3 Two-port network analysis
+
+3
+
+4 Effects on axion DM searches
+
+5
+
+5 Summary
+
+8
+
+1 Introduction
+Cosmological measurements provide compelling evidence for the existence of dark matter (DM) in the Universe [1, 2]; in particular, the standard model of Big Bang cosmology and high-precision cosmological measurements indicate that DM accounts for approximately 85% of the total matter content [3]. However, the Standard Model of particle physics, the current best description of modern particle physics, fails to explain both the properties and existence of DM. According to the present understanding of galaxy formation, DM must be cold, massive, and stable. The axion [4, 5] therefore remains one of the leading cold DM (CDM) candidates because it satisfies these requirements and is hence regarded as axion DM. Originally, the axion was proposed as a natural solution to the strong chargeconjugation and parity problem in the Standard Model of particle physics [6­10]. Within this framework, Peccei and Quinn introduced a new symmetry [11], whose spontaneous breaking generates the axion. Under these considerations, axion DM is a compound term encompassing particle physics and cosmology and has therefore motivated numerous experimental searches.
+At present, the axion haloscope remains the most sensitive instrument for detecting axion DM in the microwave region because it relies on the resonant conversion of axions into photons through axion-photon coupling in a microwave resonant cavity, as proposed by Sikivie [12, 13]. By pushing experimental parameters to their limits, recent axion haloscope searches [14­19], have achieved sensitivity to the Dine-Fischler-Srednicki-Zhitnitskii (DFSZ) axion [20, 21] under the assumptions that axions constitute 100% of the local DM density [22, 23] and follow the standard halo model [24]. Because the DFSZ axion can be implemented in grand unified theories [25], improving experimental sensitivity and demonstrating that cold DFSZ axion DM constitutes 100% of the local DM density would mark a major milestone.
+Against this background, we investigated cavity-mode couplings in a two-port system and evaluated their contributions to axion DM search experiments, which typically involve
+­1­
+
+

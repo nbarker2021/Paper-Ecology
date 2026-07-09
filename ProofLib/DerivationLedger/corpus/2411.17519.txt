@@ -1,0 +1,134 @@
+High-Performance and Scalable Fault-Tolerant Quantum Computation with Lattice Surgery on a 2.5D Architecture
+
+Yosuke Ueno
+RIKEN Saitama, Japan yosuke.ueno@riken.jp
+
+Taku Saito
+The University of Tokyo Tokyo, Japan
+saito-taku808@g.ecc.u-tokyo.ac.jp
+
+Teruo Tanimoto
+Kyushu University Fukuoka, Japan tteruo@kyudai.jp
+
+arXiv:2411.17519v1 [quant-ph] 26 Nov 2024
+
+Yasunari Suzuki
+NTT Tokyo, Japan yasunari.suzuki@ntt.com
+
+Yutaka Tabuchi
+RIKEN Saitama, Japan yutaka.tabuchi@riken.jp
+
+Shuhei Tamate
+RIKEN Saitama, Japan shuhei.tamate@riken.jp
+
+Hiroshi Nakamura
+The University of Tokyo Tokyo, Japan
+nakamura@hal.ipc.i.u-tokyo.ac.jp
+
+Abstract
+
+cells, which facilitate logical operations on data cells, as detailed in
+
+Due to the high error rate of a qubit, detecting and correcting errors on it is essential for fault-tolerant quantum computing (FTQC). Among several FTQC techniques, lattice surgery (LS) using surface code (SC) is currently promising. To demonstrate practical quantum advantage as early as possible, it is indispensable to propose a highperformance and low-overhead FTQC architecture specialized for a given FTQC scheme based on detailed analysis.
+In this study, we first categorize the factors, or hazards, that degrade LS-based FTQC performance and propose a performance evaluation methodology to decompose the impact of each hazard, inspired by the CPI stack. We propose the Bypass architecture based on the bottleneck analysis using the proposed evaluation methodology. The proposed Bypass architecture is a 2.5-dimensional architecture consisting of dense and sparse qubit layers and successfully eliminates the bottleneck to achieve high-performance and scalable LS-based FTQC. We evaluate the proposed architecture with a circuit-level stabilizer simulator and a cycle-accurate LS simulator with practical quantum phase estimation problems. The results show that the Bypass architecture improves the fidelity of FTQC and achieves both a 1.73× speedup and a 17% reduction in classical/quantum hardware resources over a conventional 2D architecture.
+
+Sec. 2.3. Due to the constraints of nearest-neighbor connections on physical qubits, particularly in solid-state qubits such as superconducting qubits, ancillary cells are necessary for implementing LS operations. Increasing the ratio of data cells  is essential to reduce the number of extra qubits required.
+In general, FTQC performance involves a tradeoff with the hardware resources required. The performance of LS-based FTQC is determined by various factors, such as the magic state generation rate, paths for LS operations, and the latency and throughput of classical computations for the error-decoding process. In addition, these factors are complicatedly affected by the , which makes optimization more difficult. Thus, a methodology to accurately assess FTQC performance while considering these factors is necessary for achieving high-performance FTQC with minimal resources.
+In this work, we address these challenges by introducing a performance analysis tool called the Code Beats Per Instruction (CBPI) stack, inspired by the Cycles per Instruction (CPI) stack in classical computing. Based on the insights gained from the CBPI analysis, which identified LS path conflicts and long LS paths as significant bottlenecks for scalable FTQC, we propose a novel architecture called the Bypass Architecture to address these issues.
+The CBPI stack breaks down the impact of various factors on execution time, referred to as FTQC hazards, providing a clear un-
+
+1 Introduction
+
+derstanding of performance bottlenecks, as detailed in Sec. 4. Using this tool, we analyzed a quantum phase estimation (QPE) prob-
+
+The inherent noise of quantum computers (QCs) poses a significant obstacle to practical quantum algorithms. To implement faulttolerant quantum computation (FTQC) effectively, it is crucial to select an appropriate quantum error correction (QEC) code. The most promising approach currently is the surface code (SC) com-
+
+lem under various  configurations and obtained trade-offs as shown in Fig. 1. As indicated by the "Path" in the figure, the arrangement with  = 50% hindered the simultaneous execution of independent operations due to LS path conflicts. In addition, the
+roundabout paths required for LS operations in the 50% arrange-
+
+bined with lattice surgery (LS). SCs leverage a two-dimensional (2D) grid of qubits, where logical qubits are encoded using multiple
+
+ment decrease performance, as indicated by "Decoding" because these longer paths impose heavier loads on decoders.
+
+physical qubits. LS facilitates operations on SC-based logical qubits by dynamically modifying their boundaries, effectively "expand-
+
+The impact of longer LS paths poses a significant challenge not only to execution time but also to the scalability of FTQC systems.
+
+ing" and "merging" them [26]. In LS-based FTQC, logical qubits are categorized into data cells, which store logical states, and ancillary
+
+The logical error rate (LER) per operation is approximately proportional to the size of the syndrome graph used for error decoding,
+
+1
+
+Ueno et al.
+
+CBPI
+qubit2.l5ayDout
+
+0.4 0.2
+0.0Rdata = 25%
+
+0.75
+44% 50% (Densest)
+
+Base Magic Path Decoding
+
+Figure 1: FTQC performance evaluation using CBPI stack for a QPE program. Section 7.2 details the experimental setup.
+
+Rdata = 50% (densest)
+
+CBPI
+...
+
+Rdata = 44% Rdata = 25%
+
+...
+
+...
+
+...
+
+...
+... ...
+... ...
+
+Bypass architecture
+
+Dense data cell arrangement
+Quantum/Classical Hardware Resouce
+
+meaning that LS operations with longer paths have a higher LER.
+
+Figure 2: Our research goal.
+
+To mitigate the impact of high error rate operations, it is necessary
+
+to either increase the redundancy of QEC codes or employ more
+
+precise decoders. However, these approaches increase the required quantum and classical resources, worsening the scalability of FTQC systems. As the scale of FTQC programs grows, the impact of these issues becomes more pronounced because longer LS paths are required. Thus, reducing the LS path length while maintaining a high  is essential for scalable FTQC systems.
+Wiring length is also a well-known challenge in designing microprocessors for classical computers, and solutions involving layered interconnects have been extensively studied. However, in LS-based FTQC, leveraging a wiring layer to reduce the length of LS paths has not yet been explored. This work proposes the Bypass architecture to achieve high-performance and scalable LS-based FTQC with moderate resource overhead by suppressing the length of LS paths. The Bypass architecture features a 2.5D qubit layout composed of a regular layer and a sparse layer, as shown in Fig. 2. Our architecture reduces the impact of the decoding process by providing effectively shorter LS paths through the sparse layer and resolves path conflicts by increasing the number of possible paths for LS.
+We evaluate the Bypass architecture for essential FTQC subroutines for practical QPE tasks with a cycle-accurate LS simulator and show that it achieves a speedup over the baseline 2D architecture and other 3D architectures with two-qubit layers. In addition, our 2.5D architecture requires fewer classical and quantum hardware resources than the other architectures, thereby enhancing the scalability of the FTQC system.
+Our contributions are summarized as follows.
+(1) We summarize hazards affecting LS-based FTQC performance and propose a performance analysis methodology that assesses the impact of each hazard. (Sec. 3 and 4)
+(2) We propose the Bypass architecture with a 2.5D qubit layout for high-performance and scalable FTQC. (Sec. 5)
+(3) Our evaluation shows that the Bypass architecture achieves both a 1.73× speedup and 17% reduction in hardware resources over the 2D architecture for a practical QPE program in the moderate resources case. (Sec. 6 and 7)
+2 Background on LS-based FTQC 2.1 Quantum error correction with SCs
+
+parity of errors on the neighboring data qubits. This parity check and its binary outcome are called a stabilizer measurement and a syndrome value, respectively. To deal with both bit-flip (Pauli- ) and phase-flip (Pauli- ) errors, QEC needs two types of stabilizer measurements, i.e.,  - and  -stabilizer measurements.  - and  stabilizer measurements can detect the Pauli- and Pauli- errors on the neighboring data qubits, respectively.
+If we assume a noise model where Pauli errors occur probabilistically on data qubits, the estimation of the most likely Pauli errors can be reduced to the minimum-weight perfect matching (MWPM) problem on the decoding graph. In this graph, nodes and edges correspond to the syndrome values and the data qubits, respectively [14]. Even when ancillary qubits also suffer from noise, we can reliably estimate errors by extending the MWPM problem to a 3D decoding graph by considering stacked 2D snapshots of  syndrome measurements. In this paper, we refer to the time taken for one syndrome measurement as a code cycle and that for  syndrome measurements, i.e.,  code cycles, as a code beat.
+2.2 LS and gate teleportation with magic states
+For universal FTQC, we need to perform a universal gate set on encoded logical qubits in a fault-tolerant manner. The standard logical operations set is summarized as follows.
+· Initialization of a logical qubit in a  or  basis. · Destructive measurement of a logical qubit in  or  basis. · Single-qubit operations, such as Hadamard and phase gates,
+and  gates with magic states. · Multi-qubit operations via multi-body Pauli measurements.
+Initialization and destructive measurement of a logical qubit can be achieved straightforwardly. In addition, Hadamard and phase gates are performed by expanding and shrinking SCs through additional syndrome measurement.
+The LS technique implements multi-qubit Pauli measurements on SC-based logical qubits using only neighboring physical qubit operations. One of the minimum examples of LS, a logical Pauli measurement on two logical qubits, is shown in Fig. 3 (b). As shown in the figure, 1) we initialize all the sandwiched physical qubits to physical |+ states, 2) two SCs are merged by performing
+
+The SC is one of the most promising QEC codes, which can be imple- another set of stabilizer measurements and repeating them for one
+
+mented on a 2D qubit plane [7, 28]. Figure 3 (a) shows a schematic picture of a rotated SC with code distance  = 5. SC consists of two types of physical qubits: data and ancillary qubits. Data qubits represent a logical qubit, while ancillary qubits are utilized to check the
+
+code beat, and 3) split it into two planes by performing the original stabilizer measurements and all the sandwiched physical qubits are measured in the Pauli- basis. This merge operation with the smooth boundaries implements a logical Pauli- measurement
+
+2
+
+

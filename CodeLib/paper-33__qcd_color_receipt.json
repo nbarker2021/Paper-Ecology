@@ -1,0 +1,159 @@
+{
+  "confinement_criteria": {
+    "baryon_singlet_rgb": true,
+    "confined_anti_blue": true,
+    "confined_anti_green": true,
+    "confined_anti_red": true,
+    "confined_blue": true,
+    "confined_green": true,
+    "confined_red": true,
+    "glueball_singlet": true,
+    "meson_singlet_blue": true,
+    "meson_singlet_green": true,
+    "meson_singlet_red": true
+  },
+  "flux_tube_formation": {
+    "flux_blue_sep1": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0391,
+      "separation_steps": 1,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_blue_sep10": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.391,
+      "separation_steps": 10,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_blue_sep10_energy_positive": true,
+    "flux_blue_sep1_energy_positive": true,
+    "flux_blue_sep2": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0782,
+      "separation_steps": 2,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_blue_sep20": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.782,
+      "separation_steps": 20,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_blue_sep20_energy_positive": true,
+    "flux_blue_sep2_energy_positive": true,
+    "flux_blue_sep5": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.1955,
+      "separation_steps": 5,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_blue_sep5_energy_positive": true,
+    "flux_green_sep1": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0391,
+      "separation_steps": 1,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_green_sep10": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.391,
+      "separation_steps": 10,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_green_sep10_energy_positive": true,
+    "flux_green_sep1_energy_positive": true,
+    "flux_green_sep2": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0782,
+      "separation_steps": 2,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_green_sep20": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.782,
+      "separation_steps": 20,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_green_sep20_energy_positive": true,
+    "flux_green_sep2_energy_positive": true,
+    "flux_green_sep5": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.1955,
+      "separation_steps": 5,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_green_sep5_energy_positive": true,
+    "flux_red_sep1": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0391,
+      "separation_steps": 1,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_red_sep10": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.391,
+      "separation_steps": 10,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_red_sep10_energy_positive": true,
+    "flux_red_sep1_energy_positive": true,
+    "flux_red_sep2": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.0782,
+      "separation_steps": 2,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_red_sep20": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.782,
+      "separation_steps": 20,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_red_sep20_energy_positive": true,
+    "flux_red_sep2_energy_positive": true,
+    "flux_red_sep5": {
+      "breaking_threshold_gev": 1.0,
+      "broken": false,
+      "energy_gev": 0.1955,
+      "separation_steps": 5,
+      "tension_gev_per_step": 0.0391
+    },
+    "flux_red_sep5_energy_positive": true,
+    "linear_confinement_ratio": 2.0,
+    "linear_confinement_verified": true
+  },
+  "paper": 33,
+  "sm_mapping_rows": {
+    "Higgs_voa_weight": 5.0,
+    "W_voa_weight": 3.5,
+    "Z_voa_weight": 4.0,
+    "closed_rows": 13,
+    "m_Higgs_anchor_gev": 125.25,
+    "m_W_gev": 80.38,
+    "m_Z_gev": 91.19,
+    "m_photon_gev": 0.0,
+    "open_row_1": "MAP-FLCR33-005 (ATLAS/CMS mass row)",
+    "open_row_2": "MAP-FLCR33-006 (Standard Yukawa sector)",
+    "open_rows": 2,
+    "photon_voa_weight": 0.0,
+    "sin2_theta_W": 0.2312,
+    "total_mapping_rows": 15
+  },
+  "status": "pass",
+  "timestamp": "2026-07-05T00:00:00-07:00",
+  "title": "QCD Color Confinement"
+}

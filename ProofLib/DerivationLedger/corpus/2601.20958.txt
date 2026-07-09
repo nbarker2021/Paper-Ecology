@@ -1,0 +1,143 @@
+FERMILAB-PUB-25-0523-T
+
+arXiv:2601.20958v1 [astro-ph.CO] 28 Jan 2026
+
+First constraints on causal sources of primordial gravitational waves from BICEP/Keck, SPTpol, SPT-3G, Planck and WMAP B-mode data
+Jessica A. Zebrowski ,1, 2,  Aurora Ireland ,3,  Christian L. Reichardt ,4,  Kylar Greene ,5, § Gordan Krnjaic,1, 2, 6, ¶ Yuhsin Tsai ,7,  and Franc¸ois R Bouchet 8
+1Fermi National Accelerator Laboratory, Batavia, Illinois 60510 2Kavli Institute for Cosmological Physics, University of Chicago, Chicago, IL 60637 3Leinweber Institute for Theoretical Physics, Stanford University, Stanford, CA 94305
+4School of Physics, University of Melbourne, Parkville, VIC 3010, Australia 5Department of Physics and Astronomy, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea
+6Department of Astronomy and Astrophysics, University of Chicago, Chicago, IL 60637 7Department of Physics and Astronomy, University of Notre Dame, South Bend, IN 46556 8Sorbonne Universit´e, CNRS, UMR 7095, Institut d'Astrophysique de Paris, 98 bis bd Arago, 75014 Paris, France
+(Dated: January 30, 2026)
+Non-inflationary sources of gravitational waves in the early Universe generically predict causalitylimited tensor power spectra at low frequencies. We report the first-ever constraints on such sources based on cosmic microwave background (CMB) B-mode polarization measurements. Using data from BICEP/Keck, SPTpol, SPT-3G, Planck, and WMAP, we constrain the amplitude of an early causal tensor (ECT) power spectrum parameterized by rect, the ratio of causal tensor power to total scalar power at k = 0.01 Mpc-1, and obtain a 95% CL upper limit of rect < 0.0077. Since rect can easily be related to the parameters of a given theory, our bound robustly constrains a broad class of well-motivated gravitational wave sources in the early universe, including first-order cosmological phase transitions, enhanced small-scale density perturbations, and various topological defects. Finally, we translate our limit into a bound on the present-day energy density in gravitational waves at ultra-low frequencies otherwise inaccessible to traditional gravitational wave detection strategies, including pulsar timing arrays, interferometers, and resonant cavities.
+
+INTRODUCTION
+Tensor perturbations in the early universe imprint a distinctive B-mode pattern in the polarization of the cosmic microwave background (CMB), offering a powerful observational probe of fundamental physics at energy scales beyond the reach of terrestrial gravitational wave (GW) experiments [1]. While this connection has long been appreciated in the context of inflation, it has only recently been recognized that non-inflationary sources of primordial tensor perturbations can also yield observable B modes, potentially complicating interpretations of future measurements [2­4]. Examples of such sources include first-order cosmological phase transitions [5, 6], enhanced scalar density perturbations [7], dark-photon perturbations from axion rolling [8], primordial gravitational vector modes [9], and various topological defects [10­13].
+Unlike inflation, which stretches sub-horizon tensor perturbations to super-horizon scales and predicts a nearly scale-invariant power spectrum, post-inflationary sources are fundamentally limited by the impossibility of super-horizon correlations, and therefore universally yield white-noise spectra on sufficiently large scales. For all such sources, the dimensionless tensor power spectrum exhibits a characteristic Ph(k)  k3 scaling at small comoving wavenumber k. This behavior is a robust, modelindependent consequence of causality and finite correla-
+
+tion lengths, and it holds universally for length scales larger than the physical extent of the source, provided that the latter is bounded in frequency and time [14].
+The characteristic k3 scaling will turn over at some k related to the correlation length of the source. However if the tensor source is before z  7 × 104, this turn over will be hidden in the CMB by Silk damping ­ the horizon size at z  7 × 104 matches the Silk damping scale. Any non-inflationary source that generates GWs exclusively before this time necessarily predicts a white-noise power spectrum on CMB observable scales; this characteristic scaling yields a universal shape for the resulting B-mode angular power spectrum. We refer to such phenomena as early causal tensor (ECT) sources.
+Compared to inflationary predictions, ECT sources yield more power on small scales and less power on large scales. This striking shape difference allows for clear discrimination between the signals from inflation and ECT sources, given sufficiently precise measurements across a range of angular scales. While the ECT B-mode angular spectrum coincidentally resembles corresponding contributions from lensing, this degeneracy can be broken with external priors on lensing B modes. Furthermore, since all ECT sources predict the same B-mode spectral shape, the only parameter that distinguishes sources in this universality class is the overall amplitude, which we parametrize as rect, the ratio of ECT tensor
+
+2
+
+power to measured scalar power at the reference comoving wavenumber kref = 0.01 Mpc-1.
+In this Letter, we report the first constraints on the causal tensor power spectrum using contemporary CMB B-mode observations. A companion work [15] explores models which produce such causal tensors. Marginalizing over foreground and cosmological signals, we place the first upper limit on the amplitude of the causal tensor spectrum of rect <0.0077 at 95% CL. The limit constrains a broad class of theoretical models that source GWs in the post-inflationary universe (see Fig. 1). We also translate this limit to a model-dependent bound on the GW energy density, GW, at ultra-low frequencies.
+
+GENERAL FRAMEWORK
+
+We briefly review the ECT framework presented by
+[15], leaving details to that work. A Fourier mode of the transverse, traceless tensor perturbation hij(, k) evolves according to the wave equation
+
+hij + 2Hhij + k2hij = 16Ga2 ij ,
+
+(1)
+
+where  is conformal time,  denotes differentiation with respect to  , a is the scale factor, and H = a/a is the conformal Hubble rate. The source ij(, k) is the transverse, traceless projection of the anisotropic stress tensor,
+whose functional form is model-dependent. We take ij to be bounded in frequency and non-vanishing only tran-
+siently in the early universe for some characteristic time interval   [i, ].
+We decompose hij and ij into the two polarizations  = (+, ×), which are uncorrelated and have the same spectra. The solutions can be written as h(, k)  h (k)T (, k) where h(k)  h(, k) is the initial amplitude, and T (, k) is the tensor transfer function, which
+solves the sourceless version of Eq. (1) and governs the
+deterministic evolution of these perturbations in an ex-
+panding universe. The initial amplitude depends on the
+source and is obtained by solving Eq. (1),
+
+
+
+h(k) = 16Ga2
+
+d  Gk(,  )( , k), (2)
+
+i
+
+where Gk(,  ) = sin[k( -  )]/k is the Green's function for Eq. (1), neglecting Hubble expansion over the short duration of source activity. Using this solution, we define the (dimensionless) tensor power spectrum Ph through
+
+h(k) h(k)
+
+=
+
+ 2
+
+22 k3
+
+Ph(k)(2)3
+
+(3)(k
+
+-
+
+k
+
+)
+
+,
+
+(3)
+
+where . . .  denotes an ensemble average and  is complex
+conjugation.
+For any temporally-bounded source active on some
+characteristic sub-horizon scale ks during radiation domination, Ph(k)  k3 for all k  ks [14, 15], which reflects
+
+Ph(k)
+
+Inflation
+
+10-1
+
+Phase Transition
+
+k3
+
+Induced GWs
+
+Cosmic Strings
+
+10-5
+
+10-9
+
+10-13
+
+Linear CMB
+
+10-1170-5
+
+10-3
+
+10-1
+
+101
+
+k (Mpc-1)
+
+FIG. 1: Tensor power spectra Ph(k) for select ECT models presented by [15]: a first-order cosmological phase transition (red), scalar-induced GWs (green), and cosmic strings (purple). The gray "linear CMB" region marks the domain of support of the window function F(k) in Eq. (5) for 20 <  < 2301. As the models asymptote to the same k3 scaling required by causality over the CMB regime, all three models predict identical B-mode power spectra. For comparison, we show a scale-invariant inflationary spectrum (blue).
+
+the causality requirement that sufficiently-separated spatial points must be uncorrelated. Thus, the power spectrum of any causal non-inflationary source must decay as white noise on super-horizon length scales. Given this, we parametrize the input power spectrum as
+
+Ph(k)  rectAs
+
+k kref
+
+3
+,
+
+(4)
+
+where kref = 0.01 Mpc-1 is a reference wavenumber, As = 2.1 × 10-9 is the measured amplitude of scalar fluctuations [16], and rect is the amplitude of the whitenoise tensor power spectrum at kref in units of As. This notation follows the long-standing convention to use the tensor-to-scalar ratio r = AT /As as a measure of inflationary tensor modes. For the chosen kref = 0.01 Mpc-1, the amplitude of the B-mode signals from inflationary and causal GWs approximately match at the recombination peak (  100) when r = rect.
+To obtain the angular spectrum of B-mode polarization sourced by Ph in Eq. (4), we evaluate [17]
+
+DECT = 18 ( + 1) T02
+
+ 0
+
+dk k
+
+Ph(k)F(k)2
+
+,
+
+(5)
+
+where T0 = 2.725 K is the CMB temperature today [18] and F(k) is a source-independent window function defined in [2].
+
+

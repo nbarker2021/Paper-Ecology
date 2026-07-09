@@ -1,0 +1,154 @@
+arXiv:2111.03590v1 [hep-lat] 5 Nov 2021
+
+S symmetry
+
+S
+
+Review
+Lattice Constraints on the QCD Chiral Phase Transition at Finite Temperature and Baryon Density
+
+Owe Philipsen
+
+ITP, Goethe-Universität Frankfurt am Main, Max-von-Laue-Str. 1, 60438 Frankfurt am Main, Germany; philipsen@itp.uni-frankfurt.de
+
+Abstract: The thermal restoration of chiral symmetry in QCD is known to proceed by an analytic crossover, which is widely expected to turn into a phase transition with a critical endpoint as the baryon density is increased. In the absence of a genuine solution to the sign problem of lattice QCD, simulations at zero and imaginary baryon chemical potential in a parameter space enlarged by a variable number of quark flavours and quark masses constitute a viable way to constrain the location of a possible non-analytic phase transition and its critical endpoint. In this article I review recent progress towards an understanding of the nature of the transition in the massless limit, and its critical temperature at zero density. Combined with increasingly detailed studies of the physical crossover region, current data bound a possible critical point to µB ,, 3T.
+
+Keywords: QCD phase diagram; chiral symmetry restoration; lattice QCD
+
+Citation: Philipsen, O. Lattice Constraints on the QCD Chiral Phase Transition at Finite Temperature and Baryon Density. Symmetry 2021, 1, 0. https://doi.org/
+Academic Editor(s): Angel Gómez Nicola and Jacobo Ruiz de Elvira
+Received: 22 September 2021 Accepted: 26 October 2021 Published:
+Publisher's Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+
+1. Introduction
+Many salient features of the spectrum of hadrons and their interactions observed in nature are determined by the near-chiral symmetry of the QCD Lagrangian and its spontaneous breaking by the QCD vacuum. The fact that nature breaks chiral symmetry also explicitly by non-vanishing quark masses can be taken into account in terms of chiral perturbation theory [1,2], due to the smallness of the u- and d-quark masses.
+In a hot and/or dense medium, chiral symmetry is expected to be gradually restored once the temperature exceeds T ,, 160 MeV or the baryon chemical potential µB ,, 1 GeV. Associated with this change of the realised symmetry, one also expects a change of dynamics and its underlying degrees of freedom which, asymptotically, should become quarks and gluons. Similar to the vacuum properties of the theory, one also expects the properties of this thermal transition to be closely related to those of the theory in the massless limit.
+The low energy scales of the transition region demand a non-perturbative first principles approach like lattice QCD. Unfortunately, a severe sign problem prohibits simulations by importance sampling for non-vanishing chemical potential, for introductions see [3­5]. Despite tremendous efforts over several decades, no genuine solution to this problem is available to date, and knowledge of the QCD phase diagram by direct calculation remains scarce. Nevertheless, during the last years there has been considerable progress in studying the properties of the thermal QCD transition in an enlarged parameter space, where the number of flavours and quark masses is varied away from their physical values. Besides giving theoretical insight into the interplay of symmetries and dynamics in controlled situations, such studies also provide constraints on the physical phase diagram, which are beginning to become phenomenologically relevant. In this article, I collect some recent results allowing to better understand and remove lattice artefacts, resulting in a consistent picture that also
+
+Symmetry 2021, 1, 0. https://doi.org/10.3390/sym1010000
+
+https://www.mdpi.com/journal/symmetry
+
+Symmetry 2021, 1, 0
+
+2 of 28
+
+accommodates apparently conflicting statements based on earlier simulations. In particular, I will focus on developments suggesting a modified version of the Columbia plot and constraints on the location of a possible critical point.
+
+2. Some Lattice Essentials
+For readers less familiar with lattice QCD, it may be useful to recall a number of basic definitions and issues that are important for the interpretation of the following lattice results. For details, see the corresponding textbooks [3,6,7]. Conventionally one considers Euclidean space-time discretised by hypercubic lattices with Ns3 ^ N points separated by a lattice spacing a. This represents a box with spatial length L " Nsa and Euclidean time extent aN " 1{T, which corresponds to inverse temperature as in continuum thermal field theory, once (anti-)periodic boundary conditions for (fermionic) bosonic fields have been applied. When a quantum field theory is formulated on the lattice, its action (and all observables) differ from those in the continuum. As an example, consider Wilson's SUpNcq pure gauge action
+
+SY M
+
+"
+
+
+
+ÿ
+p
+
+" 1
+
+´
+
+1 Nc
+
+TrUppqi
+
+,
+
+"
+
+2Nc g2
+
+,
+
+(1)
+
+which is constructed from so-called plaquette variables Uppq. These are the fundamental squares of the lattice consisting of four gauge links Uµpxq " expp´igaAµpxqq, which are group elements of SUpNcq. For sufficiently small lattice spacing the plaquette can be expanded,
+
+Uppq
+
+"
+
+1
+
+`
+
+i a2 g Fµ
+
+´
+
+a4 g2 2
+
+Fµ Fµ
+
+`
+
+Opa6q,
+
+(2)
+
+and the classical action (1) is seen to reproduce the continuum Yang-Mills action in the limit a Ñ 0. However: for any finite lattice spacing a the action differs by terms of Opa2q from the
+
+continuum action. Such terms disappearing in the continuum are called "irrelevant", at finite
+
+lattice spacing they constitute lattice artefacts. An improvement of lattice actions in the sense
+
+of reducing such artefacts [8] can be achieved by adding irrelevant terms to the lattice action,
+
+which subtract those already present. Quite generally, lattice actions are then not unique
+
+but may differ by arbitrary irrelevant terms. All such differences between valid actions and
+
+observables must disappear in the continuum limit. Approaching the continuum limit is a highly non-trivial affair, as one has to take a Ñ 0
+
+while keeping other dimensionful quantities, like masses or temperature, fixed along a so-
+
+called line of constant physics in the lattice parameter space. The lattice spacing is tuned indirectly through the running gauge coupling evaluated at the cutoff scale, g " gp ,, a´1q, so that by asymptotic freedom gpa Ñ 0q Ñ 0. This implies that the lattice gauge coupling pa Ñ 0q Ñ 8. For thermodynamics, keeping temperature constant during the continuum approach implies N Ñ 8 in the continuum limit. Thus, while the precise value of the lattice
+spacing is determined by some form of scale setting, finer thermodynamics lattices imply
+
+larger N, and dimensionless
+
+lattice artefacts aT " N´1.
+
+can
+
+be
+
+parametrised
+
+in
+
+units
+
+of
+
+temperature
+
+as
+
+powers
+
+of
+
+the
+
+The most problematic lattice artefacts for QCD by far are those afflicting the fermion
+
+formulation. In particular, it is impossible to put chiral fermions on a lattice without artificial
+
+doubler degrees of freedom while maintaining locality [9]. It is clear that this implies severe
+
+caveats for any investigation of chiral symmetry breaking. In a nut shell, the current choices
+
+are:
+
+· The Wilson formulation: By adding irrelevant mass terms ,, a´1, the doubler degrees of
+
+freedom become heavy and decouple in the continuum limit. However, for any finite
+
+lattice spacing chiral symmetry is broken completely by these terms.
+
+

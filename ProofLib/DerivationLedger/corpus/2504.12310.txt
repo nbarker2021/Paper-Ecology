@@ -1,0 +1,104 @@
+arXiv:2504.12310v2 [physics.soc-ph] 6 Jun 2026
+
+O. M. Wittwer · Reflective Empiricism
+
+Preprint (v2.0)
+
+Reflective Empiricism:
+Bias Reflection and Introspection as a Scientific Method
+Oliver Marc Wittwer
+Independent Researcher, Weesen, Switzerland
+Formerly ETH Zurich (Dr. sc. nat.) ORCID: 0009-0003-2205-1159
+Corresponding author: oliver.wittwer@gmail.com
+June 6, 2026
+Version 2.0 (preprint)
+Abstract
+This paper introduces Reflective Empiricism, an extension of empirical science that incorporates subjective perception and consciousness processes as equally valid sources of knowledge. It views reality as an interplay of subjective experience and objective laws, comprehensible only through systematic introspection, bias reflection, and premise-based logical-explorative modeling. This approach overcomes paradigmatic blindness arising from unreflected subjective filters in established paradigms, promoting an adaptable science. Innovations include a method for bias recognition, premise-based models grounded in observed phenomena to unlock new conceptual spaces, and Eureka moments--intuitive insights--as starting points for hypotheses, subsequently tested empirically. The author's self-observation, such as analyzing belief formation, demonstrates its application and transformative power. Rooted in philosophical and scientific-historical references (e.g., Archimedes' intuition, quantum observer effect), Reflective Empiricism connects physics, psychology, and philosophy, enhancing interdisciplinary synthesis and accelerating knowledge creation by leveraging anomalies and subjective depth. It does not seek to replace empirical research but to enrich it, enabling a more holistic approach to phenomena that have not yet been fully grasped. A subsequent body of the author's work is presented as case studies demonstrating the application of the method introduced here.
+Keywords: reflective empiricism, paradigm shifts, scientific objectivity, bias reflection, interdisciplinary research, introspection in science
+
+Version 2.0 (preprint), drafted April 2025, updated and uploaded here June 2026. Version 2.0 extends the original with a new Section 10, presenting case studies of the author's subsequent works that demonstrate the method's interdisciplinary scope, and updates the outlook accordingly.
+1
+
+O. M. Wittwer · Reflective Empiricism
+
+Preprint (v2.0)
+
+Contents
+
+1 Introduction: The Need for Reflection
+
+3
+
+1.1 Limitations of Traditional Empirical Methodology . . . . . . . . . . . . . . 3
+
+1.2 The Illusion of Pure Objectivity and the Problem of Unreflected Bias . . . . 3
+
+1.3 A Plea for Reflective Empiricism: Expansion and Complement of Science . 3
+
+2 Author's Background: Interdisciplinary Synthesis
+
+4
+
+3 Blind Spots of Empiricism
+
+4
+
+4 Resistance to Reflective Ways of Thinking in the History of Science
+
+5
+
+5 Reflective Thinking: Overcoming Bias and Expanding Knowledge
+
+5
+
+5.1 Core Principles of Reflective Empiricism . . . . . . . . . . . . . . . . . . . . 6
+
+5.2 Eureka Moments: Catalysts of Knowledge . . . . . . . . . . . . . . . . . . . 7
+
+6 Introspection: Reflecting on Bias
+
+7
+
+6.1 Example: Reflective Insight into the Formation of Beliefs . . . . . . . . . . 7
+
+6.2 Reflective Insight and Classification in the History of Science . . . . . . . . 8
+
+6.3 A Pragmatic Approach to Recognizing One's Own Biases . . . . . . . . . . 9
+
+7 Premise-Based Logical-Explorative Modeling
+
+10
+
+7.1 Core Features of Premise-Based Logical-Explorative Modeling . . . . . . . . 10
+
+7.2 Differentiation from Established Scientific Methods . . . . . . . . . . . . . . 11
+
+7.3 Value and Application of Premise-Based Logical-Explorative Modeling . . . 12
+
+8 Connections to Existing Approaches: Classification in the History of
+
+Science
+
+13
+
+9 The Transformative Potential of Reflective Science
+
+13
+
+10 Case Studies in Premise-Based Modeling
+
+14
+
+10.1 Psychology, Epistemology, and Ethics . . . . . . . . . . . . . . . . . . . . . 14
+
+10.2 Constructive Physics: The PRN Programme . . . . . . . . . . . . . . . . . . 16
+
+10.3 Work in Preparation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+11 Conclusion: A Call for Reflection
+
+18
+
+2
+
+

@@ -1,0 +1,154 @@
+Particle spectra in the integrated hydrokinetic model at RHIC Beam-Energy-Scan energies
+Narendra Rathod,1, 2 Yuri Sinyukov,3, 1 Musfer Adzhymambetov,3,  and Hanna Zbroszczyk1 1Warsaw University of Technology, Faculty of Physics, Koszykowa 75, 00-662 Warsaw, Poland
+2University of Bern, DBMR and University Clinic for Nuclear Medicine, Inselspital Bern, Switzerland 3Bogolyubov Institute for Theoretical Physics, Metrolohichna 14b, 03143 Kyiv, Ukraine (Dated: March 9, 2026) 
+We study light-hadron production in Au+Au collisions at sNN = 7.7­39 GeV using an extended Integrated HydroKinetic Model (iHKMe). Focusing on transverse momentum spectra, we investigate the sensitivity to key model parameters, particularly the thermalization timescale. We consider two distinct equations of state: one featuring a crossover and the other a first-order phase transition. In both cases, thermalization begins shortly before full nuclear overlap and lasts approximately 1 fm/c across all energies. Both equations of state provide a similarly good description of the soft particle momentum spectra once the other parameters are slightly adjusted. The most pronounced differences arise at the lower RHIC BES energy of sNN = 7.7 GeV, particularly in proton and kaon yields, reflecting their sensitivity to the freeze-out parameters.
+
+arXiv:2506.13944v3 [nucl-th] 6 Mar 2026
+
+I. INTRODUCTION
+Relativistic heavy-ion collisions, such as those at the Large Hadron Collider (LHC) and the Relativistic Heavy Ion Collider (RHIC), are known to create new forms of strongly interacting matter. At extreme temperatures and densities, quasi-free quarks and gluons can form a nearly equilibrated state known as the quark­gluon plasma (QGP) [1]. In contrast, under ordinary terrestrial conditions, quarks and gluons remain confined within color-neutral hadrons [2, 3].
+In the quantum chromodynamics (QCD) phase diagram, lattice QCD calculations indicate that the quark­gluon plasma and hadron­resonance gas (HRG) phases are connected by a smooth crossover transition at vanishing baryon chemical potential [3­5], a situation realized at LHC and top RHIC energies. However, at higher baryon densities, the system is expected to undergo a genuine phase transition, potentially of first order [6­8]. If such a phase transition line exists in the QCD phase diagram, it must end at a critical point, beyond which the transition becomes a crossover. Ongoing and upcoming experiments [9­11] at lower collision energies, typically in the range of several GeV per nucleon pair, aim to identify clear signals of this phase transition and locate the critical endpoint.
+With the launch of the Beam Energy Scan (BES) program at RHIC, three primary objectives were outlined [12, 13]. The first goal is to explore the QCD phase disaNgrNam, inbythvearryainnggethfreomcen7t.e7r-otof-m3a9ssGceoVll.isTiohnisenvearrgiay-, tion enables access to different regions of temperature T and baryon chemical potentials µB during the system's evolution, facilitating the search for the onset of deconfinement. The second goal is to investigate fluctuations and enhanced susceptibilities that are expected
+ adzhymambetov@gmail.com
+
+to increase near the QCD critical point [14­16]. However, such critical signatures may be suppressed due to conservation laws and the finite size and lifetime of the system. This challenge leads to the third goal: to identify observables sensitive to the softening of the QCD equation of state (EoS), which may signal the presence of a first-order phase transition.
+One of the main challenges in analyzing and interpreting experimental results from heavy-ion collisions stems from the complex and dynamic evolution of the system, combined with its small spatial extent and extremely short lifetime. The properties of strongly interacting matter, particularly its behavior near a potential phase transition or critical point, affect experimental observables only indirectly. To extract these effects quantitatively, or even estimate them qualitatively, it is often necessary to construct a comprehensive dynamical model that simulates the system's entire evolution, from the initial impact to the final detection of produced hadrons.
+Relativistic hydrodynamics has emerged as the most effective framework for describing the collective expansion of the strongly interacting matter created in these collisions. However, it comes with notable limitations: it is primarily applicable to soft observables (low transverse momentum, pT ) and assumes local thermal equilibrium [17]. To address these constraints, theorists have developed hybrid models that integrate relativistic hydrodynamics, used for the hot, dense equilibrated stage, with microscopic transport models that describe out-ofequilibrium dynamics. Such non-equilibrium conditions are expected both in the very early pre-equilibrium stage, before thermalization occurs, and in the late afterburner stage, when the system becomes dilute and departs from equilibrium due to expansion.
+At the LHC and the highest RHIC energies, the standard model of heavy-ion collisions is well established and widely accepted [18­21]. This model typically divides the collision process into several distinct stages: the formation of a non-equilibrium state during the penetration of
+
+2
+
+the colliding nuclei, subsequent thermalization process
+
+leading to formation of QGP, hydrodynamic expansion
+
+of the resulting fireball, hadronization of the QGP into
+
+HRG, and finally, the hadronic cascade stage [21­29]. As
+
+the collision energy decreases, this overall picture remains
+
+qualitatively similar but becomes significantly more com-
+
+plex. fully TeV,
+
+First, the characteristic time owvherilleapatisaspNpNrox=im1a4t.5elGy e1V0-a3t
+
+for two fm/c at
+
+gold sN
+
+nuclei to N = 5.02
+
+BES RHIC it exceeds
+
+1.5 fm/c. Consequently, the system becomes highly in-
+
+homogeneous not only in the transverse but also in the
+
+longitudinal direction, leading to a significant violation of
+
+boost invariance (i.e. a breakdown of the Bjorken picture
+
+[30]). Second, the lower energy density leads to a slower
+
+thermalization process, which may significantly shorten,
+
+or even eliminate, the hydrodynamic phase. At colli-
+
+sion energies of just a few GeV, it is plausible that the
+
+pre-equilibrium stage dominates the evolution, prevent-
+
+ing the system from ever reaching full thermal equilib-
+
+rium.
+
+In a recent study [31], we introduced an extended framework to describe the complete space­time evolution of the system created in relativistic heavy-ion collisions at intermediate and low energies, from the initial nuclear overlap to the final decoupling of free-streaming hadrons. This extended version of the integrated hydrokinetic model, denoted iHKMe, employs relativistic hydrodynamics for the bulk equilibrated medium evolution, while the UrQMD cascade [32] is utilized to account for the essential non-equilibrium dynamics. Unlike many hybrid approaches [33­36], which segment the evolution into distinct phases in space-time, iHKMe integrates microscopic and macroscopic descriptions concurrently. In our approach, the system initially exists far from equilibrium and gradually thermalizes, transitioning into a hydrodynamic regime1. Since the thermalization rate is not well constrained, it is treated as a free parameter in the model. By tuning this parameter, iHKMe enables a smooth interpolation between scenarios dominated by rapid thermalization (as at LHC energies) and those that remain largely non-equilibrated throughout the evolution, as expected for very low-energy collisions.
+
+This study continues our previous work [31], in which
+
+we introduced an extended version of the integrated hy-
+
+drokinetic model. In the present paper, we focus on de-
+
+scribing the produced in
+
+Atrua-nAsuvecrosellimsioonmseanttumsNsNpe=ctr7a.7o-f
+
+particles 39 GeV,
+
+as part of the RHIC Beam Energy Scan program. We
+
+calibrate the model's free parameters using two differ-
+
+ent equations of state: one featuring a smooth crossover
+
+transition [38], and the other incorporating a first-order
+
+phase transition with a soft equation of state [39].
+
+1 Other approaches to a continuous transition from UrQMD to hydrodynamics are discussed in [35, 37]
+
+II. MODEL
+The iHKM model was originally developed to study ultrarelativistic heavy-ion collisions [29]. We have recently extended the model to accommodate intermediate and low collision energies, broadening its applicability down to a few GeV. A detailed description of the extended model can be found in [31]. In this paper, we provide only a brief overview of the model's five evolutionary stages, discuss the potential overlap of these stages at lower collision energies, and introduce the key free parameters that govern the model's dynamics.
+
+1. Initial pre-equilibrium dynamics
+
+One of the key differences between ultrarelativistic heavy-ion collisions at the LHC and the lower-energy experiments of the RHIC BES program lies in the very different relative velocities of colliding nuclei (and correspondingly space-time Lorentz factors for them), which, according to QCD approaches, leads to different physical pictures of nucleus-nucleus collisions at different energies. First, it concerns the different initial states for the colliding process. At TeV-scale energies, partons from the two nuclei interact only during the extremely short overlap time, approximately 10-3 fm/c, which is negligible compared to the full evolution timescale of the system (typically exceeding 10 fm/c). In contrast, at lower energies, the scenario becomes significantly more complex. The duration of the nuclear overlap, which increases with decreasing beam energy, can be estimated using the following equation:
+
+overlap =
+
+2RN
+
+ sN
+
+N
+
+/2mN
+
+, 2-1
+
+(1)
+
+where RN is the radius of a nucleus and mN is the nucleon mass. Here we adopt the proper time  and space-time
+
+rapidity  variables, following the conventional Bjorken
+
+coordinate system for longitudinally expanding systems
+
+[30]. A mediate
+
+setnraeirgghietsfo, rawroaurdndcalcsuNlaNtion
+
+shows that at inter10 GeV, the overlap
+
+time already exceeds 1.5 fm/c. Thermalization only be-
+
+gins during this stage, meaning that a purely hydrody-
+
+namic description is not yet applicable. Consequently,
+
+a microscopic approach must be employed to model the
+
+system's early, out-of-equilibrium dynamics.
+
+In the iHKM for ultra-relativistic energies, the ini-
+
+tial state of matter is generated using the Monte Carlo
+
+Glauber model, implemented in the GLISSANDO II
+
+package [40], featuring a longitudinally boost-invariant
+
+distribution in coordinate space and a highly anisotropic
+
+momentum distribution inspired by the Color Glass Con-
+
+densate framework [41­44]. In the current version, event-
+
+by-event UrQMD cascade simulations are employed to
+
+describe the initial non-equilibrium dynamics up to a
+
+

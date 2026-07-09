@@ -1,0 +1,159 @@
+Exact-diagonalization study of exciton condensation in electron bilayers
+T. Kaneko1, S. Ejima2, H. Fehske2, and Y. Ohta1 1Department of Physics, Chiba University, Chiba 263-8522, Japan 2Institut fu¨r Physik, Ernst-Moritz-Arndt-Universita¨t Greifswald, 17489 Greifswald, Germany
+(Dated: August 19, 2021)
+We report on small-cluster exact-diagonalization calculations which prove the formation of electron-hole pairs (excitons) as prerequisite for spontaneous interlayer phase coherence in bilayer systems described by the extended Falicov-Kimball model. Evaluating the anomalous Green's function and momentum distribution function of the pairs, and thereby analyzing the dependence of the exciton binding energy, condensation amplitude, and coherence length on the Coulomb interaction strength, we demonstrate a crossover between a BCS-like electron-hole pairing transition and a Bose-Einstein condensation of tightly bound preformed excitons. We furthermore show that a mass imbalance between electrons and holes tends to suppress the condensation of excitons.
+PACS numbers: 71.35.-y, 73.21.-b, 71.10.Fd
+
+arXiv:1305.7298v2 [cond-mat.str-el] 12 Jul 2013
+
+I. INTRODUCTION
+The formation of excitonic quantum condensates is an intensively studied continuous problem in condensed matter physics.1­4 In a two-component (electron-hole) many-particle system the attractive Coulomb interaction between oppositely charged electrons and holes can trigger their pairing and ­ under certain conditions ­ build up a macroscopic phase-coherent quantum state.
+A variety of experimental attempts have been made to observe the condensed state of excitons in quasi-thermal equilibrium, e.g., in photoexcited semiconductors such as Cu2O,5­9 or in unconventional semiconductor and bilayer graphene systems subject to electric and/or magnetic fields.10­14 Quite recently, the emergence of spontaneous coherence in a gas of indirect excitons in an electrostatic trap has been reported.15 Neutral electron-ion quantum plasmas are other promising candidates for exciton condensates.16,17
+From a theoretical point of view, a possible continuous transition between a Bardeen-Cooper-Schrieffer (BCS) electron-hole pair condensate and a Bose-Einstein condensate (BEC) of preformed excitons has been of topical interest.4,18­23 However, exact results for the groundstate properties of strongly correlated electron-hole (excitonic) systems are rare. Gas (or fluid) models have recently been studied, e.g., by the diffusion quantum Monte Carlo method.24,25 Lattice fermion models with shortrange Coulomb interaction, such as multi-band Hubbardlike models,26­28 should be capable of describing the physics of exciton condensation as well, but have not yet been thoroughly explored by unbiased numerical techniques.
+Motivated by this situation, in this paper, we made an attempt to address the problem of exciton condensation in electron-hole bilayers in terms of a minimal lattice fermion model, the so-called extended FalicovKimball model (EFKM).29­33 Originally the EFKM describes a two-band electron system with local Coulomb interaction between f - and c-band electrons and has been used to study electronic ferroelectricity,30,31,34 excitonic
+
+resonances,35 or the excitonic insulator state.33,36­40 Dif-
+ferent from these problems, in our double-layer (DL)
+system, the numbers of f - and c-particles are sepa-
+rately conserved, however, because charge transfer be-
+tween the two layers is assumed to be impossible. This
+rather mimics the generic situation in semiconductor electron-hole double quantum wells,12,41,42 bilayer quantum antiferromagnets,43 and double-monolayer44,45 or double-bilayer graphene.46
+
+II. MODEL
+
+The EFKM for an electron-hole DL takes the form
+
+H = -tf (fifj + H.c.) - tc (cicj + H.c.)
+
+i,j
+
+i,j
+
+-µf
+
+nif - µc
+
+nic + U
+
+nfi nci ,
+
+(1)
+
+i
+
+i
+
+i
+
+where fi (fi) creates (annihilates) an electron in the f orbital at site i of the hole (or valence-band) layer, and nif = fifi is the f -particle number operator. The transfer amplitude between f -orbitals on nearest-neighbor sites is denoted by tf . Corresponding definitions apply for the c-orbital of the electron (or conductionband) layer. U (> 0) parametrizes the on-site interlayer (on-site) Coulomb attraction between f -holes and celectrons. The spin degrees of freedom have been ignored for simplicity. Furthermore we assume a band structure with a direct band gap (tc · tf < 0) as shown in Fig. 1.
+Taking into account the experimental situation,5­13,17,45 we assume that the excited electrons and holes have infinite lifetime, that the number of excited electrons is equal to the number of excited holes, and that the number of bound pairs (excitons) can be viewed as an input parameter, independent of the interaction strength. In practice, we adjust the chemical potentials µf and µc to maintain the number of electrons in the f - and c-layer separately, thereby fixing the average f - and c-particle density per site as nf
+
+2
+
+FIG. 1: (Color online) (a) Schematic representation of the DL EFKM cluster model with Ns = 16 sites (32 orbitals). (b) Non-interacting tight-binding band structure and (c) square lattice Brillouin zone. Dots indicate the allowed momenta of
+the 4 × 4 lattice with periodic boundary conditions. Throughout this work, we assume filling factors nf = 0.75 and nc = 0.25, i.e., (Nf , Nc) = (12, 4) which means nh = ne = 0.25, irrespective of U . The red and blue lines in (c) show the perfectly matching hole and electron Fermi surfaces, respectively, with finite-lattice Fermi momenta kF located at k = (±/2, 0)
+and (0, ±/2).
+
+and nc, respectively. Due to this simplified description,
+issues such as exciton Mott transition and biexciton formation16 are beyond the scope of this work.
+
+III. THEORETICAL APPROACH
+
+We employ a Lanczos exact-diagonalization technique for a finite square lattice with periodic boundary conditions (see Fig. 1) and calculate the anomalous Green's function for exciton condensation
+
+Gcf (k, ) =
+
+0N
+
+ck
+
+
+
++
+
+i0+
+
+1 -
+
+H
+
++
+
+E0
+
+fk
+
+0N
+
+(2)
+
+in the momentum (k) and frequency () space, where |0N is the ground-state wave function and E0 is the ground-state energy of a system with N electrons. We
+define the anomalous spectral function
+
+F
+
+(k,
+
+)
+
+=
+
+-
+
+1 
+
+Gcf
+
+(k,
+
+)
+
+(3)
+
+and denote its frequency integral by Fk. Clearly, the anomalous Green's function vanishes in finite systems
+
+without long-range phase coherence. We therefore have to assume the presence of the state |0N , which is a coherent superposition of states with different numbers of excited electrons and holes (or excitons) at given number N , just as for the BCS wave function of superconductors where the number of electrons is also not conserved. In order to detect particle fluctuations of the exciton condensate, we adopt a technique introduced for the evaluation of the superconducting anomalous Green's function on small clusters,47,48 which allows for the calculation of the off-diagonal Green's functions with respect to varying particle numbers [see Eq. (4)]. We thus monitor the excitonic pairing instability via the anomalous excitation spectrum (corresponding to the Bogoliubov quasiparticle spectrum in superconductors). Note that the term `anomalous' is used to indicate that the number of electrons on each of the f - and c-bands is not conserved in the course of exciton condensation (or spontaneous c-f hybridization) although the total number of electrons N is conserved.
+Having Gcf (k, ) determined, we can calculate the condensation amplitude Fk (following Refs. 47 and 48) from
+
+Fk = Nf - 1, Nc + 1 ck fk Nf , Nc ,
+
+(4)
+
+where |Nf , Nc is the ground state with the fixed numbers of f - and c-electrons, and subsequently will be able to determine the order parameter
+
+
+
+=
+
+U Ns
+
+k
+
+Fk
+
+(5)
+
+and the coherence length
+
+=
+
+k |kFk|2 k |Fk|2
+
+(6)
+
+for the excitonic condensate (Ns counts the number of lattice sites).
+The binding energy of an exciton EB should be equal to twice of the order parameter  in the weak-coupling limit and deviate largely from this value in the strong-coupling regime. Within our finite-cluster approach, EB may be obtained representing the orbital flavor by electron-hole variables, i.e., fi  hi and ci  ei . As a result, the interaction term of the DL EFKM takes the form U i nfi nci  -U i nienih + U i nei , where, in addition to the attractive electron-hole interaction, an extra onsite energy term appears. Due to this term, we should first determine the energy for the addition and removal of an electron:
+
+EB+ = E0(Nf - 1, Nc + 1) + E0(Nf , Nc)
+
+- 2E0(Nf , Nc + 1) + U ,
+
+(7)
+
+EB- = E0(Nf - 1, Nc + 1) + E0(Nf , Nc)
+
+- 2E0(Nf - 1, Nc) - U ,
+
+(8)
+
+

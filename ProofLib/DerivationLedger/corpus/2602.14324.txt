@@ -1,0 +1,93 @@
+arXiv:2602.14324v1 [astro-ph.CO] 15 Feb 2026
+
+Gravitational waves from supercooled phase transitions and pulsar timing array signals
+Jinzheng Li and Pran Nath,
+Department of Physics, Northeastern University, 111 Forsyth Street, Boston, MA 02115-5000, U.S.A. E-mail: li.jinzh@northeastern.edu, p.nath@northeastern.edu
+The recent detection of a gravitational wave background in the nano-Hertz frequency range by Pulsar Timing Array (PTA) collaborations, including NANOGrav, EPTA, and PPTA, has opened a new avenue for exploring fundamental physics in the early universe. In this work, we analyze a supercooled first-order phase transition in a hidden sector with a spontaneously broken  (1) gauge symmetry as a source for this signal. We demonstrate that the thermal history of the hidden and visible sectors plays a crucial role in the gravitational wave power spectrum analysis. Our analysis shows that supercooled phase transitions can generate gravitational waves strong enough to explain the PTA observations while satisfying cosmological constraints from Big Bang Nucleosynthesis.
+
+Proceedings of the Corfu Summer Institute 2025 "BSM 2025 Conference" (CORFU2025) August 25­September 3, 2025 Corfu, Greece
+
+Speaker
+© Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.
+
+https://pos.sissa.it/
+
+Gravitational waves from supercooled phase transitions and pulsar timing array signals
+
+Pran Nath
+
+1. Introduction
+
+The observation of gravitational waves from black hole mergers in 2016 [1] opened a new avenue to explore fundamental physics. Among various possible sources of gravitational waves, stochastic gravitational wave backgrounds are of particular interest as they could reveal fundamental new physics including inflation, cosmic strings, and cosmic phase transitions [2­4]. Recently, evidence for a signal in the Pulsar Timing Array (PTA) in the nano-Hertz frequency range (10-10 - 10-8 Hz) has been found by NANOGrav [5], EPTA [6], and PPTA [7]. One of the most plausible explanations for this signal is a first-order phase transition (FOPT) during the early universe. The standard model of particle physics does not produce gravitational waves through a first-order phase transition, as the electroweak transition is a smooth crossover. This indicates that the signal must arise from physics beyond the standard model (BSM).
+To reach the nano-Hertz PTA frequency range, a supercooled phase transition [8] is required for two reasons . First, a slow transition rate with small / is needed to generate a large enough gravitational wave power spectrum. The peak amplitude scales as
+
+GW
+
+2
+
+
+
+
+10-6
+
+ 
+
+2
+
+ 2 ,
+1 + 
+
+(1)
+
+where  is the transition strength parameter. Second, the phase transition should occur before Big Bang Nucleosynthesis (BBN) at   1 MeV to satisfy cosmological constraints. The gravitational wave frequency in a FOPT is typically
+
+  10-4 /
+
+
+
+
+
+1/6
+Hz.
+
+(2)
+
+100 100 GeV 100
+
+For non-supercooled transitions with large / > 1000, reaching nano-Hertz frequencies while maintaining   1 MeV is not possible. This note is based on ref. [9] which examined whether supercooled FOPTs in a hidden sector can produce gravitational waves that match the PTA observations. Several challenges arise in such analyses [10]: (i) late transitions risk interfering with Big Bang Nucleosynthesis (BBN), (ii) energy release and entropy injection must not spoil light element abundances, and (iii) the transition may be too slow to complete. We demonstrate how these challenges are overcome by proper inclusion of the thermal history of the hidden and visible sectors. Similar studies on hidden sector phase transitions have been conducted in refs. [11­14].
+
+2. A hidden sector model for gravitational wave analysis
+
+We consider a hidden sector model coupled to the Standard Model (SM) through a kinetic mixing portal [15]. The model consists of the SM and a hidden sector charged under a  (1) gauge symmetry with field content:  (gauge field),  (Dirac fermion),  (complex scalar), and a kinetic energy portal. The Lagrangian is given by L = LSM + L where LSM is the standard model Lagrangian and L describes the hidden sector and its coupling to the visible sector:
+
+L
+
+=
+
+-
+
+1
+
+
+
+4  
+
+-
+
+
+
+2  
+
+-
+
+| ( 
+
+-  )|2
+
++ ¯( - ) -  ¯  - 0hid (),
+
+(3)
+
+2
+
+

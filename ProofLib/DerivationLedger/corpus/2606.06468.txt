@@ -1,0 +1,61 @@
+Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement
+
+arXiv:2606.06468v1 [cs.AI] 4 Jun 2026
+
+Jui-Hui Chung * 1 Ziyang Cai * 1 Zihao Li 1 Qishuo Yin 1 Rohit Agarwal 1 Simon Park 1 Rodrigo Porto 1 Narutatsu Ri 1 Ziran Yang 1 Shange Tang 1 Xingyu Dang 1 Hongzhou Lin 2 Mengdi Wang 1 Danqi Chen 1
+Chi Jin 1 Liam H Fowl *  1 Sanjeev Arora  1
+
+Abstract
+We introduce GOEDEL-ARCHITECT, an agentic framework for formal theorem proving in Lean 4 centered on blueprint generation and refinement. A blueprint is a dependency graph of definitions and lemmas that builds up to the main theorem. First, GOEDEL-ARCHITECT generates a blueprint of formally stated definitions and lemmas, along with declared dependencies. This blueprint is optionally guided by a natural language proof. Then, a tool-equipped Lean prover component closes each open lemma node in parallel using relevant dependencies. Failed lemmas in turn drive refinement of the global blueprint. This strategy contrasts with other mainstream approaches which use recursive lemma decomposition, and can inefficiently loop on dead-end strategies. Using the open-weight DeepSeek-V4Flash (284B-A13B) as the backbone, GOEDELARCHITECT attains 99.2% pass@1 on MiniF2Ftest and 75.6% pass@1 on PutnamBench. With an optional natural-language proof seeding the initial blueprint on the harder problems, we additionally close the remaining two MiniF2F-test problems (reaching 100%), lift PutnamBench to 88.8% (597/672), and solve 4/6 on IMO 2025, 11/12 on Putnam 2025, and 3/6 on USAMO 2026. This represents state-of-the-art performance for an open-source pipeline at a price point up to 500× less than comparable open-source pipelines.
+*Equal contribution Joint last authors. 1Princeton Language and Intelligence, Princeton University 2Amazon. This work is independent of and outside of the work at Amazon. Correspondence to: Jui-Hui Chung <jc1220@princeton.edu>, Ziyang Cai <zc5794@princeton.edu>, Liam H Fowl <lf2728@princeton.edu>.
+Preprint. June 5, 2026.
+
+1. Introduction
+The last two years have seen rapid progress in the mathematical abilities of frontier AI systems. This progress has been highlighted by several achievements by AI systems such as IMO gold-winning submissions from several frontier labs (Google DeepMind, 2025; Wei et al., 2025), to solving open Erdos problems that had previously deterred even elite math researchers (Alexeev et al., 2026), among others. As mathematical capabilities of AI systems continue to develop, the human cost of verification of AI-generated proofs also proportionally grows.
+Formal theorem proving, in verifiable languages like Lean (Moura & Ullrich, 2021), offers an appealing proposition for researchers wanting to harness the math abilities of AI systems while also requiring rigor and verifiability of the AI's output. Significant progress has also been made in the vein of formal theorem proving in recent years. Google's AlphaProof (Google DeepMind, 2024) attained silver-winning performance on the 2024 IMO exam, and difficult benchmarks such as PutnamBench (Tsoukalas et al., 2024) are now largely tractable for the strongest formal theorem proving systems. Such RL-trained frontier search systems define the upper end of formal-proof capability, albeit with closed weights and reported runs several orders of magnitude above our compute budget.
+However, for researchers and enthusiasts, the selection of available, high-quality resources is highly limited. Customtrained Lean provers are available to academics (Lin et al., 2025a;b; Ren et al., 2025), but usually score quite poorly (< 15%) on more difficult benchmarks like PutnamBench. Other pipelines and systems can score above 50% on PutnamBench, and some even exceed a 99% solve rate. However, at the time of submission, every system exceeding 50% on PutnamBench either uses unreleased model or pipeline (Logical Intelligence, 2025; Chen et al., 2025b;a), or requires expensive frontier model usage - requiring many thousands of dollars in API credits to solve the slate of questions in PutnamBench (Varambally et al., 2025; Requena et al., 2026).
+
+1
+
+Goedel-Architect
+
+Informal statement
+Formal statement
+
+Natural-language proof
+
+Blueprint generation
+
+T Initial blueprint G0
+
+Lean compiler + Mathlib
+Theorem proving
+
+T Solved blueprint
+
+T Revised blueprint Gk+1
+
+Blueprint refinement
+
+STATEMENT WRONG
+alter formalization
+PROOF TOO HARD
+decompose lemma
+
+T Result blueprint
+
+Lean proof of T
+
+Figure 1. Overview of the GOEDEL-ARCHITECT pipeline. Inputs. The formal statement always seeds blueprint generation; an informal statement and a natural-language proof (dashed) form an optional structural guide. Blueprint generation. It emits an initial dependency graph G0 of definitions and lemmas building up to the main theorem T (arrows are declared dependencies); every node starts unsolved (blue). Theorem proving dispatches each lemma to a Lean prover in parallel, restricted to its declared parents, with every candidate proof checked against the Lean compiler and Mathlib, and emits a result blueprint marking each node solved (green), unsolved (blue), or formally negated (red). When every node is solved, the solved blueprint assembles into a Lean proof of T . Refinement loop. Otherwise, each failing node carries one of two diagnoses: STATEMENT WRONG -- the statement is false under its hypotheses, so the formalization is altered -- raised either by a formally negated (red) node, where the prover verified a counterexample, or by an unsolved (blue) node the prover argues is false but could not disprove; or PROOF TOO HARD -- an unsolved (blue) node the prover believes provable but could not chain its parents to, so the lemma is decomposed into helper lemmas. Blueprint refinement consumes these signals and emits the revised blueprint Gk+1, preserving already-solved nodes as green (their proofs reused while signatures and parents are unchanged, though an upstream edit can revert a dependent to blue) and adding new helper lemmas (dashed). The revised blueprint is re-proven, and the loop continues until every node is solved or the iteration budget is exhausted.
+
+To organize this landscape, we group prior work by the role the LLM plays at inference time: non-agentic provers that emit a complete Lean proof in one shot, agentic provers where a single LLM interleaves its reasoning with calls to the Lean compiler and to retrieval, and pipelines that orchestrate multiple LLM components around the prover. Where a comparator's backbone or pipeline is unreleased we mark it closed; otherwise the backbone weights and pipeline code are publicly available (open).
+Non-agentic provers. Open-weight LLMs are fine-tuned on Lean data and used in a single forward pass: a problem statement goes in, a complete proof comes out, with no tool use or iteration. The Goedel-Prover series (Lin et al., 2025a;b), the DeepSeek-Prover line (Xin et al., 2024a;b; Ren et al., 2025), Kimina-Prover (Wang et al., 2025), Hunyuan-Prover (Li et al., 2024), and TheoremLLaMA (Wang et al., 2024) all follow this template and release their weights (open). Lean-STaR (Lin et al., 2024) additionally interleaves chain-of-thought tokens between proof steps but still emits the proof in one shot. These provers are the closest open comparators on MiniF2F; their pass-rates on Putnam-class problems sit in the single digits, motivating the agentic and pipeline approaches below.
+Agentic provers. A single LLM interleaves its reasoning with calls to the Lean compiler (typecheck errors, goal
+
+states) and to a Mathlib retrieval service, adjusting subsequent steps in response. AxProverBase (Requena et al., 2026) and Numina-Lean-Agent (Liu et al., 2026) pair this template with a proprietary frontier backbone -- Claude Opus 4.5 in both cases (closed backbone, open pipeline) -- achieving strong results on PutnamBench and Putnam 2025 than non-agentic provers.
+Pipelines. Another approach wraps the prover (agentic or not) in an orchestrated multi-stage system with explicit decomposition, refinement, or sketching. Hilbert (Varambally et al., 2025) recursively subdivides goals and proves leaves, on a closed Gemini 2.5 Pro backbone (open pipeline); SeedProver and Seed-Prover 1.5 (Chen et al., 2025b;a) combine sketching with iterative refinement on a closed backbone and closed pipeline; LongCat-Flash-Prover (Wang et al., 2026) releases an open backbone but a closed pipeline; the Aleph prover (Logical Intelligence, 2025) is closed on both axes. Earlier, Draft-Sketch-Prove (Jiang et al., 2022) established the template of letting an LLM draft an informal proof, translating it to a formal proof sketch with placeholder goals, and using a downstream prover to fill them in -- the original pipeline that seeds formal proving with an informal scaffold.
+In this work, we introduce GOEDEL-ARCHITECT, which establishes a new Pareto frontier for formal theorem proving by delivering state-of-the-art performance for its com-
+
+2
+
+

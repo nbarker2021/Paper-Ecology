@@ -1,0 +1,182 @@
+arXiv:2507.00128v3 [cond-mat.mes-hall] 20 Apr 2026
+
+Majorana zero modes in semiconductor-superconductor hybrid structures: Defining
+topology in short and disordered nanowires through Majorana splitting
+Haining Pan1 and Sankar Das Sarma2
+1Department of Physics and Astronomy, Center for Materials Theory, Rutgers University, Piscataway, New Jersey 08854 USA
+2Condensed Matter Theory Center and Joint Quantum Institute, Department of Physics, University of Maryland, College Park, Maryland 20742, USA
+Majorana zero modes (MZMs) are bound midgap topological excitations at the ends of a 1D topological superconductor, which must come in pairs. If the two MZMs in the pair are sufficiently well-separated by a distance much larger than their individual localization lengths, then the MZMs behave as non-Abelian anyons which can be braided to carry out fault-tolerant topological quantum computation. In this `topological' regime of well-separated MZMs, their overlap is exponentially small, leading to exponentially small Majorana splitting, thus enabling the MZMs to be topologically protected by the superconducting gap. In real experimental samples, however, the existence of disorder and the finite length of the 1D wire considerably complicate the situation, leading to ambiguities in defining `topology' since the Majorana splitting between the two end modes may not necessarily be small in disordered wires of short length. We theoretically study this situation by calculating the splitting in experimentally relevant short disordered wires, and explicitly investigating the applicability of the `exponential protection' constraint as a function of disorder, wire length, and other system parameters in realistic models of nanowires currently being used experimentally. We find that the exponential regime is highly constrained, and is suppressed for disorder somewhat less than the topological superconducting gap. We provide detailed results and discuss the implications of our theory for the currently active experimental search for MZMs in superconductor-semiconductor hybrid platforms. A general consequence of our work is that `topology' in finite disordered wires may not be uniquely defined, necessitating a careful analysis which depends on the context.
+
+I. BACKGROUND AND INTRODUCTION
+
+In 2000, Kitaev pointed out [1] that an infinitely long
+
+clean spinless p-wave superconducting 1D (lattice) sys-
+
+tem can be in two distinct phases: Trivial and topo-
+
+logical, with a gapless quantum phase transition point
+
+separating the two. The topological phase has isolated
+
+midgap zero-energy Majorana bound states (MBS) local-
+
+ized at each end of the wire. It is `topological' since such
+
+isolated MBS are non-Abelian anyons manifesting intrin-
+
+sic quantum degeneracy and nontrivial braiding statis-
+
+tics, which are protected by the bulk superconducting
+
+gap, as already pointed out by Read in the context
+
+of non-Abelian fractional quantum Hall states also in
+
+2000. [2] The trivial phase, by contrast, has no isolated
+
+MBS as the Majorana modes pair up to form regular
+
+fermionic states. The topological and trivial phases are
+
+separated by a gapless topological quantum phase transi-
+
+tion (TQPT) in the parameter space of the Hamiltonian
+
+controlling the superconductivity. Kitaev also identified
+
+a `Pfaffian' topological indicator, which vanishes at the
+
+TQPT (where the superconducting gap must also vanish
+
+with the gap below and above the TQPT respectively be-
+
+ing trivial and topological) which was also discussed by
+
+Read, taking on the values of ±1 in the trivial/topological
+
+phase. These early works, along with the 2000 work of
+
+Sengupta et al. [3] demonstrating that such a topologi-
+
+cal spinless p-wave superconductor with isolated midgap
+
+MBS would manifest perfect Andreev reflection with a
+
+conductance
+
+quantization
+
+of
+
+2e2 h
+
+,
+
+were
+
+done
+
+for
+
+pristine
+
+long wires, where topology is uniquely defined. (We
+
+note that it is well-known that such midgap zero-energy bound states cannot occur in regular s-wave superconductors by virtue of the fermion doubling theorem -- in s-wave superconductors, in-gap quasiparticles are the usual particle-hole symmetric electrons and holes with energies above or below the midgap.)
+What happens to topology in finite and/or disordered systems? The important question of the operational definition of how these topological ideas developed for pristine and infinite systems apply to real experimental systems in the laboratory was not discussed at all in these early pioneering publications. [1­3] A superconductor is uniquely defined by one energy scale, the gap (), and one length scale, the coherence length (), and the obvious implication is that if the disorder strength () and the wire length (L) are much smaller and much larger than  and  respectively, the system is topological. For very short wires (L  ) and very strong disorder (  ), topology cannot be defined, and there is no MBS or topological superconductivity. Quite coincidentally, again in 2000, another important (and independent) work [4] showed that such topological p-wave superconductivity in an infinite 1D system is destroyed by strong disorder through a quantum phase transition taking the system from a topological superconductor at weak disorder to a trivial localized insulator at strong disorder. Thus, very strong disorder (  ) necessarily destroys topology, although topology survives weak disorder. It is also clear that very short wires (L  ) cannot host isolated MBS since the two end MBS would overlap, creating ordinary fermionic Andreev bound states (ABS)
+
+2
+
+shifted from zero energy, and thus, becoming nontopological. This shift in energy from zero energy corresponds to the `Majorana splitting' energy as the overlap between the two MBS at two ends split their zero-energy character, but for low enough overlap, i.e. when the two MBS are separated by L  , the splitting is exponentially small  exp(-L/), implying the topological protection of MBS. But this exponential topological protection applies only when L  , and for short wires, topology becomes ill-defined. The same is true for strong disorder, where the length L corresponds to the electron localization length, which is suppressed below the wire length, again leading to the effective short-wire situation since the localization length becomes comparable to or shorter than the coherence length .
+
+A key motivation of Ref. [1] was the possibility of us-
+
+ing the isolated end MBS for topological quantum com-
+
+putation [5], provided a 1D topological superconductor
+
+can be found. This can be done by suitably manipu-
+
+lating the MBS in their degenerate quantum subspace,
+
+defined by both MBS occupied or empty, as indicated
+
+by their parity, provided they are located sufficiently far
+
+from each other. In this scenario, the topological pro-
+
+tection is `exponential', i.e., the overlap between the two
+
+MBS at the ends leads to an exponentially small energy
+
+splitting going as exp(-L/) in the L   regime, thus
+
+preserving their zero energy status which is crucial for
+
+topology. Since in many situations, the coherence length
+
+(which in the topological superconducting state implies
+
+the size of the MBS localization at the end, thus control-
+
+ling their end-to-end overlap suppressing the Majorana
+
+identity--for strong overlap the states are simply ABS),
+
+itself
+
+goes
+
+as
+
+1 
+
+.
+
+The
+
+superconducting
+
+gap
+
+
+
+controls
+
+the
+
+topological protection--the larger the gap, the shorter
+
+the coherence length, and hence the stronger the protec-
+
+tion through the exp(-L/) factor in the Majorana split-
+
+ting. However, such exponential regimes may not exist in
+
+short wires or even in longer wires with strong disorder
+
+and/or small energy gap. No direct experimental mea-
+
+surement of  is feasible, so in realistic situations, we do
+
+not know if the L   topological condition is satisfied.
+
+Note that disorder may make L much smaller than the
+
+wire length because the electron localization length is the
+
+relevant quantity to be compared with the SC coherence
+
+length, and for strong disorder the electron localization
+
+length may very well be shorter than the wire length in
+
+realistic devices.
+
+The subject of MBS-carrying 1D topological superconductors remained academic and theoretical since nobody knew how to create such a system practically, and the early focus on non-Abelian anyons was entirely on the even-denominator fractional quantum Hall effect, where such quasiparticles should exist, but have not yet been observed because of various experimental difficulties. [5, 6] In fact, the subject of MBS in 1D topological superconductors was essentially ignored for the first ten years up to 2010. This all changed in 2009-2010 with the appearance of several theoretical papers proposing
+
+a practical route to artificially engineer MBS-carrying semiconductor `Majorana nanowires' which can be tuned into the topological phase by varying an applied magnetic field and/or the chemical potential (through a suitable gate voltage). [7­10] In this nanowire context, the MBS is typically called `Majorana zero modes' (MZM), and we adopt this terminology from now on in place of MBS. We restrict our attention mostly to the InAs/Al semiconductor-superconductor (SM-SC) platform where InAs is the MZM-carrying nanowire in the topological phase (with Al providing the proximity-induced superconductivity in InAs, which is driven into the topological phase by the applied magnetic field). All our explicit results in this paper (except for a few, as explicitly noted at appropriate places) are given for the InAs/Al Majorana nanowire platform using physical units (i.e., meV, nm, T for energy, length, magnetic field, respectively) applicable to the experimental situations. It is easy to convert them into dimensionless units using the energy gap, the wire length (or the coherence length), etc., as the appropriate units.
+In the context of the extensive experimental studies of Majorana nanowires [11­21] following the theoretical predictions, it became clear that the nanowires used in all the early experiments up to 2020 were both very short (L < ) and very disordered ( < ), and the experimentally observed zero-bias conductance peaks (ZBCP) are simply low-energy fermionic Andreev bound states (ABS) accidentally localized near one wire end (but not both). [17, 22­26] It was shown explicitly using the random matrix theory that strongly disordered nanowires have a small but experimentally relevant generic probability of producing almost-zero-energy nontopological ABS near the wire ends, which could mimic MZMs, thus leading to an erroneous identification of ABS as MBS. [27] The experimentally studied systems were never in the topological phase, and the accidental ABS appeared through fine-tuning. A question then arises about the minimal necessary conditions for ascertaining the experimental MZM signatures, since the observation of ZBCP by itself is clearly insufficient. We have earlier studied this question of minimal experimental topological signatures in depth [28], suggesting the necessary tunneling characteristics to be: (1) The observation of simultaneous ZBCP in local tunneling at both ends; (2) the observation of bulk gap closing/reopening signatures in nonlocal end-to-end tunneling precisely in the parameter regime where the ZBCP from the ends show up. Theoretical simulations can then further add sufficiency conditions by calculating the appropriate topological invariant, such as the Pfaffian or, more appropriately (for tunneling transport systems such as nanowires), the scattering matrix invariant (which is essentially equivalent to the Pfaffian invariant). [29­31] The strictly theoretical binary values of the topological invariant (TI) are ±1 corresponding to trivial/topological regimes in the long wire (L  ,   ) pristine limit, which is the limit where topology can be uniquely defined. At the
+
+

@@ -1,0 +1,53 @@
+arXiv:1810.08252v4 [math.CO] 28 Mar 2020
+
+Containing All Permutations
+Michael Engen and Vincent Vatter
+Department of Mathematics University of Florida
+Gainesville, Florida USA
+Numerous versions of the question "what is the shortest object containing all permutations of a given length?" have been asked over the past fifty years: by Karp (via Knuth) in 1972; by Chung, Diaconis, and Graham in 1992; by Ashlock and Tillotson in 1993; and by Arratia in 1999. The large variety of questions of this form, which have previously been considered in isolation, stands in stark contrast to the dearth of answers. We survey and synthesize these questions and their partial answers, introduce infinitely more related questions, and then establish an improved upper bound for one of these questions.
+1. Introduction
+What is the shortest object containing all permutations of length n? As we shall describe, there are a variety of such problems, going by an assortment of names including superpatterns and superpermutations. Throughout, we call all such problems universal permutation problems. The diversity of these problems stems from the multiple possible definitions of the terms involved. To state these problems, it is necessary to view permutations as words. A word is simply a finite sequence of letters or entries drawn from some alphabet. The length of the word w, denoted |w| throughout, is its number of letters, and if w is a word of length at least i, then we denote by w(i) its ith letter. From this viewpoint, a permutation of length n is a word consisting of the letters [n] = {1, 2, . . . , n}, each occurring precisely once. Permutations are thus a special type of words over the positive integers P. Two words u, v  Pn (that is, both of length n, with positive integer letters) are order-isomorphic if, for all indices i, j  [n], we have
+u(i) > u(j)  v(i) > v(j).
+In all universal permutation problems considered here, the object that is to contain all permutations of length n, called the universal object, is a word, but there are two different types of containment. Sometimes we insist that the word w contain each such permutation  as a contiguous subsequence,
+Date: March 31, 2020 Key words and phrases. universal permutation, superpattern, superpermutation AMS 2000 Subject Classification. 05A05 (primary), 68R15, 05D99 (secondary)
+1
+
+Containing All Permutations
+
+2
+
+Table 1: Current best upper bounds for the lengths of the shortest universal words in six flavors of universal permuwtoatridosn opvreorbl[enm] s (for largweonr)d.s over [n + 1] words over P
+
+factor n! + (n - 1)! + (n - 2)! +(n - 3)! + n - 3
+
+n! + n - 1
+
+n! + n - 1
+
+subsequence
+
+n2
+
+-
+
+7 3
+
+n
+
++
+
+19 3
+
+n2 + n 2
+
+n2 + 1 2
+
+or factor, by which we mean that w can be expressed as a concatenation w = upv where the word p is order-isomorphic to . At other times we merely insist that w contain each such permutation  as a subsequence, by which we mean that there are indices 1  i1 < i2 < · · · < in  |w| so that the word p = w(i1)w(i2) · · · w(in) is order-isomorphic to .
+These notions of containment give rise to two different universal permutation problems. To obtain infinitely many, we vary the size of the alphabet that the letters of the universal word w can be drawn from. In the strictest form, we insist that w be a word over the alphabet [n], meaning that w is only allowed the symbols of the permutations it must contain. In this case, the notion of orderisomorphism reduces to equality: a word p  [n]n is order-isomorphic to a permutation  of length n if and only if p = . At the other end of the spectrum, we allow the letters of w to be arbitrary positive integers. Between these extremes, another interesting case stands out: when the alphabet is [n + 1], thus allowing the universal word one more symbol than the permutations it must contain. Table 1 displays the best upper bounds established to date for the six versions of this question that have garnered the most interest. In the case of the rightmost two cells of the upper row, these upper bounds are known to be the actual answers.
+The bounds shown in Table 1 weakly decrease as we move from left to right (a word over [n] is also a word over [n + 1], which is also a word over P) and also as we go from top to bottom (factors are also subsequences). Another notable feature of this table is that the lengths of the shortest universal words over the alphabet [n] seem to be significantly greater than the lengths of the shortest universal words over the alphabet [n + 1], whose lengths seem to be either equal to or close to those of the shortest universal words over the largest possible alphabet, P.
+We remark that some research in this area has sought a universal permutation instead of a universal word, but this is in fact equivalent to finding a universal word over P, as we briefly explain. The word u  Pn is order-homomorphic to the word v  Pn if, for all indices i, j  [n], we have
+u(i) > u(j) = v(i) > v(j).
+Less formally, if u is order-homomorphic to v, then all strict inequalities between entries of u also hold between the corresponding entries of v, but equalities between entries of u may be broken in v. It is clear that every word over P is order-homomorphic to at least one permutation (one simply needs to "break ties" among the letters of the word), and it follows that if u contains the permutation  (as a factor or subsequence) and u is order-homomorphic to v, then v also contains  (in the same sense--indeed, in the same indices--that u contains it). As every permutation is also a word over P, it follows finding a universal word, in either the factor or subsequence setting, is equivalent to finding a universal word over P.
+Each of the subsequent five sections of this paper is devoted to the examination of one of the cells of Table 1 (except for Section 3, which considers both the upper-center and upper-right cells). While
+
+

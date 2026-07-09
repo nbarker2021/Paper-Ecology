@@ -1,0 +1,105 @@
+Qubit-centric Transformer for Surface Code Decoding
+Seong-Joon Park1,2,, Hee-Youl Kwak3, and Yongjune Kim4 1Samsung Electronics Company, Ltd., Suwon 16677, South Korea 2Institute of Artificial Intelligence, Pohang University of Science and Technology (POSTECH), Pohang 37673, South Korea 3Department of Electrical, Electronic and Computer Engineering, University of Ulsan, Ulsan 44610, South Korea 4Department of Electrical Engineering, Pohang University of Science and Technology (POSTECH), Pohang 37673, South Korea
+(Dated: March 17, 2026)
+For reliable large-scale quantum computation, quantum error correction (QEC) is essential to protect logical information distributed across multiple physical qubits. Taking advantage of recent advances in deep learning, neural network-based decoders have emerged as a promising approach to improve the reliability of QEC. We propose the qubit-centric transformer (QCT), a novel and universal QEC decoder based on a transformer architecture with a qubit-centric attention mechanism. Our decoder transforms input syndromes from the stabilizer domain into qubit-centric tokens via a specialized embedding strategy. These qubit-centric tokens are processed through attention layers to effectively identify the underlying logical error. Furthermore, we introduce a graph-based masking method that incorporates the topological structure of quantum codes, enforcing attention toward relevant qubit interactions. Across various code distances for surface codes, QCT achieves state-of-the-art decoding performance, significantly outperforming existing neural decoders and the belief propagation (BP) with ordered statistics decoding (OSD) baseline. Notably, QCT achieves a high threshold of 18.1% under depolarizing noise, which closely approaches the theoretical bound of 18.9% and surpasses both the BP+OSD and the minimum-weight perfect matching (MWPM) thresholds. This qubit-centric approach provides a scalable and robust framework for surface code decoding, advancing the path toward fault-tolerant quantum computing.
+
+arXiv:2510.11593v2 [quant-ph] 16 Mar 2026
+
+I. INTRODUCTION
+Quantum error correction (QEC) is fundamental to the realization of fault-tolerant quantum computing, as it preserves the integrity of logical information against environmental noise and operational imperfections [1­7]. The QEC process consists of two main stages: encoding, which maps k logical qubits into n > k physical qubits, and decoding, which estimates errors from measured syndromes. Consequently, the performance of the QEC decoder is a primary factor in determining the overall reliability of quantum computation.
+Although classical error correction techniques are welldeveloped [8­10], they cannot be applied directly to QEC. Unlike classical bits, quantum states cannot be copied to generate redundancy due to the no-cloning theorem [2]. Moreover, direct measurement of qubits collapses their quantum state, and qubits are also susceptible not only to bit-flip errors but also phase-flip errors [2]. These challenges necessitate a fundamentally different approach based on indirect stabilizer measurements. This process produces syndromes, from which the underlying qubit errors are inferred without disturbing the encoded quantum information [5].
+Recent advances in neural networks have opened a new avenue for QEC decoding [11­17]. Neural network-based decoders are generally categorized into two types: lowlevel decoders, which reconstruct the physical error pattern of length n, and high-level decoders, which estimate
+Work done while at POSTECH.
+
+the logical error pattern of length k. For high-level decoders, the task is formulated as a classification problem over 4k possible logical error classes. This approach is particularly advantageous for codes with a small k, such as the surface code (k = 1). Since the output dimension remains fixed at 4k regardless of the code distance d, these decoders provide excellent structural scalability without an exponential increase in output complexity [18].
+Furthermore, since neural network-based decoders process syndromes through a fixed model architecture, they offer a deterministic decoding latency. This deterministic runtime contrasts with hybrid decoding architectures that employ a pre-decoder and a post-decoder, such as the belief propagation (BP) with ordered statistics decoding (OSD). [19­21]. In these hybrid approaches, the overall decoding time fluctuates depending on the input syndrome pattern, as the computationally intensive postprocessing stage is triggered only when the initial predecoder fails to converge. Predictable latency is a critical prerequisite for fault-tolerant quantum computing, as the global system clock is limited by the decoder's worstcase response time [13]. Given the remarkable success of neural networks in classification tasks [22, 23], they have emerged as a promising solution for high-level QEC decoders. Early implementations utilizing feed-forward neural networks (FFNNs) [13] have since evolved into more sophisticated architectures, such as convolutional neural networks (CNNs) [18], to better exploit the spatial structure of quantum codes.
+More recently, the transformer architecture has emerged as the universal backbone of modern deep learn-
+
+2
+
+ = 3
+
+7
+
+1
+
+2
+
+3
+
+1
+
+5
+
+3
+
+4
+
+5
+
+6
+
+4
+
+6
+
+2
+
+7
+
+8
+
+9
+
+Z  0
+Z-type stabilizer X 0 
+
+8
+
+ = 3
+
+Physical Z Z-type
+
+X X-type
+
+qubit
+
+syndrome syndrome X-type stabilizer
+
+M   M
+
+FIG. 1: Illustration of the topological structure of the surface code with distance d = 3 (left) and the syndrome extraction circuits (right).
+
+ing, demonstrating state-of-the-art performance across virtually all domains. Leveraging this widespread success, transformer-based decoders [24, 25] have recently been adapted for QEC. For instance, TransformerQEC [17] utilizes a vision transformer architecture to predict local errors, serving as a pre-decoding stage that reduces syndromes for a global decoder like minimum weight perfect matching (MWPM) [26]. In addition, AlphaQubit utilizes a hybrid architecture combining CNNs and RNNs within a transformer framework, effectively capturing both the topological structure of surface codes and the temporal correlations inherent in repeated syndrome measurements [16].
+However, a common limitation of these approaches is their stabilizer-centric input representation, which primarily operates on the syndrome space. While this approach aligns with the syndrome extraction process, it is fundamentally limited as it does not directly represent the physical qubits where the underlying physical errors lead to logical errors. Since logical errors fundamentally arise from physical faults rather than the syndromes themselves, a stabilizer-centric view provides only an indirect and often insufficient perspective. Consequently, a qubit-centric perspective is required to provide a more direct and effective means of analyzing the underlying error patterns.
+In this work, we propose the qubit-centric transformer (QCT), an architecture that shifts the decoding perspective from stabilizers to physical qubits. Unlike conventional stabilizer-centric approaches, QCT structures the input through two key layers: a qubit embedding layer and a merging layer. The embedding layer projects localized syndrome vectors, which encapsulate the measurement outcomes of adjacent Z- and X-stabilizers, into dense feature tokens. Subsequently, the merging layer concatenates these decoupled representations and fuses them into unified qubit tokens. This design allows the transformer blocks to process tokens that directly correspond to the physical qubits where errors actually originate, demonstrating that a physical qubit-level perspec-
+
+tive is fundamentally effective for decoding. Furthermore, we introduce a structure-aware mask matrix that reflects the topological structure of QEC codes. To ensure the model captures the physical structure, this matrix restricts the self-attention mechanism by masking the connections between tokens if their corresponding physical qubits do not share at least one common stabilizer. By incorporating this local structure, QCT focuses on physically relevant neighboring qubits and efficiently learns complex, localized error correlations.
+We evaluate the decoding performance of the proposed QCT on surface codes across various code distances. Consequently, we demonstrate that QCT achieves substantially lower logical error rates (LER) and higher pseudo-thresholds compared to existing neural network decoders. Notably, our analysis reveals that QCT achieves a high threshold of approximately 18.1% under depolarizing noise, which closely approaches the theoretical bound of 18.9% [27]. This performance significantly outperforms the 17.00% threshold of the BP+OSD baseline and the 14.7% threshold of the conventional MWPM algorithm. These results validate the robustness of the QCT and its potential for large-scale fault-tolerant quantum computing.
+The rest of the paper is structured as follows. In Sec. II, we briefly review the fundamentals of stabilizer codes, surface codes, and the high-level decoding method. Then, in Sec. III, we present the proposed QCT architecture, including qubit-centric embedding, merging layer, and structure-aware masking strategy. In Sec. IV, we evaluate the performance of our model, comparing its logical error rate against several classical and neural network-based decoders. Furthermore, we provide an analysis of the architectural features and evaluate both pseudo-thresholds and the threshold. Finally, Sec. V concludes the paper.
+
+II. PRELIMINARIES
+
+A. Stabilizer code
+
+QEC codes utilize n physical qubits to encode k logical qubits. An [[n, k, d]] stabilizer code C is defined by a stabilizer group S, which is an Abelian subgroup of the n-qubit Pauli group Pn such that -In / S [5]. The Pauli group Pn consists of n-fold tensor products of the singlequbit Pauli operators P = {I, X, Z, Y }, defined as:
+
+I=
+
+10 01
+
+,X =
+
+01 10
+
+,Z =
+
+10 0 -1
+
+, Y = iXZ.
+
+The group S is generated by n - k independent and commuting stabilizer generators {S1, S2, . . . , Sn-k}. The code space C is then defined as the common +1 eigenspace of all elements in S:
+
+C = {| | S | = | , S  S}.
+
+

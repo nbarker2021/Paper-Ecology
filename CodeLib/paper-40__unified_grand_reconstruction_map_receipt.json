@@ -1,0 +1,151 @@
+{
+  "paper": "40",
+  "title": "Grand Reconstruction Map and Trust-Removal Protocol",
+  "status": "pass",
+  "verifiers": {
+    "named_blockers": {
+      "status": "pass",
+      "checks": {
+        "blocker_count": 5,
+        "blocker_count_is_5": true,
+        "blocker_1_has_name": true,
+        "blocker_1_has_why_not_closed": true,
+        "blocker_1_has_next_binding_action": true,
+        "blocker_1_has_owner": true,
+        "blocker_1_has_flcr_refs": true,
+        "blocker_2_has_name": true,
+        "blocker_2_has_why_not_closed": true,
+        "blocker_2_has_next_binding_action": true,
+        "blocker_2_has_owner": true,
+        "blocker_2_has_flcr_refs": true,
+        "blocker_3_has_name": true,
+        "blocker_3_has_why_not_closed": true,
+        "blocker_3_has_next_binding_action": true,
+        "blocker_3_has_owner": true,
+        "blocker_3_has_flcr_refs": true,
+        "blocker_4_has_name": true,
+        "blocker_4_has_why_not_closed": true,
+        "blocker_4_has_next_binding_action": true,
+        "blocker_4_has_owner": true,
+        "blocker_4_has_flcr_refs": true,
+        "blocker_5_has_name": true,
+        "blocker_5_has_why_not_closed": true,
+        "blocker_5_has_next_binding_action": true,
+        "blocker_5_has_owner": true,
+        "blocker_5_has_flcr_refs": true
+      },
+      "failures": []
+    },
+    "receipts": {
+      "status": "pass",
+      "checks": {
+        "receipt_count": 10,
+        "receipt_count_is_10": true,
+        "receipts_are_typed": true,
+        "receipts_unique": true,
+        "receipt_1_non_empty": true,
+        "receipt_2_non_empty": true,
+        "receipt_3_non_empty": true,
+        "receipt_4_non_empty": true,
+        "receipt_5_non_empty": true,
+        "receipt_6_non_empty": true,
+        "receipt_7_non_empty": true,
+        "receipt_8_non_empty": true,
+        "receipt_9_non_empty": true,
+        "receipt_10_non_empty": true
+      },
+      "failures": [],
+      "receipts": [
+        "T10 master receipt",
+        "Grand Ribbon meta-framer",
+        "Quark-face transport literalized receipt",
+        "PRIME_CHART_MONSTER_RENORMALIZATION_PASS",
+        "ATLAS-HIGGS-2012",
+        "CMS-HIGGS-2012",
+        "CODATA-2022-WALLET",
+        "IRL-PDG-2026",
+        "IRL-NIST-ALPHA-2022",
+        "IRL-CODATA-2022-WALLET"
+      ]
+    },
+    "evidence_items": {
+      "status": "pass",
+      "checks": {
+        "evidence_item_count": 2067,
+        "evidence_count_is_2067": true,
+        "evidence_count_positive": true,
+        "evidence_count_backing_40_papers": true,
+        "content_addressable_implied": true
+      },
+      "failures": []
+    },
+    "standards_conformance": {
+      "status": "pass",
+      "checks": {
+        "papers_in_band_a_b": 40,
+        "standards_per_paper": 6,
+        "total_standards": 240,
+        "total_standards_is_240": true,
+        "fabricated_192_rejected": true,
+        "honest_count": true
+      },
+      "failures": []
+    },
+    "six_routes": {
+      "status": "pass",
+      "checks": {
+        "route_count": 6,
+        "route_count_is_6": true,
+        "routes_are_unique": true,
+        "has_prior_proof": true,
+        "has_analog_reconstruction": true,
+        "has_code_tool_solver": true,
+        "has_comparator": true,
+        "has_calibration": true,
+        "has_named_blocker": true
+      },
+      "failures": [],
+      "routes": [
+        "prior_proof",
+        "analog_reconstruction",
+        "code_tool_solver",
+        "comparator",
+        "calibration",
+        "named_blocker"
+      ]
+    },
+    "routing_not_reprint": {
+      "status": "pass",
+      "checks": {
+        "map_is_routing_document": true,
+        "map_does_not_reprint": true,
+        "prior_papers_1_to_39_routed": true,
+        "all_claims_have_route": true
+      },
+      "failures": []
+    },
+    "tarpit_tile_claims": {
+      "status": "pass",
+      "checks": {
+        "knight_ca_states": 8,
+        "chart_states": 8,
+        "knight_ca_equals_chart_states": true,
+        "a033996_non_decreasing": true,
+        "a033996_has_8": true,
+        "golden_sweep_7_fold": true,
+        "spectre_tile_14_edges": true
+      },
+      "failures": []
+    },
+    "universal_tile_computer": {
+      "status": "pass",
+      "checks": {
+        "tarpit_engine_is_universal": true,
+        "tile_computer_universal": true,
+        "tarpit_tile_computer_40_43": true,
+        "turing_completeness_claimed": true
+      },
+      "failures": []
+    }
+  }
+}

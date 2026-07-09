@@ -1,0 +1,61 @@
+51 CONSTRUCTIONS OF THE MOONSHINE MODULE
+SCOTT CARNAHAN
+Abstract. We show using Borcherds products that for any fixed-point free automorphism of the Leech lattice satisfying a "no massless states" condition, the corresponding cyclic orbifold of the Leech lattice vertex operator algebra is isomorphic to the Monster vertex operator algebra. This induces an "orbifold duality" bijection between algebraic conjugacy classes of fixed-point free automorphisms of the Leech lattice satisfying this condition and algebraic conjugacy classes of non-Fricke elements in the Monster. We use the duality to show that non-Fricke Monstrous Lie algebras are Borcherds-Kac-Moody Lie algebras, and prove a refinement of Norton's Generalized Moonshine conjecture: the ambiguous constants relating generalized moonshine Hauptmoduln under conjugation and modular transformations are necessarily roots of unity. We also describe a class of rank 2 Borcherds-Kac-Moody Lie algebras attached to the Conway group.
+
+arXiv:1707.02954v3 [math.RT] 30 Mar 2021
+
+Contents
+
+1. Vertex algebras and abelian intertwining algebras
+
+3
+
+2. Fixed-point free automorphisms yielding no massless states
+
+5
+
+3. Anomalous orbifolds
+
+7
+
+4. Non-Fricke orbifolds of Moonshine
+
+8
+
+5. Monstrous Lie algebras
+
+10
+
+6. Refined Generalized Moonshine
+
+12
+
+7. Conway Lie algebras of rank 2
+
+14
+
+8. Appendix
+
+16
+
+References
+
+17
+
+0.1. Introduction. In this paper, we extend the known cyclic orbifold constructions of the Monster vertex operator algebra V to cover all fixed-point free automorphisms of the Leech lattice satisfying a "no massless states" condition, proving an extended version of a 1993 conjecture of Tuite. By orbifold duality, we find that these cases exhaust all possible cyclic orbifold constructions of V . The first construction along these lines was the original construction by [Frenkel-Lepowsky-Meurman 1988], using the -1 involution, and this construction gave birth to the notion of orbifold conformal field theory. Some candidate constructions using prime order elements were proposed in the 1990s by [Montague 1995] and a proof in the order 3 case was announced in [Dong-Mason 1994]. However, proofs have only been fully written up relatively recently: in [Chen-Lam-Shimakura 2016] for the order 3 case, and in [Abe-Lam-Yamada 2017] for the remaining primes 5, 7, and 13, after the mathematical foundations of the cyclic orbifold construction were settled in [van Ekeren-M¨oller-Scheithauer 2015]. We complete this particular picture by considering orbifolds for all fixed-point free automorphisms of the Leech lattice that satisfy Tuite's conditions. Furthermore, we show that the "anomaly-free" condition can be removed using a more general orbifold construction. We note that there are other, non-orbifold constructions of V in the literature: [Griess-Lam 2011], [Miyamoto 1997].
+1
+
+2
+
+SCOTT CARNAHAN
+
+In a pair of remarkable papers [Tuite 1992, Tuite 1993], Tuite argued using physical considerations that the genus zero property of McKay-Thompson series in Monstrous Moonshine follows from some conjectured properties of the Moonshine module V , namely:
+(1) If g is anomaly-free and Tg is Fricke-invariant, then the cyclic orbifold V /g is isomorphic to V .
+(2) If g is anomaly-free and Tg is not Fricke-invariant, then the cyclic orbifold V /g is isomorphic to the Leech lattice vertex operator algebra V.
+Furthermore, by analyzing twisted sectors of V, he gave strong evidence for a conjecture dual to the second assertion, that if g is a fixed-point free automorphism of  satisfying the "no massless states" condition, with an anomaly-free lift to an automorphism of V, then V/g = V . Since there are 38 algebraic conjugacy classes of suitable fixed-point free automorphisms, this would give 38 constructions of V .
+Recent progress in the theory of vertex operator algebras and orbifold constructions make it reasonable to revisit these conjectures. In particular, [van Ekeren-Mo¨ller-Scheithauer 2015] showed that the cyclic orbifold construction V  V /g is well-defined for any anomaly-free finite order automorphism g of a simple, C2-cofinite, holomorphic vertex operator algebra of CFT type (such as V and V). Using this result, together with a method inspired by string-theoretic T-duality, the first conjecture, about Fricke automorphisms, was settled in [Paquette-Persson-Volpato 2017]. In this paper, we resolve the second conjecture, and therefore its dual. We also use an unrolling method to define a generalization of the orbifold construction to allow automorphisms with anomalies. This gives us 13 extra constructions of V , for a total of 51, and it yields a duality between fixed-point free algebraic conjugacy classes in Co1 satisfying the "no massless states" condition and non-Fricke classes in M. This duality was first conjectured in vague terms in Section 7 of [Conway-Norton 1979], and further developed with explicit calculations on the level of genus zero modular functions in [Kondo 1985]. Tuite then developed it into a statement about orbifold conformal field theory.
+We remark that [Paquette-Persson-Volpato 2016] not only gives a strong physical argument for the validity of Tuite's conjectures using string-theoretic tools, but also gives a new physical interpretation of the Atkin-Lehner involutions that yield the genus zero property in terms of T-duality. Some of their algebraic manipulations are quite similar to ours, since they use the same Borcherds products, but where they have an elegant argument for isomorphisms V /g = V based on physical reasoning, we have been unable to avoid a direct computation.
+We now consider applications of the orbifold duality. First, we show that all of the monstrous Lie algebras mg constructed in [Carnahan 2017] are Borcherds-Kac-Moody Lie algebras, using the orbifold correspondence to work out the non-Fricke case that was left over from the earlier paper. We will not say much about the general theory of Borcherds-Kac-Moody Lie algebras, except to note that they are similar in many ways to finite dimensional simple Lie algebras: they are generated by sl2-triples with relations encoded by a Cartan matrix, and their highest-weight representations satisfy a generalization of the Weyl character formula. From section 4 of [Carnahan 2012], if we have a homogeneous group action on such a Lie algebra, we obtain a twisted denominator formula, using the BGG-type methods of [Jurisich 2004]. We note that in the Fricke case, we recently showed in [Carnahan 2017] that the BGG-type methods are avoidable using a decomposition introduced in [Jurisich 1998]. However, in the non-Fricke case, the infinitely many norm zero simple roots make such arguments difficult.
+I was unable to prove the Borcherds-Kac-Moody condition in full in [Carnahan 2017], because I did not know how to show that the norm zero simple roots commute in the non-Fricke case. This commutativity turns out to follow from the commutativity of the weight 1 Lie algebra in V through the orbifold correspondence, together with a short manipulation using a string quantization functor. From the twisted denominator identities of mg, we prove a refinement of the main theorem in [Carnahan 2017], i.e., the resolution of Norton's Generalized Moonshine conjecture. Norton's
+
+

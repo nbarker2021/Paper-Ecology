@@ -1,0 +1,56 @@
+arXiv:2603.25454v1 [math.AG] 26 Mar 2026
+
+MPP-2026-49
+Landau Analysis in the Grassmannian
+Benjamin Hollering, Elia Mazzucchelli, Matteo Parisi, and Bernd Sturmfels
+Abstract Momentum twistors for scattering amplitudes in particle physics are lines in threespace. We develop Landau analysis for Feynman integrals in this setting. The resulting discriminants and resultants are identified with Hurwitz and Chow forms of incidence varieties in products of Grassmannians. We study their degrees and factorizations, and the kinematic regimes in which the fibers of the Landau map are rational or real. Identifying this map with the amplituhedron map on positroid varieties, and the associated recursions with promotion maps, yields a geometric mechanism for the emergence of positivity and cluster structures in planar N = 4 super Yang­Mills theory.
+1 Introduction
+In perturbative quantum field theory, the computation of scattering amplitudes requires the evaluation of Feynman integrals. After integration, the resulting amplitude is a meromorphic, multivalued function of the external kinematic data. In general, the class of functions that can arise is not known a priori: amplitudes may involve multiple polylogarithms, elliptic integrals, Calabi-Yau periods, etc. Even in the absence of a complete classification of the relevant function space, one may still ask a fundamental structural question: where are the singularities of the amplitude, such as poles and branch cuts, located in kinematic space?
+At the level of the integrand, the situation is considerably different. Before integration, one has a rational function of the external and loop kinematics. Its singularities are poles. Landau analysis provides a systematic framework, rooted in algebraic geometry, for studying these poles and how they give rise to singularities of the integrated amplitude, thereby creating a bridge between integrands and integrals [37]. The outcome is a collection of discriminants in kinematic space containing the singularities of the corresponding integral.
+The explicit form of Feynman integrals depends on the choice of kinematic variables [49]. Recent work of Fevola, Mizera and Telen [23, 40] develops algebraic geometry for Landau analysis in the framework of Gel'fand, Kapranov and Zelevinsky [27]. They use the LeePomeransky representation of Feynman integrals [49]. There, the integrand is governed by the graph polynomial U +F. Its coefficients are linear functions in the kinematic parameters. One seeks special parameter values for which the hypersurface {U + F = 0} is singular. The
+1
+
+principal Landau determinant in [23] is a variant of the principal A-determinant in [27]. It factors into irreducible discriminants which identify the leading singularities of the integral.
+Our approach rests on the momentum representation of Feynman integrals, formulated with momentum twistors [35] and the Grassmannian Gr(2, 4). This formalism provides a natural compactification of spacetime, in which conformal symmetries of complexified Minkowski spacetime are realized by the linear action of SL(4, C) [19, 39]. Writing N and D as polynomials in the Plu¨cker coordinates of d +  lines in P3, our integrals take the form
+
+N (L; M)
+
+I(M) =
+
+dµ(L) .
+
+(1)
+
+ D(L; M)
+
+The Feynman integral (1) is a function of the d external lines M = (M1, . . . , Md)  Gr(2, 4)d. One integrates over  internal lines L = (L1, . . . , L)  Gr(2, 4), for some cycle  and measure dµ on Gr(2, 4). The denominator D is a product over pairwise line incidences,
+corresponding to propagator conditions of Feynman integrals, written as in [36, Eq. (2)]:
+
+D(L; M) := LaLb LaMi.
+
+(2)
+
+a<b
+
+a,i
+
+A proper treatment of Landau analysis for the integral (1) requires the stratification of the on-shell space, which is the vanishing locus of (2) in the space of internal and external kinematics [32, 34, 37]. The Landau variety is the branch locus of the Landau map, the projection from the on-shell space to the space of external data M [37]; it contains the locus where (1) develops singularities, namely poles or branch cuts. In this work we focus on leading (and super-leading) Landau singularities, arising from strata for which the generic fiber of the Landau map is zero-dimensional. The finitely many points in these fibers are the leading singularities. They also correspond to maximal residues of the integrand in (1), maximal iterated discontinuities and algebraic prefactors in expressions of the integral [4, 10].
+In this setting, we study the following properties of the fibers of the Landau map:
+
+· the generic size of the fiber corresponds to the LS degree;
+
+· a change in the size of the fiber is detected by LS discriminants and SLS resultants;
+
+· reality: all points in the fiber are real when the graph is outerplanar and M lies in the positive region M>0. This implies positivity of LS discriminants and supports the expectation that amplitudes in planar N = 4 SYM are regular on M>0;
+
+· rationality: special fibers whose points are rational functions of the external kinematics M. The specialized LS discriminants and SLS resultants factor into cluster variables for a higher Grassmannian. This perspective sheds light on the emergence of cluster structures in scattering amplitudes in planar N = 4 SYM.
+
+Property of the fiber Generic size
+Change of size Reality of points Rationality of points
+
+Geometric/physical interpretation LS degree
+LS discriminant and SLS resultant Positivity, regularity on M>0 Cluster structure
+
+2
+
+

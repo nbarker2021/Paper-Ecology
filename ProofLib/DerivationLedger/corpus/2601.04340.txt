@@ -1,0 +1,160 @@
+Dark QCD Origin of the NANOGrav Signal and Self-Interacting Dark Matter
+Zihan Wang1
+1Department of Physics, University of Oxford, Keble Road, Oxford, OX1 3PU, UK (Dated: April 9, 2026)
+The NANOGrav 15-year stochastic gravitational wave background (SGWB) amplitude Ayr  2.4 × 10-15 lies at the upper edge of population synthesis predictions for supermassive black hole binaries (SMBHBs), motivating exploration of additional cosmological sources. We present a phenomenological framework based on an SU(3)D gauge theory that can simultaneously accommodate the gravitational wave signal and resolve small-scale structure anomalies via Self-Interacting Dark Matter (SIDM). The dark matter candidate is a heavy dark baryon  = QQQ with mass m  40 GeV, which self-interacts through a light pseudo-dilaton d md  20­50 MeV as a pseudoGoldstone boson of approximate scale invariance arising in near-conformal gauge theories with Nf  6­8 light flavors. A first-order phase transition at the MeV scale, enabled by walking dynamics near the conformal window, produces gravitational waves in the PTA band. For representative parameters Tn  5­6 MeV,   500­1000, /H  30­50, the model provides a fit to NANOGrav data comparable to SMBHB while naturally connecting the gravitational wave amplitude to the dark matter relic density through entropy dilution D  3/4. We present explicit calculations of the bounce action, bubble wall velocity, and Neff , demonstrating that the benchmark parameters are theoretically consistent and cosmologically safe (Neff  0.1 for m > 2md). The distinctive spectral shape (f 3  f -4) provides a robust prediction testable with future PTAs.
+
+arXiv:2601.04340v2 [astro-ph.CO] 8 Apr 2026
+
+I. INTRODUCTION
+While the CDM model is remarkably successful in describing the large-scale structure of the Universe, its validity on sub-galactic scales remains a subject of intense debate. Discrepancies such as the Core-Cusp and Diversity problems [1­3] challenge the standard collisionless cold dark matter assumption. Self-Interacting Dark Matter (SIDM) resolves these anomalies via halo heat transfer, transforming central density cusps into the observed isothermal cores [4­6]. Parallel to these developments, the recent detection of a stochastic gravitational wave background (SGWB) by the NANOGrav collaboration [7] indicates novel dynamics in the nanohertz regime [8­10], opening a new window into the physics of the dark sector.
+Supermassive Black Hole Binaries (SMBHBs) are the standard source candidate of the SGWB, but quantitative analyses reveal a significant amplitude tension [11, 12]. Standard population synthesis models typically predict an amplitude Ayr  1.0 × 10-15, whereas the data favors a substantially larger signal, Ayr  2.4­ 6.4 × 10-15 [13]. It is a tension difficult to resolve astrophysically [14, 15]. While not statistically decisive, motivate exploration of additional cosmological sources [16­ 18].
+Could this tension signal a cosmological phase transition within the dark sector [16­18]? We propose that the SGWB originates from the first-order confinement phase transition in a dark SU(3)D gauge theory. This framework naturally accommodates scalar-mediated SIDM [19] (m  40 GeV, md  20­50 MeV), where the dark matter is a composite baryon  = QQQ formed from heavy dark quarks, and the SIDM mediator is a pseudo-dilaton d arising from approximate scale invariance near the conformal window. The phase transition at the MeV scale
+
+produces gravitational waves while simultaneously diluting the dark baryon abundance to match observations.
+In this work, we perform a Bayesian MCMC analysis of the NANOGrav 15-year free-spectrum data, imposing hard observational bounds on SMBHB parameters. We find statistical preference BIC = 7.6 for the Dark QCD interpretation over standard astrophysics. Crucially, we derive the phase transition parameters from the chiral effective potential, demonstrating that the required strong supercooling arises naturally in the nearconformal regime. The best-fit thermodynamic parameters generate the correct dilution factor, while light dark pions provide a natural source of dark radiation.
+
+II. THE DARK QCD MODEL
+
+We extend the Standard Model by an SU(3)D gauge theory with both heavy and light dark quarks. This Dark QCD framework provides a natural origin for composite SIDM while predicting gravitational wave production from the chiral phase transition.
+The dark sector contains one heavy quark flavor Q and Nf  6­8 light quark flavors qi, summarized in Table I.
+
+Field
+
+SU(3)D
+
+Mass
+
+Role
+
+Gµa
+
+adjoint
+
+--
+
+Dark gluons
+
+Q
+
+3 mQ  13 GeV Heavy dark quark
+
+q1, . . . , qNf 3 mq  1­5 MeV Light dark quarks
+
+TABLE I. Dark sector field content. The heavy quark Q forms the dark baryon (DM). The light quarks qi with Nf  6­ 8 flavors drive near-conformal dynamics and enable strong supercooling.
+
+The number of light flavors is a key model parame-
+
+2
+
+ter. For SU(3), the conformal window is estimated at Nf  8­12 [20, 21]. We adopt Nf  6­8 as a representative range where walking behavior is plausible, though the precise dynamics remain under active lattice investigation [22? , 23]. This choice is motivated by the desire for near-conformal dynamics, not derived from first principles.
+The confinement scale D  1 GeV is generated by dimensional transmutation. The heavy quark satisfies mQ  D, placing it deep in the heavy-quark limit.
+Below the confinement scale, quarks bind into colorsinglet hadrons. The lightest dark baryon is  = abcQaQbQc, with mass m  3mQ  40 GeV. A discrete Z2Q symmetry ensures its stability.
+The heavy quark Q with mQ  D effectively decouples from the infrared dynamics of the light quarks. Heavy-light mesons Qq¯ and baryons Qqq are heavier than  and decay via strong interactions.
+The Nf light quarks exhibit approximate chiral symmetry, spontaneously broken by the condensate q¯q = 0. This produces:
+· Dark pions Da : Nf2 - 1 pseudo-Goldstone bosons with mD  mqD  50­100 MeV.
+· Pseudo-dilaton d: a light scalar from approximate scale invariance, with mass md  20­50 MeV.
+For Nf near the conformal window edge, the theory exhibits approximate scale invariance at intermediate energies. When spontaneously broken by confinement, a pseudo-Nambu-Goldstone boson known as pseudo-dilaton d emerges [24, 25].
+The pseudo-dilaton mass scales as m2d  (Nf - Nf ), naturally suppressed for Nf close to Nf. Unlike chiral pions (m2  mq), the dilaton mass is controlled by proximity to conformality, providing a mechanism for md < m without fine-tuning.
+The SIDM mediator is the pseudo-dilaton:
+
+  d, m = md  20­50 MeV.
+
+(1)
+
+The dilaton couples to matter through the trace anomaly. For particles whose mass arises from spontaneous symmetry breaking, this coupling is O(m/fd). However, the heavy baryon mass m  3mQ is dominated by the explicit heavy quark mass, not by scale symmetry breaking. The leading coupling arises from subdominant effects such as binding energy, light-quark dressing.
+We parameterize the effective coupling as:
+
+Ld = -gd d ¯, gd  0.3­0.4,
+
+(2)
+
+the value required for successful SIDM phenomenology [19]. We do not claim this coupling follows uniquely from near-conformal dynamics; rather, the model admits it as a consistent low-energy parameter. This generates velocity-dependent cross sections /m  10 cm2/g at
+
+dwarf scales decreasing to  0.1 cm2/g at clusters, re-
+solving small-scale structure anomalies [19, 26].
+A Higgs-portal coupling dH d|H|2 enables decay d  e+e- with lifetime d  10-9 s, safely before BBN.
+The dark SU(3)D undergoes a first-order phase transition at temperature T  D. The near-conformal dynamics from Nf  6­8 light quarks enables strong supercooling, producing the large   900 required for
+the GW signal. The released vacuum energy reheats the
+plasma to Trh = (1 + )1/4Tn, diluting pre-existing abundances by
+
+D=
+
+Trh
+
+3
+= (1 + )3/4  3/4
+
+(  1).
+
+(3)
+
+Tn
+
+This relation directly connects the GW amplitude to the dark matter relic density.
+
+III. PHASE TRANSITION PHYSICS
+
+Near-conformal gauge theories with Nf close to the conformal window can exhibit strongly first-order phase transitions due to their flat effective potentials [27­32].
+Following [27, 28], the dilaton effective potential takes the form:
+
+V (, T ) =  4 4
+
+T2 Tc2 - 1
+
++  ln2
+
+ 0
+
+,
+
+(4)
+
+where  is the dilaton field, 0  fd is its VEV, and   1 parameterizes explicit scale breaking (small for walking
+theories). The logarithmic term creates a barrier for a
+first-order transition.
+The nucleation condition S3(Tn)/Tn  140 combined with the scaling S3/T  (1 - T /Tc)-2 characteristic of near-conformal potentials yields strong supercooling (see
+Appendix B 2 for details).
+For benchmark (Tc = 100 MeV, fd = 80 MeV,  = 0.03):
+
+Tn  5.7 MeV,
+
+Tn  0.057. Tc
+
+(5)
+
+The transition strength:
+
+30L  = 2g
+
+Tc
+
+4
+ 900,
+
+Tn
+
+(6)
+
+where L  0.5 is the latent heat parameter.
+
+The inverse duration, from /H
+
+=
+
+Tn|d(S3/T )/dT |Tn :
+
+  2Tn × S3(Tn)  40.
+
+(7)
+
+H
+
+Tc
+
+Tn
+
+These derived values are consistent with the MCMC best-
+fit.
+Gauge boson friction prevents bubble wall runaway even for   103, yielding ultrarelativistic terminal velocity vw  1 (Appendix B 3). This justifies the sound-wave dominated GW templates.
+
+

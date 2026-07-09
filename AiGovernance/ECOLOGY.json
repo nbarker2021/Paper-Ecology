@@ -1,0 +1,55 @@
+{
+  "schema": "paper_ecology.ai_governance.v1",
+  "version": "2026-07-06",
+  "constitution_root": "D:\\Paper Ecology\\AiGovernance",
+  "must_read_first": [
+    "D:\\Paper Ecology\\AiGovernance\\AGENTS.md",
+    "D:\\Paper Ecology\\AiGovernance\\ECOLOGY.json",
+    "D:\\CQE_CMPLX\\MANNYAI_METHOD_LOCK.md",
+    "D:\\MannyAI\\docs\\ai-instructions\\00-MANNYAI-METHOD-LOCK.md"
+  ],
+  "rules": {
+    "markdown_dir": "D:\\Paper Ecology\\AiGovernance\\rules",
+    "cursor_dir": "D:\\Paper Ecology\\AiGovernance\\cursor-rules",
+    "files": [
+      "000-mannyai-method-lock",
+      "010-read-first-no-guess",
+      "020-timestamp-first-no-canon",
+      "030-environment-contract",
+      "040-llm-backfill-contract",
+      "050-crystal-first-no-names"
+    ]
+  },
+  "workspaces": {
+    "paper_ecology": "D:\\Paper Ecology",
+    "mannyai_staging": "D:\\MannyAI",
+    "cqe_cmplx": "D:\\CQE_CMPLX"
+  },
+  "interpreter": {
+    "python": "D:\\Paper Ecology\\EnvLib\\.venv\\Scripts\\python.exe",
+    "bootstrap": "D:\\Paper Ecology\\EnvLib\\bootstrap_env.ps1",
+    "wheelhouse": "D:\\Paper Ecology\\EnvLib\\wheelhouse",
+    "kernel_editable": "D:\\Paper Ecology\\cqekernel"
+  },
+  "forge_base": "D:/forge-base/lib",
+  "timestamp_first": {
+    "enabled": true,
+    "audit_index": "D:\\Paper Ecology\\SystemsLib\\consolidation_audit\\2026-07-06\\file_manifest.jsonl",
+    "merkle_ledger": "D:\\Paper Ecology\\SystemsLib\\consolidation_audit\\2026-07-06\\merkle_ledger.jsonl",
+    "demotion_manifest": "D:\\Paper Ecology\\SystemsLib\\consolidation_audit\\2026-07-06\\DEMOTION_MANIFEST.json",
+    "demotion_destination_template": "D:\\Paper Ecology\\Ecology\\TemporalArchive\\demoted_stale_<YYYY-MM-DD>\\<relpath>"
+  },
+  "shims": {
+    "cursor_user_rules": "C:\\Users\\nbark\\.cursor\\rules",
+    "grok_global": "C:\\Users\\nbark\\.grok",
+    "claude_global": "C:\\Users\\nbark\\.claude\\CLAUDE.md",
+    "codex_global": "C:\\Users\\nbark\\.codex\\AGENTS.md",
+    "hermes_global": "C:\\Users\\nbark\\.hermes\\AGENTS.md",
+    "vibe_skill": "D:\\Paper Ecology\\AiGovernance\\SKILL.md"
+  },
+  "trusted_paths": [
+    "D:\\Paper Ecology",
+    "D:\\CQE_CMPLX",
+    "D:\\MannyAI"
+  ]
+}

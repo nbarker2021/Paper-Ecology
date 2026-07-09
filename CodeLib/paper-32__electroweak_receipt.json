@@ -1,0 +1,48 @@
+{
+  "lcr_mass_generation": {
+    "W+_massive_from_lcr": true,
+    "W+_positive_voa_weight": true,
+    "W-_massive_from_lcr": true,
+    "W-_positive_voa_weight": true,
+    "Z_massive_from_lcr": true,
+    "Z_positive_voa_weight": true,
+    "photon_ground_voa_weight": true,
+    "photon_massless_from_lcr": true
+  },
+  "paper": 32,
+  "status": "pass",
+  "supervisor_cursor": {
+    "corridor_width": 120,
+    "coverage_n4": "validated",
+    "coverage_n5": "validated",
+    "coverage_n6": "validated",
+    "coverage_n7": "validated",
+    "coverage_n8": "validated",
+    "cursor_is_schedule_not_content": true,
+    "egan_upper_row": 46205,
+    "lower_bound": 46085,
+    "minimality_n4": "closed",
+    "minimality_n5": "closed",
+    "minimality_n6": "open",
+    "minimality_n7": "open",
+    "minimality_n8": "open",
+    "next_active_suite_paper": "paper-01"
+  },
+  "symmetry_breaking": {
+    "higgs_mass": 125.2836781069266,
+    "higgs_mass_matches_anchor": true,
+    "mW_over_mZ": 0.8814563000328983,
+    "mW_over_mZ_equals_cos_theta_W": true,
+    "num_massive_bosons": 3,
+    "photon_massless": true,
+    "sin2_theta_w": 0.2230347911323131,
+    "sin2_theta_w_matches_pdg": true,
+    "su2_coupling_g": 0.6530303780986562,
+    "three_goldstones_eaten": true,
+    "u1_coupling_gprime": 0.34987982875819723,
+    "vev": 246.17537773367303,
+    "vev_matches_anchor": true
+  },
+  "timestamp": "2026-07-05T00:00:00-07:00",
+  "title": "Electroweak Symmetry Breaking"
+}

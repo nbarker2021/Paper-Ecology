@@ -1,0 +1,150 @@
+Astronomy & Astrophysics manuscript no. KSPw5a3 February 27, 2026
+
+©ESO 2026
+
+arXiv:2602.17188v2 [astro-ph.IM] 26 Feb 2026
+
+Letter to the Editor
+
+Kolmogorov analysis of pulsar TOA
+N. Galikyan1, 2, A.A.Kocharyan3, and V.G. Gurzadyan1, 4,
+
+1 Center for Cosmology and Astrophysics, Alikhanian National Laboratory and Yerevan State University, Yerevan, Armenia 2 Department of Physics, Sapienza University of Rome, Rome, Italy 3 School of Physics and Astronomy, Monash University, Clayton, Australia 4 SIA, Sapienza University of Rome, Rome, Italy
+Received XXX; accepted ZZZ
+
+ABSTRACT
+
+The Kolmogorov stochasticity parameter (KSP) as a sensitive descriptor of the degree of randomness of signals was used to analyze the properties of the NANOGrav pulsar timing data associated with a stochastic gravitational wave background. The time of arrival (TOA) data of white noise for 68 pulsars were analyzed regarding their KSP properties. The analysis enabled us to obtain the degree of randomness of the white noise for various pulsars and to reveal its inhomogeneity, i.e., pulsars with low and high randomness of the white noise. The time dependence of the randomness in the white noise was also studied, indicating the existence of nonstationary physical processes influencing the pulsar timing. The KSP is thus acting as an indicator for the degree of the agreement between the observations and the timing models and as a test in revealing the contribution of various physical processes in the stochastic background signal.
+
+1. Introduction
+The data on the pulsar-timing monitoring obtained by the North American Nanohertz Observatory for Gravitational Waves (NANOGrav) (Agazie, et al 2023a, 2025) and other collaborations opened a new important window to trace the variety of ongoing processes in the Universe. The released pulsar timing array (PTA) data are linked to the stochastic gravitationalwave background (GWB) in the nanohertz band produced by binary supermassive black holes (Sesana, et al 2008; Agarwal et al 2023; Sesana and Figeroa 2025), and they are also used to constrain several models such as those pertaining to the nature of dark matter and the evolution of early cosmology (e.g., (Tiruvaskar and Gordon 2025; Ben-Dayan et al 2025) and references therein).
+The key issue in the pulsar timing is the analysis of the stochastic properties of the time of arrival (TOA) data of residuals for the studied 68 pulsars, for example the differences between the observed data and modeled parameters (Lam, et al 2025). Therefore, the study of tiny properties of the stochastic background by different methods and hence, of the residuals' association to white noise, can be crucial for both revealing the details from the pulsar astrometric parameters of pulsars up those of the supermassive black hole binaries (e.g. of their orbital eccentricities) or of the contribution of other effects (see (Fiscella, et al 2025) and references therein). Moreover, white noise can contain contributions from instrumental noise, calibration of the radio telescopes, in addition to interference from terrestrial sources. Thus, while the comprehensive study of white noise is crucial for revealing the origin of the nanoherz gravitational wave background, the use of different descriptors can be of particular importance for the separation of contributions for the abovementioned effects in white noise among others.
+For this study we applied the Kolmogorov stochasticity parameter (KSP) to analyze the properties of the white noise (cf.(Barenboim, et al 2025)) of TOA associated with both the
+ Email: gurzadyan@yerphi.am
+
+TOA data and the pulsar timing models. The Kolmogorov stochasticity parameter is a sensitive quantitative descriptor of the degree of randomness of sequences (Kolmogorov 1933; Arnold 2008a). The KSP has been applied to the analysis of various signals (e.g., (Arnold 2008a; Atto, et al 2013; Hoffman, et al 2023), including human genomic sequences (Gurzadyan, et al 2015), as well as those of an astrophysical origin ((Gurzadyan and Kocharyan 2008; Gurzadyan, et al 2009, 2010; Gurzadyan, Durret 2011; Galikyan, et al 2025), see also (Gurzadyan 1999)). For example, the KSP enabled us to trace the properties of the cold spot as of a non-Gaussian region in the cosmic microwave background sky (Planck data) and to conclude on its void origin in the large-scale matter distribution (Gurzadyan, et al 2014); the void nature of the cold spot was soon after confirmed by an galaxy survey study (Szapudi, et al 2015).
+Thus, we used the KSP for the following: (a) to quantify how independent the TOA residuals are; (b) to reveal how homogeneous the randomness is regarding individual pulsars, i.e., if there are pulsars attributed to low and high randomness signals; (c) to test if nonstationary effects can be traced in the white noise; and (d) to determine how closely the timing models for individual pulsars match their observations.
+
+2. Kolmogorov stochasticity parameter
+First, let us define the Kolmogorov stochasticity parameter as in (Kolmogorov 1933; Arnold 2008a,b,c, 2009a,b). Let X be a real-valued random variable. Its cumulative distribution function (CDF) is
+
+F(x)  Pr(X  x),
+
+(1)
+
+where Pr(·) denotes the probability under the assumed proba-
+bilistic model. Throughout this section, F refers to the theoretical (model/null) CDF.
+Given an observed sample x1, ..., xn (not necessarily distinct), let x(1)  x(2)  · · ·  x(n) denote the order statistics. The
+
+Article number, page 1 of 5
+
+corresponding empirical CDF (ECDF) is defined by
+
+3. Pulsar timing
+
+Fn(x)
+
+
+
+1 n
+
+n i=1
+
+1{xi
+
+
+
+x},
+
+(2)
+
+which is a right-continuous step function,
+
+Fn(x)
+
+=
+
+0k/, n, 1,
+
+x < x(1), x(k)  x < x(k+1), x(n)  x.
+
+k = 1, . . . , n - 1,
+
+(3)
+
+Our basic goal is to quantify the discrepancy between the ECDF of the data and a reference (theoretical) CDF F. In applications, F represents a null/model hypothesis (e.g., a specified distribution, or a distribution implied by a simulated noise model). When F is fully specified and continuous, the resulting statistic is distribution-free under the null.
+When the (one-sample) Kolmogorov distance is defined,
+
+Dn  sup |Fn(x) - F(x)|,
+
+(4)
+
+xR
+
+and for its scaled form, the Kolmogorov stochasticity parameter,
+
+
+
+
+
+n  nDn = n sup |Fn(x) - F(x)|.
+
+(5)
+
+xR
+
+Because the sample {Xi}in=1 is random, the ECDF Fn and thus n are random variables. Under the null hypothesis H0 : X1, ..., XnF (with F continuous), n has a distribution function
+
+n()  Pr(n  ),
+
+(6)
+
+which converges to a universal limiting distribution (·) independent of F:
+
++
+
+() =
+
+(-1)ke-2k22 ,
+
+(0) = 0.
+
+(7)
+
+k=-
+
+This is the statement of Kolmogorov's theorem (Kolmogorov 1933).
+Note that, according to this theorem and the property of the limiting function , the probable values of  are within 0.3 and 2.2. In other words, at its lower values, () tends rapidly to 0 and to 1 at higher values.
+An important feature of the KSP criterion is its applicability to relatively small sequences (orbits of dynamical systems) as is explicitly shown in (Arnold 2008a), which compared two sequences of 15 two-digit numbers and concluded that the stochasticity probability of the one sequence is approximately 300 times higher than for other one. Then, for random sequences, the stochasticity parameter n has a distribution close to the function (), while the distribution is different from that function for nonrandom sequences.
+The numerical experiments performed in (Gurzadyan, et al 2011), using a single scaling of the ratio of stochastic to regular components of the generated sequences including a uniform distribution, revealed the efficiency of the KSP as an indicator of the degree of randomness of composite signals.
+
+Pulsar timing is based on measuring TOAs of radio pulses with high precision and comparing them to the predictions of a timing model. The timing model encodes all deterministic contributions to the TOAs--such as the pulsar's spin evolution, astrometric parameters, binary motion (when present), and propagation effects. Any mismatch between the measured TOAs and the timing model--i.e., the timing residuals--contains information about additional physical or instrumental processes not captured by the deterministic model.
+These stochastic contributions are commonly separated into low-frequency, temporally correlated "red noise" (e.g., intrinsic spin noise or a stochastic gravitational-wave background), which are the type of signals that researchers usually look for. It is important to note that not all pulsars exhibit a red-noise component, and the contribution to the red noise can come from various effects (Fiscella, et al 2025), which can introduce characteristic structures in timing residuals. High-frequency, uncorrelated "white noise" mainly arises from radiometer noise and measurement uncertainties, representing random fluctuations in the time series. The white-noise component can be calculated as WhiteNoise = T OA - T imingModel - RedNoise (i f present).
+For our analysis, we used PINT (Luo, et al 2019, 2021; Susobhanan, et al 2024), a high-precision open-source package for pulsar timing data analysis written in Python. It is developed in collaboration with NANOGrav and is largely used for analysis (Agazie, et al 2023a,b; Smith, et al 2023), among other things. It allows one to read TOA data and load timing models with their parameters, for example, provided by NANOGrav (Agazie, et al 2025). Moreover, in PINT, one can simulate the white and red noise components of pulsar signals separately and estimate the white-noise contribution. The simulated white noise and the observed white noise should have the same statistical properties, i.e., the signal that we refer to as white noise in the observed data is indeed a white-noise signal. To test this, we used the KSP as a statistical characteristic of a signal and compared the observed signal with the simulated one as described in 4.1.
+
+4. Analysis
+Consider a time series of length N that represents the residual component of the TOAs (?). To obtain the KSP characteristic histogram for the series, we calculated  inside a sliding window of length 10-1 · N with a sliding step of 10-3 · N. Inside the window, we randomly selected 80% of the points and calculated  using the generalized normal distribution as the theoretical distribution. Its probability density is given via Eq.(8). The final  for that window is the mean of the 80%s which was repeated five times. Namely, the algorithm estimated the distribution of , and its running allowed the  distribution's stability to be estimated four more times, as 80% of the subsamplings each yielded different distributions. This enabled us to ensure the stability of the procedure, to define the errors bars, and to decrease the influence of outliers, if any. The specific choice of parameters ­ the 80% subsampling and the 5 × 5 repetitions ­ were made in order to adequately represent the distributions for comparison, while avoiding both over-averaging and undersampling:
+
+f(x)
+
+=
+
+1 2(1/) e
+
+|x-µ| 
+
+
+
+.
+
+(8)
+
+=
+
+(1/) (3/) ;
+
+µ=0
+
+Article number, page 2 of 5
+
+

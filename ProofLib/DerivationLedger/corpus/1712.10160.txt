@@ -1,0 +1,43 @@
+arXiv:1712.10160v3 [math.RT] 26 Oct 2018
+
+Symmetry, Integrability and Geometry: Methods and Applications
+
+SIGMA 14 (2018), 114, 8 pages
+
+Characterizing Moonshine Functions by Vertex-Operator-Algebraic Conditions
+
+Scott CARNAHAN, Takahiro KOMURO and Satoru URANO
+Division of Mathematics, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8571 Japan E-mail: carnahan@math.tsukuba.ac.jp, komenian271828@gmail.com, urank@math.tsukuba.ac.jp URL: http://www.math.tsukuba.ac.jp/~carnahan/ Received May 07, 2018, in final form October 15, 2018; Published online October 25, 2018 https://doi.org/10.3842/SIGMA.2018.114
+
+Abstract. Given a holomorphic C2-cofinite vertex operator algebra V with graded dimension j - 744, Borcherds's proof of the monstrous moonshine conjecture implies any finite order automorphism of V has graded trace given by a "completely replicable function", and by work of Cummins and Gannon, these functions are principal moduli of genus zero modular groups. The action of the monster simple group on the monster vertex operator algebra produces 171 such functions, known as the monstrous moonshine functions. We show that 154 of the 157 non-monstrous completely replicable functions cannot possibly occur as trace functions on V .
+Key words: moonshine; vertex operator algebra; modular function; orbifold
+2010 Mathematics Subject Classification: 11F22; 17B69
+
+1 Introduction
+In this paper, we show that the monstrous moonshine functions are nearly completely characterized by vertex-operator-algebra-theoretic properties of trace functions. In particular, we strongly constrain the possible exotic automorphisms of any counterexample to the conjectured uniqueness of the monster vertex operator algebra V (also known as the moonshine module) constructed in [15]. Our constraints are derived from the following two recent vertex-operatoralgebraic results:
+1. In [12], it is shown that the graded dimension of an irreducible g-twisted module (of a suitable vertex operator algebra) is given by applying the   -1/ transformation to the McKay­Thompson series for g. This is a refinement of an older result of [10].
+2. In [4], we find that cyclic orbifold duality gives a correspondence between non-Fricke elements of the monster and fixed-point free automorphisms of the Leech lattice satisfying a "no massless states" condition. This was conjectured by Tuite in [19].
+Monstrous moonshine originated in the 1970s with McKay's observation that the low-degree Fourier coefficients of the modular j-invariant could be decomposed into small combinations of dimensions of irreducible representations of the monster simple group M. This initial observation formed the basis of what is known as the McKay­Thompson conjecture, asserting the existence
+
+of a natural graded representation V = Vn of the monster, whose graded dimension is given
+n=0 
+by dim Vnqn-1 = J( ) = q-1 +196884q +· · · . Conway and Norton formulated the monstrous
+n=0
+This paper is a contribution to the Special Issue on Modular Forms and String Theory in honor of Noriko Yui. The full collection is available at http://www.emis.de/journals/SIGMA/modular-forms.html
+
+2
+
+S. Carnahan, T. Komuro and S. Urano
+
+moonshine conjecture as a refinement, asserting that the graded trace of any element g  M should be the q-expansion of a genus zero modular function Tg, and computed a list of candidate functions.
+The McKay­Thompson conjecture was affirmatively resolved by Frenkel, Lepowsky, and Meurman with their construction of V , and Borcherds showed that the monstrous moonshine conjecture was true for V [2]. The main body of Borcherds's proof was devoted to showing that for each g  M, the graded trace function
+
+Tg( ) = Tr(g|Vn)qn-1
+n=0
+is completely replicable. The completely replicable condition implies strong recursion relations on the coefficients of Tg, and indeed, these relations reduced the monstrous moonshine conjecture to checking that the first 7 coefficients of each Tg matched the candidate list given by Conway and Norton.
+Borcherds's proof of the completely replicable property did not use very much structure in V : he only required that it be a vertex operator algebra of central charge 24, with a self-dual invariant form, and graded dimension equal to J. It is natural to ask whether it is possible for other completely replicable functions to arise from other vertex operator algebras V satisfying these properties. At our current state of knowledge, we cannot answer this question, because we do not have much control over this class of vertex operator algebras. However, we can make some progress by imposing additional natural conditions on V that are also satisfied by V .
+The additional condition we impose in this paper is that V be "holomorphic and C2-cofinite", which is equivalent to the condition that all (weak) representations of V are direct sums of V itself. A well-known uniqueness conjecture proposed in the introduction of [15] implies any such V is isomorphic to V . In particular, assuming this uniqueness conjecture, it is clear that the graded traces from V make up all possible completely replicable functions arising from graded traces on such V . However, the uniqueness conjecture is still open, so it is still an interesting question whether we can narrow down the possible functions using facts we already know about vertex operator algebras. In doing so, we also narrow down the possible symmetries of any counterexample to the uniqueness conjecture, assuming such a counterexample exists.
+The "holomorphic and C2-cofinite" condition allows us to connect V with the phenomena of rational conformal field theory, and in particular, it gives us control over the twisted representations of V . The pioneering work of [10] showed that if g is a finite order automorphism of such V , then there exists an irreducible g-twisted V -module V (g), and it is unique up to isomorphism. Furthermore, they showed that the graded dimension of V (g) is a constant multiple of Tg(-1/ ), where Tg is the graded trace of g on V . This constant multiple was then shown to be equal to one in [12]. We then obtain a nontrivial condition on Tg: because dimensions of vector spaces are non-negative integers, it is necessary that the coefficients of Tg(-1/ ) are all non-negative integers. As it happens, there is a refined version of this condition, involving non-negativity of coefficients of a certain vector-valued modular function, that follows from the cyclic orbifold theory established in [12]. However, this refined condition has not helped, in the sense that it does not eliminate any functions that couldn't be eliminated by less computationally-intensive methods.
+More recent developments give us an additional condition: In [19], a large amount of computational and physical evidence is given for a conjectured cyclic orbifold duality between non-Fricke automorphisms of V and fixed-point free automorphisms of the Leech lattice satisfying a "no massless states" condition. Using the cyclic orbifold theory established in [12], the conjecture was proved in [4], and it implies that any completely replicable function with a non-Fricke monstrous replicate must be monstrous in order to be a trace function. We note that this implies any counterexample to the uniqueness of V has no non-Fricke automorphisms.
+
+

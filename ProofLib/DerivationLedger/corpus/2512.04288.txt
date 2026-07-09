@@ -1,0 +1,111 @@
+arXiv:2512.04288v2 [nucl-th] 8 Jun 2026
+
+Exploring the QCD phase diagram through correlations and fluctuations
+Volker Koch1* and Volodymyr Vovchenko2 1*Nuclear Science Division, Lawrence Berkeley National Laboratory, 1
+Cyclotron Rd, Berkeley, 94720, CA, USA. 2Physics Department, University of Houston, 3507 Cullen Blvd,
+Houston, 77204, TX, USA.
+*Corresponding author(s). E-mail(s): vkoch@lbl.gov; Contributing authors: vvovchen@central.uh.edu; These authors contributed equally to this work.
+Abstract The exploration of the Quantum Chromodynamics (QCD) phase diagram is a central goal of relativistic heavy-ion collision experiments. This review focuses on the role of fluctuations and correlations as sensitive probes of the phase structure. We discuss theoretical advancements and experimental methodologies employed to map the QCD phase diagram, highlighting constraints derived from both lattice QCD calculations and existing experimental data. Key observables such as cumulants and factorial cumulants of conserved charges (e.g., net-proton, netcharge) are explored as promising signatures of phase transitions and the QCD critical point. We discuss how these quantities are measured experimentally and compared with theoretical predictions, addressing challenges and best practices for meaningful comparisons. Special attention is given to predictions and current experimental results at high baryon density, including recent findings from the STAR collaboration at RHIC. Finally, we identify open issues and future directions for fluctuation and correlation studies at lower collision energies, relevant for future measurements, for example by the CBM experiment.
+1 Introduction
+One of the major goals in the physics of the strong interaction is the study of the properties of strongly interacting matter, in particular its phase structure. This phase
+1
+
+structure is usually depicted in the QCD phase diagram, which is typically discussed
+
+in terms of the temperature T and the baryon chemical potential µB. Theoretically,
+
+the phase diagram is studied using thermal field theory, most prominently lattice
+
+QCD calculations, which provide a non-perturbative framework for understanding the
+
+behavior of QCD at finite temperature and density. Lattice QCD calculations have
+
+shown that the QCD phase diagram features a crossover transition from hadronic
+
+matter to a quark-gluon plasma (QGP) at high temperatures and vanishing baryon
+
+chemical potential [1]. Unfortunately, due to the fermion sign problem, lattice QCD
+
+calculations are not feasible at high baryon chemical potential, which is the region
+
+of interest for the search of the QCD critical point (CP) and where many model
+
+calculations predict a first-order phase transition (see e.g. [2]). However, as we shall
+
+discuss, recently some progress has been made to constrain the position of the QCD
+
+critical point, either through extrapolations from lattice QCD calculations at vanishing
+
+(and imaginary [3, 4]) chemical potential [5­8], or by applying functional methods
+
+such as Dyson-Schwinger equations [9­11], the functional renormalization group [12,
+
+13], as well as effective-model-based extrapolations constrained to lattice data [14].
+
+Interestingly, most of these calculations predict a QCD critical point in the same
+
+region with a critical temperature of 100 MeV  TC  120 MeV and a critical baryon
+
+number chemical potential out systematics this region
+
+of 550 would
+
+MeV  roughly
+
+µC  650 MeV. correspond to a
+
+cUoslliinsgiotnheensetragnydoafrdfsrNeNeze-
+
+5 GeV.
+
+Experimentally, the QCD phase diagram is explored through high-energy heavy-ion
+
+collisions, such as those conducted at the Large Hadron Collider (LHC) at CERN and
+
+the Relativistic Heavy Ion Collider (RHIC) at Brookhaven National Laboratory. In
+
+these collisions, strongly interacting matter at high temperature is created and hadrons
+
+in the central rapidity region are measured. Since the baryon number is conserved, the
+
+total net baryon number corresponds to the number of participant nucleons, i.e. no
+
+additional net-baryons will be created in these collisions. At the highest energies, the
+
+net-baryon density at mid-rapidity is close to zero. Therefore, in order to create matter
+
+at finite net-baryon density one needs to lower the beam energy so that the baryons
+
+from projectile and target nuclei stop in the mid-rapidity region where measurements
+
+are typically carried out. Since the location of the QCD critical point is not known, the
+
+beam energy is varied in order to explore as large a region of the QCD phase diagram
+
+as possible. This was the motivation for the beam energy scan (BES) program at RHIC
+
+which has been designed to systematically explore the QCD phase diagram at finite
+
+baryon density (for a review of the results from the first phase of this program see
+
+[15]). At lower energies, fixed-target experiments such as NA61/SHINE [16] at CERN
+
+and HADES at GSI [17] provide complementary fluctuation measurements that extend
+
+the coverage of the phase diagram to much higher baryon densities.
+
+One key observable in the search for the QCD critical point is the fluctuations
+
+of conserved charges, in particular baryon number fluctuations. The fluctuations are
+
+typically characterized by the (factorial) cumulants of the baryon number distribution.
+
+As shown in [18] the cumulants scale with powers of the correlation length which
+
+at the QCD critical point diverges, and the higher the order of the cumulant the
+
+stronger the divergence. However, cumulants are not only useful for identifying the
+
+2
+
+

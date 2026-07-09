@@ -1,0 +1,110 @@
+Near-quantum-limited axion dark matter search with the ORGAN experiment around 26 µeV
+Aaron P. Quiskamp,1,  Graeme R. Flower,1 Steven Samuels,1 Ben T. McAllister,1, 2,  Paul Altin,3 Eugene N. Ivanov,1 Maxim Goryachev,1 and Michael E. Tobar1,  1Quantum Technologies and Dark Matter Laboratory, Department of Physics, University of Western Australia, 35 Stirling Highway, Crawley WA 6009, Australia. 2ARC Centre of Excellence for Dark Matter Particle Physics, Swinburne University of Technology, John St, Hawthorn VIC 3122, Australia 3ARC Centre of Excellence For Engineered Quantum Systems, The Australian National University, Canberra ACT 2600 Australia (Dated: May 13, 2025)
+The latest result from the ORGAN experiment, an axion haloscope is presented. This iteration of the experiment operated at millikelvin temperatures using a flux-driven Josephson parametric amplifier for reduced noise, along with various other improvements over previous iterations. Covering the 25.45 - 26.27 µeV (6.15 - 6.35 GHz) mass (frequency) range, this near-quantum limited phase of ORGAN employs a conducting rod resonator and a 7-T solenoidal magnet to place the most sensitive exclusion limits on axion-photon coupling in the range to date, with |ga | > 2.8 × 10-13 at a 95% confidence level.
+
+arXiv:2407.18586v3 [hep-ex] 12 May 2025
+
+I. INTRODUCTION
+
+Dark matter remains one of the most elusive mysteries in the universe, accounting for approximately 85% of its mass, yet it continues to evade detection [1]. Among the candidates proposed to explain dark matter, axions emerge as a favoured solution due to their separate theoretical foundations and potential to resolve longstanding issues in particle physics. Originally introduced to address the strong CP problem in quantum chromodynamics (QCD) [2­5], axions bridge the worlds of cosmological phenomena and fundamental particle interactions. The Peccei-Quinn (PQ) symmetry breaking scale fa determines the axion's mass ma, expected to be O(1 µeV - 1 meV) [6­8] and coupling to Standard Model particles. The axion haloscope [9] is a method to detect axions in the laboratory by taking advantage of their expected coupling to photons. The haloscope method typically involves a cryogenic microwave cavity immersed in a strong static magnetic field (a source of virtual photons) to convert axions into real photons with a frequency c related to the rest mass of the axion, ma  hc/c2. The axion-converted photons will resonate inside the cavity if coupled to a geometrically appropriate resonant mode that satisfies the interaction Lagrangian:
+
+La = ga aE · B ,
+
+(1)
+
+where a is the axion field, E is the electric field and B is the magnetic field (often externally applied). The coupling strength ga of this interaction is related to fa by
+
+ aaron.quiskamp@uwa.edu.au  ben.mcallister@uwa.edu.au  michael.tobar@uwa.edu.au
+
+ga
+
+=
+
+g  . fa
+
+(2)
+
+Here,  is the fine structure constant, and g is a dimensionless model-dependent parameter, taking a value of -0.97 and 0.36 in the Kim-Shifman-Vainshtein-Zakharov (KSVZ) [10, 11] and Dine-Fischler-Srednicki-Zhitnitsky (DFSZ) [7, 12] benchmark models, respectively. To date, only the ADMX [13­15] and CAPP-12 TB [16, 17] experiments have achieved sensitivity to DFSZ-coupled axions, partly due to the favourable sensitivity scaling at frequencies around  1 GHz. However, there is considerable interest in exploring the higher frequency parameter space (equivalently high axion mass), which is favoured when the PQ symmetry breaks after inflation [18­21], with QCD lattice simulations indicating a lower bound for the axion mass (frequency) of ma  14.6 µeV (c  3.54 GHz) [22]. The Oscillating Resonant Group AxioN (ORGAN) Experiment [23­25], hosted in Western Australia, is among the growing list of higher-frequency haloscope experiments that attempt to search the post-inflationary mass window. Other notable experiments searching this range include HAYSTAC [26­28], QUAX [29, 30], MADMAX [31], TASEH [32], RADES [33, 34], CAPP [35] and GrAHal [36].
+
+The signal power extracted from axion-photon conversion in a typical haloscope experiment can be expressed as [26, 32]
+
+Psig =
+
+ga2
+
+a m2a
+
+¯h3c3 µ0
+
+c
+
+B02
+
+V
+
+C
+
+QL
+
+1
+
+ +
+
+
+
+,
+
+(3)
+
+where a = 0.45 GeV/cm3 is the local dark matter density [37] (assumed to be all axions). The second
+
+2
+
+Transmission
+
+A
+
+Reflection
+
+Switch
+
+Circulator
+
+JPA
+
+Isolator Bias Tee
+
+Vector Network Analyzer
+
+Amplifier Attenuator
+
+Directional Coupler
+Pump
+
+Tuning rod -20 dB
+
+Heated Load
+
+Low-Pass Filter
+
+Current Local ImageSource Oscillator rejection
+Mixer
+
+FPGA Digitizer
+
+80 mK
+
+4K
+
+300 K
+
+FIG. 1. A diagram of the ORGAN-Q experiment, including the cavity, magnet, cryogenic receiver chain and room temperature data acquisition and calibration equipment. The coaxial cables and components shown in blue represent the path of a potential axion signal. The JPA is shown to be connected to the strongly coupled port of the cavity via a cryogenic RF switch and HEMT amplifier input using a circulator. The JPA is flux-pumped using a current source and driven by a pump tone. A vector network analyzer (VNA) is used to measure the frequency response of the TM010 mode in reflection and transmission via a room temperature RF switch. The signal from the cavity is down-mixed using an image rejection scheme for sampling by a field-programmable gate array (FPGA) digitizer. The linear and rotary piezomotors, shown in dark grey, control the antenna coupling and rod motion.
+
+set of parentheses denotes properties of the haloscope: c = 2c is the angular resonant frequency, B0 is the magnetic field strength, V is the cavity volume, C is the mode-dependent form factor that represents the coupling of the axion field to the electromagnetic mode, QL is the loaded quality factor, and  is the coupling strength of the strongly coupled antenna receiver.
+In this work, we report on the most recent axion search with the ORGAN experiment, which scanned the 25.45 - 26.27 µeV (6.15 - 6.35 GHz) mass (frequency) range of the axion-photon coupling parameter space. To achieve this, we implement a TM010-based conducting rod resonator that fully occupies our 7-T solenoidal magnet bore. The cavity has a volume of 0.708 L and features a clamshell design made from oxygen-free high-conductivity copper. The aluminium tuning rod (selected as opposed to copper for its lower mass and therefore improved mechanical tuning), as shown in Fig. 1, results in a typical value for the form factor of C  0.42 in the frequency range searched.
+The ORGAN experiment is planned in several stages [25] with the first phase of the experiment completed [23, 24]. While this search falls outside ORGAN's targeted 15 - 50 GHz frequency range, ORGAN Q serves as a test bed for a variety of techniques and technologies which may be applied in future ORGAN
+
+searches as Phase 2 of the experiment is prepared. These include a clamshell resonant cavity design, operating at millikelvin temperatures, employing a commercially available, flux-driven Josephson parametric amplifier (JPA) from Raytheon [38] before the HEMT amplifier (as opposed to solely HEMT amplifiers in Phase 1), the collection of high frequency resolution data (for a dedicated high resolution search), and the implementation of various other RF design features such as cryogenic switches and a heated load for noise calibration. The JPA consists of a nonlinear resonator, making use of Josephson junctions as its inductive element, and has a broadband impedance transformer on its input, which has been shown to increase the bandwidth beyond the gain bandwidth product [38­40]. It can be operated in either 3 or 4-wave mixing mode, has near-quantum limited performance and can produce broadband gain of order 100 MHz. In order to reduce the number of components and shift the pump tone away from the gain band, it is operated in 3-wave mixing mode, where the inductive element is parametrically modulated via a pump at roughly twice the signal frequency. Details of the JPA gain characterisation are discussed further in the Appendix A.
+Implementing a near-quantum-limited amplifier at millikelvin temperatures greatly reduces the total system noise, TS, compared to ORGAN Phase 1. For this rea-
+
+

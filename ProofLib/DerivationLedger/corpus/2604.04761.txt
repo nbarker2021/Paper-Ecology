@@ -1,0 +1,110 @@
+arXiv:2604.04761v1 [quant-ph] 6 Apr 2026
+
+What quantum computer to buy?
+Alex Krasnok1,2
+1Department of Electrical and Computer Engineering, Florida International University, Miami, FL 33174, USA
+2Knight Foundation School of Computing and Information Sciences, Florida International University, Miami, FL 33199, USA
+Abstract The phrase "buy a quantum computer" hides several different procurement problems. An institution may be seeking cloud access for teaching, reserved capacity for research, a local instrument for hardware training, an optimization appliance, or a strategic installation that reshapes facilities, staffing, and budgets. Because these choices differ in purpose, operating burden, and useful lifetime, the decision should be framed as acquisition of quantum capability rather than selection of a presumed hardware winner. This manuscript develops a practical procurement framework that distinguishes five capability layers, separates peer-reviewed results from commercial offerings, pricing anchors, and public roadmaps, and compares the main commercial platform families--superconducting circuits, trapped ions, neutral atoms, quantum annealing, and photonics--through the lens of institutional fit, access model, and refresh pressure. The main conclusion is that most institutions should begin with the smallest layer of capability that produces repeatable near-term value, builds internal expertise, and preserves strategic flexibility. Large on-premises systems are justified only when mission requirements, site readiness, staffing, governance, and upgrade paths are already clear.
+1 Introduction
+Buying quantum computing is a mission decision, not a hardware shopping exercise. A university may want a teaching platform that supports many students at low cost. A research center may want faster and more predictable access than a shared public queue can provide. A national laboratory may need local control, secure data handling, and close coupling to high-performance computing (HPC) systems. An industrial group may care about only one outcome: whether a benchmark workload gains anything from quantum resources at all. These are different purchases even when each buyer uses the same phrase, "buy a quantum computer" [1­3].
+The market makes the decision harder because quantum hardware is heterogeneous, performance metrics are not directly comparable across vendors, and public roadmaps often move faster than institutional capital cycles. A qubit count does not reveal queue quality, software maturity, facilities burden, service model, or upgrade path. A promising research result does not guarantee a supported commercial product. A bold roadmap does not prove delivered capability. For that reason, procurement mistakes in quantum computing are often organizational before they are technical.
+Public discussion still begins in the wrong place. It begins with qubit counts, vendor rankings, and claims about which platform will win in the long run. That framing gives weak procurement
+Corresponding author: akrasnok@fiu.edu
+1
+
+Table 1: Capability layers hidden inside the phrase "buy a quantum computer."
+
+Layer
+
+What is acquired When it fits
+
+Representative public examples
+
+Preparation or deferral
+Multi-vendor cloud access
+Reserved or premium access
+Modest local instrument
+Strategic local installation
+
+Benchmark
+
+The workload is unclear, the
+
+problems, staff time, user base is immature, or local
+
+classical baselines, ownership has no clear
+
+and use-case
+
+advantage
+
+validation instead of
+
+hardware
+
+Internal benchmarking, cloud pilots, and classical­quantum workflow development
+
+Execution time, simulators, notebooks, and basic support
+
+Early exploration, first courses, IBM Open and pay-as-you-go
+
+small pilots, and platform
+
+plans; Amazon Braket cloud
+
+discovery
+
+access [4, 5]
+
+Priority queueing, reserved capacity, and deeper technical support
+
+Teams know what they want to run and need predictable throughput before ownership
+
+QuEra Premium Access; D-Wave Leap and LaunchPad; Quantinuum cloud access [10­13]
+
+A local system used The institution needs repeated IQM Spark; Rigetti Novera;
+
+often for teaching, local use and wants to build AQT rack-mounted trapped-ion
+
+controls, calibration, hardware practice without
+
+systems [14­16]
+
+and methods
+
+starting with a flagship machine
+
+development
+
+A large local
+
+The mission requires sovereignty, Quantinuum Helios, QuEra
+
+platform with
+
+tight hybrid integration, or
+
+on-premises systems, Atom
+
+service, facilities, sustained local throughput at AC1000, D-Wave Advantage2,
+
+security, and
+
+organizational scale
+
+OQC deployments, Quandela
+
+upgrade planning
+
+MosaiQ, ORCA PT-2
+
+[13, 17­22]
+
+guidance because it ignores the operating model. A campus that needs broad student access should not start with a flagship local installation. A laboratory that needs secure, repeatable, low-latency hybrid workflows should not assume that a free cloud tier is enough. The first question is not which device looks strongest on paper. The first question is what layer of quantum capability the institution can use, support, and justify [4, 5].
+This manuscript therefore treats procurement as quantum capability acquisition. It makes four contributions. First, it defines five capability layers hidden inside the single phrase "buy a quantum computer," ranging from preparation and cloud access to strategic local ownership. Second, it separates four evidence classes that buyers often mix together: peer-reviewed science, customervisible commercial offerings, public price anchors, and public roadmaps. Third, it compares the major commercial platform families in terms that matter to a buyer, including access, operational burden, and upgrade risk. Fourth, it interprets public roadmaps as signals of refresh pressure rather than proof of present-day performance [6­9]. The goal is not to rank vendors or predict a technological winner. It is to help institutions avoid the wrong first purchase.
+2 A procurement framework for quantum capability
+A disciplined procurement process begins by defining what the institution is actually trying to acquire. In quantum computing, the answer is rarely "the most qubits." It is usually one of a smaller
+
+2
+
+

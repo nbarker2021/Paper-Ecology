@@ -1,0 +1,142 @@
+Gravitational-wave signatures of nonviolent nonlocality
+Brian C. Seymour  and Yanbei Chen TAPIR, Walter Burke Institute for Theoretical Physics, California Institute of Technology, Pasadena, California 91125, USA
+(Dated: February 23, 2026)
+Measurement of gravitational waves can provide precision tests of the nature of black holes and compact objects. In this work, we test Giddings' nonviolent nonlocality proposal, which posits that quantum information is transferred via a nonlocal interaction that generates metric perturbations around black holes. In contrast to firewalls, these quantum fluctuations would be spread out over a larger distance range -- up to a Schwarzschild radius away. In this letter, we model the modification to the gravitational waveform from nonviolent nonlocality. We modify the nonspinning EOBNRv2 effective one body waveform to include metric perturbations that are due to a random Gaussian process. We find that the waveform exhibits random deviations which are particularly important in the late inspiral-plunge phase. We find an optimal dephasing parameter for detecting this effect with a principal component analysis. This is particularly intriguing because it predicts random phase deviations across different gravitational wave events, providing theoretical support for hierarchical tests of general relativity. We estimate the constraint on the perturbations in nonviolent nonlocality with events for the LIGO-Virgo network and for a third-generation network.
+
+arXiv:2411.13714v4 [gr-qc] 20 Feb 2026
+
+Introduction-- The evaporation of black holes (BHs) via Hawking radiation [1] reveals an inconsistency between quantum mechanics and general relativity (GR) [2]: the semiclassical result that Hawking radiation carries no information contradicts the unitarity of quantum theory. Several resolutions to the information paradox have been proposed: the BH could never fully decay but remain as a massive remnant [3]. The interior geometry of the BH could be modified as a fuzzball [4] or gravastar [5]. Alternatively, the firewall scenario [6] suggests the region near the horizon could experience a breakdown of semiclassical gravity which destroys infalling observers. Finally, the information paradox may be resolved by accounting for nonperturbative contributions in semiclassical gravity through the replica wormhole trick, which restores unitarity without modifying GR [7­12].
+Giddings proposed that the information which fell into the BH can escape it via nonviolent nonlocality (NVNL) [13­17], a nonlocal interaction between the inside and the outside of the BH, with associated nonviolent space-time fluctuations from this information transfer. In the strong version of NVNL, the space-time metric fluctuates stochastically at a level of O (1) [15] near BHs, while the weak version [16] has fluctuations of O e-Sbh/2 [18]. Giddings and collaborators elaborated the phenomenology of NVNL [19­22] to observations of the Event Horizon Telescope (EHT) [23].
+Gravitational wave (GW) measurements directly probe the behavior of strong gravity around BHs and neutron stars (NSs) [24­29]. Deviations from GR can be extracted by adopting either the parameterized postEinsteinian (PPE) framework [30] or the post-Newtonian (PN) deformation framework [31­33], which measure deviations in the GW phase during the binary inspiral stage. Results of parametrized tests have been featured in LIGO-Virgo-KAGRA (LVK) results [26­29, 34], which also treated the phase deviation parameters as hyperpa-
+
+rameters and bounded their mean values as well as uncertainties [35, 36]. In this Letter, we model the effect of NVNL on the inspiral of a binary black hole (BBH) and show that it can be constrained by the parametrized tests mentioned above, in particular via the uncertainties of the phase-deviation hyperparameters [35].
+We begin with the effective-one-body (EOB) framework [37­39] which approximates a two-body relativistic problem as a one-body problem in a deformed Schwarzschild spacetime, the effective spacetime. Originally, this was developed for nonspinning quasicircular [37­42] but subsequently was generalized to aligned spin [43­46], precessing spin [47­52], calibrated to numerical relativity [53­55], tides [56­59], and eccentricity [60, 61] where the newest model is SEOBNRv5PHM [62­65]. We modify a simple nonspinning EOBNRv2 spacetime [40] and add stochastic metric perturbations characterized by a Gaussian spatial profile and a frequency spectrum related to the BH's temperature, as proposed by Ref. [21]. The resulting trajectories lead to GWs that deviate from GR stochastically, primarily in the late-inspiral and plunge phases. Using a principal component analysis (PCA) [66­68], the frequencydomain phase deviations of NVNL waveforms are well approximated by a single dominant eigenmode multiplied by a normally distributed random amplitude. Finally, we estimate how well NVNL can be constrained by stacking together gravitational-wave events and computing the Savage-Dickey ratio [69]. These calculations give theoretical support to search for random phase deviations as proposed in the hierarchical tests of GR [29, 35, 70­73].
+Setup-- For a Schwarzschild BH, Ref. [21] generically decomposes the NVNL-induced metric perturbations gµ = gµs  + nµ into the even and odd perturbations [74]. In this work, we will consider the dominant NVNL correction which arises from nvv in the in-going
+
+2
+
+Eddington-Finkelstein coordinates, decomposed as
+
+gr
+0.3
+
+( D/M h22)
+
+where
+
+nvv = fmYm ,
+m
+
+(1)
+
+0.2
+
+0.1
+
+0.0
+
+fm = Am exp -(r - rS)2/(2rG2 ) n(t) ,
+
+(2)
+
+with Am the amplitude of the mode, rS the Schwarzschild radius, and rG  rS the localization length of the perturbations [21]. Here n(t) is a colored Gaussian noise with a power spectrum
+
+Sn(f ) = 1/(2fQ) exp [-|f |/fQ] ,
+
+(3)
+
+where fQ = 1/8M is the quantum frequency scale. We have normalized the power spectrum so that n(t) has a variance equal to unity n2(t)  df Sn(f ) = 1. This spectrum is motivated by the Boltzmann distribution for
+a BH of temperature TBH = 1/8M . Note that the standard deviation of fm at the horizon is  Am, while the coherence time is around   4M .
+For a test particle falling into a NVNL BH, using  and  as expansion parameters in particle mass and size of NVNL, we can perform a two-parameter expansion for the metric as g = gS + n + h(0,1) + h(1,1), and the trajectory of the particle as x(0,0) + x(1,0). The modified Einstein equation, up to O(1, 1) can be written as G[g + n] = 8TNVNL and
+G(g1+)n[h(0,1) + h(1,1)] = 8Tg+n[x(0,0) + x(1,0)] (4)
+where Gg(1+)n denotes the linearized Einstein tensor with background g + n and Tg+n[x] denotes stress-energy tensor of a particle in this background with world line x. From Eq. (4), we recover Gg(1)[h(0,1)] = 8Tg[x(0,0)], obtain that x(0,0) + x(1,0) is a geodesic in g + n (linear Bianchi identity), and that
+
+-0.1
+
+-0.2
+
+-0.3
+
+-0.4
+
+-150 -125 -100 -75 -50 -25 0
+
+25
+
+t/M
+
+FIG. 1. The real part of the dimensionless h22(t) strain for A22 = 5 × 10-2. This is the full waveform before the PCA is done, so it contains all perturbations. These signals are aligned at very early times so that their signals overlap at low frequencies but they stochastically diverge as they reach the plunge. The apparent ringdown difference is primarily due to the phenomenological ringdown attachment, but we only do the testing GR analyses with the inspiral piece.
+
+mass ratio  = m1m2/M 2, and mass ratio q = m1/m2. The effective metric is given by
+
+dse2ff
+
+=
+
+-A(r)dt2
+
++
+
+D(r) dr2 A(r)
+
++
+
+r2d2
+
+,
+
+(6)
+
+where
+
+A(r)
+
+=
+
+1
+
+-
+
+2M r
+
++
+
+O()
+
+and
+
+D(r)
+
+=
+
+1
+
++
+
+O()
+
+are
+
+terms that describe the effective metric which is deformed
+
+by the symmetric mass ratio  away from Schwarzschild
+
+[37, 38]. To capture the order of magnitude of the NVNL
+
+effect, let us now add NVNL into EOB by modifying the
+
+geometry of the effective spacetime, the modified massshell relation pµp (gSµ + nµ ) = -1 then yields a modi-
+fied Hamiltonian
+
+Gg(1)[h(0,1)+h(1,1)] = 8Tg+n[x(0,0)+x(1,0)]-G(g2)[h(0,1), n] . (5)
+Equation (4) indicates that GWs up to O(1, 1) are generated by a modified trajectory and propagate on the modified spacetime g + n; Eq. (5) shows further that the propagation effect in h(1,1) can be computed as being sourced by a beat between h(0,1) and the metric perturbation n. Within GR, radiation reaction effects show up in x(0,1) and h(0,2), while NVNL corrects in x(1,1) and h(1,2). In this Letter, we shall restrict ourselves to the test-particle limit since, as we see in Supplemental Material [75], the NVNL is confined near the end of the inspiral and the finite-mass effects will not cumulate secularly. We will further neglect the wave propagation effect, since that involves the scattering of the merger wave and causes a modified ringdown wave -- while we will be dealing with inspiral tests for NVNL.
+Let us now review the EOB framework [37, 38, 40, 54, 76, 77]. We define total mass M = m1 + m2, symmetric
+
+H^real = H^rSeal + nvmv H^rmeal .
+
+(7)
+
+In principle, the GW luminosity E is also modified by NVNL [22] (and correspondingly Firad), but here we focus on the conservative modifications. We obtain the NVNL trajectory using Eq. (7), then the leading quadrupole wave h22 in the same way as Ref. [40], attaching a simple GR ringdown where the strain peaks via smoothness (similar to Ref. [62]). (See Supplemental Material for details which includes Refs. [78, 79].) NVNL Waveforms-- In Fig. 1, we plot several realizations of an NVNL waveform Re[h22] (normalized by M/D with D the source distance) in the time domain, as functions of t/M , for a binary with q = 1, and compare this to a GR waveform. The random deviations are smooth in time due to the cutoff fQ in Eq. (3) as well as the filtering effect due to the inertia of the binary which suppresses high frequencies.
+Going to the frequency domain, the NVNL waveform
+
+

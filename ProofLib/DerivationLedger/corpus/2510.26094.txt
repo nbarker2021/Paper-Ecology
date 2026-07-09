@@ -1,0 +1,130 @@
+Preprint, under review
+
+arXiv:2510.26094v1 [cs.AI] 30 Oct 2025
+
+LEAN4PHYSICS:
+
+COMPREHENSIVE REASONING
+
+FRAMEWORK FOR COLLEGE-LEVEL PHYSICS IN
+
+LEAN4
+
+Yuxin Li1, Minghao Liu1, Ruida Wang2, Wenzhao Ji1, Zhitao He1, Rui Pan2, Junming Huang3, Tong Zhang2, Yi R. (May) Fung1 1Hong Kong University of Science and Technology, 2University of Illinois Urbana-Champaign, 3Princeton University {ylinq,mliuby,wjiab,zhebu}@connect.ust.hk {ruidaw,ruip4}@illinois.edu
+junminghuang@princeton.edu
+tongzhang@tongzhang-ml.org
+yrfung@ust.hk
+
+ABSTRACT
+We present Lean4PHYS, a comprehensive reasoning framework for college-level physics problems in Lean4. Lean4PHYS includes LeanPhysBench, a collegelevel benchmark for formal physics reasoning in Lean4, which contains 200 hand-crafted and peer-reviewed statements derived from university textbooks and physics competition problems. To establish a solid foundation for formal reasoning in physics, we also introduce PhysLib, a community-driven repository containing fundamental unit systems and theorems essential for formal physics reasoning. Based on the benchmark and Lean4 repository we composed in Lean4PHYS, we report baseline results using major expert Math Lean4 provers and state-of-theart closed-source models, with the best performance of DeepSeek-Prover-V2-7B achieving only 16% and Claude-Sonnet-4 achieving 35%. We also conduct a detailed analysis showing that our PhysLib can achieve an average improvement of 11.75% in model performance. This demonstrates the challenging nature of our LeanPhysBench and the effectiveness of PhysLib. To the best of our knowledge, this is the first study to provide a physics benchmark in Lean4.1
+1 INTRODUCTION
+Formal thinking capability has long been considered a cornerstone of human intelligence and a key objective of machine learning. With the emergence of Large Language Models (LLMs), many studies explore diverse ways to apply LLMs to perform various reasoning tasks. These efforts span general reasoning (Wang et al., 2024b; Suzgun et al., 2022; Talmor et al., 2018), mathematical reasoning (Hendrycks et al., 2021; Cobbe et al., 2021; Guo et al., 2025), natural science reasoning (Saikh et al., 2022; Edwards et al., 2025), and various other domains (He et al., 2025a; Su et al., 2025). However, most works treat reasoning as a purely Natural Language (NL) task, relying on answer checking to evaluate correctness. This approach often fails to verify the intermediate steps of the reasoning process.
+To make the reasoning process verifiable, researchers ground the reasoning procedure in formal logical systems, enabling the automatic verification of both the reasoning steps and final results through Formal Languages (FLs). Based on this approach, several FLs are developed, including Lean (De Moura et al., 2015; Moura & Ullrich, 2021), Coq (Coq, 1996), Isabelle (Paulson, 1994), and HOL (Harrison, 2009). Among these, Lean4 has received significant attention from both academia and industry, making it one of the most well-studied FLs in recent years. Numerous works
+First Authors 1Our code and dataset will be released at https://github.com/ShirleyLIYuxin/Lean4PHYS.
+1
+
+Preprint, under review
+
+(a) Formal Data Construction
+
+Natural Language Statement
+
+Condition
+A hollow spherical shell of radius  rotates with
+
+angular velocity  . A small block is located inside the shell at height  =  /2, with static friction coefficient  between the block and the
+
+shell. Let  be the angle between the vertical and the line from the shell's center to the block, and let  =  sin  .
+
+Question
+
+What is the minimum coefficient of friction
+
+required to keep the block in circular motion?
+
+Steps
+
+We have r = R cos . Consider forces parallel
+
+and horizontal to the surfaces, we get:
+
+sin  · N + cos  · f = mg
+
+(1)
+
+cos  · N - sin  · f = m2r
+
+(2)
+
+Solve the above equations to get:
+
+N = m(g sin  + cos2 2R)
+
+(3)
+
+f = m cos (g - sin 2R)
+
+(4)
+
+Substitute f, N in µ = f/N and simplify.
+
+Answer
+
+Condition Extraction Physics Laws Newton's Second Law (Rotating Frame): /0123456578 =    ... Object Data Position:  = /2 ; Normal force: 9 =   9 + . . . Proving Target Extraction
+Prove that the minimum coefficient of friction required to keep the block in circular motion is
+NL to FL translation with PhysLib
+
+Formal Language Statement Hypothesis
+theorem Ch2_Q5
+(m : Mass) (R h : Length) ( : ) ( : Scalar (-time_unit)) (N f : Force) (r : Length) ( : )
+(h_range : 0 <    < Real.pi / 2) (h_pos : 0 < m.val  0 < R.val  0 < .val  0 < g) (h_radius : r = Real.cos  · R) (h_vert : Real.sin  · N + Real.cos  · f = m * g) (h_horiz : Real.cos  · N - Real.sin  · f
+= m *  ** 2 * r) (h_fric_min : f =  · N ):
+Goal
+ = (Real.cos  · (g - Real.sin  · R *  ** 2/1)).val (Real.sin  · g /1 + (Real.cos ) ^ 2 · R *  ** 2).val := by sorry
+
+LeanPhysBench
+Optics Waves Mechanics Modern Physics Thermodynamics Electromagnetism
+
+Test LLMs on LeanPhysBench with and without PhysLib in Prompt
+
+Mixed Statement 1
+
+Proof 1
+
+Formal Verification
+
+Mixed Statement 2 NL Statement
+... What is the minimum coefficient of friction required to keep the block in circular motion? ...
+FL Statement
+... (h_fric_min : f =  · N ) :  = (Real.cos  · (g - Real.sin  · R *  ** 2/1)).val / (Real.sin  · g /1 + (Real.cos ) ^ 2 · R *  ** 2).val := by ...
+Mixed Statement 3
+(b) LLM Performance Evaluation
+
+Proof 2
+theorem linear_sol{a b x y a1 b1:} (h1:a*x+b*y=a1)(h2:b*x-a*y=b1)(h3:a^2+b^2=1): x=(a*a1+b*b1)(y=-a*b1+b*a1):=by split_ands rw[ h1, h2] have h4:a * (a * x + b * y) + b * (b * x - a * y)
+=(a^2+b^2)*x:=by ring_nf rw[h4,h3,one_mul] rw[ h1, h2] have h4: -a * (b * x - a * y) + b * (a * x + b * y)
+=(a^2+b^2)*y:=by ring_nf rw[h4,h3,one_mul]
+
+have hvert1:=h_vert
+apply Scalar.ext_iff.mp at h_vert simp at h_vert apply Scalar.ext_iff.mp at h_horiz
+simp at h_horiz simp apply linear_sol at h_vert
+apply h_vert at h_horiz simp at h_horiz have hnz:N.val0:=by ... have hmu1:=f.val/N.val:=by ...
+
+rw[hmu1]
+refine (div_eq_div_iff ?_ ?_).mpr ?_ exact hnz refine Ne.symm (_root_.ne_of_lt ?_)
+refine Right.add_pos' ?_ ?_ refine Left.mul_pos ?_ ?_ exact sin_pos  h_range
+norm_num refine Left.mul_pos ?_ ?_ refine Left.mul_pos ?_ ?_ refine sq_pos_of_pos ?_ ...
+
+Proof 3
+
+Evaluation Results
+
+Figure 1: Overview of the Lean4PHYS framework: (a) Benchmark and Library Construction: The benchmark and library are developed using a bottom-up principle. We first establish the foundational units and SI system of PhysLib, then compose the calculation support, and finally construct the field-related theorems. For the benchmark, NL questions are transformed from a question-answering format to proof problems and subsequently formalized into Lean4 statements. (b) LLM Performance Evaluation: We evaluate the formal physics reasoning capabilities of major open and closed-source LLMs on LeanPhysBench, both with and without PhysLib. After inference is completed, Lean4 auto-verification evaluates model performance and highlights the utility of PhysLib.
+
+have been proposed to advance Lean4 research, including test benchmarks (Zheng et al., 2021; Gulati et al., 2024; Azerbayev et al., 2023), training dataset (Dong & Ma, 2025; Wang et al., 2024a; Ying et al., 2024), and provers (Polu et al., 2022; Wang et al., 2024a; Xin et al., 2024; Wang et al., 2025c; Lin et al., 2025b; Dong & Ma, 2025; Xin et al., 2025; Ren et al., 2025).
+However, current studies in formal reasoning primarily focus on the math domain, leaving other fields with solid foundations that can be formalized, such as physics, largely understudied. This raises two critical challenges for Lean4 physics reasoning. Firstly, there is a lack of a comprehensive foundational repository to support physics formalization. Unlike mathematics, which benefits from extensive libraries like Mathlib, physics reasoning requires specialized infrastructure, such as unit systems and domain-specific theorems. Such a foundation is absent or fragmented. Secondly, there is no thorough evaluation of the models' capabilities in formal physics reasoning. While state-ofthe-art expert provers demonstrate their superior performance on Lean4 Math benchmarks such as MiniF2F (Zheng et al., 2021) and PutnamBench (Gulati et al., 2024), it remains unclear whether their formal reasoning capabilities also apply to physics problems. Or these models have overfit to math reasoning patterns despite using similar Lean4 syntax.
+To solve the problem above, we propose Lean4PHYS, a comprehensive reasoning framework for college-level general-domain physics problems in Lean4. It aims to provide a foundation for LLMbased formal physics reasoning. Lean4PHYS launches PhysLib, a foundation repository that supports Lean4 physics reasoning. The PhysLib builds upon the dedicated UnitSystem in Tao (2025). We implement the basic mathematical structure, calculus, and algebraic operations, transfer between physics and math units, dimension transformation, and a growing collection of extendable formalized physics theorems. To provide a baseline verifying LLMs' formal reasoning capability, we develop LeanPhysBench based on PhysLib that contains 200 manually crafted and peer-reviewed Lean4 theorems. LeanPhysBench targets college-level knowledge, spanning Olympiad-style com-
+
+2
+
+

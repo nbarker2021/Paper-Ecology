@@ -1,0 +1,193 @@
+arXiv:2512.00297v2 [cs.FL] 23 Mar 2026
+
+Unconditional Time and Space Complexity Lower Bounds for Intersection Non-Emptiness
+
+Michael Wehar
+Department of Computer Science, Bryn Mawr College, Bryn Mawr, PA
+
+Abstract
+
+We reinvestigate known lower bounds for the Intersection Non-Emptiness Problem for Deterministic
+
+Finite Automata (DFA's). We first strengthen conditional time complexity lower bounds from T.
+
+Kasai and S. Iwata (1985) which showed that Intersection Non-Emptiness is not solvable more
+
+efficiently unless there exist more efficient algorithms for non-deterministic logarithmic space (NL).
+
+Next, we apply a recent breakthrough from R. Williams (2025) on the space efficient simulation of
+
+deterministic
+
+time
+
+to
+
+show
+
+an
+
+unconditional
+
+(
+
+log3
+
+(n)
+
+n2 log
+
+log2
+
+(n)
+
+)
+
+time
+
+complexity
+
+lower
+
+bound
+
+for
+
+Intersection Non-Emptiness. Finally, we consider implications that would follow if Intersection Non-
+
+Emptiness for a fixed number of DFA's is computationally hard for a fixed polynomial time complexity
+
+class. These implications include PTIME  DSPACE(nc) for some c  N and PSPACE = EXPTIME.
+
+2012 ACM Subject Classification Theory of computation  Formal languages and automata theory; Theory of computation  Problems, reductions and completeness
+
+Keywords and phrases Decision Problems for Finite Automata, Unconditional Lower Bounds, Time Complexity, Space Complexity
+Digital Object Identifier 10.4230/LIPIcs.CVIT.2016.23
+
+Acknowledgements I would especially like to thank A. Salamon for years of productive collaboration. In addition, I am grateful to M. Oliveira for our prior works on intersection non-emptiness. Also, I very much appreciate the helpful communications with D. Chistikov and N. Rino.
+
+1 Background
+1.1 Intersection Non-Emptiness
+The Intersection Non-Emptiness Problem for Deterministic Finite Automata (DFA's) is defined as follows. Given a finite list of DFA's D1, D2, ..., Dk over an alphabet , does there exist a string s   such that s  i[k] L(Di)? In other words, is the intersection of the regular languages (associated with the DFA's) non-empty? We denote this problem by DFA-INT. It became natural to consider DFA-INT following the work of M. Rabin and D. Scott (1959) [24] because it was shown that a product automaton could be constructed that recognizes the intersection of any finite set of regular languages. Using this product construction, one can solve DFA-INT in O(nO(k)) time where n denotes the total input size and k denotes the number of DFA's. We will measure the total input size n in terms of the length of the bit string that encodes the entire input. The standard approach is to imagine a product directed graph and simply search to see if any product final state can be reached from the product initial state. Furthermore, we can solve DFA-INT in O(k log(n)) non-deterministic space because a product state along with a counter can be represented using O(k log(n)) bits of memory. Then, we simply non-deterministically guess a path from the product initial state to a product final state and reject if the counter surpasses the value nk. We also consider the k-DFA-INT problem where k, the number of DFA's, is fixed.
+
+ Draft as of January 29th, 2026.
+
+© Michael Wehar; licensed under Creative Commons License CC-BY 4.0 42nd Conference on Very Important Topics (CVIT 2016). Editors: John Q. Open and Joan R. Access; Article No. 23; pp. 23:1­23:13
+Leibniz International Proceedings in Informatics Schloss Dagstuhl ­ Leibniz-Zentrum für Informatik, Dagstuhl Publishing, Germany
+
+23:2 Unconditional Time and Space Complexity Lower Bounds for Intersection Non-Emptiness
+
+The complexity of DFA-INT and k-DFA-INT have been investigated in prior works. It was
+
+shown that DFA-INT is a PSPACE-complete problem in D. Kozen (1977) [21]. Next, T. Kasai
+
+and S. Iwata (1985) [20] showed that k-DFA-INT is not solvable more efficiently unless all
+
+non-deterministic logspace (NL) problems are solvable in less time. In particular, it was shown
+k-2-
+that if k-DFA-INT is solvable in O(n 2 ) time for some  > 0, then NSPACEb(k log(n)) 
+DTIME(nk-) for some  > 0. Here, NSPACEb is similar to the common NSPACE, but it essentially
+
+measures bits of memory instead of measuring length over larger than binary tape alphabets.
+
+In particular, it measures space complexity relative to two-tape Turing machines where one
+
+tape is read-only and the other tape is restricted to a binary alphabet except for a fixed number
+
+of special delimiter symbols #. This is also known as an offline Turing machine. Later on, the
+
+author (2014) [31] showed that DFA-INT / NSPACE(f (n)) unconditionally for all f (n) such that
+
+f (n)
+
+is
+
+o(
+
+log(n)
+
+n log
+
+log(n)
+
+).
+
+This
+
+was
+
+proven
+
+by
+
+demonstrating
+
+that
+
+a
+
+space
+
+efficient
+
+algorithm
+
+for DFA-INT could be used to space efficiently simulate all space bounded computations in a
+
+way that violates the Non-Deterministic Space Hierarchy Theorem [27, 18, 11]. The reason
+
+for the log log(n) factor in the denominator is because the proof constructs O(n) DFA's with
+
+at most O(log(n)) states each. Furthermore, it takes log(n) log log(n) bits to represent a
+
+log(n) state DFA as a binary string because we are essentially encoding a directed graph
+
+with log(n) vertices and O(log(n)) edges (assuming a fixed finite alphabet). Additional
+
+conditional time complexity lower bounds for DFA-INT have been shown in [19, 32, 8, 7].
+
+1.2 Structural Complexity
+Structural complexity is concerned with complexity classes and their relationships. We recall the definitions for a selection of standard complexity classes that we consider within this work. The standard classes that we consider within this work are polynomial time denoted by PTIME = kN DTIME(nk), polynomial space denoted by PSPACE = kN DSPACE(nk), exponential time denoted by EXPTIME = kN DTIME(2nk ), and non-deterministic logarithmic space denoted by NL = NSPACE(log(n)).
+Within structural complexity theory, it is standard to consider whether one class is included within another. We recall a selection of known relationships between complexity classes that we consider within this work. First, the deterministic Time Hierarchy Theorem states that DTIME(t1(n))  DTIME(t2(n)) when t2(n) is (t1(n) log(t1(n))) and both t1(n) and t2(n) are time constructible [12, 13]. Next, the Non-Deterministic Space Hierarchy Theorem states that NSPACE(s1(n))  NSPACE(s2(n)) when s1(n) is o(s2(n)) and s2(n) is space constructible [28, 2, 27, 18, 11]. Then, alternating time is included within deterministic space. In particular, we have ATIME(t(n))  DSPACE(t(n)) [4]. Finally, when space is sublinear, polynomial time is within alternating linear time. That is, we have NTISP(nk, n1-)  ATIME(n) for all k  N and  > 0 [22, 9, 23, 34].
+
+1.3 Space Efficient Simulation
+
+Time bounded computations can be space efficiently simulated. In particular, it was shown
+
+in [15]
+
+that
+
+DTIME(t(n))
+
+
+
+DSPACE(
+
+t(n) log(t(n))
+
+).
+
+Then,
+
+a
+
+more
+
+space
+
+efficient simulation
+
+was
+
+demonstrated in [16] when the time bounded machine has a read tape and only one read / write
+
+tape (also known as an offline Turing machine). We use DTIME1 to measure time relative to these restricted machines with only one tape that can both read and write. In particular, the
+
+improved simulation from [16] demonstrated that DTIME1(t(n))  DSPACE( t(n) log(t(n))).
+
+A more recent breakthrough was made demonstrating that for the more standard multitape
+
+Turing machine model, we also have DTIME(t(n))  DSPACE( t(n) log(t(n))) [33]. This result
+
+

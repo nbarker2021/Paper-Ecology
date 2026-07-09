@@ -1,0 +1,71 @@
+arXiv:2606.00166v1 [gr-qc] 29 May 2026
+
+Cascading amplification of gravitational waves triggered by a dynamical environment in dynamical Chern-Simons gravity
+Han-Wen Hu1,2, Chen Lan3, and Zong-Kuan Guo1,2,4 1Institute of Theoretical Physics, Chinese Academy of Sciences, P.O. Box 2735, Beijing 100190, China 2School of Physical Sciences, University of Chinese Academy of Sciences, No.19A Yuquan Road, Beijing 100049, China
+3Department of Physics, Yantai University, 30 Qingquan Road, Yantai 264005, China and 4School of Fundamental Physics and Mathematical Sciences, Hangzhou Institute for Advanced Study,
+University of Chinese Academy of Sciences, Hangzhou 310024, China
+Within the effective field theory framework of dynamical Chern-Simons (dCS) gravity, we investigate the cascading amplification mechanism of gravitational waves driven by an external dynamical environment. Considering the interaction between the environmental field and the dCS pseudoscalar, we find that the black hole barrier and the external oscillating shell collectively form an effective resonant cavity, which triggers Mathieu instability in the dCS scalar sector. Numerical results show that the optimal driving frequency is set by the length of the resonant cavity. When the environmental field lies too close to the black hole, leakage toward the event horizon suppresses the resonant growth, thus giving a dynamical threshold for the existence of the instability. In the frequency domain, scalar perturbations display the Floquet sideband structures. In the time domain, the amplified scalar field further acts as a source term to drive axial gravitational perturbations, generating a delayed secondary burst. This mechanism reveals that dCS corrections at ultraweak coupling can still accumulate via long-term parametric amplification in a dynamical environment, leaving discernible signatures in gravitational wave signals.
+I. INTRODUCTION
+The LIGO-Virgo-KAGRA Collaboration has systematically tested general relativity (GR) with unprecedented precision in strong gravity using hundreds of compact binary merger events [1­8]. Before gravitational wave (GW) astronomy began, tests of GR were mostly done in weak gravity and quasi-static environments, such as the solar system and binary pulsar systems [9­11]. These tests only limit how GR behaves at low curvature. They cannot reach the strong-field area where new physics near the Planck scale might show up. The spacetime changes in the ringdown phase after binary black hole (BH) mergers make a perfect lab for strong gravity. This lets us test the predictions of GR in extreme strong gravity conditions [12­14], and also provides a unique window to identify the imprints of environmental matter sources on gravitational waveforms [15].
+From the GW150914 to the latest statistical study of the GWTC-4 catalog [16­19], all current observational data match the predictions of GR very well. This puts strict limits on strong-field gravity theories and brings an unprecedented observational challenge to all modified gravity theories. At the same time, third generation GW detectors will raise the signal-to-noise ratio for BH ringdown by more than 10 times. This will open a new path to study new physics beyond the standard model [20]. However, GR is a non-renormalizable classical field theory by nature. It can only be the low energy effective field theory (EFT) of some quantum gravity theory. Looking for observable signs of its low energy corrections has always been the core scientific goal in GW physics.
+Among all modified gravity theories, dynamical Chern-Simons (dCS) gravity holds a very special theoretical position. Unlike other scalar-tensor modified gravity theories, dCS gravity is constructed purely from the consistency requirements of high-energy theories [21­24], not from artificial phenomenological corrections. This makes it a bridge between low energy gravitational phenomenology and quantum gravity theories. It introduces a pseudoscalar field that couples non-minimally to the Pontryagin density and naturally carries parity violation in the gravitational sector. It is the simplest effective field theory that can test the parity symmetry of gravitational interactions on macroscopic scales [25­28]. However, testing dCS gravity with GWs now faces a difficulty. To satisfy the constraints from weakfield tests, binary pulsar observations and current GW data, the dimensionless coupling constant   /M 2 of dCS theory must be extremely small [29­34]. In the perturbation theory of BHs, this weak coupling strongly suppresses the cross coupling between gravitational and scalar perturbations. There is no non-trivial pseudoscalar field condensate in the background spacetime. The coupling between gravitational perturbations and the dCS scalar field only appears at O() order. This makes modified-gravity effects resemble the standard quasinormal-mode (QNM) decay in GR [27, 35­37]. Therefore, modified-gravity effects are hard to observe independently with the sensitivity of current detectors. For this reason, we must turn our attention to dirty BHs embedded in astrophysical environments [38­44].
+BHs in the universe are usually surrounded by relativistic plasma or cold dark matter halos [45­49], and the dynamical evolution of surrounding matter can directly modify the BH gravitational waveform [50]. In standard GW
+
+2
+environment models, two standard examples of these effects are tiny long-term phase shifts from hydrodynamical processes [40, 51­53], and QNM instabilities from static gravitational potential corrections [54­59]. Related echo-like scattering effects can also produce spectral drift in ringdown signals [60]. These passive effects are almost undetectable in current and future GW observations. However, the role of the environment changes completely if it is not a static fluid, but a long lived local coherent real field background supported by new physics. In static spacetimes, the dominant mode of such real fields oscillates at nearly a single frequency. It acts as a time dependent driving source that keeps feeding energy into the system, instead of just a static correction. This time-dependent background field can drive the system and create the conditions for parametric resonance [61­64].
+Within the EFT of dCS gravity, we introduce a coupling between the environmental field  and the dCS pseudoscalar. This coupling acts as the leading-order effective operator of the system at low energies [65­70]. We construct a resonant cavity from the Regge-Wheeler potential barrier and the outer periodic oscillating environmental field. We reveal how the environment amplifies the dCS scalar field through parametric resonance, and find its time domain and frequency domain signatures in axial gravitational waveforms. This may provide theoretical support for testing dCS gravity in future high-precision GW detections.
+This paper is organized as follows. Sec. II builds the EFT for dCS gravity coupled to the environmental field and derives the linear perturbation equations. Sec. III uses standard numerical simulations to study the parametric instability of dCS scalar modes. Sec. IV presents the cascading amplification mechanism of GWs, focusing on the Floquet sidebands of scalar perturbations and the secondary burst of gravitational perturbations in the time domain. Sec. V gives a brief conclusion and discussion. We use geometric units with c = G = 1.
+
+II. EFFECTIVE FIELD THEORY FRAMEWORK AND PERTURBATION EQUATIONS
+
+To study how the external environment affects perturbations of static spherically symmetric BHs in dCS gravity, we build an EFT model. It includes the standard dCS action and a local external real field  with even parity.  does not have to be a fundamental particle. It represents the macroscopic bound state of the environment around the BH. We ignore the dynamics of  and only keep its coupling to the dCS scalar. We adopt the following action
+
+S=
+
+d4x-g
+
+R
+
++
+
+ RR 4
+
+-
+
+ 2
+
+gµ µ 
+
++
+
+Lint
+
+,
+
+(1)
+
+where g  | det gµ| is the determinant of the metric tensor and R is the Ricci scalar. The second term is the dCS modified gravity coupling, where  is the dCS pseudoscalar,  is the dCS coupling constant, and RR  RR is the Pontryagin density. The third term is the standard kinetic term of the dCS scalar, with  a dimensionless
+constant. Since the interaction term Lint must be a Lorentz scalar and parity invariant, the leading order interaction reads
+
+Lint = -2,
+
+(2)
+
+where  is a coupling constant with dimension [L]-2. This coupling gives  a spacetime dependent effective mass in the background (x)
+
+me2ff,(x)
+
+=
+
+2 (x).
+
+
+(3)
+
+Before proceeding, we comment on the naturalness of the coupling . As discussed in footnote 1,  inherits the UV scale 04 from instanton dynamics. The effective driving amplitude is   20/ = 0.1M -2, which with 0  10-3 gives   50M -2. For a stellar-mass BH with M  10M  15 km, this corresponds to   0.2 km-2. The associated UV scale is 0  1/2  10-10 eV, safely below the dCS EFT cutoff EFT  -1/2. For  = 10-6M 2, EFT  10-8 eV, so 0 < EFT is satisfied. The fine-tuning required to maintain  at this scale is analogous to the hierarchy problem in spontaneous scalarization models [71, 72], and we adopt the same pragmatic EFT stance:
+the operator is the lowest-order symmetry-breaking term, and its coefficient is treated as a free phenomenological
+parameter within the EFT validity window.
+Notably, in a static background,  is a real field, so its dominant time dependence takes the form   cos(t).
+Previous studies show such long-lived oscillations can exist for massive scalar fields outside Schwarzschild BHs [73, 74].
+
+

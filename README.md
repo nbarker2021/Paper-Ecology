@@ -6,6 +6,16 @@ This repository preserves the existing workspace layout and tracks it from
 `D:\Paper Ecology`. The FLCR paper corpus is managed as a local Git submodule
 at `FLCR`.
 
+## MannyAI Snapshot
+
+The active local MannyAI build from `D:\MannyAI` is mirrored into
+`SystemsLib\MannyAI` as a local-only system lane. The 2026-07-06 consolidation
+audit verified 373 exact SHA-256 matches, 0 missing MannyAI files, and 0
+same-name changed MannyAI files.
+
+Primary audit receipts live under
+`SystemsLib\consolidation_audit\2026-07-06`.
+
 ## Submodules
 
 - `FLCR` - Formalizing LCR, Unifying SM. Contains the UFT100 paper corpus

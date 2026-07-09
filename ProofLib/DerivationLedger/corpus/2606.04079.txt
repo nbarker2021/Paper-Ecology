@@ -1,0 +1,73 @@
+Quantum error correction with the toric code
+Atom Computing and Collaborators (Dated: June 2026)
+Quantum computing platforms based on arrays of tweezer-confined neutral atoms have recently emerged as a competitive modality thanks to a direct path toward high qubit count, rapidly advancing operation fidelities, and their ability to execute circuits with arbitrary qubit connectivity. These features will enable the use of efficient error correction schemes with high encoding-rates, time-efficient decoding, and resource-efficient architectures based on transversal gates. With these goals in mind, recent state of the art neutral atom demonstrations focus on the transition from the use of physical qubits to error-corrected logical qubits, but to date there has been no demonstration of repeated error correction scalable to arbitrary depth. Here, we demonstrate many cycles of syndrome extraction in a toric quantum error correcting code, using mid-circuit measurement and replacement of lost qubits, including reloading of a qubit reservoir for indefinite coherent operation. We characterize the logical error rate after up to 90 cycles, showing that logical information can be preserved through multiple rounds of qubit reloading. Comparing two distances of the code up to 8 rounds of syndrome extraction shows a lower absolute logical error rate for the larger distance code.
+
+arXiv:2606.04079v1 [quant-ph] 2 Jun 2026
+
+I. INTRODUCTION
+Quantum computing platforms based on arrays of tweezer-confined neutral atoms have recently emerged as a competitive modality thanks to a direct path toward high qubit count [1­5], rapidly advancing operation fidelities [6­10], and their ability to execute circuits with arbitrary qubit connectivity [11­13]. These features will enable the use of efficient error correction schemes with high encoding-rates [14­18], time-efficient decoding [19, 20], and resource-efficient architectures based on transversal gates [21, 22]. With these goals in mind, recent state of the art neutral atom demonstrations focus on the transition from the use of physical qubits to error-corrected logical qubits [12, 23­26], but to date there has been no demonstration of repeated error correction scalable to arbitrary depth. Here, we demonstrate many cycles of syndrome extraction in a toric quantum error correcting code, using mid-circuit measurement and replacement of lost qubits, including reloading of a qubit reservoir for indefinite coherent operation. We characterize the logical error rate after up to 90 cycles, showing that logical information can be preserved through multiple rounds of qubit reloading. Comparing two distances of the code up to 8 rounds of syndrome extraction shows a lower absolute logical error rate for the larger distance code.
+Syndrome extraction--performing measurements of a subset of qubits that reveal the presence of errors--is a key requirement for fault-tolerant quantum computation [27]. In order to be used in universal quantum computation, and to avoid a qubit number overhead that grows with circuit depth, syndrome extraction measurements must be performed in a true mid-circuit manner--the state of some qubits must be read out while coherence is preserved in others. Recently, the error rate associated with repeated rounds of syndrome extraction using midcircuit measurement has been characterized in superconducting [28­32] and trapped ion [33] platforms, and correlations in logical observables under repeated syndrome extraction have been explored in neutral-atom [25] sys-
+
+tems.
+Performing many rounds of syndrome extraction requires maintaining qubits available in a usable state, which is a challenge for atomic platforms. Atoms are easily heated during computation, degrading the performance of future gates, and can also be lost from their traps, especially during readout. This leads to a hierarchy of error mechanisms that become relevant at different depths, as illustrated in Fig. 1(a). Overcoming these challenges requires some combination of qubit reuse and replacement after measurement. Nondestructive measurement techniques can reduce the rate at which atoms need to be replaced, but true continuous operation required to execute arbitrarily deep computations requires a way to draw new atoms from an inexhaustible source such as a magneto-optical trap (MOT) without causing excessive errors in existing atomic qubits.
+The ability to form a magneto-optical (MOT) trap while maintaining coherence in computational qubits has been demonstrated using transport between spatially separated zones [5, 34, 35], or dual species systems [36]. Separated zones or shelving techniques also enable iterative loading of large arrays, where new atoms can be repeatedly loaded without loss of those already present [1, 37]. The ability to refill tweezers either stochastically [35] or in ordered arrays [5] from a spatially-separated MOT while maintaining coherence in existing qubits has recently been demonstrated using simple characterization circuits involving only single-qubit operations. In this work, we integrate continuous loading, mid-circuit measurement, and qubit reuse into a fault-tolerant quantum memory circuit, showing that syndrome extraction can be performed indefinitely at constant error rate.
+Repeated syndrome extraction forms the core of faulttolerant schemes for quantum computation. A quantum memory experiment characterizes the performance of the logical identity operation, and is the standard test of a platform's ability to suppress the logical error rate via error correction. While no platforms currently achieve logical error rates compatible with utility-scale compu-
+
+2
+
+(a)
+
+Mechanisms:
+
+Data Atom Heating
+
+Atom Loss
+
+SZ Depletion
+
+(d)
+
+Errors Time
+...
+Time, Cycles
+
+Mitigations: Atom Swap
+(b)
+Interaction Zone (IZ) Measurement Zone (MZ) Storage Zone (SZ)
+Register
+
+Low-Loss Imaging, Replace from SZ SZ Reloading
+
+Continuous Operation
+
+Time, Cycles
+
+Gate Connectivity
+
+Replace
+
+(c)
+Loading Zone (LZ)
+SZ Reload
+
+MOT
+
+LZ Reload
+
+Repeat
+
+SE + Swap
+Measure Re ll
+SE + Swap
+Measure Re ll
+
+Reload
+
+FIG. 1. Architecture for continuous operation of arbitrary logical computations. (a) Achieving continuous operation requires overcoming a series of mechanisms that limit the depth of computation that may be performed with neutral atoms. Swapping the role of data and ancilla qubits allows all atoms to be cooled during mid-circuit measurement, mitigating the effects of heating on gate performance. Low-loss imaging and refilling of the computational array from a local reservoir of atoms (the storage zone) extends loss-limited circuit execution, but the storage zone must be reloaded from an inexhaustible source to achieve true continuous operation. All operations indicated must be performed without causing decoherence of existing atoms. (b) Our zone-based neutral-atom architecture enables arbitrary quantum computations to be performed through the use of separate static register, measurement and interaction zones. Atoms are moved between sites using movable tweezers, enabling arbitrary connectivity. A storage zone provides a nearby source of atoms to replace those lost in computation. The storage zone is periodically refilled mid-circuit from a loading zone, which is in turn filled from a MOT. (c) Continuous operation is achieved by repeating blocks consisting of several rounds of syndrome extraction, followed by reloading of the SZ. The roles of data and ancilla qubits are swapped and missing atoms are replaced during each syndrome extraction round. (d) A depiction of a twisted toric code across multiple cycles of syndrome extraction. X-type ancillas are shown on vertices, Z-type ancillas are shown on the faces, and data qubits are on the edges. The four colors show how the qubits swap from one cycle to the next. The star indicates a lost data qubit, that becomes a lost ancilla, which gets replaced after measurement. After completing a round of syndrome extraction, the erased qubit collapses into the wrong frame, triggering stabilizer violations shown with shaded plaquettes.
+
+tations, an observed decrease in the logical error rate as the code distance is increased is an encouraging indication that a platform may reach useful error rates upon scaling. Strictly, the threshold of a code family is an asymptotic property: the physical error rate below which the logical error rate of an infinite family of codes can be driven arbitrarily low by increasing the code distance. Recent experiments instead probe a finite-size analogue, colloquially referred to as sub-threshold behavior--a decrease in the logical error rate between two or more code sizes. Such behavior requires that the total error rate associated with gate, idle, state preparation and measurement are sufficiently low that the added complexity of higher distance codes is offset by the increased redundancy. Subthreshold behavior has been demonstrated in platforms using superconducting qubits [29, 32], and improvements in post-selection fraction with code distance have been shown in a trapped ion system [33]. These demonstrations benefit from the low error rate for physical operations currently available in those modalities, though face certain limitations: superconducting platforms are currently constrained to nearest-neighbor connectivity which restricts them to "local" error-correcting codes, while trapped ion platforms have yet to demonstrate syndrome extraction beyond 8 cycles.
+
+Indications of sub-threshold behavior--evidenced by lower logical error rate for a distance-5 surface code relative to distance-3 at a fixed number of syndrome extraction cycles--have recently been reported in a neutralatom system, though without the use of mid-circuit measurements (blocks of ancilla qubits used for syndrome extraction were retained and measured after all gate operations were performed) [25]. In this work, we characterize the logical error rates for two distances of toric codes-- one using 16 data qubits and 16 ancilla qubits and the other using 32 data qubits and 32 ancilla qubits--and find lower error rates for the larger distance variant when performing 4, 6, or 8 syndrome extraction cycles. Furthermore, by implementing mid-circuit reloading, we extend syndrome extraction up to 90 cycles, and observe that the logical error rates do not increase with code distance.
+Finally, we demonstrate that logical information can be maintained in our system far longer than the lifetime of any physical qubit. Using a repetition code of distance 3 or 7 to periodically correct for errors occurring in interleaved wait-times, we show that logical information decays on a timescale of over 3 minutes for the larger distance, even when underlying qubits have lifetimes in the system on the order of 10 seconds.
+
+

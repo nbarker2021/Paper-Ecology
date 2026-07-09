@@ -1,0 +1,128 @@
+arXiv:2602.16808v1 [astro-ph.CO] 18 Feb 2026
+
+Analytical Estimates of Gravitational Wave Background Anisotropies from Shot Noise and Large-Scale Structure in Pulsar Timing Arrays
+Meng-Xiang Lin,1, 2, 3,  Adam Lidz,3 and Chung-Pei Ma4, 5
+1Department of Physics, Simon Fraser University, Burnaby, British Columbia, V5A 1S6, Canada 2Canadian Institute for Theoretical Astrophysics (CITA), University of Toronto, 60 St George Street, Toronto, Ontario M5S 3H8, Canada 3Center for Particle Cosmology, Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA
+4Department of Astronomy, University of California, Berkeley, California 94720, USA 5Department of Physics, University of California, Berkeley, California 94720, USA
+An important next step for pulsar timing arrays (PTAs) is to measure anisotropies in the gravitational wave background (GWB) at  nano-Hz frequencies. We calculate the expected GWB anisotropies using empirically calibrated models for the merger rates of supermassive black hole binaries (SMBHBs). The anisotropies reflect both shot-noise in the discrete SMBHB populations while also tracing, in part, the large-scale structure (LSS) of the universe. The shot-noise term is sensitive to the high-mass end of the merging SMBH mass function, depends somewhat on the low-redshift tail of the merger distribution, and is a strong function of observing frequency. The precise frequency dependence provides a test of SMBHB residence times. In our models, the mean shot-noise anisotropy typically lies close to or above the broad frequency-band NANOGrav upper limits. Consequently, near-future PTA data, and potentially re-analyses of existing measurements using frequency-dependent shot-noise anisotropy templates, should be capable of detecting this signal or placing meaningful constraints on SMBHB merger models. A full interpretation, however, will require modeling the probability distribution of shot-noise amplitudes rather than relying solely on ensemble-averaged predictions. The LSS-induced anisotropies are at least two to three orders of magnitude smaller. Although the LSS contribution contains valuable information regarding the redshift distribution and clustering bias of the merging SMBHBs, detecting this component will be challenging.
+
+I. INTRODUCTION
+The strong evidence for a stochastic gravitational wave background (GWB) at nanohertz frequencies reported by Pulsar Timing Arrays (PTAs) [1­6] has opened a new observational window into both astrophysics and fundamental physics. The GWB is most plausibly sourced by inspiraling supermassive black hole binaries (SMBHBs). PTA measurements therefore provide a powerful probe of the dynamics of SMBHB mergers and the demographics of SMBH populations, especially when combined with local kinematic SMBH mass measurements and observations of distant quasars and active galactic nuclei. Together, these datasets can inform models for the formation of SMBHs and the co-evolution with their host galaxies.
+The GWB may also contain contributions from the early-universe, such as from cosmic inflation, topological defects, first-order phase transitions, or from primordial black holes [7, 8]. Although the observed PTA signal is broadly consistent with the SMBHB scenario, there is some discussion in the literature regarding whether it matches theoretical expectations in detail. For example, [9] argue that the GWB amplitude is higher than expected, while [10] find better agreement with an alternate model for the local SMBH mass function. Ongoing
+ CITA National Fellow; mengxiang lin@sfu.ca
+
+pulsar monitoring efforts and developments of new analysis techniques will help to test the current understanding of SMBH populations.
+One such promising direction is the study of GWB anisotropies [11­23]. The key to detecting the skyaveraged GWB is the Hellings-Downs curve [24], which describes the GWB-induced correlated timing residuals between pairs of pulsars as a function of their angular separation. Anisotropies in the GWB imprint distinctive departures from, and variations around, the HellingsDowns curve, enabling searches for or constraints on anisotropies [11, 12, 25, 26]. These searches are also intertwined with using PTA measurements for tests of modifications to general relativity, which can also lead to deviations from the Hellings-Downs curve [27­34].
+We expect two main contributions to the GWB anisotropies. First, the discrete nature of SMBHBs induces Poisson, or "shot-noise", fluctuations in the source abundance and GWB strain amplitudes across the sky. Second, the SMBHBs are expected to trace the largescale structure (LSS) of the universe, with overdense regions in the underlying matter distribution hosting more galaxies and SMBHBs and sourcing a stronger strain signal, while underdense regions contain fewer sources and a weaker GWB signal. The shot-noise anisotropy can help quantify whether the GWB is produced mainly by a few bright sources or instead sourced by many comparably faint ones. The LSS signal depends on the redshift distribution of the sources and the clustering bias of the
+
+2
+
+SMBHBs. Our work extends earlier studies, including [16],
+which previously estimated the expected GWB shotnoise anisotropies. Here we update their calculations using the empirically calibrated merger rate distributions from the more recent studies of [9, 10]. We also include analytic expressions for the shot-noise power spectrum in these models, and point out the sensitivity to the low redshift tail of the merger rate distribution, and the high mass end of the SMBH mass function. Some related discussion also appears in [35, 36] in the context of calculations of the probability distribution/moments of the GWB measurements versus frequency. Finally, we calculate the LSS signal using the same analytic framework as for the spatial average and shot-noise signals.
+The paper is organized as follows. We provide analytical formulas for both sources of anisotropy in Sec. II and show the results of concrete models in Sec. III. An Appendix discusses the details of a model for the clustering bias of merging SMBHBs. We summarize our results and conclude in Sec. IV.
+
+II. GWB ANISOTROPY SIGNALS
+Our aim is to estimate the GWB anisotropies from both shot-noise and the LSS, assuming that the PTA signals are dominated by the inspiral phase of SMBHBs. First, we introduce relevant definitions, and then we give general expressions for both sources of anisotropy. Finally, we model the GWB angular power spectrum from shot-noise and the LSS using concrete models for SMBHB merger rates from the current literature.
+
+A. Angular Correlation Function and Power Spectrum of Strain Anisotropies
+
+In the LSS literature, one basic statistical quantity used to characterize galaxy inhomogeneities on the sky is the angular two-point correlation function
+
+g(cos )  g(^ )g(^ ) , cos() = ^ · ^  , (1)
+
+where g(^ ) is the fractional deviation in the number density of galaxies in direction ^ , ng(^ ), from the skyaveraged mean density ng:
+
+g(^ )
+
+=
+
+ng(^ ) - ng ng
+
+.
+
+(2)
+
+By statistical isotropy, the average over the product of density contrasts depends only on the angular separation between the two points on the sky, . In practice, the two-point correlation function can be estimated by considering pairs of points in various bins in angular separation.
+By analogy, for the case of GWB anisotropies, we will generally consider fractional fluctuations in the strain
+
+amplitudes. Here, the total characteristic strain, h2c(f ), is defined such that the total energy density in gravita-
+tional waves per logarithmic frequency interval, d ln f , is GW  f 2h2c(f ) [37], after summing over all sources on the sky. Throughout, we refer to the strain-squared as a
+"strain amplitude", although this term is sometimes used
+in the literature to refer instead to hc(f ) itself. We use h2(f, ^ ) to denote the strain amplitude per unit steradian from sources in a direction near ^ . The angular average of this quantity, which we denote as h2 for brevity
+(without explicitly specifying the frequency dependence)
+is
+
+h2  1 d2^ h2(^ )  hc2 ,
+
+(3)
+
+4
+
+4
+
+where hc2 is the dimensionless total characteristic strain while h2 is in units of inverse steradian.
+The fractional fluctuations in the strain amplitude are then defined, relative to the spatial average of Eq. (3), as
+
+h2 (^ )
+
+
+
+h2(^ ) - h2 h2
+
+.
+
+(4)
+
+The corresponding angular two-point correlation function has the same form as Eq. (1):
+
+h2 (cos ) = h2 (^ )h2 (^ ) , cos() = ^ · ^  , (5)
+
+and depends only on  by statistical isotropy. We consider two separate contributions to the two-
+point correlation of strain amplitude fluctuations: a shotnoise term from self-correlations and an LSS term that arises because the SMBHB mergers trace the LSS:
+
+h2 (cos )
+
+=
+
+hL2SS(cos )
+
++
+
+h4 h22
+
+D (1
+
+- cos ) 2
+
+.
+
+(6)
+
+The first term on the right-hand side captures correlations from distinct points on the sky and is attributed to the LSS. In the second term, D is a Dirac -function in angular separation, selecting only coincident pairs of points and capturing the shot-noise self-correlations. The strength of the self-correlations depends on the fourth moment of the strain field, h4 [16].
+The fractional strain fluctuations can be expanded in a spherical harmonic series as
+
+h2 (^ )  amYm(^ ) ,
+
+(7)
+
+,m
+
+where the Ym(^ )'s are the usual spherical harmonics. It then follows that the angular correlation function h2 and the angular power spectrum C,h2 are related by
+
+2 + 1
+
+h2 (cos ) 
+
+4 P(cos )C,h2 ,
+
+
+
+1
+
+C,h2 = 2 d cos  P(cos )h2 (cos ) ,
+
+(8)
+
+-1
+
+

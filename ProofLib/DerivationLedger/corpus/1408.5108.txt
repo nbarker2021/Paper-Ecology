@@ -1,0 +1,145 @@
+Tackling the Minimal Superpermutation Problem
+Robin Houston August 22, 2014
+
+arXiv:1408.5108v1 [math.CO] 21 Aug 2014
+
+Abstract
+
+A superpermutation on n symbols is a string that contains each of the
+
+n! permutations of the n symbols as a contiguous substring. The shortest
+
+superpermutation on n symbols was conjectured to have length
+
+n i=1
+
+i!.
+
+The conjecture had been verified for n  5. We disprove it by exhibiting
+
+an explicit counterexample for n = 6. This counterexample was found
+
+by encoding the problem as an instance of the (asymmetric) Traveling
+
+Salesman Problem, and searching for a solution using a powerful heuristic
+
+solver.
+
+1 The Minimal Superpermutation Problem
+
+A superpermutation on n symbols is a string that contains each of the n! permu-
+
+tations of the n symbols as a contiguous substring. For the sake of concreteness,
+
+we'll assume that the n symbols are the numbers 1, 2, . . . , n. The problem of
+
+finding minimal-length superpermutations was posed by Ashlock and Tillotson
+
+[3], who established that
+
+n i=1
+
+i!
+
+symbols
+
+suffice
+
+and
+
+conjectured
+
+that
+
+this
+
+is
+
+optimal.
+
+There is a simple construction that takes a superpermutation on n-1 symbols
+
+of length k and produces a superpermutation on n symbols of length k + n!.
+
+Iterating this construction gives a sequence of palindromic superpermutations
+
+of length 1!, 1! + 2!, 1! + 2! + 3!, . . ., viz:
+
+·1 · 121 · 123121321 · 123412314231243121342132413214321 · 1234512341523412534123541231452314253142351423154231245312435124315243
+1254312134521342513421534213542132451324153241352413254132145321435214 3251432154321 · ...
+
+The construction is the following. Order the (n - 1)! permutations of n - 1 symbols according to the order they first appear in the superpermutation; then replace each permutation s by the n permutations of n symbols that can be obtained as cyclic shifts of sn, shifting leftwards one position at a time from
+
+1
+
+sn to ns. Finally eliminate overlap between adjacent permutations to obtain a
+
+superpermutation.
+
+For example, the superpermutation 121 on two symbols gives the sequence
+
+12, 21. The permutation 12 is expanded to 123, 231, 312, and the permutation
+
+21 expanded to 213, 132, 321, so the final sequence of permutations is 123, 231,
+
+312, 213, 132, 321. Overlaps are eliminated to yield 123121321.
+
+It is easy to show, by exhaustive enumeration using a computer, that for
+
+n  4 these palindromic superpermutations have minimal length and are unique
+
+of this length up to relabelling. Johnston [7] showed that uniqueness fails for
+
+n  5: there is more than one superpermutation of length
+
+n i=1
+
+i!.
+
+More
+
+recently
+
+Benjamin Chaffin used a clever exhaustive computer search [1, 8] to find all eight
+
+five-symbol superpermutations of length
+
+5 i=1
+
+i!
+
+=
+
+153,
+
+and
+
+show
+
+that
+
+there
+
+are
+
+no shorter ones.
+
+The minimal length is still unknown for n  6, but we can show that for all
+
+n  6 it is strictly less than the conjectured length
+
+n i=1
+
+i!.
+
+2 The Travelling Salesman Problem
+The Travelling Salesman Problem (TSP) is the problem of finding a minimumweight Hamiltonian circuit of a weighted graph. We are interested mainly in the asymmetric TSP, where the graph is directed.
+For an n-symbol alphabet, we may construct a complete directed graph with n! vertices, one for each permutation of the n symbols. The weight of the edge from s to t is the least 0  k  n such that the (n - k)-suffix of s is equal to the (n - k)-prefix of t. Then a minimum-weight Hamiltonian path in this graph corresponds to a minimal superpermutation on n symbols. The length of the corresponding superpermutation is n + w where w is the weight of the minimum-weight Hamiltonian path.
+So far this is not quite an instance of the TSP, since we are looking for a Hamiltonian path rather than a Hamiltonian circuit. To relate it to the TSP it is sufficient to change the weights of certain edges to 0. Specifically, let o be the identity permutation 12 . . . n and let the weight of each edge s­o be 0. A minimum-weight Hamiltonian circuit on the resulting graph corresponds to a minimum-weight Hamiltonian path starting at o.
+The TSP has been intensively studied, and though it is NP-hard ­ hence no worst-case polynomial-time algorithm is known ­ there are solvers that in practice work very well. In particular we used Concorde [2], which finds provablyminimal solutions; and LKH [5, 6], which is a fast, randomised, approximate solver.
+Concorde only works for the symmetric TSP, so to apply Concorde it was necessary to use the Jonker-Volgenant construction [9, 10] to convert our instance of the asymmetric TSP on n! vertices to an instance of the symmetric TSP on 2(n!) vertices.
+We were able to use Concorde to solve the five-symbol instance in 1929.02 seconds on an Amazon EC2 `m3.medium' instance running Linux, confirming Chaffin's recent result. We have not found an exact solution to the six-symbol instance ­ Concorde failed with an internal error after running for several days. Nevertheless we conjecture it is within reach of current technology.
+
+2
+
+

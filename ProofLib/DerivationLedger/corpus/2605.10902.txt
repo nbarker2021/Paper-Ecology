@@ -1,0 +1,75 @@
+arXiv:2605.10902v1 [hep-th] 11 May 2026
+
+KYUSHU-HET-360
+Parafermionizing the Monster
+Yamato Honda1, Justin Kaidi1,2,3, Ippo Orii4,
+1 Department of Physics, Kyushu University, Fukuoka 819-0395, Japan 2 Institute for Advanced Study, Kyushu University, Fukuoka 819-0395, Japan 3 Quantum and Spacetime Research Institute (QuaSR), Kyushu University, Fukuoka 819-0395, Japan 4 Kavli Institute for the Physics and Mathematics of the Universe (WPI),
+University of Tokyo, Kashiwa, Chiba 277-8583, Japan
+We study the parafermionization of the Monster CFT with respect to its ZpA subgroups, with p an odd prime. Under certain assumptions, we show that the parafermionization is equal to a non-invertible gauging of P(p) × P(p), where P(p) is the theory of Zp-parafermions and P(p) is an appropriate dual theory, with global symmetry characterized by the centralizer of ZpA. By tracking the symmetries of P(p) × P(p) through the non-invertible gauging, we argue that the diagonal Monster CFT has Rep(so(3)p)  Rep(so(3)p)op symmetry, and hence that the holomorphic Monster theory has symmetry Rep(so(3)p). We then compute the defect McKayThompson series associated to these symmetries, and prove that their invariance subgroups are 1(p + 2).
+
+Contents
+
+1 Introduction
+
+1
+
+2 Warm-up: Fermionizing Z2A and parafermionizing Z3A
+
+5
+
+2.1 Z2A fermionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+2.2 Interlude: fermionization vs. parafermionization . . . . . . . . . . . . . . . . . . 8
+
+2.3 Z3A parafermionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+3 Extension to general ZpA
+
+12
+
+4 Defect McKay-Thompson series
+
+16
+
+A Fermionization and parafermionization
+
+22
+
+A.1 Fermionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+A.2 Parafermionization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+A.3 Additional comments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
+B Explicit results
+
+26
+
+B.1 p = 3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+B.2 p = 5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+B.3 p = 7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+C A finite Weil model for the Rep(so(3)p) representation
+
+31
+
+C.1 The Weil representation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
+C.2 Connection to Rep(so(3)p) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+1 Introduction
+
+The Monster theory V  is a holomorphic conformal field theory of central charge c = 24 whose automorphism group is the Monster group M. Its character is the normalized modular invariant
+
+J( ) = q-1 + 196884 q + 21493760 q2 + 864299970 q3 + · · · ,
+
+(1.1)
+
+and the graded traces of Monster elements give the McKay-Thompson series of monstrous moonshine [CN79,FLM88,Bor92]. From the point of view of two-dimensional conformal field theory, a McKay-Thompson series is the torus partition function with a topological symmetry line inserted along the spatial cycle. Thus the Monster theory, and the associated diagonal conformal field theory M := V   V , provide a natural physical arena in which to understand the phenomenon of moonshine.
+While the Monster theory is a bosonic CFT, one can also consider closely related spin-CFT generalizations. Indeed, the Monster has two order-two conjugacy classes 2A and 2B, with associated subgroups Z2A and Z2B, and one can consider the fermionization of M with respect to
+
+1
+
+

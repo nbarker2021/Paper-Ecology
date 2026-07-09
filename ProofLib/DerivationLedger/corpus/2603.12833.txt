@@ -1,0 +1,50 @@
+arXiv:2603.12833v1 [cond-mat.mtrl-sci] 13 Mar 2026
+
+Characterization of Exciton-exciton entanglement and correlations
+Fangzhou Zhao1 1 Theory Department, Max Planck Institute for the Structure and Dynamics of Matter and Center for Free-Electron Laser Science, Hamburg 22761, Germany
+Carlos Mejuto-Zaera2 2 Univ Toulouse, CNRS, Laboratoire de Physique Th´eorique, Toulouse, France.
+Angel Rubio1,3 1 Theory Department, Max Planck Institute for the Structure and Dynamics of Matter and Center for Free-Electron Laser Science, Hamburg 22761, Germany and
+4 Center for Computational Quantum Physics (CCQ), The Flatiron Institute, New York, New York 10010, USA
+Vojtech Vlcek 4,5 4 Department of Chemistry and Biochemistry, University of California,
+Santa Barbara, Santa Barbara, California 93117, USA and 5Materials Department, University of California,
+Santa Barbara, Santa Barbara, California 93117, USA (Dated: March 16, 2026)
+Excitons in the weakly interacting regime can be well-described by many-body perturbation theories such as the Bethe-Salpeter equation formalism. However, for materials such as transition metal dichalcogenides moir´e heterostructures under strong illumination, with the emergence of dense excitonic states, the strong correlation and entanglement between electrons and holes may cause the many-body perturbation method to fail, and excitons may not be treated in the bosonic picture, but exhibit fermionic behaviors. In our work, we investigate the phase space where excitons, and the electrons and holes which constitute them, are weakly or strongly entangled, as well as their binding for different interaction profiles and the degree of localization of the electrons and holes. We corroborate the validity of using many-body perturbation theory in the exciton with interactions. Our work provides a general way to analyze the correlation and entanglement of multi-particle excitations in many-body systems, and gives a more comprehensive understanding of different phases for exciton entanglement and interactions in 1D systems.
+
+INTRODUCTION
+Understanding the interaction between excitons has proven instrumental for the description of many physical phenomena in condensed matter physics such as BoseEinstein condensation of excitons [1, 2], excitonic insulators [3­6], topological excitonic insulators [7], Mottsuperfluid transitions [8, 9], bosonic Mott insulators [10], and cavity quantum electrodynamics [11­13]. Recent experiments demonstrated strong interaction and correlations of excitons in moir´e superlattices [14]. In these cases, it is common to employ, e.g., a Bose-Hubbard model [8, 15­17] to describe the exciton-exciton, as well as the electron-exciton repulsion. Models based on the Bose-Hubbard Hamiltonian using Lindblad equations have also been proposed to analyze the properties of exciton-exciton interaction phase transitions [15]. However, comprised of interacting electron and hole quasiparticles, excitons do not form ideal bosonic particles [18, 19]. Further, they can, in principle, have strong interactions with the electron and hole in another exciton, so a coarse-grained bosonic description may not capture their physics accurately. Consequently, micro-
+
+scopic models of exciton-exciton interactions have come forward, including explicit fermionic and dipole-dipole terms at the level of the Bethe-Salpeter equation (BSE) [20, 21]. Nevertheless, these typically start from a dilute exciton limit, in which strong correlations between the excitons themselves are neglected.
+Understanding the exciton-exciton interactions and entanglement from first principles is more challenging since it formally involves solving 8-point Green's functions to capture the four-particle excitations. While the BSE formalism is arguably the most widely applied method to this end, doing so ab initio requires assuming weak excitonic correlation and approximating the equations [22­ 27]. Given the computational complexity of BSE calculations, evaluating exciton-exciton interaction by solving multi-exciton properties from first principles based on Green function theory is extremely difficult.
+Based on models such as the Bose-Hubbard model, exciton-exciton interaction in dense exciton gases [28, 29], and rich phases of correlated bosons have been studied using many-body perturbation theories (MBPT) [30­ 32]. However, more fundamentally, the applicability of MBPT to describe excitonic properties relies largely on
+
+2
+
+the strength of exciton-exciton interactions and correlations, as well as the electron­hole correlation within a single exciton. When the electron-hole interaction is weak, the excitonic wavefunction can be approximated as a direct product of quasi-electron and quasi-hole wavefunctions, and perturbative linearized equations are good approximations to describe excitonic properties. However, when the excitons are strongly correlated, or the electron and hole forming an exciton cannot be treated independently, their wavefunctions need to be described by many-body rather than quasiparticle wavefunctions, and excitons exhibit fermionic behavior.
+In this work, to better understand the correlated exciton phases such as the excitonic Mott-insulator [33, 34] and exciton superfluid [35, 36], as well as to explore in which regime the MBPT can be used to treat excitons. We investigate exciton-exciton interactions and characterize the strength of exciton-exciton correlation and entanglement into different phases, when the repulsion interaction between the electrons (holes) and electrons (holes), and the pairing field between electrons and holes, present different strengths and distance dependencies.
+Four distinct scenarios can be identified, corresponding to when the pairing field, i.e., the electron-hole (e-h) attraction, dominates over the repulsive interactions at both short and long ranges (purely attractive "PA"), only at short range (short-range attractive "SA"), only at long range (long-range attractive "LA"), or being weaker than the repulsive interactions at both ranges (purely repulsive "PR"). We would expect that the excitons will be more correlated when the pairing field dominates at long range, and the exciton will be locally bound or confined when the pairing field dominates at short range.
+We design a minimal model hosting these different regimes to analyze their degree of exciton-exciton correlation. In order to apply exact approaches and to avoid artifacts due to unscreened interactions, we solve nonperiodic finite-size instances of our model. We extrapolate our results to the thermodynamic limit and analyze if the correlated nature of the many-body wavefunction can be downfolded to an effective few-body wavefunction. The excitonic phase diagram will be plotted for different interaction strengths and distance dependencies.
+Our two-band model can be is inspired by systems hosting interlayer excitons, e.g., moir´e systems [14, 26, 37, 38]. For computational simplicity, we focus here on a 1D realization of our model, which can be immediately relevant for quasi-1D materials with tunable electronic structure by doping or external field, such as singlewall carbon nanotubes with different chirality numbers [39, 40], moir´e superlattice formed in double-wall carbon nanotubes [41], as well as doping, width, and electric field in graphene nanoribbons [42, 43]. We defer the study of 2D realizations to future work. Our minimal two-band one-dimensional model contains long-range repulsive (U )
+
+and pairing (V ) density-density interactions, illustrated in Fig.1(a). The pairing V i is restricted to be between electrons in conduction states and holes in the valence states, paralleled with interlayer excitons. The hopping scaled by the onsite attraction (t/V 0)is inversely related to the localization of the electrons and holes. The magnitude and decay rate of V i and U i can also be tuned by different screening strengths in the material by different substrates. The Hamiltonian of our model reads:
+
+H= -
+
+tci,j cciccj -
+
+tiv,j divdjv + c.c. (1)
+
+i=j,i,j
+
+i=j,i,j
+
++ Uij (ninj + pipj ) - Vij (pinj + nipj ),
+
+i,j
+
+i,j
+
+where cci and div are the creation operators for electron and hole on the unoccupied and occupied orbital on the i th site, respectively. The occupation of electrons on the unoccupied orbital ni = ccicci and the occupation of holes on the occupied orbitals pi = divdiv. When i = j, tic,i =  and tiv,i = - are the onsite energies, ti,j = t is the hopping, where i, j denotes the nearest neighbors. To explicitly study exciton-exciton interactions, we investigate doubly excited states of our model on top of a half-filled configuration, where the lower band is fully occupied, and the upper band is fully empty. The states correspond to configurations containing two excitons and encompassing different types of electron­hole excitations, ranging from free particles to biexcitons, among others. We solve the many-body wavefunctions of our model using exact diagonalization (ED) in the singly and doubly excited subspaces (see SM). We mainly investigate the
+
+FIG. 1. (a) Our 1D model to investigate exciton-exciton interactions. (b-d) Exponential decay of the attractive and repulsive interactions. (b) A case where the repulsive interaction dominates at all distances. (c) A case where the repulsive interaction dominates at shorter distances, but the attractive interaction dominates at longer distances. (d) A case where the attractive interaction dominates at shorter distances, but the repulsive interaction dominates at longer distances. The quantum confinement of multiexcitations occurs in this case.
+
+

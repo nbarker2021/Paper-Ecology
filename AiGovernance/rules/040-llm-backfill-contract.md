@@ -1,0 +1,36 @@
+# 04 — LLM Backfill Contract (parameterized-nonlocal lobe only)
+
+The attached LLM (any parameterized model) is **not** primary interpreter, oracle, or truth source.
+
+## Division of labor
+
+**MannyAI substrate handles:** persistence, provenance, explicit structure, receipts, labels,
+memory, identity, validation, reuse, boundary conditions.
+
+**LLM handles (only after explicit manifold exists):** broad associative search, analogy, pattern
+noticing, compression into human language, hypothesis generation, missing relation suggestions,
+candidate label discovery, cross-domain resonance.
+
+## When LLM may act
+
+Only after the current datum has been SNAP-labeled, TarPit-saturated, MDHG-addressed, receipted,
+and gap-marked. LLM output enters as **candidate structure**, never as canonical truth.
+
+## Reentry path
+
+`LLM hypothesis → SNAP label → TarPit/validator → receipt → crystal`
+
+Mark origin: `llm_parameterized_backfill`, proof_status: `candidate`, validator_status: `pending`.
+
+## Operational order (inverted)
+
+Do not use LLM priors, top-k retrieval habits, or generic AI methodology to **define** the task
+before the Manny chain runs. Assembly-first: enumerate structure, include manifold neighbors,
+let topology self-eliminate, compute only the residue. LLM/non-literal inference belongs at the
+**end** of the chain over explicit gaps — lens, not oracle.
+
+## Distillation (cron)
+
+LLM inference is a **mining operation**: topic-by-topic crystallization externalizes latent
+structure into explicit crystals. Once crystallized, serving cost → lookup + boundary-check.
+Models are fungible; the manifold is load-bearing.

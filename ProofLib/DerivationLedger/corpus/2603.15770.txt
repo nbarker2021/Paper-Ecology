@@ -1,0 +1,79 @@
+arXiv:2603.15770v1 [hep-th] 16 Mar 2026
+
+Formalization of QFT
+Michael R. Douglas 1, Sarah Hoback 2, Anna Mei2, and Ron Nissim §3 1Center Of Mathematical Sciences And Applications, Harvard University, Cambridge, MA 02138 USA
+2Jefferson Physical Laboratory, Harvard University, Cambridge, MA 02138 USA 3Simons Building, MIT, Cambridge, MA 02139 USA
+March 2026
+Abstract A foundational result in constructive quantum field theory is the construction of the free bosonic quantum field theory in four-dimensional Euclidean spacetime and the proof that it satisfies the Glimm­Jaffe axioms, a variant of the Osterwalder­Schrader axioms. We present a formalization of this result in the Lean 4 interactive theorem prover. The project is intended as a proof of concept that extended arguments in mathematical physics can be translated into machine-checked proofs using existing AI tools. We begin by introducing interactive theorem proving and constructive quantum field theory, then describe our formalization and the design decisions that shaped it. We also explain the methods we used, including coding assistants, and conclude by considering how AI assisted formalization may influence the future of theoretical physics. Our original release assumed three results, Minlos' theorem, the nuclear property of Schwartz space, and Goursat's theorem. In subsequent releases from our group and from contributors from the Lean community, these assumptions have been proven (or avoided), so that the OS/GJ axioms are now proven using only Lean and its library Mathlib.
+mdouglas@cmsa.fas.harvard.edu sarahhoback@g.harvard.edu, now at Physical Superintelligence PBC: sarah@psi.inc amei@g.harvard.edu §rnissim@mit.edu
+1
+
+Contents
+
+1 Introduction
+
+3
+
+1.1 What is formalization and why? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+1.2 ITP in the age of AI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+1.3 Comparing Styles of Reasoning in Physics and Mathematics . . . . . . . . . . . . . . . . . . . 6
+
+1.4 Brief status report on rigorous QFT with respect to the Mass Gap Problem . . . . . . . . . . 7
+
+1.5 Related work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+2 Axiomatic QFT and Constructive Frameworks
+
+8
+
+3 Introduction to the mathematics
+
+10
+
+4 Details of the formalization
+
+12
+
+4.1 Construction of Gaussian Free Field . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+4.2 Schwartz Test Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+4.3 Motivation for the definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+4.4 Other infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+5 Methods
+
+15
+
+5.1 Tips and common pitfalls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+6 Going forward
+
+18
+
+6.1 Advice for now (early 2026) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+A Notations
+
+28
+
+B Proofs of Glimm-Jaffe Axioms
+
+28
+
+B.1 Analyticity (OS0) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+B.2 Regularity (OS1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+
+B.3 Euclidean Invariance (OS2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+B.4 Reflection Positivity (OS3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+B.5 Ergodicity (OS4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+2
+
+

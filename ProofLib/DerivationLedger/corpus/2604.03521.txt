@@ -1,0 +1,189 @@
+Detection of Spin-Spatial-Coupling-Induced Dynamical Phase Transitions in Real Time
+J. O. Austin-Harris,1,  Z. N. Hardesty-Shaw,1 C. Binegar,1 P. Sigdel,1 T. Bilitewski,1 and Y. Liu1 1Department of Physics, Oklahoma State University, Stillwater, Oklahoma 74078, USA (Dated: April 7, 2026)
+We demonstrate the real-time detection of dynamical phase transitions (DPTs) in lattice-confined spinor gases subject to a priori unknown time-variant interactions, via the temporal behaviors of both the system energy and spinor phases extracted from the observed spin dynamics. Using this technique, we describe the observed nonequilibrium spin dynamics, governed by intricate spinspatial couplings, across a range of conditions. This work also introduces an observable that can quickly identify DPTs at holding times when commonly-used order parameters still exhibit transient, nonuniversal behavior. Our approach can naturally extend to other complex systems subject to timedependent parameters, such as Floquet systems under driven magnetic fields, driven interactions, or spin-flopping fields, with potential applications in the study of DPTs in nonintegrable models.
+
+arXiv:2604.03521v1 [cond-mat.quant-gas] 3 Apr 2026
+Magnetic Field ODT Depth
+Moving Lattice Speed Lattice Depth
+
+I. INTRODUCTION
+Ultracold spinor gases, highly-controllable quantum systems with a spin degree of freedom, have been proposed as ideal platforms for studying nonequilibrium phenomena [1­15]. When out of equilibrium, spinor gases display spin oscillations driven by the competition of the quadratic Zeeman energy q and the spin-dependent interactions c2 [1­9, 16­26]. These spin oscillations reveal a rich dynamical phase diagram hosting dynamical phase transitions (DPTs) [11­15, 27, 28], that can be engineered through various modifications to system parameters.
+DPTs are of fundamental interest due to their association with universal non-equilibrium critical phenomena and as pathways to quantum-enhanced sensing and quantum entanglement [11­15, 27, 28]. There are two categories of DPTs recognized in the literature: type I DPTs, which display nonanalytic behavior in the steady state of a local order parameter, and type II DPTs, which display nonanalytic temporal behavior in a global order parameter after a quench [11­14]. The study of DPTs has been accomplished both experimentally and theoretically in a wide variety of systems, including condensed matter systems [13, 29, 30], trapped ions [12, 13, 27, 31­33], and both scalar and spinor ultracold gases [10­15, 23, 28]. However, these investigations have thus far been primarily limited to systems that are well understood theoretically, such as integrable systems [13, 27, 33].
+In this work, we demonstrate real-time detection of type II DPTs first in a simple well-understood system, i.e., spinor gases in free space, and then in a latticeconfined spinor system with a priori unknown timevariant interactions, via temporal behaviors of spinor phases and system energy extracted from observed spin dynamics. Realizing DPT detection in systems with unknown time-dependent system parameters opens an avenue for the study of crossover phenomena, universality,
+ jared.o.austin@okstate.edu
+
+and DPTs in nonintegrable models, such as in spinor gases subject to weak spin-flopping fields, which can host quantum scars and quantum many-body scars [13, 23, 26, 27, 34]. We also introduce a new observable, the cutoff time tc, that can quickly identify DPTs as, unlike commonly-used order parameters, it does not require multiple experimental runs and observations over at least one full period of the spin dynamics. The success of our informed predictions, especially in explaining the observed spin dynamics manipulated by intricate spatial dynamics over a range of conditions, suggests that similar techniques can be applied to analyze observations in other complex systems with time-dependent parameters, e.g., Floquet systems under driven quadratic Zeeman shift q [35­38], driven interaction c2 [5, 10], or resonant spin-flopping fields [23, 26, 34].
+II. EXPERIMENTAL SEQUENCE
+Each experimental cycle begins with an F = 1 spinor BEC of up to 105 sodium atoms in a crossed optical dipole trap (ODT). At holding time t = 0 we prepare an initial state with 0(0)  0.45, M (0) = 0, and (0) = 0. Here  = 1 + -1 - 20 is the relative spinor phase, mF (mF ) is the phase (fractional population) of the
+
+constant c2
+
+0
+
+time-variant q 0
+
+Quench-Q Sequences
+
+(a) 0
+
+Time
+
+constant q
+
+time-variant c
+
+0
+
+20
+
+Moving-Lattice Sequences
+
+(b) 0 1.43
+
+Time (ms)
+
+FIG. 1. (a) Schematic of Quench-Q sequences showing how the magnetic field (blue) and ODT trapping depth (red) vary in time. (b) Schematic of moving-lattice sequences showing how the lattice speed (green) and lattice depth (black) vary in time. Axes are not to scale in both panels.
+
+2
+
+0 
+0
+cos(/2)
+
+Black: Experimental Red: SMA at q = 15 Hz
+
+q quench at 26 ms
+
+1.0
+
+0.7
+
+Interaction Regime
+
+0.4
+
+Blue: SMA at q = 41 Hz 0.4
+
+Zeeman Regime
+
+0.2
+
+0.3
+
+tc
+0 No quench Panel (a) data
+
+0.0 (a)
+
+q 0
+
+quench
+/-1
+
+at
+
+16 ms -2 0
+
+40
+
+20 Time t
+
+(ms)
+
+0.2 Legend identical to (a)
+
+0
+(b) /-1
+
+-2
+
+0
+
+10 Time
+
+t2(0ms3)0
+
+Panel (b) data
+
+Solid lines: SMA predictions -1.0
+
+0
+
+10
+
+20
+
+30
+
+(c)
+
+Holding time t (ms)
+
+40
+
+FIG. 2. (a) Black circles show a DPT from an interaction regime to a Zeeman regime observed after a Quench-Q sequence, a sudden quench in q from 15 Hz to 41 Hz at 16 ms with the timing of the quench roughly corresponding to a minimum in the 0 oscillation where 0  0.12 and   0. Red (blue) dotted surfaces display the SMA equal energy contours of the interaction (Zeeman) regime occurring before (after) the q quench for our system where c2 = 22 Hz and M = 0 (see Eq. (1)). (b) Similar to panel (a) but taken with the quench at 26 ms roughly corresponding to a maximum in the 0 oscillation where 0  0.42 and   0. (c) Triangles (circles) show that the extracted cos(/2) identifies the DPTs in real time after the q quenches at 16 ms (26 ms), while squares indicate no DPT occurs without a q quench. Solid lines are SMA predictions, while the intersection of the dashed and solid lines marks the cutoff time tc where the system is conclusively shown to be in the Zeeman regime (see text).
+
+mF hyperfine spin state. We note that the magnetization M = 1 - -1 is conserved when no external driving field is applied. We detect DPTs in real time induced via one of two experimental sequences, Quench-Q and moving-lattice sequences (see Fig. 1). These sequences result in time-variant ratios c2/q enabling us to engineer the dynamical phase diagram. Quench-Q sequences use magnetic field quenches to induce a time-variant q as a control parameter. Moving-lattice sequences impart an a priori unknown time variance to c2 using a moving lattice constructed from two nearly orthogonal lattice beams that are skew to the ODT beams. By quenching the frequency difference between the lattice beams from zero to f , which accelerates the lattice speed to v = Lf , the moving lattice near resonantly couples the p = 0 and p = 2 kL momentum states and induces a time-variant c2 via the coupling of spin and spatial degrees of freedom [6, 39]. Here L/2  810 nm is the lattice spacing, kL is the lattice wave vector, and h ( ) is the (reduced) Planck constant. At the end of an experimental cycle, atoms are released from all trapping potentials for ballistic expansion and spin-resolved imaging.
+III. MODEL
+For the data presented in this work, all spin states appear to share a common but potentially time-dependent spatial mode. Combined with the calculated spin healing length ( 12 µm) being larger than the ThomasFermi radii ( (9, 9, 7) µm) for all systems studied in this work, this supports use of a dynamical single spatialmode approximation (SMA) to express the system Hamiltonian [6]:
+H/h = c20[1-0+ (1-0)2 -M 2 cos()]+q(1-0). (1)
+
+With the exception that c2 and q may be time dependent rather than strictly constant, Eq. (1) is identical to the well-known SMA-based Hamiltonian of F = 1 spinor gases in free space [1­6, 17­25]. Although the SMA was traditionally considered valid only for frozen spatial modes, recent work demonstrates that it remains applicable if all spin states share the same time-dependent spatial mode [5, 6, 10]. This is the case for our movinglattice system, for which the observed complex spatial dynamics are nearly identical for all spin states.
+Eq. (1) results in the following equations of motion for 0 and  [3, 4, 17, 21, 23],
+
+0 t
+
+=
+
+-2 H 
+
+=
+
+c2 
+
+0
+
+(1 - 0)2 - M 2 sin()
+
+(2)
+
+ t
+
+=
+
+2
+
+H 0
+
+=
+
+c2 
+
+(1 - 0)(1 - 20) - M 2 (1 - 0)2 - M 2
+
+cos()
+
++
+
+c2 
+
+(1
+
+-
+
+20)
+
+-
+
+q 
+
+.
+
+(3)
+
+By approximating time derivatives as discrete differences evaluated based on the observed population dynamics, the equations of motion can be consistently solved for c2 and  to construct a complete picture of the full quantum dynamics (see Ref. [23]). Two distinct dynamical regimes are predicted by these equations of motion: an interaction-dominated (Zeeman-dominated) regime where  is bounded (unbounded), as shown in Fig. 2 [5, 6].
+
+IV. REAL-TIME DETECTION OF DPTS
+Our experimental data in Fig. 2(a) and Fig. 2(b) reveal DPTs induced by quenching q at approximately the minimum (0  0.12) and maximum (0  0.42)) of the
+
+

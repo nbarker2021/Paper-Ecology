@@ -1,0 +1,43 @@
+arXiv:2505.22736v1 [astro-ph.CO] 28 May 2025
+
+Lorentz Violation with Gravitational Waves: Constraints from NANOGrav and IPTA Data
+Alireza Allahyari a Mohammadreza Davari a and David F. Mota b
+aDepartment of Astronomy and High Energy Physics, Kharazmi University, 15719-14911, Tehran, Iran bInstitute of Theoretical Astrophysics, University of Oslo, P.O. Box 1029 Blindern, N-0315 Oslo, Norway
+E-mail: alireza.al@khu.ac.ir, m.davari@khu.ac.ir, d.f.mota@astro.uio.no
+Abstract. We explore a theoretical framework in which Lorentz symmetry is explicitly
+broken by incorporating derivative terms of the extrinsic curvature into the gravitational action. These modifications introduce a scale-dependent damping effect in the propagation of gravitational waves (GWs), governed by a characteristic energy scale denoted as MLV. We derive the modified spectral energy density of GWs within this model and confront it with recent observational data from the NANOGrav 15-year dataset and the second data release of the International Pulsar Timing Array (IPTA). Our analysis yields a lower bound on the Lorentz-violating energy scale, finding MLV > 10-19 GeV at 68% confidence level. This result significantly improves upon previous constraints derived from LIGO/VIRGO binary merger observations. Our findings demonstrate the potential of pulsar timing arrays to probe fundamental symmetries of spacetime and offer new insights into possible extensions of general relativity.
+
+Contents
+
+1 Introduction
+
+1
+
+2 GWs in the Lorentz violating model
+
+2
+
+3 GWs stochastic background
+
+3
+
+4 Bounds on Lorentz violation by PTAs
+
+5
+
+5 Summary and discussion
+
+6
+
+6 Acknowledgements
+
+7
+
+1 Introduction
+Lorentz symmetry is a cornerstone of general relativity and the standard model of particle physics. At high-energy levels, it is widely believed that this symmetry will be broken. Its violation could reveal new physics beyond these frameworks, such as quantum gravity effects, variations in fundamental constants, or non-commutative geometry. Recent observations of gravitational waves (GWs) provide a unique opportunity to test Lorentz invariance at cosmological scales. In this work, we explore a model where Lorentz symmetry is broken by introducing extrinsic curvature derivatives into the gravitational action. Using data from NANOGrav and IPTA, we derive constraints on the energy scale of these modifications.
+Precision tests have demonstrated that Lorentz symmetry and the associated CPT (Charge conjugation-Parity-Time reversal) symmetry are upheld with extraordinary accuracy [1, 2]. However, these tests have not covered all energy and length scales, nor have they exhausted the multitude of routes these symmetries could be violated [3]. Potential theories for Lorentz symmetry violation include spontaneous symmetry breaking in string theory [4­6], phenomena in loop quantum gravity [7, 8], variations in fundamental constants over spacetime [9, 10], and non-commutative geometry [11, 12], among others. Various modified gravity theories have been proposed to explore the nature of Lorentz violation including the Einstein-Æther theory [13­17], Horava-Lifshitz theories of quantum gravity [18­21], and spatial covariant gravities [22­24]. Other studies consider various probes for Lorentz violation [25­28].
+Recently, strong indications of the possibility of stochastic gravitational waves background in nHz have been obtained by various pulsar timing arrays observations [29­32]. But there is still no precise description for the source of these waves [33]. Modifications to general
+
+­1­
+
+

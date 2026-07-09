@@ -1,0 +1,110 @@
+arXiv:2403.03953v1 [hep-th] 6 Mar 2024
+
+Prepared for submission to JHEP
+Backfiring Bosonisation
+Philip Boyle Smitha and Yunqin Zhenga,b,c
+aKavli Institute for the Physics and Mathematics of the Universe (WPI), University of Tokyo, Kashiwa, Chiba 277-8583, Japan bInstitute for Solid State Physics, University of Tokyo, Kashiwa, Chiba 277-8583, Japan cC. N. Yang Institute for Theoretical Physics, Stony Brook University, Stony Brook, NY 11794, USA
+E-mail: philip.boyle.smith@ipmu.jp, yunqin.zheng@stonybrook.edu
+Abstract: For a fermionic quantum field theory in d = 1 + 1 dimensions, there is a subtle difference between summing over spin structures and gauging (-1)F . If the gravitational anomaly vanishes mod 16, then both operations are equivalent and yield a bosonic theory. But if the gravitational anomaly only vanishes mod 8, then only gauging (-1)F is allowed, and the result is a fermionic theory. Our goal is to understand in detail how this happens, despite the fact (-1)F is defined in terms of shifting the spin structure, which would na¨ively suggest that both operations are equivalent. We do this from three perspectives: an abstract view in terms of anomalies, explicit CFT calculations, and a Symmetry TFT perspective. To conclude, we illustrate our results using the heterotic string and the famous self-triality of 8 Majorana-Weyl fermions.
+
+Contents
+
+1 Introduction
+
+2
+
+1.1 Summary of Results
+
+3
+
+1.2 The Plan of the Paper
+
+4
+
+2 Review of Bosonisation
+
+4
+
+2.1 An Example: The Ising Model
+
+6
+
+2.2 An Anti-Example: 8 Majorana-Weyl Fermions
+
+7
+
+2.3 General Chiral Theories
+
+8
+
+3 Anomalies and Spin Structures
+
+8
+
+3.1 Gravitational Anomalies
+
+9
+
+3.2 Coupling to Fermion Parity
+
+11
+
+3.3 Gauging Fermion Parity
+
+14
+
+4 Explicit CFT Calculations
+
+15
+
+4.1 Coupling to Fermion Parity
+
+16
+
+4.2 Gauging Fermion Parity
+
+17
+
+4.3 Duality Webs
+
+20
+
+5 Symmetry TFT
+
+22
+
+5.1 Properties of the Symmetry TFT
+
+22
+
+5.2 The Case n = 0 mod 16
+
+25
+
+5.3 The Case n = 8 mod 16
+
+31
+
+6 Applications
+
+35
+
+6.1 c = 4
+
+35
+
+6.2 c = 12
+
+36
+
+A Arf Invariant Identities
+
+38
+
+B Extended Duality Web
+
+38
+
+­1­
+
+

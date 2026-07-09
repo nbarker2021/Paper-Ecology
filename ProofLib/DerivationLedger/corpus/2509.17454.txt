@@ -1,0 +1,70 @@
+arXiv:2509.17454v3 [astro-ph.CO] 7 Nov 2025
+
+Draft version November 10, 2025 Typeset using LATEX default style in AASTeX631
+The Hubble Tension resolved by the DESI Baryon Acoustic Oscillations Measurements
+X. D. Jia ,1 J. P. Hu ,2 D. H. Gao ,1 S. X. Yi ,3 and F. Y. Wang 1, 4
+1School of Astronomy and Space Science, Nanjing University, Nanjing 210093, China 2Ministry of Education Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an
+Jiaotong University, Xi'an 710049, China 3School of Physics and Physical Engineering, Qufu Normal University, Qufu 273165, China 4Key Laboratory of Modern Astronomy and Astrophysics (Nanjing University), Ministry of Education, China
+Abstract The  cold dark matter (CDM) cosmological model provides a good description of a wide range of astrophysical and cosmological observations. However, severe challenges to the phenomenological CDM model have emerged recently, including the Hubble constant tension and the significant deviation from the CDM model reported by the Dark Energy Spectroscopic Instrument (DESI) collaboration. Despite many explanations for the two challenges have been proposed, the origins of them are still intriguing mysteries. Here, we investigate the DESI Baryon Acoustic Oscillations (BAOs) measurements to interpret the Hubble constant tension. Employing a non-parametric method, we find that the dark energy equation of state w(z) evolves with redshift from DESI BAO data and type Ia supernovae. From the Friedmann equations, the Hubble constant (H0) is derived from w(z) modelindependently. We find that the values of H0 show a descending trend as a function of redshift, and can effectively resolve the Hubble constant tension. Our study finds that the two unexpected challenges to the CDM model can be understood in one physical framework, e.g., dynamical dark energy.
+Keywords: Hubble constant(758) -- Dark energy(351) -- Type Ia supernovae(1728) -- Baryon acoustic oscillations(138)
+1. INTRODUCTION The  cold dark matter (CDM) model is considered as the standard cosmological model (Peebles & Ratra 2003). It accounts for the observed cosmic expansion, the cosmic microwave background (CMB), the dynamics of galaxies, the statistical properties of large scale structures of the Universe and the observed abundances of light nuclei. Despite its unprecedented successes, fundamental challenges for the CDM model have emerged in recent years (Perivolaropoulos & Skara 2022; Abdalla et al. 2022). The most crucial challenges are the Hubble constant tension (Verde et al. 2019; Di Valentino et al. 2021) and the deviation from the CDM model reported by the Dark Energy Spectroscopic Instrument (DESI) collaboration (Adame et al. 2025; DESI Collaboration et al. 2025). Fitting the standard CDM model to the CMB anisotropies measurements from z  1100, the Hubble constant H0 = 67.4 ± 0.5 km s-1 Mpc-1 with 1 confidence level is derived by the Planck Collaboration (Planck Collaboration et al. 2020). In contrast, the SH0ES team measured the Hubble constant H0 = 73.04 ± 1.04 km s-1 Mpc-1 through observations of Cepheid variables and type Ia supernovae (SNe Ia) (Riess et al. 2022). The discrepancy between earlyuniverse and late-universe measurements of H0, exceeding 5 significance, is termed as the Hubble constant tension (Verde et al. 2019; Riess 2020). Various attempts have been proposed to explain this tension, which can be broadly classified into three categories (Di Valentino et al. 2021, 2025): early-universe modifications, late-universe effects, and local-universe phenomena. For the early-universe approach, it attempts to modify the pre-recombination physics in order to alter the sound horizon scale, thereby increasing the value of H0 inferred from CMB data (Poulin et al. 2019; Jedamzik & Pogosian 2020). For the late-universe solutions, they aim to modify the cosmic expansion history through
+Corresponding author: F. Y. Wang fayinwang@nju.edu.cn
+
+2
+
+specific dark energy parameterizations, thereby increasing the H0 value at low redshift to be consistent with local measurements (Zhao et al. 2017; Benevento et al. 2020; Chakraborty et al. 2025). For the local universe phenomena, these models attempt to explain the larger local H0 through local either inhomogeneities (Mazurenko et al. 2025; Banik & Kalaitzidis 2025) or unaccounted systematic errors in the local distance ladder (Freedman 2021; Mörtsell et al. 2022).
+On the other hand, the baryon acoustic oscillation (BAO) measurements from the DESI collaboration demonstrate a clear preference for dynamical dark energy model over the standard CDM model (Adame et al. 2025; DESI Collaboration et al. 2025). By combining different SNe Ia samples, the preference for the dynamical dark energy model over the standard CDM model ranges from 2.8-4.2 (DESI Collaboration et al. 2025). Under the Chevallier-Polarski-Linder (CPL) parametrization (Chevallier & Polarski 2001; Linder 2003), it exhibits distinct dynamical behavior, demonstrating a deviation from the CDM model exceeding 3.1 even without including SNe Ia sample (DESI Collaboration et al. 2025; Lodha et al. 2025). Using a non-parametric method, the dark energy equation of state w(z) is found to be evolving with redshift (DESI Collaboration et al. 2025; Lodha et al. 2025; Gu et al. 2025), which is robust and stable for different model choices. The DESI BAO data has sparked widespread discussion (Li et al. 2024; Park et al. 2024; Hu et al. 2025; Li et al. 2025; Ling et al. 2025; Ó Colgáin & Sheikh-Jabbari 2025; Pang et al. 2025; Park & Ratra 2025; Ye et al. 2025; Ó Colgáin et al. 2026). Here, we interpret the Hubble tension using the DESI DR2 BAO measurements.
+The CPL parametrization effectively describes dark energy under a ad-hoc functional form. In order to study w(z) model-independently, we use a non-parametric approach (Huterer & Cooray 2005; Riess et al. 2007; Lodha et al. 2025). This method is widely used, which enables the comparison of different redshift bins without assuming any functional form (Jia et al. 2022; Lodha et al. 2025). The fundamental assumption of the binning method is that the physical quantity can be approximated as constant within a redshift interval. If no evolution exists, the results will remain consistent across all redshift intervals. If an evolutionary trend is present, it helps quantify deviations from the standard cosmological model.
+In this letter, we investigate the evolution of the dark energy equation of state using a non-parametric approach and derive the expression for H0 starting from the Friedmann equations. The Letter is organized as follows. In Section 2, we introduce the data and methods. The evidence of evolving dark energy is shown in Section 3. In Section 4, we calculate the H0 from the evolving dark energy. The summary is given in Section 5.
+
+2. METHOD
+
+2.1. Datasets
+
+Recently, the second round of cosmological constraints based on BAO from DESI collaboration has been released
+
+(DESI Collaboration et al. 2025). The results of DESI DR2 BAO demonstrate a preference for dynamical dark energy
+
+over the standard cosmological model. When combined with other cosmological observations (e.g., CMB, SNe Ia), this
+
+preference exceeds 2.8 significance (DESI Collaboration et al. 2025). The BAO measurements presented in Table
+
+IV from DESI DR2 measurements (DESI Collaboration et al. 2025) contain the transverse comoving distance and
+
+Hubble expansion rate at specified redshifts. The measurement in the direction transverse to the line-of-sight gives
+
+the comoving angular diameter distance
+
+c DM (z) = H0
+
+z 0
+
+H0 H (z  )
+
+dz.
+
+(1)
+
+The measurement in the direction along the line-of-sight is sensitive to the expansion rate as
+
+c
+
+DH (z)
+
+=
+
+. H (z )
+
+(2)
+
+However, it is evident that these two distances are correlated, and their covariance matrix must be considered in the analysis. The sound horizon is typically determined from CMB data with
+
+rd =
+
+ cs(z) dz. zd H(z)
+
+(3)
+
+Here cs(z) is the speed of sound in the photon-baryon fluid, and zd  1089 denotes the redshift at which photons and baryons decouple (Planck Collaboration et al. 2020). Under the standard pre-recombination physics, it can be
+
+

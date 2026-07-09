@@ -1,0 +1,1557 @@
+{
+  "CrystalLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40",
+      "paper-41",
+      "paper-42",
+      "paper-43",
+      "paper-44",
+      "paper-45",
+      "paper-46",
+      "paper-47",
+      "paper-48",
+      "paper-49",
+      "paper-50",
+      "paper-51",
+      "paper-52",
+      "paper-53",
+      "paper-54",
+      "paper-55",
+      "paper-56",
+      "paper-57",
+      "paper-58",
+      "paper-59",
+      "paper-60",
+      "paper-61",
+      "paper-62",
+      "paper-63",
+      "paper-64",
+      "paper-65",
+      "paper-66",
+      "paper-67",
+      "paper-68",
+      "paper-69",
+      "paper-70",
+      "paper-71",
+      "paper-72",
+      "paper-73",
+      "paper-74",
+      "paper-75",
+      "paper-76",
+      "paper-77",
+      "paper-78",
+      "paper-79",
+      "paper-80",
+      "paper-81",
+      "paper-82",
+      "paper-83",
+      "paper-84",
+      "paper-85",
+      "paper-86",
+      "paper-87",
+      "paper-88",
+      "paper-89",
+      "paper-90",
+      "paper-91",
+      "paper-92",
+      "paper-93",
+      "paper-94",
+      "paper-95",
+      "paper-96",
+      "paper-97",
+      "paper-98",
+      "paper-99"
+    ],
+    "paper_count": 101,
+    "dix": {
+      "D": 2,
+      "I": 1,
+      "X": 1
+    },
+    "cam_hashes_unique": 8,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 0,
+    "b_family_samples": [],
+    "table_stats": {
+      "papers": {
+        "rows": 101,
+        "columns": [
+          "paper_number",
+          "title",
+          "word_count",
+          "band",
+          "status",
+          "disposition",
+          "created_at",
+          "updated_at"
+        ]
+      },
+      "claims": {
+        "rows": 4,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "cam_hash",
+          "code_source",
+          "sql_source",
+          "verifier",
+          "status",
+          "disposition",
+          "created_at",
+          "updated_at"
+        ]
+      },
+      "crystals": {
+        "rows": 4,
+        "columns": [
+          "crystal_id",
+          "cam_hash",
+          "content",
+          "paper_number",
+          "claim_id",
+          "created_at",
+          "status"
+        ]
+      },
+      "receipts": {
+        "rows": 0,
+        "columns": [
+          "receipt_id",
+          "cam_hash",
+          "crystal_id",
+          "status",
+          "verifier",
+          "checked_at",
+          "result",
+          "created_at"
+        ]
+      },
+      "carriers": {
+        "rows": 4,
+        "columns": [
+          "carrier_id",
+          "paper_number",
+          "L_state",
+          "C_state",
+          "R_state",
+          "shell",
+          "reversal",
+          "status",
+          "created_at",
+          "updated_at"
+        ]
+      },
+      "ribbons": {
+        "rows": 2,
+        "columns": [
+          "ribbon_id",
+          "paper_number",
+          "slot_0",
+          "slot_1",
+          "slot_2",
+          "slot_3",
+          "slot_4",
+          "slot_5",
+          "slot_6",
+          "slot_7",
+          "arity",
+          "hash",
+          "status",
+          "created_at"
+        ]
+      },
+      "ledgers": {
+        "rows": 0,
+        "columns": [
+          "ledger_id",
+          "event_type",
+          "paper_number",
+          "claim_id",
+          "event_data",
+          "created_at"
+        ]
+      },
+      "obligations": {
+        "rows": 2,
+        "columns": [
+          "obligation_id",
+          "paper_number",
+          "description",
+          "status",
+          "owner",
+          "created_at",
+          "resolved_at"
+        ]
+      },
+      "snapshots": {
+        "rows": 0,
+        "columns": [
+          "snapshot_id",
+          "paper_number",
+          "data",
+          "hash",
+          "created_at"
+        ]
+      },
+      "theorems": {
+        "rows": 1,
+        "columns": [
+          "theorem_id",
+          "paper_number",
+          "theorem_name",
+          "statement",
+          "proof",
+          "status",
+          "created_at",
+          "updated_at"
+        ]
+      },
+      "cross_references": {
+        "rows": 2,
+        "columns": [
+          "xref_id",
+          "from_paper",
+          "to_paper",
+          "claim_id",
+          "type",
+          "created_at"
+        ]
+      }
+    }
+  },
+  "SystemsLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-10",
+      "paper-100",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-32",
+      "paper-40",
+      "paper-45",
+      "paper-50",
+      "paper-60",
+      "paper-70",
+      "paper-90"
+    ],
+    "paper_count": 24,
+    "dix": {
+      "D": 14,
+      "I": 8,
+      "X": 7
+    },
+    "cam_hashes_unique": 137,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 0,
+    "b_family_samples": [],
+    "table_stats": {
+      "systems": {
+        "rows": 10,
+        "columns": [
+          "system_id",
+          "system_name",
+          "description",
+          "paper_number",
+          "status",
+          "dependencies",
+          "storage_needs",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "obligations": {
+        "rows": 20,
+        "columns": [
+          "obligation_id",
+          "paper_number",
+          "description",
+          "status",
+          "owner",
+          "source_path",
+          "created_at",
+          "resolved_at",
+          "cam_hash",
+          "honesty_flag"
+        ]
+      },
+      "agents": {
+        "rows": 10,
+        "columns": [
+          "agent_id",
+          "agent_name",
+          "description",
+          "system_id",
+          "routing_rules",
+          "status",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "docker_services": {
+        "rows": 36,
+        "columns": [
+          "service_id",
+          "service_name",
+          "compose_file",
+          "description",
+          "paper_number",
+          "status",
+          "ports",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "external_sources": {
+        "rows": 16,
+        "columns": [
+          "source_id",
+          "source_name",
+          "description",
+          "data_type",
+          "paper_number",
+          "lane_type",
+          "status",
+          "url",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "paper_sources": {
+        "rows": 12,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "source_path",
+          "file_count",
+          "size_bytes",
+          "collection_name",
+          "status",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "routing_rules": {
+        "rows": 21,
+        "columns": [
+          "rule_id",
+          "from_paper",
+          "to_paper",
+          "rule_type",
+          "agent_id",
+          "description",
+          "status",
+          "created_at",
+          "cam_hash"
+        ]
+      },
+      "storage_needs": {
+        "rows": 12,
+        "columns": [
+          "need_id",
+          "system_id",
+          "storage_type",
+          "capacity",
+          "usage",
+          "paper_number",
+          "status",
+          "created_at",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "TileLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-04",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40"
+    ],
+    "paper_count": 21,
+    "dix": {
+      "D": 16,
+      "I": 10,
+      "X": 2
+    },
+    "cam_hashes_unique": 80,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 0,
+    "b_family_samples": [],
+    "table_stats": {
+      "tiles": {
+        "rows": 16,
+        "columns": [
+          "tile_id",
+          "tile_name",
+          "tile_type",
+          "description",
+          "geometry",
+          "paper_number",
+          "status",
+          "cam_hash",
+          "created_at"
+        ]
+      },
+      "tiling_methods": {
+        "rows": 1,
+        "columns": [
+          "method_id",
+          "method_name",
+          "description",
+          "tile_types_supported",
+          "algorithm",
+          "paper_number",
+          "status",
+          "cam_hash",
+          "created_at"
+        ]
+      },
+      "crystal_zoo": {
+        "rows": 11,
+        "columns": [
+          "crystal_id",
+          "crystal_name",
+          "crystal_type",
+          "geometry",
+          "pattern",
+          "description",
+          "paper_number",
+          "status",
+          "cam_hash",
+          "created_at"
+        ]
+      },
+      "tile_papers": {
+        "rows": 21,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "tile_id",
+          "role",
+          "status",
+          "cam_hash",
+          "created_at"
+        ]
+      },
+      "tile_code": {
+        "rows": 5,
+        "columns": [
+          "code_id",
+          "file_path",
+          "language",
+          "description",
+          "key_functions",
+          "paper_number",
+          "status",
+          "cam_hash",
+          "created_at"
+        ]
+      },
+      "tile_claims": {
+        "rows": 26,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "tile_id",
+          "cam_hash",
+          "created_at"
+        ]
+      }
+    }
+  },
+  "ReForge_ForgeLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40"
+    ],
+    "paper_count": 42,
+    "dix": {
+      "D": 29,
+      "I": 27,
+      "X": 6
+    },
+    "cam_hashes_unique": 206,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 1,
+    "b_family_samples": [
+      "forge_claims.claim_text: Pass lint rejects B-family identifiers."
+    ],
+    "table_stats": {
+      "forge_modules": {
+        "rows": 21,
+        "columns": [
+          "module_id",
+          "module_name",
+          "description",
+          "language",
+          "file_path",
+          "key_functions",
+          "paper_number",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "forge_scripts": {
+        "rows": 11,
+        "columns": [
+          "script_id",
+          "script_name",
+          "description",
+          "script_type",
+          "file_path",
+          "key_functions",
+          "paper_number",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "forge_engines": {
+        "rows": 21,
+        "columns": [
+          "engine_id",
+          "engine_name",
+          "description",
+          "version",
+          "file_path",
+          "key_functions",
+          "paper_number",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "forge_docs": {
+        "rows": 25,
+        "columns": [
+          "doc_id",
+          "doc_title",
+          "description",
+          "file_path",
+          "doc_type",
+          "paper_number",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "forge_papers": {
+        "rows": 78,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "forge_item_id",
+          "item_type",
+          "role",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "forge_claims": {
+        "rows": 50,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "forge_item_id",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "PaperLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40",
+      "paper-41",
+      "paper-42",
+      "paper-43",
+      "paper-44",
+      "paper-45",
+      "paper-46",
+      "paper-47",
+      "paper-48",
+      "paper-49",
+      "paper-50",
+      "paper-51",
+      "paper-52",
+      "paper-53",
+      "paper-54",
+      "paper-55",
+      "paper-56",
+      "paper-57",
+      "paper-58",
+      "paper-59",
+      "paper-60",
+      "paper-61",
+      "paper-62",
+      "paper-63",
+      "paper-64",
+      "paper-65",
+      "paper-66",
+      "paper-67",
+      "paper-68",
+      "paper-69",
+      "paper-70",
+      "paper-71",
+      "paper-72",
+      "paper-73",
+      "paper-74",
+      "paper-75",
+      "paper-76",
+      "paper-77",
+      "paper-78",
+      "paper-79",
+      "paper-80",
+      "paper-81",
+      "paper-82",
+      "paper-83",
+      "paper-84",
+      "paper-85",
+      "paper-86",
+      "paper-87",
+      "paper-88",
+      "paper-89",
+      "paper-90",
+      "paper-91",
+      "paper-92",
+      "paper-93",
+      "paper-94",
+      "paper-95",
+      "paper-96",
+      "paper-97",
+      "paper-98",
+      "paper-99"
+    ],
+    "paper_count": 101,
+    "dix": {
+      "D": 493,
+      "I": 413,
+      "X": 37
+    },
+    "cam_hashes_unique": 2245,
+    "cam_duplicates": 2,
+    "cam_duplicate_details": {
+      "0c5689a2238a3be7e2910223cd95834df897576003db347802e8aa6d4defdba2": {
+        "claims": 2
+      },
+      "bb3184bbbcf76980862411d45bbbfee10ccdbe1ef651a57ee95ba5b0d3a9389a": {
+        "claims": 2
+      }
+    },
+    "b_family_count": 237,
+    "b_family_samples": [
+      "paper_sources.source_type: B_family_FLCR",
+      "paper_sources.source_type: B_family_FLCR",
+      "paper_sources.source_type: B_family_FLCR",
+      "paper_sources.source_type: B_family_FLCR",
+      "paper_sources.source_type: B_family_FLCR"
+    ],
+    "table_stats": {
+      "papers": {
+        "rows": 101,
+        "columns": [
+          "paper_id",
+          "paper_number",
+          "title",
+          "status",
+          "abstract",
+          "key_concepts",
+          "lcr_role",
+          "file_path",
+          "cam_hash"
+        ]
+      },
+      "claims": {
+        "rows": 910,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "evidence",
+          "cam_hash"
+        ]
+      },
+      "cross_references": {
+        "rows": 938,
+        "columns": [
+          "ref_id",
+          "from_paper",
+          "to_paper",
+          "ref_type",
+          "cam_hash"
+        ]
+      },
+      "cam_hashes": {
+        "rows": 1947,
+        "columns": [
+          "cam_hash",
+          "content_type",
+          "content_id",
+          "created_at"
+        ]
+      },
+      "paper_sources": {
+        "rows": 298,
+        "columns": [
+          "source_id",
+          "paper_number",
+          "source_type",
+          "original_path",
+          "stripped",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "CodeLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40",
+      "paper-41",
+      "paper-42",
+      "paper-43",
+      "paper-44",
+      "paper-45",
+      "paper-46",
+      "paper-47",
+      "paper-48",
+      "paper-49",
+      "paper-50",
+      "paper-51",
+      "paper-52",
+      "paper-53",
+      "paper-54",
+      "paper-55",
+      "paper-56",
+      "paper-57",
+      "paper-58",
+      "paper-59",
+      "paper-60",
+      "paper-61",
+      "paper-62",
+      "paper-63",
+      "paper-64",
+      "paper-65",
+      "paper-66",
+      "paper-67",
+      "paper-68",
+      "paper-69",
+      "paper-70",
+      "paper-71",
+      "paper-72",
+      "paper-73",
+      "paper-74",
+      "paper-75",
+      "paper-76",
+      "paper-77",
+      "paper-78",
+      "paper-79",
+      "paper-80",
+      "paper-81",
+      "paper-82",
+      "paper-83",
+      "paper-84",
+      "paper-85",
+      "paper-86",
+      "paper-87",
+      "paper-88",
+      "paper-89",
+      "paper-90",
+      "paper-91",
+      "paper-92",
+      "paper-93",
+      "paper-94",
+      "paper-95",
+      "paper-96",
+      "paper-97",
+      "paper-98",
+      "paper-99"
+    ],
+    "paper_count": 101,
+    "dix": {
+      "D": 53,
+      "I": 369,
+      "X": 11
+    },
+    "cam_hashes_unique": 585,
+    "cam_duplicates": 48,
+    "cam_duplicate_details": {
+      "08ffd0bd592bd0c37a41ead7a8bfef281dd194aebfaf4d6478705e3d4a2ed5f9": {
+        "code_claims": 10
+      },
+      "1878e1a91a8bea693b6cc3a0b0eb3a87b41b0717631d860a88f6c5c4f725440d": {
+        "code_claims": 10
+      },
+      "425ede81b3f4070f428557ba6863d4328f8aa65b9c00fd5cad62f7148a6903fa": {
+        "code_sources": 3
+      },
+      "fa195be43c567912f3354c3f1663800b766628f4b1d30735a977e4248cdfd946": {
+        "code_sources": 4
+      },
+      "acd179e84a8441b0ea3ab51c7f01b4f24eb75254c939a9b6735607a2190b0b07": {
+        "code_sources": 7
+      }
+    },
+    "b_family_count": 292,
+    "b_family_samples": [
+      "code_sources.source_type: B_family_lattice_forge",
+      "code_sources.source_type: B_family_lattice_forge",
+      "code_sources.source_type: B_family_forge",
+      "code_sources.source_type: B_family_forge",
+      "code_sources.source_type: B_family_lattice_forge"
+    ],
+    "table_stats": {
+      "code_files": {
+        "rows": 101,
+        "columns": [
+          "code_id",
+          "file_name",
+          "description",
+          "language",
+          "file_path",
+          "key_functions",
+          "paper_number",
+          "status",
+          "verifier_type",
+          "cam_hash"
+        ]
+      },
+      "code_claims": {
+        "rows": 394,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "code_file_id",
+          "evidence",
+          "cam_hash"
+        ]
+      },
+      "code_papers": {
+        "rows": 101,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "code_id",
+          "role",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "cam_hashes": {
+        "rows": 585,
+        "columns": [
+          "cam_hash",
+          "content_type",
+          "content_id",
+          "created_at"
+        ]
+      },
+      "code_sources": {
+        "rows": 314,
+        "columns": [
+          "source_id",
+          "code_id",
+          "source_type",
+          "original_path",
+          "stripped",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "SQLLib": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40",
+      "paper-41",
+      "paper-42",
+      "paper-43",
+      "paper-44",
+      "paper-45",
+      "paper-46",
+      "paper-47",
+      "paper-48",
+      "paper-49",
+      "paper-50",
+      "paper-51",
+      "paper-52",
+      "paper-53",
+      "paper-54",
+      "paper-55",
+      "paper-56",
+      "paper-57",
+      "paper-58",
+      "paper-59",
+      "paper-60",
+      "paper-61",
+      "paper-62",
+      "paper-63",
+      "paper-64",
+      "paper-65",
+      "paper-66",
+      "paper-67",
+      "paper-68",
+      "paper-69",
+      "paper-70",
+      "paper-71",
+      "paper-72",
+      "paper-73",
+      "paper-74",
+      "paper-75",
+      "paper-76",
+      "paper-77",
+      "paper-78",
+      "paper-79",
+      "paper-80",
+      "paper-81",
+      "paper-82",
+      "paper-83",
+      "paper-84",
+      "paper-85",
+      "paper-86",
+      "paper-87",
+      "paper-88",
+      "paper-89",
+      "paper-90",
+      "paper-91",
+      "paper-92",
+      "paper-93",
+      "paper-94",
+      "paper-95",
+      "paper-96",
+      "paper-97",
+      "paper-98",
+      "paper-99"
+    ],
+    "paper_count": 101,
+    "dix": {
+      "D": 116,
+      "I": 62,
+      "X": 3
+    },
+    "cam_hashes_unique": 257,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 1,
+    "b_family_samples": [
+      "sql_sources.source_type: B_family_sql"
+    ],
+    "table_stats": {
+      "sql_files": {
+        "rows": 101,
+        "columns": [
+          "sql_id",
+          "file_name",
+          "description",
+          "sql_type",
+          "file_path",
+          "key_tables",
+          "paper_number",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "sql_claims": {
+        "rows": 156,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "sql_file_id",
+          "evidence",
+          "cam_hash"
+        ]
+      },
+      "sql_papers": {
+        "rows": 101,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "sql_id",
+          "role",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "cam_hashes": {
+        "rows": 257,
+        "columns": [
+          "cam_hash",
+          "content_type",
+          "content_id",
+          "created_at"
+        ]
+      },
+      "sql_sources": {
+        "rows": 101,
+        "columns": [
+          "source_id",
+          "sql_id",
+          "source_type",
+          "original_path",
+          "stripped",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "CMPLX-Standards": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21"
+    ],
+    "paper_count": 22,
+    "dix": {
+      "D": 0,
+      "I": 0,
+      "X": 0
+    },
+    "cam_hashes_unique": 76,
+    "cam_duplicates": 0,
+    "cam_duplicate_details": {},
+    "b_family_count": 16,
+    "b_family_samples": [
+      "standards_sources.source_type: B_family",
+      "standards_sources.source_type: B_family",
+      "standards_sources.source_type: B_family",
+      "standards_sources.source_type: B_family",
+      "standards_sources.source_type: B_family"
+    ],
+    "table_stats": {
+      "contracts": {
+        "rows": 16,
+        "columns": [
+          "contract_id",
+          "contract_name",
+          "description",
+          "validation_rules",
+          "paper_number",
+          "status",
+          "band",
+          "lcr_kernel",
+          "cam_hash"
+        ]
+      },
+      "grader_runs": {
+        "rows": 1,
+        "columns": [
+          "run_id",
+          "grader_version",
+          "run_date",
+          "paper_number",
+          "assigned_grade",
+          "band",
+          "metrics_json",
+          "cam_hash"
+        ]
+      },
+      "inclusion_bands": {
+        "rows": 5,
+        "columns": [
+          "band_id",
+          "band_name",
+          "description",
+          "min_score",
+          "max_score",
+          "criteria",
+          "cam_hash"
+        ]
+      },
+      "standards_papers": {
+        "rows": 22,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "contract_id",
+          "band_id",
+          "grade",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "cam_hashes": {
+        "rows": 76,
+        "columns": [
+          "cam_hash",
+          "content_type",
+          "content_id",
+          "created_at"
+        ]
+      },
+      "standards_sources": {
+        "rows": 32,
+        "columns": [
+          "source_id",
+          "contract_id",
+          "source_type",
+          "original_path",
+          "stripped",
+          "cam_hash"
+        ]
+      }
+    }
+  },
+  "CQEKernel": {
+    "paper_numbers": [
+      "paper-00",
+      "paper-01",
+      "paper-02",
+      "paper-03",
+      "paper-04",
+      "paper-05",
+      "paper-06",
+      "paper-07",
+      "paper-08",
+      "paper-09",
+      "paper-10",
+      "paper-100",
+      "paper-11",
+      "paper-12",
+      "paper-13",
+      "paper-14",
+      "paper-15",
+      "paper-16",
+      "paper-17",
+      "paper-18",
+      "paper-19",
+      "paper-20",
+      "paper-21",
+      "paper-22",
+      "paper-23",
+      "paper-24",
+      "paper-25",
+      "paper-26",
+      "paper-27",
+      "paper-28",
+      "paper-29",
+      "paper-30",
+      "paper-31",
+      "paper-32",
+      "paper-33",
+      "paper-34",
+      "paper-35",
+      "paper-36",
+      "paper-37",
+      "paper-38",
+      "paper-39",
+      "paper-40",
+      "paper-41",
+      "paper-42",
+      "paper-43",
+      "paper-44",
+      "paper-45",
+      "paper-46",
+      "paper-47",
+      "paper-48",
+      "paper-49",
+      "paper-50",
+      "paper-51",
+      "paper-52",
+      "paper-53",
+      "paper-54",
+      "paper-55",
+      "paper-56",
+      "paper-57",
+      "paper-58",
+      "paper-59",
+      "paper-60",
+      "paper-61",
+      "paper-62",
+      "paper-63",
+      "paper-64",
+      "paper-65",
+      "paper-66",
+      "paper-67",
+      "paper-68",
+      "paper-69",
+      "paper-70",
+      "paper-71",
+      "paper-72",
+      "paper-73",
+      "paper-74",
+      "paper-75",
+      "paper-76",
+      "paper-77",
+      "paper-78",
+      "paper-79",
+      "paper-80",
+      "paper-81",
+      "paper-82",
+      "paper-83",
+      "paper-84",
+      "paper-85",
+      "paper-86",
+      "paper-87",
+      "paper-88",
+      "paper-89",
+      "paper-90",
+      "paper-91",
+      "paper-92",
+      "paper-93",
+      "paper-94",
+      "paper-95",
+      "paper-96",
+      "paper-97",
+      "paper-98",
+      "paper-99"
+    ],
+    "paper_count": 101,
+    "dix": {
+      "D": 672,
+      "I": 473,
+      "X": 622
+    },
+    "cam_hashes_unique": 2315,
+    "cam_duplicates": 11,
+    "cam_duplicate_details": {
+      "79664fe3c53ff8422d11c97d764976ad28263b2f2527d4cbb33ecc33feb34ba9": {
+        "kernel_sources": 2
+      },
+      "f0fe76c09b1986183ce56d882b1d8f6ff92c1155d08e36fed908e4bb9f9e015d": {
+        "kernel_sources": 2
+      },
+      "5bf7e4bfa3586ed064a17678d34dc87b22b1d8ded5209320089d7c789701f2f0": {
+        "kernel_sources": 2
+      },
+      "eebf46ba8bba52a5ad5b6da364c2ccd6a6c6514c5c893ccedbf5eb700092e6bc": {
+        "kernel_sources": 2
+      },
+      "72e2ee33097019bba8268002048190982a835b5a884fc63fbcca1bd00faa1fc0": {
+        "kernel_sources": 2
+      }
+    },
+    "b_family_count": 0,
+    "b_family_samples": [],
+    "table_stats": {
+      "layers": {
+        "rows": 11,
+        "columns": [
+          "layer_id",
+          "layer_name",
+          "description",
+          "file_path",
+          "key_functions",
+          "paper_number",
+          "status",
+          "dependencies",
+          "cam_hash"
+        ]
+      },
+      "kernel_claims": {
+        "rows": 1575,
+        "columns": [
+          "claim_id",
+          "paper_number",
+          "claim_text",
+          "claim_status",
+          "layer_id",
+          "evidence",
+          "cam_hash"
+        ]
+      },
+      "kernel_papers": {
+        "rows": 112,
+        "columns": [
+          "mapping_id",
+          "paper_number",
+          "layer_id",
+          "role",
+          "status",
+          "cam_hash"
+        ]
+      },
+      "cross_lib_refs": {
+        "rows": 606,
+        "columns": [
+          "ref_id",
+          "paper_number",
+          "lib_name",
+          "lib_item_id",
+          "role",
+          "cam_hash"
+        ]
+      },
+      "cam_hashes": {
+        "rows": 1881,
+        "columns": [
+          "cam_hash",
+          "content_type",
+          "content_id",
+          "created_at"
+        ]
+      },
+      "kernel_sources": {
+        "rows": 22,
+        "columns": [
+          "source_id",
+          "layer_id",
+          "source_type",
+          "original_path",
+          "stripped",
+          "cam_hash"
+        ]
+      }
+    }
+  }
+}

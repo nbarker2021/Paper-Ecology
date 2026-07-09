@@ -1,0 +1,68 @@
+arXiv:2501.01055v2 [gr-qc] 8 Apr 2025
+
+Stable long-term evolution in numerical relativity
+Sebastian Garcia-Saenza, Guangzhou Guoa, Peng Wangb, Xinmiao Wanga§ aDepartment of Physics, Southern University of Science and Technology, Shenzhen 518055, China bCenter for Theoretical Physics, College of Physics, Sichuan University, Chengdu 610064, China
+We report on the potential occurrence of a numerical instability in the long-time simulation of black holes using the Baumgarte-Shapiro-Shibata-Nakamura formulation of numerical relativity, even in the simple set-up of a Schwarzschild black hole. Through extensive numerical experiments, we identify that this "late-time instability" arises from accumulated violations of the momentum constraint. To address this issue, we propose two modified versions of the so-called conformal covariant Z4 scheme, designed to propagate momentum constraint violations without damping. Our results demonstrate that these alternative formulations, which we refer to as CCZ4' and CCZ3, effectively resolve the late-time numerical instability not only in Schwarzschild spacetimes but also in black hole spacetimes with matter fields. Notably, by preventing damping of the momentum constraint violation, the Hamiltonian constraint damping can be significantly increased, which plays a crucial role in stabilizing long-term evolution in our proposed schemes.
+ sgarciasaenz@sustech.edu.cn  guogz@sustech.edu.cn  pengw@scu.edu.cn § 12132943@mail.sustech.edu.cn
+
+2
+
+CONTENTS
+
+I. Introduction
+
+2
+
+II. Numerical schemes for evolving the Einstein equations
+
+4
+
+III. Stable evolution of black hole spacetimes
+
+8
+
+A. Late-time numerical instability
+
+9
+
+B. Modified numerical schemes
+
+11
+
+IV. Applications to non-vacuum black holes
+
+13
+
+A. Numerical evolution of matter fields
+
+14
+
+B. RN black hole
+
+16
+
+C. Spontaneous scalarization
+
+16
+
+V. Conclusions
+
+18
+
+Acknowledgments
+
+19
+
+A. Modifications to the -driver gauge condition
+
+20
+
+References
+
+20
+
+I. INTRODUCTION
+Recent observational breakthroughs in black hole physics [1­3] underscore the need for stable, long-time numerical relativity simulations to study black hole evolution, particularly in systems affected by weak instabilities characterized by very long time scales. Investigating the evolution of such systems through numerical relativity cannot only provide gravitational wave templates for experiments, but also help explore and understand their theoretical properties [4­7].
+A remarkable example of such weak instabilities is the superradiant extraction of mass from a spinning black hole by a massive probe scalar field [8, 9]. In this process, the mass of the scalar field serves as a reflective outer boundary, enabling continuous mass extraction from the black hole, leading to the formation of a scalar cloud encircling it [10]. However, the growth rate of such superradiant instabilities is extremely slow, posing significant numerical challenges for studying the long-term evolution of this phenomenon [11]. It has been reported that for a rapidly rotating black hole, the dominant scalar mode associated with this instability exhibits a minimum growth
+
+

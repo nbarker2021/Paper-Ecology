@@ -1,0 +1,209 @@
+Prepared for submission to JHEP
+Conformal Field Theories with Sporadic Group Symmetry
+
+arXiv:2002.02970v2 [hep-th] 28 Feb 2020
+
+Jin-Beom Bae,1 Jeffrey A. Harvey,2 Kimyeong Lee,3 Sungjay Lee,3 and Brandon C. Rayhaun4
+1Mathematical Institute, University of Oxford Andrew Wiles Building, Radcliffe Observatory Quarter Woodstock Road, Oxford, OX2 6GG, U.K.
+2Enrico Fermi Institute and Department of Physics University of Chicago 933 East 56th Street, Chicago IL 60637, U.S.A.
+3Korea Institute for Advanced Study 85 Hoegiro, Dongdaemun-Gu, Seoul 02455, Korea
+4Stanford Institute for Theoretical Physics Stanford University, Stanford, CA 94305
+E-mail: bae@maths.ox.ac.uk, j-harvey@uchicago.edu, klee@kias.re.kr, sjlee@kias.re.kr, brayhaun@stanford.edu
+
+Abstract: The monster sporadic group is the automorphism group of a central charge
+
+c = 24 vertex operator algebra (VOA) or meromorphic conformal field theory (CFT).
+
+In addition to its c = 24 stress tensor T (z), this theory contains many other conformal
+
+vectors
+
+of
+
+smaller
+
+central
+
+charge;
+
+for
+
+example,
+
+it
+
+admits
+
+48
+
+commuting
+
+c
+
+=
+
+1 2
+
+conformal
+
+vectors whose sum is T (z). Such decompositions of the stress tensor allow one to construct
+
+new CFTs from the monster CFT in a manner analogous to the Goddard-Kent-Olive
+
+(GKO) coset method for affine Lie algebras. We use this procedure to produce evidence
+
+for the existence of a number of CFTs with sporadic symmetry groups and employ a
+
+variety of techniques, including Hecke operators, modular linear differential equations,
+
+and Rademacher sums, to compute the characters of these CFTs. Our examples include
+
+(extensions of) nine of the sporadic groups appearing as subquotients of the monster, as
+
+well as the simple groups 2E6(2) and F4(2) of Lie type. Many of these examples are
+
+naturally associated to McKay's E8 correspondence, and we use the structure of Norton's monstralizer pairs more generally to organize our presentation.
+
+Contents
+
+1 Introduction and Summary
+
+2
+
+2 Review of Techniques
+
+8
+
+2.1 VOA/chiral algebra basics
+
+8
+
+2.1.1 Relationship to conformal field theory
+
+8
+
+2.1.2 Modules and characters
+
+10
+
+2.1.3 Symmetries
+
+13
+
+2.1.4 Conformal vectors
+
+14
+
+2.1.5 Examples
+
+16
+
+2.2 Deconstruction generalities
+
+21
+
+2.3 Character methods
+
+29
+
+2.3.1 Modular linear differential equations
+
+29
+
+2.3.2 Hecke operators
+
+30
+
+2.3.3 Rademacher sums
+
+33
+
+3 Monster deconstructions
+
+35
+
+3.1 Cyclic monstralizers from parafermion theories
+
+39
+
+3.1.1 (Z1A, M): The monster and E8
+
+39
+
+3.1.2 (Z2A, 2.B): The baby monster and E7
+
+41
+
+3.1.3 (Z3A, 3.Fi24): The largest Fischer group and E6
+
+44
+
+3.1.4 (Z4A, 4.222.Co3): The third Conway group
+
+49
+
+3.2 Dihedral monstralizers from McKay's E8 correspondence
+
+52
+
+3.2.1 (D1A, 2.B): Baby monster
+
+54
+
+3.2.2 (D2A, 22.2E6(2)): Steinberg group
+
+54
+
+3.2.3 (D3A, Fi23): Second largest Fischer group
+
+59
+
+3.2.4 (D4A, 21+22.McL): McLaughlin group
+
+62
+
+3.2.5 (D5A, HN): Harada-Norton group
+
+66
+
+3.2.6 (D6A, 2.Fi22): Third largest Fischer group
+
+71
+
+3.2.7 (D4B, 2.F4(2)): Chevalley group
+
+74
+
+3.2.8 (D2B, 2.21+22.Co2): Second Conway group
+
+76
+
+3.2.9 (D3C, Th): Thompson group
+
+78
+
+3.3 Other monstralizers
+
+82
+
+3.4 Baby monster and Fischer deconstructions from McKay's correspondence 88
+
+4 Conclusions
+
+90
+
+A Fusion rules for the WDnX algebras
+
+92
+
+B Group theory data
+
+95
+
+C Alternative derivation of the characters of VF22
+
+102
+
+­1­
+
+

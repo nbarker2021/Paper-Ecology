@@ -1,0 +1,58 @@
+arXiv:2505.18621v1 [cs.CE] 24 May 2025
+
+Beyond Equilibrium: Non-Equilibrium Foundations Should Underpin Generative Processes in Complex
+Dynamical Systems
+Jiazhen Liu, Ruikun Li, Huandong Wang, Zihan Yu, Chang Liu, Jingtao Ding, Yong Li Tsinghua University
+Abstract
+This position paper argues that next-generation non-equilibrium-inspired generative models will provide the essential foundation for better modeling real-world complex dynamical systems. While many classical generative algorithms draw inspiration from equilibrium physics, they are fundamentally limited in representing systems with transient, irreversible, or far-from-equilibrium behavior. We show that nonequilibrium frameworks naturally capture non-equilibrium processes and evolving distributions. Through empirical experiments on a dynamic Printz potential system, we demonstrate that non-equilibrium generative models better track temporal evolution and adapt to non-stationary landscapes. We further highlight future directions such as integrating non-equilibrium principles with generative AI to simulate rare events, inferring underlying mechanisms, and representing multi-scale dynamics across scientific domains. Our position is that embracing non-equilibrium physics is not merely beneficial--but necessary--for generative AI to serve as a scientific modeling tool, offering new capabilities for simulating, understanding, and controlling complex systems.
+1 Introduction
+Since Boltzmann introduced statistical mechanics in the 1870s, a groundbreaking framework in mathematical physics, the core philosophy of this theory has remained consistent: uncovering the statistical laws governing the motion of microscopic particles, which initially appear to move in an irregular manner. In the 1950s, Jaynes [1] extended this theory to information theory and statistical learning, proposing that if the motion of microscopic particles is viewed as data, this data must adhere to similar mathematical principles as statistical mechanics, from Boltzmann distribution [2, 3] to Energy-based models (EBMs) [4­11], from variational free energy theory [3, 12] to Variational Encoders (VAEs) [13­17], from Schrödinger bridges [18­20] to the time-reversal duality in the Diffusion model [21­23]. In the 1980s, a series of groundbreaking discoveries [4­7, 24] in artificial intelligence emerged, many of which were inspired by the principles of statistical mechanics. After a period of relative dormancy, the intersection of artificial intelligence and statistical physics has recently sparked renewed interest and innovation [20­23, 25­30].
+Although generative models in machine learning are typically designed for practical tasks such as image, text, and audio synthesis, they share a core philosophical foundation with statistical physics: both seek to model and generate probability distributions from high-dimensional, noisy data. However, many real-world scientific and physical systems are inherently dynamical, exhibiting time-dependent, path-dependent, and often irreversible behavior. Capturing such complex temporal evolution remains a fundamental challenge in generative modeling, as most existing frameworks assume static data distributions or stationarity. This gap motivates a deeper integration between
+Equal contribution.
+Preprint. Under review.
+
+generative modeling and statistical physics, especially in the context of dynamical systems that operate far from equilibrium. In this position paper, we argue that generative models grounded in non-equilibrium statistical mechanics provide a principled and expressive framework to simulate, predict, and understand the temporal evolution of such systems, going beyond the limitations of equilibrium-based models.
+In Section 2, we introduce the connection between statistical physics and generative modeling from three aspects: equilibrium-inspired models, non-equilibrium-inspired models, and non-physicsinspired models. In Section 2.1, we show how equilibrium statistical mechanics inspires machine learning. Equilibrium systems follow Boltzmann distributions, linking state probabilities to energy. Starting with the Ising model, we introduce energy-based models (EBMs) such as Hopfield networks [4] and RBMs [5­7], which use energy functions to model data. Modern EBMs scale this approach to high-dimensional data using deep networks and Langevin dynamics [9­11]. Despite their power, EBMs face challenges including intractable normalization, misalignment with non-equilibrium data, and poor modeling of dynamics. Section 2.2 outlines how non-equilibrium physics reframes generative modeling as distribution transformation via Markov chains [19, 31, 32]. Diffusion models [25, 23] implement this through stochastic dynamics. Advances such as Fokker-Planck constraints [26], Poisson flows [27], and Schrödinger bridges [20, 28] improve sampling efficiency. In Section 2.3, we relate flow-based models [33­35], VAEs [13, 14, 16], autoregressive models [36­38], and GANs [39] to statistical physics, noting their limitations in capturing system dynamics.
+In Section 3, we empirically demonstrate that non-equilibrium generative models are better suited for such systems, as they capture time-asymmetric dynamics and transient steady states more effectively. Using a modified Printz potential system with time-varying energy fields governed by overdamped Langevin dynamics, we compare two generative strategies: (i) equilibrium-based Boltzmann sampling and (ii) non-equilibrium sampling via denoising Langevin dynamics. Experiments show that the nonequilibrium approach consistently achieves lower Jensen-Shannon divergence when generating timedependent particle distributions, better reflecting the evolving energy landscape. Unlike equilibrium methods, which rely on static distributions, non-equilibrium models adaptively track gradient flows, enabling more accurate simulation of dynamic transitions. These results underscore the necessity of non-equilibrium frameworks for modeling the temporal evolution of open, evolving systems.
+In Section 4, we further discuss the combination of non-equilibrium statistical mechanics and generative AI from two aspects: (1) non-equilibrium-inspired AI models for physical science and complex dynamical systems; and (2) non-equilibrium physics for more advanced generative models.
+This position paper argues that non-equilibrium physics-inspired generative algorithms represent a new frontier for modeling dynamical systems in AI for science. Dynamical systems, ranging from molecular reactions and fluid turbulence to biological networks and climate dynamics, are inherently governed by time-asymmetric, dissipative, and stochastic processes far from equilibrium. Non-equilibrium-inspired algorithms treat data as outcomes of underlying time-evolving processes, offering a principled framework to learn, simulate, and control complex system trajectories. By integrating physical priors such as entropy production, irreversible flows, and fluctuation theorems, these models have potential to more faithfully model the real-world dynamics across scientific domains.
+
+2 Revisiting Generative Models Through Statistical Mechanics
+
+2.1 Energy-based generative models inspired by equilibrium statistical mechanics
+
+Equilibrium describes a macroscopically stable state, where the Boltzmann distribution [40] relates
+
+state probability to energy:
+
+Pi
+
+=
+
+1
+
+e-
+
+Ei kT
+
+Z
+
+,
+
+(1)
+
+with Ei as the energy of state i, T the temperature, and Z the partition function. This allows
+
+energy-based modeling of otherwise intractable distributions.
+
+Building on this, energy-based generative models [4, 41, 10] approximate data distributions via energy functions. They root in the Ising model [42], where discrete spin states interact with neighbors:
+
+E(s) = - Jijsisj,
+
+(2)
+
+ij
+
+2
+
+

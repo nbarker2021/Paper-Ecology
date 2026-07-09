@@ -1,0 +1,114 @@
+arXiv:2602.08356v2 [nucl-ex] 14 Apr 2026
+
+Search for the QCD Critical Point in High Energy Nuclear Collisions: A Status Report
+Yu Zhang1, Zhaohui Wang2, Xiaofeng Luo2*, Nu Xu2* 1School of Physical Science and Technology, Guangxi Normal
+University, 15 Yucai Road, Guilin, 541004, China. 2Key Laboratory of Quark & Lepton Physics (MOE) and Institute of Particle Physics, Central China Normal University, 152 Luoyu Road,
+Wuhan, 430079, China.
+*Corresponding author(s). E-mail(s): xfluo@mail.ccnu.edu.cn; nuxu02@gmail.com;
+Contributing authors: zhangyu@gxnu.edu.cn; zh-wang@mails.ccnu.edu.cn;
+Abstract We review recent results of net-proton multiplicity fluctuations from STAR experiment, aiming to locate the QCD critical point in high-energy nuclear collisions at RHIC. We show net-proton number cumulant and proton number factorial cumulant ratios up to fourth order using experimental data from RHIC BES-II Au+Au collisions in collider mode and fixed-target mode. The comparison is made between experimental data and non-critical model calculations from Lattice QCD, HRG, hydrodynamic simulations and transport model UrQMD. In addition, we discuss initial volume fluctuation effect, which plays significant role in fixed-target energies. Finally, an outlook on experimental research on the QCD critical point in future experiments will be presented.
+1 Introduction
+One of main goals in heavy-ion collisions is to explore the phase structure of strongly interacting matter. In the conjectured QCD phase diagram, plotted in terms of temperature T and baryon chemical potential µB, lattice QCD calculations from first principles predict a smooth crossover transition between the quark­gluon plasma
+1
+
+(QGP) and hadronic phase at vanishing µB [1]. However, at large µB, lattice QCD encounters the fermion sign problem and cannot provide definitive conclusions about the nature of the QCD phase transition.
+
+T (MeV)
+
+200 200 62.4 39 27 19.6 17.3 14.6 11.5
+
+7.7 7.2 6.2 5.2 4.5 3.9 3.5 3.2
+
+sNN (GeV) 3.0
+
+150 100
+
+Lattice QCD
+L1:A. Bazavov et al., PRD 95, 054504 (2017) L2:Fordor & Katz, JHEP 04, 050 (2004)
+L3:Gavai & Gupta, NPA 904, 883c (2014)
+FRG
+F1:W.J. Fu et al., PRD 101, 054032 (2020) F2:D.F. Hou et al., PRD 96, 114029 (2017) F3:W.J. Fu et al., PRD 111, L031502 (2025)
+DSE
+D1:Y.X. Liu et al., PRD 90, 076006 (2014) D2:Y.X. Liu et al., PRD 94, 076009 (2016) D3:Y.X. Liu et al., PRL 106, 172301 (2011)
+D4:H.S. Zong et al., JHEP 07, 014 (2014) D5:C. S. Fischer et al., PRD 90, 034022 (2014) D6:F. Gao, J. M. Pawlowski, PRD 102, 034027 (2020) D7:F. Gao, J. M. Pawlowski, PLB 820, 136584 (2021) D8:J. M. Pawlowski et al., arXiv 2504.05099 (2025)
+Holography
+
+B/T < 2
+
+L3
+
+L2
+
+L1 B/T > 2 B/T = 3
+
+B/T = 4
+
+D3 D1
+
+D2
+
+D4
+
+S2
+
+D5
+
+H1
+
+T
+
+S3 D7 F1
+
+S1 H2
+
+D8 F3 D6
+
+P H3
+
+H1:R.G. Cai et al., PRD 106, L121902 (2022)
+
+H2:J. Noronha et al., PRD 110, 094006 (2024)
+
+H3:M. Huang et al., arXiv 2501.17763 (2025)
+
+50
+
+Lee-Yang Edge Singularity
+S1:G. Basar, PRC 110, 015203 (2024)
+
+F2
+
+S2:C. Schmidt et al., arXiv 2405.10196 (2024)
+
+S3:F. Gao et al., arXiv 2504.12964 (2025)
+PNJL
+
+P :M. Huang et al., EPJC 79, 245 (2019)
+Thermodynamics
+
+T :V. Vovchenko et al., arXiv 2410.16206(2024)
+
+0
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+B (MeV)
+
+Fig. 1 Theoretical predictions on the QCD critical point from various approaches.
+Many theoretical calculations predict that, at high baryon chemical potential, the transition between the hadronic phase and the QGP phase becomes first-order, terminating at a second-order phase transition point commonly referred to as the QCD critical point. On the experimental side, extensive measurements of various observables have been carried out in an effort to locate this critical point. Among these, higher-order cumulants of conserved quantities, such as net baryon number, net electric charge, and net strangeness, have been shown to be particularly sensitive probes of critical fluctuations [2­8]. A key signature of the QCD critical point is the non-monotonic energy dependence of the fourth-order cumulant ratio (2) [2]. Such measurements have been performed by the STAR Collaboration at the Relativistic Heavy Ion Collider (RHIC) [9­17]. While fluctuations of conserved quantities are sensitive to critical phenomena, their interpretation in heavy-ion collisions requires careful consideration of finite-size effects, critical slowing down, and non-equilibrium dynamics such as baryon transport. These effects are not merely additive to equilibrium baselines but can fundamentally alter fluctuation observables. Therefore, deviations from model calculations should be interpreted with caution, and alternative approaches incorporating finitesize scaling [18­23] and dynamical modeling are also essential in the search for the QCD critical point. Recently, theoretical studies [24­35] employing diverse approaches have converged on a critical point located in the high, µB region (see Fig. 1), a domain
+
+2
+
+

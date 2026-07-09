@@ -1,0 +1,93 @@
+arXiv:2512.09758v2 [cs.LO] 28 Feb 2026
+
+Towards Language Model Guided TLA+ Proof Automation
+Yuhao Zhou and Stavros Tripakis
+Northeastern University, Boston, MA
+Abstract. Formal theorem proving with TLA+ provides rigorous guarantees for system specifications, but constructing proofs requires substantial expertise and effort. While large language models have shown promise in automating proofs for tactic-based theorem provers like Lean, applying these approaches directly to TLA+ faces significant challenges due to the hierarchical proof structure of the TLA+ proof system. We present a prompt-based approach that leverages LLMs to guide hierarchical decomposition of complex proof obligations into simpler sub-claims, while relying on symbolic provers for verification. Our key insight is to constrain LLMs to generate normalized claim decompositions rather than complete proofs, significantly reducing syntax errors. We also introduce a benchmark suite of 119 theorems adapted from (1) established mathematical collections and (2) inductive proofs of distributed protocols. Our approach consistently outperforms baseline methods across the benchmark suite.
+Keywords: Formal Verification · Theorem Proving · Large Language Models · TLA+
+1 Introduction
+Formal verification plays a crucial role in ensuring the correctness of critical systems, particularly distributed systems where subtle errors can have severe consequences. As systems grow in complexity and become more interconnected, the need for rigorous verification methods becomes increasingly vital. The TLA+ specification language [26] has emerged as a powerful framework for modeling and verifying such systems, with significant adoption in companies like Amazon, Intel, and Microsoft [5, 20, 35, 36]. Despite its effectiveness, constructing formal proofs in TLA+ remains time-consuming and requires substantial expertise, creating a bottleneck in the verification process [45, 47].
+Proof automation is fundamentally challenging: the underlying problem of proving theorems in expressive logics is undecidable [10, 56] and state-of-theart provers still require substantial human guidance for complex proofs [33, 51]. Therefore, any progress in techniques that assist or automate proof construction represents a significant opportunity to lower the barrier to formal verification, by making it more practical and scalable.
+Recent advances in Large Language Models (LLMs) have shown promise in automating formal theorem proving tasks, particularly in tactic-based theorem provers like Lean [65] and Rocq (previously known as Coq) [50]. These
+
+2
+
+Yuhao Zhou and Stavros Tripakis
+
+£
+
+1 -------- MODULE sums_even -------
+
+2 EXTENDS Naturals, TLAPS
+
+3
+
+4 Even(x) == x % 2 = 0
+
+5
+
+6 THEOREM L0 == ASSUME NEW x  Nat PROVE
+
+Even(x + x) = Even(x * 2)
+
+7 OBVIOUS
+
+8
+
+9 THEOREM L1 == ASSUME NEW x  Nat PROVE
+
+Even(x * 2) = ((x * 2) % 2 = 0)
+
+10 BY DEF Even
+
+11
+
+12 THEOREM T1 == ASSUME NEW x  Nat PROVE
+
+Even(x + x)
+
+13 BY L0, L1 DEF Even
+
+14 ¢=======================
+
+¡
+
+Fig. 1: Theorem T1 proven in TLA+.
+
+£
+
+1 import Mathlib.Tactic.Ring
+
+2
+
+3 def even (x : Nat) : Prop := x % 2 = 0
+
+4
+
+5 theorem T1 :  x : Nat, even (x+x) := by
+
+6
+
+intro x
+
+7
+
+ring_nf
+
+8
+
+dsimp [even]
+
+9 ¢ simp
+
+¡
+
+Fig. 2: The same theorem T1 of Figure 1, now proven in Lean. The Lean proof consists of a sequence of tactics (lines 6-9) that transform the proof state to solve the goal.
+
+approaches leverage LLMs' capabilities to generate sequences of proof tactics that incrementally transform proof states toward the goal. However, TLA+ employs a fundamentally different, hierarchical proof structure. Unlike Lean and Rocq, which sequentially transform proof states by tactics, TLA+ proofs are organized as trees of claims and sub-claims. For example, while a tactic-based proof consists of a sequence of transformations (e.g., `expand definition, apply distributive property, simplify'), a TLA+ proof introduces intermediate claims that collectively establish the goal. This distinction is illustrated by the proofs of theorem T1 in Figure 1 (TLA+) and Figure 2 (Lean).
+Additionally, while systems like Lean and Rocq have extensive libraries of formalized proofs that can serve as training data and benchmarks for machine learning approaches, TLA+ lacks comparable datasets, creating a significant challenge for developing and evaluating learning-based proof automation.
+In this paper, we present a language-model based approach to automating TLA+ proof generation. Our method, called Language Model Guided Proof Automation (LMGPA), accommodates the hierarchical structure of TLA+ proofs through a recursive decomposition strategy. This approach guides LLMs to recursively break down complex claims into simpler sub-claims that can be independently verified, mirroring the natural structure of TLA+ proofs. Our system verifies each decomposition step, providing feedback to the LLM when necessary, and recursively applies the same process to each sub-claim until all claims can be verified by backend provers.
+2 Preliminaries and Problem Statement
+TLA+ and TLA+ Proof System TLA+ is a formal specification language [26] designed for specifying and verifying properties of complex systems and algorithms, particularly distributed systems and concurrent algorithms. It has been adopted in both academia and industry, with companies such as Amazon, Microsoft, and
+
+

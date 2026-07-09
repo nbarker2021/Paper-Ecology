@@ -1,0 +1,81 @@
+Higgs CP studies and other Higgs properties at ATLAS and CMS
+Lucas Russell on behalf of the ATLAS and CMS Collaborations a
+Imperial College London, London, UK
+
+arXiv:2606.05897v1 [hep-ex] 4 Jun 2026
+
+Recent measurements of Higgs boson properties using proton-proton collision data recorded at s = 13 TeV and s = 13.6 TeV with the ATLAS and CMS detectors at the LHC are presented. CMS results on the Higgs boson mass and width in the H   channel are reported, together with a measurement of the Higgs boson width in the H  W W  final state. A combined measurement of the charge-parity (CP) nature of the Higgs-vector boson couplings by the ATLAS collaboration, as well as improved results in individual channels by both experiments are summarised. Finally, the latest CMS analysis of the CP structure of the Higgs-tau lepton Yukawa coupling is reported.
+
+1 Introduction
+
+The Higgs boson mass, mH, is not predicted by the standard model (SM) and must be measured experimentally. Its precise determination is essential for predicting Higgs couplings, probing electroweak vacuum stability, and testing the consistency of the electroweak sector. In contrast, the Higgs width, H, is predicted in the SM to be approximately 4.1 MeV. Deviations from this value would indicate beyond the standard model (BSM) physics. However, direct measurements of H are challenging due to the larger detector resolution which is of order 1 GeV. The SM is unable to explain the observed matter-antimatter asymmetry of the universe, with additional sources of charge-parity (CP) violation required. While the Higgs boson is predicted to be CP-even in its interactions with other SM particles, CP-violating couplings could exist in BSM scenarios and can be probed at the LHC.
+
+The latest measurements of Higgs boson properties are reported in these proceedings using
+
+proton-proton collision during Run 2 (138-140
+
+data fb-1
+
+recorded by the ATLAS and at s = 13 TeV) and Run 3
+
+(C6M2-S16e4xfpbe-ri1maetntssa=t t1h3e.6CTEeRVN).LHC
+
+aCopyright 2026 CERN for the benefit of the ATLAS and CMS Collaborations. Reproduction of this article or parts of it is allowed as specified in the CC-BY-4.0 license.
+
+2 Higgs boson mass and width measurements
+
+2.1 Latest Higgs boson mass measurement
+The Higgs boson mass can be precisely measured in the diphoton decay channel despite the small H   branching ratio of 0.23%, as it is a relatively clean final state. The latest measurement of mH has been performed by the CMS collaboration using the Run 2 dataset 1. Excellent mass resolution is achieved using precise photon energy calibrations. The energy scale is first measured using electrons from Z  ee decays, before further corrections are derived using photons from Z  µµ decays. Events are categorised using a boosted decision tree, before a fit to the diphoton invariant mass is performed.
+The Higgs boson mass is found to be mH = 125.14 ± 0.11 (syst.) ± 0.10 (stat.) GeV. The result is combined with the previous CMS measurement using data recorded during LHC Run 1, yielding a combined value of mH = 125.07 ± 0.13 GeV. This result is in good agreement with the CMS result in the H  ZZ  4 decay channel, as well as equivalent measurements by the ATLAS collaboration, as shown in Fig. 1.
+
+CMS Preliminary
+
+ATLAS H4l Run 1 + Run 2 Phys. Lett. B 843 (2023) 137880
+CMS H4l Run 1 + Run 2 Phys. Rev. D 111 (2025) 092014
+ATLAS H Run 1 + Run 2 Phys. Lett. B 847 (2023) 138315
+CMS H Run 1 + Run 2 CMS-PAS-HIG-24-007
+
+122
+
+123
+
+124
+
+5.1 fb-1 (7 TeV) + 19.7 fb-1 (8 TeV) + 138 fb-1 (13 TeV)
+
+Total
+
+Stat
+
+Syst
+
+Tot Stat Syst
+
+124.94 ± 0.18 ( ± 0.17 ± 0.03) GeV
+
+125.08 ± 0.12 ( ± 0.10 ± 0.05) GeV
+
+125.22 ± 0.14 ( ± 0.11 ± 0.09) GeV
+
+125.07 ± 0.13 ( ± 0.09 ± 0.10) GeV
+
+125
+
+126
+
+127
+
+128
+
+mH (GeV)
+
+Figure 1 ­ Summary of the ATLAS and CMS Higgs boson mass measurements performed in the H   and H  ZZ  4 decay channels. The measured values of mH are in good agreement.
+
+2.2 Latest Higgs boson width measurements
+The Higgs boson width has been measured by the CMS collaboration from the ratio of off-shell to on-shell H  W W   eµ decays using the Run 2 dataset 2. The on-shell and off-shell events are separated by Higgs boson production mechanism using a deep neural network. The combined off-shell Higgs boson signal strength was found to be µoff-shell = 1.2-+00..78. This was used to derive the total decay width H = 3.9-+22..27 MeV, in agreement with the SM prediction, and complementing measurements in the H  ZZ channel.
+A complementary measurement of H was performed by CMS with on-shell H   decays using the Run 2 dataset 3. The analysis exploits the interference between gg  H   signal and the non-resonant gg   background which leads to a H-dependent distortion of the diphoton mass spectrum. The observed limit is H < 92 MeV at the 95% confidence level (CL), which represents a large improvement with respect to previous on-shell measurements, while remaining weaker than constraints from on and off-shell comparisons.
+3 Higgs boson CP Properties
+3.1 Combined measurement of Higgs-vector boson couplings
+A combined measurement of the CP properties of Higgs boson interactions with vector bosons has been performed by the ATLAS collaboration using the Run 2 dataset4. CP-violating interactions
+
+

@@ -1,0 +1,21 @@
+---
+description: Read authoritative sources before designing; never guess; verify before claiming.
+alwaysApply: true
+---
+
+# 01 — Read First, Do Not Guess
+
+- **Read the authoritative doc BEFORE designing anything.** Never write configs, architecture,
+  or conventions from assumption. Prior AIs poisoned this space by writing what "seemed right"
+  without reading — that is the failure mode to avoid.
+- **Do not decide from the first file you find.** Spend most effort in prep/staging/contemplating
+  WHAT to do before acting (roughly 75/25). Inference is most valuable on genuinely non-local state.
+- **Ignore names; read what the code does.** Dry-run before determining what something is for.
+- **Verify before claiming.** Label evidence explicitly:
+  `fact` (verified in live code/receipt) · `claim` (stated, unverified) · `inference` (reasoned)
+  · `open_question` · `preview_only`. Never present a guess as fact.
+- **Errors are directives, not failures** — bounce back using the exposed incorrectness.
+- **Reuse freely** — take any code from any part of the ecosystem; no permission needed.
+
+References: `D:\MannyAI\docs\ai-instructions\` — 01-FIRST-ROUTING, 03-HONESTY-DOCTRINE,
+08-OPEN-OBLIGATION, 09-CODE-REUSE-AUTHORITY.

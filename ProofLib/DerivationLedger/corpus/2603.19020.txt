@@ -1,0 +1,190 @@
+DRAFT VERSION 20 MARCH 2026 Typeset using LATEX twocolumn style in AASTeX631
+
+arXiv:2603.19020v1 [gr-qc] 19 Mar 2026
+
+GWTC-4.0: Tests of General Relativity. II. Parameterized Tests THE LIGO SCIENTIFIC COLLABORATION, THE VIRGO COLLABORATION, AND THE KAGRA COLLABORATION
+
+(Compiled: 20 March 2026)
+
+ABSTRACT In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO­Virgo­KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates  10-3 yr-1 from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2­5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to mg  1.92 × 10-23 eV/c2. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.
+
+1. OVERVIEW This paper is the second of three papers examining the nature of gravity through tests of general relativity (GR)-- and more generally of physics beyond the usual assumption of quasi-circular, isolated binaries composed of black holes (BHs) and/or neutron stars (NSs)--performed on the gravitational wave (GW) signals as reported by the LIGO­Virgo­KAGRA Collaboration (LVK) in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0; Abac et al. 2025a,b). Paper I (Abac et al. 2025c) gives an introduction and overview of our suite of events, tests, and shared methods, and also presents the results of the consistency tests. Paper III (Abac et al. 2025d) focuses on tests of the remnants, considering the ringdown and possible echoes. This paper describes the various parameterized tests performed to place quantitative bounds on possible deformations of the GWs observed from compact binary coalescence (CBC) sources, relative to those calculated in GR. Specifically, we apply these tests to binary BH (BBH), NS­BH binary (NSBH), and binary NS (BNS) systems. Where applicable, we describe the improved bounds
+The full author list is given at the end. For correspondence: LSC P&P Committee, for LVK Publications, via lvc.publications@ligo.org
+
+relative to previous GW catalogs and to existing bounds in the literature.
+Specifically, we first examine deviations in post-Newtonian (PN) coefficients. The PN approximation (e.g., Einstein et al. 1938; Chandrasekhar 1965; Maggiore 2007; Poisson & Will 2014) is the standard framework for computing and testing corrections to Newtonian gravity. Tests of gravity in the PN framework have commonly been carried out in the weak field (e.g., Solar System tests; Will 2014, 2018). However, for CBCs, the PN approximation has been iterated to an impressively high order in perturbation theory (Blanchet 2024), so one can even use it to test highly relativistic effects during the end of inspiral (e.g., Blanchet & Sathyaprakash 1994, 1995; Arun et al. 2006a,b). For a binary system, the PN approximation describes corrections to the binary's dynamics as a series in powers of v/c, where v is the binary's orbital velocity. The coefficients we test appear in the GW phase, and thus describe a combination of the binary's conservative and dissipative dynamics.
+The lowest few PN parameters can be constrained with binary-pulsar observations (e.g., Taylor & Weisberg 1982, 1989; Kramer et al. 2021), while higher PN orders can only be constrained meaningfully with GW observations, since these allow one to probe the strong-field, dynamical portion of the binary's evolution close to merger. We use two frameworks (TIGER and FTI, both defined and described below) to place bounds on deviations in individual PN coefficients, and also
+
+2
+
+Table 1. Event selection table for the analyses in this paper, from first part of the fourth observing run (O4a) and the previous observing runs O1­O3
+
+Parameterized
+
+SIM
+
+PRP
+
+Run Event Name
+
+SNR (1+z)M/M eff
+
+q
+
+TIGER FTI PCA Phenom EOB LOSA MDR SSB
+
+O1 GW150914
+
+26.0+-00..12 30.7+-11..86 -0.04+-00..1124 0.88+-00..1212
+
+GW151012*
+
+9.3+-00..35
+
+18.8+-31..45
+
+0.13-+00..3202 0.57+-00..3364
+
+GW151226
+
+12.7+-00..33 9.71-+00..0086
+
+0.20+-00..2038 0.53+-00..4314
+
+O2 GW170104
+
+13.8+-00..23 25.7+-11..77 -0.04-+00..1159 0.73-+00..2246
+
+GW170608
+
+15.3+-00..23 8.50+-00..0055
+
+0.05+-00..1035 0.74-+00..2333
+
+GW170729*
+
+10.7-+00..45 52.5+-91.22.0
+
+0.33-+00..2332 0.58-+00..3253
+
+GW170809
+
+12.8-+00..23 29.9-+22..40
+
+0.07+-00..1177 0.71-+00..2255
+
+GW170814
+
+17.7+-00..23 27.0-+11..53
+
+0.08-+00..1133 0.81+-00..1263
+
+GW170817
+
+32.7-+00..11 1.1976-+00..00000042 0.02-+00..0062 0.72-+00..2241
+
+GW170818
+
+12.0+-00..34 32.7+-22..85 -0.05-+00..1292 0.80-+00..1284
+
+GW170823
+
+12.2+-00..23 39.1+-54..47
+
+0.07+-00..2212 0.78+-00..2300
+
+O3a GW190408 181802 14.6-+00..23 23.8+-11..25 -0.03-+00..1137 0.75+-00..2216
+
+GW190412
+
+19.8+-00..23 15.24+-00..3273 0.21-+00..1123 0.325-+00..107927
+
+GW190421 213856 10.7-+00..24 45.9+-56..73 -0.10-+00..2217 0.78+-00..2302
+
+GW190425
+
+12.4-+00..34 1.4873+-00..00000086 0.06-+00..1015 0.67-+00..2295
+
+GW190503 185404 12.1-+00..24 37.8+-66..17 -0.05+-00..2330 0.69+-00..2279
+
+GW190512 180714 12.7+-00..34 18.58+-00..6696 0.02-+00..1134 0.54-+00..3168
+
+GW190513 205428 12.5+-00..34 30.7+-63..14
+
+0.18+-00..2292 0.52+-00..4210
+
+GW190517 055101 10.8+-00..56 36.2+-44..29
+
+0.52+-00..2206 0.64+-00..3300
+
+GW190519 153544 15.9+-00..23 65.1-+81.07.9 0.33+-00..2204 0.63+-00..2262
+
+GW190521
+
+14.3+-00..43
+
+101+-2394
+
+-0.14-+00..5405 0.59-+00..3338
+
+GW190521 074359 25.9-+00..12 39.8+-32..27
+
+0.10+-00..1133 0.77+-00..1291
+
+GW190602 175927 13.2-+00..23
+
+73-+1128
+
+0.12+-00..2258 0.63-+00..3324
+
+GW190630 185205 16.4-+00..23 29.5-+21..17
+
+0.10-+00..1143 0.68-+00..2282
+
+GW190706 222641 13.4-+00..24
+
+77+-1128
+
+0.32-+00..2340 0.56-+00..3245
+
+GW190707 093326 13.1-+00..24 9.90-+00..1110 -0.04-+00..1009 0.66+-00..2280
+
+GW190708 232457 13.4-+00..23 15.48-+00..2254 0.05-+00..1110 0.58+-00..3168
+
+GW190720 000836 10.9-+00..38 10.37-+00..1111 0.19-+00..1141 0.53-+00..3254
+
+GW190727 060333 11.7-+00..25 45.2+-55..85
+
+0.11-+00..2266 0.79+-00..1289
+
+GW190728 064510 13.1-+00..34 10.14+-00..1018 0.13+-00..2007 0.64-+00..3306
+
+GW190814
+
+25.3+-00..12 6.42+-00..0022
+
+0.00-+00..0077 0.111-+00..001121
+
+GW190828 063405 16.5+-00..23 34.6+-32..59
+
+0.19+-00..1167 0.82-+00..1256
+
+GW190828 065509 10.2+-00..45 17.33+-00..6711 0.05-+00..1167 0.44-+00..3186
+
+GW190910 112807 14.5+-00..23 43.6-+44..40
+
+0.00+-00..1179 0.80-+00..1283
+
+GW190915 235702 13.1-+00..23 32.5+-33..11 -0.02-+00..1293 0.76-+00..2219
+
+ ++ I  I ++ PI  ++ PI PI   PI ··· PI  PI PI PI PI  PI  PI I  I PI I   I PI PI
+
+++ · · · ··· ··· ++ · · · ++ · · · ++ · · · ··· ··· ··· ··· ++ · · · ++ + ··· ··· ··· ··· ++ · · · ++  ··· ··· ··· ··· ··· ··· ++ · · · ··· ··· ··· ··· ··· ··· ··· ··· ++ · · · ··· ··· ++ · · · ··· ··· ++ · · · ++ · · · ++ · · · ··· ··· ++ · · · ++  ++ · · · ++ · · · ··· ··· ··· ···
+
+··· ··· ···  + · · · · · · · · · ++ +  ··· ···  + ··· ··· ···  + ··· ··· ···  + · · · · · · · · · ++ + ··· ··· ···  + ··· ··· ···  + · · · · · ·  ++ · · · ··· ··· ···  + ··· ··· ···  + ··· ··· ···  +  ··· ···  + ··· ··· ···  +
+··· ···  ··· ··· ··· ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  +
+··· ··· ··· ··· ··· ··· ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  +  ··· ···  + ··· ··· ···  +  ··· ···  + ··· ··· ···  +  ··· ···  + ··· ··· ···  + ··· ··· ···  + ··· ··· ···  +
+
+Table 1 continued
+
+

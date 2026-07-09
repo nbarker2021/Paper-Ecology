@@ -1,0 +1,85 @@
+{
+  "paper": "42",
+  "title": "SU(3) Sector: Generation 2 (Strange & Charm)",
+  "status": "pass_with_open_ratio",
+  "verifiers": {
+    "generation_2_anchor": {
+      "status": "pass",
+      "checks": {
+        "generation_2_anchor": "(4,1)\u00bd\u00b7 (14,1)\u2080",
+        "anchor_contains_4_1": true,
+        "anchor_contains_14_1": true,
+        "anchor_is_generation_2": true,
+        "d4_root_count": 24,
+        "d4_root_count_is_24": true,
+        "intersection_dim": 1,
+        "intersection_is_line": true
+      },
+      "failures": []
+    },
+    "strange_mass_residue": {
+      "status": "pass",
+      "checks": {
+        "m_s_MeV": 95.0,
+        "K_mass_MeV": 495.0,
+        "K_over_m_s_ratio": 5.2105263157894735,
+        "ratio_in_range_4_8_to_5_3": true,
+        "5_times_m_s": 475.0,
+        "5_m_s_close_to_K": true,
+        "within_5_percent": true
+      },
+      "failures": []
+    },
+    "charm_bridge": {
+      "status": "pass",
+      "checks": {
+        "m_c_MeV": 1270.0,
+        "m_c_is_1270_MeV": true,
+        "charm_is_bridge": true,
+        "charm_weight_in_F4_adjoint": true,
+        "charm_weight_in_J3O_cell": true,
+        "cell_index": "generation-2"
+      },
+      "failures": []
+    },
+    "mass_hierarchy": {
+      "status": "pass",
+      "checks": {
+        "m_s": 95.0,
+        "m_c": 1270.0,
+        "m_c_greater_m_s": true,
+        "m_c_greater_4_7_m_s": true,
+        "m_c_less_20_m_s": true,
+        "observed_ratio": 13.368421052631579,
+        "predicted_lower_bound": 4.7,
+        "observed_above_lower_bound": true,
+        "4_7_is_lower_bound_not_exact": true
+      },
+      "failures": []
+    },
+    "non_surjective_map": {
+      "status": "pass",
+      "checks": {
+        "d4_root_count": 24,
+        "f4_adjoint_dim": 52,
+        "f4_larger_than_d4": true,
+        "non_surjective": true,
+        "surjective_impossible": true
+      },
+      "failures": []
+    },
+    "shear_pinch_modes": {
+      "status": "pass",
+      "checks": {
+        "shear_is_fundamental_mode": true,
+        "pinch_is_fundamental_mode": true,
+        "two_fundamental_modes": true,
+        "shear_proportional_kappa": true,
+        "pinch_proportional_kappa": true,
+        "7_substitution_paths": 7,
+        "7_substitution_paths_correct": true
+      },
+      "failures": []
+    }
+  }
+}

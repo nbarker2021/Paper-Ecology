@@ -1,0 +1,459 @@
+DRAFT VERSION 20 MARCH 2026 Typeset using LATEX twocolumn style in AASTeX631
+
+arXiv:2603.19021v1 [gr-qc] 19 Mar 2026
+
+GWTC-4.0: Tests of General Relativity. III. Tests of the Remnants THE LIGO SCIENTIFIC COLLABORATION, THE VIRGO COLLABORATION, AND THE KAGRA COLLABORATION
+
+(Compiled: 20 March 2026)
+
+ABSTRACT
+
+This is the third paper of the set recording the results of the suite of tests of general relativity (GR) performed on
+
+the signals from the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), where we focus on the remnants
+
+of the binary mergers. We examine for the first time 42 events from the first part of the fourth observing run of the
+
+LIGO­Virgo­KAGRA detectors, alongside events from the previous observation runs, restricting our analysis to
+
+the confident signals, which were measured in at least two detectors and that have false alarm rates  10-3 yr-1.
+
+This paper focuses on seven tests of the coalescence remnants. Three of these are tests of the ringdown and its
+
+consistency with the expected quasi-normal mode (QNM) spectrum of a Kerr black hole. Specifically, two tests
+
+analyze just the ringdown in the time domain, and the third test analyzes the entire signal in the frequency domain.
+
+Four tests allow for the existence of possible echoes arriving after the end of the ringdown. As such echoes are
+
+not expected in GR, we consider two families of proposed waveform templates, and two independent searches
+
+for general excess coherent power after the merger. We find overall consistency of the remnants with GR, and
+
+the tightest single-event constraint on the damping time of the dominant (2, 2, 0) QNM of all the GWTC-4.0
+
+events is found for GW231226 101520 by the frequency domain ringdown analysis. When combining events by
+
+multiplying likelihoods (hierarchically), that analysis finds that the GR prediction lies at the boundary of the
+
+r9a8n.g6e-+s19..o44f%va(l9u9e.s3-+co04m..75%es)fcroremdibboleotrsetrgaipopni,nagntoinaccrecaosuentfrfoomr th9e3.f8in+-i62te.01.n0%um(b9e4r.9o-+f 41e.8v4.e2n%ts)
+
+for GWTC-3.0. Here the analyzed and suggest that
+
+some of the apparently significant deviation could be attributed to variance due to the finite catalog. Since the
+
+significance also decreases to 92.2% (96.2%) when including the more recent very loud event GW250114, there
+
+is no strong evidence for a GR deviation. We find no evidence for post-merger echoes in the events that were
+
+analyzed.
+
+1. OVERVIEW In this paper, we examine whether the gravitational waves (GWs) emitted by remnants of compact binary coalescences (CBCs) behave as predicted by general relativity (GR). The preceding two papers presented tests for general consistency with GR (Paper I; Abac et al. 2025a) and parameterized tests (Paper II; Abac et al. 2025b). This third testing GR paper specifically summarizes the results of the ringdown-based tests for black hole (BH) remnants and echo searches. The expected remnant of a binary BH (BBH) merger is an isolated Kerr BH, a simple object whose perturbations are well studied mathematically (Chandrasekhar 1983; Pound & Wardell 2022), making it an excellent candidate for clean tests of strong-field gravity. In particular, a linearly perturbed Kerr BH is expected to shed its perturbations by emitting radiation described by quasi-normal modes (QNMs), which have complex frequencies determined by the BH's mass and spin (Vishveshwara 1970; Berti et al. 2009). Thus, the QNM signal
+The full author list is given at the end. For correspondence: LSC P&P Committee, for LVK Publications, via lvc.publications@ligo.org
+
+decays exponentially and in practice only a handful of cycles are detectable even for strong signals at current sensitivities, such as the event GW250114 (Abac et al. 2025c) from the second part of the fourth observing run (O4b). Analyzing this ringdown signal in the linear regime allows one to make tests of the consistency of multiple QNMs with the GR predictions. No further signals are expected in GR after the ringdown of the system, although later signals, termed echoes, have been predicted in some alternative theories. These ringdowns and echoes are the subject of the tests in this paper.
+The tests were performed on the events reported by the LIGO­Virgo­KAGRA Collaboration (LVK) in the fourth GW transient catalog (GWTC-4.0; Abac et al. 2025d,e), which were observed with at least two detectors and have a false-alarm rate of  10-3 yr-1. Table 1 details which events were examined for each test. These include events from the first part of the fourth observing run (O4a), which are new (Abac et al. 2025e), as well as some events from previous runs, O1 (Abbott et al. 2016), O2 (Abbott et al. 2019a,b), O3a (Abbott et al. 2024, 2021a), and O3b (Abbott et al. 2023a, 2025), which have been used for a subset of the tests. Of the O4a events tested here, GW230518 125908 has masses consistent with a neutron star­BH binary, while the rest all have masses consistent with BBHs. The loud event GW230814 230901
+
+2
+
+Table 1. Event selection table for the analyses in this paper, from O4a and the previous observing runs O1­O3
+
+Ringdown
+
+Echoes
+
+Waveforms Min. Mod.
+
+Run Event Name
+
+SNR (1+z)Mf /M f
+
+q
+
+pyRing pSEOBNR QNMRF ADA BHP BW CWB
+
+O1 GW150914
+
+26.0+-00..12 67.6+-33..62 0.68-+00..0055 0.88+-00..1212
+
+++
+
+
+
+GW151012*
+
+9.3-+00..35
+
+44.3+-142.3.8 0.70-+00..1133 0.57+-00..3364
+
+···
+
+···
+
+GW151226
+
+12.7+-00..33 22.6+-91..55 0.75-+00..1025 0.53-+00..4314
+
+···
+
+···
+
+O2 GW170104
+
+13.8-+00..23 57.8+-43..05 0.67+-00..0078 0.73-+00..2246
+
+++
+
+
+
+GW170608
+
+15.3-+00..23 18.86+-20..3393 0.69-+00..0033 0.74-+00..2333
+
+···
+
+···
+
+GW170729*
+
+10.7+-00..45
+
+119+-1198
+
+0.80-+00..0280 0.58+-00..3253
+
+···
+
+···
+
+GW170809
+
+12.8-+00..23 67.3+-54..72 0.71+-00..0088 0.71-+00..2255
+
+···
+
+···
+
+GW170814
+
+17.7-+00..23 59.7+-32..37 0.72-+00..0076 0.81+-00..1263
+
+++
+
+···
+
+GW170817
+
+32.7+-00..11 2.67-+00..1065 0.68+-00..0013 0.72+-00..2241
+
+···
+
+···
+
+GW170818
+
+12.0+-00..34 72.6-+65..02 0.69-+00..0088 0.80-+00..1284
+
+···
+
+···
+
+GW170823
+
+12.2-+00..23 87.2+-191.1.0 0.71-+00..0089 0.78-+00..2300
+
+++
+
+···
+
+O3a GW190408 181802 14.6+-00..23 53.3-+32..19 0.67-+00..0067 0.75+-00..2216
+
+++
+
+···
+
+GW190412
+
+19.8-+00..23 40.7-+54..56 0.66-+00..0054 0.325+-00..107927 · · ·
+
+···
+
+GW190421 213856 10.7+-00..24
+
+103+-1121
+
+0.66+-00..0192 0.78-+00..2302
+
+···
+
+···
+
+GW190503 185404 12.1-+00..24
+
+86+-1122
+
+0.66+-00..0195 0.69+-00..2279
+
+···
+
+···
+
+GW190512 180714 12.7+-00..34 43.4+-42..47 0.65+-00..0067 0.54+-00..3168
+
+++
+
+···
+
+GW190513 205428 12.5+-00..34 72.8-+183.2.4 0.72+-00..1134 0.52+-00..4210
+
+++
+
+···
+
+GW190517 055101 10.8+-00..56 80.9+-87..93 0.87+-00..0057 0.64+-00..3300 · · ·
+
+···
+
+GW190519 153544 15.9+-00..23
+
+146-+1166
+
+0.79-+00..0172 0.63-+00..2262
+
+++
+
+
+
+GW190521
+
+14.3+-00..43
+
+234-+5302
+
+0.62-+00..2213 0.59+-00..3338
+
+++
+
+···
+
+GW190521 074359 25.9-+00..12 88.1+-64..76 0.71+-00..0076 0.77+-00..1291
+
+++
+
+
+
+GW190602 175927 13.2+-00..23
+
+166+-2232
+
+0.72+-00..1117 0.63-+00..3324
+
+++
+
+···
+
+GW190630 185205 16.4-+00..23 66.4+-43..64 0.70-+00..0067 0.68+-00..2282 · · ·
+
+
+
+GW190706 222641 13.4+-00..24
+
+177+-2224
+
+0.80-+00..0186 0.56-+00..3245
+
+++
+
+···
+
+GW190707 093326 13.1-+00..24 22.35+-10..6751 0.66-+00..0033 0.66-+00..2280 · · ·
+
+···
+
+GW190708 232457 13.4-+00..23 35.5+-31..07 0.68+-00..0045 0.58+-00..3168
+
+++
+
+···
+
+GW190720 000836 10.9-+00..38 24.2-+41..46 0.71+-00..0055 0.53+-00..3254 · · ·
+
+···
+
+GW190727 060333 11.7+-00..25 100.2-+192.8.2 0.73-+00..1100 0.79+-00..1289
+
+++
+
+···
+
+GW190728 064510 13.1-+00..34 22.82-+50..5797 0.71+-00..0044 0.64-+00..3306 · · ·
+
+···
+
+GW190814
+
+25.3-+00..12 27.0+-11..53 0.28+-00..0033 0.111+-00..001121 · · ·
+
+···
+
+GW190828 063405 16.5-+00..23 76.0-+75..75 0.76-+00..0077 0.82-+00..1256
+
+++
+
+
+
+GW190828 065509 10.2-+00..45 42.3-+53..99 0.64+-00..0088 0.44+-00..3186 · · ·
+
+···
+
+GW190910 112807 14.5-+00..23 96.6+-87..72 0.69+-00..0088 0.80-+00..1283
+
+++
+
+
+
+GW190915 235702 13.1+-00..23 72.7+-76..10 0.69-+00..0089 0.76+-00..2219
+
+++
+
+···
+
++
+
+++ + + +
+
+···
+
+++ ++
+
+···
+
+++ + + +
+
+···
+
+++ + + +
+
+···
+
+++ + + +
+
+···
+
+··· + + +
+
+···
+
+++ · · · + +
+
+···
+
+++ + + +
+
+···
+
+··· ··· + ···
+
+···
+
+++ + + · · ·
+
+···
+
+++ + + +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ + · · · +
+
+···
+
+++ · · · · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · +
+
+···
+
+++ · · · · · · · · ·
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ · · · · · · · · ·
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ + · · · · · ·
+
+···
+
+··· + ··· +
+
+···
+
+++ + · · · +
+
+···
+
+++ + · · · · · ·
+
+···
+
+++ · · · · · · · · ·
+
+···
+
+++ + · · · +
+
+Table 1 continued
+
+

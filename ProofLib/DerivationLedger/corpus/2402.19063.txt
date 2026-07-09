@@ -1,0 +1,135 @@
+Search for Axion dark matter with the QUAX­LNF tunable haloscope
+A. Rettaroli,1,  D. Alesini,1 D. Babusci,1 C. Braggio,2, 3 G. Carugno,2 D. D'Agostino,4, 5 A. D'Elia,1 D. Di Gioacchino,1 R. Di Vora,6 P. Falferi,7, 8 U. Gambardella,4, 5 A. Gardikiotis,2 C. Gatti,1
+C. Ligi,1 A. Lombardi,6 G. Maccarrone,1 A. Ortolan,6 G. Ruoso,6 S. Tocci,1,  and G. Vidali9, 1
+1INFN, Laboratori Nazionali di Frascati, Frascati, Roma, Italy 2INFN, Sezione di Padova, Padova, Italy
+3Dipartimento di Fisica e Astronomia, Padova, Italy 4Dipartimento di Fisica E.R. Caianiello, Fisciano, Salerno, Italy
+5INFN, Sezione di Napoli, Napoli, Italy 6INFN, Laboratori Nazionali di Legnaro, Legnaro, Padova, Italy 7Istituto di Fotonica e Nanotecnologie, CNR Fondazione Bruno Kessler, I-38123 Povo, Trento, Italy
+8INFN, TIFPA, Povo, Trento, Italy 9Dipartimento di Fisica, Universit`a La Sapienza, Rome, Italy
+(Dated: May 16, 2024)
+We report the first experimental results obtained with the new haloscope of the QUAX experiment located at Laboratori Nazionali di Frascati of INFN (LNF). The haloscope is composed of a OFHC Cu resonant cavity cooled down to about 30 mK and immersed in a magnetic field of 8 T. The cavity frequency was varied in a 6 MHz range between 8.831496 and 8.83803 GHz. This corresponds to a previously unprobed mass range between 36.52413 and 36.5511 µeV. We don't observe any excess in the power spectrum and set limits on the axion-photon coupling in this mass range down to ga < 0.882 × 10-13 GeV-1 with the confidence level set to 90%.
+
+arXiv:2402.19063v3 [physics.ins-det] 15 May 2024
+
+I. INTRODUCTION
+In recent years, we witnessed an increasing growth in the research of light Dark Matter (DM) candidates, addressing in particular axions and axion-like particles (ALPs). If axions are found to exist, they would untie the long-standing DM problem [1, 2], after being originally postulated as a solution to the strong CP problem [3, 4]. The nature of a pseudoscalar, electrically neutral and feebly interacting particle makes the axion a strong DM candidate [5­7], and its cosmological evolution and astrophysical constraints indicate a favorable mass range between 1 µeV < ma < 10 meV [8].
+The research efforts are now spread over many different detection approaches, but the paradigm has become the haloscope design proposed by Sikivie [9, 10], which probes axions from the DM halo of the Galaxy. Currently operating haloscopes are ADMX [11­14], HAYSTAC [15­17], ORGAN [18, 19], CAPP-8T [20, 21], CAPP-9T [22], CAPP-PACE [23], CAPP-18T [24], CAST-CAPP [25], CAPP-12TB [26], GrAHal [27], RADES [28­30], TASEH [31] and QUAX [32­38], whereas among the proposed experiments are FLASH [39], BabyIAXO/RADES [40], ABRACADABRA [41], DM-Radio [42, 43], CADEx [44], MADMAX [45], ALPHA [46], WISPLC [47], DALI [48], BRASS [49], BREAD [50] and SUPAX [51].
+The axion observation technique is based upon its inverse Primakoff conversion into one photon, stimulated by a static magnetic field. The essential elements required to run a haloscope are a superconducting magnet
+ alessio.rettaroli@lnf.infn.it  simone.tocci@lnf.infn.it
+
+to generate a strong magnetic field, a microwave resonant cavity where the electromagnetic field excitation builds up, an ultra-low noise receiver, a tuning mechanism to scan over the axion mass range and a cryogenic system to grant operation at low temperature. The two figures of merit in the axion search are the power of the produced photon [52]
+
+Pa =
+
+ga2 ma2
+
+3c3a
+
+1
+
+ +
+
+
+
+c
+
+1 µ0
+
+B02V
+
+C010QL
+
+(1)
+
+×
+
+1 1 + (2QL c/c)2
+
+,
+
+and the scan rate [53]
+
+df dt
+
+= ga4
+
+2a ma2
+
+1 SNR2
+
+B02V C010 2 kB Tsys
+
+(2)
+
+× (1
+
+2 + )2
+
+Qa
+
+min
+
+(QL,
+
+Qa) .
+
+We assume a local DM density a = 0.45 GeV/cm3 [54], ma is the axion mass and ga is its coupling constant to photons. B0 is the applied magnetic field; c = 2c, V , QL,  are respectively the resonance angular frequency of the cavity, the volume, the loaded quality fac-
+tor and the antenna coupling to the cavity. The relation
+QL = Q0/ (1 + ) holds, with Q0 the intrinsic quality factor. C010 is a mode dependent geometrical factor, about 0.69 for the TM010 resonant mode of a cylindrical cavity, and c = c - a is the detuning between the cavity and the axion angular frequency defined as a = mac2/. The quality factor Qa  106 [55] is related to the energy spread in the cold dark matter halo.
+
+In Eq. (2), the signal-to-noise ratio, SNR, is defined as the ratio between the signal power and the uncertainty of the noise power, SNR  Pa/Pnoise, while Tsys is the system noise temperature, whose reduction is of fundamental importance in speeding up the scan rate of the experiment.
+In this paper, we report on the first operation of the new QUAX haloscope located at the National Laboratories of Frascati (LNF), which doubles the search potential of the QUAX experiment along with the LNL haloscope [38]. The experiment is conducted using a resonant cavity equipped with a tuning rod mechanism allowing to exclude the existence of dark matter axions with coupling ga down to 0.882 × 10-13 GeV-1 in the mass window (36.5241 - 36.5510) µeV.
+II. EXPERIMENTAL SETUP
+1. Haloscope description
+The haloscope, schematized in Fig. 1, consists of a cylindrical OFHC copper resonant cavity, with inner radius r = 13.51 mm and height h = 246 mm, for a total volume V = 0.141 l. The body is divided into two semicylinders, including the endcaps, sealed together with screws. Two coaxial cables are coupled to the cavity via dipole antennas. One antenna is fixed and weakly coupled, with coupling estimated from simulations 1.4×10-3 and verified to be less than 7×10-3 from calibration data, such that Eqs. (1) and (2) are still valid. The other is obtained by stripping the end of a coax cable, leaving only the central conductor for a 2 mm length (Bottom-Left panel of Fig. 2). The coax cable is connected to a linear stepper motor whose movement allows the tunability of the coupling .
+The magnetic field is provided by a NbTi superconducting solenoid magnet with a cold bore diameter of 100 mm and 320 mm height. On top of the magnet, a second coil assures the reduction of the stray field above the cavity below few hundred Gauss. The magnet, initially operated at the nominal field of 9 T, was set to a lower safety value following a quench during a current ramp. The experiment here described was then conducted at 8 T, with a field inside the cavity volume of r.m.s. B02 = 6.73 T.
+The power collected through the tunable antenna is amplified along the output line L5 (see Fig. 1) by the first amplification stage consisting in a cryogenic high electron mobility transistor (HEMT) amplifier. The circulator C1 allows the routing of the RF signals and provides the isolation of the cavity from the HEMT. The HEMT output signal reaches a room temperature field-effect (FET) amplifier through a second circulator, C2, and is then split and transmitted to the downconversion electronics or to a Vector Network Analyzer (VNA) by means of the switch S1.
+The setup is hosted in a Leiden Cryogenics CF-CS110-
+
+2
+
+VNA
+
+DOWN CONVERSION
+
+RT1
+
+RT3
+
+S1 RT2
+
+-3 dB
+
+L1
+
+L2
+
+L3
+
+300 K
+
+-20 dB
+
+4K
+600 mK 50 mK 10 mK
+
+-20 dB
+
+C1
+
+FET
+
+50 
+
+C2
+
+HEMT
+
+L5
+
+RF CAVITY
+
+CR7
+FIG. 1. Experimental setup sketch. The successive temperature stages of the dilution refrigerator are shown with their base temperature. L1 and L3 are input RF lines, L5 is the output amplified line and L2 is an auxiliary line used for further checks. Note that L1, L2 and L3 have intrinsic attenuations of about 15 dB each. The room temperature switches (RT1, RT2, RT3) and the cryogenic switch (CR7) allow all the combinations required for measurements and calibrations. Attenuators are indicated with their attenuation values, while C1 and C2 are circulators. A superconductive RF cable in L5 is indicated in yellow. The magnet is shown as two crossed squares and is thermalized in the 4 K vessel. The HEMT and FET are, respectively, the cryogenic and room-temperature amplifiers, whereas the power splitter is indicated as S1.
+1000 dilution refrigerator equipped with two Sumitomo pulse tubes with cooling power of 1.5 W at 4 K each. The refrigerator is segmented into different temperature stages. The magnet and the HEMT are thermalized at the 4 K stage, while the cavity is connected to the last temperature stage which attained 20 mK at equilibrium. The cavity temperature, monitored during the data taking, reached about 30 mK.
+
+

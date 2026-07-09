@@ -1,0 +1,221 @@
+Probing Light Dark Matter with Cosmic Gravitational Focusing
+Shao-Feng Ge1, 2,  and Liang Tan1, 2,  1State Key Laboratory of Dark Matter Physics, Tsung-Dao Lee Institute & School of Physics and Astronomy, Shanghai Jiao Tong University, China
+2Key Laboratory for Particle Astrophysics and Cosmology (MOE) & Shanghai Key Laboratory for Particle Physics and Cosmology,
+Shanghai Jiao Tong University, Shanghai 200240, China
+We investigate the possibility of using the cosmic gravitational focusing (CGF) to probe the minor light dark matter (DM) component whose mass is in the range of (0.1  100) eV. Being a purely gravitational effect, the CGF offers a mode-independent probe that is complementary to the existing ways such as Lyman- and Neff . Such effect finally leads to a dipole density distribution that would affect the galaxy formation and hence can be reconstructed with galaxy surveys such as DESI. Both the free-streaming and clustering limits have been studied with analytical formulas while the region in between is bridged with interpolation. We show the projected sensitivity at DESI with the typical phase space distribution of a freeze-in DM scenario as illustration.
+
+arXiv:2509.21213v1 [hep-ph] 25 Sep 2025
+
+Introduction ­ The DM plays very important roles in the evolution and structure formation of our Universe [1­3]. For redshift z  10 when the dark energy has not started to dominate, the behavior and history of our Universe is mainly determined by radiation and matter. Of the later, more than 80% are contributed by DM while the remaining by the ordinary matter. To be exact, DM is more than 5 times of the ordinary matter. It is then a fair question to ask whether the DM has just a single type or actually possesses multiple components. Since the ordinary matter world is already a combination of various isotopes that are formed by at least three building blocks (proton, neutron, and electron), it is natural for the DM sector to also have several species.
+The particle physics provides various DM candidates [4, 5] that are not just conceptually neat with unified quantum field theory description in the same way as the ordinary matter but also very simple with typically just mass and coupling strength as the only parameters to explain the observed DM phenomena from both astronomy and cosmology. Of them, the particular interesting ones include the Weakly Interacting Massive Particles (WIMP) [6­10] that participate the weak gauge interactions with mass typically at GeVTeV, the sterile neutrino at keV scale [11­19] suggested by the observed anomalies in neutrino oscillation experiments and astrophysical observations, and the axion [20­22] motivated by the strong CP problem with even lighter mass. The mass spectrum of particle DM candidates spans around 100 orders from the smallest fuzzy DM at 10-22 eV to the astrophysical primordial black holes (PBH) with masses of 1050 g ( 1088 eV) [23]. It is possible for the DM candidates to have totally different masses.
+Besides mass, another important property is whether the DM is cold, warm, or even hot [24]. It can have significant effect on the large scale structure (LSS) of our Universe today. The comparison between the galaxy survey and the theoretical N-body simulation shows strong preference of the cold DM (CDM) [25­28]. Such conclu-
+
+sion is sometimes strengthened to a claim that DM has to be cold. Nevertheless, this is based on the assumption that there is just one DM type. If the DM sector has multiple components, it is perfectly fine to have CDM as the major component with some warm DM (WDM) as a minor contribution. Especially, a mixture of CDM and WDM can help solving the small scale problem [29, 30].
+The small-scale effect of WDM can be probed by Lyman- [31­33], Milk Way satellite galaxies [34], weak lensing [35], strong lensing [36­38], galaxy UV luminosity function [39­41], and stellar streams [42, 43]. If DM is a fermion, it should also be subject to the fermion degenerate gas (Tremaine-Gunn) constraints at the galaxy [44] and cosmological [45] levels. These observations require the WDM mass mWDM  O(1) keV. Therefore, the light WDM with mass below keV can contribute only a fraction of the total DM. The mixed DM scenario with both CDM and WDM, has been widely explored [29, 30, 46­62] with various models [63­67]. The current Lyman- gives a constraint on the WDM fraction FWDM < O(0.1) for the light DM mass mWDM < 100 eV [68]. If the WDM mass below mWDM < O(1) eV, it remains nearly relativistic around recombination and consequently it will also be subject to the constraint on the effective degree of freedom (Neff ) at the cosmic microwave background (CMB) [69]. The light species has also been named as hot DM such as [46, 70­89], before the neutrino oscillation was established in 1998.
+In this letter, we explore the possibility of using the cosmic gravitational focusing (CGF) to probe the minor light DM component. Similar as the cosmic neutrinos [90­95], a light DM X can also develop a relative bulk velocity vXc  vX - vc with respect to the major CDM (c). Then the light DM fluid can be focused when passing by the CDM halo and develop a density dipole that can be traced and reconstructed through the cross correlation between galaxies of different types [90, 94]. Being a purely gravitational effect, the CGF effect can serve as a model-independent method for for probing the light DM.
+
+2
+
+Cosmic Gravitational Focusing and Rough Sen-
+sitivity Estimation ­ As studied earlier, the CGF
+would lead to higher density in the downstream of a
+light particle fluid such as the cosmic neutrinos [90, 92,
+94, 95]. After substracting the average density, the re-
+maining overdensity (x) mainly behaves like a dipole, (x) = -(-x). With Fourier transformation, ~(k) 
+(x)e-ik·xd3x, such density dipole becomes an imaginary contribution, ~(k) = -~(k), in the wave-number (k) space [96]. Then, the total matter overdensity ~m contains the major CDM and the minor light DM contributions as real and imaginary parts, ~m  (1 + i~X )~m, respectively. Below the free-streaming scale kf-s1 of the light DM X, |k|-1 < kf-s1, the imaginary phase ~X for a thermal relic [94] is,
+
+~X
+
+
+
+Ga2 |k|2
+
+(vXc
+
+·
+
+k^)
+
+mX4 f0 + 3mX2 TA2 f1 + 2TA4 f2
+
+,
+
+(1)
+
+where k^ is the unit vector of the wave number k. In
+
+addition, G, a, and TA are the Newton constant, scale
+
+factor, and spectrum parameter that controls the light
+
+DM momentum distribution, respectively. Note that the
+
+spectrum parameter TA redshifts in the same way as tem-
+
+perature, TA(a) = TA0/a where TA0 is the value today,
+
+which would be further discussed in Eq. (2). The coeffi-
+
+cients fn(yi)  gX
+
+ yi
+
+dyy2ndfX
+
+(y)/dy
+
+are
+
+obtained
+
+from
+
+the integration of the phase space distribution fX (p) with
+
+y  |p|/TA and the lower limit yi  mX |vXc · k^|/TA [94].
+
+With the light DM X being non-relativistic (mX  2.7 K
+
+ 10-4 eV) today, the first term dominates the m4X de-
+
+pendence. So the CGF effect becomes stronger for a
+
+heavier DM X.
+
+As elaborated in previous studies [90, 92, 94, 95], the cosmic relic neutrino with sub-eV mass can already have sizable effect. Comparing with the existing LSS and CMB constraints [94, 95], the CGF effect can give at least similar sensitivity on the neutrino mass. While the cosmic relic neutrinos contribute 0.3% of the total energy of our Universe today, the CGF constraint on the light DM fraction FX of the total DM density should reach 0.3%/27%  1% if the light DM has roughly the same mass as neutrinos. Not to say the light DM can have a much larger mass. With m4X dependence in Eq. (1), the sensitivity can significantly enhance for eV mass to easily exceed the existing constraints.
+
+Freeze-in DM with Modified Mass Scaling Be-
+havior ­ The thermally produced light DM with a mass below 1 MeV is almost excluded by the big-bang nucleosynthesis, since it would contribute too much Neff [97­ 100]. Hence, the light DM is mostly generated from the freeze-in mechanism [101­103], such as the two-body decay [104­106], or two-to-two processes [107]. A typical
+
+phase space distribution of such light DM X [104­108] is
+
+fX (p)  CX
+
+e-|p|/TA(a) , |p|/TA(a)
+
+(2)
+
+where p is the DM X momentum, and TA(a)  TA0/a is a spectrum parameter inherited from the freeze-in process. We take TA0 = 10-4 eV as a characteristic value today. The normalization coefficient CX [104­108] can be parameterized by its current energy density,
+
+X0  gX mX
+
+d3p0 (2)3
+
+fX0(p0)
+
+=
+
+3gX CX 83/2
+
+mX
+
+TA3 0 ,
+
+(3)
+
+where gX is the number of degree of freedom for the light DM X. The subscript 0 is for quantities nowadays.
+With the light DM phase space distribution fX (p) in Eq. (2), those coefficients fn in Eq. (1) can be integrated analytically,
+
+fn = -gX CX
+
+1 2
+
+
+
+-
+
+1 2
+
++
+
+2n, yi
+
++
+
+1 2
+
++
+
+2n,
+
+yi
+
+,
+
+where the (x, y) is the Upper Incomplete Gamma Func-
+
+tion. With mX  TA0, the first f0 dominate. Using the result
+
+term f0 =
+
+o-f gEXqC. (X1)e-anyid/h2enycie,
+
+and replacing gX CX with the current DM energy density X0 in Eq. (3), the imaginary phase ~X for a freeze-in
+
+light DM becomes,
+
+~X
+
+
+
+-
+
+43/2 3
+
+Ga2 |k|2
+
+(vXc
+
+·
+
+k^)X0
+
+mX TA0
+
+3
+
+e-yi yi
+
+.
+
+(4)
+
+If the DM X is very cold, it is expected to fully follow the
+
+CDM evolution. In this case, there is no relative velocity,
+
+and no CGF effect manifests in the last
+
+at all. term of
+
+MEqat. h(4e)mea-ticyial/ly, ytihis
+
+feature 0 since
+
+yi = mX |vXc · k^|/TA  1 with mX  TA0.
+
+With the freeze-in phase space distribution fX (p), the mass dependence of ~X is different from the previous mX4 in Eq. (1). This occurs because the current DM density
+
+X0  mX has absorbed one power of mX . Addition-
+
+ally, both yi and the relative velocity vXc depend on the light DM mass mX . Putting yi = mX |vXc · k^|/TA
+
+back into Eq. (4), we obtain the mass scaling behavior
+
+~X  |vXc|1/2m5X/2 instead of the original |vXc|m4X . Considering the fact that the relative velocity roughly
+
+scales inversely with mass, vXc  1/mX , the mass dependence reduces from the original ~X  m3X to m2X now. Since a neutrino mass sum m  0.1 eV cor-
+
+responds to the relative size of cosmic neutrinos to the
+
+CDM as F   /CDM  10-2( m /0.1 eV) where
+
+ and CDM are the neutrino and CDM energy den-
+
+sity fractions of our Universe today, a light DM mass
+
+mX = 1 eV is expected to receive a constraint roughly around FX  X /(CDM + X )  X /CDM  10-4.
+
+Free-Streaming and Clustering Limits ­ Note that Eq. (4) is valid below the free-streaming scale, kf-s1 
+
+

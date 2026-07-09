@@ -1,0 +1,61 @@
+Draft version December 22, 2025 Typeset using LATEX twocolumn style in AASTeX7.0.1
+
+arXiv:2512.17201v1 [astro-ph.HE] 19 Dec 2025
+
+Constraining the Nanohertz Gravitational Wave Background with an X-ray Pulsar Timing Array from NICER observations
+Tian-Yong Cao ,1, 2 Shi-jie Zheng ,1, 2 Shu-Xu Yi ,1, 2 Ming-Yu Ge ,1, 2 Yi-Tao Yin,1, 2 Yao-Ming Duan,1, 2 and Xiang Yang, Wen1, 2
+1State Key Laboratory of Particle Astrophysics, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China 2University of Chinese Academy of Sciences, Chinese Academy of Sciences, Beijing 100049, People's Republic of China
+ABSTRACT
+We present constraints on the nanohertz gravitational wave background (GWB) using X-ray pulsar timing data from the Neutron Star Interior Composition Explorer(NICER). By analyzing six millisecond pulsars over a six-year observational baseline, we employed a Bayesian framework to model noise components and search for a common red signal consistent with a GWB from supermassive black hole binaries (assuming a spectral index gwb = 13/3). Our results show no significant evidence for a GWB, yielding a 95% upper limit of log10(Agwb) < -13.4. Weak evidence for Hellings-Downs spatial correlations was found (S=2.5), though the signal remains statistically inconclusive. Compared to radio and -ray pulsar timing arrays, the NICER constraint is currently less stringent but demonstrates the feasibility of X-ray timing with NICER for GWB studies and highlights the potential for improved sensitivity with future X-ray missions.
+
+Keywords: Gravitational waves (678) -- Pulsars (1306) -- X-ray astronomy (1810) -- Bayesian statistics (1900) -- Neutron stars (1108) -- Astrophysical black holes (98)
+
+1. INTRODUCTION
+With the advent of gravitational-wave astronomy, it has become possible to explore the cosmic population of massive binaries across the Universe. As galaxies evolve and merge over cosmic time (S. D. White & M. J. Rees 1978), the supermassive black holes (SMBHs) residing at their centers are expected to form binary systems (M. C. Begelman et al. 1980), which emit GWs as they inspiral. Due to the vast number of galaxies in the Universe, the GWs from these SMBH binaries superpose incoherently, giving rise to a stochastic gravitational wave background (GWB) (M. Rajagopal & R. W. Romani 1994; J. S. B. Wyithe & A. Loeb 2003; V. Ravi et al. 2015; S. Burke-Spolaor et al. 2019). This GWB encodes valuable information about the history of galaxy mergers and the dynamics of binary SMBHs (A. H. Jaffe & D. C. Backer 2003; A. Sesana et al. 2008; A. Sesana 2013), making it one of the most compelling GW sources
+Corresponding author: Shi-jie Zheng zhengsj@ihep.ac.cn
+Corresponding author: Shu-Xu Yi sxyi@ihep.ac.cn
+
+to study. Moreover, additional nHz GWs are predicted from exotic sources such as cosmic strings (T. W. Kibble 1976; T. Damour & A. Vilenkin 2000; X. Siemens et al. 2007; S. O¨ lmez et al. 2010; S. A. Sanidas et al. 2012), cosmological phase transitions (C. Caprini et al. 2010; X. Xue et al. 2021), and inflation in the early Universe (L. P. Grishchuk 2005; W. Zhao et al. 2013; P. D. Lasky et al. 2016; S. Galtier & S. V. Nazarenko 2017), offering powerful probes of fundamental physics and cosmology.
+Pulsar Timing Arrays (PTAs) are currently the only mature method available to detect GWs in the nHz frequency band (H. Xu et al. 2023; T. Gold 1969; F. A. Jenet et al. 2005; R. N. Caballero et al. 2025; S. Yi et al. 2014; S.-X. Yi & S.-N. Zhang 2016; V. Corbin & N. J. Cornish 2010; S. Detweiler 1979; R. W. Hellings & G. S. Downs 1983; A. H. Jaffe & D. C. Backer 2003; F. A. Jenet et al. 2006, 2004, 2005; K. J. Lee et al. 2011; A. N. Lommen & D. C. Backer 2001; M. V. Sazhin 1978; A. Sesana et al. 2008, 2009; Z. L. Wen et al. 2011; D. R. B. Yardley et al. 2010). Owing to the remarkable rotational stability of pulsars, their beams sweep across the Earth with predictable regularity, allowing precise measurements of pulse times of arrival (ToAs). When a GW passes through the light path between the pulsars and
+
+2
+the earth, it perturbs spacetime, causing subtle shifts in the ToAs. Unlike white and red noise, which can arise from statistical fluctuations, instrumental effects, interstellar medium variations, intrinsic pulsar spin irregularities, etc., a GWB induces a characteristic spatial correlation in the timing residuals between different pulsars. This angular correlation, first derived by R. Hellings & G. Downs (1983), is known as the Hellings-Downs (HD) curve, and serves as a key signature for distinguishing a GWB from uncorrelated noise.
+In 2023, the world's major radio PTA collaborations jointly released their latest constraints on the GWB (G. Agazie et al. 2023; J. Antoniadis et al. 2023a; D. J. Reardon et al. 2023; H. Xu et al. 2023). The Parkes Pulsar Timing Array (PPTA) constrained the GWB amplitude to 2.04+-00..2252 × 10-15 (D. J. Reardon et al. 2023), while the Chinese Pulsar Timing Array (CPTA) provided the strongest evidence to date for HD spatial correlations, reaching a statistical significance of 4.6 (H. Xu et al. 2023). Additionally, the Fermi-LAT collaboration, using a -ray-based PTA, placed an upper limit on the GWB amplitude of 6.7 × 10-15 (M. Kerr et al. 2024).
+The Neutron Star Interior Composition Explorer (NICER) is a dedicated X-ray observatory designed to study emissions from neutron stars (NSs), with primary goals of constraining the NS mass-radius relation and investigating their high-energy emission mechanisms. Leveraging its exceptional timing precision, NICER has enabled high-accuracy measurements of X-ray pulsars, thereby providing valuable constraints on the amplitude of the GWB from PTA in the X-ray band.
+In Section 2, we will describe the processing of NICER data and the methods used to constrain the GWB. The constraint results and their statistical significance will be presented in Section 3. Finally, we will conclude with a summary and outlook in Section 4.
+2. DATA AND METHODS
+2.1. NICER data reduction and timing analysis
+NICER have monitored many X-ray millisecond pulsars (MSPs) with more than six years of observations. The six MSPs, including PSRs J1939+2134, J1824-2452A, J0437-4715, J0030+0451, J0218+4232, and J2124-3358, demonstrate high X-ray fluxes, small rotation periods, and minimal period derivatives, coupled with high stability (although PSR J1939+2134 and B1821-24 show low-frequency timing irregularities dominate the timing residuals (V. M. Kaspi et al. 1994; J. P. W. Verbiest et al. 2009)), rendering them excellent candidates for GWB detection. The exposures of PSRs J1939+2134, J1824-2452A, J0437-4715, J0030+0451, J0218+4232 and J2124-3358 are around several mega-
+
+seconds over the period from June 2017 to September 2023 (see Table 1 in S. Zheng et al. (2024) and Figure 1) , which could be utilized to supply more accurate timing results.
+For each pulsar, the observational data is filtered firstly with the selection criteria outlined in S. Zheng et al. (2024), and then the arrival time of each photon at the local observatory is corrected to the Solar System Barycenter (SSB) with the pulsar's ephemeris from the International Pulsar Timing Array (IPTA) Data Release 2 (DR2) (B. B. P. Perera et al. 2019). Therefore, we yields the high-precision "standard" pulse profile using six years of data. Then the entire data are segmented based on photon count. Each segment comprises approximately 50,000 to 200,000 photons within a 30-day span. We obtain pulsed profiles for each segment and calculate ToAs through cross-correlation analysis with the standard profile. The ToA errors is calculated by performing Gaussian sampling across the pulse profile. The pulsar period parameters and timing residuals are then refined using Tempo2 (G. B. Hobbs et al. 2006; R. T. Edwards et al. 2006).
+
+2.2. Noise Modeling
+
+Similar to -ray pulsars (M. Kerr et al. 2024; FermiLAT Collaboration* 2022), X-ray pulsars emit highenergy photons, making them largely unaffected by plasma dispersion effects during propagation. While dispersion delays, characterized by the dispersion measure (DM), significantly limit the timing precision of low-energy radio pulsars (J. M. Cordes et al. 2016; J. Donner et al. 2020), the propagation speed of Xray and higher-energy photons is essentially frequencyindependent. Consequently, the timing noise of X-ray pulsars can be broadly classified into two categories: white noise and red noise.
+White noise is typically dominated by instrumental statistical noise and uncertainties in the measurement of pulse ToAs, characterized by temporally uncorrelated random fluctuations. For each observed ToA measurement uncertainty ToA, we apply a scaling factor to account for possible misestimation of its amplitude, and introduce an additional white noise term to model excess instrumental noise or other unknown white noise contributions (R. T. Edwards et al. 2006):
+
+Cwhite,I(ti, tj ) = ij EFAC2I i2 + EQUADI2 , (1)
+
+where i, j denote the indices of the ToAs, I represents the index of the pulsar, i is the measurement uncertainty of the i-th ToA, and ij is the Kronecker delta.
+The power spectral density of red noise is defined as:
+
+PI(f )
+
+=
+
+AI2 122
+
+(
+
+f fc
+
+)-I
+
+yr-3
+
+.
+
+(2)
+
+

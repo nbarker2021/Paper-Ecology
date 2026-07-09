@@ -1,0 +1,127 @@
+arXiv:2508.12019v2 [astro-ph.CO] 13 Mar 2026
+
+PREPARED FOR SUBMISSION TO JCAP
+Mitigating point-source contamination in CMB polarization: a Generalized Point Spread Function fitting approach
+Yi-Ming Wang,a,b Wen-Zheng Chen,a,b Yang Liu,a Si-Yu Li,,a Hong Li,a,b
+aKey Laboratory of Particle Astrophysics, Institute of High Energy Physics, Chinese Academy of Sciences, 19B Yuquan Road, Beijing, P.R. China bUniversity of Chinese Academy of Sciences, 19A Yuquan Road, Beijing, P.R. China E-mail: wangyiming@ihep.ac.cn, chenwz@ihep.ac.cn, liuy92@ihep.ac.cn, lisy@ihep.ac.cn, hongli@ihep.ac.cn
+Abstract. Observations of Cosmic Microwave Background (CMB) B-mode polarization provide
+a way to probe primordial gravitational waves and test inflationary predictions. Extragalactic point sources become a major source of contamination after foreground cleaning and can bias estimates of the tensor-to-scalar ratio r at the 10-3 level. We introduce Generalized Point Spread Function Fitting (GPSF), a method for removing point-source contamination in polarization maps. GPSF uses the full pixel-domain covariance, including off-diagonal terms, and models overlapping sources. This allows accurate flux estimation under realistic conditions, particularly for small-aperture telescopes with large beams that are more susceptible to source blending. We test GPSF on simulated sky maps, apply foreground cleaning using the Needlet Internal Linear Combination (NILC) method, and compare its performance with standard masking and inpainting. The results show GPSF reduces point-source contamination without significantly affecting the background signal, as seen in both the maps and their power spectra. For the constraint on r, GPSF reduces the bias from 1.67 × 10-3 to 2.9 × 10-4, with only a 2% increase in standard deviation. Compared to inpainting and masking, GPSF yields lower bias while maintaining comparable variance. This suggests that it may serve as a promising method for future CMB experiments targeting measurements of r  10-3.
+Keywords: CMB polarization, Foreground Removal, Primordial Gravitational Waves, Point Source
+ Corresponding author.
+
+Contents
+
+1 Introduction
+
+1
+
+2 Methodology
+
+3
+
+2.1 Single-source fitting
+
+3
+
+2.2 Extension to multi-source fitting
+
+5
+
+3 Simulations and pipelines
+
+7
+
+3.1 Sky model
+
+7
+
+3.2 Instrumental configuration
+
+9
+
+3.3 Full analysis pipeline using GPSF
+
+10
+
+3.3.1 Point-source mitigation
+
+10
+
+3.3.2 Map preprocessing
+
+10
+
+3.3.3 Foreground cleaning
+
+11
+
+3.3.4 Power spectrum estimation and likelihood analysis
+
+11
+
+3.4 Performance evaluation setup
+
+11
+
+4 Results and discussions
+
+12
+
+4.1 Performance at 30 and 155 GHz frequency bands
+
+13
+
+4.2 Impact on NILC maps and power spectra
+
+14
+
+4.3 Tensor-to-scalar ratio r constraint
+
+17
+
+4.4 Discussion
+
+18
+
+5 Conclusions
+
+18
+
+A Instrumental systematics and atmospheric filtering relevant for GPSF
+
+23
+
+B GPSF hyperparameter choices
+
+27
+
+C Map preprocessing
+
+28
+
+C.1 EB leakage correction
+
+28
+
+C.2 Smoothing
+
+29
+
+D Needlets internal linear combination
+
+30
+
+E Power spectra at 95, 215, 270GHz bands
+
+31
+
+F Bias analysis of GPSF
+
+31
+
+1 Introduction
+Inflation explains the flatness and homogeneity of the early Universe, as well as the origin of primordial perturbations, through a short period of accelerated expansion [1]. In addition to scalar (density) perturbations, inflation also predicts tensor perturbations--primordial gravitational waves--that produce a characteristic B-mode pattern in the polarization of the Cosmic Microwave Background (CMB). The relative amplitude of tensor to scalar modes is described by the tensor-to-scalar ratio
+
+­1­
+
+

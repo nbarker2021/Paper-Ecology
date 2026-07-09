@@ -1,0 +1,162 @@
+-QSSEP: A toy model for entanglement spreading in stochastic diffusive quantum systems
+Vincenzo Alba Dipartimento di Fisica dell'Universit`a di Pisa and INFN, Sezione di Pisa, I-56127 Pisa, Italy
+(Dated: May 11, 2026)
+We investigate out-of-equilibrium entanglement dynamics in a generalization of the so-called QSSEP model, which is a free-fermion chain with stochastic in space and time hopping amplitudes. In our setup, the noisy amplitudes are spatially-modulated satisfying a -site translation invariance but retaining their randomness in time. For each noise realization, the dynamics preserves Gaussianity, which allows to obtain noise-averaged entanglement-related quantities. The statistics of the steady-state correlators satisfy nontrivial relationships that are of topological nature. They reflect the Haar invariance under multiplication with structured momentum-dependent random SU () matrices. We discuss in detail the case with  = 1 and  = 2. For  = 1, i.e., spatially homogeneous noise we show that the entanglement dynamics is describable by a stochastic generalization of the quasiparticle picture. Precisely, entanglement is propagated by pairs of quasiparticles. The entanglement content of the pairs is the same as for the deterministic chain. However, the trajectories of the quasiparticles are random walks, giving rise to diffusive entanglement growth.
+
+arXiv:2507.11674v2 [cond-mat.stat-mech] 8 May 2026
+
+I. INTRODUCTION
+Understanding universality in out-of-equilibrium quantum many-body systems coupled to an environment remains a formidable challenge. In the regime of weak system-environment interactions and Markovianiaty, the average-state evolution can be described effectively by the Lindblad master equation [1­3]. While traditional studies focused primarily on average-state dynamics, recent attention has shifted toward understanding environment-induced fluctuations. One of the most urgent questions is whether a general framework to describe the statistics of these fluctuations exists [4]. Indeed, unlike classical systems, for which a Macroscopic Fluctuation Theory (M F T ) has been formulated [5], its generalization to the quantum many-body realm remains elusive. Such a framework must account for intrinsically quantum features, for instance, entanglement and its statistics. In isolated one-dimensional integrable systems entanglement and local conserved quantities spread ballistically after quantum quenches [6­11]. Numerical evidence suggests ballistic entanglement spreading also in nonintegrable systems [12], despite diffusive energy transport. Ballistic spreading of entanglement in chaotic systems is further supported in random unitary circuits, and in a so-called "membrane picture" [13, 14]. Violations of this ballistic spreading paradigm are observed in some random unitary circuits [15] (see [16] for a recent result). For open quantum systems, the averagestate (e.g., obtained via Lindblad dynamics) typically saturates to a featureless, i.e., classical-like, steady state. Yet, in quadratic fermionic and bosonic systems [17] the intermediate-time entanglement dynamics exhibits rich behavior, reminiscent of the quasiparticle picture in the unitary evolution [18­23]. Recently, there is mounting evidence that the statistics of entanglement fluctuations may harbour deeper universal signatures, such as entanglement-driven phase transitions [24, 25],
+Given this context, a paradigmatic model for studying
+
+fluctuating diffusive quantum dynamics is highly desirable. Such a model could serve as a playground for developing and validating effective descriptions, much like the classical symmetric exclusion process (SEP ) played a pivotal role in establishing Macroscopic Fluctuation Theory (M F T ) [4]. Very recently, the so-called Quantum Symmetric Simple Exclusion Process (QSSEP ) emerged as a promising candidate [26­32]. The model describes a system of freely-hopping fermions on a ring with noisy, in both space and time, hopping amplitudes. For each realization of the noise the model is free-fermionic. The dynamics of the average state reduces to that of the classical Symmetric Simple Exclusion Process [33] (SSEP ), whereas fluctuations are beyond the classical regime. Interestingly, the full statistics of the steady-state fluctuations can be determined [32], thanks to nontrivial topological constraints on the noise-averaged moments of the correlators. Extensions of the QSSEP include an asymmetric variant [34, 35], and a boundary-driven bosonic version [36]. The probability distribution of the steadystate entanglement after a quantum quench from a product state was derived in Ref. [37] by using Random Matrix Theory (see also Ref. [37]). Yet, the full-time entanglement dynamics remains an open problem.
+Here we investigate out-of-equilibrium entanglement dynamics in a generalized QSSEP model, in which we partially restore space-translation invariance, while retaining the randomness in time of the hopping amplitudes. Precisely, at each time step the hopping amplitudes are defined in a unit cell of size , which is then repeated over the chain. The case with  = 1 corresponds to spatially uniform noise. For  = 2 one has different noise on even and odd sites. In the limit    one recovers the QSSEP . Our -QSSEP model is illustrated in Fig. 1 (a). Similar to the QSSEP , the model is Gaussian for each realization of the noisy amplitudes. Hence, full information about the dynamics is encoded in the two-point fermionic correlation matrix. The stochastic differential equations governing the noise-averaged mo-
+
+(b)
+
+A
+(a)
+
+FIG. 1. Definition of the -QSSEP model (a). A sys-
+
+tem of noninteracting fermions evolves under the infinitesimal
+
+hopping Hamiltonian dHt (cf. (2)) with space-time stochas-
+
+tic
+
+hopping
+
+amplitudes
+
+dWtj ,
+
+dW
+
+j t
+
+,
+
+the
+
+bar
+
+denoting
+
+complex
+
+conjugation. Here dWtj are random variables a` la Ito^, which
+
+depend on time and on the position j. In the -QSSEP we
+
+have dWtj = dWtj if j = j mod , with  > 1 an integer.
+
+(b) Quasiparticle picture for entanglement spreading after a
+
+quench for  = 1, i.e., spatially uniform noise. Pairs of en-
+
+tangled quasiparticles are produced after the quench. The
+
+entanglement content of the pair is the same as in the deter-
+
+ministic chain. The trajectories of the quasiparticles forming
+
+an entangled pair are mirror-symmetric. All the pairs undergo
+
+the same dynamics. The entanglement between a subsystem
+
+A of size  is proportional to min(2||, ), which is the number
+
+of pairs that are shared between A and its complement. The
+
+distance (t) travelled by the quasiparticles is stochastic and
+
+distributed
+
+with
+
+P (, t)
+
+=
+
+e-2
+
+/(4
+
+t)
+
+ /(2 
+
+t),
+
+giving
+
+rise
+
+to
+
+diffusive entanglement spreading.
+
+ments of the correlations close on themselves, similar to the QSSEP , and in contrast with other noisy fermionic models, such as fermions with density monitoring [38] (see also Ref. [39]). We derive these equations for arbitrary . We discuss in detail the case with  = 1 and  = 2. We show that the moments of the steadystate correlators satisfy non trivial identities, and can be obtained as the Haar average with random momentumdependent SU () matrices.
+Now, while introducing a spatially modulated noise might seem a bit artificial, there are several reasons why this is interesting. The main one is that unlike the original QSSEP, it is possible to obtain exact results for the intermediate time dynamics in the -QSSEP. Moreover, despite the structured noise the dynamics retains the main features of the QSSEP. Precisely, the dynamics of local observables and of the entanglement entropy is diffusive. As we are going to show, already for   5 the dynamics is numerically indistinguishable from that in the QSSEP. Furthermore, the study of quantum dynamics in the QSSEP can help unveil universal features. For instance, although the dynamics is diffusive for any , it exhibits quite nontrivial correlations patterns. Precisely, for  = 1 the dynamics exhibits only pairwise correlations, which underlies the straightforward applicability of the quasiparticle picture to describe entanglement dynamics. On
+
+2
+
+the other hand, already for  = 2 correlations between more than two quasiparticles develop, and they can be described analytically [40]. It is likely that such multiparticles correlations are present also in the QSSEP, although it is difficult to characterize them analytically.
+For  = 1 we show that it is possible to characterize analytically the full-time dynamics of the noise-averaged entanglement entropy, and in general of any sufficiently well-behaved function of the reduced density matrix of a subsystem A (see Fig. 1). The dynamics of entanglementrelated quantities is understood in terms of a stochastic generalization of the quasiparticle picture [41]. Salient features of the quasiparticle picture are illustrated in Fig. 1 (b). Similar to the deterministic model, entanglement is transported by pairs of correlated quasiparticles. Remarkably, the entanglement entropy shared by the members of the pair is the same as in the deterministic model. The trajectories of the quasiparticles are stochastic. At the leading order in the limit t,   , with t/2 fixed, and for each instance of the dynamics all the entangled pairs produced in the chain undergo the same random walk. Moreover, the trajectories of the quasiparticles forming an entangled pair are mirrorsymmetric with respect to the emission point (see Fig. 1 (b)). Thus, the entanglement dynamics depends only on the distance (t) from the emission point. The entanglement between a subregion A and the rest is proportional to the number of entangled pairs shared between A and its complement. Since for each noise realization all the entangled pairs perform the same random walk, the number of shared pairs is min(2||, ), which is reminiscent of the result in the deterministic model. After averaging over the noise realizations, one obtains the entanglement entropies as
+
+
+
+Sn = d min(2||, )snP (, t).
+
+(1)
+
+-
+
+As anticipated, sn, with n an integer, are the thermo-
+
+dynamic R´enyi entropies of the Generalized Gibbs En-
+
+semble (GGE) that describes the steady state after the
+
+quench in the deterministic is the heat kernel P (, t) =
+
+m1/o(d2el [42t,)4e3-].2I/n(4(1t)),,
+
+P (, with
+
+t) 
+
+the square strength of the hopping amplitudes. Eq. (1)
+
+implies that entanglement spreading is diffusive, in con-
+
+trast with the ballistic dynamics in the deterministic
+
+chain. The stochastic quasiparticle picture (1) holds in
+
+the limit t,    with t/2 fixed. Finally, we numeri-
+
+cally verify that the diffusive entanglement scaling holds
+
+true for generic , even in the limit   . Eq. (1)
+
+captures qualitatively the entanglement spreading for
+
+generic , although it is exact only at  = 1. On the
+
+other hand, we numerically show that the entanglement
+
+dynamics for  = 5 is quite close to that at   , at
+
+least for the quench from the N´eel state. Eq. (1) is, at
+
+least to the best of our knowledge the first generaliza-
+
+tion of the quasiparticle picture to stochastic quantum
+
+dynamics.
+
+The manuscript is structured as follows. In Section II
+
+

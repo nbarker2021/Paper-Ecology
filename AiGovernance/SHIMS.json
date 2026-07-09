@@ -1,0 +1,45 @@
+{
+  "schema": "paper_ecology.ai_governance.shims.v1",
+  "generated_by": "D:\\Paper Ecology\\AiGovernance\\sync-shims.ps1",
+  "constitution_root": "D:\\Paper Ecology\\AiGovernance",
+  "junctions": [
+    {
+      "link": "C:\\Users\\nbark\\.cursor\\rules",
+      "target": "D:\\Paper Ecology\\AiGovernance\\cursor-rules",
+      "tools": ["Cursor (global user rules, all workspaces)"]
+    },
+    {
+      "link": "C:\\Users\\nbark\\.grok\\rules",
+      "target": "D:\\Paper Ecology\\AiGovernance\\rules",
+      "tools": ["Grok CLI (global + compat scan)"]
+    },
+    {
+      "link": "D:\\Paper Ecology\\.cursor\\rules",
+      "target": "D:\\Paper Ecology\\AiGovernance\\cursor-rules",
+      "tools": ["Cursor (workspace)"]
+    },
+    {
+      "link": "D:\\MannyAI\\.cursor\\rules",
+      "target": "D:\\Paper Ecology\\AiGovernance\\cursor-rules",
+      "tools": ["Cursor (workspace)"]
+    },
+    {
+      "link": "D:\\CQE_CMPLX\\.cursor\\rules",
+      "target": "D:\\Paper Ecology\\AiGovernance\\cursor-rules",
+      "tools": ["Cursor (workspace)"]
+    }
+  ],
+  "stubs": [
+    { "path": "C:\\Users\\nbark\\.grok\\AGENTS.md", "tools": ["Grok CLI global"] },
+    { "path": "C:\\Users\\nbark\\.claude\\CLAUDE.md", "tools": ["Claude Code global compat"] },
+    { "path": "C:\\Users\\nbark\\.codex\\AGENTS.md", "tools": ["Codex Desktop"] },
+    { "path": "C:\\Users\\nbark\\.hermes\\AGENTS.md", "tools": ["Hermes Desktop"] },
+    { "path": "D:\\Paper Ecology\\AGENTS.md", "tools": ["Universal AGENTS.md scanner"], "note": "full constitution, not stub" }
+  ],
+  "config_edits": [
+    { "file": "C:\\Users\\nbark\\.codex\\config.toml", "change": "trust D:\\MannyAI" },
+    { "file": "C:\\Users\\nbark\\.vibe\\config.toml", "change": "skill_paths -> AiGovernance/SKILL.md" },
+    { "file": "C:\\Users\\nbark\\.kimi\\kimi.json", "change": "work_dirs Paper Ecology + MannyAI" },
+    { "file": "C:\\Users\\nbark\\.vibe\\trusted_folders.toml", "change": "already trusts Paper Ecology + CQE_CMPLX" }
+  ]
+}

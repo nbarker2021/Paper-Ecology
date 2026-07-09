@@ -1,0 +1,76 @@
+arXiv:2605.03014v1 [hep-ph] 4 May 2026
+
+UMN­TH­4527/26, FTPI­MINN­26/09 May 2026
+Searching for UFOs from the early universe: direct detection prospects for relativistically decoupling dark matter
+Stephen E. Henrich,a,1 Yann Mambrini,b and Keith A. Olivea
+aWilliam I. Fine Theoretical Physics Institute, School of Physics and Astronomy, University of Minnesota, Minneapolis, Minnesota 55455, USA bUniversité Paris-Saclay, CNRS/IN2P3, IJCLab, 91405 Orsay, France E-mail: henri455@umn.edu, mambrini@ijclab.in2p3.fr, olive@umn.edu
+Abstract. Particles that decouple relativistically from the Standard Model bath during re-
+heating represent a versatile class of well-motivated cold dark matter candidates. In fact, ultrarelativistic decoupling (TFO  m) is quite generic for beyond the Standard Model (BSM) heavy portal interactions with strong couplings and relatively low reheating temperatures. In this work, we study the direct detection prospects for ultrarelativistically frozen-out (UFO) candidates, using Z-portal dark matter as a case study. Although typical UFO cross sections are suppressed by a heavy mediator mass scale, we find that experiments such as LZ, XENONnT, PandaX, and DarkSide-50 have already excluded a large portion of the UFO parameter space and there remains viable space above the neutrino fog for 0.4 GeV  mDM  1 TeV. Moreover, SuperCDMS SNOLAB, which is expected to begin collecting data in 2026, should access a large region of UFO parameter space in the 0.5-10 GeV mass range. For heavy BSM portal interactions (M  1 TeV), UFOs are typically more accessible to detection than freeze-in candidates due to the comparatively larger cross sections. We also carefully delineate regions of parameter space with degeneracy between UFO and non-relativistic freeze-out. In sum, UFOs are attractive candidates for ongoing and next-generation dark matter detection experiments in a looming post-WIMP era.
+1Corresponding author.
+
+Contents
+
+1 Introduction
+
+1
+
+2 Approach
+
+4
+
+2.1 Fermionic Dark Matter
+
+4
+
+2.1.1 Annihilation cross sections
+
+4
+
+2.1.2 Spin-independent scattering cross section
+
+5
+
+2.1.3 Spin-dependent scattering cross section
+
+6
+
+2.2 Scalar Dark Matter
+
+7
+
+2.3 Constraint from reheating
+
+8
+
+3 Relic Densities: The WIMP, UFO, and FIMP regimes
+
+9
+
+4 Direct detection constraints
+
+14
+
+4.1 Spin-independent scattering
+
+14
+
+4.2 Spin-dependent Scattering
+
+20
+
+4.3 Influence of TRH
+
+22
+
+5 Summary
+
+24
+
+1 Introduction
+Since Fritz Zwicky's seminal work [1], the nature of dark matter has remained a mystery. Various candidates for particle dark matter began to emerge in the second half of the 20th century. While some were motivated by constructions such as supersymmetry [2, 3], others were driven by a minimalist principle [4­10]. Among the first simple models of dark matter was a light neutrino with an eV-scale mass [4]. This was the original ultrarelativistic freezeout (UFO) candidate, as a neutrino with Standard Model (SM) electroweak interactions will freeze-out at a temperature of roughly 1 MeV. However, the SM neutrino is an example of hot dark matter [11] and due to free streaming [12], produces too much large scale structure [13]. Indeed the latter constraints are so strong that the sum of light neutrino masses is limited to m  0.1 eV [14, 15] whereas as dark matter candidates we must have m  11 eV [16­18]. UFOs as dark matter candidates were therefore promptly discarded.
+On the other hand, a 4th generation SM-like neutrino (or heavy neutral lepton) was initially an ideal dark matter candidate [5]. Its relic density is computed from non-relativistic freeze-out [19] and an acceptable abundance of this cold dark matter candidate is found for m  4 GeV. However, a 4th generation neutrino with mass less than MZ/2 has been precluded by measurements of the width of the Z gauge boson [20] and e+e- scattering [21].
+There are of course many other examples of weakly interacting massive particles (WIMPs) whose relic density is determined by the "WIMP miracle" paradigm. This includes the plethora of supersymmetric candidates [3]. Because of their electroweak scale couplings, it seemed that rapid discovery was ensured. An electroweak interaction strength ensures that the dark matter  maintains equilibrium with the primordial plasma during the radiationdominated era for temperatures, T > m. At lower temperatures, dark matter is depleted via annihilations until freeze-out, which occurs when the annihilation rate, A  nv falls
+
+­1­
+
+

@@ -1,0 +1,101 @@
+{
+  "paper": "44",
+  "title": "SU(3) Sector: Color Confinement",
+  "status": "pass_with_open_alpha_s",
+  "verifiers": {
+    "boundary_condition": {
+      "status": "pass",
+      "checks": {
+        "gen_1_anchor": "(4,1)\u2159\u00b7 (14,1)\u2080",
+        "gen_1_has_anchor": true,
+        "gen_1_anchor_contains_4_1": true,
+        "gen_1_anchor_contains_14_1": true,
+        "gen_2_anchor": "(4,1)\u00bd\u00b7 (14,1)\u2080",
+        "gen_2_has_anchor": true,
+        "gen_2_anchor_contains_4_1": true,
+        "gen_2_anchor_contains_14_1": true,
+        "gen_3_anchor": "(4,1)\u2159\u00b7 (14,1)\u2080",
+        "gen_3_has_anchor": true,
+        "gen_3_anchor_contains_4_1": true,
+        "gen_3_anchor_contains_14_1": true,
+        "boundary_condition_count": 3,
+        "boundary_condition_for_3_generations": true
+      },
+      "failures": []
+    },
+    "uniform_boundary": {
+      "status": "pass",
+      "checks": {
+        "offsets": [
+          2.2,
+          95.0,
+          4180.0
+        ],
+        "offset_count": true,
+        "offsets_increasing": true,
+        "gen_1_offset": 2.2,
+        "gen_2_offset": 95.0,
+        "gen_3_offset": 4180.0,
+        "gen_1_in_range_2_5_MeV": true,
+        "gen_2_is_95_MeV": true,
+        "gen_3_is_4180_MeV": true,
+        "boundary_surface_uniform": true
+      },
+      "failures": []
+    },
+    "lattice_closure": {
+      "status": "pass",
+      "checks": {
+        "D4_lattice_closed": true,
+        "D4_root_count": 24,
+        "D4_root_count_is_24": true,
+        "J3O_cell_corrects_defect": true,
+        "confinement_boundary_closed": true
+      },
+      "failures": []
+    },
+    "color_charge_independence": {
+      "status": "pass",
+      "checks": {
+        "all_roots_same_length": true,
+        "root_length_is_sqrt2": true,
+        "color_charge_same_up_down": true,
+        "color_charge_same_all_generations": true,
+        "color_charge_independent_of_mass": true,
+        "color_charge_mass_independent": true
+      },
+      "failures": []
+    },
+    "24_intersection_points": {
+      "status": "pass",
+      "checks": {
+        "d4_root_count": 24,
+        "intersection_points_24": true,
+        "each_root_has_intersection": true,
+        "intersection_corresponds_to_color_state": true
+      },
+      "failures": []
+    },
+    "top_not_confined": {
+      "status": "pass",
+      "checks": {
+        "top_quark_outside_J3O_domain": true,
+        "no_confinement_boundary_for_top": true,
+        "top_decays_before_hadronization": true,
+        "top_lifetime_short": true,
+        "top_perturbative_QCD": true
+      },
+      "failures": []
+    },
+    "alpha_s_empirical": {
+      "status": "pass",
+      "checks": {
+        "alpha_s_is_empirical": true,
+        "lattice_provides_boundary_geometry_only": true,
+        "alpha_s_not_predicted": true,
+        "coupling_is_dynamical_not_static": true
+      },
+      "failures": []
+    }
+  }
+}

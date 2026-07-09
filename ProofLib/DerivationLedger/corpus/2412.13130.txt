@@ -1,0 +1,71 @@
+arXiv:2412.13130v1 [hep-ph] 17 Dec 2024
+
+Higgs factory options for CERN
+A comparative study
+A. Blondel1, C. Grojean2, P. Janot3*, G. Wilkinson4
+1LPNHE Paris-Sorbonne, 4 place Jussieu, Paris, 75252, France. 2Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany. .
+3CERN, EP Department, 1 Esplanade des Particules, Meyrin, Switzerland. 4University of Oxford, Department of Physics, Oxford, United Kingdom.
+*Corresponding author(s). E-mail(s): patrick.janot@cern.ch;
+Abstract
+"All future e+e- Higgs factories have similar reach for the precise measurement of the Higgs boson properties.": this popular statement has often led to the impression that all e+e- options are scientifically equivalent when it comes to choosing the future post-LHC collider at CERN. More recently, the concept of sustainability has been added in attempts to rank Higgs factories. A comparative analysis of the data currently available is performed in this note to clarify these issues for three different options: the future circular colliders (FCC), and two linear collider alternatives (CLIC and ILC@CERN). The main observation is as follows. For the precise measurement of already demonstrated Higgs decays (bb¯,  + -, gg, ZZ, WW) and for H  c¯c, it would take half a century to CLIC and ILC@CERN to reach the precisions that FCCee can achieve in 8 years thanks to its large luminosity and its four interactions points. The corresponding electricity consumption, cost and carbon footprint would also be very significantly larger with linear colliders than with FCC-ee. Considering in addition that (i) FCC-ee is the only place to attempt the measurement of the electronYukawa coupling, thanks to the ability to produce the Higgs boson directly at s = mH with reduced centre-of-mass energy spread; (ii) for the precise measurement of the many Higgs boson couplings that require the production of billions of Higgs bosons (such as H, HZ, Hµµ, or HHH), the combination of FCC-ee and FCC-hh is order of magnitude better than what linear colliders can ever do; (iii) FCC-ee is much more than a Higgs factory and, in an entirely new context where neither the mass scale of new physics nor the intensity of its couplings to the Standard Model are known, only the large luminosities of FCC-ee at the electroweak scale and the parton-parton collision energies at FCC-hh can provide the necessary exploration breadth with a real chance of discovery; and (iv) the vast experimental programme achievable with both FCC-ee and FCC-hh is out of reach of linear colliders; it is found that FCC-ee is a vastly superior option for CERN, and the only first step en route to the 100 TeV hadron collider.
+1
+
+Contents
+
+1 Preamble
+
+3
+
+2 Introduction
+
+3
+
+3 Default operational scenarios
+
+4
+
+4 Duration and electricity consumption
+
+5
+
+4.1 Initial energy stages . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+4.2 Energy upgrades . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+5 Partial estimates of cost and carbon emissions
+
+10
+
+5.1 Cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+5.2 Carbon budget . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+5.3 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+6 Discussion
+
+15
+
+6.1 The Higgs self-coupling . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+6.2 Other (unique) Higgs opportunities at FCC . . . . . . . . . . . . . . . 16
+
+6.3 Operation time optimisation . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+6.4 Luminosity upgrade . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+6.5 Pushing the limits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+6.6 Caveat and uncertainties . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+6.7 Half a century . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+6.8 Comparison to earlier work . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+7 Concluding remarks
+
+23
+
+2
+
+

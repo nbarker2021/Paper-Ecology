@@ -1,0 +1,204 @@
+Control of dynamical phase transitions and non-ergodic relaxation via spinor phases
+J. O. Austin-Harris,1 P. Sigdel,1 C. Binegar,1 S. E. Begg,1, 2 T. Bilitewski,1,  and Y. Liu1,  1Department of Physics, Oklahoma State University, Stillwater, Oklahoma 74078, USA
+2Department of Physics, The University of Texas at Dallas, Richardson, Texas 75080, USA (Dated: May 4, 2026)
+Utilizing ultracold spinor gases as large-scale, many-body quantum simulation platforms, we establish a toolbox for the precise control, characterization, and detection of nonequilibrium dynamics via internal spinor phases. We develop a method to extract the phase evolution from the observed spin population dynamics, allowing us to define an order parameter that sharply identifies dynamical phase transitions over a wide range of conditions. This work also demonstrates a technique for inferring spin-dependent interactions from a single experimental time trace, in contrast to the standard approach that requires mapping a cross section of the phase diagram, with immediate applications to systems experiencing complex time-dependent interactions. Additionally, we demonstrate experimental access to and control over non-ergodic relaxation dynamics, where states of similar energy in the (nominally) thermal region of the energy spectrum retain a dependence on the initial state, via the manipulation of spinor phases, enabling the study of non-ergodic thermalization dynamics connected to quantum scarring.
+
+arXiv:2511.03720v2 [cond-mat.quant-gas] 1 May 2026
+
+Ultracold spinor gases, highly controllable quantum systems that possess a spin degree of freedom with allto-all spin interactions and a well-studied phase space, are quantum simulators ideal for studying a wide variety of nonequilibrium phenomena including quantum scars, quantum many-body scars, and dynamical phase transitions (DPTs) [1­27]. Both quantum scarring [28­36] and DPTs [37­39] have attracted attention due to their fundamental importance to our understanding of quantum many-body equilibrium and non-equilibrium physics [40­ 43], as well as due to their potential to advance quantum technology. In particular, quantum scarring has promising applications in quantum transport and quantum metrology [29, 31, 44, 45], while DPTs have been suggested as pathways to quantum-enhanced sensing and the generation of entanglement [25­27]. The spinor physics underlying these phenomena is deceptively simple and can often be described using just two types of observables: spin populations and spinor phases. Despite the vital importance of the spinor phases in characterizing both ground-state and excited-state phase diagrams as well as dynamics [5­8, 46­48], experimental studies of spinor physics have thus far largely relied on the observation of spin population dynamics due to the technical challenge of directly measuring spinor phases [1­14]. This population-only approach, however, can obscure understanding of the spinor physics and important connections to other physical systems [7­9]. In particular, experimental studies of DPTs in spinor gases have been hindered by the lack of identification of suitable order parameters [8, 27, 49­51].
+Here, we show that spinor phases are a vital tool for state preparation, and enable control and characterization of nonequilibrium dynamics, including diagnosing DPTs in static and driven lattices, and further
+ thomas.bilitewski@okstate.edu  yingmei.liu@okstate.edu
+
+demonstrate phase-dependent non-thermal long-time behavior in the quantum many-body dynamics. We experimentally demonstrate that an order parameter (), based on the relative phase  among all spin components, is capable of sharply distinguishing a DPT between the interaction-dominated regime and the Zeemandominated regime. Observables directly based on spin population measurements, such as the period or center of spin oscillations, are not capable of identifying what regime of the phase diagram the system is in without comparing to the theoretical phase diagram and are therefore insufficient for diagnosing DPTs [8, 49, 52], in particular in scenarios where there are no a priori established theory results. Conversely, spinor-phase-based observables, as developed here, can provide a more rigorous method of directly obtaining the dynamical phase diagram and characterizing DPTs [7]. We also develop a method for determining spin-dependent interactions from a single time trace, in contrast to the standard method that requires deliberately mapping a cross section of the phase diagram, with immediate applications to systems experiencing complex time-dependent interactions [8­12]. Finally, we show that control over spinor phases is critical for state preparation in U (1) symmetry broken systems. In this system, we demonstrate that states of similar energy in the (nominally) thermal region of the energy spectrum can display non-thermal values at late times, retaining a dependence on two relative spinor phases,  and , where  is the relative phase among components of nonzero spin. Together, this work establishes experimental control over spinor phases as a powerful tool for probing and controlling nonequilibrium dynamics.
+Experimental Sequence--Each experimental cycle begins with an F = 1 spinor Bose-Einstein condensate (BEC) of up to 105 sodium atoms in a crossed optical dipole trap. The desired initial state is then prepared using a resonant radio-frequency (RF) pulse. We then commence each experimental sequence, in which specific parameters of the system are varied by applying microwave
+
+2
+
+0
+
+Period T (ms)
+
+Free Space, M(t) = 0
+
+(a) q/c 2 70
+
+/
+q = 31 Hz
+
+50
+
+30
+
+(c)
+
+5
+
+10
+
+15
+
+Holding time t (ms)
+
+0
+
+/
+
+0.5
+0.3
+(b)0.1 0
+0 -2 -4
+(d) 0
+
+q = 31 Hz
+
+-3 -1 2
+
+q = 69 Hz
+
+10
+
+20
+
+q = 31 Hz (q/c20.60)
+
+ = 2-App
+
+Zeeman Regime
+1
+
+q = 69 Hz (q/c21.33) 10
+Holding time t (ms)
+
+0
+20 (e) -200 -100
+
+q/c2
+
+0
+
+1
+
+3
+
+20
+
+Interaction Regime
+
+Zeeman Regime
+10
+
+Period T
+
+Solid lines: Eq. (2)
+0
+q (Hz)
+
+100 200 0
+
+c2 (Hz)
+
+FIG. 1. (a) Equal energy contours, derived from Eq. (2) for the S -state, demonstrate the phase diagram consisting of the interaction regime (where |q/c2| < 1) and the Zeeman regime (where |q/c2| > 1). The red (blue) solid contour marks q/c2 = 0.60 (q/c2 = 1.33). (b) Triangles (circles) display 0 dynamics observed after a quench in q from 41 Hz to 31 Hz (69 Hz) at time t = 0 from the S -state in free space. (c) c2 (triangles) extracted from the q = 31 Hz spin dynamics shown in panel (b); consistent with values (dotted line) inferred from the observed separatrix shown in panel (e) and results (circles) derived from the observed atom number and trapping frequencies. (d)  extracted from the 0 time traces shown in panel (b). (e) Squares (diamonds) display the order parameter  (T ) mapping the experimental phase diagram after a sudden quench in q from 41 Hz to a given value for the initial S -state in free space. Purple data points are adapted from Ref. [11]. In panels (b)-(e) solid (dashed) lines are Eq. (2) predictions (eye-guiding fits).
+
+dressing fields, optical lattices, or RF driving fields at the time t = 0 as described in the following paragraphs (with additional details in Appendix A). The atoms are trapped for a varied hold time t before being released for spin-resolved imaging. For the data presented, all spin states appear to share the same spatial mode, which is supported by the calculated spin healing lengths being larger than the Thomas-Fermi radii, allowing the system to be described with a single spatial-mode approximation (SMA) (see Appendix A).
+Model--When the SMA is valid, the spin dynamics of an F = 1 spinor BEC of N atoms subject to a large static magnetic field along the z-axis and a much weaker time-dependent field along the y-axis can be described by
+
+H^
+
+=
+
+c2 2N
+
+S2
+
++
+
+pB S^z
+
++
+
+q
+
+(s^i,z)2 + p(t)S^y,
+
+(1)
+
+i
+
+with c2 the spin-dependent interaction, pB (q) the linear (quadratic) Zeeman shift associated with the strong
+
+static magnetic field, p(t) the time-variant linear Zeeman
+
+interaction induced by the weaker magnetic field, S the spin operator, and S^y and S^z the respective components.
+
+A spin-coherent initial state |
+
+=
+
+i mF mF a^mF |vac is characterized by three
+
+(co1m, pl0e,x-a1m)p=litu(des1eoif1t,he0meiF0 ,hype-r1fienie-1s)piinn
+
+states terms
+
+of the fractional populations mF and phases mF . Here a^m  F is the creation operator for a boson in the mF hyperfine level and |vac is the vacuum state. The populations
+
+may be written as ±1 = (1 - 0 ± M )/2 in terms of 0 and the magnetization M = 1 - -1, and the phases can be parametrized in terms of  = 1 + -1 - 20
+
+and  = 1 - -1. In total, the state is then fully characterized by 0, M ,  and .
+Broadly, prior experimental studies of spinor gases have mainly focused on population dynamics [1­5, 7­ 21, 49, 50], tracking 0 only or 0 and M . In contrast, in this work we control the phases and populations of spinor BECs and highlight how (i) extraction of the information of spinor phases, for example , provides significant advantages especially in identifying DPTs, and (ii) scenarios in which both phases  and  significantly affect the dynamics and determine the relaxation values of spinor BECs.
+Spinor phases & dynamical phase transitions--In the non-driven case, where p(t) = 0, the system has U (1) symmetry around S^z and the spin dynamics can be described by 0, the magnetization M , and a single relative phase  by the mean-field Hamiltonian [1­13]:
+
+H/h = c20[(1-0)+ (1 - 0)2 - M 2 cos()]+q(1-0), (2)
+with the associated equations of motion [6, 7, 11]
+
+0 t
+
+=
+
+-2 H 
+
+=
+
+c2 
+
+0
+
+(1 - 0)2 - M 2 sin()
+
+(3)
+
+ = t
+
+2
+
+H 0
+
+=
+
+c2 
+
+(1 - 0)(1 - 20) - M 2 (1 - 0)2 - M 2
+
+cos()
+
++
+
+c2 
+
+(1
+
+-
+
+20)
+
+-
+
+q 
+
+.
+
+(4)
+
+As shown in Fig. 1(a), the resulting spin dynamics can be categorized into two regimes: the Zeeman regime where  is unbounded (see the blue contour) and the interaction regime where  is bounded (see the red contour).
+
+

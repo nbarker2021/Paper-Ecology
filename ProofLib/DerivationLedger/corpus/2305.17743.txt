@@ -1,0 +1,31 @@
+combinatorial theory 4 (2) (2024), #13
+
+combinatorial-theory.org
+
+arXiv:2305.17743v2 [math.CO] 28 Sep 2024
+
+A chiral aperiodic monotile
+David Smith1, Joseph Samuel Myers2, Craig S. Kaplan3, and Chaim Goodman-Strauss4
+1Yorkshire, U.K. ds.orangery@gmail.com
+2Cambridge, U.K. jsm@polyomino.org.uk 3School of Computer Science, University of Waterloo, Waterloo, Ontario, Canada
+csk@uwaterloo.ca 4National Museum of Mathematics, New York, New York, U.S.A.
+chaimgoodmanstrauss@gmail.com
+Submitted: May 29, 2023; Accepted: Jun 7, 2024; Published: Sep 30, 2024 © The authors. Released under the CC BY license (International 4.0).
+Abstract. The recently discovered "hat" aperiodic monotile mixes unreflected and reflected tiles in every tiling it admits, leaving open the question of whether a single shape can tile aperiodically using translations and rotations alone. We show that a close relative of the hat--the equilateral member of the continuum to which it belongs--is a weakly chiral aperiodic monotile: it admits only non-periodic tilings if we forbid reflections by fiat. Furthermore, by modifying this polygon's edges we obtain a family of shapes called Spectres that are strictly chiral aperiodic monotiles: they admit only homochiral non-periodic tilings based on a hierarchical substitution system. Keywords. Tilings, aperiodic order, polyforms Mathematics Subject Classifications. 05B45, 52C20, 05B50
+1. Introduction
+The recently discovered "hat" aperiodic monotile admits tilings of the plane, but none that are periodic [SMKGS24]. This polygon settles the question of whether a single shape--a closed topological disk in the plane--can tile aperiodically without any additional matching rules or other constraints on tile placement.
+The hat is asymmetric: it is not equal to its image under any non-trivial isometry of the plane. In particular, a hat cannot be brought into perfect correspondence with its own mirror reflections. Moreover, all tilings formed by copies of the hat must use both unreflected and reflected tiles. Some people have wondered whether the hat and its reflection ought to be considered two distinct shapes, thereby invalidating its status as a monotile. To some extent, this question is about tiles as physical objects rather than mathematical abstractions. A hat cut from paper or plastic can easily be turned over in three dimensions to obtain its reflection, but a glazed ceramic tile cannot. More
+
+2
+
+David Smith et al.
+
+broadly, a wide range of three-dimensional objects, from organic molecules to shoes, behave very differently in their left- and right-handed forms.
+Since Felix Klein introduced the Erlangen program [Gre07], each metric geometry has been defined by first choosing a set of isometries, the rigid motions of the geometric space in which we are working. Isometries may be classified as orientation-preserving, which map left-handed shapes to left-handed shapes (and right-handed to right-handed), or orientation-reversing, which exchange left- and right-handedness. In the plane, the orientation-preserving isometries comprise translations and rotations. We will refer to all orientation-reversing isometries generically as "reflections", and the image of a shape under a reflection as a "reflected" copy of that shape.
+From that point of view, the question of whether a single tile admits monohedral tilings of the plane depends upon the set of isometries that may be used to transform tiles. If this set is not specified, one may reasonably assume that the full set of planar isometries is intended. Gru¨nbaum and Shephard explicitly permit reflections in their definition of monohedral tilings [GS16, Section 1.2], so that when they later ask for a tile that "only admits monohedral non-periodic tilings" [GS16, Section 10.7], we can be confident that they considered reflected tiles to be in play. Ammann's aperiodic pairs of tiles were considered congruent under reflections [AGS92], and the disconnected aperiodic Taylor­Socolar tile [ST11, ST12] also requires reflections to tile the plane. Likewise, we regard the hat as an aperiodic monotile. Still, the fact that every tiling by hats mixes unreflected and reflected tiles leaves open the question of whether there might exist a monotile that achieves aperiodicity without the use of reflections.
+A tile T is a closed topological disk in the plane, and a monohedral tiling admitted by it is a countable collection T = {T1, T2, . . .} of congruent copies of T with disjoint interiors, whose union is the entire plane. Each Ti is of the form giT for some planar isometry gi. We say that a monohedral tiling T is a homochiral tiling if for every pair Ti, Tj  T , there is an orientation-preserving isometry mapping Ti to Tj. (Note that a monohedral tiling whose tile has bilateral symmetry is automatically homochiral according to this definition.) We then define a weakly chiral aperiodic monotile to be a tile whose homochiral tilings are all non-periodic (and that admits at least one such tiling), and a strictly chiral aperiodic monotile to be a tile that admits only homochiral non-periodic tilings. Following Klein, the weak case is aperiodic if we decree reflections to be off limits, even if the tile admits periodic tilings when reflections are allowed. The strict case remains both chiral and aperiodic in the presence of reflections. With these definitions in hand, we ask: Do there exist any weakly or strictly chiral aperiodic monotiles?1
+The discovery of the hat is an effective reminder of how little we understand the possibilities and subtleties of monohedral tilings. Certainly there is no evidence to suggest that the hat (and the continuum of shapes to which it belongs) is somehow unique, and we might therefore hope that a zoo of interesting new monotiles will emerge in its wake. In this context, a chiral aperiodic monotile does not seem particularly unlikely. Nonetheless, we did not expect to find one so close at hand: a solution follows in short order from the hat.
+Our previous work [SMKGS24] related the discovery of two separate aperiodic polykites-- the hat, and a 10-kite known as the "turtle". We showed that these two shapes are members of
+1We might call this the "vampire einstein" problem, as we are seeking a shape that is not accompanied by its reflection.
+
+

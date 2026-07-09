@@ -1,0 +1,71 @@
+Ringdown Analysis of GW250114 with Orthonormal Modes
+Motoki Suzuki ,1, 2 Kei-ichiro Kubota ,2 Soichiro Morisaki ,2 Hayato Motohashi ,3 and Daiki Watarai 4 1Department of Physics, Graduate School of Science,
+The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8655, Japan 2Institute for Cosmic Ray Research, The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8582, Japan 3Department of Physics, Tokyo Metropolitan University, 1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan 4Research Center for the Early Universe (RESCEU),
+Graduate School of Science, The University of Tokyo, Tokyo 113-0033, Japan
+GW250114 is the loudest gravitational-wave event to date observed by the LIGO-VirgoKAGRA Collaboration. Owing to its high signal-to-noise ratio (SNR), previous analyses based on quasinormal mode (QNM) superpositions have suggested evidence of the fundamental and the first overtone of the  = m = 2 mode in this event. However, QNMs are not orthogonal and the inclusion of multiple QNMs induces correlations among them, which can hinder the robust identification of subdominant QNMs. To address this challenge, we apply an analysis based on orthonormalized QNMs [S. Morisaki et al., Phys. Rev. D 112, 124083 (2025)] to GW250114. We find that, in the model including three  = m = 2 QNMs up to the second overtone, the first overtone of the  = m = 2 mode is more strongly supported than in previous nonorthogonal analyses, with the inferred significance increasing from 82.5% to 99.9%. Furthermore, we estimate deviations from the Kerr prediction using the orthonormal QNM framework and find no significant deviation, consistent with previous analyses. These results demonstrate that the orthonormal QNM framework provides a more robust way to identify subdominant modes in high-SNR ringdown signals, highlighting its potential for future gravitational-wave observations.
+
+arXiv:2605.03576v1 [gr-qc] 5 May 2026
+
+I. INTRODUCTION
+The first direct detection of gravitational waves (GWs) [1] marked the beginning of GW astronomy. Following this milestone, the LIGO-Virgo-KAGRA (LVK) Collaboration has detected more than 300 GW events up to its fourth observing run (O4) [2­6]. Most of these signals are consistent with GWs emitted by binary black hole (BBH) mergers. After the merger, a highly distorted black hole (BH) is formed, which settles into a single rotating BH while emitting GWs. This phase is known as the ringdown, and its signal can be modeled in general relativity (GR) as a superposition of damped sinusoids called quasinormal modes (QNMs). Each QNM is labeled by three indices (, m, n), where  and m are angular indices and n denotes the overtone number. The frequency and damping time of each QNM are uniquely determined by the mass and spin of the remnant Kerr BH, as a consequence of the no-hair theorem. Therefore, the ringdown signal encodes rich information about the remnant BH and the underlying theory of gravity [7­16].
+Owing to the no-hair theorem, the simultaneous detection of multiple QNMs in a single GW event enables independent measurements of the mass and spin of the remnant BH from each mode, as well as a consistency test among them. This approach, referred to as BH spectroscopy, provides a relatively model-independent test of GR [17­20].
+Several studies have reported possible evidence for subdominant QNMs, in addition to the dominant (2, 2, 0) mode, in some GW events. A notable example is GW150914 [1], the first detected GW event. Refer-
+
+ence [14] reported evidence for the presence of at least one overtone (n > 0) of the (, m) = (2, 2) mode with 3.6 confidence, obtained by starting the analysis at the peak of the signal. However, this analysis is based on modeling the signal as a superposition of linear QNMs. Near the peak of the signal, additional contributions such as higher overtones, nonlinear QNMs [21­26], and direct waves [27, 28] may be present, and the validity of this approximation is therefore not well established. Several studies have revisited this event, reporting in some cases lower significance for the presence of overtones [8, 29­38]. In parallel, the validity of fits based on a superposition of QNMs near the signal peak has been investigated in a number of studies [39­51]. In light of these studies, since the onset of the linear perturbative regime remains unclear, the presence of subdominant modes is often discussed at times sufficiently after the peak [15, 16].
+Evidence for subdominant modes with different angular indices has also been reported. GW190521 [52, 53] is a high-mass BBH merger with an asymmetric mass ratio, for which Ref. [54] has reported evidence for the (3, 3, 0) mode, while Ref. [55] has reported evidence for the (2, 1, 0) mode. Another example is GW231123 [56], the most massive BBH event to date. Its inferred mass in the pair-instability mass gap, combined with its possibly high spin, has attracted significant interest in its formation scenario [57­65]. Several studies have suggested the presence of QNMs beyond the dominant (2, 2, 0) mode [56, 66, 67]. However, alternative interpretations beyond the standard stellar-origin BBH scenario [68­70], as well as uncertainties in the inference of source properties due to waveform systematics and detector noise [71­
+
+2
+
+73], have been discussed, making the interpretation of these QNMs less straightforward.
+In principle, the linear perturbative regime can be described as a superposition of an infinite number of linear QNMs. In practice, however, analyses are performed using template waveforms that include only a finite number of QNMs contributing dominantly to the signal. Since QNMs are not orthogonal, correlations arise among these amplitudes, obscuring the identification of individual modes in the data [36, 37, 51]. Furthermore, as more modes are included, these degeneracies become more pronounced, leading to increased computational cost. These challenges are expected to become more significant with the advent of next-generation detectors, such as the Cosmic Explorer [74] and the Einstein Telescope [75], whose improved sensitivity will allow the detection of additional subdominant modes.
+To address these challenges, we adopt the semianalytic method based on orthonormalized QNMs, which reduces parameter degeneracies and accelerates computations [76]. In this paper, we apply this approach to the event GW250114 082203, henceforth GW250114 [15]. This event was detected by the LIGO detectors [77] on January 14, 2025, and has the largest network signal-tonoise ratio (SNR) to date, with a value of approximately 80 [15, 16]. At the time of this event, the Virgo [78] and KAGRA [79] detectors were not in operation. Reference [15] reports an inspiral-merger-ringdown (IMR) analysis using the NRSur7dq4 waveform model [80], consistent with a BBH merger with source-frame component masses of m1 = 33.6-+10..28 M and m2 = 32.2-+01..83 M and dimensionless spin magnitudes of 1  0.24 and 2  0.26. The source-frame mass and spin of the remnant BH are estimated to be Mfsrc = 62.7+-11..01 M and f = 0.68+-00..0011, respectively. In the ringdown of GW250114, previous studies [15, 16] have reported evidence of the subdominant (2, 2, 1) mode, in addition to the dominant (2, 2, 0) mode, at analysis start times of several tMf after the signal peak, where tMf corresponds to a characteristic timescale of 0.337 ms for this event. However, in that time range, including the (2, 2, 2) mode in addition to these modes in a template waveform, i.e., extending the 220+221 model to the 220+221+222 model, leads to discrepancies in the estimated amplitudes of individual QNMs between the two models.
+In this paper, we perform semianalytic analyses based on orthonormalized QNMs [76]. For comparison, we also perform analyses based on nonorthogonal QNMs using the ringdown package [81], following previous studies [15, 16]. In the semianalytic analysis, the posterior distributions of the amplitudes remain largely unchanged under the inclusion of additional modes. In particular, the posterior distribution of the (2, 2, 1) mode shows little change when extending the 220+221 model to the 220+221+222 model. As a result, at 6 tMf after the peak, the posterior of the (2, 2, 1) mode amplitude excludes zero at the 82.5% level in the nonorthogonal QNMs analysis, whereas it excludes zero at the 99.9% level in the semi-
+
+analytic analysis for the 220+221+222 model. In addition, using orthonormalized QNMs, we estimate deviations of the complex frequency from Kerr prediction for the (2, 2, 1) mode. We find that the inferred deviations are consistent with those obtained using the ringdown package.
+
+II. METHOD
+
+A. Signal model and inference method
+
+The ringdown strain can be written as
+
+h(t) = h+(t) - ih×(t)
+
+=
+
+Amne-i~mnt + A mnei~mnt ,
+
+(1)
+
+mn
+
+where   2, -  m  , and n  0 are the multipole, azimuthal, and overtone numbers, respectively. Amn and Amn are complex amplitudes. The complex frequency ~mn  mn - i/mn depends on the remnant BH's mass Mf and spin f . Note that in this summation, the terms with m > 0 correspond to prograde modes,
+while the terms with m < 0 correspond to retrograde
+modes. Using Eq. (1), the strain measured by the Ith
+detector is
+
+3
+
+hI (t) = F+I h+ + F×I h× =
+
+cj,mnvjI,mn(t), (2)
+
+mn j=0
+
+where F+I and F×I are the antenna pattern functions of the Ith detector. The coefficients cj,mn are defined as 1
+
+c0,mn = Re(Amn + A mn), c1,mn = Im(Amn - A mn), c2,mn = - Im(Amn + Amn), c3,mn = Re(Amn - A mn),
+
+(3a) (3b) (3c) (3d)
+
+and the corresponding basis functions vjI,mn(t) are given by
+
+v0I,mn(t) = F+I e-(t-tIS)/mn cos[mn(t - tSI )], v1I,mn(t) = F+I e-(t-tSI )/mn sin[mn(t - tIS)], v2I,mn(t) = F×I e-(t-tSI )/mn cos[mn(t - tSI )], v3I,mn(t) = F×I e-(t-tIS)/mn sin[mn(t - tSI )],
+
+(4a) (4b) (4c) (4d)
+
+where tIS represents the analysis start time at the Ith detector.
+
+1 The definition of the coefficients differs from that in Ref. [76], owing to a different convention for the complex strain, h = h+ ± ih×. In this work, we adopt the convention in Eq. (1), consistent with the ringdown package.
+
+

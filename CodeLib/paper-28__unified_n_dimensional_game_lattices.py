@@ -27,7 +27,7 @@ from lattice_forge.server import start_witness_server
 import json
 import logging
 import socket
-import uuid
+import hashlib
 import asyncio
 import time
 import threading
@@ -172,7 +172,10 @@ class MCPHTTPServer:
 
         @self.app.get("/sse")
         async def sse_endpoint(request: Request):
-            session_id = str(uuid.uuid4())
+            client = request.client.host if request.client else "unknown"
+            session_id = "sess-" + hashlib.sha256(
+                f"{client}:{request.url.path}".encode()
+            ).hexdigest()[:16]
             logger.info(f"New SSE connection: {session_id}")
 
             async def event_generator():
@@ -341,7 +344,10 @@ class CMPLXHTTPServer:
 
         @self.app.get("/sse")
         async def sse_endpoint(request: Request):
-            session_id = str(uuid.uuid4())
+            client = request.client.host if request.client else "unknown"
+            session_id = "sess-" + hashlib.sha256(
+                f"{client}:{request.url.path}".encode()
+            ).hexdigest()[:16]
             self.connections[session_id] = request
             async def event_generator():
                 yield {"event": "connected", "data": json.dumps({"session_id": session_id})}

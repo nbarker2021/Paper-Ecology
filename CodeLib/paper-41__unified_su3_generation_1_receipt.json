@@ -1,0 +1,136 @@
+{
+  "paper": "41",
+  "title": "SU(3) Sector: Generation 1",
+  "status": "pass_with_open_yukawa",
+  "verifiers": {
+    "generation_1_idempotent": {
+      "status": "pass",
+      "checks": {
+        "trace_2_has_4_entries": true,
+        "trace_2_diagonal_count": 2,
+        "trace_2_off_diagonal_count": 2,
+        "trace_2_diagonal_is_2": true,
+        "trace_2_off_diagonal_is_2": true
+      },
+      "failures": []
+    },
+    "fermion_j3_mapping": {
+      "status": "pass",
+      "checks": {
+        "lepton_count": true,
+        "quark_count": true,
+        "leptons_are_diagonal": true,
+        "quarks_are_off_diagonal": true,
+        "electron_is_E11": true,
+        "neutrino_is_E22": true,
+        "up_is_x12": true,
+        "down_is_x12_bar": true
+      },
+      "failures": []
+    },
+    "su3_representation_content": {
+      "status": "pass",
+      "checks": {
+        "up_quark_is_triplet": true,
+        "down_quark_is_triplet": true,
+        "electron_is_singlet": true,
+        "neutrino_is_singlet": true,
+        "quarks_are_3": true,
+        "leptons_are_1": true
+      },
+      "failures": []
+    },
+    "hypercharge_voa_weights": {
+      "status": "pass",
+      "checks": {
+        "Y_up_quark_left": 0.3333333333333333,
+        "Y_up_quark_left_match": true,
+        "Y_down_quark_left": 0.3333333333333333,
+        "Y_down_quark_left_match": true,
+        "Y_electron_left": -1.0,
+        "Y_electron_left_match": true,
+        "Y_electron_neutrino_left": -1.0,
+        "Y_electron_neutrino_left_match": true,
+        "Y_up_quark_right": 1.3333333333333333,
+        "Y_up_quark_right_match": true,
+        "Y_down_quark_right": -0.6666666666666666,
+        "Y_down_quark_right_match": true,
+        "Y_electron_right": -2.0,
+        "Y_electron_right_match": true,
+        "Y_electron_neutrino_right": 0.0,
+        "Y_electron_neutrino_right_match": true
+      },
+      "failures": []
+    },
+    "gell_mann_nishijima": {
+      "status": "pass",
+      "checks": {
+        "Q_up_quark_left": 0.6666666666666666,
+        "Q_up_quark_left_match": true,
+        "Q_down_quark_left": -0.33333333333333337,
+        "Q_down_quark_left_match": true,
+        "Q_electron_left": -1.0,
+        "Q_electron_left_match": true,
+        "Q_electron_neutrino_left": 0.0,
+        "Q_electron_neutrino_left_match": true,
+        "Q_up_quark_right": 0.6666666666666666,
+        "Q_up_quark_right_match": true,
+        "Q_down_quark_right": -0.3333333333333333,
+        "Q_down_quark_right_match": true,
+        "Q_electron_right": -1.0,
+        "Q_electron_right_match": true,
+        "Q_electron_neutrino_right": 0.0,
+        "Q_electron_neutrino_right_match": true
+      },
+      "failures": []
+    },
+    "d4_sheet_pairs": {
+      "status": "pass",
+      "checks": {
+        "doublet_count": true,
+        "singlet_count": true,
+        "total_states": true,
+        "lepton_doublet_axis_class_0": true,
+        "lepton_doublet_T3_pm_half": true,
+        "quark_doublet_axis_class_1": true,
+        "quark_doublet_T3_pm_half": true,
+        "singlet_electron_neutrino_right_T3_zero": true,
+        "singlet_electron_right_T3_zero": true,
+        "singlet_up_quark_right_T3_zero": true,
+        "singlet_down_quark_right_T3_zero": true
+      },
+      "failures": []
+    },
+    "neutrino_mass_bound": {
+      "status": "pass",
+      "checks": {
+        "m_nu_upper_bound_eV": 0.8,
+        "m_nu_less_than_0_8_eV": true,
+        "neutrino_mass_open": true
+      },
+      "failures": []
+    },
+    "sm_mapping_file_missing": {
+      "status": "pass",
+      "checks": {
+        "sm_mapping_path": "D:\\Paper Ecology\\PaperLib\\SM_MAPPING_ROWS\\SM_MAPPING_FLCR-41.md",
+        "sm_mapping_file_missing": true,
+        "23_rows_inferred": true
+      },
+      "failures": []
+    },
+    "mass_hierarchy_structural": {
+      "status": "pass",
+      "checks": {
+        "m_e": 0.511,
+        "m_u": 2.2,
+        "m_d": 4.7,
+        "m_e_less_m_u": true,
+        "m_u_less_m_d": true,
+        "hierarchy_structural": true,
+        "yukawa_sector_open": true
+      },
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,50 @@
+arXiv:2509.21952v3 [astro-ph.CO] 6 Feb 2026
+
+Draft version February 9, 2026 Typeset using LATEX default style in AASTeX7.0.1
+Modified Cosmology or Modified Galaxy Astrophysics is Driving the z>6 JWST Results? CMB Experiments can discover the Origin in the Near Future
+Harsh Mehta 1 and Suvodip Mukherjee 1 1Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, 1, Homi Bhabha Road, Mumbai, 400005, India
+ABSTRACT The massive and bright galaxies observed by the James Webb Space Telescope (JWST) at high redshifts (z > 6) have challenged our understanding of the Universe. This may require revisiting the physics of galaxy formation and evolution, or modifying the CDM cosmological model to explain these observations, or both. We show that high-resolution CMB experiments such as the Simons Observatory (or CMB-S4) can measure smoking-gun signatures jointly in weak lensing and kinematic SunyaevZeldovich (kSZ) power spectra, which can shed light on both these scenarios. An increase in the matter power spectrum at small scales will enhance the number density of dark matter halos at high redshifts, thereby increasing the galaxy formation rate. This will cause enhanced weak lensing signal from these redshifts and also lead to enhanced patchy-kSZ signal from the epoch of reionization. However, if only galaxy astrophysics is modified, without any modification in the matter power spectrum, then the patchy-kSZ signal gets altered, while the weak lensing signal remains nearly unaltered. We show that we can measure the modified astrophysical and cosmological scenarios at a statistical significance of 10.4 (and 29.8) from Simons Observatory (and CMB-S4), which will enable a conclusive understanding on what physical process is driving the high-redshift observations of JWST.
+Keywords: Reionization (1383) -- Sunyaev-Zeldovich effect (1654) -- Cosmic microwave background radiation (322) -- Weak gravitational lensing (1797) -- High-redshift galaxies (734)
+1. INTRODUCTION The CDM model has been highly effective in explaining the large-scale structure, the CMB, and the overall evolution of the Universe (P. J. E. Peebles 1980; S. Dodelson 2003; P. A. R. Ade et al. 2016; N. Aghanim et al. 2020). The advent to study our Universe at smaller scales has led to the development of high-resolution surveys such as the JWST (P. A. Sabelhaus & J. E. Decker 2004; J. P. Gardner et al. 2006; K. M. Pontoppidan et al. 2022). However, recent JWST observations of surprisingly massive and bright galaxies at high redshifts z > 10 challenge the CDM framework (I. Labb´e et al. 2023; J. F. Baggen et al. 2023; Y. Harikane et al. 2023, 2025). The CDM framework prefers hierarchical structure formation, where small structures evolve into larger ones over time (W. H. Press & P. Schechter 1974; P. J. E. Peebles 1980). At z > 10, the Universe should host only low-mass galaxies--the presumed drivers of cosmic reionization between z  5.2 and z  10 (R. Barkana & A. Loeb 2001; P. Madau et al. 2004; X. Fan et al. 2006a,b; G. D. Becker et al. 2015; S. E. Bosman et al. 2018; G. Kulkarni et al. 2019; Y. Zhu et al. 2021; T. R. Choudhury et al. 2021b), which grow over cosmic time to form massive galaxies. Yet, JWST has revealed an abundance of bright, evolved galaxies at z  14 (I. Labb´e et al. 2023; Y. Harikane et al. 2023, 2025), suggesting earlier and more efficient star formation than expected (M. Vogelsberger et al. 2020; J. A. Zavala et al. 2023; C. C. Lovell et al. 2023). These findings imply that galaxy formation began earlier or proceeded more vigorously than predicted, or that fundamental cosmological or astrophysical assumptions need revision (R. P. Gupta 2023; S. Fakhry et al. 2025; O. Sokoliuk 2025; A. Chakraborty & T. R. Choudhury 2025; A. Joyce et al. 2015; A. Del Popolo & M. Le Delliou 2017; S. Tulin & H.-B. Yu 2018a; J. S. Bullock & M. Boylan-Kolchin 2017; L. Perivolaropoulos & F. Skara 2022; E. Abdalla et al. 2022).
+Email: harsh.mehta@tifr.res.in, suvodip.mukherjee@tifr.res.in
+
+2
+
+Modifications in cosmology alter the predicted number of high-z galaxies by changing the dark matter halo abundance, while variations in stellar physics affect the UV luminosities and ionization efficiency, thus shaping reionization history (J. Miralda-Escud´e et al. 2000; J. S. Bullock et al. 2000; R. Barkana & A. Loeb 2001; P. Madau et al. 2004; S. R. Furlanetto et al. 2004; M. F. Morales & J. S. B. Wyithe 2010; S. Zaroubi 2012; B. Greig & A. Mesinger 2017). Reionization leaves imprints on the CMB via Thomson scattering and screening, or by generating secondary anisotropies such as the kinematic Sunyaev­Zel'dovich (kSZ) effect (M. Birkinshaw 1999; M. McQuinn et al. 2005; C. Dvorkin & K. M. Smith 2009; N. Hand et al. 2012; E. Schaan et al. 2016a; J. C. Hill et al. 2016; N. Chen et al. 2023; D. Kramer et al. 2025). The post-reionization kSZ component is constrained to D = 1.65 µK2 at  = 3000 (L. D. Shaw et al. 2012; E. Calabrese et al. 2014), while the patchy component depends on reionization morphology and the distribution of ionized inter-galactic medium (IGM) surrounding galaxies across high redshifts (H. Park et al. 2013; S. Paul et al. 2021; N. Chen et al. 2023; D. Jain et al. 2024). The recent JWST findings suggest that reionization may have begun earlier due to enhanced matter fluctuations, or nonstandard galaxy evolution, or both (B. E. Robertson 2022; R. Endsley et al. 2023; P. Madau et al. 2024; F. Melia 2024; C. Cain et al. 2025).
+Enhanced matter fluctuations at high redshifts would increase the number of massive halos and amplify CMB lensing by the evolving gravitational potentials (M. Zaldarriaga & U. Seljak 1998, 1999; W. Hu 2000; U. Seljak & M. Zaldarriaga 2000; J. Guzik et al. 2000). Future CMB surveys such as the Simons Observatory (SO) (P. Ade et al. 2019a,b) and CMB-S4 (K. N. Abazajian et al. 2016) will measure the lensing potential up to L  2000, probing small scales (k > 0.1 Mpc-1) at z > 6, where JWST results are most discrepant with CDM. Since velocity fields correlate with density fluctuations, these same perturbations also impact the kSZ signal. Therefore, a combined analysis of small-scale kSZ and CMB lensing can disentangle the effects of enhanced matter fluctuations from those of altered galaxy evolution.
+An alternative to a modified cosmological explanation is a change in the astrophysics inferred from low-redshift observations. Such a modification would increase emission efficiency and the UV luminosity functions used to estimate high-z galaxy masses (P. S. Behroozi et al. 2010, 2013; T. Shibuya et al. 2015; P. Behroozi et al. 2019; A. Chakraborty & T. R. Choudhury 2025). These functions are also influenced by dust content, bursty star formation, and other non-linear effects (G. Sun & S. R. Furlanetto 2016; M. Vogelsberger et al. 2020; J. A. Zavala et al. 2023; G. Sun et al. 2023). A change in stellar emission physics would alter the ionization fraction and optical depth across redshifts. In this work, we do not explore these highly model-dependent aspects. Instead, we test whether a combined study of CMB lensing and kSZ signals can provide insights into the cosmological understanding of structure formation.
+With high-resolution CMB data from SO and CMB-S4, we can probe arcminute scales. In this letter, we show how a joint analysis of CMB lensing and kSZ at small scales can address the JWST high-redshift tension within CDM. We adopt natural units ( = c = kB = 1) and Planck 2018 cosmological parameters (N. Aghanim et al. 2020).
+
+2. EFFECTS OF MODIFICATION TO CDM COSMOLOGY
+
+JWST observations reveal more massive galaxies at high redshifts than predicted by the CDM model. Small-scale modifications to CDM can explain this excess by increasing the abundance of dark matter halos (A. Joyce et al. 2015; A. Del Popolo & M. Le Delliou 2017; S. Tulin & H.-B. Yu 2018a; J. S. Bullock & M. Boylan-Kolchin 2017; L. Perivolaropoulos & F. Skara 2022; E. Abdalla et al. 2022), implying enhanced matter density fluctuations () at z > 6. These fluctuations modify the matter power spectrum, defined as
+
+(k, z)(k, z) = (2)33(k - k) P(k, z),
+
+(1)
+
+where k = |k|. Large-scale (k < 0.1 Mpc-1) power spectra are well constrained by low-redshift surveys such as the
+
+Hubble Space Telescope (HST) and Sloan Digital Sky Survey (SDSS) (A. Refregier et al. 2002; H. Gil-Marin et al.
+
+2015), while small-scale behavior depends on non-linear physics. Enhancement in power at small-scales may arise
+
+from dark matter clumping, amplified adiabatic perturbations, or cosmic strings (E. W. Kolb & I. I. Tkachev 1993a;
+
+C. Germani & T. Prokopec 2017a; K. Kannike et al. 2017a; J. Garcia-Bellido & E. Ruiz Morales 2017; H. Jiao et al.
+
+2023, 2024), whereas neutrino free-streaming, or warm or fuzzy dark matter suppress power (W. Hu et al. 1998; J.
+
+Lesgourgues & S. Pastor 2006; D. N. Spergel & P. J. Steinhardt 2000; W. Hu et al. 2000; P. Bode et al. 2001; M.
+
+Viel et al. 2005; D. J. Marsh 2016). Baryonic physics such as clustering of cooling stars and Active Galactic Nuclei
+
+(AGN)/supernova feedback also affect these scales (E. Semboloni et al. 2011; M. P. van Daalen et al. 2011; J. Schaye
+
+et al. 2015; A. J. Mead et al. 2015).
+
+JWST results suggest enhanced small-scale power and a higher abundance of massive halos (J. F. Baggen et al. 2023;
+
+I. Labb´e et al. 2023; Y. Harikane et al. 2023, 2025). There are various theoretical scenarios that can lead to enhanced
+
+

@@ -1,0 +1,88 @@
+arXiv:2604.15426v1 [hep-ex] 16 Apr 2026
+
+Standard Model W, Z (+jet) at CMS and ATLAS
+C. Verstege on behalf of the ATLAS and CMS Collaborations Karlsruhe Institute of Technology, Institute of Experimental Particle Physics, Wolfgang-Gaede-Str. 1,
+76131 Karlsruhe, Germany
+Recent measurements of Standard Model W and Z boson production performed by the ATLAS and CMS Collaborations at the CERN Large Hadron Collider are reviewed. These include a search for charged lepton flavour violating decays of Z and Z' bosons, a measurement of W-boson angular coefficients and transverse momentum distributions, a triple-differential measurement of Z+jet production, and a study of the jet mass in boosted hadronic W boson decays with an extraction of the W boson mass. Together, these results highlight the role of precision measurements as stringent tests of perturbative quantum chromodynamics and electroweak theory. The large Run 2 dataset enables multi-differential measurements with enhanced sensitivity to parton distribution functions and increasingly precise tests of theoretical predictions.
+1 Introduction
+In proton-proton collisions at the CERN Large Hadron Collider (LHC), W and Z bosons are produced with large cross sections, providing experimentally clean and theoretically well-understood processes. Precision measurements of their production and decay properties constitute essential tests of perturbative quantum chromodynamics (QCD) and electroweak (EW) theory.
+In addition, these processes are sensitive to parton distribution functions (PDFs), providing valuable input for improving the theoretical description of proton­proton collisions. Measurements performed in association with jets further probe higher-order QCD effects. The large datasets collected during Run 2 enable multi-differential measurements with unprecedented precision, allowing detailed tests of theoretical predictions across a wide kinematic range.
+This contributiona summarizes recent results from the ATLAS1 and CMS2,3 Collaborations, focusing on W and Z boson production, including associated jet activity and boosted topologies. Leptonic decay channels are primarily used due to their clean experimental signatures and strong suppression of QCD multijet backgrounds, enabling high-precision measurements.
+aCopyright 2026 CERN for the benefit of the ATLAS and CMS Collaborations. Reproduction of this article or parts of it is allowed as specified in the CC-BY-4.0 license.
+
+2 Search for charged lepton flavour violating Z and Z' boson decays
+
+A search the CMS
+
+fCorolclahbaorgraedtiolenp4tounsifnlagvporuortovnio-lpartointogn(CcoLllFisVio)nddeacataysaotfthse=Z1b3oTseoVn ,wcaosrrpeesrpfoonrmdiendg
+
+by to
+
+an integrated luminosity of 138 fb-1. In the Standard Model (SM), CLFV processes are highly
+
+suppressed, with branching fractions of O(10-60) when extended to include neutrino masses,
+
+making any observable signal a clear indication of physics beyond the Standard Model.
+
+The analysis targeted the decay channels Z  eµ, Z  e , and Z  µ , as well as potential
+
+heavy neutral resonances (Z) decaying to eµ in the mass range 110­500 GeV. Signal extraction
+
+was based on the invariant mass of the dilepton system and multivariate discriminants. In the
+
+eµ channel, where the Z boson is fully reconstructed, the signal yield was obtained from fits
+
+to the invariant mass spectrum. For the e and µ channels, boosted decision tree (BDT)
+
+discriminants were used as the primary observables due to the reduced mass resolution from the
+
+presence of neutrinos in the  decay.
+
+No significant deviation from the SM expectation was observed. Upper limits at 95% confi-
+
+dence level were set on the branching fractions:
+
+B(Z  eµ) < 1.9 × 10-7, B(Z  e ) < 1.38 × 10-5, B(Z  µ ) < 1.20 × 10-5.
+
+The limit on B(Z  eµ) is the most stringent direct constraint to date. In addition, limits on (pp  Z) × B(Z  eµ) were set in the range 0.3­7 fb for Z masses between 110 and 500 GeV.
+These results significantly constrain a broad class of beyond-the-Standard-Model scenarios predicting CLFV and demonstrate that the sensitivity is currently limited primarily by the available data sample.
+
+3 Measurement of W-boson angular coefficients and transverse momentum
+
+The first measurement of the in proton­proton collisions at
+
+full s
+
+set of angular coefficients describing W-boson production = 13 TeV was presented by the ATLAS Collaboration 5.
+
+The analysis used a dedicated low pile-up dataset corresponding to an integrated luminosity of 338 pb-1, which enabled an improved reconstruction of the hadronic recoil and, consequently,
+
+of the W-boson transverse momentum.
+
+The differential cross section for W-boson production and decay can be expressed as a
+
+decomposition into harmonic polynomials of the lepton decay angles, multiplied by angular
+
+coefficients Ai that encode the helicity structure of the process. These coefficients are sensitive
+
+to QCD effects in vector-boson production and provide direct information on the W-boson
+
+polarisation.
+
+The measurement was performed in the full phase space of the decay leptons for both W +
+
+and W - bosons, and extracted the eight angular coefficients together with the differential cross
+
+section as a function of the W-boson transverse momentum pW T . A profile likelihood fit was used to determine the coefficients in bins of pTW .
+Several angular coefficients, in particular A0 and A2-4, were found to be significantly dif-
+
+ferent from zero, demonstrating the sensitivity of the measurement to the underlying QCD
+
+dynamics. The results were compared to state-of-the-art predictions at next-to-next-to-leading
+
+order (NNLO) in QCD, including resummation effects, and showed overall good agreement.
+
+4 Triple-differential measurement of Z+jet production
+TinhaesCsoMciSatCioonllwabitohraattiolenarsetpoonretejdett6heinfiprsrtottorinp­lpe-rdoitfofenrecnotlliiasliomnesaasturems =ent13ofTZeVb,ousosinngpraodduactatisoent corresponding to an integrated luminosity of 138 fb-1.
+
+

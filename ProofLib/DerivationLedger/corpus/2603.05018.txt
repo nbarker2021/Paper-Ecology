@@ -1,0 +1,92 @@
+arXiv:2603.05018v2 [math-ph] 10 Mar 2026
+
+CAUSAL FERMION SYSTEMS, NON-COMMUTATIVE GEOMETRY AND GENERALIZED TRACE DYNAMICS
+SHANE FARNSWORTH, FELIX FINSTER, CLAUDIO F. PAGANINI, AND TEJINDER P. SINGH
+MARCH 2026
+Abstract. We compare the structures and methods in the theory of causal fermion systems with generalized trace dynamics and non-commutative geometry. Although the three theories differ on many aspects, they agree in that the geometric structure to be recovered in the continuum limit is not the bare spacetime but a suitable fiber bundle. Furthermore, the comparison leads us to the conclusion that the key innovation in causal fermion systems lies in the manner in which the relation between different spacetime points is encoded. The role of Synge's classical world function (x, y) that encodes the geodesic distance between any two points in the manifold, is taken by a generalized two-point correlator. We show that this idea can be transferred to non-commutative geometry and generalized trace dynamics.
+
+Contents
+
+1. Introduction
+
+1
+
+Organization of the Paper
+
+2
+
+Author Contributions
+
+3
+
+2. Overview of NCG, CFS, and GTD
+
+3
+
+2.1. NCG Overview
+
+3
+
+2.2. CFS Overview
+
+9
+
+2.3. GTD Overview
+
+15
+
+3. Comparison
+
+27
+
+3.1. Fundamental structures
+
+27
+
+3.2. Emergence of classical spacetime
+
+29
+
+3.3. Appearance of Quantum Fields
+
+31
+
+3.4. Action Principle
+
+33
+
+3.5. Conservation laws
+
+36
+
+3.6. Collapse
+
+38
+
+3.7. Derivation of the Standard Model
+
+39
+
+4. Conclusion
+
+44
+
+References
+
+44
+
+1. Introduction
+Physical phenomena can often be modelled effectively in several different mathematical frameworks. The archetypal example is that of a fluid, which at one level can be modelled using macroscopic variables like temperature and viscosity, while at
+1
+
+2
+
+S. FARNSWORTH, F. FINSTER, C.F. PAGANINI, AND T. SINGH
+
+a deeper level macroscopic fluid behavior is seen to emerge from the dynamics of statistical ensembles of molecules. More modern examples include dualities such as the AdS/CFT correspondence [77], or the loop equation description of turbulent flow [80], which hold in appropriate limits. It remains an open question, which shift in perspective and description will turn out to be most useful for quantizing gravity. There are already a proliferation of proposals, and any approach that has a chance of succeeding must make contact with our current models of physics written in terms of effective field theory. In addition, the class of all such approaches must also cohere with one another at least within testable limits. An obvious question is whether the coherence between competing approaches can be leveraged to single out potential new dualities, or promising new avenues towards a more complete description of nature.
+This paper explores and compares three approaches to unifying gravity with the Standard-Model of particle physics: Finster's causal fermion systems (CFS), Connes' Non-Commutative Geometry (NCG) [24], and Adler's Trace Dynamics (TD) as well as its generalization to include gravitation (GTD). These three approaches have been selected because, while they differ significantly from one another, they also host a number of commonalities that highlight fundamental features of the underlying physics being modelled. Each approach uses different fundamental mathematical objects to describe known physics, offering surprising reinterpretations of well-known phenomena and suggesting new paths forward for theoretical development. Our goal is to provide a clear and concise overview of these approaches and how they compare and contrast from one another. The aim is to facilitate the porting of lessons learned between approaches, to draw connections between fields, and to sever dead ends. We highlight the key tools that these approaches use and mention open problems within each framework. Moreover, we point out areas in which they offer more explanatory power than the usual approach of effective field theory, and discuss potential applications beyond their original contexts. Our comparison aims to facilitate communication between CFS, NCG, and GTD. However, it should not be necessary to have any background in these approaches to understand or benefit from this paper.
+This article is part of a series of papers that compare the structures and ideas of different approaches to fundamental physics that was started with [44, 47, 45] and will be continued in [48]. Each of these papers contains an introduction to the theories under consideration, including an overview of their accomplishments. These overviews serve as a starting point for the reader to get familiar with the approaches. The papers proceed with a detailed comparison of these theories under consideration. Ultimately, the goal is to motivate the community to establish an extensive collection of such articles as a sort of "Rosetta stone" for approaches to fundamental physics. The hope is that such a set of dictionaries will facilitate the exchange of ideas across approaches and thereby catalyze progress in the foundations of physics.
+
+Organization of the Paper. In Section 2 we give an overview of the three theories under consideration, starting with NCG in Section 2.1, moving on to CFS in Section 2.2 and ending with GTD in Section 2.3. Each of these sections covers both the fundamental structures of the theories as well as the principles that govern the dynamics of physical systems according to these theories. The core of the paper is Section 3 where we compare and contrast the three theories, starting from their fundamental structures in Section 3.1. In Section 3.2 we discuss how the classical continuum spacetime emerges in each of the theories. In Section 3.3 we discuss in what sense each
+
+

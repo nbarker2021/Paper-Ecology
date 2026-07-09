@@ -1,0 +1,196 @@
+{
+  "paper": "30",
+  "title": "Supervisor Cursor and Universal Normal Form",
+  "status": "pass_with_open_minimality_obligations",
+  "verifiers": {
+    "coverage_n4": {
+      "status": "pass",
+      "checks": {
+        "construction_ok": true,
+        "length": 33,
+        "covered_permutations": 24,
+        "total_permutations": 24,
+        "full_coverage": true,
+        "known_length_match": true
+      },
+      "failures": [],
+      "n": 4,
+      "superpermutation_prefix": "abcdabcadbcabdcabacdbacbdacbadcba"
+    },
+    "coverage_n5": {
+      "status": "pass",
+      "checks": {
+        "construction_ok": true,
+        "length": 153,
+        "covered_permutations": 120,
+        "total_permutations": 120,
+        "full_coverage": true,
+        "known_length_match": true
+      },
+      "failures": [],
+      "n": 5,
+      "superpermutation_prefix": "abcdeabcdaebcdabecdabcedabcadebcadbecadbceadbcaedbcabdecabdceabdcaebdcabedcabacdebacdbeacdbaecdbacedbacbdeacbdaecbdacebdacbedacbadecbadcebadcbeadcbaedcba"
+    },
+    "coverage_n6": {
+      "status": "pass",
+      "checks": {
+        "construction_ok": true,
+        "length": 873,
+        "covered_permutations": 720,
+        "total_permutations": 720,
+        "full_coverage": true,
+        "known_length_match": true,
+        "note": "Length 873 is a valid construction; minimality open for n>=6"
+      },
+      "failures": [],
+      "n": 6,
+      "superpermutation_prefix": "abcdefabcdeafbcdeabfcdeabcfdeabcdfeabcdaefbcdaebfcdaebcfdaebcdfaebcdafebcdabefcdabecfdabecdfabecdafbecdabfecdabcefdabcedfabcedafbcedabfcedabcfedabcadefbcadebfcadebcfadebcafdebcadfebcadbefcadbecfadbeca"
+    },
+    "coverage_n7": {
+      "status": "pass",
+      "checks": {
+        "construction_ok": true,
+        "length": 5913,
+        "covered_permutations": 5040,
+        "total_permutations": 5040,
+        "full_coverage": true,
+        "known_length_match": true,
+        "note": "Length 5913 is a valid construction; minimality open for n>=7"
+      },
+      "failures": [],
+      "n": 7,
+      "superpermutation_prefix": "abcdefgabcdefagbcdefabgcdefabcgdefabcdgefabcdegfabcdeafgbcdeafbgcdeafbcgdeafbcdgeafbcdegafbcdeagfbcdeabfgcdeabfcgdeabfcdgeabfcdegabfcdeagbfcdeabgfcdeabcfgdeabcfdgeabcfdegabcfdeagbcfdeabgcfdeabcgfdeabc"
+    },
+    "coverage_n8": {
+      "status": "pass",
+      "checks": {
+        "construction_ok": true,
+        "length": 46233,
+        "covered_permutations": 40320,
+        "total_permutations": 40320,
+        "full_coverage": true,
+        "known_length_match": true,
+        "note": "Length 46233 is a valid construction; minimality open for n>=8",
+        "egan_upper_row_46205": true,
+        "length_close_to_egan": true
+      },
+      "failures": [],
+      "n": 8,
+      "superpermutation_prefix": "abcdefghabcdefgahbcdefgabhcdefgabchdefgabcdhefgabcdehfgabcdefhgabcdefaghbcdefagbhcdefagbchdefagbcdhefagbcdehfagbcdefhagbcdefahgbcdefabghcdefabgchdefabgcdhefabgcdehfabgcdefhabgcdefahbgcdefabhgcdefabcgh"
+    },
+    "minimality_scope": {
+      "status": "pass",
+      "checks": {
+        "minimality_n4_closed": true,
+        "minimality_n5_closed": true,
+        "minimality_n6_open": true,
+        "minimality_n7_open": true,
+        "minimality_n8_open": true,
+        "n4_length": 33,
+        "n4_known_length": 33,
+        "n5_length": 153,
+        "n5_known_length": 153,
+        "n6_length": 873,
+        "n6_known_length": 872,
+        "n7_length": 5913,
+        "n7_known_length": 5906,
+        "n8_length": 46233,
+        "n8_known_length": 46205,
+        "n4_exact_minimal": true,
+        "n5_exact_minimal": true
+      },
+      "failures": []
+    },
+    "egan_upper_row": {
+      "status": "pass",
+      "checks": {
+        "egan_upper_row_value": 46205,
+        "egan_is_46205": true,
+        "factorial_8": 40320,
+        "egan_exceeds_factorial": true
+      },
+      "failures": []
+    },
+    "corridor_width": {
+      "status": "pass",
+      "checks": {
+        "lower_bound": 46085,
+        "upper_row": 46205,
+        "corridor_width": 120,
+        "corridor_is_120": true,
+        "bounds_consistent": true
+      },
+      "failures": []
+    },
+    "cursor_is_schedule": {
+      "status": "pass",
+      "checks": {
+        "cursor_exists": true,
+        "cursor_has_schedule": true,
+        "cursor_is_not_content": true,
+        "events_carry_proof_status": true,
+        "no_receipt_replacement": true
+      },
+      "failures": [],
+      "cursor": {
+        "name": "Paper32Cursor",
+        "is_content": false,
+        "schedule_length": 3,
+        "schedule": [
+          {
+            "event_id": 1,
+            "target_paper": "paper-01",
+            "request_type": "inspect",
+            "proof_status": "proof"
+          },
+          {
+            "event_id": 2,
+            "target_paper": "paper-02",
+            "request_type": "retest",
+            "proof_status": "proof"
+          },
+          {
+            "event_id": 3,
+            "target_paper": "paper-03",
+            "request_type": "route",
+            "proof_status": "open"
+          }
+        ]
+      }
+    },
+    "active_suite_wrap": {
+      "status": "pass",
+      "checks": {
+        "wrap_registered": true,
+        "wrap_target_is_paper_01": true,
+        "active_window_starts_at_paper_01": true,
+        "paper_00_outside_active_window": true,
+        "next_active_from_32_is_01": true
+      },
+      "failures": [],
+      "selector": {
+        "registry": {
+          "paper-32": "paper-01"
+        },
+        "active_window_start": "paper-01",
+        "suite_wrap": "paper-32"
+      }
+    },
+    "universal_normal_form": {
+      "status": "pass",
+      "checks": {
+        "n3_encode_decode_lossless": true,
+        "n3_compression_ratio": 1.0,
+        "n3_schedule_non_empty": true,
+        "n4_encode_decode_lossless": true,
+        "n4_compression_ratio": 1.0,
+        "n4_schedule_non_empty": true,
+        "n5_encode_decode_lossless": true,
+        "n5_compression_ratio": 1.0,
+        "n5_schedule_non_empty": true,
+        "universal_encoder_class": true
+      },
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,26 @@
+arXiv:2604.21013v1 [astro-ph.HE] 22 Apr 2026
+
+Archival Multiband Gravitational-Wave Signals from Massive Black Hole Binary Mergers
+Alexander W. Criswell1,2*, Stephen R. Taylor1, Kris Pardo3, Alberto Sesana4,5,6, David Izquierdo7, Silvia Bonoli8,9, Daniele Spinoso10
+1Department of Physics & Astronomy, Vanderbilt University, 2201 West End Ave, Nashville, 37235, TN, USA.
+2Department of Life and Physical Sciences, Fisk University, 1000 17th Avenue N., Nashville, 37208, TN, USA.
+3Department of Physics & Astronomy, University of Southern California, 825 Bloom Walk, Los Angeles, 90089, CA, USA. 4Dipartimento di Fisica "G. Occhialini", Universit´a degli Studi di Milano-Bicocca, Piazza della Scienza 3, Milano, 20126, Italy. 5INAF, Osservatorio Astronomico di Brera, via Brera 20, Milano,
+20121, Italy. 6INFN, Sezione di Milano-Bicocca,, Piazza della Scienza 3, Milano,
+20126, Italy. 7Institute of Space Sciences (ICE, CSIC), ICE-CSIC, Campus UAB,
+Carrer de Magrans, Barcelona, 08193, Spain. 8 Donostia International Physics Centre (DIPC), Paseo Manuel de
+Lardizabal 4, Donostia-San Sebastian, 20018, Spain. 9 IKERBASQUE, Basque Foundation for Science, Bilbao, E-48013,
+Spain. 10Como Lake Center for Astrophysics, Universita´ degli Studi
+dell'Insubria, Via Valleggio 11, Como, 22100, Italy.
+*Corresponding author(s). E-mail(s): alexander.criswell@vanderbilt.edu; Contributing authors: stephen.r.taylor@vanderbilt.edu;
+kmpardo@usc.edu; alberto.sesana@unimib.it; dizquierdo@ice.csic.es; silvia.bonoli@dipc.org; dspinoso@.outlook.it;
+1
+
+Abstract While massive black hole binaries (MBHBs) merge at gravitational-wave frequencies above the pulsar timing array (PTA) sensitivity band, we show that they leave orphaned low-frequency contributions in the PTA pulsar term. Due to the light-propagation time between each pulsar in the array and Earth, the pulsar term acts as a time-delayed probe of a chirping merger with a specific frequency response determined by the direction of origin and intrinsic properties of the MBHB. We provide a detailed consideration of how such a multiband signal would manifest in a full PTA, demonstrate an approach to stack these orphaned pulsar terms across the array, and discuss prospects for an archival, multiband search in conjunction with MBHB mergers observed in astrometric data or spaceborne interferometers like LISA.
+Keywords: Gravitational waves, massive black hole binaries, pulsar timing arrays
+1 Introduction
+The hierarchical assembly of galaxies (White and Rees 1978; White and Frenk 1991), together with the near-ubiquitous presence of massive black holes (MBHs) at their centres (see e.g, Miller et al. 2015), implies that massive black hole binaries (MBHBs) should be a natural outcome of galaxy mergers (Begelman et al. 1980). Under a theoretical perspective, it has been shown that after galaxy interactions, the two central MBHs gradually migrate toward the center of the remnant galaxy via dynamical friction, eventually forming a gravitationally bound system (Chandrasekhar 1943). The subsequent evolution of the binary is governed by interactions with the surrounding stellar population, any circumbinary gas disc, as well as by the emission of gravitational waves, which ultimately drives the binary to coalescence (Quinlan and Hernquist 1997; Sesana et al. 2006; Escala et al. 2005; Dotti et al. 2007; Cuadra et al. 2009; Franchini et al. 2021).
+Despite decades of theoretical work, MBHBs have remained elusive in the electromagnetic spectrum, as their parsec to sub-parsec separations and long orbital periods hinder any direct imaging and prevent unambiguous detection. To date, several candidate MBHBs have been identified through periodic or quasi-periodic variability in active galactic nucleus (AGN) light curves, potentially reflecting orbital motion or accretion modulations induced by the binary (Graham et al. 2015; D'Orazio and Loeb 2018; De Rosa et al. 2019; D'Orazio and Charisi 2023; Luo et al. 2024; Tub´in-Arenas et al. 2025; Rodriguez et al. 2006). However, discriminating genuine MBHB signatures from AGN variability remains a major challenge as it demands long-term, high-cadence monitoring combined with rigorous statistical analysis (see e.g, Bertassi et al. 2025; Mohammed et al. 2025).
+Low-frequency gravitational wave observations provide an extremely promising route forward to expand our understanding of MBHB astrophysics. In the nHz, pulsar timing arrays (PTAs) have detected strong evidence for a gravitational-wave background (Agazie et al. 2023c; Antoniadis et al. 2023; Xu et al. 2023; Zic et al. 2023;
+2
+
+

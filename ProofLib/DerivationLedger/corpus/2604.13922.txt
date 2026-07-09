@@ -1,0 +1,68 @@
+arXiv:2604.13922v2 [hep-ph] 17 Jun 2026
+
+DESY-26-048
+Refining two-loop corrections to trilinear Higgs couplings in the Two-Higgs-Doublet Model
+Johannes Braathen1,, Felix Egle1,, and Alain Verduras Schaeidt1, 1Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany
+Abstract. The precise determination of the Higgs self-couplings is an essential task for understanding electroweak symmetry breaking and probing physics beyond the Standard Model (SM). The calculation of two-loop corrections to scalar couplings is important as it provides a critical test of the perturbative stability of the theoretical predictions, especially in scenarios with extended scalar sectors where large one-loop corrections can occur. Moreover, two-loop corrections need to be taken into account for the future perspective of precisely measuring the trilinear Higgs self-coupling. We present new results for the leading two-loop corrections to trilinear Higgs couplings in the Two-Higgs-Doublet Model (2HDM). We focus in particular on the couplings hhh and hhH, which are relevant for Higgs pair production at the (HL-)LHC or at future linear colliders. We address the renormalisation of the alignment limit in the Higgs basis and give some insights into technical details of the calculation. Finally, we discuss the phenomenological impact of our results on di-Higgs production differential distributions.
+Talk presented at the International Workshop on Future Linear Colliders 2025 (LCWS2025), Valencia, Spain
+e-mail: johannes.braathen@desy.de, Speaker e-mail: felix.egle@desy.de e-mail: alain.verduras@desy.de
+
+1 Introduction
+The trilinear Higgs self-coupling, hhh, is a crucial probe of the shape of the Higgs potential realised in Nature and of the dynamics of the electroweak phase transition (EWPT). It is also a prime target to search for phenomena beyond the Standard Model (BSM). Precise measurements of hhh, or rather its coupling modifier   hhh/ShhMh, (0) (where ShhMh, (0) is the tree-level SM prediction), are thus flagship measurements at the LHC, its high-luminosity upgrade (HL-LHC) and future colliders. Currently the best combination from ATLAS and CMS [1] yields the bounds -0.71 <  < 6.1 at 95% C.L., and significant improvements are expected at future colliders (see e.g. Refs. [2, 3]).
+Sizeable deviations in hhh from its Standard Model (SM) value are known to occur commonly in many BSM theories with extended scalar sectors [4­32], due to radiative corrections involving the BSM scalars. In Refs. [17­19], two-loop corrections to hhh were computed for the first time in several BSM models, including the Two-Higgs-Doublet Model (2HDM), thereby confirming the perturbative convergence of the large corrections that can occur from the one-loop order onwards (see also Refs. [21, 30, 33­36] for other two-loop computations). Moreover, it was shown in Ref. [23] that the comparison of high-precision predictions for hhh with the experimental limits derived from di-Higgs production searches can provide a powerful tool to probe or constrain the parameter space of BSM theories with extended scalar sectors, beyond the reach of other state-of-the-art experimental and theoretical constraints. In this context, the inclusion of the known and numerically significant two-loop corrections to hhh is essential for reliable interpretations of the experimental bounds in terms of the allowed or excluded regions of BSM parameter space.
+The trilinear self-coupling of the detected Higgs boson is however not the only trilinear scalar coupling required to reconstruct the shape of the Higgs potential in models with extended scalar sectors. Other trilinear couplings can appear in pair production processes of the detected Higgs boson, like gg  hh at the (HL-)LHC, and can also receive significant radiative corrections, see e.g. Refs. [31, 37]. In the 2HDM, this is in particular the case of the coupling hhH.
+Recent improvements [30, 38, 39] in the calculation of trilinear scalar couplings at two loops and in the renormalisation of the condition of alignment now motivate revisiting the earlier results of Refs. [18, 19] for hhh in order to relax some of the simplifications made therein (in particular neglecting loop-induced corrections to the alignment condition on the CP-even mixing angle ), and to extend the scope of these calculations to other couplings such as hhH. In these proceedings, we present preliminary results from our ongoing work on improving predictions for the leading two-loop corrections to the trilinear scalar couplings contributing to Higgs pair production in the 2HDM.
+
+2 The Two-Higgs-Doublet Model
+
+We present in this section the setting of our work in the CP-conserving 2HDM. We start by introducing the scalar potential
+
+V(SM, BSM) = M121|SM|2 + M222|BSM|2 - M122(B SMSM + h.c.)
+
++
+
+1 2
+
+|SM|4
+
++
+
+2 2
+
+|BSM
+
+|4
+
++
+
+3|SM|2|BSM|2
+
++
+
+4|B SMSM|2
+
++
+
+5 2
+
+(BSMSM)2
+
++
+
+(6|SM|2
+
++
+
+7|BSM|2)SMBSM
+
++
+
+h.c.
+
+,
+
+(1)
+
+2
+
+

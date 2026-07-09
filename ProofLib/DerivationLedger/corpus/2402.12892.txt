@@ -1,0 +1,71 @@
+arXiv:2402.12892v1 [hep-ex] 20 Feb 2024
+
+Extensive search for axion dark matter over 1 GHz with CAPP's Main Axion eXperiment
+Saebyeok Ahn,1 JinMyeong Kim,2, 1 Boris I. Ivanov,1 Ohjoon Kwon,1 HeeSu Byun,1 Arjan F. van Loo,3, 4 SeongTae Park,1 Junu Jeong,1 Soohyung Lee,1 Jinsu Kim,1 C¸ aglar Kutlu,1 Andrew K. Yi,2, 1 Yasunobu Nakamura,3, 4 Seonjeong Oh,1 Danho Ahn,1 SungJae Bae,2, 1 Hyoungsoon Choi,2 Jihoon Choi,1,  Yonuk Chong,5 Woohyun Chung,1,  Violeta Gkika,1 Jihn E. Kim,6 Younggeun Kim,1 Byeong Rok Ko,1,  Lino Miceli,1 Doyu Lee,1, § Jiwon Lee,2, 1 Ki Woong Lee,1 MyeongJae Lee,1, ¶ Andrei Matlashov,1 Pallavi Parashar,2, 1 Taehyeon Seong,1 Yun Chang Shin,1 Sergey V. Uchaikin,1,  SungWoo Youn,1,  and Yannis K. Semertzidis1, 2
+1Center for Axion and Precision Physics Research, Institute for Basic Science (IBS), Daejeon 34051, Republic of Korea 2Department of Physics, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea 3RIKEN Center for Quantum Computing (RQC), Wako, Saitama 351-0198, Japan
+4Department of Applied Physics, Graduate School of Engineering, The University of Tokyo, Bunkyo-ku, Tokyo 113-8656, Japan
+5SKKU Advancd Institute of Nano Technology (SAINT) and Department of Nano Engineering Sung Kyun Kwan University (SKKU), Suwon 16419, Republic of Korea 6Department of Physics, Seoul National University, 1 Gwanak-Ro, Seoul 08826, Republic of Korea
+We report an extensive high-sensitivity search for axion dark matter above 1 GHz at the Center for Axion and Precision Physics Research (CAPP). The cavity resonant search, exploiting the coupling between axions and photons, explored the frequency (mass) range of 1.025 GHz (4.24 µeV) to 1.185 GHz (4.91 µeV). We have introduced a number of innovations in this field, demonstrating the practical approach of optimizing all the relevant parameters of axion haloscopes, extending presently available technology. The CAPP 12 T magnet with an aperture of 320 mm made of Nb3Sn and NbTi superconductors surrounding a 37-liter ultralight-weight copper cavity is expected to convert DFSZ axions into approximately 102 microwave photons per second. A powerful dilution refrigerator, capable of keeping the core system below 40 mK, combined with quantum-noise limited readout electronics, achieved a total system noise of about 200 mK or below, which corresponds to a background of roughly 4 × 103 photons per second within the axion bandwidth. The combination of all those improvements provides unprecedented search performance, imposing the most stringent exclusion limits on axion­photon coupling in this frequency range to date. These results also suggest an experimental capability suitable for highly-sensitive searches for axion dark matter above 1 GHz.
+
+I. INTRODUCTION
+Dark matter, which is evident in many astronomical observations, is generally accepted to be one of the major substances in our universe, making up approximately 85% of matter and strongly influencing the formation and evolution of galaxies [1, 2]. However, the mysterious hypothetical substance has eluded decades of dedicated searches. It remains invisible and its identity unknown. The possible candidates for dark matter include individual heavy particles, such as weakly interacting massive particles [3, 4], coherently oscillating waves such as axions (in generic, axion-like particles) [5, 6], or astronomical objects such as primordial black holes [7, 8]. Among
+ Present address: Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea.
+ corresponding author; gnuhcw@ibs.re.kr  corresponding author; brko@ibs.re.kr § Present address: Samsung Electronics, Gyeonggi-do 16677, Re-
+public of Korea. ¶ Present address: Department of Physics, Sungkyunkwan Univer-
+sity, Suwon 16419, Republic of Korea.  corresponding author; uchaikin@ibs.re.kr  corresponding author; swyoun@ibs.re.kr
+
+these, axions are theoretically promising particles that were originally proposed to solve a fundamental problem in strong interactions, known as the strong-CP problem. The Charge-Parity (CP) symmetry that is expected to be violated according to quantum chromodynamics (QCD) of the Standard Model (SM), appears to be conserved in nature, as indicated by the absence of an electric dipole moment (EDM) for the neutron [9] and proton [10]. An elegant solution to this naturalness problem is the PecceiQuinn (PQ) mechanism, where the CP-violating term in the QCD Lagrangian, referred to as ¯, is promoted to a scalar field by introducing a new U(1) global symmetry as a minimal extension of the SM [11]. The symmetry becomes spontaneously broken at some energy scale, dynamically relaxing the ¯ parameter to zero, thus resolving the strong-CP problem. The Goldstone boson associated with the spontaneous symmetry breaking is the axion [12, 13]. The mass and coupling (strength of axion­photon interaction) are inversely proportional to the symmetry breaking scale fa, also known as the decay constant. Since searches for the standard axion at fa  vEW (electroweak scale) have yielded null results, attention has shifted to detecting "invisible" axions with very large fa, i.e., with very small mass and very weak coupling to ordinary matter.
+
+2
+
+The unique properties of the QCD axion turn out to provide a suitable explanation for the missing matter of the universe with a cosmological constraint on the decay constant fa  1012 GeV, which imposes a boundary of  1 µeV on the mass ( 0.25 GHz on the frequency) [14­ 16]. Depending on the production and evolution of the cosmic axion field, there are two possible scenarios for axion cosmology. In the pre-inflationary scenario, where cosmic inflation selects a single patch of the universe free of topological defects, the PQ symmetry breaking results in a homogeneous initial misalignment value of the axion field throughout the observable universe and determines the axion relic (present) density with a mass within a wide range as low as 1 peV/c2, where c is the speed of light, accounting for the present abundance of dark matter [17, 18]. Alternatively, the post-inflationary axion field embraces many patches and thus takes on multiple initial values, resulting in topological defects that additionally contribute to axion production. Using a spatially averaged initial misalignment value, recent QCD lattice calculations and simulations have been able to predict the axion mass within a relatively narrow range from O(101) to O(102) µeV [19­21].
+At present, dark-matter axions are assumed to be in a virialized state (a sort of thermalization process without energy loss from the total system) with their velocity following the Maxwell­Boltzmann distribution. This results in a dispersion of  10-3c, which in turn yields an average quality factor of 1.0 × 106 for an observer on earth [22].
+Although feeble, the QCD axion can interact with SM particles through anomalous couplings to gluons. Depending on the type of particles contributing to the anomalous loop, there are two general classes of in-
+
+visible axion models: Kim-Shifman-Vainshtein-Zakharov (KSVZ) with a newly introduced heavy quark carrying the PQ charge [23, 24] and Dine-Fischler-SrednickiZhitnitsky (DFSZ) with ordinary quarks and leptons carrying the charge [25, 26]. The electromagnetic interaction has been widely accepted for practical searches, since it mediates axion­photon coupling, providing an experimental signature, i.e., photons, which can be detected with existing well-developed detection technologies.
+The detection principle, first suggested by Sikivie [27], relies on the macroscopic version of the (inverse) Primakoff effect, where a classical magnetic field serves as a sea of virtual photons with which axions interact and convert into real photons. The photon frequency corresponds to the total energy of the detected axion. There are several types of search strategies depending on the source of the axion. These include: (i) haloscope searches for dark matter axions in the galactic halo (CAPP [28­ 32], ADMX [33­35], HAYSTAC [36­38], QUAX [39, 40], ORGAN [41, 42], MADMAX [43], DM Radio [44], CASTCAPP [45], etc.), (ii) helioscopes pointing at the Sun to look for solar axions (CAST [46] and IAXO [47]) and (iii) light-shining-through-the-wall schemes, which are configured to generate and detect axions in the lab (OSQAR [48] and ALPS (II) [49, 50]). Among these, the cavity haloscope method provides the most sensitive approach, particularly in the microwave region.
+A cavity haloscope consists of a microwave resonator immersed in a strong magnetic field where axions induce photons which couple with one of the cavity resonant modes, e.g., the TM010 mode for a cylindrical geometry. The expected power of the axion­photon conversion is given by
+
+Pa = 8.7 × 10-23 W
+
+g 2 0.36
+
+a 0.45 GeV/cm3
+
+a 1.1 GHz
+
+Brms 2 V 10.3 T 37 L
+
+G 0.6
+
+Qc 105
+
+,
+
+(1)
+
+where g is the model-dependent coupling coefficient with a value of -0.97 and 0.36 for the KSVZ and DFSZ models, respectively, a is the axion density in the local darkmatter halo, a is the axion Compton frequency, and Brms is the externally applied magnetic field. V and Qc are the volume and quality factor of the cavity, and G is the form factor associated with the resonant mode, providing a measure of how well the external magnetic field is matched with the electric field associated with the relevant cavity mode. Assuming that local dark matter is composed solely of DFSZ axions, a cavity haloscope with the experimental parameters used in Eq. (1) would expect about 120 photons/s to be converted in the cavity and about 30 photons/s to be picked up by a critically coupled receiver antenna. A measure of experimental
+
+sensitivity is given by the signal-to-noise ratio (SNR),
+
+SNR  Pa = Pa
+
+t ,
+
+(2)
+
+Psys kB Tsys 
+
+ where Psys(= Psys/ t) denotes fluctuations in system noise power over a bandwidth  during an inte-
+
+gration time t, and Psys(= kBTsys) describes the Johnson-Nyquist noise with the Boltzmann constant kB and the equivalent noise temperature Tsys. Since the axion mass is unknown a priori and the allowed mass range
+
+is vast, a fast search speed with a given sensitivity be-
+
+comes the figure of merit for the experimental design.
+
+The relevant quantity is obtained by inserting Eq. (1)
+
+into Eq. (2) as
+
+

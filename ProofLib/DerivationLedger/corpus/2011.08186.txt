@@ -1,0 +1,74 @@
+MIT-CTP/5256
+The cosmology of sub-MeV dark matter freeze-in
+Cora Dvorkin,1 Tongyan Lin,2 and Katelin Schutz3 1Department of Physics, Harvard University, Cambridge, MA 02138, USA 2Department of Physics, University of California, San Diego, CA 92093, USA 3Center for Theoretical Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+Dark matter (DM) could be a relic of freeze-in through a light mediator, where the DM is produced by extremely feeble, IR-dominated processes in the thermal Standard Model plasma. In the simplest viable models with the DM mass below the MeV scale, the DM has a small effective electric charge and is born with a nonthermal phase-space distribution. This DM candidate would cause observable departures from standard cosmological evolution. In this work, we combine data from the cosmic microwave background (CMB), Lyman- forest, quasar lensing, stellar streams, and Milky Way satellite abundances to set a lower limit on freeze-in DM masses up to  20 keV, with the exact constraint depending on whether the DM thermalizes in its own sector. We perform forecasts for the CMB-S4 experiment, the Hydrogen Epoch of Reionization Array, and the Vera Rubin Observatory, finding that freeze-in DM masses up to  80 keV can be explored. These cosmological probes are highly complementary with proposed direct-detection efforts to search for this DM candidate.
+
+arXiv:2011.08186v1 [astro-ph.CO] 16 Nov 2020
+
+Introduction.-- Despite the abundant evidence of dark matter (DM) in our Universe, its fundamental properties and early-universe origins remain open questions. If DM is a particle, it may arise from thermal processes in the primordial plasma in the first moments after the Big Bang. In the scenario known as freeze-in, DM is produced from the annihilation or decay of Standard Model (SM) particles in the early universe [1­6]. As the Universe cools, the interactions that make DM become inefficient, yielding a fixed DM relic density that is observed at the present day.
+If the DM and the force-carrier particle that mediates freeze-in are sufficiently light, then on dimensional grounds the rate for SM particles to produce DM via an swave process must scale like   g2 gS2MT for a relativistic plasma of temperature T , where g is the DM-mediator coupling and gSM is the SM-mediator coupling. Meanwhile, the Hubble rate scales like H  T 2/MPl where MPl is the Planck mass. This scaling indicates that freeze-in will predominantly occur at the lowest kinematically accessible temperatures, meaning that in the absence of additional interactions, the relic DM abundance produced during freeze-in is independent of initial conditions. Producing the observed DM relic abundance implies a tiny value for the coupling constants, making the parameter space difficult to target with accelerator searches. However, the light mediator greatly enhances the signal of this candidate in direct-detection experiments, since scattering via a light mediator scales like v-4 for velocity v, which is v  10-3c at the Earth's location in the Milky Way (MW). In the light-mediator regime, the requisite DM-SM couplings for the observed DM relic abundance provide a highly predictive benchmark for recently proposed sub-GeV DM direct-detection experiments [7­25].
+There are strong stellar emission and fifth force constraints on many kinds of light mediators coupled to the SM [26, 27]. The only light mediators that can be responsible for freeze-in of DM masses below 1 MeV are the SM photon or an ultralight kinetically mixed dark photon.
+
+Thus, DM made by freeze-in below 1 MeV will effectively have a small electromagnetic charge, Q = ggSM/e  10-11, defined relative to the electron charge e. Freeze-in is the simplest allowed way to make charged DM, since the charges required for DM production via freeze-out are excluded by many orders of magnitude [28]. Charged DM has recently been the subject of keen interest in the context of the anomalous observation by the Experiment to Detect the Global EoR Signature (EDGES) [29­31] and can also play a role in energy loss from stellar and supernova environments [32­34] and gas clouds [35, 36], as well as potentially leading to novel plasma behavior in galaxies and clusters [37­42]. The scenario involving a dark photon is also of theoretical interest, as ultralight bosons are generically expected as states in the spectrum of various string theories [43, 44].
+Because of the extraordinarily small couplings involved, freeze-in DM never achieves a thermal number density in the early universe. This means that freeze-in is
+one of the few allowed ways of making sub-MeV DM from the SM thermal bath. Most other mechanisms to produce sub-MeV DM from the thermal bath are excluded (there are some exceptions to this, see e.g. [45­47]) because the sub-MeV DM would carry substantial energy and entropy density which would observably alter the effective number of relativistic degrees of freedom, Neff, and Big Bang Nucleosynthesis (BBN) (see e.g. Refs. [26, 27, 48­50]). Note that ultralight dark photon mediators are not produced abundantly by the SM bath in the early universe because of an in-medium suppression of the coupling [51], which means the dark photons do not affect Neff or BBN.
+Sub-MeV freeze-in via an ultralight vector mediator poses a well-motivated DM theory with a complete and consistent early-universe thermal history and a host of concrete predictions for observable phenomena. In this Letter, we explore the effects of this production mechanism on the subsequent cosmology, focusing on two key effects: (1) the portal responsible for creating the DM necessarily implies that there is a drag between the DM
+
+2
+
+RuLbQ2SiyPDn1tumelEacOalalsmSnanabrcr-sS(CkeSaHLrMtt(veFEre2aneoBl0Rtlasri1o-imteAnS8resyg4))sst 0
+
+50.2
+
+80.3
+
+33.9
+
+54.0
+
+19.3 18.5
+17.3 16.6
+
+28.1 28.8
+
+Nonthermal Thermalized
+
+p2 f(p)
+
+16.6 15.5
+14.0 12.5
+13.0 11.6
+
+m = 35 keV
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+p/T
+
+10 20 30 40 50 60 70 80
+m [keV]
+
+FIG. 1. Cosmological 95% bounds on DM that is produced by freeze-in through a vector mediator. Dark shaded bars correspond to excluded DM masses while light ones correspond to projected future reach. These differ depending on whether the DM phase space remains nonthermal (blue) or thermalizes through self-scattering (red). Inset: the DM phase space.
+
+and the photon-baryon fluid before and during recombination, altering the anisotropies seen in the cosmic microwave background (CMB) and (2) the DM is born with a nonthermal, high-velocity phase-space distribution, which prevents it from clustering on small scales. We constrain the former effect with the Planck 2018 CMB power spectra and show how the bound can improve with the planned CMB-S4 experiment. We consider the latter effect in the context of the Lyman- forest, strong gravitational lensing of quasars, stellar streams, and MW satellites analyzed by the Dark Energy Survey (DES) collaboration. We additionally forecast the DM masses that can be explored with observations of the 21 cm power spectrum with the Hydrogen Epoch of Reionization Array (HERA), and of the subhalo mass function with the Vera Rubin Observatory.
+For both observable effects, the full velocity distribution of the DM is of critical relevance. The DM-SM scattering cross section responsible for the drag effect scales like v-4 and depends strongly on the low-velocity part of the distribution, while the suppressed growth of structure is sensitive to DM in the high-velocity tail of the distribution. In this work, we use the phase space derived in Ref. [52] which is highly nonthermal at production, although the distribution could become thermal prior to recombination through DM-DM interactions. Here we consider both the nonthermal and thermalized phase space, which bookend the range of intermediate possibilities. Our results are summarized in Fig. 1.
+Particle Properties.-- Throughout this work we assume that DM is a Dirac fermion and we focus on the keV-MeV range for the DM mass, m. We assume that the DM couples to the SM photon, either (1) at the level of the Lagrangian with coupling strength eQ or (2) effectively through an ultralight (sub-eV) dark vector portal, A , where eQ is a product of the dark U (1) gauge cou-
+
+pling g and the kinetic mixing parameter .
+In the keV-MeV mass range, two channels are dominantly responsible for the production of DM: electronpositron annihilation e+e-  ¯ with thermally averaged cross section v ann. and plasmon decays   ¯ with rate  plas. (which includes a thermal boost factor). In the absence of additional interactions, a cosmologically relevant amount of DM will not be produced in the very early universe for small SM-DM couplings due to the sub-Hubble rates for these processes at high T . We therefore assume a negligible initial abundance of DM. For freeze-in production of DM, it is possible to semi-analytically solve the Boltzmann equation, f/t - H(p2 /E)f/E = C[fe, f ]/E, for the DM phase space f. The collision term C does not depend on f to a very good approximation due to the small DM number density relative to the number density of particles in the SM plasma (in other words, one can safely ignore any DM backreactions). In Ref. [52], we integrated this equation to find the DM phase-space distribution from freeze-in. The typical freeze-in DM momentum is of order the photon temperature (see Fig. 1) since the DM inherits the kinematic properties of the plasma from which it is born.
+The relic DM abundance is determined by the 0th moment of the Boltzmann equation, given by dn/dt + 3Hn = ne2 v ann. + n  plas., where ni is the number density of species i. In this work, we assume that all DM is produced by freeze-in. Solving this equation uniquely determines the effective charge Q for a given DM mass, where Q  10-11 for the range of masses considered here. For Q and m saturating the relic abundance, we can also determine the entire DM phase-space distribution at the time of production and subsequent effects on cosmology. Because the cosmological effects depend on DM phase space, the limits described in this Letter do not apply for arbitrary Q and m. For instance, if Q 10-10 for DM in the keV-MeV mass range, DM would be overproduced by freeze-in. Additional features of the model would be required to subsequently deplete the DM abundance, which would necessarily impact the phase space and cosmological observables.
+While integrating the Boltzmann equation gives us the phase-space distribution when DM is produced, the effects we study are sensitive to the DM velocity at later times, and DM-DM self-scattering can redistribute the phase space. In our analysis, we consider two limiting cases for the DM phase-space distribution: (1) the fully nonthermal primordial phase space and (2) a Gaussian phase space for DM that has thermalized within its own isolated sector through DM-DM interactions, which leads to a temperature T that preserves p2 (assuming thermalization occurs while the DM is nonrelativistic). The first case occurs if the mediator is the SM photon, in which case the self-scattering via the SM photon is highly suppressed as Q4. If the mediator is a dark photon, DM-
+
+

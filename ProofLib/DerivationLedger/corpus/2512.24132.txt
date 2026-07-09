@@ -1,0 +1,91 @@
+arXiv:2512.24132v2 [hep-ph] 8 Jan 2026
+
+An A4-Symmetric Double Seesaw for Neutrino Masses and Mixing in Light of JUNO results
+Swaraj Kumar Nandaa , Maibam Ricky Devib , Chandini Dashc R.N. Pandaa§ , Sudhanwa Patrad,e¶
+a Department of Physics, ITER, SOA University, Bhubaneswar-751030, India b Department of Physics, Gauhati University, Guwahati-781014, India c Department of Physics, Utkal University, Vani Vihar, Bhubaneswar-751004, India d Department of Physics, Indian Institute of Technology Bhilai, Durg-491002, India e Institute of Physics, Sachivalaya Marg, Bhubaneswar-751005, India
+Abstract We discuss a double seesaw mechanism for generating light neutrino masses within the Standard Model extensions that include both right-handed neutrinos and extra gauge-singlet sterile fermions. The flavour structure of the double seesaw framework is invoked by an A4 discrete symmetry which yields predictive textures for the Dirac neutrino mass matrix MD, the mixing matrix MRS connecting right-handed and sterile neutrinos, and the bare Majorana mass matrix MS for the sterile neutrinos. After different A4 charge assignments for the left-handed lepton doublets, the right-handed neutrinos, and the sterile neutrinos, we consider simple flavon vacuum alignments that can provide highly constrained and phenomenologically interesting mass structures relevant for generating light neutrino masses via the double seesaw mechanism. The interesting feature of the present framework is that the combination of the double seesaw mechanism and A4 flavour alignments yields a leading-order tribimaximal (TBM) structure, corrected by a single rotation in the (1-3) sector. The resulting correction is responsible for generating the experimentally observed value of 13 while retaining the approximate TBM predictions for 12 and 23. We then derive analytic expressions for the heavy sterile eigenvalues and for the resulting light neutrino masses, thereby clarifying the role of the symmetry in shaping the neutrino mass hierarchy. We further incorporate the most recent JUNO measurements, which improve the precision of the solar mixing angle sin2 12  0.31, along with updated constraints on sin2 13. We show that these results significantly restrict the allowed parameter space of the model. In particular, the observed value of sin2 12 constrains the magnitude of the (1­ 3) rotation and the phases associated with the A4 flavon couplings, while the value of sin2 13 sharpens these restrictions further. Overall, the interplay between double seesaw dynamics, A4 flavour symmetry, and the recent JUNO constraints yields a highly predictive framework for neutrino masses and mixings, offering a coherent explanation for the generation of light neutrino masses and providing testable predictions for future experiments.
+swarajnanda.phy@gmail.com deviricky@gmail.com dash25chandini@gmail.com §rabinarayanpanda@soa.ac.in ¶sudhanwa@iitbhilai.ac.in
+
+Contents
+
+1 Introduction
+
+2
+
+2 Theoretical Framework
+
+4
+
+2.1 Double Seesaw Mechanism . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+2.1.1 Diagonalization scheme for DSM . . . . . . . . . . . . . . . . . . . . 5
+
+2.2 A4 implementation of Double Seesaw Mechanism . . . . . . . . . . . . . . . 6 2.2.1 Flavon alignments and structure of mass matrices . . . . . . . . . . . 7
+
+3 Predictive structure of mass matrices for double seesaw framework
+
+8
+
+3.1 Diagonal and degenerate structure of MD and MRS . . . . . . . . . . . . . . 10 3.1.1 Mass spectra and normalization . . . . . . . . . . . . . . . . . . . . . 13
+
+4 Mixing Structure from A4: Tribimaximal Form and a Single Complex Ro-
+
+tation
+
+14
+
+4.1 Diagonalization of the 1­3 Block and Physical Parameterization . . . . . . . 16
+
+4.2 Special Limits and Physical Interpretation . . . . . . . . . . . . . . . . . . . 17
+
+4.3 Derivation of Double Seesaw Neutrino Masses in the Degenerate Yukawa Limit 18
+
+5 Numerical Analysis and Constraints on Model Parameters
+
+19
+
+5.1 For Normal Ordering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+5.2 For Inverted Ordering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+6 Results and Discussion: A4-Symmetric Double Seesaw
+
+25
+
+6.1 Impact on Solar Neutrino Parameters from JUNO first data and other exper-
+
+imental solar measurements . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+
+6.2 Impact on Atmospheric Neutrino Parameters from atmospheric data from
+
+Deep Core Ice-Cube and LBL experiments . . . . . . . . . . . . . . . . . . . 31
+
+6.3 Synergy between mixing angles and phases . . . . . . . . . . . . . . . . . . . 32
+
+6.4 Neutrinoless Double Beta Decay Implications from JUNO data . . . . . . . . 34
+
+6.5 Correlation between Dirac CP Phase and Jarlskog Invariant . . . . . . . . . 36
+
+7 Conclusion
+
+38
+
+A Predictive Structures of the Double Seesaw Mechanism with A4 Symmetry 39
+
+B Detailed Derivation of Mass and Mixing Structure in the Double Seesaw
+
+Framework with A4 Symmetry
+
+41
+
+C Flavon Potential and Vacuum Alignment
+
+43
+
+D Detailed Derivation of Mixing Angles and CP Phases
+
+45
+
+1
+
+

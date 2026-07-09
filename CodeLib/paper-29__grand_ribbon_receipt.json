@@ -1,0 +1,1915 @@
+{
+  "paper": "29",
+  "title": "Grand Ribbon and Retrospective Readout",
+  "status": "pass_with_open_obligations",
+  "verifiers": {
+    "eight_slot_schema": {
+      "status": "pass",
+      "checks": {
+        "slot_count_is_8": true,
+        "slot_order_exact": true,
+        "no_duplicate_slots": true,
+        "filled_requires_value_and_provenance": true,
+        "unfilled_without_value": true
+      },
+      "failures": []
+    },
+    "corpus_sweep": {
+      "status": "pass",
+      "checks": {
+        "corpus_positions_30": true,
+        "first_paper_is_00": true,
+        "last_paper_is_29": true,
+        "ordered_sequence": true
+      },
+      "failures": [],
+      "ribbon_summary": {
+        "schema_slots": 8,
+        "corpus_positions": 30,
+        "positions": [
+          {
+            "paper_id": "paper-00",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-01",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-02",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-03",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-04",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-05",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-06",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-07",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-08",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-09",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-10",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-11",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-12",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-13",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-14",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-15",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-16",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-17",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-18",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-19",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-20",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-21",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-22",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-23",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-24",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-25",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-26",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-27",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-28",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          },
+          {
+            "paper_id": "paper-29",
+            "slots": {
+              "C": {
+                "name": "C",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "L": {
+                "name": "L",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "R": {
+                "name": "R",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "B": {
+                "name": "B",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "T": {
+                "name": "T",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "O": {
+                "name": "O",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "W": {
+                "name": "W",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              },
+              "A": {
+                "name": "A",
+                "value": null,
+                "provenance": null,
+                "is_filled": false
+              }
+            },
+            "filled_count": 0,
+            "is_complete": false
+          }
+        ],
+        "provenance_summary": {
+          "total_positions": 30,
+          "slots_per_position": 8,
+          "total_slots": 240,
+          "filled_slots": 0,
+          "unfilled_slots": 240
+        }
+      }
+    },
+    "provenance_requirement": {
+      "status": "pass",
+      "checks": {
+        "filled_slots_have_provenance": true,
+        "unfilled_slots_no_provenance": true
+      },
+      "failures": []
+    },
+    "terminal_tree_lookup": {
+      "status": "pass",
+      "checks": {
+        "canonical_route_exists": true,
+        "canonical_route_deterministic": true,
+        "single_route_per_target": true,
+        "unregistered_returns_none": true,
+        "is_canonical_registered": true,
+        "not_canonical_unregistered": true
+      },
+      "failures": []
+    },
+    "transport_ledger": {
+      "status": "pass",
+      "checks": {
+        "demonstrated_rows_exist": true,
+        "open_lifts_visible": true,
+        "pass_with_open_lifts": true
+      },
+      "failures": [],
+      "ledger": {
+        "rows": [
+          {
+            "row_id": 1,
+            "status": "demonstrated",
+            "description": "Eight-slot schema coherence"
+          },
+          {
+            "row_id": 2,
+            "status": "demonstrated",
+            "description": "Corpus sweep 00-29"
+          },
+          {
+            "row_id": 3,
+            "status": "open_lift",
+            "description": "Physical energy-bound witness function"
+          },
+          {
+            "row_id": 4,
+            "status": "open_lift",
+            "description": "Pariah/Happy-Family encoding-invariance"
+          }
+        ],
+        "demonstrated_count": 2,
+        "open_lift_count": 2,
+        "pass_with_open_lifts": true
+      }
+    },
+    "leech_lookup_bead": {
+      "status": "pass",
+      "checks": {
+        "status_pass": true,
+        "no_cost": true,
+        "reusable": true,
+        "no_theorem_upgrade": true,
+        "kissing_number_196560": true
+      },
+      "failures": [],
+      "receipt": {
+        "status": "pass",
+        "lookup_type": "no_cost",
+        "reusable": true,
+        "leech_kissing_number": 196560,
+        "leech_minimal_shell": 2,
+        "theorem_status_upgrade": false
+      }
+    },
+    "kappa_quantum": {
+      "status": "pass",
+      "checks": {
+        "kappa_formula_identity": true,
+        "kappa_positive": true,
+        "kappa_finite": true,
+        "kappa_approx_0_0301": true
+      },
+      "failures": [],
+      "kappa_value": 0.030075739066225217
+    },
+    "gluon_invariance": {
+      "status": "pass",
+      "checks": {
+        "all_8_states_invariant": true,
+        "invariant_count": 8
+      },
+      "failures": []
+    },
+    "rule30_boundary_table": {
+      "status": "pass",
+      "checks": {
+        "all_8_rows_match": true,
+        "match_count": 8
+      },
+      "failures": [],
+      "table_rows": [
+        {
+          "L": 0,
+          "C": 0,
+          "R": 0,
+          "rule30_direct": 0,
+          "algebraic_normal_form": 0,
+          "match": true
+        },
+        {
+          "L": 0,
+          "C": 0,
+          "R": 1,
+          "rule30_direct": 1,
+          "algebraic_normal_form": 1,
+          "match": true
+        },
+        {
+          "L": 0,
+          "C": 1,
+          "R": 0,
+          "rule30_direct": 1,
+          "algebraic_normal_form": 1,
+          "match": true
+        },
+        {
+          "L": 0,
+          "C": 1,
+          "R": 1,
+          "rule30_direct": 1,
+          "algebraic_normal_form": 1,
+          "match": true
+        },
+        {
+          "L": 1,
+          "C": 0,
+          "R": 0,
+          "rule30_direct": 1,
+          "algebraic_normal_form": 1,
+          "match": true
+        },
+        {
+          "L": 1,
+          "C": 0,
+          "R": 1,
+          "rule30_direct": 0,
+          "algebraic_normal_form": 0,
+          "match": true
+        },
+        {
+          "L": 1,
+          "C": 1,
+          "R": 0,
+          "rule30_direct": 0,
+          "algebraic_normal_form": 0,
+          "match": true
+        },
+        {
+          "L": 1,
+          "C": 1,
+          "R": 1,
+          "rule30_direct": 0,
+          "algebraic_normal_form": 0,
+          "match": true
+        }
+      ]
+    },
+    "dependency_direction": {
+      "status": "pass",
+      "checks": {
+        "paper_30_receipt_exists": true,
+        "paper_30_receipt_passes": true,
+        "paper_31_is_downstream": true,
+        "paper_31_not_premise": true
+      },
+      "failures": [],
+      "paper_31_role": "downstream_readout"
+    },
+    "retrospective_chain": {
+      "status": "pass",
+      "checks": {
+        "chain_length_31": true,
+        "first_is_paper_00": true,
+        "last_is_paper_30": true,
+        "next_boundary_is_paper_32": true,
+        "chain_is_navigation_metadata": true
+      },
+      "failures": [],
+      "chain": [
+        "paper-00",
+        "paper-01",
+        "paper-02",
+        "paper-03",
+        "paper-04",
+        "paper-05",
+        "paper-06",
+        "paper-07",
+        "paper-08",
+        "paper-09",
+        "paper-10",
+        "paper-11",
+        "paper-12",
+        "paper-13",
+        "paper-14",
+        "paper-15",
+        "paper-16",
+        "paper-17",
+        "paper-18",
+        "paper-19",
+        "paper-20",
+        "paper-21",
+        "paper-22",
+        "paper-23",
+        "paper-24",
+        "paper-25",
+        "paper-26",
+        "paper-27",
+        "paper-28",
+        "paper-29",
+        "paper-30"
+      ],
+      "next_boundary": "paper-32"
+    }
+  }
+}

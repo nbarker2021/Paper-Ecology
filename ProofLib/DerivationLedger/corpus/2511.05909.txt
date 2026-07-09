@@ -1,0 +1,94 @@
+arXiv:2511.05909v1 [hep-th] 8 Nov 2025
+
+Hearing the Shape of the Universe:
+A Personal Journey in Noncommutative Geometry
+Ali H. Chamseddine
+Physics Department, American University of Beirut, Lebanon
+Dedicated to the memory of Daniel Kastler:
+Enthusiastically believed in NCG
+Abstract
+This article surveys the noncommutative-geometric (NCG) approach to fundamental physics, in which geometry is encoded spectrally by a generalized Dirac operator and where dynamics arise from the spectral action. I review historically how the simple idea of marrying a Riemannian manifold to a two point space, progressed to lead to the uniqueness of the Standard Model and beyond. I explain how inner fluctuations of the Dirac operator reconstruct the full gauge­Higgs sector of the Standard Model on an almostcommutative space, fixing representations and hypercharges and naturally accommodating right-handed neutrinos and the see-saw mechanism. On the gravitational side, the heat-kernel expansion of the spectral action yields the cosmological constant, Einstein­Hilbert term, and higher-curvature corrections, with volume-quantized variants clarifying the status of . I discuss the renormalization-group interpretation of the spectral action as a high-scale boundary condition, phenomenological implications for Higgs stability and neutrino masses. I present generalized Heisenberg equation leading to identify the NCG space at unification. I conclude by emphasizing that NCG provides a unified, testable, and geometrically principled quantum framework, linking matter, gauge fields, and gravity.
+
+Contents
+
+1 Early attempts
+
+4
+
+1.1 GUT models . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+1.2 Noncommutative Gravity . . . . . . . . . . . . . . . . . . . . 10
+
+2 The spectral action principle
+
+13
+
+2.1 From classical geometry and SM to a spectral framework . . 13
+
+2.2 The heat-kernel/Mellin machinery. . . . . . . . . . . . . . . . 16
+
+2.3 Setup of the almost-commutative geometry for the SM. . . . 18
+
+2.4 Inner fluctuations  gauge bosons + Higgs . . . . . . . . . . 19
+
+3 Scale invariance and the dilaton in the spectral action
+
+21
+
+4 Including the right-handed neutrinos
+
+26
+
+4.1 The Finite Geometry . . . . . . . . . . . . . . . . . . . . . . . 26
+
+4.2 The spectral action and the standard model: Modified . . . . 29
+
+5 Fermionic Hilbert space, chirality, and gauge representa-
+
+tions
+
+32
+
+6 Phenomenology and predictions
+
+34
+
+7 Why the Standard Model?
+
+37
+
+8 Quantum gravity boundary terms from NCG
+
+39
+
+9 NCG as framework for unification: tensorial notation
+
+43
+
+10 Reselience of the spectral SM
+
+50
+
+11 Parity violation in the spectral action
+
+56
+
+12 The uncanny precision of the spectral action
+
+57
+
+13 Away with order one condition
+
+59
+
+14 Emergence of the Pati-Salam model
+
+62
+
+15 Grand unification in the Pati-Salam model
+
+69
+
+1
+
+

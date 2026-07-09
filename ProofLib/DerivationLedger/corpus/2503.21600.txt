@@ -1,0 +1,216 @@
+The Impact of the Hubble Tension on the Evidence for Dynamical Dark Energy
+Ye-Huang Pang,1, 2, 3 Xue Zhang,4,  and Qing-Guo Huang1, 2, 3, 
+1School of Fundamental Physics and Mathematical Sciences, Hangzhou Institute for Advanced Study, UCAS, Hangzhou 310024, China 2School of Physical Sciences, University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China 3CAS Key Laboratory of Theoretical Physics, Institute of Theoretical Physics,
+Chinese Academy of Sciences,Beijing 100190, China 4Center for Gravitation and Cosmology, College of Physical Science
+and Technology, Yangzhou University, Yangzhou 225009, China
+Recent findings from the Dark Energy Spectroscopic Instrument (DESI) Data Release 2 (DR2) favor a dynamical dark energy characterized by a phantom crossing feature. This result also implies a lower value of the Hubble constant, thereby intensifying the so-called Hubble tension. To alleviate the Hubble tension, we consider the early dark energy and explore its impact on the evidence for dynamical dark energy including the Hubble constant calibrated by the SH0ES collaboration. We find that incorporating SH0ES prior with CMB, DESI DR2 BAO and Pantheon Plus/Union3/DESY5 data reduces the preference to dynamical dark energy to 1.5/1.4/2.4 level, respectively. Our results suggest a potential tension between the Hubble constant H0 of the SH0ES measurement and the phantom-to-quintessence transition in dark energy favored by DESI DR2 BAO data.
+
+arXiv:2503.21600v2 [astro-ph.CO] 10 Apr 2025
+
+I. INTRODUCTION
+
+The recent measurements of baryon acoustic oscillations (BAO) from the Dark Energy Spectroscopic Instrument (DESI) second data release (DR2) [1, 2] has significantly enhanced the precision of cosmological inferences, providing stronger evidence for dynamical dark energy compared to its first data release (DR1). Specifically, the combination of Cosmic Microwave Background (CMB) data, BAO measurements from DESI DR2 and supernova data from DESY5 indicates a 4.2 preference for dynamical dark energy within w0waCDM model. In this model, the dark energy equation of state w(a) is parameterized as
+
+w(a) = w0 + wa(1 - a),
+
+(1)
+
+where a represents the scale factor [3, 4]. Additionally, the combination of CMB+DESI DR2 BAO+Pantheon Plus/Union3 datasets yields dynamical dark energy at 2.8/3.8 confidence levels (C.L.), respectively. Further investigations, as detailed in [5], explore the dynamical characteristics of dark energy through various methodologies, consistently supporting the findings within the w0waCDM model. For constraints on alternative dark energy models using either DESI DR1 or DR2 data, we refer readers to, e.g. [6­43].
+Furthermore, the constrains on the w0waCDM model indicate an evolutionary behavior in the dark energy equation of state, transitioning from w < -1 (phantomlike [44]) at high redshifts to w > -1 (quintessencelike [45­48]) at low redshifts. This behavior implies that the dark energy density decreases with the expansion of the Universe at low redshifts, ultimately resulting
+
+ corresponding author: zhangxue@yzu.edu.cn  corresponding author: huangqg@itp.ac.cn
+
+in a lower value for the Hubble constant H0. As reported in [2], the Hubble constant is determined to be H0 = 63.6+-12..61 km s-1Mpc-1 in the w0waCDM model, constrained by CMB+DESI DR2 BAO. This value exhibits a tension of 5.3 with the SH0ES measurement (H0 = 73.17 ± 0.86 km s-1Mpc-1) [49]. Furthermore, when considering data combinations such as CMB+DESI DR2 BAO+Pantheon Plus/Union3/DESY5, the corresponding constraints are found to be H0 = 67.51 ± 0.59, 65.91 ± 0.84, and 66.74 ± 0.56 km s-1Mpc-1. These values indicate 5.4, 6.0, and 6.3 tension with respect to the SH0ES measurement, respectively. Several of these results further intensify the existing tension of 5.6 between the Planck 2018 results [50] (H0 = 67.27 ± 0.60 km s-1Mpc-1) and those from SH0ES measurements. The Hubble tension has been extensively investigated in recent years. For comprehensive reviews on this topic, we refer readers to works by [51­53]. Given that there is a preference for dynamical dark energy indicated by DESI DR2, modified cosmological models that favor higher values of H0 may be incompatible with the late-time dynamical dark energy. This potential contradiction could weaken the statistical preference for such dynamical dark energy scenarios.
+This interplay motivates a critical investigation: whether the evidence for dynamical dark energy remains robust when simultaneously addressing the Hubble tension. In this article, we incorporate the early dark energy (EDE) model [54­60] as a representative higher-H0 scenario, with a specific focus on the n = 3 axion-like EDE framework.
+
+2
+
+Parameters
+
+CMB+DESI DR2 BAO CMB+DESI DR2 BAO CMB+DESI DR2 BAO
+
++SH0ES
+
++Pantheon Plus+SH0ES
+
++Union3+SH0ES
+
+CMB+DESI DR2 BAO +DESY5+SH0ES
+
+log(1010As)
+
+3.071(3.072) ± 0.013
+
+3.069(3.067) ± 0.013
+
+3.069(3.071) ± 0.013
+
+3.068(3.066) ± 0.013
+
+ns
+
+0.9891(0.9923) ± 0.0060 0.9885(0.9889) ± 0.0061 0.9888(0.9848) ± 0.0057 0.9881(0.9890) ± 0.0057
+
+bh2
+
+0.02261(0.02253) ± 0.00019 0.02259(0.02248) ± 0.00020 0.02259(0.02246) ± 0.00019 0.02258(0.02256) ± 0.00019
+
+ch2
+
+0.1293(0.1330) ± 0.0028 0.1297(0.1310) ± 0.0029 0.1297(0.1295) ± 0.0027 0.1299(0.1303) ± 0.0028
+
+reio
+
+0.0603(0.0578)-+00..00006764
+
+0.0591(0.0563) ± 0.0071 0.0593(0.0575) ± 0.0070 0.0584(0.0568) ± 0.0070
+
+H0[km s-1Mpc-1] 71.82(72.45) ± 0.74
+
+71.74(72.02) ± 0.77
+
+71.77(71.77) ± 0.69
+
+71.65(71.86) ± 0.72
+
+fEDE log10 ac 2bestfit
+
+0.115(0.139)+-00..002129 -3.63(-3.58)+-00..10272
+11005.10
+
+0.115(0.124)-+00..002139 -3.62(-3.57)+-00..10272
+12411.71
+
+0.115(0.112)-+00..002128 -3.62(-3.56)+-00..10167
+11033.18
+
+0.115(0.120)+-00..002220 -3.62(-3.61)+-00..10366
+12656.20
+
+TABLE I. The mean (best-fit) value and 1 C.L. of the cosmological parameter and the corresponding 2 for best-fit values in CDM+EDE model.
+
+Parameters
+
+CMB+DESI DR2 BAO CMB+DESI DR2 BAO CMB+DESI DR2 BAO
+
++SH0ES
+
++Pantheon Plus+SH0ES
+
++Union3+SH0ES
+
+CMB+DESI DR2 BAO +DESY5+SH0ES
+
+log(1010As)
+
+3.055(3.059) ± 0.014
+
+3.060(3.055) ± 0.014
+
+3.060(3.054) ± 0.014
+
+3.060(3.067) ± 0.014
+
+ns
+
+0.9784(0.9845)-+00..00007823 0.9857(0.9841) ± 0.0070 0.9863(0.9846) ± 0.0071 0.9875(0.9907) ± 0.0069
+
+bh2
+
+0.02247(0.02237)-+00..0000001280 0.02256(0.02245) ± 0.00019 0.02257(0.02236) ± 0.00020 0.02258(0.02250) ± 0.00020
+
+ch2
+
+0.1259(0.1292) ± 0.0033 0.1300(0.1318)+-00..00002371
+
+0.1307(0.1325) ± 0.0030 0.1314(0.1344) ± 0.0030
+
+reio
+
+0.0553(0.0548) ± 0.0072 0.0548(0.0520) ± 0.0072 0.0542(0.0483) ± 0.0072 0.0539(0.0539) ± 0.0071
+
+H0km s-1Mpc-1 72.16(72.57) ± 0.83
+
+71.40(71.31) ± 0.70
+
+71.23(71.25) ± 0.74
+
+71.01(71.28) ± 0.73
+
+fEDE
+log10 ac w0
+
+0.070(0.102) ± 0.031
+-3.61(-3.59)+-00..2100 -1.057(-1.03) ± 0.094
+
+0.109(0.119) ± 0.026
+-3.61(-3.59)-+00..10563 -0.908(-0.878) ± 0.048
+
+0.114(0.126)-+00..002285 -3.61(-3.55)-+00..10452 -0.869(-0.844) ± 0.069
+
+0.120(0.142)+-00..002274 -3.60(-3.59)-+00..10351 -0.833(-0.817) ± 0.052
+
+wa b2 estfit
+
+-0.07(-0.081)-+00..2285 11003.21
+
+-0.38(-0.47)+-00..2108 12408.87
+
+-0.49(-0.54) ± 0.24 11030.17
+
+-0.57(-0.58)+-00..2220 12646.80
+
+TABLE II. The mean (best-fit) value and 1 C.L. of the cosmological parameter and the corresponding 2 for best-fit values in w0waCDM+EDE model.
+
+Parameterss
+
+CMB+DESI DR2 +SH0ES
+
+BAO
+
+CMB+DESI DR2 BAO +Pantheon Plus+SH0ES
+
+CMB+DESI DR2 BAO +Union3+SH0ES
+
+CMB+DESI DR2 BAO +DESY5+SH0ES
+
+2MAP
+
+-3.18
+
+-3.91
+
+-3.80
+
+-8.31
+
+Significance
+
+1.3
+
+1.5
+
+1.4
+
+2.4
+
+TABLE III. 2MAP and statistical significance for dynamical dark energy.
+
+II. EVIDENCE FOR DYNAMICAL DARK ENERGY IN THE w0waCDM+EDE MODEL
+
+The axion-like EDE model with n = 3 [54, 55] refers to a scalar field  characterized by the potential
+
+V () = m2f 2[1 - cos(/f )]3,
+
+(2)
+
+where m denotes the mass of scalar field and f represents the axion decay constant. This potential enables the EDE to initially behave like a cosmological constant before the field rolls down the potential and begins oscillating around a critical epoch.
+The EDE fractional energy density reaches its peaks at redshift zc with a corresponding value of fEDE. By modifying the expansion rate near recombination, EDE reduces the sound horizon at recombination rs(z) (and rd), while preserving the tightly constrained angular scale of the sound horizon (z) as determined by CMB measurements [55, 61]. This mechanism allows EDE to accommodate a higher value of H0 without conflicting with CMB observations. Additionally, the initial field value i
+
+influences the EDE dynamics and serves as an independent sampling parameter in our analysis.
+We investigate a combined model that integrates EDE with the w0waCDM framework, which we refer to as the w0waCDM+EDE model. To evaluate the evidence for dynamical dark energy within the context of EDE cosmology, we also analyze the CDM+EDE model, in which late-time dark energy is represented by a cosmological constant .
+Both the CDM+EDE and w0waCDM+EDE models are constrained using the following datasets:
+· CMB The CMB data include Planck low-T Commander likelihood, low-E SimAll likelihood, CamSpec high likelihood [62], as well as the Planck PR4 lensing likelihood [63], and the Atacama Cosmology Telescope (ACT) DR6 lensing likelihood [64].
+· DESI DR2 BAO The data points utilized in this analysis are provided in Table IV of Ref. [2] .
+
+

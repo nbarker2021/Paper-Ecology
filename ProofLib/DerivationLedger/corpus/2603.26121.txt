@@ -1,0 +1,68 @@
+arXiv:2603.26121v2 [gr-qc] 28 Apr 2026
+
+Probing Unruh Effect from Enhanced Decoherence
+Ran Li,a,1 Zhong-Xiao Man,a Jin Wangb aDepartment of Physics, Qufu Normal University, Qufu, Shandong 273165, China bDepartment of Chemistry, Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794, USA, E-mail: liran@qfnu.edu.cn, zxman@qfnu.edu.cn, jin.wang.1@stonybrook.edu Abstract: We investigate the decoherence of an Unruh-DeWitt detector coupled to scalar, electromagnetic, and spinor fields in four-dimensional Minkowski spacetime. By employing the Schwinger-Keldysh influence functional formalism, we derive a universal scaling law relating the decoherence rate to the proper acceleration a and the scaling dimension  of the environmental field operator. By analyzing both sharp (top-hat) and smooth Gaussian switching functions, it is shown that the decoherence rate in the asymptotic long-time limit scales as a2-1. This scaling indicates that increasing scaling dimension of the coupling field operators can significantly enhance the decoherence, thereby providing a more sensitive probe of the Unruh effect.
+1Corresponding author.
+
+Contents
+
+1 Introduction
+
+1
+
+2 Unruh-DeWitt detectors coupled with the environmental fields
+
+2
+
+3 Decoherence of Unruh-DeWitt detectors
+
+3
+
+3.1 Decoherence functional in Schwinger-Keldysh formulism
+
+3
+
+3.2 Decoherence functional of Unruh-DeWitt detectors
+
+6
+
+4 Decoherence rates for top-hat switching function
+
+8
+
+4.1 Top-hat switching function
+
+8
+
+4.2 Decoherence rate in the scalar field environment
+
+9
+
+4.3 Decoherence rate in the electromagnetic field environment
+
+11
+
+4.4 Decoherence rate in the ferminionc field
+
+12
+
+4.5 The dependence of decoherence rate on the scaling dimension of the operator 13
+
+5 Decoherence under Gaussian switching
+
+15
+
+6 Conclusion and discussion
+
+17
+
+A An alternative derivation of the decoherence functional
+
+18
+
+1 Introduction
+The Unruh effect [1] is one of the most remarkable predictions of quantum field theory in curved spacetime [2]. It states that an uniformly accelerated observer in Minkowski spacetime experiences a thermal bath at temperature proportional to the proper acceleration [3]. Despite its fundamental importance and its deep connection to Hawking radiation [4], a direct observation of the Unruh effect in the lab remains extremely challenging due to the extremely small temperature for realistic accelerations. This difficulty has motivated many proposals to search for observable signatures of the Unruh effect. Typical approaches include particle detector models [1, 5], Berry's phase [6, 7], quantum simulation [8, 9], as well as analog gravity [10­22].
+An alternative way to probe the Unruh effect is through the observable effects in quantum information theory, such as decoherence. When the detector along an accelerated trajectory interacts with the environmental fields, the vacuum fluctuations can lead to loss of quantum coherence [23, 24]. Unlike detecting the thermal particles directly, decoherence reflects the dynamics of vacuum fluctuations and may provide a more sensitive probe of this kind of acceleration-induced quantum effects [25, 26].
+­1­
+
+

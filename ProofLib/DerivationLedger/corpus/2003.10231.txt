@@ -1,0 +1,169 @@
+arXiv:2003.10231v1 [math.CO] 19 Mar 2020
+
+THE POSITIVE DRESSIAN EQUALS THE POSITIVE TROPICAL GRASSMANNIAN
+DAVID SPEYER AND LAUREN K. WILLIAMS
+Abstract. The Dressian and the tropical Grassmannian parameterize abstract and realizable tropical linear spaces; but in general, the Dressian is much larger than the tropical Grassmannian. There are natural positive notions of both of these spaces ­ the positive Dressian, and the positive tropical Grassmannian (which we introduced roughly fifteen years ago in [SW05]) ­ so it is natural to ask how these two positive spaces compare. In this paper we show that the positive Dressian equals the positive tropical Grassmannian. Using the connection between the positive Dressian and regular positroidal subdivisions of the hypersimplex, we use our result to give a new "tropical" proof of da Silva's 1987 conjecture (first proved in 2017 by Ardila-Rinco`n-Williams) that all positively oriented matroids are realizable. We also show that the finest regular positroidal subdivisions of the hypersimplex consist of series-parallel matroid polytopes, and achieve equality in Speyer's f -vector theorem. Finally we give an example of a positroidal subdivision of the hypersimplex which is not regular, and make a connection to the theory of tropical hyperplane arrangements.
+
+Contents
+
+1. Introduction
+
+1
+
+2. The positive Grassmannian and positroid polytopes
+
+3
+
+3. The positive tropical Grassmannian equals the positive Dressian
+
+4
+
+4. The positive tropical Grassmannian and positroidal subdivisions
+
+9
+
+5. A new proof that positively oriented matroids are realizable
+
+10
+
+6. Finest positroidal subdivisions of the hypersimplex
+
+12
+
+7. Nonregular positroidal subdivisions
+
+14
+
+8. Appendix. Combinatorics of cells of the positive Grassmannian.
+
+19
+
+References
+
+21
+
+1. Introduction
+
+The tropical Grassmannian, first studied in [HKT06, KT06, SS04a], is the space of realizable
+
+tropical linear spaces, obtained by applying the valuation map to Puisseux-series valued elements
+
+of the usual Grassmannian. Meanwhile the Dressian is the space of tropical Plu¨cker vectors
+
+P
+
+=
+
+{PI
+
+}I
+
+( ) 
+
+[n] k
+
+,
+
+first
+
+studied
+
+by
+
+Andreas
+
+Dress,
+
+who
+
+called
+
+them
+
+valuated
+
+matroids.
+
+Thinking
+
+of
+
+each tropical Plu¨cker vector P as a height function on the vertices of the hypersimplex k,n, one
+
+can show that the Dressian parameterizes regular matroid subdivisions DP of the hypersimplex
+
+[Kap93, Spe08], which in turn are dual to the abstract tropical linear spaces of the first author
+
+[Spe08].
+
+DS was partially supported by NSF grants DMS-1855135 and DMS-1854225. LW was partially supported by NSF grants DMS-1854316 and DMS-1854512.
+1
+
+2
+
+DAVID SPEYER AND LAUREN K. WILLIAMS
+
+There are positive notions of both of the above spaces. The positive tropical Grassmannian, introduced by the authors in [SW05], is the space of realizable positive tropical linear spaces, obtained by applying the valuation map to Puisseux-series valued elements of the totally positive Grassmannian [Pos, Lus94]. The positive Dressian is the space of positive tropical Plu¨cker vectors, and it was recently shown to parameterize the regular positroidal subdivisions of the hypersimplex [LPW20, AHLS20].1
+In general, the Dressian Drk,n is much larger than the tropical Grassmannian Trop Grk,n ­ for example, the dimension of the Dressian Dr3,n grows quadratically is n, while the dimension of the tropical Grassmannian Trop Gr3,n is linear in n [HJJS08]. However, the situation for their positive parts is different. The first main result of this paper is the following, see Theorem 3.9.
+Theorem. The positive tropical Grassmannian Trop+ Grk,n equals the positive Dressian Drk+,n.2
+We give several interesting applications of Theorem 3.9. The first application is a new proof of the following 1987 conjecture of da Silva, which was proved in 2017 by Ardila, Rinco`n and the second author [ARW17], using the combinatorics of positroid polytopes.
+Theorem. [ARW17] Every positively oriented matroid is realizable.
+
+Reformulating this statement in the language of Postnikov's 2006 preprint [Pos], da Silva's conjecture says that every positively oriented matroid is a positroid. We give a new proof of this statement, using Theorem 3.9, which we think of as a "tropical version" of da Silva's conjecture. Interestingly, although the definitions of positively oriented matroid and positroid don't involve tropical geometry at all, there does not seem to be an easy way to remove the tropical geometry from our proof without making it significantly longer.
+There are two natural fan structures on the Dressian: the Plu¨cker fan, and the secondary fan, which were shown in [OPS19] to coincide. Our second application of Theorem 3.9 is a description of the maximal cones in the positive Dressian, or equivalently, the finest regular positroidal subdivisions of the hypersimplex. The following result appears as Theorem 6.6.
+
+Theorem. Let P be a positive tropical Plu¨cker vector, and consider the corresponding regular positroidal subdivision DP . The following statements are equivalent:
+(1) DP is a finest subdivision. (2) Every facet of DP is the matroid polytope of a series-parallel matroid. (3) Every octahedron in DP is subdivided.
+
+It was shown by the first author in [Spe09] that if P is a tropical Plu¨cker vector corresponding
+
+to
+
+a
+
+realizable
+
+tropical
+
+linear
+
+space,
+
+DP
+
+has
+
+at
+
+most
+
+(n-c-1)! (k-c)!(n-k-c)!(c-1)!
+
+interior
+
+faces
+
+of
+
+dimension
+
+n - c, with equality if and only if all facets of DP correspond to series-parallel matroids. We
+
+refer to this result as the f -vector theorem. Combining this result with Theorem 6.6 gives the
+
+following elegant result (see Corollary 6.7):
+
+Corollary. Every finest positroidal subdivision of k,n achieves equality in the f -vector theo-
+
+rem. In particular, such a positroidal subdivision has precisely
+
+n-2 k-1
+
+facets (top-dimensional
+
+polytopes).
+
+1Although this result did not appear in the literature until recently, it was anticipated by various people including the first author, Nick Early [Ear19a], Felipe Rinc`on, Jorge Olarte.
+2Our result was announced in [LPW20, Theorem 9.6], and subsequently appeared in the independent work [AHLS20].
+
+

@@ -1,0 +1,87 @@
+Prepared for submission to JHEP
+
+CERN-TH-2026-106, OU-HET-1315
+
+arXiv:2606.03008v1 [hep-ph] 2 Jun 2026
+
+The decay rate of metastable cosmic strings beyond the thin-string approximation
+Valerie Domcke a and Yu Hamada b aTheoretical Physics Department, CERN, 1 Esplanade des Particules, CH-1211 Geneva 23, Switzerland bDepartment of Physics, The University of Osaka, Machikaneyama-cho, Toyonaka, Osaka 560- 0043, Japan E-mail: valerie.domcke@cern.ch, yu.hamada@het.phys.sci.osaka-u.ac.jp
+Abstract: In the context of grand unified theories, any cosmic strings present in the postinflationary universe are likely to be metastable, with a decay rate set by the spontaneous creation of monopole pairs on the string. Determining this decay rate is crucial in understanding the phenomenology of the cosmic string network, including a potentially observable gravitational wave background. The bounce action governing this rate has so far only been determined using the thin string approximation or specific ans¨atze for the field profiles in the monopole formation process. Here we solve this problem using classical lattice simulations, relying only on the inherent symmetries of the problem. Our results indicate a suppression of the bounce action and hence a faster string decay compared to previous estimates.
+
+Contents
+
+1 Introduction
+
+1
+
+2 A minimal setup for metastable cosmic strings
+
+3
+
+2.1 Monopoles
+
+5
+
+2.2 Cosmic strings
+
+6
+
+2.3 Breaking of infinitely thin strings
+
+7
+
+3 Numerical calculation of bounce solution
+
+8
+
+3.1 Ans¨atz
+
+9
+
+3.2 Gradient flow with fixed monopole core
+
+10
+
+3.3 Boundary conditions
+
+11
+
+4 Results
+
+12
+
+4.1 Simulation results
+
+12
+
+4.2 Implications for gravitational wave searches
+
+15
+
+5 Conclusions
+
+19
+
+A Rescaled variables
+
+21
+
+B Classical (in)stability
+
+22
+
+C Varying the mass ratio in the U(1) sector
+
+23
+
+D The SGWB from metastable cosmic strings in the thin string approxima-
+
+tion
+
+24
+
+1 Introduction
+Cosmic strings are formed in spontaneous symmetry breaking processes in the early universe, G  H, if the vacuum manifold of the quotient group features a non-trivial first homotopy class, 1(G/H) = 1 [1, 2]. The simplest example is the spontaneous breaking of a U (1) symmetry. Once formed, the cosmic string network evolves to reach the scaling regime, in which a constant fraction of the energy budget of the Universe is maintained in the cosmic
+­1­
+
+

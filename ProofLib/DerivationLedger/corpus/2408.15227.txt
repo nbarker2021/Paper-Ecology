@@ -1,0 +1,71 @@
+arXiv:2408.15227v3 [hep-ex] 2 May 2025
+
+Axion Dark Matter eXperiment around 3.3 µeV with Dine-Fischler-Srednicki-Zhitnitsky Discovery Ability
+C. Goodman, M. Guzzetti, C. Hanretty, L. J Rosenberg, G. Rybka, J. Sinnis, and D. Zhang University of Washington, Seattle, Washington 98195, USA
+John Clarke and I. Siddiqi University of California, Berkeley, California 94720, USA
+A. S. Chou, M. Hollister, S. Knirck, and A. Sonnenschein Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+T. J. Caligiure, J. R. Gleason, A. T. Hipp, P. Sikivie, M. E. Solano, N. S. Sullivan, and D. B. Tanner University of Florida, Gainesville, Florida 32611, USA
+R. Khatiwada Illinois Institute of Technology, Chicago, Illinois 60616, USA and Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+G. Carosi, C. Cisneros, N. Du, N. Robertson, and N. Woollett Lawrence Livermore National Laboratory, Livermore, California 94550, USA
+L. D. Duffy Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+C. Boutan, T. Braine, E. Lentz, N. S. Oblath, and M. S. Taubman Pacific Northwest National Laboratory, Richland, Washington 99354, USA
+E. J. Daw, C. Mostyn, and M. G. Perry University of Sheffield, Sheffield S10 2TN, UK
+C. Bartram SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA
+T. A. Dyson, S. Ruppert, and M. O. Withers Stanford University, Stanford, CA 94305, USA
+C. L. Kuo SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA and
+Stanford University, Stanford, CA 94305, USA
+B. T. McAllister Swinburne University of Technology, John St, Hawthorn VIC 3122, Australia
+J. H. Buckley, C. Gaikwad, J. Hoffman, and K. Murch Washington University, St. Louis, Missouri 63130, USA
+M. Goryachev, E. Hartman, A. Quiskamp, and M. E. Tobar University of Western Australia, Perth, Western Australia 6009, Australia
+(ADMX Collaboration)
+(Dated: May 6, 2025) We report the results of a QCD axion dark matter search with discovery ability for Dine­Fischler­Srednicki­Zhitnitsky (DFSZ) axions using an axion haloscope. Sub-Kelvin noise temperatures are reached with an ultra low-noise Josephson parametric amplifier cooled by a dilution refrigerator. This work excludes (with a 90% confidence level) DFSZ axions with masses between 3.27 to 3.34 µeV, assuming a standard halo model with a local energy density of 0.45 GeV/cm3 made up 100% of axions.
+
+2
+
+Numerous cosmological and astrophysical observations provide compelling evidence for the existence of dark matter, contributing about 85% of the total mass in our universe [1­3]. Identification of dark matter is one of the outstanding problems in modern particle and astrophysics. While a number of particle candidates have been proposed for dark matter such as weakly interacting massive particles [4­6], fuzzy dark matter [7, 8] and sterile neutrinos [9­11], the QCD axion [12­14] is particularly well motivated.
+The QCD axion is a consequence of a beyond-standardmodel U (1) symmetry introduced to solve the strong CP problem, which, additionally, could comprise some or all of the dark matter [12­14]. Measurements of the neutron electric dipole moment place an upper limit on the strong interaction CP violation phase  < 5 × 10-11 [15, 16]. A global axial U (1)PQ symmetry introduced by Peccei and Quinn [12] undergoes spontaneous symmetry breaking at a very high temperature TPQ [16]. At temperatures lower than TPQ, a pseudo Nambu-Goldstone boson, the so-called QCD axion, is produced. The mass of the QCD axion will be stabilized after the temperature cools to the QCD phase transition temperature (200 MeV). If TPQ is lower than the reheating temperature after the universe undergoes inflation, QCD axion mass between O(1 µeV) and O(1 meV) is strongly motivated [16].
+The Axion Dark Matter eXperiment (ADMX) has been described in previous publications [17­23]. The axion haloscope was first proposed by Pierre Sikivie [24] to search for axion dark matter decay via the inverse Primakoff effect [25], stimulated by immersing the cavity in a strong magnetic field. The outgoing photon carries the rest-mass and kinetic energies of the axion. When the putative photons are on resonance with the cavity modes, the signal is enhanced by the quality factor of the resonator. The enhanced signal is extracted with an antenna and recorded through an ultralow noise radio frequency (RF) readout chain. Previous works have described ADMX's sensitivity to both axion coupling benchmark models: Kim-Shifman-VainshteinZakharov (KSVZ) [17­20, 26, 27] and Dine-FischlerSrednicki-Zhitnitskii (DFSZ) [21­23, 28, 29] over a range of potential axion masses.
+In this Letter, we report the exclusion of the axionphoton coupling under the assumption that axions make up all of the dark matter from data collected by ADMX in 2022. We also include a discussion on the difference between reported exclusion bounds and discovery potential for haloscopes.
+The 2022 run scanned from 792 to 807 MHz (3.27 to 3.34 µeV axion mass) to extend the sensitivity reported in the previous run [23] to DFSZ coupled axions at nominal dark matter densities. The total science data taking spans 71 days with 60% live time.
+ Correspondence to dzhang95@uw.edu
+
+TABLE I. Cold space temperatures during the previous run and this run. The `attenuator' is the one closest to the cavity that contributes the most thermal noise off-resonance (Fig. 1).
+
+Location Attenuator
+Cavity JPA
+
+2021 run [mK] 145 300 150
+
+2022 run [mK] 95 130 135
+
+The experimental hardware described in [23] was refitted with a number of cryogenic upgrades, including replacement of the stainless-steel supports between the 1 K temperature stage and the milliKelvin temperature stage with carbon fiber rods, improved thermal sinking of components, and additional vacuum space absorption pumping. These upgrades yielded reductions in the physical temperatures of the components given in Tab. I.
+
+FIG. 1. A schematic of the RF components in the cold space. Other than HFET thermalized to the 4K plate, the components are at the milliKelvin temperature stage.
+
+The signal power of the axion conversion extracted from the resonant cavity is
+
+Pa = 2.8×10-23W
+
+g 2 0.36
+
+ 0.45 GeV/cm3
+
+f
+
+B2 V
+
+C
+
+800 MHz 7.6 T 106  0.4
+
+QL 45,000
+
+ 1+
+
+L(f, f0, QL).
+
+(1)
+
+Here g = 0.36 (-0.97) is a dimensionless coupling constant for the KSVZ (DFSZ) axion. The axion-to-twophoton coupling ga is g/fa, where  is the fine structure constant, and fa is the PQ symmetry breaking scale. The local dark matter density is noted as . The photon frequency f corresponds to the total energy of the axion f  ma/h where ma is the axion mass and h is the Planck constant. B is the average magnetic field in the cavity and V = 106 ) is the volume excluding the two rods in the cavity. The form factor C describes the the field overlap between the fundamental mode used for the axion dark matter search and the external magnetic field. QL and  are the loaded quality
+
+

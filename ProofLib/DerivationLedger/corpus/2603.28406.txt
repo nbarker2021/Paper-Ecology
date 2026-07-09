@@ -1,0 +1,78 @@
+arXiv:2603.28406v1 [hep-th] 30 Mar 2026
+
+Physics as Code: From Scans to Theorems with ITP APIs in SU (5) Model Building
+Sven Krippendorf Joseph Tooby-Smith
+ DAMTP and Cavendish Laboratory, University of Cambridge Wilberforce Road, CB3 0WA, Cambridge
+ Department of Computer Science, University of Bath, Bath BA2 7AU, UK
+Abstract A recurring challenge in theoretical physics is to make reliable global statements about bounded but combinatorially large model spaces. Exhaustive scans quickly become opaque or impractical, while statistical exploration does not by itself provide theorem-backed guarantees. This motivates workflows in which the model-building problem itself is formalized inside an interactive theorem prover (ITP). In this paper we develop an API-based methodology for formalizing such bounded modelbuilding questions inside Lean, an interactive theorem prover. The central step is to represent the relevant charge spectra, predicates, and reduction moves as reusable ITP definitions, and then to derive the classification from proved reduction theorems rather than from an ad hoc scan. We demonstrate the strategy in a concrete SU (5) case study motivated by F-theory model building with additional Abelian symmetries. At the charge-spectrum layer, we classify bounded spectra that admit a top-quark Yukawa coupling, avoid a selected set of dangerous operators, and satisfy a minimal charge-spectrum completeness condition. Our main result shows that every such spectrum in the bounded search space arises from finitely many minimal top-Yukawa witnesses together with controlled completions and certified closure steps. This classification represents a formally verified description of the full viable class in the charge-spectrum setting studied here. The development is implemented inside PhysLib as reusable infrastructure rather than as a one-off verification script. It provides a proof of principle for how interactive theorem provers can turn combinatorially difficult model-building problems into correctness-first, reusable workflows, and we discuss how the resulting certified classification can serve as reliable input for downstream analyses.
+1
+
+Contents
+
+1 Introduction
+
+3
+
+2 From the Physics Question to a Formal Classification Problem
+
+6
+
+2.1 The running example and its physics origin . . . . . . . . . . . . . . . . . . . . . . . 6
+
+2.2 Why brute-force scans are not enough for a certified classification . . . . . . . . . . . 7
+
+2.3 Minimal witnesses and controlled completions . . . . . . . . . . . . . . . . . . . . . . 8
+
+2.4 A mathematical summary in PhysLib-style notation . . . . . . . . . . . . . . . . . . 8
+
+3 Formal Vocabulary: a PhysLib API for Charge Spectra
+
+10
+
+3.1 Charge spectra as the basic object . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+3.2 Structural relations and instances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+3.3 Interface definitions: the verbs of the API . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+3.4 Formalizing the bounded model space . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+3.5 Code organization and reusability in PhysLib . . . . . . . . . . . . . . . . . . . . . . 15
+
+4 Certified Reduction: From Minimal Top-Yukawa Witnesses to Complete Charge
+
+Spectra
+
+15
+
+4.1 Minimal top-Yukawa witnesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+4.2 From witnesses to complete charge spectra . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+4.3 Main theorem: completeness of the certified viable charge-spectrum class . . . . . . . 17
+
+4.4 Proof strategy and why it matters . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+4.5 Lean statements and proof commentary . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+5 From Certified Reduction to Executable Classification
+
+20
+
+5.1 From the certified reduction to a concrete closure computation . . . . . . . . . . . . 21
+
+5.2 What is proved and what is computed . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+5.3 From charge spectra to fuller phenomenological data . . . . . . . . . . . . . . . . . . 22
+
+5.4 Viable and non-viable regions of the bounded model class . . . . . . . . . . . . . . . 23
+
+5.5 Typical workflow snippet and practical use . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+6 Conclusions and Outlook
+
+25
+
+2
+
+

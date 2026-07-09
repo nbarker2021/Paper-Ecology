@@ -1,0 +1,144 @@
+arXiv:2601.14808v3 [cond-mat.mes-hall] 24 Jun 2026
+
+Emergence of multiple zero modes bound to vortices in extended topological Josephson junctions
+Adrian Reich,1,  Kiryl Piasotski,1, 2 Eytan Grosfeld,3 and Alexander Shnirman1, 2 1Institute for Theoretical Condensed Matter Physics,
+Karlsruhe Institute of Technology, 76131 Karlsruhe, Germany 2Institute for Quantum Materials and Technologies,
+Karlsruhe Institute of Technology, 76344 Eggenstein-Leopoldshafen, Germany 3Department of Physics, Ben-Gurion University of the Negev, Beer-Sheva 8410501, Israel
+(Dated: June 26, 2026)
+We study planar Josephson junctions formed on the surface of a three-dimensional topological insulator (Fu-Kane proposal). We examine the experimentally relevant parameter regimes in which the frequently used effective description in terms of two counter-propagating one-dimensional Majorana modes with hybridization dependent on the Josephson phase difference reaches its validity limit. This happens when the effective velocity of the emergent one-dimensional Majorana modes approaches zero. As parameters like the chemical potential or the width of the junction are tuned, instances of vanishing effective velocity mark the emergence of additional `Dirac cones' at zero energy and finite momentum. If the junction is subjected to an external magnetic field, Josephson vortices may then bind a number of zero modes in addition to the topological Majorana mode. The additional zero modes are `symmetry-protected' and can be lifted by a broken mirror symmetry (which is to be expected in realistic scenarios) as well as by an in-plane magnetization (or Zeeman field). We note that the ensuing presence of additional low-energy Andreev states can significantly contribute to measured quantities like the Josephson current or microwave absorption spectra.
+
+I. INTRODUCTION
+Hybrid structures built from topological insulators and superconductors1,2 (Fu-Kane proposal) have emerged as a prominent platform in the ongoing search for Majorana zero modes3­6. When superconducting order is induced in the spin-momentum-locked surface states of a threedimensional strong topological insulator, the resulting system is expected to host effective topological superconductivity and localized Majorana states at boundaries and in vortices. This prospect has driven sustained theoretical7­19 and experimental efforts20­29, establishing these hetero-structures as a focal point in the broader exploration of non-Abelian anyonic quasiparticles and their potential role in fault-tolerant quantum information processing30.
+Within the general proposal of emergent twodimensional topological superconductivity, extended planar Josephson junctions on the surface of topological insulators have first been proposed and analyzed in a seminal paper by Fu and Kane1. They have derived an effective low-energy theory in terms of one-dimensional Majorana modes counter-propagating along the junction. This `k · p'-approximation, which is what we will in the following sometimes refer to as `Fu-Kane theory', has proven extremely insightful and formed the basis for numerous theoretical predictions and interpretations of experimental data11,13,14,16­18,26. If such a system is placed in an external magnetic field, one of the basic expectations is the presence of a spectrum of bound states (a.k.a. Caroli-de Gennes-Matricon (CdGM) states31) localized in the Josephson vortices with energies ±En  n, n = 0, 1, 2, . . . , including a single Majorana bound state at zero energy11,32.
+
+In this work, we adopt the Fu-Kane 2D continuum model of the surface states, which is valid for single particle energies  (counted from the appropriate chemical potential) well within the bulk band gap Eg of the 3D topological insulator, || < Eg, and demonstrate that the 1D Fu-Kane effective description of the topological Josephson junction, derived for energies within the induced superconducting gap 0, i.e., || < 0  Eg, loses its validity as the effective velocity of the one-dimensional Majorana edge modes tends to zero. The existence of such a regime is, of course, not surprising, as any effective theory based on a low energy/momentum expansion has a limited domain of validity. Concretely, the `k·p'-method misses additional low energy localized states, which manifest themselves as zero modes in an ideal situation and near-zero modes in experimentally realistic scenarios. We argue that these additional CdGM states might play an important role in the interpretation of recently conducted and proposed experiments.
+II. TOPOLOGICAL JOSEPHSON JUNCTION IN A TRANSVERSE MAGNETIC FIELD
+We consider a Josephson junction formed between two s-wave superconductors on the surface of threedimensional strong topological insulator (TI) in an external magnetic field B =  × A perpendicular to the surface (Fig. 1). We assume the superconducting gaps to be of the same magnitude 0 on both sides of the junction, but differing by a relative phase (y). The position dependence of the phase difference is a result of the magnetic flux.33 Additionally, we take into account the effect of a ferromagnetic insulator deposited between
+
+2
+
+FIG. 1. Sketch of the superconductor-ferromagnetsuperconductor (SMS) junction on the surface a threedimensional topological insulator (TI) with width W and length L. The external magnetic field B = Be^z leads to a running phase difference (y) = 2y/lB +0 (sketched below) between the superconductors with magnetic length lB  1/B. The dotted green lines indicate the positions of Josephson vortices, separated by a distance of lB.
+
+the superconductors. Its magnetization causes an effective exchange field M = (Mx, My, Mz)T in the underlying surface of the TI which couples to the electrons' spin. Though ferromagnet-superconductor interfaces on the surface of TIs have to the best of our knowledge not yet been experimentally realized, we include these terms out of academic interest, in accordance with some of the authors' earlier theoretical works16,34,35, in order to understand their effect on the phenomena we study below. For comparison with current experiments one should assume M = 0.
+The corresponding Bogoliubov-de Gennes (BdG) Hamiltonian reads
+
+h(x, y) =
+
+(1)
+
+- ivF xx +
+
+-ivF
+
+y
+
++
+
+evF c
+
+Ay (x)z
+
+y - µ(x) z
+
++ M (x) ·  + 0(x) (cos (x, y)x + sin (x, y)y)
+
+where 0(x) = 0 (|x| - W/2), (x, y) = (y) (x), M (x) = M (W/2 - |x|), µ(x) = µN (W/2 - |x|) + µS (|x| - W/2). i and i are Pauli matrices in Nambu space and spin space, respectively. W is the width of the
+junction and vF the surface state Fermi velocity. To account for a possible shift (pinning) of the chem-
+ical potential µ due to proximity to the metallic super-
+conductors, we allow it to exhibit a step-like profile in x-
+
+direction. The experimentally relevant case, from which we will draw the examples below, corresponds to µS constituting the largest energy scale in the model (`Andreev limit'). The chemical potential µN in the nonsuperconducting region can in principle be controlled by a gate voltage and will therefore be chosen as a tuning parameter.
+The orbital effects of the applied magnetic field are accounted for by the vector potential A = (0, Ay(x), 0)T in Landau gauge, which, under the assumption of London screening with London penetration depth L, is given by
+
+e
+
+
+
+c Ay(x) = lBW ×
+
+L
+
+e(x+
+
+W 2
+
+)/L
+
+,
+
+ ×
+
+x+
+
+W 2
+
++ L
+
+,
+
+ 
+
+W + L
+
+2
+
+-
+
+e-(x-
+
+W 2
+
+)/L
+
+(2)
+x < -W/2, |x|  W/2, , x > W/2.
+
+The
+
+1D
+
+magnetic
+
+length
+
+lB
+
+
+
+0 (2L+W )B
+
+is
+
+inversely
+
+pro-
+
+portional to the strength of the applied magnetic field.
+
+Under the assumption lB  J , where J is the Joseph-
+
+son penetration depth of the junction, the phase differ-
+
+ence then grows linearly
+
+2
+
+(y) = lB y + 0
+
+(3)
+
+with some phase offset 0. Majorana zero modes as well as low-energy Andreev states are localized at points ym at which (ym) = (2m + 1), m  Z, in the center of Josephson vortices,11,32 which are thus separated by a
+distance lB.
+
+III. THE FU-KANE EFFECTIVE THEORY AND ITS RANGE OF VALIDITY
+
+A. Low-energy approximation and its applications
+
+The effective low-energy theory based on the groundbreaking insights by Fu and Kane1,2, in which the topological insulator Josephson junction is described by means of a 2×2 Hamiltonian in one spatial dimension, has in the past been utilized in a variety of works, e.g. examining experimental signatures of Majorana modes in the form of the (anomalous) Josephson current11,16, lifting of zeros in the Fraunhofer diffraction pattern14,19,26 as well as braiding operations13,14.
+The main idea can be sketched as follows (where we begin under the assumption Mx = My = 0 and defer the discussion of the effects of an in-plane magnetization to Sec. III C). Starting from a 4×4 BdG Hamiltonian of the form (1), describing two-dimensional TI surface states, a projection onto the 2×2 subspace of linearly dispersing one-dimensional Majorana modes which are bound to the junction is carried out, yielding a Hamiltonian of the form
+
+heff = -ivyx + (y)z
+
+(4)
+
+

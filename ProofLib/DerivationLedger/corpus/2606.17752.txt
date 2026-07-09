@@ -1,0 +1,113 @@
+Draft version June 17, 2026 Typeset using LATEX RNAAS style in AASTeX63
+
+arXiv:2606.17752v1 [gr-qc] 16 Jun 2026
+
+Intrinsic handedness in O1-O4a black-hole mergers: probing orbital precession, remnant retention in dense environments and cosmological mirror
+asymmetry
+Juan Calder´on Bustillo,1, 2 Adrian del Rio,3 Nicolas Sanchis-Gual,4 and Koustav Chandra5
+1Instituto Galego de F´isica de Altas Enerx´ias, Universidade de Santiago de Compostela, 15782 Santiago de Compostela, Galicia, Spain 2Department of Physics, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong
+3Universidad Carlos III de Madrid, Departamento de Matem´aticas. Avda de la Universidad 30 (edificio Sabatini), 28911 Legan´es, Spain. 4Departament d'Astronomia i Astrof´isica, Universitat de Val`encia, Avenida Vicent Andr´es Estell´es 19, 46100 Burjassot (Val`encia), Spain 5Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Am Mu¨hlenberg 1, 14476 Potsdam, Germany
+ABSTRACT
+Precessing binary black-holes generically produce an imbalance of right- and left- handed gravitational waves, reflecting the breaking of mirror symmetry by the merger dynamics. We study this phenomenon using the observer-independent quantity VGW, a gravitational analogue of the optical Stokes parameter that quantifies the intrinsic handedness of the emitted radiation. Using 91 LIGOVirgo-KAGRA black-hole mergers from the O1-O4a observing runs, we find that 92% of the analyzed events favour non-vanishing VGW, indicating a predominance of precessing dynamics across the events. Through a recently established relation between VGW and the remnant black hole recoil, we further constrain the retention of merger remnants in dense stellar environments, finding that at most 8% could remain gravitationally bound to globular or nuclear star clusters and subsequently participate in hierarchical merger channels. We finally investigate the cosmological distribution of black-hole merger handedness. The observed VGW distribution is consistent with symmetry under VGW  -VGW, and yields an average value VGW = -1.9+-66..16 × 10-3 (90% credibility), consistent with the absence of a preferred handedness and with expectations from large-scale statistical isotropy. In particular, the inclusion of O4a events reduces uncertainties in VGW by  40% with respect to O1-O3 events. These results establish black-hole merger handedness as a unified probe of orbital precession, remnant recoil, hierarchical formation, and cosmological mirror symmetry.
+Keywords: Binary Black Holes -- Cosmology ­ Dynamical Black-Hole Formation -- Gravitational Waves
+
+INTRODUCTION
+The gravitational-wave (GW) interferometers, Advanced LIGO (Aasi et al. 2015), Advanced Virgo (Acernese et al. 2015), and KAGRA (Akutsu et al. 2019), have established GW astronomy as a precision probe of compact-object dynamics and the strong-field regime of gravity. Since the first direct detection of a binary black-hole (BBH) merger in 2015 (Abbott et al. 2016), hundreds of additional compact-binary mergers have been reported (Abbott et al. 2019a, 2021a, 2023a; Abac et al. 2025a; Collaboration et al. 2026a). These have provided unprecedented information on the astrophysical formation channels, merger scenarios and population properties of black holes (BHs) and neutron stars (Abbott et al. 2023b; Abac 2025; Collaboration
+
+et al. 2026b), the large-scale structure of the Universe (Abbott et al. 2017a; Caldero´n Bustillo et al. 2025a; Collaboration et al. 2026c), as well as highly non-linear gravitational phenomena including spin precession Hannam et al. (2022), higher-order multipoles Abbott et al. (2020b); Capano et al. (2023), and BH recoil (Varma et al. 2022; Caldero´n Bustillo et al. 2025b; LloberaQuerol et al. 2026; Islam 2026). GW observations have also enabled tests of General Relativity (GR) in the dynamical, strong-curvature regime (Abbott et al. 2016, 2019b, 2025; Isi et al. 2019; Bustillo et al. 2021a; Siegel et al. 2023; Abac et al. 2026a,b,c; Chandra et al. 2025; Chiaramello et al. 2025; Chandra & Caldero´n Bustillo 2025; Abac et al. 2026d). As detector sensitivity and waveform modeling continue to improve, current obser-
+
+2
+
+Caldero´n Bustillo et al.
+
+vations are beginning to probe increasingly subtle features of BBH dynamics, including orbital precession and higher-order multipolar structure.
+Recent studies (del Rio et al. 2020; Sanchis-Gual & del Rio 2023; Leong et al. 2025; Calder´on Bustillo et al. 2025a) have suggested that several seemingly distinct strong-gravity phenomena --including orbital precession, remnant recoil, GW circular polarization, and parity-odd multipolar asymmetries (Mielke et al. 2025, 2026; Kolitsidou et al. 2024)-- actually encode a common notion of chirality in BBH mergers. This connection arises because precessing BBHs dynamically break mirror symmetry through the relative orientation and evolution of their spins and orbital angular momentum, leading to intrinsically handed GW emission patterns characterized by an unequal production of right- and left- handed gravitational waves. The same underlying asymmetry is also reflected in the recoil velocity imparted to the remnant BH by the asymmetric emission of linear momentum in GWs (Gonzalez et al. 2007; Misner et al. 1974), in particular through a non-zero component along its spin direction. Recent work (Calder´on Bustillo et al. 2025a) has shown that these manifestations of chirality can be captured by a single observable, VGW (del Rio et al. 2020), a gravitational analogue of the optical Stokes parameter that quantifies the net handedness of the emitted GWs, which has recently been used to probe large-scale mirror symmetry in the observed population of BH mergers.
+
+A gravitational Stokes parameter for quantifying GW polarisation
+Mirror asymmetry in precessing BBHs is reflected in the emission of GWs with net circular polarization, quantified by the observable
+
+VGW =
+
+
+
+ +
+
+d 3
+
+0
+
+=2 m=-
+
+h~+m() - ih~×m() 2 - h~+m() + ih~×m() 2
+
+. (1)
+
+Here, h~+m,×() denote the Fourier components of the two GW polarizations appearing in the spin -2
+spherical-harmonic decomposition of the GW strain, hlm(t) = h+lm(t) - ihl×m(t). Originally motivated by geometric considerations in asymptotically flat space-
+times (del Rio et al. 2020; del Rio 2021), VGW represents a gravitational analogue of the optical Stokes V parame-
+ter, measuring the net circular polarization emitted during the merger. The combinations h~+m -ih~×m and h~+m + ih~×m respectively correspond to left- and right-handed circularly polarized GW modes. Under a mirror trans-
+
+formation, these two contributions are exchanged, implying VGW  -VGW. Consequently, mirror-symmetric BBHs satisfy VGW = 0, while VGW = 0 indicates intrinsically handed merger dynamics (Sanchis-Gual & del Rio 2023).
+
+Final BH helicity
+
+In the binary center-of-mass frame, the remnant BH
+
+of a BBH merger carries both a spin f and a recoil velocity K , naturally defining a pseudoscalar quantity
+
+proportional to
+
+h  f · K ,
+
+(2)
+
+characterizing the handedness ­ or helicity ­ of the remnant spacetime. This quantity measures the sense of
+
+BH rotation relative to its direction of propagation, thus defining another intrinsic, observer-independent notion of handedness for the merger remnant. In contrast to
+
+quantities whose apparent orientation depends on the
+
+viewing point --such as the orbital motion of the binary -- the sign of h provides an invariant characterization of the chirality of the system. Systems with h > 0 and
+
+h < 0 can then be interpreted as right- and left-handed configurations, respectively, depending on whether the resulting final black hole rotates right- or left-handedly
+
+along its trajectory, while h = 0 corresponds to non-
+
+chiral configurations. This helicity therefore provides a simple and physically intuitive characterization of the intrinsic chirality generated during the non-linear
+
+merger dynamics.
+
+Relation between VGW, orbital precession, and BH recoil.
+
+For aligned-spin binaries, the equatorial symmetry
+
+of the system enforces the waveform multipole relation h~,-m = (-1)h~,m, yielding VGW = 0. Consequently, within the BBH dynamics, VGW = 0 requires spin mis-
+alignment, which triggers orbital precession. Crucially,
+
+while the definitions of circular polarization and helicity
+
+(Eqs. 1 and 2) arise from different physical considera-
+
+tions, recent work has shown that the remnant helic-
+
+ity (2) and the GW circular polarization (1) are in fact
+
+linearly correlated, suggesting that both observables en-
+
+code a common underlying notion of chirality in BBH
+
+mergers, imprinted by the handedness of the non-linear
+
+spacetime dynamics. In particular, Leong et al. (2025)
+
+found that VGW scales linearly with the projection of the final BH recoil onto its spin axis (Ka = K · f /|f |)
+
+as
+
+VGW = 0.773 × 10-3Ka[km/s].
+
+(3)
+
+This is consistent with the fact that aligned-spin binaries, for which VGW = 0, impart recoils contained in
+
+

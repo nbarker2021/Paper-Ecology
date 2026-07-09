@@ -1,0 +1,49 @@
+{
+  "gauge_transformation_consistency": {
+    "center_invariance_T_1": true,
+    "center_invariance_T_2": true,
+    "center_invariance_T_3": true,
+    "center_invariance_T_4": true,
+    "center_invariance_T_5": true,
+    "center_invariance_T_6": true,
+    "center_invariance_T_7": true,
+    "center_invariance_T_8": true,
+    "center_invariance_W+": true,
+    "center_invariance_W-": true,
+    "center_invariance_W3": true,
+    "center_invariance_Y": true,
+    "su2_in_su3": true,
+    "su3_closure": true,
+    "su3_hermitian": true,
+    "u1_commutes_with_su2": true
+  },
+  "lie_algebra_lcr_mapping": {
+    "correction_state_(0, 1, 0)_in_su3": true,
+    "correction_state_(1, 1, 0)_in_su3": true,
+    "su2_dim_matches_shell2": true,
+    "su3_dim_matches_lcr": true,
+    "u1_dim_matches_ground": true,
+    "weight_diagonal_T_7": true,
+    "weight_excited_T_1": true,
+    "weight_excited_T_2": true,
+    "weight_excited_T_3": true,
+    "weight_excited_T_4": true,
+    "weight_excited_T_5": true,
+    "weight_excited_T_6": true,
+    "weight_ground_T_8": true
+  },
+  "meta_lcr_readout": {
+    "boundary_table_match": true,
+    "boundary_table_rows": 8,
+    "chain_positions": 31,
+    "gluon_invariance": true,
+    "next_boundary": "paper-32"
+  },
+  "paper": 31,
+  "status": "pass",
+  "su2_generators": 3,
+  "su3_generators": 8,
+  "timestamp": "2026-07-05T00:00:00-07:00",
+  "title": "Gauge Groups Translated into LCR",
+  "u1_generators": 1
+}

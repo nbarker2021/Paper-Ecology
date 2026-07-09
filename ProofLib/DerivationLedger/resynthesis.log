@@ -1,0 +1,5 @@
+RESYNTHESIS DONE.
+  reclassified blocked->derived_D: 104
+  still blocked (honest):        66
+  new totals: {'derived_D': 445, 'partial': 4, 'blocked': 66}
+  (was: 341 derived_D, 170 blocked, 4 partial)

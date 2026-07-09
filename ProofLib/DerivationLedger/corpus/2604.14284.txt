@@ -1,0 +1,307 @@
+UMN-TH-4524/26
+A Busy Higgs Signal
+Peiran Li,1,  Zhen Liu,1,  and Lian-Tao Wang2, 3, 4, 5, 6,  1School of Physics and Astronomy, University of Minnesota, Minneapolis, MN 55455, USA
+2Department of Physics, University of Chicago, Chicago, IL, 60637, USA 3Enrico Fermi Institute, University of Chicago, Chicago, IL, 60637, USA 4Kavli Institute for Cosmological Physics, University of Chicago, Chicago, IL 60637, USA 5Leinweber Institute for Theoretical Physics, University of Chicago, Chicago, IL 60637, USA 6HEP Division, Argonne National Laboratory, 9700 Cass Ave., Argonne, IL 60439, USA
+Higgs final states are prime targets in the search for physics beyond the Standard Model. In the conventional picture, SU (2) symmetry together with the Goldstone Equivalence Theorem correlates Higgs and gauge-boson final states, implying comparable sensitivity in channels such as hh, ZZ, and W W in searches for heavy resonances. In this work, we identify a mechanism to parametrically violate this expectation. We show that higher-order Higgs couplings can induce an electroweaksymmetry-breaking enhancement that selectively amplifies Higgs-rich final states, allowing them to become the leading discovery channels of new resonances. For scalar resonances, this can make di-Higgs the dominant bosonic signal. For resonance masses higher than a couple of TeV, it also opens resonant tri-Higgs and four-Higgs channels as well-motivated search targets. The same underlying mechanism extends to heavy fermionic and vector resonances, where it can similarly enhance channels such as ht, Zh, and h. We present this framework in effective field theory, demonstrate possible UV completions, and discuss its implications for collider searches.
+
+arXiv:2604.14284v1 [hep-ph] 15 Apr 2026
+
+I. INTRODUCTION
+
+Since the discovery of the Higgs boson [1, 2], the Higgs sector has been studied extensively, with increasing attention devoted to precision measurements of Higgs couplings [3­14]. Motivated by accessing the Higgs self interaction, the di-Higgs final state is one of the main focuses of the physics program at the LHC [15­19]. In parallel, substantial effort has also been devoted to searches for resonances in the di-Higgs channel [19­21].
+As we will review in this paper, in general, SU (2) invariance and the Goldstone Equivalence Theorem dictate relations between rates of the di-Higgs and other di-gauge boson final states, such as ZZ and W +W -, in particular for resonances much heavier than the weak scale. In this case, we would expect that the sensitivities in all of these channels would be broadly comparable [21­23].
+In this work, we highlight a scenario in which the Higgs channel is qualitatively distinct. We call this the busy Higgs mechanism, for which the di-Higgs can be the leading discovery channel. Similar enhancement relative to the gauge boson channels can also be achieved in the single Higgs final states, such as ht and hZ in new fermionic or vector resonances, respectively.
+We begin with the case of a spin-0 resonance, S, with a coupling through the Higgs portal
+
+S HH.
+
+(1)
+
+ li001800@umn.edu  zliuphys@umn.edu  liantaow@uchicago.edu
+
+In our discussion, we take
+
+H = 1 2
+
+a1 + ia2 (v + h) + ia0
+
+,
+
+(2)
+
+where ai denotes the Goldstone modes. An equivalent derivation can also be given in unitary gauge which is discussed in Section A. The Higgs portal operator can then be written as
+
+HH = 1 2
+
+2
+(v + h)2 + a2i
+
+.
+
+(3)
+
+i=0
+
+At the quadratic order in the fields, this operator displays a symmetry between ai and h. This structure is a direct consequence of the SU (2) symmetry since the Higgs Vacuum Expectation Value (VEV) does not enter at this order. By contrast, terms proportional to the VEV break this symmetry, and we will investigate their effects. Hence, for the coupling in Eq. (1), the decay branching ratios (BR) of S satisfy BR(S  hh) = BR(S  aiai). For mS  v, we have
+
+BR(S
+
+
+
+hh)
+
+=
+
+BR(S
+
+
+
+ZZ)
+
+=
+
+1 BR(S
+
+
+
+W +W -).
+
+2
+
+(4)
+
+The same pattern persists for other Higgs bilinear oper-
+
+ators, such as µSµ(HH) and S|DµH|2. These oper-
+
+ators can equivalently be viewed as inducing S-h mass
+
+mixing, S-h kinetic mixing, and direct couplings of S
+
+to Higgs and SM gauge bosons. All of them maintain
+
+such ratios between decay channels with O(v/mS) corrections. Hence, we expect di-Higgs resonance searches to
+
+have discovery power comparable to that of the ZZ and
+
+W W channels, up to differences in signal­background
+
+discrimination at a given collider experiment. One can
+
+further show that the same conclusion extends to heavy
+
+vectors and spin-2 resonances, with an analogous relation for heavy fermions as well [24­29]. This leads to the central question of this paper: is it impossible to have Higgs final states driving the discovery?1
+
+II. THE BUSY HIGGS MECHANISM
+
+Busy Scalar: Contrary to this common lore, we show there is a new class of theories where Higgs final states will be the driving discovery mode! We first consider coupling S(HH)n, which is
+
+L  S(HH)n
+
+(5)
+
+(v2)n-1  2n S
+
+ia2i
+
+n 1
+
++ h2 n 1
+
++ 4h2 n 2
+
++...
+
+.
+
+The first two terms still preserve the SU (2) relation be-
+tween ai and h. However, the third term gives rise to di-Higgs coupling proportional to n2. This is an effect
+of Electroweak Symmetry Breaking (EWSB). What's re-
+markable is that this can happen even with mS  v. The partial width of these di-boson decay channels vanishes
+as v  0. However, the ratio
+
+BR(S  hh) = (2n - 1)2
+
+(6)
+
+BR(S  aiai)
+
+stays as a constant even with v/mS  0. Therefore, unlike the usual expectation from SU (2) symmetry, the
+di-Higgs channel can remain parametrically enhanced rel-
+ative to the di-gauge boson channels, and could become
+the dominant discovery mode.
+Multi-Higgs final states can also become relevant at
+sufficiently large mS. While three-body decays are phasespace suppressed relative to two-body decays, this sup-
+pression becomes less severe as mS increases, since the integrated three-body phase space itself grows with m2S. Parametrically, the n-body phase-space factor
+
+n =
+
+4(P -
+
+n i
+
+pi)
+
+n i
+
+d3pi (2)32Ei
+
+(7)
+
+carries a positive mass dimension for n > 2. In particular, the two-body factor scales as 1/(8), whereas the threebody phase space scales as mS2 /(2563) [35]. In addition, the Sh3 interaction from the busy operator receives a combinatorial enhancement, scaling as  2n(2n-1)(2n- 2)/3!. Taken together, these effects make a multi-Higgsdominated decay pattern possible.
+For example, S(HH)n will provide
+
+(S  hhh) (S  hh)
+
+
+
+1 (4)2
+
+2(n
+
+- 3
+
+1)2
+
+m2S v2
+
+.
+
+(8)
+
+1 Near the low mass regime where mS  v, one can have sizable enhancements or suppressions [30­34].
+
+2
+
+1.0
+
+S(H H )2
+
+hh
+
+0.8
+
+S(H H )3
+
+3h
+
+0.6
+
+4h
+
+0.4
+
+Br
+
+0.2 0.0 1000
+
+2000 3000 mS [GeV]
+
+4000
+
+5000
+
+FIG. 1. BR of S to multi-Higgs as a function of mS based on different operators. For higher dimensional operators, the multi-boson channels will be further enhanced (see Section A).
+
+As shown in Fig. 1, for sufficiently large mS, the multiHiggs channel could dominate. Multi-gauge-boson final states can also receive combinatorial enhancements, but only when they arise from higher multiplicity structure. For example, the combinatorial enhancement of the hZZ or hW W decay follows the same scaling as di-Higgs decay, rather than tri-Higgs decay (see Section A). Overall, pure-Higgs final states remain particularly attractive discovery channels, especially for large n.
+
+Higgs-infused Fermion: This busy Higgs mechanism can be generalized in a straightforward manner to heavy fermionic resonances. Consider a heavy SU (2) singlet fermion T with coupling
+
+L  q¯H~ T + h.c.,
+
+(9)
+
+where q = (t, b)L is a SM doublet fermion. From this interaction, we can derive the relations
+
+1
+
+BR(T
+
+ ZLt) = BR(T
+
+ ht) =
+
+BR(T 2
+
+ WLb).
+
+(10)
+
+However, if the coupling instead takes the form
+
+L
+
+
+
+cn 2n
+
+(H
+
+H
+
+)n
+
+q¯H~
+
+T
+
++ h.c.,
+
+(11)
+
+we will have an O(n2) enhancement to the T  ht channel.
+
+Higgs-infused Vector: The mechanism can be generalized to vector resonances as well. A simple realization arises by introducing kinetic mixing with additional heavy vector field Z:
+
+L
+
+
+
+1 2
+
+cn 2n
+
+Zµ 
+
+Bµ
+
+(H  H )n ,
+
+(12)
+
+where B is the SM Hypercharge field. After the EWSB
+
+and properly taking into account the kinetic mixing pro-
+
+portional to  = cn
+
+v2 22
+
+n
+, this leads to
+
+L
+
+n 1
+
+Zµ  Bµ
+
+h v
+
++
+
+Zµ JSµM
+
++
+
+O
+
+
+
+m2Z mZ2
+
+,
+
+(13)
+
+

@@ -1,0 +1,233 @@
+Mott-Enhanced Exciton Condensation in a Hubbard bilayer
+Samuele Giuli,1,  Adriano Amaricci,2 and Massimo Capone1, 2 1International School for Advanced Studies (SISSA), via Bonomea 265, 34136 Trieste, Italy
+2CNR-IOM, via Bonomea 265, 34136 Trieste, Italy (Dated: July 17, 2023)
+We study the conditions to realize an excitonic condensed phase in an electron-hole bilayer system with local Hubbard-like interactions at half-filling, where we can address the interplay with Mott localization. Using Dynamical Mean-Field Theory, we find that an excitonic state is stable in a sizeable region of a phase diagram spanned by the intra-layer (U ) and inter-layer (V ) interactions. The latter term is expected to favour the excitonic phase which is indeed found in a slice of the phase diagram with V > U . Remarkably, we find that when U is large enough, the excitonic region extends also for U > V in contrast with naive expectations. The extended stability of the excitonic phase can be linked to in-layer Mott localization and inter-layer spin correlations. Using a mapping to a model with attractive inter-layer coupling, we fully characterize the condensate phase in terms of its superconducting counterpart, thereby addressing its coherence and correlation length.
+
+arXiv:2307.07348v1 [cond-mat.str-el] 14 Jul 2023
+
+I. INTRODUCTION
+The condensation of excitons in a macroscopic quantum state has been proposed soon after the success of BCS theory of superconductivity1,2 owing to the similarities between the Cooper pairs created by the binding of two electrons, and the excitons, bound states formed by an electron and a hole. However, the observation of excitonic phases has long eluded the experimental effort, mainly because of the short lifetimes of the excitons due to electron-hole recombination processes.
+The developments in the engineering of devices and heterostructures have provided ideal platforms to observe exciton condensation (EC), which has been indeed proposed and reported in quantum-Hall bilayers3,4, graphene double bilayers5­8 and semiconductors quantum wells9,10. Excitonic ordering has also been recently reported also in bulk solids11­18
+Bilayer structures are arguably ideal platforms to observe condensation of spatially indirect excitons composed by holes and electrons belonging to different layers, for which recombination is essentially inhibited by the presence of a dielectric material between the layers. Quantum Monte Carlo calculations for electron-hole gases coupled by the long-range Coulomb interaction19­21 have indeed shown that an excitonic phase is stable at very low densities, a result which has been confirmed by simulations of double bilayer graphene5,6.
+In an analogous lattice model with local interactions some indication of exciton condensation has been found away from half-filling22 and in the half-filled system when the interlayer interaction is larger than the intra-layer repulsion23,24. Similar models have been investigated using Dynamical Mean-Field Theory (DMFT). In Ref. 25 the competition between EC and s-wave superconductivity has been addressed in a model without intra-layer repulsion. A variety of two-orbital models including, e.g., energy splitting between bands, the Hund's coupling and including non-trivial topology have also been found to host excitonic states in some regions of parameters26­31.
+
+In this work we aim at identifying a generic mechanism connecting strong correlation physics and excitonic phases which can be used to gain a deeper insight on results on more involved and richer models for specific systems. In particular, we address the interplay between the EC and Mott physics, the most direct fingerprint of correlations, in an idealized model for an electronhole bilayer system with local Hubbard-like interactions. Our focus is on the relative role of the intra-layer (U ) and inter-layer (V ) interactions. We consider the system at half-filling, where a Mott transition can take place, so that our phase diagram will be characterized by the competition/interplay between Mott insulating and EC phases.
+The paper is organized as follows: In Sec. II we introduce the model, our implementation of Dynamical MeanField Theory and the relevant observables we consider. In Sec. III we present the normal-phase results where we discard excitonic ordering, while Sec. IV is devoted to the results for the EC phase. Sec. V reports our concluding remarks.
+
+II. MODEL AND METHOD
+
+We consider a two-layer Hubbard model with a local interaction term:
+
+H = - ijm tmcimcjm + H.c. - µ im nim
+
++U im nimnim + V i niAniB
+
+(1)
+
+where cim (cim) is the annihilation (creation) operator of an electron on site i, layer m = A, B and with spin , nim is the number operator and nim = nim - 1/2 is introduced to write the model in a particle-hole symmet-
+ric form which implies that both bands are half-filled for
+µ = 0. We set tA = t and tB = tA. In our calculations we will consider  = -1 in order to describe an electron-
+like band (A) and a hole-like band (B). U and V are both
+positive and they measure the intra-layer and inter-layer
+local screened Coulomb repulsion.
+
+2
+
+We will study an excitonic state characterized by a uniform (q = 0) spin-singlet excitonic order parameter (EOP)
+
+1 0 = N
+
+ciA ciB 
+
+(2)
+
+i
+
+which is expected to be degenerate with spin-triplet counterparts due to the SU(2)×SU(2) spin symmetry of our model. Models including other interaction terms and material-specific features, may favour one or the other spin symmetries28,29,31.
+
+We solve the model at zero temperature using DMFT32, a state-of-the-art method which treats differ-
+
+ent interactions non perturbatively and it is particularly well suited to study the Mott transition32, strongly cor-
+
+related metallic phases as well as superconductivity and
+
+other broken-symmetry states. Within DMFT the lat-
+
+tice model is mapped onto an impurity model which has
+
+to be solved self-consistently requiring that the impurity
+
+Green's function coincides with the local component of
+
+the lattice Green's function. We solve the impurity model
+
+at T = 0 using Lanczos/Arnoldi exact diagonalization (ED)33­35. As customary in the DMFT community, we
+
+consider a Bethe lattice with a semicircular density of
+
+states
+
+Nm()
+
+=
+
+2 Dm 2
+
+Dm2 - 2, where Dm  tm is the
+
+half-bandwidth.
+
+In order to study the EC phase, the bath of the impu-
+rity model has to include an excitonic amplitude, anal-
+ogously to the superconducting case. Using a spinorial representation where k, = (ckA, ckB), where k = 0 identify the impurity and k = 1, ..., Nbath the bath levels, we can write it as
+
+Hi(m0)p =
+
+k 0
+
+Hk Vk · I2 Vk · I2 0
+
+k 0
+
+(3)
+
+k
+
+where I2 is the 2 × 2 identity and
+
+Hk =
+
+k + Mk Pk Pk k - Mk
+
+(4)
+
+where Pk is the inter-orbital excitonic hybridization term in the bath Hamiltonian, k + (-)Mk is the bath energy on orbital A (B) and Vk is the hybridization between the impurity and bath site k. Within ED-DMFT
+we have to limit the number of bath sites to be able to
+solve the impurity model. We fixed the number of bath
+sites to be Nbath = 4 and we fixed the system at global half-filling  m nm = 2 by imposing µ = 0, then since we are focusing on orbitals with opposite dispersion rela-
+tion we also fixed k = 0 k and since we focus on state with orbital half-filling, this required that for each Mk parameter on bath site k there must be another bath site k with opposite energy Mk = -Mk.
+
+III. NORMAL STATE
+
+We start our investigation from the normal state where
+
+we inhibit excitonic ordering, as well as any other broken-
+
+symmetry state like antiferromagnetism or staggered or-
+
+bital ordering. This is a standard strategy which has
+
+helped to understand the Mott transition disentangling Mott localization from magnetic ordering32. For our
+
+model, a normal-state phase diagram has been reported in Ref.36, but we find it useful to present our results in
+
+order to emphasize the aspects which are useful to better
+
+address the excitonic phase.
+
+The model is expected to feature two different Mott-
+
+insulating solutions that we can easily understand from
+
+the atomic (tm = 0) limit. Among all configurations with two electrons per site, the four with one electron in each
+
+layer | , , | , , | ,  and | ,  have energy E11 =
+
+-
+
+1 2
+
+U
+
+,
+
+while
+
+the
+
+two
+
+configurations
+
+with
+
+two
+
+electrons
+
+in
+
+the same layer | , 0 and |0,  have energy E20 =
+
+1 2
+
+U
+
+-
+
+V
+
+.
+
+Therefore the former set of states is favoured
+
+for U > V and the latter for U < V . Hence when U
+
+and V are much larger than the hopping and U > V
+
+we expect an insulator with one electron on every site
+
+of each layer. This state, that we label as U-Mott (U-
+
+MI) is expected to be unstable towards antiferromagnetic
+
+ordering if we allow for symmetry breaking. On the other
+
+hand, for V > U we have an insulator where every site is
+
+in a mixture between the two solutions with one doubly
+
+occupied layer. This state, henceforth V-Mott (V-MI),
+
+would be naturally unstable towards a staggered orbital
+
+(layer) ordering.
+
+In order to monitor the Mott localization we compute
+
+the quasiparticle weight Zm which measures the metallicity of the system32. The progressive destruction of
+
+the metallic state is described by a reduction of Zm from 1 (non-interacting limit) to 0 (correlated insula-
+
+tor). The connected local density-density correlations
+
+Cm,m = nmnm  - nmnm  can be used to study the competition between the two interaction terms and the
+
+approach to the atomic limit insulators. The orbital sym-
+
+metry implies CAA = CBB and CAB = CBA. It is easy to see from the above discussion that the atomic U - M I
+
+has CAA = 0 and CAB = 0, while the atomic V - M I has CAA = 1 and CAB = -1.
+In Fig. 1 we show as dotted lines the evolution of
+
+ZA = ZB and of the inter- and intra-layer correlations CAA and CAB as functions of V /D for different values of U/D. The boundaries of the U-MI and V-MI phases are
+
+marked by dotted lines with crosses in the phase diagram
+
+of Fig. 2
+
+The cuts for U/D = 1 and 2 in Fig. 1 clearly show a
+
+metal-insulator transition towards the V-MI state with
+
+ZA = 0, CAA = 1 and CAB = -1. For U/D = 3, we find a U-MI for small V followed by a metallic region and the
+
+V-MI as V increases. For large U/D = 4 we have only
+
+a tiny slice of V with a metallic solution sandwiched by
+
+the two insulators.
+
+The main feature of the normal-state phase diagram,
+
+

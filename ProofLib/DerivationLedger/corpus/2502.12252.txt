@@ -1,0 +1,165 @@
+Roadmap to fault tolerant quantum computation using topological qubit arrays
+Microsoft Quantum (Dated: July 22, 2025)
+We describe a concrete device roadmap towards a fault-tolerant quantum computing architecture based on noise-resilient, topologically protected Majorana-based qubits. Our roadmap encompasses four generations of devices: a single-qubit device that enables a measurement-based qubit benchmarking protocol; a two-qubit device that uses measurement-based braiding to perform single-qubit Clifford operations; an eight-qubit device that can be used to show an improvement of a two-qubit operation when performed on logical qubits rather than directly on physical qubits; and a topological qubit array supporting lattice surgery demonstrations on two logical qubits. Devices that enable this path require a superconductor-semiconductor heterostructure that supports a topological phase, quantum dots and coupling between those quantum dots that can create the appropriate loops for interferometric measurements, and a microwave readout system that can perform fast, low-error single-shot measurements. We describe the key design components of these qubit devices, along with the associated protocols for demonstrations of single-qubit benchmarking, Clifford gate execution, quantum error detection, and quantum error correction, which differ greatly from those in more conventional qubits. Finally, we comment on implications and advantages of this architecture for utility-scale quantum computation.
+
+arXiv:2502.12252v3 [quant-ph] 18 Jul 2025
+
+CONTENTS
+
+I. Introduction: fault-tolerant quantum computation
+
+using tetrons
+
+1
+
+II. Single-qubit tetron device
+
+3
+
+A. Measurement-based benchmarking of a
+
+topological qubit
+
+3
+
+B. Device design
+
+4
+
+1. Design elements
+
+4
+
+2. Operating principles and dominant error
+
+sources
+
+5
+
+III. Measurement-based braiding transformations 6
+
+A. Protocols
+
+7
+
+B. Two-qubit device design
+
+8
+
+IV. Quantum error detection in a 4 × 2 array of
+
+tetrons
+
+9
+
+A. Overview
+
+9
+
+B. Ladder code
+
+10
+
+C. Decay experiment and simulations
+
+10
+
+V. Outlook: scalable quantum error correction
+
+schemes
+
+11
+
+Acknowledgments
+
+12
+
+A. Additional aspects of MBQB
+
+13
+
+B. Noise model for tetrons
+
+14
+
+C. Tetron coherence times
+
+16
+
+D. Non-Clifford operations
+
+16
+
+E. Additional aspects of measurement-based braiding
+
+transformations
+
+17
+
+1. Simulation details
+
+17
+
+F. Additional aspects of quantum error detection in
+
+the eight-qubit device
+
+18
+
+1. Ladder code summary
+
+18
+
+2. Repetition code decay experiment
+
+18
+
+3. Simulation details
+
+19
+
+References
+
+20
+
+I. INTRODUCTION: FAULT-TOLERANT QUANTUM COMPUTATION USING TETRONS
+Practical schemes for quantum error correction overwhelmingly rely on the ability to perform multi-qubit Pauli measurements [1, 2]. Here, logical qubits are encoded in a multitude of underlying physical qubits, and a Pauli measurement sequence is carefully designed to allow the identification of any errors without affecting the encoded quantum information. The number of physical qubits required per logical qubit as well as the depth of the measurement sequence--both commonly referred to as overhead --depend on the performance of the underlying physical measurements, making this a crucial performance metric for a large-scale fault-tolerant quantum computer.
+Measurement-based topological qubits built upon Majorana zero modes (MZMs) stand out in this context as an architecture in which multi-qubit Pauli measurements are the native instruction set. This is unlike most conventional platforms, where these measurements are implemented by sequences of multi-qubit Clifford gates and single-qubit measurements. A specific MZM-based qubit architecture that enables such measurements was proposed in Refs. 3 and 4, building on the ideas in Refs. 5­ 7 (see also Ref. 8). The qubits in this architecture are tetrons, which store the qubit state in four MZMs. The MZMs are located at the endpoints of two topological superconducting wires [9] formed from proximitized semiconductor nanowires [10, 11]. In this paper, we focus
+
+Single-qubit device
+
+Two-qubit device
+
+4x2 tetron array
+
+2
+2x1 logical qubits array
+
+Measurement-based qubit benchmarking
+
+Measurement-based braiding transformations
+
+QD
+
+Topo. wire
+
+MZM
+
+Triv. wire
+
+Cutter gate
+
+Quantum error detection
+
+Quantum error correction
+
+FIG. 1. Roadmap to fault-tolerant quantum computation with tetrons. The first panel shows a single-qubit device. The tetron is formed through two parallel topological wires (blue) with a MZM at each end (orange dot) connected by a perpendicular trivial superconducting wire (light blue). The regions adjacent to the MZMs have quantum dots (QDs) shown in dark purple with cutter gates (light purple) controlling the tunnel coupling between the quantum dots and MZMs. The device supports measurement-based qubit benchmarking. The next panel shows a two-qubit device that supports measurement-based braiding transformations. The third panel shows a 4 × 2 array of tetrons supporting a quantum error detection demonstration on two logical qubits. These demonstrations build towards quantum error correction, such as on the device shown in the right panel (a 27 × 13 tetron array). The red boxes highlight the two fault-distance 7 logical qubits; the device is compatible with lattice surgery demonstrations. The blue-box highlights a two-qubit tile identical to the device in the second panel. Additional demonstrations may be inserted between the third and fourth panels to gradually scale the system.
+
+on two-sided tetrons, in which two parallel topological wires are joined by a trivial superconducting backbone to form a single island with charging energy [3]. In the remainder of this paper, we will drop the modifier and simply use tetrons to refer to two-sided tetrons. The measurements are performed by forming interferometric loops between qubit islands and nearby quantum dots, leading to a shift in the quantum capacitance of the dots that can be detected using standard microwave techniques. Such an interferometric parity measurement was first demonstrated in Ref. 12 (using a linear tetron), and more recently a hardware realization of the two-sided tetron along with single-shot measurements of both loops was presented in Ref. 13.
+Tetrons are predicted to suppress idle and measurement errors exponentially in three dimensionless quantities: (i) the ratio of the topological gap to the temperature, (ii) the ratio of the length of the device to the topological superconducting coherence length, and (iii) the signal-to-noise ratio of the measurement system [14­18]. The resulting low error rates help enable scalable fault-tolerant quantum computation using recently introduced topological codes specifically tailored towards measurement-based qubits; see, e.g., Refs. 6, 19­22. For a more detailed discussion of the practical advantages offered by this architecture for building a utility-scale fault-tolerant quantum computer, see the discussion in Sec. V.
+We present a roadmap, summarized in Fig. 1, building towards fault tolerant quantum computing with tetrons. The roadmap incrementally scales the system while building the capabilities required for scalable quantum error
+
+correction. Previous works discussing demonstrations for Majorana-based qubits have either focused on introducing the particular qubit platform [3, 4, 23­25], detailing pre-qubit demonstrations for Majorana nanowires [26­28], or physical implementations of quantum error correction with Majorana-based qubits [6, 7, 19, 22, 29, 30]; in contrast the roadmap here focuses on tetrons realized in gatedefined 2DEG realizations of Majorana nanowires and describes milestone demonstrations building towards implementing the pair-wise Pauli-measurement-based quantum error correcting codes of Refs. 20, 22, and 30. We present a gate schematic of the minimal device supporting each demonstration, and describe the key design elements, operating principles, and dominant error sources.
+We support this roadmap by several new technical results. In Sec. II, we introduce a specific protocol and associated performance metrics for measurement-based qubit benchmarking (MBQB). This protocol can both be used as a first demonstration of tetron operations as well as for benchmarking qubits in a scalable tetron-based system. Sec. III reviews the concept of measurement-based braiding transformations and its role in the context of fault-tolerant quantum computing. In addition to discussing details of a two-qubit device that supports such an initial braiding demonstration, we simulate the specific measurement sequences for that device in a tetron-specific noise model. In Sec. IV, we propose a specific quantum error detection scheme for tetrons that utilizes the same measurements as required for the syndrome extraction circuit of the Floquet codes in Refs. 20 and 30, only a subset of which are needed for the pair-wise measurement-
+
+

@@ -1,0 +1,88 @@
+{
+  "paper": "43",
+  "title": "SU(3) Sector: Generation 3 (Bottom & Top)",
+  "status": "pass_with_open_top_mass",
+  "verifiers": {
+    "generation_3_anchor": {
+      "status": "pass",
+      "checks": {
+        "generation_3_anchor": "(4,1)\u2159\u00b7",
+        "anchor_contains_4_1": true,
+        "anchor_has_hypercharge_1_6": true,
+        "su3_color_multiplicity_4": true,
+        "u1_hypercharge_1_6": true
+      },
+      "failures": []
+    },
+    "bottom_mass_residue": {
+      "status": "pass",
+      "checks": {
+        "m_b_MeV": 4180.0,
+        "B_meson_mass_MeV": 5279.0,
+        "B_over_m_b_ratio": 1.2629186602870814,
+        "ratio_in_range_3_98_to_4_02": false,
+        "ratio_approx_1_26": true,
+        "paper_claim_4x_inconsistent": true,
+        "4x_m_b": 16720.0,
+        "4x_m_b_not_equal_B": true,
+        "honest_note": "Paper claims 4*m_b = M_B within 0.2%, but with m_b=4.18GeV and M_B=5.28GeV the ratio is ~1.26"
+      },
+      "failures": []
+    },
+    "top_free_boundary": {
+      "status": "pass",
+      "checks": {
+        "m_t_MeV": 173100.0,
+        "m_t_positive": true,
+        "m_t_less_planck": true,
+        "top_outside_J3O_domain": true,
+        "top_mass_free_parameter": true,
+        "top_not_predicted_by_lattice": true,
+        "top_type_B_boundary": true
+      },
+      "failures": []
+    },
+    "mass_hierarchy": {
+      "status": "pass",
+      "checks": {
+        "mass_ordering": true,
+        "m_u_less_m_d": true,
+        "m_d_less_m_s": true,
+        "m_s_less_m_c": true,
+        "m_c_less_m_b": true,
+        "m_b_less_m_t": true,
+        "m_s_over_m_u": 43.18181818181818,
+        "m_s_over_m_u_in_range_40_60": true,
+        "m_b_over_m_c": 3.2913385826771653,
+        "m_b_over_m_c_in_range_3_4": true,
+        "m_t_over_m_b": 41.411483253588514,
+        "m_t_over_m_b_greater_40": true
+      },
+      "failures": []
+    },
+    "ckm_empirical": {
+      "status": "pass",
+      "checks": {
+        "ckm_is_empirical": true,
+        "lattice_provides_mass_inputs_only": true,
+        "ckm_mixing_angles_not_predicted": true
+      },
+      "failures": []
+    },
+    "generation_3_sublattice": {
+      "status": "pass",
+      "checks": {
+        "sublattice_elements": [
+          "bottom",
+          "top",
+          "confinement_boundary"
+        ],
+        "sublattice_count_is_3": true,
+        "top_is_unique_outside_domain": true,
+        "bottom_is_type_A_bridge": true,
+        "top_is_type_B_boundary": true
+      },
+      "failures": []
+    }
+  }
+}

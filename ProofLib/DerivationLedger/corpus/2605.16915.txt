@@ -1,0 +1,311 @@
+Refined Global Fit of KamLAND Data and the Daya Bay Antineutrino Energy Spectrum
+Guihong Huang
+Wuyi University, Jiangmen 529020, China
+
+arXiv:2605.16915v2 [hep-ex] 3 Jun 2026
+
+Abstract
+Recently, the JUNO experiment published its measurement of the solar neutrino oscillation parameters m221 and sin2 12 based on 59 days of data, with central values differing by 0.2 from those released by the KamLAND experiment in 2013. Meanwhile, shortbaseline reactor neutrino oscillation experiments such as Daya Bay, RENO, and Double Chooz have observed significant deviations between the measured antineutrino spectrum and the Huber-Müller model around 5 MeV. To further investigate the impact of these deviations on the measurement of neutrino oscillation parameters, a global analysis framework is constructed that is weakly dependent on the reactor antineutrino flux model. This framework is based on the independently measured 235U and 239Pu fission antineutrino spectra from the Daya Bay experiment, combined with the public data from KamLAND. First, using the Huber-Müller model, the KamLAND 2013 results are successfully reproduced to within 0.1. Then, replacing the Huber-Müller model with the Daya Bay measured antineutrino spectra in a combined analysis, it is found that the best-fit value of the mass-squared difference m221 decreases from 7.53+-00..1167 × 10-5 eV2 to 7.50-+00..1189 × 10-5 eV2, while the best-fit value of the mixing angle tan2 12 also shows a decreasing trend. This result is in better agreement with the latest JUNO measurement, suggesting that differences in the predicted reactor antineutrino spectra may be an important cause of the tension between the two experiments.
+Keywords: Neutrino oscillation parameters; Reactor antineutrino spectrum; Global analysis
+
+1. Introduction
+The great success of neutrino oscillation experiments and theories in explaining the solar and atmospheric neutrino anomalies provides strong evidence that neutrinos have non-zero mass. The solar neutrino experiment SNO measured the mass-squared a1o0d1n0s.i4f3cd-f,2ie5ltt7rlheaea+-eVnnt00i2..Kco200e32naa091mn2e[dmx1L=p]22tA.ea10rnN.=Ii24mnD65ec01.rn2o6-+etn-+00s=..Ku11t00r..65l49aa0t63×ssm.4t(1b,fL80ert1oA-ch-+m5oeN00me..l00DVFo98e02in2grge[a.m2-pn4b]od22.a1rismntWee=dil[ixi2t7nih].ne)5m.gt4hr22eHa+-e1an00e..cc=g11not88locen7×res.t15,atnr04nteah--+2uie500ntr..ret111ei89V2oni×no=2s some tension between KamLAND and SNO in both m221 and tan2 12, especially for m221. Very recently, the JUNO experiment published the most precise measurement of solar neutrino oscillation parameters to date, with m221 = 7.50-+00..1122 ×10-5 eV2 and tan2 12 = 0.4476-+00..00118822 [3]. This differs from the KamLAND result by 0.2, indicating a mild tension.
+On the other hand, short-baseline reactor neutrino oscillation experiments have revealed differences between the measured reactor antineutrino spectrum and the Huber-Müller model prediction [4, 5], both in shape and absolute flux. These differences manifest as an approximately 6% deficit in the total reactor neutrino flux and the so-called "5 MeV bump" [6­ 10]. Given the central role of the reactor antineutrino spectrum in reactor neutrino oscillation analyses, it is of great interest to understand how the spectral anomaly affects the fitted neutrino mass and mixing parameters. A global analysis reported
+Email address: huanggh@wyu.edu.cn (Guihong Huang)
+
+m221 = 7.34-+00..1167 × 10-5 eV2 and tan2 12 = 0.437-+00..002269 [11], where incorporating the bump feature lowered m221 by about 1. That study used the overall energy-dependent ratio f (E) between data[8] and the Huber-Müller expectation, and subsequent work adopted the Daya Bay unfolded antineutrino spectrum [10], but without a quantitative discussion of its impact on solar neutrino parameters [12]. To more accurately assess how the reactor neutrino flux expectation influences the KamLAND fit, we construct in this paper a global analysis framework that is weakly dependent on the reactor neutrino flux model.
+In this study, the latest KamLAND analysis results are first reproduced. Then, by treating the 235U and 239Pu antineutrino spectra as free parameters and imposing constraints from the Daya Bay experiment, a refined combined fit of KamLAND data and Daya Bay antineutrino spectra is performed. For completeness, a simplified spectral correction method similar to that in Ref. [11] is also investigated. The final results show that in the combined fit, m221 decreases by about 0.17, which is slightly smaller than the 0.29 decrease obtained with the simplified correction. The global analysis framework developed here will be valuable for understanding the mild tension between JUNO and KamLAND, as well as for future applications of reactor antineutrino spectra, such as the unfolded spectrum from JUNO-TAO [13, 14].
+2. Reproducing the KamLAND Results
+The expected number of reactor neutrino events is determined by five key ingredients: the expected antineutrino spectrum  j(E), the antineutrino survival probability P j(E, m221, 12, 13),
+
+Neutrino flux [A.U.]
+Events/0.425 MeV
+
+12 10
+8 6 4 2 0 2002
+
+2004
+
+2006
+
+Total Wakasa-Bay Kashiwazaki Shika Hamaoka Korea Others
+2008 2010
+
+2012 Year
+
+Figure 1: Reactor antineutrino flux at the KamLAND site calculated from the electricity generation data of Japanese and South Korean nuclear power plants. The total flux and contributions from different reactors are shown, in good agreement with the KamLAND results [2].
+
+the inverse beta decay (IBD) cross section (E) [15], the detector response R(Ee, Ee , E), and a normalization factor f . The expected events in each energy bin is given by:
+
+Nith(m221, 12, 13) = f dE (E)  j(E)×
+j
+
+P j(E, m221, 12, 13)
+
+dEe
+
+R(Ee
+
+,
+
+
+Ee
+
+,
+
+
+
+E
+
+).
+
+i
+
+ j(E)
+
+=
+
+1 4L2j
+
+k
+
+fk
+
+·
+
+W
+
+th j
+
+dk(E) .
+
+l fl · el dE
+
+R(Ee,
+
+
+Ee
+
+,
+
+E
+
+)
+
+=
+
+
+
+1 
+2Ee (1
+
++
+
+E)
+
+exp
+
+-
+
+Ee - Ee (1 + E) 22Ee (1 + E)
+
+2
+
+ 
+
+.
+
+P j(E,
+
+m221,
+
+12,
+
+13)
+
+=
+
+cos4
+
+13
+
+ 1
+
+-
+
+sin2 (212M )
+
+sin2
+
+m221M L j 4E
+
+ 
+
++ sin4 13.
+
+(1)
+
+Here
+
+di(E)/dE
+
+is
+
+the
+
+antineutrino
+
+spectrum,
+
+W
+
+th j
+
+the
+
+thermal
+
+power of reactor j, L j the baseline length, and fk the fission
+
+fraction of isotope k in reactor j. The Huber-Müller model is
+
+used to compute dk(E)/dE. The detector response is a function of the prompt signal energy Ee, the true positron energy Ee , and the linear energy scale offset E. The quantities 12M and m221M are the effective mixing angle and mass-squared difference in matter, incorporating the Mikheyev­Smirnov­Wolfenstein
+
+(MSW) effect [16, 17].
+
+The key to computing the expected event rate is the neutrino
+
+flux. Two websites [18] record the monthly electricity genera-
+
+tion of Japanese nuclear power plants and the annual generation
+
+of South Korean plants. Since the electricity output is approxi-
+
+mately proportional to the thermal power of a reactor, these data
+
+are used to estimate the relative neutrino flux from the 22 reac-
+
+tors in Japan and South Korea. As an important cross-check,
+
+Fig. 1 shows our calculated flux, which agrees well with the
+
+KamLAND result [2].
+
+Next, we acquire the experimental data. In the KamLAND
+
+2013 analysis, data were divided into three running periods
+
+180
+
+160
+
+KamLAND best-fit
+
+140
+
+Fitting to best-fit
+
+120
+
+Period 1
+
+100
+
+80
+
+60
+
+40
+
+20
+
+180
+
+160
+
+Period 2
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+14
+
+Period 3
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+01
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+Ep [MeV]
+
+Figure 2: Fit results for the best-fit oscillation spectrum. The oscillated spectral shape and the expected no-oscillation events are in good agreement with the official results.
+
+for a combined analysis [2]. Without neutrino oscillation, the expected number of reactor antineutrino events is 3564. The observed events, experimental errors, best-fit background values, and best-fit geo-neutrino values are given in the reference. The average fission fractions, background uncertainties, and rate systematics are also provided.
+Because the official reference does not provide the expected no-oscillation events for each period, an attempt is made to recover these numbers by performing a concise 2 fit to the published best-fit oscillation signal with m221 = 7.54 × 10-5 eV2, tan2 12 = 0.481 and sin2 13 = 0.01. The 2 is constructed as
+
+3 17
+2 =
+k=1 i=1
+
+Nkth,i( fk)
+
+-
+
+Nkb,eist
+
+2
+.
+
+Nkth,i
+
+(2)
+
+In the equation, k indexes the three KamLAND data periods (P1, P2, P3). The term Nkth,i represents the expected events predicted by the model for period k in energy bin i, while Nkb,eist is the corresponding observed events from the reference. The fit
+results are shown in Fig. 2. The expected no-oscillation events
+for the three periods are obtained as 2112.31, 1374.24, and
+76.66, respectively. Without imposing period-to-period constraints, the total is very close to the official value. However, the fit for the third period is relatively poor, with an absolute
+deviation of less than one event but a relative deviation of about
+20%. Given that the third period accounts for only 2% of the
+total statistics, this period is discarded to avoid artificially am-
+plifying the bias due to rough handling.
+
+2
+
+

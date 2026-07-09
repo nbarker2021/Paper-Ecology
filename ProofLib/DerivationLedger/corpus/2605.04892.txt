@@ -1,0 +1,109 @@
+Real-time Surface-Code Error Correction Using an FPGA-based Neural-Network Decoder
+Xiaohan Yang,1, 2,  Xuandong Sun,1, 2,  Zhiyi Wu,1, 3 Jiawei Zhang,1, 2 Ji Jiang,1 Xiayu Linpeng,1 Yuxuan Zhou,1 Ji Chu,1,  Jingjing Niu,1, 4 Youpeng Zhong,1, 4 Song Liu,1, 4 and Dapeng Yu1, 4, §
+1International Quantum Academy, Shenzhen 518048, China 2Southern University of Science and Technology, Shenzhen 518055, China
+3School of Physics, Peking University, Beijing 100871, China 4Shenzhen Branch, Hefei National Laboratory, Shenzhen 518048, China
+(Dated: May 7, 2026)
+Quantum error correction (QEC) is essential for achieving low error rates required for faulttolerant quantum computation. In stabilizer-based codes such as the surface code, errors are inferred from repeated syndrome measurements and corrected by a classical decoder. To prevent error accumulation, decoding must be performed with both high throughput and low latency to keep pace with the QEC cycle and enable real-time feedback for universal logical operations. Here we report a hardware-integrated control architecture featuring an FPGA-based neural-network (NN) decoder and experimentally demonstrate real-time surface-code (distance-3) QEC on a superconducting quantum processor. The system achieves a deterministic closed-loop latency of 550 ns, including 124 ns for NN decoding, enabling feedback corrections within a 1.25 us QEC cycle. We show that real-time decoding and feedback correction achieve logical performance comparable to offline decoding while maintaining robustness against varying error conditions. We further demonstrate mid-circuit feedback correction in non-Clifford logical circuits, where Pauli-frame updating alone becomes insufficient. Our results establish a low-latency hardware architecture for embedded QEC control and provide a pathway towards scalable fault-tolerant quantum computing systems.
+
+arXiv:2605.04892v1 [quant-ph] 6 May 2026
+
+I. INTRODUCTION
+Quantum computing promises transformative speedups for problems in simulation [1], optimization [2], and cryptography [3]. Achieving these advantages at scale requires robust mitigation of noise and control imperfections in physical qubits, which makes quantum error correction (QEC) essential [4]. Stabilizer codes [5], including surface code [6] and color codes [7], have emerged as leading approaches to faulttolerant quantum computation, with recent experiments demonstrating reduced logical error rates with increasing code distance [8­12]. QEC requires repeated stabilizer measurements to extract error syndromes, which are processed by a classical decoder to infer and correct errors [4, 5, 13]. The associated classical operations must be performed in real time [14, 15], with two key performance metrics: throughput and closed-loop latency. Throughput sets the rate at which syndromes are processed: if the decoder cannot keep pace with syndrome generation, a backlog of classical data can slow or stall the QEC cycle, undermining fault tolerance and the potential quantum speedup [16]. Closed-loop latency--including decoding, communication, and feedback delays--determines how quickly corrective operations can be applied, which is particularly important for non-Clifford gates, where Pauli-frame updating
+ These authors contributed equally to this work.  sunxd@iqasz.cn  jichu@iqasz.cn § yudapeng@iqasz.cn
+
+(PFU) alone is insufficient [17, 18].
+Achieving real-time error correction for superconducting circuits with fast QEC cycles ( 1µs) is extremely challenging, requiring both accurate low-latency decoding and tight integration with the control hardware. Existing hardware implementations generally fall into two categories. GPU-, CPU-, and TPU-based systems support computationally intensive decoding algorithms with strong parallelism [15, 19­21], particularly neuralnetwork (NN) decoders that achieve high throughput at large code distances [22­31]. However, communication overhead and nondeterministic execution latency hinder deterministic real-time feedback [14, 32, 33]. By contrast, FPGA- and ASIC-based systems [34­49] provide deterministic timing and direct integration with quantumcontrol electronics, although their limited hardware resources constrain decoder complexity. Despite substantial progress in low-latency decoding, realizing a realtime, feedback-corrected logical qubit using a fully integrated control system remains an outstanding challenge.
+In this work, we develop a hardware-integrated control architecture featuring FPGA-based NN decoding and experimentally demonstrate real-time surface-code (distance-3) QEC on a superconducting quantum processor. The NN decoder achieves a latency of 124 ns with a throughput period of 184 ns, and the complete system realizes a deterministic closed-loop latency of 550 ns, enabling feedback within a sub-microsecond QEC cycle. We show that real-time decoding combined with feedback correction achieves logical performance and robustness comparable to those of an offline minimumweight perfect matching (MWPM) decoder. Furthermore, we demonstrate real-time error correction in non-
+
+a Measurement Signals
+
+Central Feedback Module
+
+DAQs
+
+AWGs
+
+2
+
+b
+
+Decoder 124 ns
+
+Syndrome Calculation 20 ns
+
+PFU 4 ns
+
+Logical Meas. Result
+
+Qubit States: 101011
+
+Branch Control
+
+Closed-Loop Latency ~550 ns
+
+Feedback Pulses
+
+DAQs Measurement
+Signals
+
+AWGs Feedback
+Pulses
+
+A1
+
+ZL D1
+
+D2
+
+D3
+
+A2
+
+A3
+
+A4
+
+D4
+
+D5
+
+D6
+
+A5
+
+A6
+
+A7
+
+D7
+
+D8
+
+D9
+
+A8 XL
+
+Time
+
+MM M
+... ... M M M
+MM
+
+Init. Stabilizer
+
+Feedback Logical
+
+Measurement Correction Gate
+
+MM M MM M MM M Logical Measurement
+
+FIG. 1. System architecture and real-time QEC workflow. a, Schematic of the experimental setup, showing inhouse room-temperature control electronics connected to a 66-qubit superconducting quantum processor operating at cryogenic temperatures. The control electronics integrate data acquisitions (DAQs, orange) for acquiring measurement signals, arbitrary waveform generators (AWGs, green) for generating qubit control pulses, and a central feedback module (CFM, purple) with a NN decoder. A 17-qubit subset is used to implement the distance-3 surface code: data qubits (D1­D9) store the logical information, while ancilla qubits (A1­A8) perform Z (light blue) and X (dark blue) stabilizer measurements. b, Real-time QEC workflow. During each stabilizer measurement, measurement signals are acquired and processed by the DAQs to extract ancilla states. The resulting bit strings are transmitted to the CFM, where error syndromes are computed (20 ns latency) and decoded by the NN decoder (124 ns). The decoding output is used to update the Pauli frame (4 ns) and trigger conditional feedback pulses via the AWGs. The overall closed-loop latency--from the end of the readout pulse to the start of the feedback pulse--is 550 ns, as indicated in (a). In addition to the feedback loop, logical operations (blue) and final logical measurements (red) on the data qubits are incorporated into the sequence to complete the QEC workflow.
+
+Clifford logical circuits, where PFU or post-processing alone is insufficient because Pauli errors propagate beyond the Pauli frame. These results establish a deterministic, hardware-integrated feedback architecture for low-latency QEC, supporting future implementations of universal fault-tolerant quantum computation.
+II. THE ARCHITECTURE
+We perform the experiments using in-house developed control electronics [50] and a 66-qubit superconducting quantum processor [51], as shown in Fig. 1a. A subset of 17 physical qubits, including 9 data qubits (D1­ D9) and 8 ancilla qubits (A1­A8), is used to encode a distance-3 surface-code logical qubit. See the Supplementary Information for device details [52]. The control electronics consist of three main components: (1) arbitrary waveform generators (AWGs) for generating control pulses; (2) data acquisition modules (DAQs) for acquiring and processing measurement signals; and (3) a central feedback module (CFM) that implements decod-
+
+ing and feedback logic. The CFM contains an AMD Kintex-7 FPGA (XC7K410T) for syndrome decoding, along with 12 communication interfaces for receiving qubit-state data from the DAQs and 12 additional interfaces for sending branch-control signals to backplanes of the AWG chassis. Each backplane also contains an FPGA that distributes the branch-control signals to the AWGs.
+The workflow for real-time QEC is shown in Fig. 1b. A typical experiment includes logical state initialization, repetitive stabilizer measurements, feedback correction, logical gates, and a final logical measurement performed on the data qubits. During stabilizer measurements or logical measurement, the DAQs acquire and discriminate qubit signals, delivering the resulting bit strings to the CFM via low-latency links. The CFM converts these data into error syndromes in 20 ns and decodes them using the NN decoder with a deterministic latency of 124 ns. The decoding outputs are used to update the Pauli frame within the FPGA and to generate branch-control instructions for the AWGs according to the quantum circuit schedule. During logical measurement, the CFM com-
+
+

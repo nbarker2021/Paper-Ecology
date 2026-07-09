@@ -1,0 +1,60 @@
+Prepared for submission to JHEP YITP-SB-2026-02
+
+IFT-UAM/CSIC-26-3, IPPP/26/03,
+
+Lessons from the first JUNO results
+
+arXiv:2601.09791v2 [hep-ph] 12 Apr 2026
+
+Ivan Esteban,a,b M. C. Gonzalez-Garcia,c,d,e Michele Maltoni,f Ivan Martinez-Soler,g João Paulo Pinheiro,h,i Thomas Schwetzj aDepartment of Physics, University of the Basque Country UPV/EHU, PO Box 644, 48080 Bilbao,
+Spain bEHU Quantum Center, University of the Basque Country UPV/EHU cDepartament de Física Quàntica i Astrofísica and Institut de Ciencies del Cosmos, Universitat de Barcelona, Diagonal 647, E-08028 Barcelona, Spain dInstitució Catalana de Recerca i Estudis Avançats (ICREA), Pg. Lluis Companys 23, 08010 Barcelona, Spain. eC.N. Yang Institute for Theoretical Physics, State University of New York at Stony Brook, Stony Brook, NY 11794-3840, USA f Instituto de Física Teórica (IFT-CFTMAT), CSIC-UAM, Calle de Nicolás Cabrera 13­15, Campus de Cantoblanco, E-28049 Madrid, Spain gInstitute for Particle Physics Phenomenology, Durham University, South Road, DH1 3LE, Durham, UK hState Key Laboratory of Dark Matter Physics, Tsung-Dao Lee Institute & School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 200240, China iKey Laboratory for Particle Astrophysics and Cosmology (MOE) & Shanghai Key Laboratory for Particle Physics and Cosmology, Shanghai Jiao Tong University, Shanghai 200240, China jInstitut für Astroteilchenphysik, Karlsruher Institut für Technologie (KIT), Hermann-von-HelmholtzPlatz 1, 76344 Eggenstein-Leopoldshafen, Germany
+E-mail: ivan.esteban@ehu.eus, concha.gonzalez-garcia@stonybrook.edu, michele.maltoni@csic.es, ivan.j.martinez-soler@durham.ac.uk, joaopaulo.pinheiro@fqa.ub.edu, schwetz@kit.edu
+Abstract: First results from the JUNO reactor neutrino experiment already determine with world-leading precision the small neutrino squared-mass splitting m221 and the mixing angle 12. In this article we perform an exploratory study beyond these, taking advantage of the first JUNO data release to discuss its sensitivity to the large squared-mass splitting, m23. When combined with constraints from global oscillation data, this may already contain some information on the neutrino mass ordering. Indeed, we find that the combination of the complementary m32-determinations gives a slight preference for Normal Ordering, with a p-value for Inverted Ordering of 2%­2.6% (2.2­2.3). We study the robustness of this result with respect to potential systematic uncertainties and statistical fluctuations. Taken at face value, a full global analysis of oscillation data including the publicly available JUNO information and data leads to a preference for Normal Ordering with 2 = 4.6 and 9.4 without and with Super-K and IceCube-24 atmospheric neutrino data, respectively.
+Keywords: neutrino oscillations
+
+Contents
+
+1 Introduction
+
+1
+
+2 JUNO analysis details
+
+2
+
+3 Determination of m221 and 12
+
+6
+
+4 Sensitivity to |m32| and the Mass Ordering
+
+8
+
+4.1 Monte Carlo simulation of MO result
+
+10
+
+4.2 Robustness of the Mass Ordering Sensitivy
+
+12
+
+5 Summary and implications for the global oscillation fit
+
+15
+
+6 Note added
+
+16
+
+A Implementation of reactor neutrino fluxes
+
+17
+
+1 Introduction
+In the realm of neutrino oscillation studies, the first results of the Jiangmen Underground Neutrino Observatory (JUNO) [1] represent a significant step forward. Just 59.1 days of exposure have been enough to reach world-leading precision on their dominant oscillation parameters, m221 and 12. These first results constitute a milestone in the path to achieve JUNO's ultimate goals of precision measurements of m221, 12, and m231 [2], and of determining the neutrino mass ordering (MO) with more than 3 significance [3].
+Determining the MO is an important open question in neutrino physics. Among others, it has significant implications for neutrinoless double beta decay searches, it can affect the neutrino mass scale relevant for cosmology, and it is key to break existing degeneracies, e.g., in leptonic CP violation [4]. While the intrinsic sensitivity of JUNO to the MO is based on a subtle interference effect between fast (m231-driven) and slow (m221-driven) oscillation modes [5, 6], a potentially much earlier identification of the MO could emerge from the combination of independent percent-level determinations of |m231| from JUNO and µ/¯µ disappearance data. This latter possibility was mentioned in Refs. [6, 7] and demonstrated in detail in Ref. [8], see also [9­12].
+In this respect, it is important to remark that in Ref. [1] the JUNO collaboration has not presented any results on |m231| and the MO with their first data, limiting the analysis (including the provided details on the systematic uncertainties) to the dominant oscillation mode due to m221 and 12. Nevertheless, it can be an informative exercise to explore the possible sensitivity to |m231| and the MO of these first results within the publicly available
+
+­1­
+
+

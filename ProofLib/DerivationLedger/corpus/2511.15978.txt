@@ -1,0 +1,312 @@
+Modified Tri-bimaximal neutrino mixing confronted by JUNO 12 measurement
+Xiao-Gang He1, 2
+1State Key Laboratory of Dark Matter Physics, Tsung-Dao Lee Institute, Shanghai Jiao Tong University, Shanghai 200240, China
+2Key Laboratory for Particle Astrophysics and Cosmology (MOE) & Shanghai Key Laboratory for Particle Physics and Cosmology,
+Shanghai Jiao Tong University, Shanghai 200240, China (Dated: November 25, 2025)
+The JUNO collaboration has released its first measurement of reactor neutrino oscillations, obtaining sin 122 = 0.3092 ± 0.0087, an improvement inprecision by a factor of 1.6 over previous combined results. We confront the minimally modifred tri-bimaximal mixing pattern with the new data. Before the measurement of a nonzero 13 mixing angle, the tri-bimximal mixing pattern is one of the most popular simple mixing scheme for neutrinos. Modifications have been proposed to keep some features of tri-bimaximal mixing and make it to be consistent with data. Minimal modifications preserving one column of the trim-bimaximal mixing matrix, yielding three patterns: a) unchanged third, b) unchanged second, and c) unchanged first column. Pattern a) is excluded since it keeps 13 = 0. Pattern b) predicts Ve2 = 1/ 3 and specific CP-phase correlations, but JUNO's smaller |Ve2| disfavors it at more than 3.5. Pattern c), predicting Ve2 = cos  / 3, can be in agreement with current data within 1, and implies sin2 12 = (1 - 3 sin2 13)/3(1 - sin213) and CP violating quantity sin CP = ±0.998. The negtive sign favors the inverted neutrino mass hierarchy. Upcoming experiments can further test this scenario.
+
+arXiv:2511.15978v2 [hep-ph] 23 Nov 2025
+
+Neutrino mixing properties are fundamentally important in particle physics [1, 2]. The existence of neutrino mixing implies that at least two neutrinos are massive, providing clear evidence for physics beyond the Standard Model (SM). Tremendous efforts have been devoted to understanding the neutrino mixing pattern and the neutrino mass hierarchy [2]. The recently commissioned JUNO experiment, designed primarily to determine the neutrino mass hierarchy, can also measure the mixing parameters with high precision and has already produced impressive first results. Its recently reported value [3], sin212 = 0.3092 ± 0.0087, improves the precision by a factor of 1.6 relative to the combination of all previous measurements, and is expected to stimulate renewed interest in the study of neutrino mixing. In this work, we investigate the implications of this result for neutrino mixing patterns.
+For three neutrinos, the number of mixing parameters depends on whether neutrinos are Dirac or Majorana particles. For Dirac neutrinos, the lepton mixing matrix is described by three mixing angles, 12, 23, and 13, and one CPviolating phase  in the Particle Data Group (PDG) parameterization [2]. For Majorana neutrinos, there are two additional phases, called Majorana phases, which do not affect oscillation-related observables.
+Before the measurement of a nonzero 13, one of the most popular mixing patterns was the tri-bimaximal mixing matrix VT B [4],
+
+
+
+2 1 33
+
+ 0
+
+VT B
+
+=
+
+ 
+
+- 1
+6
+
+1 3
+
+1  . 2
+
+(1)
+
+- 1 1 - 1
+
+63
+
+2
+
+This pattern was widely studied because of its simplicity, and many theoretical efforts were devoted to realizing it, including models based on the A4 flavor symmetry [5].
+Since the discovery of a nonzero 13 in 2012 by the Daya Bay neutrino experiment, the simple and elegant tribimaximal mixing pattern has to be modified. Three types of mixing patterns, which can be viewed as minimal modifications, have been proposed. They are obtained by rotating two of the neutrino generations in the basis where the charged leptons are already diagonalized so that the new mixing matrix becomes [6] Vi = VT BUi, with
+
+ cos  sin  ei 0 
+
+ cos  0 sin  ei 
+
+1
+
+0
+
+0
+
+Ua =  - sin  e-i cos  0  , Ub = 
+
+0
+
+1 0  , Uc =  0 cos  sin  ei  . (2)
+
+0
+
+01
+
+- sin  e-i 0 cos 
+
+0 - sin  e-i cos 
+
+Latter, we will use c = cos  and s = sin  . These three modifications are minimal in the sense that they introduce the fewest additional parameters while also allowing for potentially CP-violating effects.
+For Ua, the phase  can be absorbed into the neutrino fields and therefore has no physical effect. The resulting mixing matrix Va keeps the third column of the tri-bimaximal matrix unchanged, implying Ve3 = 0. This mixing pattern is therefore not viable because the measured 13 is nonzero.
+
+2
+
+For Ub, we obtain
+
+
+
+2c
+
+1
+
+2s , ei 
+
+6
+
+3
+
+6
+
+Vb
+
+=
+
+ 
+
+- c
+6
+
+-
+
+s e-i
+2
+
+1 3
+
+c - s ei
+
+2
+
+6
+
+, 
+
+(3)
+
+- c - s e-i 1 - c - s ei
+
+6
+
+2
+
+3
+
+2
+
+6
+
+
+
+which predicts Ve2 = 1/ 3. This was roughly in agreement with data within 2 priori to the JUNO new result. It
+
+also predicts the CP-violating phase  = ±/2, with  to be close to -/2 favored by the inverted mass hierarchy.
+
+This mixing pattern has therefore attracted attention and has been studied previously, and it can be naturally derived
+
+from A4 flavor-symmetry­based theories [7].
+
+Because Ve2 = sin 12 1 - sin2 13, the newly measured JUNO value sin2 12 = 0.309 ± 0.0087 implies that the predicted value Ve22 = 1/3 is now about 3.5 away from the measurement. This mixing pattern is therefore at the
+edge of being ruled out. More precise data from future JUNO measurements may determine whether it can be firmly
+
+excluded. This makes it desirable to search for an alternative mixing pattern.
+
+For Vc, we have
+
+ 2
+
+c
+
+s ei
+
+
+
+6
+
+3
+
+3
+
+Vc
+
+=
+
+ 
+
+- 1
+6
+
+c - s e-i
+
+3
+
+2
+
+c + s ei
+
+2
+
+3
+
+. 
+
+(4)
+
+- 1 c + s e-i - c + s ei
+
+63
+
+2
+
+2
+
+3
+
+This modification keepsthe first column of the tri-bimaximal mixing matrix. In this case, Ve1 = 2/ 6, Vµ1 = V1 = -1/ 6, and
+
+|Ve2|2
+
+=
+
+c2 3
+
+,
+
+|Ve3|2
+
+=
+
+s2 3
+
+,
+
+|Vµ3|2
+
+=
+
+c2 2
+
++
+
+s2 3
+
++
+
+2cs cos   6
+
+,
+
+|V 3 |2
+
+=
+
+c2 2
+
++
+
+s2 3
+
+-
+
+2cs cos   6
+
+.
+
+(5)
+
+These equations can be used to determine the values of c and cos  from the measured 12 and Vµ3. Also 12 and 13 are not independent, but related by,
+
+sin2
+
+12
+
+=
+
+1 - 3 sin2 13 3(1 - sin2 13)
+
+.
+
+(6)
+
+We now study the implications of this mixing pattern. The appearance of c in Ve2 provides a way to bring Ve2 closer to the JUNO-measured value. The CP-violating phase  can be related to c and  by comparing the rephasinginvariant quantity [8], Im(Ve1Ve2Vµ1Vµ3), in the PDG parameterization and in Vc. We have
+
+(1 - s2/3) sin 
+
+sin CP = - 2
+
+. (c2/2 + s2/3)2 - 2c2s2 cos2 /3
+
+(7)
+
+One can also relate cos  with c and  by comparing Vµ2 and V2 in the PDG and Vc parameterizations:
+
+ 6
+cos CP = 4sc|Vµ3||V3|
+
+1 2
+
+s2 1-
+3
+
+2
+
+-
+
+c2 |V 3 |2
+
+-
+
+2 3
+
+s2
+
+|Vµ3
+
+|2
+
+.
+
+(8)
+
+To fix the mixing matrix completely, one needs another input values to detetmined the phase . We use the measured |Vµ3|2 = 1/2 as the central vlue with an error of 0.02 for illustration. This value is compatible with current
+data [2]. Eq.(6) one would predict, sin2 12 = 0.3183±0.0042 [2]. This is in agreement withthe JUNO measurement sin2 12 =
+0.3092 ± 0.0087 within 1. In our later discussion we will use the more precisely measured 13 to detemine the value
+of c. We obtain
+
+c = 0.952 ± 0.013 , cos  = 0.066 ± 0.087 .
+
+(9)
+
+We also obtain sin CP  - sin  whose size is 0.998. We also find that cos  is determed to be positive indicating that  is in the first or fourth quadrant. However, the sign of sin CP is still not determined. The sign of sin CP depends on the sign of . If taking  to be positive, one would obtain sin CP = -0.998 ± 0.3 which is favored by the inverted neutrino mass hierarchy. Other otherwise, sin CP = 0.998 ± 0.3. This is not favored by neither inverted herarchy and normal neutrino mass hierarchies.
+In conclusion, we have studied the minimally modified tri-bimaxl mixing and find a mixing parttern that keeps the
+first column of the tri-bimaximal mixing matrix fits data well within 1 level and predicts CP violating phase CP about -/2. This can be tested by future experimental data, such as those will come from DUNE experiment.
+
+

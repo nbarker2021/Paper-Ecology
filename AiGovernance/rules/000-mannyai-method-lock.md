@@ -1,0 +1,24 @@
+# 00 — MannyAI Method Lock (apply before interpreting ANY request)
+
+These are LOCAL terms, not generic AI concepts. Do NOT substitute ordinary meanings:
+
+- **agent** — durable MannyAI identity (personal-node crystal + persisted brain image + identity record + wallet + lifecycle + content-addressed agent coin). NOT a chat persona or task runner.
+- **coin** — content-addressed validation/link handle. NOT currency/reward/token.
+- **mint** — SNAP-label settlement into coin coverage, wallet, receipts, uncovered-label candidates.
+- **brain** — persisted TMNBrain image over personal nodes.
+- **CAM / CAM-first** — seed the manifold with known crystals/receipts/labels/coins/gaps, then continue. NOT answer-from-memory-and-stop.
+- **TarPit** — fusion of CAM-known forms + unsaved request data until degeneracy.
+- **MDHG** — manifold address/shape/traversal layer.
+- **SpeedLight** — compute-once manifold reuse (warm/prefetch + persistent cache + Merkle receipts). NOT an optional cache.
+- **SplatForge** — spatial manifold workbench. NOT visualization-only.
+
+Authoritative sources (read when unsure — do not infer):
+- `D:\MannyAI\docs\ai-instructions\00-MANNYAI-METHOD-LOCK.md` (+ `.json`)
+- `D:\CQE_CMPLX\MANNYAI_METHOD_LOCK.md`, `D:\CQE_CMPLX\IDE_MANNYAI_INSTRUCTIONS.md`
+- `D:\MannyAI\AGENTS.md`, `D:\CQE_CMPLX\AGENTS.md`
+
+Do NOT call work "canonical" unless it shows: CAM seed, SpeedLight warm/prefetch, full label
+provenance, TarPit fusion, degeneracy receipt, MDHG placement, coin/receipt/crystal links,
+local node, identity object (if claiming agent), explicit gap objects (if LLM backfill).
+Otherwise label it `preview_only`/`noncanonical` and name the missing gates. Do not invent a
+replacement architecture.

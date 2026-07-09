@@ -1,0 +1,70 @@
+Geometric obstruction to resolving the Hubble tension: orthogonality of scale and shape in distance measurements
+Zhihuan Zhou,1,  ShengYue Wang,1 Zhuang Miao,1 Chaoqian Ai,1 and Hongchao Zhang2,  1School of Engineering
+Xi'an International University Xi'an 710077, People's Republic of China
+2Department of Physics Liaoning Normal University Dalian, 116029, People's Republic of China
+(Dated: June 12, 2026)
+We identify a geometric obstruction to resolving the Hubble tension by combining early-time sound-horizon reduction with late-time smooth dark energy. Within CDM, the BAO­SN matterdensity gap m = 0.037 is exactly invariant under the sound-horizon rescaling   rsmod/rsCDM, and late-time w(z) deformations cannot eliminate this gap either: reconciling the two datasets requires opposite deformations--phantom (w < -1) for BAO, quintessence (w > -1) for SN at z < 0.5--an anti-alignment quantified by cos  = -0.97 in w(z) space. A full MCMC analysis of DESI DR2 BAO, Planck plik_lite, and Pantheon+ bears this out: the optimal  = 0.992 (0.8% rs reduction) brings the joint fit to H0 = 70.3 ± 0.3 km s-1 Mpc-1, still 3.2 below SH0ES, with the inter-dataset tension reduced but not removed. The obstruction reflects not a shortage of model freedom but an irreducible disagreement between probes. The deformation space {, damp, w(z)} already spans 93% of the m response direction; nonetheless BAO and SN constrain m through independent channels and disagree, while the residual H0 deficit, anchored by the local distance ladder, resides in the absolute distance scale that w(z) reshapes but cannot rescale.
+
+arXiv:2606.12822v1 [astro-ph.CO] 11 Jun 2026
+
+I. INTRODUCTION
+The Hubble tension is among the most persistent challenges in modern cosmology [1­6]. It refers to a > 5 discrepancy between the Hubble constant inferred from the Planck cosmic microwave background (CMB), H0 = 67.36 ± 0.54 km s-1 Mpc-1 [7], and the local SH0ES distance ladder, H0 = 73.17 ± 0.86 km s-1 Mpc-1 [8]. The discrepancy is reinforced by independent local measurements, including strong-lensing time delays from H0LiCOW [9] and sound-horizon-free BAO analyses [10, 11], and persists across evolving datasets. Its resolution has motivated a wide range of proposed modifications to CDM.
+Early-time approaches modify pre-recombination physics to reduce the sound horizon rs, thereby increasing H0 at fixed CMB angular scales [12, 13]. Concrete mechanisms include early dark energy (EDE) [14, 15], modified recombination [16­18], and extra radiation species [19]. While some of these models can raise H0 closer to the local value, they face several well-known difficulties. Jedamzik et al. [20] showed that reducing rs alone cannot fully resolve the tension, because the required shift introduces compensating effects in other parameters. EDE tends to worsen the S8 tension--which manifests not only in weak lensing but also in growth rate measurements from redshift-space distortions [21]--as shown by several analyses [22, 23]. Achieving
+ zhihuanzhou1@163.com  zhanghongchao852@live.com
+
+full concordance requires rs reductions of 5­8% that produce detectable distortions in the CMB damping tail [24­26]. Early-time solutions also generically introduce a b tension [27]. Moreover, even combining early-time new physics with late-time flexibility leaves a residual "cosmic calibration tension" that extends beyond H0 alone [28].
+Late-time approaches instead modify the dark energy equation of state w(z) or the expansion rate H(z) at z  3 [29­42]. However, formal no-go results [43, 44] and SN distance measurements tightly constrain luminosity distances, leaving little room for the large H(z) modifications needed to bridge the H0 gap [29, 45­47], and late-time H(z) deformations that raise H0 tend to worsen the growth tension [48]. DESI BAO data have been interpreted as favoring evolving dark energy [49­52], but several analyses have questioned whether this evidence is robust [53­55], and the preferred w0waCDM parameters do not resolve the H0 discrepancy [56] but instead introduce m(z) inconsistencies between probes [57, 58]. Neither class of modification alone has proven sufficient, and a natural question is whether combining both freedoms provides the flexibility needed for concordance.
+A key insight emerging from multiple independent analyses is that the Hubble tension contains an irreducible m component, persistent across modification channels. In our previous work [59], we showed that the w(z)-space gradients of BAO and SN 2 are antialigned, preventing any smooth dark energy modification from simultaneously satisfying both probes. Shlivko and Poulin [60] traced the observational preference for phantom crossing directly to the m ordering between BAO, CMB, and SN datasets, and the m prior bias
+
+2
+
+between DESI DR2 BAO and Pantheon+ has been explicitly quantified [61].
+Crucially, early-time and geometric solutions leave this m gap intact. Lee et al. [24] found that even optimizing the full primordial power spectrum P (k) achieves H0 = 73 only at m = 0.247, in severe tension with BAO. Modified recombination likewise leaves the m conflict intact [17, 62], while Bansal and Huterer [63] confirmed via MCMC that smooth H(z) modifications yield negligible improvement--only SN calibration transitions produce significant relief. Pedrotti et al. [23] showed that the structural link c/c  2.38 h/h constrains Planck's m­H0 degeneracy, making it impossible to change one without the other.
+Further support comes from redshift trends and information-theoretic arguments. Binned analyses of SN Ia samples reveal a decreasing trend of H0 with redshift [64­66], consistent with a redshift-dependent m discrepancy, and similar trends appear in CDM parameter tracking across redshift bins [67­69]. On the informationtheoretic side, Lee [70] showed that extending CDM to wCDM reduces the leading Planck Fisher eigenvalue by a factor of 37.5, indicating severe compression of cosmological information. CMB-based constraints on allowed H(z) deviations from CDM further limit the available parameter space [71], and the tension has been reformulated in terms of the full expansion function E(z) [72]. Attempts to reconcile the SN­BAO discrepancy through inhomogeneous-universe models [73] or by tracing the origin of the BAO tension [74] further underscore the depth of the conflict. These analyses, together with the studies above, highlight different manifestations of an underlying inconsistency between distance probes--in both m and H0--that persists across methods and datasets.
+In this paper, we identify the structural reason for this persistence. Our central observation is that rs rescaling and w(z) deformations affect structurally distinct aspects of distance measurements. The parameter   rsmod/rsCDM operates on the absolute distance scale: it sets the ruler against which BAO measures distances. But m is determined by relative distance ratios D(z2)/D(z1), in which the ruler cancels. This means the BAO­SN m gap is exactly -invariant--no early-time mechanism operating through rs reduction can touch it. Meanwhile, w(z) can modify relative distances, but BAO and SN demand modifications in opposite directions. Geometrically, the three datasets sit at three separated points in the (m, H0) plane (shown later in Fig. 3). Lowering  slides BAO straight up in H0 and leaves SN fixed, so it cannot change the BAO­SN m gap; Planck, by contrast, moves along a diagonal, gaining a higher H0 only at the cost of a lower m. Late-time w(z) can shift points horizontally in m, but BAO and SN must move in opposite directions. No combination of the two brings all three points together--that is the obstruction. We verify these geometric properties with full MCMC chains using DESI DR2 BAO, Planck plik_lite, and Pantheon+ supernovae, fitting all six CDM parameters simultane-
+
+ously.
+The paper is organized as follows. Section II describes the analysis framework and datasets. Section III presents the geometric obstruction: scale­shape decoupling and w(z) anti-alignment. Section IV provides MCMC verification. Section V demonstrates that w(z) cannot close the m gap. Section VI analyzes the effective freedom of the deformation space. Section VII tests robustness. We discuss converging evidence and implications in Sec. VIII and conclude in Sec. IX.
+
+II. METHOD
+
+A. Analysis framework
+
+We employ the Fisher-bias perturbation analysis (FPA) framework of Ref. [59] for analytical gradient computations, validated by full MCMC chains for all quantitative claims (Sec. IV).
+The FPA framework computes the response of best-fit parameters to w(z) deformations through
+
+Bi F
+
+=
+
+-(F
+
+-1
+
+)ij
+
+ j
+
+· -1
+
+·
+
+X w(z)
+
+· c,
+
+(1)
+
+where Fij is the Fisher matrix and X is the observable vector. We use FPA for gradient directions and response-vector analysis, evaluated at the MCMC best-fit point. The directional conclusions (anti-alignment sign, response overlap) depend on the dataset geometry, not on the number of free parameters.
+Inter-dataset consistency is quantified by
+
+T ()  j2oint() - d2,min(),
+
+(2)
+
+d
+
+where d2,min is each dataset's minimum 2 with all parameters free, and j2oint is the minimum when all datasets are fit simultaneously. In words, T measures how much worse the joint fit is than fitting each dataset on its own; T = 0 means perfect agreement. By construction T  0, with T = 0 if and only if all datasets prefer identical parameter values. For Nd = 3 datasets sharing k constrained parameters, T approximately follows a 2 distribution with (Nd - 1) × k degrees of freedom under the null hypothesis of dataset agreement (assuming Gaussian likelihoods near the best fit). With k = 2 effective parameters (m, H0), the approximate null distribution is 2(4).
+We also define pairwise tensions TAB  min[A2 () + 2B()] - A2 ,min - 2B,min, which follow 2(k) under the null. Throughout, we convert tension values to significance levels via the exact 2  p-value  Gaussianequivalent mapping.
+
+

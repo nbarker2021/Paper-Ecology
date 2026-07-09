@@ -1,0 +1,184 @@
+The QCD crossover at finite chemical potential from lattice simulations
+Szabolcs Borsanyia, Zoltan Fodora,b,c,d, Jana N. Guenthera,e, Ruben Karaa, Sandor D. Katzb, Paolo Parottoa, Attila Pasztorb, Claudia Rattif , K´alman K. Szab´oa,c a Department of Physics, Wuppertal University, Gaussstr. 20, D-42119 Wuppertal, Germany b Inst. for Theoretical Physics, ELTE E¨otvo¨s Lor´and University, Pa´zm´any P. s´et´any 1/A, H-1117 Budapest, Hungary c Ju¨lich Supercomputing Centre, Forschungszentrum Ju¨lich, D-52425 Ju¨lich, Germany d Physics Department, UCSD, San Diego, CA 92093, USA e University of Regensburg, Department of Physics, Regensburg D-93053, Germany f Department of Physics, University of Houston, Houston, TX 77204, USA
+We provide the most accurate results for the QCD transition line so far. We optimize the definition of the crossover temperature Tc, allowing for its very precise determination, and extrapolate from imaginary chemical potential up to real µB  300 MeV. The definition of Tc adopted in this work is based on the observation that the chiral susceptibility as a function of the condensate is an almost universal curve at zero and imaganiary µB. We obtain the parameters 2 = 0.0153(18) and 4 = 0.00032(67) as a continuum extrapolation based on Nt = 10, 12 and 16 lattices with physical quark masses. We also extrapolate the peak value of the chiral susceptibility and the width of the chiral transition along the crossover line. In fact, both of these are consistent with a constant function of µB. We see no sign of criticality in the explored range.
+
+arXiv:2002.02821v1 [hep-lat] 7 Feb 2020
+
+Introduction-- One of the most important open problems in the study of Quantum Chromodynamics (QCD) at finite temperature and density is the determination of the phase diagram of the theory in the temperature (T )-baryo-chemical potential (µB) plane. It is now established by first principle lattice QCD calculations that the transition at µB = 0 is a smooth crossover [1, 2] for physical quark masses. Due to the lack of a real phase transition, the crossover temperature is of course ambiguous, since different definitions can lead to different values for it. Observables related to chiral symmetry (i.e. the chiral condensate and its susceptibility) yield a transition temperature around 155 - 160 MeV [3­6].
+Extending our knowledge to the µB > 0 part of the phase diagram turns out to be very challenging, due to the notorious sign problem. Since this makes direct simulation at finite µB impossible, the state-of-the-art for finite density QCD on fine lattices is to use one of two extrapolation methods. The first method is the direct calculation of Taylor coefficients [7­17] using simulations at µB = 0, while the second is to use simulations at imaginary chemical potentials (µ2B < 0) where the sign problem is absent, and later perform an extrapolation of different quantities to a real chemical potential (µB2 > 0) [18­31]. It is often conjectured that in the (T, µB) plane the crossover line, departing from (Tc, µB = 0), eventually turns into a first-order transition line. The point (TCEP, µCEP) separating the crossover and the first-order transitions is known as the critical
+
+endpoint (CEP), where the transition is expected to be
+
+of second order. Though there have been attempts in ex-
+
+tracting information about the location of the supposed
+
+CEP from lattice simulations [15, 26, 32­37], these at-
+
+tempts face great difficulties, as extrapolation-type meth-
+
+ods have the property that they give reliable results
+
+mostly in the immediate vicinity of µB = 0. In this letter, we address the problem of calculating the
+
+Taylor coefficients of the crossover temperature around
+
+µB = 0, parametrized as:
+
+Tc (µB ) Tc(µB = 0)
+
+=
+
+1
+
+-
+
+2
+
+µB Tc (µB )
+
+2
+- 4
+
+µB
+
+4
+...
+
+Tc (µB )
+
+(1)
+
+along the phenomenologically relevant strangeness neu-
+
+trality line. In this work we improve the uncertainty on
+
+4 available in the literature [16] by a factor of 6, giving a state-of-the-art determination of the cross-over line in the
+
+(T, µB) plane. In particular, as we will show, at chemical potentials µB > 200 MeV the error on the Tc extrapolation is dominated by the sub-leading coefficients e.g. 4. The coefficients 2 and 4 can be calculated with either one of the standard extrapolation methods. A direct eval-
+
+uation of the µB derivatives from µB = 0 ensembles was used in Refs. [38, 39]. The current state-of-the art using
+
+the µB = 0 simulation method is Ref. [16], which includes the first continuum extrapolated results for 4. Here we will employ an analytical continuation from imaginary
+
+µB instead, and use lattices as fine as Nt = 16. This is motivated by the fact that the signal/noise ratio of
+
+2
+
+chiral condensate chiral susceptibility chiral susceptibility
+
+0.5
+
+µB/T= 0 /8 i
+
+µB/T= 2 /8 i
+
+µB/T= 3 /8 i
+
+0.4
+
+µB/T= 4 /8 i µB/T= 5 /8 i
+
+µB/T= 6 /8 i
+
+µB/T= 7 /8 i
+
+0.3
+
+0.2
+
+0.1
+
+483x12 lattice
+
+0 120 130 140 150 160 170 180 190 200
+T [MeV]
+
+0.12 0.1
+
+483x12 lattice
+
+0.08
+
+0.06
+
+0.04 0.02
+0
+
+µB/T= 0 /8 i µB/T= 2 /8 i µB/T= 3 /8 i µB/T= 4 /8 i µB/T= 5 /8 i µB/T= 6 /8 i µB/T= 7 /8 i
+
+120 130 140 150 160 170 180 190 200
+
+T [MeV]
+
+0.12
+
+483x12 lattice
+
+0.1
+
+0.08
+
+0.06
+
+0.04 0.02
+0
+
+µB/T= 0 /8 i µB/T= 2 /8 i µB/T= 3 /8 i µB/T= 4 /8 i µB/T= 5 /8 i µB/T= 6 /8 i µB/T= 7 /8 i
+
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5
+
+chiral condensate
+
+FIG. 1. Renormalized chiral condensate ¯ (left) and chiral susceptibility  (middle) as functions of the temperature for the intermediate lattice spacing in this study. The black curves correspond to vanishing baryon density, while results for various imaginary values of the chemical potential are shown in other colors. Finally, in the right panel we show the susceptibility as a function of the condensate. In this representation the chemical potential dependence is very weak.
+
+higher µB derivatives is suppressed with powers of the lattice volume, therefore the calculation of higher order derivatives requires very high statistics. Determinations of 2 using the imaginary µB method with continuum extrapolation include Refs. [24, 25]. Finally, in Ref. [30] the two methods were compared with a careful check of the systematics, and a very good agreement was found for the coefficient 2.
+We also study the strength of the crossover by extrapolating the width of the transition and the value of the chiral susceptibility at the transition to real µB in the continuum limit. While one always has to be careful not to over-interpret results from extrapolations, we currently do not see any sign of criticality up to µB  300 MeV, as the crossover transition does not get narrower or stronger in this region.
+
+On chiral observables in the transition region.-- For the lattice simulations we use 4-stout improved staggered fermions with an aspect ratio of LT = 4 and temporal lattice sizes of Nt = 10, 12, 16. The details of the simulation setup can be found in the supplemental material.
+The main observables in this study are the renormalized dimensionless chiral condensate and susceptibility, respectively defined as:
+
+¯ = -
+
+¯ T -
+
+¯ 0
+
+mud f4
+
+,
+
+ = [T
+
+-
+
+0]
+
+mu2d f4
+
+,
+
+with
+
+(2)
+
+¯
+
+T ,0
+
+=
+
+T V
+
+ log Z mud
+
+T 2 log Z T,0 = V m2ud ,
+
+where we assumed isospin symmetry, i.e. mu = md = mud. In the above equations, the subscripts T, 0 indicate values at finite- and zero-temperature, respectively. In the following, ¯ and  are always shown after apply-
+ing the correction to satisfy ns = 0 with zero statistical error (see the supplemental material for details). The
+peak height of the susceptibility is an indicator for the
+
+strength of the transition, while the peak position in temperature serves as a definition for the chiral cross-over temperature. It was pointed out in Refs. [3, 4] that different normalizations of the susceptibility, such as using 1/f4 or 1/T 4 to define  in Eq. (2) can shift the peak position by 11 MeV. This difference could be considered as a measure for the broadness of the chiral transition.
+Our normalization choice in Eq. (2) was motivated by two observations, shown in Fig. 1 and explained below. These observations (together with the improved statistics and the more accurate tuning of µS(µB) to nS = 0) allow a very precise determination of Tc as a function of imaginary chemical potential, which in turn allows a precise determination of the parameters 2 and 4. We explored the chiral condensate and susceptibility in a broad range of imaginary baryo-chemical potential. In all panels of Fig. 1, the black curves correspond to µB = 0. In the left and middle panel we show the chiral condensate and susceptibility as functions of the temperature. By construction, our renormalized condensate is zero at T = 0 and positive at high temperature, because of the explicit vacuum subtraction and the overall negative sign in Eq. (2). In both panels, one can observe the shifting of the transition towards higher temperatures when an imaginary chemical potential is introduced. In the right panel we show the susceptibility as a function of the condensate. Here we converted the statistical error on the condensate into an additional error on the susceptibility, by solving for ¯ (T ) = const. and substituting the resulting T into (T ) (also taking the correlation of the statistical errors into account). Our first observation on the right panel of Fig. 1 is that the form of the ( ¯ ) curve is simpler than that of (T ): a low (e.g. third or fourth) order polynomial can fit the entire transition range with an excellent fit quality. The second observation is that there is virtually no chemical potential dependence in the ( ¯ ) function. This way the susceptibility can be modeled as a low order polynomial of two variables, ¯ and µ^ = µB/T . Had we used a different normalization for the susceptibility, e.g. (T )f4/T 4 as we did in
+
+

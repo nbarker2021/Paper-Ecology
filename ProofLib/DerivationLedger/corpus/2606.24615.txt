@@ -1,0 +1,103 @@
+Quantum-enabled active matter at the atomic scale
+Sabrina Burgardt,1 Julian Feﬂ,1 Alexander Guthmann,1 Silvia Hiebel,1 Aritra K. Mukhopadhyay,2 Sangyun Lee,3 Michael te Vrugt,3 Benno Liebchen,2 Hartmut L®owen,4 Raphael Wittkowski,5 and Artur Widera1, 
+1Department of Physics and State Research Center OPTIMAS, RPTU University Kaiserslautern-Landau, Erwin-Schro®dinger-Straﬂe 46, 67663 Kaiserslautern, Germany
+2Institute for Condensed Matter Physics, Technical University of Darmstadt, Hochschulstraﬂe 8, 64285 Darmstadt, Germany 3Institute of Physics, Johannes-Gutenberg University Mainz, Staudingerweg 9, 55128 Mainz, Germany 4Institute of Theoretical Physics II: Soft Matter, Heinrich-Heine University Du®sseldorf, Universita®tsstraﬂe 1, 40225 Du®sseldorf, Germany
+5Department of Physics, RWTH Aachen University and DWI ≠ Leibniz Institute for Interactive Materials, Forckenbeckstraﬂe 50, 52074 Aachen, Germany (Dated: June 24, 2026)
+Active matter comprises particles that extract energy from their local environment and convert it into motion. Although active particles have been miniaturized down to the nanoscale, realizing activity at the fundamentally smaller scale of individual atoms remains an open challenge, where quantum effects become increasingly relevant. Here, we experimentally demonstrate that individual 133Cs atoms confined in an optical dipole trap extract energy from an ultracold bath of 87Rb atoms via quantum-mechanical spin interactions and convert it into active motion. We quantitatively reproduce the resulting dynamics using a parameter-free active Langevin model derived from kinetic theory and support it with event-driven Monte Carlo collision simulations. The microscopic origin of activity is identified as quantum spin exchange, which transfers discrete internal spin energy into kinetic motion. Our work establishes a quantum-enabled route to active matter at the fundamental size limit of single atoms and opens perspectives for exploring the interplay of activity, quantum physics, and mesoscopic non-equilibrium thermodynamics.
+
+arXiv:2606.24615v1 [quant-ph] 23 Jun 2026
+
+I. INTRODUCTION
+The study of active matter ≠ systems driven out of equilibrium by a local influx and dissipation of energy ≠ has become one of the central research fields in statistical mechanics and soft matter over the past few decades [1, 2]. Active matter science emerged from the study of biological systems, such as flocks of birds [3], bacterial suspensions [4], or cytoskeleton biopolymers [5]. Beyond the mere observation and understanding of active matter, an important and rapidly developing research direction is its artificial realization. Artificial active matter spans over wide length scales, ranging from macroscopic implementations like artificial muscles [6], to microscopic objects like microrobots used for drug delivery [7] or Janus colloids [8]. Furthermore, despite significant challenges such as the massive enhancement of thermal fluctuations and surface effects when making active particles smaller, recent progress has made it possible to create active particles in the nanorealm [9, 10], opening up a whole new world of possibilities from medical applications and material science [11, 12] to nanoscale devices such as molecular robots and machines [13, 14]. All these systems are purely classical.
+Pushing miniaturization further to the atomic scale opens compelling new application potential. A dramatically increased density of active units, down to single atoms, would enable fundamentally new approaches to
+ Contact author; E-mail: widera@rptu.de
+
+material design and engineering. In this regime, however, quantum effects can no longer be neglected and may even be harnessed as a resource. At the same time, such a reduction in scale challenges established activation principles, as thermal fluctuations dominate under typical conditions, requiring ultralow temperatures and densities. Consequently, there have been a number of theoretical proposals in recent years for realizations of quantum active matter. Examples include lattice models with flocking behavior [15≠17], mechanisms exploiting internal degrees of freedom [18, 19], monitoring [20], quantum particles driven along trajectories of classical active particles [21, 22], and spins with non-reciprocal interactions [23, 24]. Moreover, there have been experiments with nonreciprocally coupled nanoparticles [25, 26] and studies of objects swimming in superfluids [27, 28].
+The combination of isolated, tightly controlled single atoms with a tailored dissipative coupling to a bath constitutes a paradigmatic open quantum system. Such systems can be realized and precisely controlled in ultracold atomic gases using ultrahigh vacuum, optical cooling and trapping techniques [29], together with singleatom, position- and spin-resolved detection [30]. A central challenge in this context is to identify microscopic mechanisms that enable activity under these conditions, fulfilling the defining criteria of active matter while remaining fully compatible with quantum mechanics.
+In this work, we demonstrate that activity can indeed be realized at the level of individual atoms exploiting quantum effects. We show that individual 133Cs atoms are able to extract energy from a surrounding ultracold bath of thermal 87Rb atoms, and convert this energy
+
+2 sz,Rb = 68.9 m
+Cs Rb
+
+sx,Rb  sy,Rb = 3.1 m
+
+Spin degree of freedom
+
+Elastic collisions a
+
+mf,Cs
+
+mf,Cs
+
+x
+
+x
+
+y
+
+z y
+
+z
+
+mf,Rb
+
+mf,Rb
+
+Inelastic spin-exchange collisions
+
+b
+mf,Cs
+
+mf,Cs - 1
+
+fCs = 3 -3
+
+fRb = 1
+
+-2
+
+-1
+
+-1
+
+0 +1
+
+|VZ,Cs|
+
+|VZ,Rb|
+0
+
++2
+
+mf,Rb
+
+mf,Rb + 1
+
++3
+
+Q +1 Activation
+energy
+
+Motional degree of freedom
+
+v'Cs
+
+v'Cs
+
+Quantum activation
+
+v'Rb
+COM frame
+
+v'Rb
+COM frame
+
+FIG. 1. Quantum mechanism breaking detailed balance. A 133Cs atom (blue) is immersed into a cigar-shaped, thermal bath of spin-polarized 87Rb atoms (green) with extents sx,Rb  sy,Rb and sz,Rb in the x-, y-, and z-direction, respectively. The in-trap motion of the Cs atoms (solid line) is influenced by elastic collisions (gray) and inelastic spin-exchange collisions (red) with the Rb atoms. The spin-exchange collisions cause an activation, i.e., impart kinetic energy to the Cs atoms (red trajectory), enabling them to leave the Rb bath and traverse the optical dipole trap before eventually re-entering the bath and thermalizing due to elastic collisions (blue trajectory). a Frequent elastic inter-species collisions do not alter the internal states of the colliding atom pair, and the kinetic energy of each atom is conserved in the center-of-mass (COM) frame. The velocities before and after the elastic collision in the COM frame are denoted with v and v, respectively. b Inelastic inter-species spin-exchange collisions change the internal states mF of the atoms and release internal energy in quantized portions Q to the relative kinetic energy, leading to a transient bimodal velocity distribution p(|vCs|). The ratio of elastic and inelastic scattering rate ranges from el/se  25 to 52.
+
+into active motion (Fig. 1). While such ultracold open quantum systems have been mainly used to experimentally study coherent system-bath interactions [31, 32] or to probe the open system contribution on the quantum spin dynamics [33], here, by contrast, we exploit the spinmotion coupling to induce and control activation of the motional (i.e., kinetic) degree of freedom.
+The activation mechanism relies on quantum spinexchange in the s-wave regime, a process governed by total angular momentum and energy conservation [34, 35]. In each spin-exchange collision, internal (spin) energy from the surrounding Rb bath is converted into kinetic (motional) energy of the Cs atoms in quantized portions, resulting in an accelerating kick of the Cs atom in a ran-
+
+dom direction. This process therefore couples the spin and motional degrees of freedom microscopically in a quantized manner. The dissipative character results in exo- and endothermal processes, which effectively break detailed balance at the level of individual inelastic collisions. This causes nonreciprocal transition rates and an effective energy flow from the bath that activates the Cs particle.
+This combination of discrete energy release and asymmetry of the interaction channels serves as a fundamentally new activation mechanism that has no counterpart in classical microswimmers, where typically a biased conversion of stored energy leads to directed kicks. Additionally, this mechanism is microscopically fundamen-
+
+
