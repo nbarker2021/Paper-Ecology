@@ -197,6 +197,13 @@ OEIS A033996 knight-CA count is FABRICATED (use real counts in §9B/§14C). No f
 EXPOSE-28 generalizes KnightForge to N dimensions. **HONEST FLAG:** A033996 knight-CA is
 FABRICATED (real edges above). No fabrication here.
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 23: finite game lattices & local-rule automata
+
+Paper 23 frames finite game lattices / local-rule automata on the LCR lattice. **(I)** interpretation.
+**HONEST FLAG:** OEIS A033996 knight-CA edge count is FABRICATED — real directed edges n=2..8 =
+{0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}. Maps to §14 (KnightForge) and
+`176_n_dim_game_lattices.md`. No fabrication here.
+
 ## 9. References
 
 1. Paper 005 — D12 Axis/Sheet Symmetries (lattice group)

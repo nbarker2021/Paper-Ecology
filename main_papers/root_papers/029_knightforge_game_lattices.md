@@ -289,6 +289,13 @@ A033996 knight-CA edge count is FABRICATED — real knight-CA directed edges for
 {0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}; 3×3 board = 9 cells. Do NOT
 cite A033996.
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 23: finite game lattices & local-rule automata
+
+Paper 23 frames finite game lattices / local-rule automata on the LCR lattice. **(I)** interpretation.
+**HONEST FLAG:** OEIS A033996 knight-CA edge count is FABRICATED — real directed edges n=2..8 =
+{0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}. Maps to §14 (KnightForge) and
+`176_n_dim_game_lattices.md`. No fabrication here.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

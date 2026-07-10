@@ -340,6 +340,11 @@ EXPOSE-26: pinch Gluon — Z-pinch and shear horizon as the chart's collapse/rep
 **Gluon invariant** = pinch. Maps to §11 (Z-pinch shear horizon). Honest note: Z-pinch/shear
 is the CQECMPLX interpretation of chart collapse dynamics; not a MHD derivation. No fabrication.
 
+## 11C. UFT 0-100 Series (FLCR) — Paper 25: shear, plasma & carrier horizons
+
+Paper 25 frames shear/plasma/carrier horizons as chart collapse/repair dynamics. **(I)**
+interpretation; not a MHD derivation. Maps to §11. No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

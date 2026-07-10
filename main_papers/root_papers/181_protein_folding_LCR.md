@@ -102,6 +102,13 @@ EXPOSE-23: fold Gluon — FoldForge protein folding as chart-state trajectory th
 Honest note: protein folding is the CQECMPLX interpretation (chart→fold trajectory); not a
 biophysics computation. No fabrication.
 
+## 13B. UFT 0-100 Series (FLCR) — Papers 21-22: materials candidate generation, protein descriptor
+
+Paper 21 (materials candidate generation) and Paper 22 (protein descriptor / fold-facing kernel)
+extend the forge substrate. Per FLCR doctrine these are **(I)** interpretation on a **(D)** forge
+module base. Maps to §13 (material patterns LCR) and §6 (protein folding LCR). Honest, no
+fabrication.
+
 ## 6. References
 
 1. Paper 002 — Rule 30 ANF, Lucas Carry

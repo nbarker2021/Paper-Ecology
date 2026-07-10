@@ -336,6 +336,12 @@ ceiling. **Gluon invariant** = energy bound. Maps to §13 (Monster energy bound)
 calibrated empirical anchor (Higgs mass); the "universal energy bound" framing is the CQECMPLX
 interpretation. Γ72 landing remains a registered gap. No fabrication.
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 27: Monster ceiling & large-invariant boundaries
+
+Paper 27 = Monster energy ceiling / large-invariant boundaries (depth-72 closure). **(I)**
+interpretation; κ calibrated at Higgs mass; Γ72 landing is a registered gap. Maps to §13. No
+fabrication.
+
 ## 13. Bibliography
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. Monster group and Moonshine.
