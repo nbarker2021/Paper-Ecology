@@ -291,6 +291,30 @@ Maps to §12 (`096_niemeier_glue_leech.md`), §11 (`146_conway_group_Niemeier.md
 (`147_leech_from_golay_stack.md`). **HONEST FLAG:** Γ72 landing carried as interpretive, not
 derived.
 
+## 9C. Gap-Closure Port: NP-15 — IRL Data Addressing For Open Predictions
+
+NP-15 (active-rework/NP-15_*.md) supplies PUBLISHED real-world data (CODATA 2018, PDG 2024,
+OEIS, LMFDB, Wolfram Data Repo, structural biology) for the open-prediction seams, minted as
+content-addressed CAM receipts in `NP-15_receipts/`. NO new experiments; only existing data formatted
+into claim-matching tables. Key rows:
+- alpha^-1: CQE 137.0043052845516 vs CODATA 137.035999084 ±2.1e-8 (diff 0.0317) → calibration OPEN.
+- alpha-squared: structural 169.0 vs 137.035999084^2 ≈ 18778.87 → distinct (careful!).
+- CKM magnitudes: V_ud 0.9737, V_us 0.2243, V_ub 0.00382, V_cd 0.221, V_cs 0.987, V_cb 0.041,
+  V_td 0.008, V_ts 0.0394, V_tb 0.9991 (PDG 2024) → IRL calibration target.
+- EW masses: Higgs 125.25±0.17 GeV, W 80.3692±0.0133, Z 91.1876±0.0021, top 172.57±0.29
+  (PDG/LHC) → Higgs 125 GeV prediction CONSISTENT with central value; derivation from chart residue OPEN.
+- B-DNA: rise 3.4A, 10.4 bp/turn, pitch 34.0A, diameter 20.0A → 34A pitch matches Fibonacci
+  constant 34 in fold table.
+- Riemann zeta zeros 1-6 (14.1347, 21.0220, 25.0109, 30.4249, 32.9351, 37.5862) → finite
+  chart identity; continuous L^2(R) bridge OPEN.
+- Niemeier: 24 lattices (Conway-Sloane) → external math record for seam decomp.
+- S3 volume 19.739208802178716 = 2*pi^2 → exact; Heegner rank-2 via LMFDB.
+- Rule30 center-column first-64 bits (Wolfram Data Repo 2019) → cold-start bit-exact check target;
+  current local impl DISAGREES at some indices (calibration OPEN).
+**HONEST FLAG:** these are external-data receipts, not derivations. They expose residual calibration
+constants; they do NOT close ECO seams. Maps to §9 (EW/Higgs), §18 (SU3/CKM), §13 (lattice),
+§18 (D4/J3 alpha), §16 (oloid/DNA), §11 (Niemeier), §14 (Moonshine/S3), §16 (lattice closure).
+
 ## 11. References
 
 - Conway, J. H. & Sloane, N. J. A. (1988). *Sphere Packings, Lattices and Groups.* Springer.

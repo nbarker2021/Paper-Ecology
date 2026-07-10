@@ -398,6 +398,28 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 16B. Gap-Closure Port: NP-14 — Accumulator Closure of 13 Unresolved Receipts
+
+NP-14 (active-rework/NP-14_*.md) closes 13 stale/partial receipts from the canonical corpus as
+**accumulator terms**. Each: root cause (mostly Windows cp1252 console could not encode Greek kappa —
+fixed by PYTHONIOENCODING=utf-8), closure evidence from reworked papers, new receipt under
+`NP-14_receipts/`. NIST-style verdict: **no FAIL papers remain; only OPEN = explicit next-needs**.
+Closures (IPMC = internal map closed / ECO = external calibration open):
+- P01 Fibonacci fold constants → IPMC/pass; P07 bilateral evert → IPMC/pass (bridge framing only);
+- P08 Riemann-zeta gap anchor → IPMC/pass (lattice-gap anchor only; full-zeta = IBN→NP-01);
+- P09 alpha fractional Cayley-Dickson → IPMC/pass (finite; unbounded McKay→NP-01);
+- P10 9x9 closed form → IPMC/pass (finite; n>=6→NP-11);
+- P12 GLM idempotent connections → IPMC/pass (6/6); P16 alpha-squared invariant → IPMC/pass (5/5);
+- P32 stratum-43200 terminal → IPMC/pass (6/6);
+- P13 CKM calibration → ECO/pass_with_open (measured CKM→NP-06);
+- P13 Spin(12)/Spin(16) root decomp → IPMC/pass (10/10; exceptional route→NP-09);
+- P15 Higgs frame mapping → ECO/pass_with_open (6/7; measured Higgs/Yukawa/EWSB→NP-06);
+- P17 Niemeier seam decomp → IPMC/pass (6/6; glue cosets+Gamma72→NP-02);
+- P18 S3/Hopf seam manifold → IPMC/pass (7/8; parity/correction-route theorem→NP-01).
+Routes to: NP-01 (McKay/Rule30 collapse), NP-02 (Niemeier/Gamma72), NP-06 (calibration),
+NP-09 (exceptional route/encoder), NP-11 (superpermutation minimality). **HONEST FLAG:** these are
+replayable receipts, NOT new theorems; the ECO items stay OPEN until measured input arrives.
+
 ## 15. References
 
 ### 15.1 Paper Series

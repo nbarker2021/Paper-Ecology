@@ -637,6 +637,52 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 18D. Gap-Closure Port: NP-12 — Electron-Hole-Exciton Accounting For Open Math
+
+NP-12 (active-rework/NP-12_*.md) is a DISCIPLINE paper: before inventing new physics,
+ask how much of the open CQECMPLX bridge language is already standard electron-hole-exciton
+theory. Four classification buckets: **standard_explains / analogy_only / requires_cqecmplx_receipt /
+overclaimed_or_rejected**. Key verdicts (each a guardrail, not a closure):
+- "hole" = missing complement → standard_explains ONLY if charge/band/occupancy model given; CQECMPLX
+  adds addressability+obligation+receipt (when absence becomes an active carrier).
+- "bound Dust pair" = exciton → standard_explains only with binding energy + screening; else analogy_only.
+- "recombination" = e-h annihilation → standard_explains only with energy/relaxation channel.
+- "mass residue" = effective mass / binding energy → do NOT confuse with Higgs rest mass (downgrade;
+  route measured claims to NP-06 calibration).
+- "interlayer route" (Paper 22 MoS2/TMD) = standard interlayer exciton → highest-priority empirical
+  test case.
+REMAINS OPEN (not explained by exciton theory): Rule30/Lucas sparsity, typed obligation ledger,
+finite LCR/D4/J3 chart registration, no-cost Leech lookup, F4 encoder universality, Moonshine/
+sporadic-boundary invariance, superpermutation scheduling, symbolic-correction-as-charge-carrier.
+**HONEST FLAG:** this is a reasoned-closure candidate — it DOWN-GRADES overclaims, it does not
+prove new physics. Maps to §18 (SU3), §9 (electroweak/Higgs), §16 (oloid). Falsifiers:
+reject exciton explanation when no occupancy model / no band-gap / no binding term / no channel /
+effective≠fundamental mass / symbolic carrier mistaken for physical charge.
+
+## 9C. Gap-Closure Port: NP-15 — IRL Data Addressing For Open Predictions
+
+NP-15 (active-rework/NP-15_*.md) supplies PUBLISHED real-world data (CODATA 2018, PDG 2024,
+OEIS, LMFDB, Wolfram Data Repo, structural biology) for the open-prediction seams, minted as
+content-addressed CAM receipts in `NP-15_receipts/`. NO new experiments; only existing data formatted
+into claim-matching tables. Key rows:
+- alpha^-1: CQE 137.0043052845516 vs CODATA 137.035999084 ±2.1e-8 (diff 0.0317) → calibration OPEN.
+- alpha-squared: structural 169.0 vs 137.035999084^2 ≈ 18778.87 → distinct (careful!).
+- CKM magnitudes: V_ud 0.9737, V_us 0.2243, V_ub 0.00382, V_cd 0.221, V_cs 0.987, V_cb 0.041,
+  V_td 0.008, V_ts 0.0394, V_tb 0.9991 (PDG 2024) → IRL calibration target.
+- EW masses: Higgs 125.25±0.17 GeV, W 80.3692±0.0133, Z 91.1876±0.0021, top 172.57±0.29
+  (PDG/LHC) → Higgs 125 GeV prediction CONSISTENT with central value; derivation from chart residue OPEN.
+- B-DNA: rise 3.4A, 10.4 bp/turn, pitch 34.0A, diameter 20.0A → 34A pitch matches Fibonacci
+  constant 34 in fold table.
+- Riemann zeta zeros 1-6 (14.1347, 21.0220, 25.0109, 30.4249, 32.9351, 37.5862) → finite
+  chart identity; continuous L^2(R) bridge OPEN.
+- Niemeier: 24 lattices (Conway-Sloane) → external math record for seam decomp.
+- S3 volume 19.739208802178716 = 2*pi^2 → exact; Heegner rank-2 via LMFDB.
+- Rule30 center-column first-64 bits (Wolfram Data Repo 2019) → cold-start bit-exact check target;
+  current local impl DISAGREES at some indices (calibration OPEN).
+**HONEST FLAG:** these are external-data receipts, not derivations. They expose residual calibration
+constants; they do NOT close ECO seams. Maps to §9 (EW/Higgs), §18 (SU3/CKM), §13 (lattice),
+§18 (D4/J3 alpha), §16 (oloid/DNA), §11 (Niemeier), §14 (Moonshine/S3), §16 (lattice closure).
+
 ## 16. References
 
 ### 16.1 Standard Mathematics and Kinematics

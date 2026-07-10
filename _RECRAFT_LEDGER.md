@@ -269,9 +269,37 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 99 | applied forge validation | 163 | DONE. (I) on (D) forge.py. |
 | 100 | capstone unified ledger | 037, 036, 222, 223 | DONE. HONEST FLAG: "6 Millennium closed" FABRICATED (corrected P80). Gaps 222/223 survive. |
 
+## Deep-Review Backlog (from MISSED_CONTENT_REVIEW.md + NEW_PAPER_NEEDS.md)
 
+Source docs reviewed: papers/active-rework/MISSED_CONTENT_REVIEW.md (196 lines, 46 flags),
+papers/active-rework/NEW_PAPER_NEEDS.md (163 lines, NP-01..NP-13 proposed).
 
+### A. Genuinely unported candidate sources (NOT yet in 240-form roots)
+| Item | What | Port status |
+|---|---|---|
+| `papers/active-rework/NP-12/14/15` | 3 real NP-* gap-closure papers | **PORTED** (this session) into 18 root sections |
+| `papers/active-rework/NP-01..11,13` | proposed gap papers (no file yet) | proposed only; route when/if written |
+| `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-*` | 176-paper CANONICAL FORMAL source tree | **NOT yet ported** — the authoritative formal papers behind the reworks; largest remaining series |
+| `papers/active-rework/EXTERNAL_LITERATURE_MAPPING_*` | 21 supplement reports | not ported (provenance/evidence) |
+| `papers/notebooklm_upload/` | 84 md FLCR publishable re-export | duplicate of UFT series; low priority |
+| `papers/legacy-consolidation/` | 18 md LaTeX/PDF | legacy; port only if unique content |
 
+### B. MISSED_CONTENT_REVIEW key findings (action backlog)
+1. 7 GLM verifier rows dropped from reworks — ALL 7 EXIST in formal source tree
+   (verify_glm_alpha_fractional_cayley_dickson, _nine_by_nine_closed_form, _spin12_spin16_root_decomp,
+   _higgs_frame_mapping, _niemeier_seam_decomposition, _s3_hopf_seam_manifold, _43200_stratum_terminal).
+   Location: CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-{09,10,13,15,17,18,32}/.
+   These are REAL verifiers (could be wired into the engine) — flagged for future integration, not ported as prose.
+2. Rich-to-skeleton transition at Paper 09: Papers 00-08 are developed (~1430 words); 09-32 are
+   skeletons (~480 words). Restore claim-by-claim proof texture for Papers 13,15,17,18,09,10,26,31 first.
+3. Paper 29 (Monster ceiling) lost strongest evidence narrative — rebuild from formal source.
+4. Applied Forge papers 21-28 too thin — add "operational surface" sections (input crystal,
+   verifier receipt, output ledger, open calibration need).
 
-
+### C. NP-* port (this session)
+| NP | Topic | Roots ported into | Status |
+|---|---|---|---|
+| NP-12 | Electron-hole-exciton accounting (discipline/downgrade paper) | 041, 177, 054, 008 | DONE. Guardrails + 4-bucket classification; rejects overclaims |
+| NP-14 | Accumulator closure of 13 receipts (IPMC/ECO/IPMC ledger) | 012, 016, 022, 023, 013, 054 | DONE. 13 receipts closed; ECO items routed to NP-01/02/06/09/11 |
+| NP-15 | IRL data addressing (CODATA/PDG/OEIS/LMFDB CAM receipts) | 177, 041, 062, 005, 008, 146, 147, 023, 012 | DONE. Published values vs CQE predictions; calibration constants exposed |
 
