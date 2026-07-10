@@ -297,6 +297,12 @@ Paper 71 = empirical calibration (the calibrate_units.py anchor: κ = ln(φ)/16 
 Higgs = 5κ·SCALE = 125.25 GeV). **(D)** structural/numeric distinction explicit in source. Maps to
 §15 (`074_calibration_protocols.md`) and `054_Higgs_VOA_weight5.md`. No fabrication.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 89: Birch-Swinnerton-Dyer (Millennium)
+
+Paper 89 = BSD (rank ⇔ zero-order of L-series) as LCR carrier-rank / depth-phase. **(I)**
+structural interpretation on **(D)** standard arithmetic geometry. Maps to §10
+(`094_birch_swinnerton_dyer.md`) and §References (`054_Higgs_VOA_weight5.md`). No fabrication.
+
 ## References
 
 1. **Paper 001** — LCR minimal carrier. VOA partition T5.15, shell grading, reversal involution.

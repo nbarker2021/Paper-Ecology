@@ -159,6 +159,12 @@ Fabrication (X): None.
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 84: Yang-Mills mass gap (Millennium)
+
+Paper 84 = Yang-Mills existence + mass gap as LCR carrier-gap (depth closure forbids zero-mass
+excitations). **(I)** structural interpretation on **(D)** standard YM. Maps to §10
+(`088_yang_mills_mass_gap.md`) and §13 (`062_lattice_qcd.md`). No fabrication.
+
 ## 10. References
 
 - PDG 2024. *Review of Particle Physics.*

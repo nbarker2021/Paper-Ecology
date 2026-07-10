@@ -244,6 +244,13 @@ was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **
 (Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
 FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 90: McKay-Thompson parity (Monstrous Moonshine)
+
+Paper 90 = McKay-Thompson parity (Monstrous Moonshine element classification) as LCR carrier-
+parity. **(I)** structural interpretation on **(D)** Moonshine (Conway-Norton 1979, Borcherds
+1992). Maps to §11 (`095_mckay_thompson_parity.md`), §14 (`023_VOA_moonshine_routes.md`) and
+§13 (`124_monster_VOA.md`). No fabrication.
+
 ## 13. References
 
 - Frenkel, I., Lepowsky, J., & Meurman, A. (1988). *Vertex Operator Algebras and the Monster*.

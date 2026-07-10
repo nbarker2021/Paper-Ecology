@@ -167,6 +167,12 @@ Fabrication (X): None.
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 83: Wolfram Prize P3 (sub-O(n) inner-step extraction)
+
+Paper 83 = Wolfram Prize Problem 3: extract any inner cell step in sub-O(n) equality. **(I)**
+interpretation on **(D)** `verify_wolfram_prize_p3`. Maps to §10
+(`087_wolfram_P3_sub_O_n_extraction.md`) and §18 (`002`). Honest, no fabrication.
+
 ## 10. References
 
 - Wolfram, S. (2002). *A New Kind of Science.*

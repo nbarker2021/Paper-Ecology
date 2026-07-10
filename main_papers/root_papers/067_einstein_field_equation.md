@@ -613,6 +613,12 @@ interpretation on **(D)** standard cosmology. Maps to §18. No fabrication.
 Paper 70 = LSS (matter power spectrum) as LCR carrier-depth clustering. **(I)** interpretation.
 Maps to §18. No fabrication.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 85: Navier-Stokes regularity (Millennium)
+
+Paper 85 = Navier-Stokes smooth/regular as LCR carrier-depth bounded regularity. **(I)** structural
+interpretation on **(D)** standard PDE. Maps to §10 (`089_navier_stokes_smoothness.md`) and
+§18 (`067_einstein_field_equation.md`). No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard GR

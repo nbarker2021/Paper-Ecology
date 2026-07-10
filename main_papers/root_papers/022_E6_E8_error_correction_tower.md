@@ -288,6 +288,12 @@ EXPOSE-17: E6→E7→E8 tower, glue vectors from G2/F4, E8 dim 248, Z4 wrap. **G
 tower glue. Maps to §14 (E6-E8 tower). Consistent with root 096/146 (D1→D4→D24→D72). Honest
 note: tower is the CQECMPLX error-correction interpretation. No A033996/343/alpha_em issues.
 
+## 12B. UFT 0-100 Series (FLCR) — Paper 87: Hodge Conjecture (Millennium)
+
+Paper 87 = Hodge Conjecture (algebraic cycles ⇔ cohomology classes) as LCR carrier-algebraic
+closure. **(I)** structural interpretation on **(D)** standard algebraic geometry. Maps to §12
+(`092_hodge_conjecture.md`) and §14 (`022_E6_E8_error_correction_tower.md`). No fabrication.
+
 ## 14. References
 
 ### 14.1 Standard Mathematics

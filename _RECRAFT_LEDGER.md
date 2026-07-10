@@ -248,6 +248,17 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 78 | governance 1 | 015 | DONE. (I) claim-lane schema (D). |
 | 79 | governance 2 | 015 | DONE. (I) provenance/falsifiers. |
 | 80 | closed-form unification | 037, 036 | DONE. HONEST FLAG: "6 Millennium closed" FABRICATED, corrected to structural re-expression. |
+| 81 | Wolfram P1 non-periodicity | 085, 002 | DONE. (I) on (D) verify_rule30_decomposition/Hamming. |
+| 82 | Wolfram P2 density | 086, 002 | DONE. (I) on (D) verify_wolfram_prize_p2. |
+| 83 | Wolfram P3 sub-O(n) | 087, 002 | DONE. (I) on (D) verify_wolfram_prize_p3. |
+| 84 | Yang-Mills mass gap | 088, 062 | DONE. (I) structural. |
+| 85 | Navier-Stokes | 089, 067 | DONE. (I) structural. |
+| 86 | Riemann | 091, 023 | DONE. (I) structural. |
+| 87 | Hodge | 092, 022 | DONE. (I) structural. |
+| 88 | P vs NP | 093, 015 | DONE. (I) structural. |
+| 89 | Birch-Swinnerton-Dyer | 094, 054 | DONE. (I) structural. |
+| 90 | McKay-Thompson | 095, 023, 124 | DONE. (I) on (D) Moonshine. |
+
 
 
 

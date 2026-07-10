@@ -183,6 +183,13 @@ As the *5 position of Layer 10, this paper performs the VOA rotation: the McKay-
 
 ---
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 90: McKay-Thompson parity (Monstrous Moonshine)
+
+Paper 90 = McKay-Thompson parity (Monstrous Moonshine element classification) as LCR carrier-
+parity. **(I)** structural interpretation on **(D)** Moonshine (Conway-Norton 1979, Borcherds
+1992). Maps to §11 (`095_mckay_thompson_parity.md`), §14 (`023_VOA_moonshine_routes.md`) and
+§13 (`124_monster_VOA.md`). No fabrication.
+
 ## 11. References
 
 - Borcherds, R. E. (1992). *Monstrous moonshine and monstrous Lie superalgebras.* Invent. Math.

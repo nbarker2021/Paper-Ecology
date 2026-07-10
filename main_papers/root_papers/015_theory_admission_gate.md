@@ -384,6 +384,12 @@ fabrication.
 Paper 79 = governance layer 2: provenance, falsifiers, comparators, evidence standards. **(I)**
 governance framing. Maps to §15. No fabrication.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 88: P vs NP (Millennium)
+
+Paper 88 = P vs NP as LCR carrier-depth (verification = bounded-depth vs search = unbounded).
+**(I)** structural interpretation on **(D)** standard complexity. Maps to §10 (`093_P_vs_NP.md`)
+and §15 (`015_theory_admission_gate.md`). No fabrication.
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

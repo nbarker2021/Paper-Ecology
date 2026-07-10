@@ -178,6 +178,13 @@ ones, ~500,768/1M — a REAL Rule 30 fact), P3 N-th bit O(1) lookup.
 center column — internally consistent but interpretive, not a standalone Rule 30 theorem.
 P2's 1/2 density IS the established Rule 30 property. No A033996 / 343 / alpha_em issues.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 81: Wolfram Prize P1 (Rule-30 non-periodicity)
+
+Paper 81 = Wolfram Prize Problem 1: Rule 30 (r30=r90+correction) is non-periodic. **(I)**
+interpretation on **(D)** `verify_rule30_decomposition` (r30=r90+correction, 128 cells exact),
+`verify_hamming_wolfram_prize` (Hamming 129/255). Maps to §10 (`085_wolfram_P1_rule30_nonperiodicity.md`)
+and §18 (`002_Rule30_decomposition.md`). Honest, no fabrication.
+
 ## 10. References
 
 - Wolfram, S. (2002). *A New Kind of Science.* Wolfram Media.

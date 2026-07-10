@@ -154,6 +154,12 @@ This structural separation suggests that P-LCR (problems solvable with Rule 90 a
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 88: P vs NP (Millennium)
+
+Paper 88 = P vs NP as LCR carrier-depth (verification = bounded-depth vs search = unbounded).
+**(I)** structural interpretation on **(D)** standard complexity. Maps to §10 (`093_P_vs_NP.md`)
+and §15 (`015_theory_admission_gate.md`). No fabrication.
+
 ## 10. References
 
 - Cook, S. A. (1971). *The complexity of theorem-proving procedures.* STOC.

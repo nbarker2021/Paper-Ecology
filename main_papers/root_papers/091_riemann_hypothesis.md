@@ -257,6 +257,12 @@ The falsifiers apply to the LCR–Riemann correspondence, not to the Riemann hyp
 
 ---
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 86: Riemann Hypothesis (Millennium)
+
+Paper 86 = Riemann Hypothesis (Re(s)=1/2 ⇔ carrier-depth closure) as LCR depth-phase. **(I)**
+structural interpretation on **(D)** standard analysis. Maps to §14 (`091_riemann_hypothesis.md`)
+and §14 (`023_VOA_moonshine_routes.md`). No fabrication.
+
 ## 14. References
 
 ### 14.1 External

@@ -726,6 +726,25 @@ lattice ladder" naming (LCR→D4→J3(O)→D12→F4→E8→Leech) is **(I)** fra
 Consistent with `verify_chart_enumeration`, `verify_triality_operator`, `verify_correction_boundary`.
 No fabrication (these 4 are the "safe" data-heavy papers).
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 81: Wolfram Prize P1 (Rule-30 non-periodicity)
+
+Paper 81 = Wolfram Prize Problem 1: Rule 30 (r30=r90+correction) is non-periodic. **(I)**
+interpretation on **(D)** `verify_rule30_decomposition` (r30=r90+correction, 128 cells exact),
+`verify_hamming_wolfram_prize` (Hamming 129/255). Maps to §10 (`085_wolfram_P1_rule30_nonperiodicity.md`)
+and §18 (`002_Rule30_decomposition.md`). Honest, no fabrication.
+
+## 10B. UFT 0-100 Series (FLCR) — Paper 82: Wolfram Prize P2 (Rule-30 equal-density)
+
+Paper 82 = Wolfram Prize Problem 2: Rule 30 has equal-density (≈1/2) left/right. **(I)**
+interpretation on **(D)** `verify_wolfram_prize_p2` (equal density). Maps to §10
+(`086_wolfram_P2_rule30_density.md`) and §18 (`002`). Honest, no fabrication.
+
+## 10B. UFT 0-100 Series (FLCR) — Paper 83: Wolfram Prize P3 (sub-O(n) inner-step extraction)
+
+Paper 83 = Wolfram Prize Problem 3: extract any inner cell step in sub-O(n) equality. **(I)**
+interpretation on **(D)** `verify_wolfram_prize_p3`. Maps to §10
+(`087_wolfram_P3_sub_O_n_extraction.md`) and §18 (`002`). Honest, no fabrication.
+
 ## 18. References
 
 ### 19.1 Standard Mathematics

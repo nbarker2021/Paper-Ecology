@@ -142,6 +142,12 @@ The BSD conjecture predicts \(\mathrm{rank}(E) = \mathrm{ord}_{s=1} L(E, s)\), w
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 89: Birch-Swinnerton-Dyer (Millennium)
+
+Paper 89 = BSD (rank ⇔ zero-order of L-series) as LCR carrier-rank / depth-phase. **(I)**
+structural interpretation on **(D)** standard arithmetic geometry. Maps to §10
+(`094_birch_swinnerton_dyer.md`) and §References (`054_Higgs_VOA_weight5.md`). No fabrication.
+
 ## 10. References
 
 - Birch, B. J. & Swinnerton-Dyer, H. P. F. (1965). *Notes on elliptic curves. II.* J. Reine Angew. Math.

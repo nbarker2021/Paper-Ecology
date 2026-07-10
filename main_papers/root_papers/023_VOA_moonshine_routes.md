@@ -333,6 +333,19 @@ was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **
 (Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
 FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 86: Riemann Hypothesis (Millennium)
+
+Paper 86 = Riemann Hypothesis (Re(s)=1/2 ⇔ carrier-depth closure) as LCR depth-phase. **(I)**
+structural interpretation on **(D)** standard analysis. Maps to §14 (`091_riemann_hypothesis.md`)
+and §14 (`023_VOA_moonshine_routes.md`). No fabrication.
+
+## 11B. UFT 0-100 Series (FLCR) — Paper 90: McKay-Thompson parity (Monstrous Moonshine)
+
+Paper 90 = McKay-Thompson parity (Monstrous Moonshine element classification) as LCR carrier-
+parity. **(I)** structural interpretation on **(D)** Moonshine (Conway-Norton 1979, Borcherds
+1992). Maps to §11 (`095_mckay_thompson_parity.md`), §14 (`023_VOA_moonshine_routes.md`) and
+§13 (`124_monster_VOA.md`). No fabrication.
+
 ## 14. References
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. McKay-Thompson series.

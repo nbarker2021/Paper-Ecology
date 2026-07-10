@@ -161,6 +161,12 @@ Fabrication (X): None.
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 85: Navier-Stokes regularity (Millennium)
+
+Paper 85 = Navier-Stokes smooth/regular as LCR carrier-depth bounded regularity. **(I)** structural
+interpretation on **(D)** standard PDE. Maps to §10 (`089_navier_stokes_smoothness.md`) and
+§18 (`067_einstein_field_equation.md`). No fabrication.
+
 ## 10. References
 
 - Ladyzhenskaya, O. A. (1969). *The Mathematical Theory of Viscous Incompressible Flow.*

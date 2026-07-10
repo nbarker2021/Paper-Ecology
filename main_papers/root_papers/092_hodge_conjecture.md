@@ -200,6 +200,12 @@ This paper fails if:
 
 ---
 
+## 12B. UFT 0-100 Series (FLCR) — Paper 87: Hodge Conjecture (Millennium)
+
+Paper 87 = Hodge Conjecture (algebraic cycles ⇔ cohomology classes) as LCR carrier-algebraic
+closure. **(I)** structural interpretation on **(D)** standard algebraic geometry. Maps to §12
+(`092_hodge_conjecture.md`) and §14 (`022_E6_E8_error_correction_tower.md`). No fabrication.
+
 ## 12. References
 
 ### 12.1 External

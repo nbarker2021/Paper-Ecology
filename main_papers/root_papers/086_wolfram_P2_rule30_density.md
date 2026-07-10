@@ -165,6 +165,12 @@ Fabrication (X): None.
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 82: Wolfram Prize P2 (Rule-30 equal-density)
+
+Paper 82 = Wolfram Prize Problem 2: Rule 30 has equal-density (≈1/2) left/right. **(I)**
+interpretation on **(D)** `verify_wolfram_prize_p2` (equal density). Maps to §10
+(`086_wolfram_P2_rule30_density.md`) and §18 (`002`). Honest, no fabrication.
+
 ## 10. References
 
 - Wolfram, S. (2002). *A New Kind of Science.*
