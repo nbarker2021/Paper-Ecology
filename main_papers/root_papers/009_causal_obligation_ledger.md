@@ -392,6 +392,15 @@ P06 casts every dependency between objects, proofs, tools, and papers as a typed
 causal/obligation ledger in §17 is the operational realization. Honest note: no machine check
 available for P06 itself.
 
+## 17C. ProofValidatedSuite Exposition — EXPOSE-7 (Workbook System / Causal Code)
+
+EXPOSE-7: the workbook ⇄ tool isomorphism (every analog op has a digital twin); causal code =
+terminal composition tree, 32 vertices, 12544 edges, zero cycles. **Gluon invariant C₆ = causal
+edge.** Maps to §17 (causal obligation ledger). Honest note: the "32 vertices / 12544 edges /
+zero cycles" figures are the EXPOSE-stateed 2-category 𝓛 counts — NOT independently re-verified
+in this recraft (no cqe_engine available here); carried as stated, consistent with the 𝓛
+2-category having 8 chart-state objects. No fabrication asserted.
+
 ## 17. References
 
 [1] N. Barker, *Paper 0 — The Transport Contract and Foreword*, PaperLib, 2026. Defines the finite state space and D/I/X claim taxonomy.

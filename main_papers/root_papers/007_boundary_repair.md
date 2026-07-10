@@ -440,6 +440,13 @@ constraints for the next legal route. P04 has **no run.py** (index marks "needs 
 so no independent verifier is cited; the claim is the transport-contract framing of the
 boundary-repair algebra in §16. Honest note: no machine check available for P04 itself.
 
+## 16C. ProofValidatedSuite Exposition — EXPOSE-5 (SU(3) n=3 Closure / Boundary Repair)
+
+EXPOSE-5: the 3 shell=2 states (C₋=(1,1,0), C₀=(1,0,1), C₊=(0,1,1)) are the SU(3) 3-fundamental
+embedded in F₄; S₃ permutes them; oloid midpoint s* = C. **Gluon invariant C₄ = oloid midpoint.**
+Maps to §16 (boundary repair). Consistent with `verify_lcr_sector_decomposition` (3 QCD =
+trace-2 idempotents) and `verify_recursive_sevenfold_closure`. Honest, no fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

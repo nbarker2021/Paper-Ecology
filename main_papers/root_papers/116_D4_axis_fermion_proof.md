@@ -291,6 +291,11 @@ None.
 P03's triality surface (axis/sheet labeling + rotation/reflection + Jordan carrier) is the
 operational basis of the D4 axis→fermion proof here. Verifier PASS. Honest, no fabrication.
 
+## 12C. ProofValidatedSuite Exposition — EXPOSE-4 (Centroid VOA / Triality Center)
+
+EXPOSE-4's 2 true vacua + 6 excited (Gluon C₃) is the triality-center split. Consistent with
+§12 (D4 axis→fermion). Honest, no fabrication.
+
 ## 12. References
 
 - Paper 005 — D₄/J₃ triality surface. D4 axis/sheet codec.

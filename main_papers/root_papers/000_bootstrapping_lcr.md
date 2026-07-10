@@ -39,6 +39,13 @@ PROVEN (exact rational / 4096-depth empirical): T3–T7, chart↔J₃(𝕆), SU(
 (CKM, Higgs derivation, Γ72 landing, full moonshine, Rule 30 nonperiodicity, EFE, cosmogenesis)
 are tracked in roots 221–229, NOT promoted here. No A033996 / 343 / alpha_em issues.
 
+## 7. ProofValidatedSuite Exposition — EXPOSE-1 (Chart↔J₃(O) Isomorphism & Gluon Invariant)
+
+EXPOSE-1 is the readable narrative of Paper 00: the 8 chart states are isomorphic to the
+diagonal of J₃(𝕆) via φ(L,C,R)=diag(L,C,R) (bijection, T3a). **Gluon invariant C₀ = center
+bit** (the Rule 30 emission reads the coordinate fixed by LR reversal — Axiom 00.1). Consistent
+with §1–§3 (T3–T7, run.py SMOKE PASS). Honest, no fabrication.
+
 ## 6. References
 - Canonical: `CQECMPLX-Production/papers/CQE-paper-00/{01-CQE-formal/FORMAL.md,
   02-CQE-tool/run.py, 03-CQE-workbook/WORKBOOK.md}`.

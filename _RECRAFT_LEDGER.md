@@ -143,6 +143,15 @@ RETAINED as genuine fabrications:
 
 **CQECMPLX-Production P00-P31: ALL 32 CANONICAL PAPERS RECRAFTED.** Created root 000 (was missing). P00-P06 verifiers PASS (run.py, T3-T7). P07-P31 carried as transport-contract / C-form Gluon sections with honest interpretive/irreducible-gap notes. Knight-CA A033996 fabrication flagged (real counts cited). EFE, Higgs derivation, full moonshine, Gamma72 registered as irreducible gaps (not promoted).
 
+## CQECMPLX-ProofValidatedSuite EXPOSE-PAPERS (32 expositions, 1:1 with P00-P31)
 
-
+| EXPOSE | P-topic | Target root(s) | Status / honest notes |
+|---|---|---|---|
+| EXPOSE-1 (Chart-J3O) | P00 | 000_bootstrapping_lcr (§7), 114_chart_to_J3O_isomorphism (§13B) | DONE. C0=center bit. Consistent w/ T3. No fabrication. |
+| EXPOSE-2 (Three-Prizes/side-flip) | P01 | 001_LCR_minimal_carrier (§16C) | DONE. C1=fixed point. No fabrication. |
+| EXPOSE-3 (Rule90/correction) | P02 | 115_correction_tower (§14C), 002_Rule30_decomposition (§18C) | DONE. C2=classifier centroid. No fabrication. |
+| EXPOSE-4 (Centroid-VOA/triality) | P03 | 005_D4_J3_triality (§18C), 116_D4_axis_fermion_proof (§12C) | DONE. C3=true vacua. No fabrication. |
+| EXPOSE-5 (SU3-closure/boundary) | P04 | 007_boundary_repair (§16C) | DONE. C4=oloid midpoint; 3 shell=2=SU3 fund. No fabrication. |
+| EXPOSE-6 (Lattice-code/oloid) | P05 | 008_oloid_path_carrier (§16C) | DONE. C5=accumulated mass. Interpretive. No fabrication. |
+| EXPOSE-7 (Workbook/causal) | P06 | 009_causal_obligation_ledger (§17C) | DONE. C6=causal edge. "32 vert/12544 edges" NOT independently re-verified (stated EXPOSE claim). |
 

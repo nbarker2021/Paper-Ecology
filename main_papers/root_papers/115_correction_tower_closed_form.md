@@ -335,6 +335,13 @@ dismissal: the correction surface is ∂ = C ∧ ¬R at the chiral doublet Δ. V
 PASS (6/6). This is the operational basis of `002_Rule30_decomposition.md` (Rule 30 = Rule 90
 + C·¬R) and the closure-tower in §14. Honest, no fabrication.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-3 (Rule 90 Linearization / Correction Surface)
+
+EXPOSE-3: Rule 30 = Rule 90 (L⊕R) + correction C∧¬R; the correction bit is the C∧¬R classifier
+centroid. **Gluon invariant C₂ = classifier centroid.** Maps to §14 (correction tower) and
+`002_Rule30_decomposition.md`. Consistent with `verify_correction_boundary` (∂=C∧¬R). Honest,
+no fabrication.
+
 ## 14. References
 
 - Paper 002 — Rule 30 decomposition, Duhamel superposition.

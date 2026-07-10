@@ -574,6 +574,12 @@ while admitting two opposed boundary directions (L,R). Verifier `run.py` → SMO
 (6/6 transport checks). Carries the same chart↔J₃(𝕆) basis (T3) as §16; the LCR triple is the
 smallest non-trivial carrier in the 2-category 𝓛. Honest, no fabrication.
 
+## 16C. ProofValidatedSuite Exposition — EXPOSE-2 (Three Prizes, One Algebra / Side-flip)
+
+EXPOSE-2 frames the side-flip bijection (L,C,R)→(R,C,L) as the SU(2) doublet on one tape;
+**Gluon invariant C₁ = fixed point** (the center bit is LR-reversal-invariant). Maps to §16
+(LCR chain carrier). Consistent with `verify_triality_operator`. Honest, no fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

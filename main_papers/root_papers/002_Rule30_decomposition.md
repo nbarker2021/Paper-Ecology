@@ -712,6 +712,11 @@ P02 is the transport-theoretic framing of the Rule 30 decomposition: the correct
 C·¬R is the positive residue of every mismatched route. Verifier PASS. Supports §18 (ANF) and
 the correction tower (root 115). Honest, no fabrication.
 
+## 18C. ProofValidatedSuite Exposition — EXPOSE-3 (Rule 90 / Correction Surface)
+
+EXPOSE-3's correction bit C∧¬R is the classifier centroid (Gluon C₂). Consistent with §18
+(ANF) and `verify_correction_boundary`. Honest, no fabrication.
+
 ## 18. References
 
 ### 19.1 Standard Mathematics

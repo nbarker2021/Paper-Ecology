@@ -315,6 +315,11 @@ None.
 
 ---
 
+## 13B. ProofValidatedSuite Exposition — EXPOSE-1 (Chart↔J₃(O) Isomorphism)
+
+EXPOSE-1 reinforces the chart→J₃(𝕆) diagonal bijection as the Gluon-invariant foundation
+(C₀ = center bit). Consistent with §13. Honest, no fabrication.
+
 ## 13. References
 
 - Paper 001 — LCR carrier, chart–J₃(𝕆) bijection (Theorem 5.8).

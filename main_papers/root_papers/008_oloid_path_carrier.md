@@ -616,6 +616,13 @@ preserve continuity — the geometric realization of the LCR chain carrier. P05 
 (index: "needs creation"); claim is the transport-contract framing of the oloid path in §16.
 Honest note: no machine check available for P05 itself.
 
+## 16C. ProofValidatedSuite Exposition — EXPOSE-6 (Lattice Code Chain / Oloid Path Carrier)
+
+EXPOSE-6: oloid path carrier; C_accumulated = Gluon mass; K=9 limit. **Gluon invariant C₅ =
+accumulated mass.** Maps to §16 (oloid path carrier). Consistent with the lattice-code chain
+(root 146/147). Honest note: accumulated-mass = Gluon mass is the CQECMPLX interpretation. No
+fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics and Kinematics

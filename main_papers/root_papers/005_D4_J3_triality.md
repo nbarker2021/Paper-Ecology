@@ -834,6 +834,13 @@ behavior as the first explicit triality surface. Verifier `run.py` → PASS (6/6
 §18 (D4/J3) and the fermion-proof surface in `116_D4_axis_fermion_proof.md`. The Weyl
 correspondence (T3c) is the triality action. Honest, no fabrication.
 
+## 18C. ProofValidatedSuite Exposition — EXPOSE-4 (Centroid VOA / Triality Center)
+
+EXPOSE-4: triality center = 2 true vacua + 6 excited states; Z₄ period = D₁₂; **Gluon
+invariant C₃ = true vacua.** Maps to §18 (D4/J3) and `116_D4_axis_fermion_proof.md`. Consistent
+with `verify_lcr_sector_decomposition` (2 vacua + 6 excited) and `verify_chiral_doublet`.
+Honest, no fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Mathematics
