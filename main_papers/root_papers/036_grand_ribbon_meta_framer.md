@@ -285,6 +285,16 @@ enumerates the 240-form proof stack. **Gluon invariant** = ribbon. Maps to §11 
 meta-framer). Honest note: the 240-form ribbon is the CQECMPLX meta-structure; the meta-framer
 is the audit/enumerate layer. No fabrication.
 
+## 11D. UFT 0-100 Series (FLCR) — Paper 29: corpus ribbon & retrospective LCR readout
+
+Paper 29 = corpus ribbon / retrospective LCR readout (the 240-form audit trail). **(I)**
+interpretation; meta-structure. Maps to §11 (Grand Ribbon). No fabrication.
+
+## 14C. UFT 0-100 Series (FLCR) — Paper 40: grand reconstruction map & trust-removal protocol
+
+Paper 40 = grand reconstruction map / trust-removal protocol (the Band-B→C assembly ledger). **(I)**
+governance framing. Maps to §14 (layer-2 synthesis) and §11 (Grand Ribbon). No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

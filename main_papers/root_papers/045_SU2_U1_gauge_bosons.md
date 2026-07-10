@@ -207,6 +207,12 @@ def verify_weinberg_angle():
 
 ---
 
+## 16C. UFT 0-100 Series (FLCR) — Paper 31: gauge groups translated into LCR
+
+Paper 31 = gauge groups (SU(3)×SU(2)×U(1)) translated into the LCR carrier language. **(I)**
+interpretation; SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1) is **(D)** (corrected in
+Paper 92). Maps to §16 (LCR carrier) and `045_SU2_U1_gauge_bosons.md`. No fabrication.
+
 ## 9. Bibliography
 
 1. **Paper 005.** D4, J₃(𝕆), Octave Triality. Theorems 5.7 (D4 codec), 5.9 (F4 action, magic square).

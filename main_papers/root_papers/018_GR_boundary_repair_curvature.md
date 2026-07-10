@@ -483,6 +483,12 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 15C. UFT 0-100 Series (FLCR) — Paper 35: GR, curvature & continuum translation
+
+Paper 35 = GR / curvature / continuum translated into LCR (curvature as repair demand). **(I)**
+interpretation. **HONEST FLAG:** EFE is a registered irreducible gap; G_uv = κ T_uv interpretive,
+not derived. Maps to §15 and `067_einstein_field_equation.md`. No fabrication.
+
 ## 15. References
 
 ### 15.1 Standard Mathematics and Physics

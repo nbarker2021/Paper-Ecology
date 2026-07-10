@@ -289,6 +289,19 @@ Per HONEST-DISCLOSURE.md **(I)** framing (read/combine/route 3 operations; REROU
 **(D)** `forge.py` module (`Forge.open()`, `verify_seed()`, `leech_lookup()`). Maps to §13 (material
 patterns LCR). Honest, no fabrication.
 
+## 13B. UFT 0-100 Series (FLCR) — Papers 21-22: materials candidate generation, protein descriptor
+
+Paper 21 (materials candidate generation) and Paper 22 (protein descriptor / fold-facing kernel)
+extend the forge substrate. Per FLCR doctrine these are **(I)** interpretation on a **(D)** forge
+module base. Maps to §13 (material patterns LCR) and §6 (protein folding LCR). Honest, no
+fabrication.
+
+## 15C. UFT 0-100 Series (FLCR) — Paper 36: condensed matter, materials & metamaterials
+
+Paper 36 = condensed matter / materials / metamaterials via the forge substrate. **(I)**
+interpretation; analog workbook only. Maps to §15 (MetaForge) and §13 (material patterns). No
+fabrication.
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

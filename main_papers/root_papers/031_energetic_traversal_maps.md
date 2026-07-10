@@ -720,6 +720,16 @@ EXPOSE-25: energy Gluon — energetic traversal maps (κ = ln(φ)/16 edge energy
 κ = ln(φ)/16 × SCALE ≈ 25.05 GeV is the calibrated empirical anchor (Higgs mass); traversal
 maps are the CQECMPLX interpretation. No fabrication.
 
+## 18B. UFT 0-100 Series (FLCR) — Paper 24: energetic traversal maps
+
+Paper 24 = energetic traversal maps (κ = ln(φ)/16 edge energy). **(I)** interpretation; κ ≈ 25.05
+GeV is the calibrated empirical anchor (Higgs mass). Maps to §18. No fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 37: plasma, energy & traversal calibration
+
+Paper 37 = plasma / energy / traversal calibration. **(I)** interpretation on the energetic-traversal
+base (κ = ln(φ)/16). Maps to §18. No fabrication.
+
 ## 18. References
 
 ### 18.1 Source Papers

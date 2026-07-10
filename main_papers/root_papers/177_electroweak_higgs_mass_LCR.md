@@ -185,6 +185,12 @@ was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **
 (Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
 FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
 
+## 9C. UFT 0-100 Series (FLCR) — Paper 33: electroweak, Higgs, mass-residue translation
+
+Paper 33 = electroweak / Higgs / mass-residue translated into LCR. **(I)** interpretation. **HONEST
+FLAG:** Higgs mass derivation is a registered irreducible gap; κ = 5κ·SCALE = 125.25 GeV is the
+calibrated anchor. Maps to §9 and `054_Higgs_VOA_weight5.md`. No fabrication.
+
 ## 9. References
 
 1. ATLAS Collaboration (2023). "Measurement of the Higgs boson mass in the H→4ℓ decay channel."

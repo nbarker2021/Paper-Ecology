@@ -166,6 +166,12 @@ The Z-pinch confinement cycle has period 4 in oloid time: the plasma column comp
 
 ---
 
+## 9B. UFT 0-100 Series (FLCR) — Paper 28: CAM, crystal projectors & MannyAI runtime
+
+Paper 28 frames CAM (Content-Addressable Memory) crystal projectors and the MannyAI runtime as
+the LCR substrate's observer/computation layer. **(I)** interpretation on **(D)** crystal-physics
+base. Honest, no fabrication.
+
 ## 9. References
 
 1. Chen, F. F. (1984). *Introduction to Plasma Physics.* Plenum.

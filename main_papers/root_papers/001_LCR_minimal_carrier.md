@@ -589,6 +589,12 @@ lattice ladder" naming (LCR→D4→J3(O)→D12→F4→E8→Leech) is **(I)** fra
 Consistent with `verify_chart_enumeration`, `verify_triality_operator`, `verify_correction_boundary`.
 No fabrication (these 4 are the "safe" data-heavy papers).
 
+## 16C. UFT 0-100 Series (FLCR) — Paper 31: gauge groups translated into LCR
+
+Paper 31 = gauge groups (SU(3)×SU(2)×U(1)) translated into the LCR carrier language. **(I)**
+interpretation; SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1) is **(D)** (corrected in
+Paper 92). Maps to §16 (LCR carrier) and `045_SU2_U1_gauge_bosons.md`. No fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

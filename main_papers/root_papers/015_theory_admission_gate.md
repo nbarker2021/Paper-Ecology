@@ -361,6 +361,18 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 9B. UFT 0-100 Series (FLCR) — Paper 30: supervisor cursor & universal normal-form intake
+
+Paper 30 = supervisor cursor / universal normal-form intake (the governance intake layer). **(I)**
+interpretation on the admission-gate base. Maps to `038_supervisor_cursor.md` and §15 (theory
+admission gate). Honest, no fabrication.
+
+## 15C. UFT 0-100 Series (FLCR) — Paper 39: falsifiers, comparators & standards of evidence
+
+Paper 39 = falsifiers / comparators / standards-of-evidence governance (the claim-lane schema).
+**(I)** governance framing on **(D)** CLAIM_LANE_SCHEMA.json (8 lanes / 7 classes). Maps to §15. No
+fabrication.
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

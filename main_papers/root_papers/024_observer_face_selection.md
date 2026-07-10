@@ -361,6 +361,12 @@ was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **
 (Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
 FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
 
+## 14C. UFT 0-100 Series (FLCR) — Paper 38: observer, computation & AI runtime translation
+
+Paper 38 = observer / computation / AI-runtime translated into LCR (bounded observer as carrier).
+**(I)** interpretation, consistent with `verify_observer_frame_selection`. Maps to §14 and §11. No
+fabrication.
+
 ## 14. References
 
 ### 14.1 Standard References

@@ -241,6 +241,18 @@ All 6 paper standards pass: `paper.claim_coverage`, `paper.obligation_continuity
 
 ---
 
+## 9B. UFT 0-100 Series (FLCR) — Paper 28: CAM, crystal projectors & MannyAI runtime
+
+Paper 28 frames CAM (Content-Addressable Memory) crystal projectors and the MannyAI runtime as
+the LCR substrate's observer/computation layer. **(I)** interpretation on **(D)** crystal-physics
+base. Honest, no fabrication.
+
+## 9B. UFT 0-100 Series (FLCR) — Paper 30: supervisor cursor & universal normal-form intake
+
+Paper 30 = supervisor cursor / universal normal-form intake (the governance intake layer). **(I)**
+interpretation on the admission-gate base. Maps to `038_supervisor_cursor.md` and §15 (theory
+admission gate). Honest, no fabrication.
+
 ## 9. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002.

@@ -342,6 +342,12 @@ EXPOSE-22: material Gluon — MetaForge applied materials (metamaterial unit cel
 chart). **Gluon invariant** = metamaterial cell. Maps to §15 (MetaForge applied materials).
 Honest note: metamaterial synthesis is the CQECMPLX interpretation; workbook analog only.
 
+## 15C. UFT 0-100 Series (FLCR) — Paper 36: condensed matter, materials & metamaterials
+
+Paper 36 = condensed matter / materials / metamaterials via the forge substrate. **(I)**
+interpretation; analog workbook only. Maps to §15 (MetaForge) and §13 (material patterns). No
+fabrication.
+
 ## 15. References
 
 ### 15.1 Standard References

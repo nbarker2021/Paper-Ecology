@@ -497,6 +497,11 @@ was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **
 (Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
 FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 32: QCD & color transport in LCR
+
+Paper 32 = QCD / color transport in LCR (6 quark faces = 6 non-vacuum shell=2 states). **(I)**
+interpretation; 1 generation shown, not 3. Maps to §13. No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

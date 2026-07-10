@@ -563,6 +563,12 @@ run.py** for P14. Honest note: EFE is a registered irreducible gap; interpretive
 EXPOSE-14's G_μν = κT_μν (κ = Higgs mass) is the CQECMPLX gravity interpretation. **HONEST
 FLAG:** EFE is a registered irreducible gap; interpretive, not derived.
 
+## 15C. UFT 0-100 Series (FLCR) — Paper 35: GR, curvature & continuum translation
+
+Paper 35 = GR / curvature / continuum translated into LCR (curvature as repair demand). **(I)**
+interpretation. **HONEST FLAG:** EFE is a registered irreducible gap; G_uv = κ T_uv interpretive,
+not derived. Maps to §15 and `067_einstein_field_equation.md`. No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard GR

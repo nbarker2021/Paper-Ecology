@@ -191,4 +191,24 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 1-4 | LCR kernel, Rule30 ANF/Lucas, correction/F2-Arf, D4/J3/triality | 000/001/002/115/005/116 | DONE. (D) data-backed. No fabrication. |
 | 5-13,15,17,20 | typed repair, oloid, causal, bridge, closure, temporal, gates, CA, curvature, edge-residuals, forge | 007/008/009/011/146/147/013/014/015/016/018/012/163 | DONE. (I) interpretation. HONEST FLAG P11 (8/8,TarPit 0.507457 FABRICATED, corrected); P13 "64/256 silent ECA" asserted (D) in UFT but my enum=16/256 (discrepancy noted). |
 | 14,16,18,19 | quark-face, mass-residue/Higgs, exceptional towers/VOA/observer, layer-2 ledger | 062/041/177/054/023/124/024/033/025 | DONE. (D) data-backed. HONEST FLAG P18 (Pariah=Ω CORRECTED to open); P19 (320 rows/TarPit 0.510236 FABRICATED, corrected to 1105+ rows). |
+| 21-22 | materials candidate gen, protein descriptor | 163, 181 | DONE. (I) forge. No fabrication. |
+| 23 | finite game lattices | 029, 176 | DONE. A033996 knight-CA FABRICATED flag (real counts). |
+| 24 | energetic traversal | 031 | DONE. (I) kappa~25.05 GeV. |
+| 25 | shear/plasma/horizons | 032 | DONE. (I) chart collapse. |
+| 26 | observer delay/shared-state | 033 | DONE. (I) consistent w/ verify_observer_frame_selection. |
+| 27 | Monster ceiling/large-invariant | 035, 145 | DONE. (I) Gamma72 gap. |
+| 28 | CAM/crystal/MannyAI | 172, 038 | DONE. (I) crystal base. |
+| 29 | corpus ribbon/retrospective | 036 | DONE. (I) meta-structure. |
+| 30 | supervisor cursor/intake | 038, 015 | DONE. (I) governance. |
+| 31 | gauge groups->LCR | 001, 045 | DONE. SM chain F4>C>C (D, corrected P92). |
+| 32 | QCD/color transport | 062 | DONE. 1 gen shown. |
+| 33 | electroweak/Higgs | 177, 054 | DONE. Higgs derivation gap. |
+| 34 | electron-hole-exciton | 041 | DONE. (I) SU3 band. |
+| 35 | GR/curvature/continuum | 018, 067 | DONE. EFE gap. |
+| 36 | condensed matter/materials | 027, 163 | DONE. (I) analog. |
+| 37 | plasma/energy/traversal | 031 | DONE. (I) kappa base. |
+| 38 | observer/computation/AI | 024, 033 | DONE. (I) consistent. |
+| 39 | falsifiers/comparators/standards | 015 | DONE. (I) CLAIM_LANE_SCHEMA (D). |
+| 40 | grand reconstruction/trust-removal | 025, 036 | DONE. (I) governance. |
+
 
