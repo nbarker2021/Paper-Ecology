@@ -161,5 +161,12 @@ RETAINED as genuine fabrications:
 | EXPOSE-12 (CA-prediction) | P12 | 016_CA_prediction_surface (§14C) | DONE. HONEST FLAG: "64/256 silent-boundary ECAs" INACCURATE — true count = 16/256 (L=R=0->0 fixes bits 0-3). Do NOT repeat 64. |
 | EXPOSE-13 (Quark-face) | P13 | 062_lattice_qcd (§13C), 041_SU3_generation1 (§18C) | DONE. 6 quark faces=6 non-vacuum shell=2. 1 generation shown (not 3). No fabrication. |
 | EXPOSE-14 (GR) | P14 | 018_GR_boundary_repair_curvature (§15C), 067_einstein_field_equation (§18C) | DONE. HONEST FLAG: EFE registered irreducible gap; G_uv=kappa T_uv interpretive, not derived. |
+| EXPOSE-15 (Higgs) | P15 | 177_electroweak_higgs_mass_LCR (§9C), 054_Higgs_VOA_weight5 (§RefC) | DONE. HONEST FLAG: Higgs derivation registered irreducible gap. No fabrication. |
+| EXPOSE-16 (Edge-residuals) | P16 | 012_lattice_closure (§16C) | DONE. "skip frac 0.849 / K-residuals" EXPOSE-stated, NOT re-verified. Interpretive. |
+| EXPOSE-17 (E6-E8) | P17 | 022_E6_E8_error_correction_tower (§14C) | DONE. E8 dim 248. Consistent w/ 096/146. No fabrication. |
+| EXPOSE-18 (VOA-moonshine) | P18 | 023_VOA_moonshine_routes (§14C), 124_monster_VOA (§13C) | DONE. j(tau)=1+196883 TRUE (standard). HONEST FLAG: full moonshine ID registered irreducible gap. |
+| EXPOSE-19 (Observer) | P19 | 024_observer_face_selection (§14C), 033_observer_delay_z4 (§11G) | DONE. Consistent w/ verify_observer_frame_selection. No fabrication. |
+| EXPOSE-20 (Synthesis) | P20 | 025_layer2_synthesis_ledger (§14C) | DONE. Ledger bookkeeping. |
+
 
 

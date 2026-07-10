@@ -361,6 +361,12 @@ P20 is the layer-2 synthesis ledger — the assembled record of all layer-1 tran
 layer-2 closure. **No run.py** (index: "needs creation") — the synthesis ledger for §14
 (layer-2 synthesis). Honest note: ledger bookkeeping, no new physics claim.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-20 (Layer-2 Synthesis Ledger)
+
+EXPOSE-20: the layer-2 synthesis ledger — assembled record of all layer-1 transports into the
+layer-2 closure; the audit/enumerate record. **Gluon invariant** = synthesis record. Maps to §14
+(layer-2 synthesis). Honest note: ledger bookkeeping, no new physics claim.
+
 ## 14. References
 
 ### 14.1 Standard Mathematics

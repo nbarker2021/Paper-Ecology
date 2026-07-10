@@ -238,6 +238,11 @@ P15 carries the Higgs mass-residue as the color-Gluon mass; weight-5 VOA state =
 **No run.py** for P15. Honest note: Higgs mass derivation is a registered irreducible gap;
 interpretive.
 
+## ReferencesC. ProofValidatedSuite Exposition — EXPOSE-15 (Higgs Mass-Residue)
+
+EXPOSE-15's Higgs = C_accumulated (weight-5 VOA state = Higgs). **HONEST FLAG:** Higgs mass
+derivation is a registered irreducible gap; interpretive.
+
 ## References
 
 1. **Paper 001** — LCR minimal carrier. VOA partition T5.15, shell grading, reversal involution.

@@ -342,6 +342,13 @@ P19 selects the observer frame as the D4 face that minimizes residual (lossless 
 and `033_observer_delay_z4.md` (§11B/11C/11D). Consistent with `verify_observer_frame_selection`
 (4 frames, static Z4; temporal Z4 refuted). Honest, no fabrication.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-19 (Observer Face-Selection)
+
+EXPOSE-19: observer frame = D4 face minimizing residual (lossless frame F = 3 latent retained).
+**Gluon invariant** = observer face. Maps to `024_observer_face_selection.md` and
+`033_observer_delay_z4.md`. Consistent with `verify_observer_frame_selection` (4 frames, static
+Z4; temporal Z4 refuted). Honest, no fabrication.
+
 ## 14. References
 
 ### 14.1 Standard References

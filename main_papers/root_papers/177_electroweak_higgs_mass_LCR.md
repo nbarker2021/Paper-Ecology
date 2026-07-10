@@ -165,6 +165,14 @@ LCR). Honest note: the **Higgs mass derivation is a registered irreducible gap**
 paper_00 foreword) — P15 gives the CQECMPLX mass-residue interpretation, NOT a derivation.
 No fabrication.
 
+## 9C. ProofValidatedSuite Exposition — EXPOSE-15 (Higgs Mass-Residue)
+
+EXPOSE-15: Higgs field = C_accumulated, mass² = |C|², excited sector only (76/24 VOA split).
+**Gluon invariant** = Higgs residue. Maps to §9 (electroweak Higgs mass LCR) and
+`054_Higgs_VOA_weight5.md`. **HONEST FLAG:** the Higgs mass derivation is a registered
+irreducible gap (per paper_00 foreword) — EXPOSE-15 gives the CQECMPLX mass-residue
+interpretation, NOT a derivation. No fabrication.
+
 ## 9. References
 
 1. ATLAS Collaboration (2023). "Measurement of the Higgs boson mass in the H→4ℓ decay channel."

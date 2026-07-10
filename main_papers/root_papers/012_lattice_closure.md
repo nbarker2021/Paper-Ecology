@@ -512,6 +512,14 @@ P16 treats continuum edge residuals as the leftover transport residue at lattice
 **No run.py** (index: "needs creation") — transport framing of §16 (lattice closure / continuum
 edge). Honest note: continuum limit is interpretive, not a rigorous lattice→continuum proof.
 
+## 16C. ProofValidatedSuite Exposition — EXPOSE-16 (Continuum Edge Residuals)
+
+EXPOSE-16: residuals at K=10/100/1000 = 1,0,1,0; skip fraction 0.849; continuum limit exists.
+**Gluon invariant** = edge residual. Maps to §16 (lattice closure / continuum edge). Honest
+note: the "skip fraction 0.849" and the K=10/100/1000 residual sequence are EXPOSE-stated
+numerics — NOT independently re-verified in this recraft; carried as stated. The continuum-limit
+claim is interpretive, not a rigorous lattice→continuum proof.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

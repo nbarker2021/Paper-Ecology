@@ -350,6 +350,11 @@ reality = synchronized observer frames. **No run.py** (index: "needs creation").
 `033_observer_delay_z4.md` (§11B/11C/11D/11E). Consistent with `verify_observer_frame_selection`
 (static Z4 = 2 fixed + 6 period-4; temporal Z4 refuted). Honest, no fabrication.
 
+## 11G. ProofValidatedSuite Exposition — EXPOSE-19 (Observer Face-Selection)
+
+EXPOSE-19's D4 face min-residual (lossless F = 3 latent). Consistent with §11B/11C/11D/11E and
+`verify_observer_frame_selection`. Honest, no fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

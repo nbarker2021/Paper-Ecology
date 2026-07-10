@@ -227,6 +227,11 @@ P18 routes chart states to Monster VOA characters via the closure Gluon at D24. 
 for P18. Honest note: full moonshine identification is a registered irreducible gap; chart-level
 routing only.
 
+## 13C. ProofValidatedSuite Exposition — EXPOSE-18 (VOA Moonshine)
+
+EXPOSE-18's 2+6 VOA split → Monstrous Moonshine j(τ)=1+196883. **HONEST FLAG:** full moonshine
+identification is a registered irreducible gap; chart-level routing only.
+
 ## 13. References
 
 - Frenkel, I., Lepowsky, J., & Meurman, A. (1988). *Vertex Operator Algebras and the Monster*.

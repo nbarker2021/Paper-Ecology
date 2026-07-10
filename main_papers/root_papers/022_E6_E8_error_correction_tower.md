@@ -282,6 +282,12 @@ extension with C = the glue vector; the error-correction tower is the lattice-co
 CQECMPLX error-correction interpretation of the lattice chain; consistent with root 096/146
 (D1→D4→D24→D72). No A033996 / 343 / alpha_em issues.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-17 (E6-E8 Error-Correction Tower)
+
+EXPOSE-17: E6→E7→E8 tower, glue vectors from G2/F4, E8 dim 248, Z4 wrap. **Gluon invariant** =
+tower glue. Maps to §14 (E6-E8 tower). Consistent with root 096/146 (D1→D4→D24→D72). Honest
+note: tower is the CQECMPLX error-correction interpretation. No A033996/343/alpha_em issues.
+
 ## 14. References
 
 ### 14.1 Standard Mathematics
