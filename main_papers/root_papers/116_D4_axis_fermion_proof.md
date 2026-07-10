@@ -286,6 +286,11 @@ None.
 
 ---
 
+## 12B. Canonical Production Source — CQECMPLX-Production P03 (D4/J3 Triality)
+
+P03's triality surface (axis/sheet labeling + rotation/reflection + Jordan carrier) is the
+operational basis of the D4 axis→fermion proof here. Verifier PASS. Honest, no fabrication.
+
 ## 12. References
 
 - Paper 005 — D₄/J₃ triality surface. D4 axis/sheet codec.

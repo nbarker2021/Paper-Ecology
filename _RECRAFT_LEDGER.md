@@ -103,3 +103,16 @@ RETAINED as genuine fabrications:
 | datasets/ (dir) | TBD | — | likely DROP (data) |
 | appendices/ (dir) | TBD | — | |
 | workbooks/ (dir) | TBD | — | |
+
+## CQECMPLX-Production P00–P31 (canonical papers w/ formal+tool+workbook)
+
+| Production paper | Action | Target root(s) | Status / notes |
+|---|---|---|---|
+| CQE-paper-00 (Baseline Transport Contract) | CREATE + STD + MNY | 000_bootstrapping_lcr.md (new) | DONE. Foundation: chart↔J₃(𝕆) T3 (128 checks), T4–T7 SU(3) closure. run.py SMOKE PASS. |
+| CQE-paper-01 (LCR Chain Carrier) | EXTEND 001 + STD + MNY | 001_LCR_minimal_carrier.md (§16B) | DONE. run.py PASS (6/6). |
+| CQE-paper-02 (Correction Surface) | EXTEND 115 + 002 + STD + MNY | 115_correction_tower_closed_form.md (§14B), 002_Rule30_decomposition.md (§18B) | DONE. run.py PASS. ∂=C∧¬R correction surface. |
+| CQE-paper-03 (D4/J3 Triality) | EXTEND 005 + 116 + STD + MNY | 005_D4_J3_triality.md (§18B), 116_D4_axis_fermion_proof.md (§12B) | DONE. run.py PASS. |
+| CQE-paper-04 (Boundary Repair) | EXTEND 007 + STD + MNY | 007_boundary_repair.md (§16B) | DONE. No run.py (needs creation); transport framing only. |
+| CQE-paper-05 (Oloid Path Carrier) | EXTEND 008 + STD + MNY | 008_oloid_path_carrier.md (§16B) | DONE. No run.py; transport framing only. |
+| CQE-paper-06 (Causal Code) | EXTEND 009 + STD + MNY | 009_causal_obligation_ledger.md (§17B) | DONE. No run.py; transport framing only. |
+

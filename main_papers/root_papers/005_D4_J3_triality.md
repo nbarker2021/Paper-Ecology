@@ -827,6 +827,13 @@ This paper cross-references four data libraries:
 
 ---
 
+## 18B. Canonical Production Source — CQECMPLX-Production P03 (D4/J3 Triality)
+
+P03 represents axis/sheet labeling, rotation/reflection equivalence, and Jordan carrier
+behavior as the first explicit triality surface. Verifier `run.py` → PASS (6/6). Maps to
+§18 (D4/J3) and the fermion-proof surface in `116_D4_axis_fermion_proof.md`. The Weyl
+correspondence (T3c) is the triality action. Honest, no fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Mathematics

@@ -328,6 +328,13 @@ None.
 
 ---
 
+## 14B. Canonical Production Source — CQECMPLX-Production P02 (Correction Surface)
+
+P02 treats failure, mismatch, and nonlinear residue as **positive correction data**, not
+dismissal: the correction surface is ∂ = C ∧ ¬R at the chiral doublet Δ. Verifier `run.py` →
+PASS (6/6). This is the operational basis of `002_Rule30_decomposition.md` (Rule 30 = Rule 90
++ C·¬R) and the closure-tower in §14. Honest, no fabrication.
+
 ## 14. References
 
 - Paper 002 — Rule 30 decomposition, Duhamel superposition.

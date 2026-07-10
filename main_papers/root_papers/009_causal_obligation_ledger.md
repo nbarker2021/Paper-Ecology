@@ -385,6 +385,13 @@ The causal graph makes incompleteness traceable, not hidden. Every open obligati
 
 ---
 
+## 17B. Canonical Production Source — CQECMPLX-Production P06 (Causal Code)
+
+P06 casts every dependency between objects, proofs, tools, and papers as a typed causal edge
+— the obligation ledger's edge type. P06 has **no run.py** (index: "needs creation"); the
+causal/obligation ledger in §17 is the operational realization. Honest note: no machine check
+available for P06 itself.
+
 ## 17. References
 
 [1] N. Barker, *Paper 0 — The Transport Contract and Foreword*, PaperLib, 2026. Defines the finite state space and D/I/X claim taxonomy.

@@ -567,6 +567,13 @@ All mathematical claims in this paper are (D) data-backed. The source PaperLib p
 
 ---
 
+## 16B. Canonical Production Source — CQECMPLX-Production P01 (LCR Chain Carrier)
+
+P01 formalizes Left-Center-Right readout as the minimal chain carrier preserving a center
+while admitting two opposed boundary directions (L,R). Verifier `run.py` → SMOKE TEST PASS
+(6/6 transport checks). Carries the same chart↔J₃(𝕆) basis (T3) as §16; the LCR triple is the
+smallest non-trivial carrier in the 2-category 𝓛. Honest, no fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

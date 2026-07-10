@@ -433,6 +433,13 @@ Boundary repair is the suite's first formal failure-preservation operator. A fai
 
 ---
 
+## 16B. Canonical Production Source — CQECMPLX-Production P04 (Boundary Repair)
+
+P04 defines boundary repair as the transport op converting failed joins into typed
+constraints for the next legal route. P04 has **no run.py** (index marks "needs creation"),
+so no independent verifier is cited; the claim is the transport-contract framing of the
+boundary-repair algebra in §16. Honest note: no machine check available for P04 itself.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

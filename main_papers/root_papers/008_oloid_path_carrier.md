@@ -609,6 +609,13 @@ The octonionic multiplication table induces the transition structure of the oloi
 
 ---
 
+## 16B. Canonical Production Source — CQECMPLX-Production P05 (Oloid Path Carrier)
+
+P05 uses curved/rolling (oloid) carriers to show transport need not be straight-line to
+preserve continuity — the geometric realization of the LCR chain carrier. P05 has **no run.py**
+(index: "needs creation"); claim is the transport-contract framing of the oloid path in §16.
+Honest note: no machine check available for P05 itself.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics and Kinematics

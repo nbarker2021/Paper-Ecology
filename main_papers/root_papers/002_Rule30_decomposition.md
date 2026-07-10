@@ -706,6 +706,12 @@ The decomposition proves the Rule 30 center bit is not computationally irreducib
 
 ---
 
+## 18B. Canonical Production Source — CQECMPLX-Production P02 (Correction Surface)
+
+P02 is the transport-theoretic framing of the Rule 30 decomposition: the correction term
+C·¬R is the positive residue of every mismatched route. Verifier PASS. Supports §18 (ANF) and
+the correction tower (root 115). Honest, no fabrication.
+
 ## 18. References
 
 ### 19.1 Standard Mathematics
