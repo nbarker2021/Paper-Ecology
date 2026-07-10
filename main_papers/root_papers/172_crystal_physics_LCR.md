@@ -172,6 +172,107 @@ Paper 28 frames CAM (Content-Addressable Memory) crystal projectors and the Mann
 the LCR substrate's observer/computation layer. **(I)** interpretation on **(D)** crystal-physics
 base. Honest, no fabrication.
 
+
+## 28A. Formal-Paper Deep-Dive (CQE-paper-28)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-28/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+A local-rule game is a finite receipt `(lattice, neighborhood, move rule,
+obligation ledger)`. The move rule reads a local `(L, C, R)` chart state and
+emits an occupancy bit.
+
+An admissible dimension is one of the verified code-tower dimensions
+`{1,3,7,8,24,72}`. A game on another dimension may exist as a candidate, but it
+does not inherit this proof surface without its own verifier.
+
+A move orbit is the set of trace-2 states produced by the six S3 permutations.
+Repeated target states are retained in the receipt because they came from
+different group elements.
+
+A forbidden carrier is a move row that the game policy excludes. It is logged
+as a constraint, not deleted.
+
+A closed game solver claim is a claim about strategy, termination, winning
+states, fairness, or complete game solution. This paper does not make such a
+claim.
+
+### Claims
+
+1. The verified code-tower dimensions define admissible game-lattice surfaces.
+
+2. Dimension 8 is a valid worked board through the extended Hamming verifier.
+
+3. A trace-2 S3 orbit supplies a finite move surface for a local-rule piece.
+
+4. Rule 30 local emission gives each orbit row a replayable occupancy bit.
+
+5. Forbidden carriers can be logged without deleting the move receipt.
+
+6. Every chart row in the receipt closes to a Lie-conjugate attractor in at
+most three steps.
+
+7. General game solving and real-game strategy are open obligations.
+
+_**(D)** formal claim._
+
+### Theorem 28
+
+An N-dimensional game lattice is valid in the CQE kernel when it is presented
+as a finite local-rule receipt on an admissible code-tower dimension: the move
+orbit is enumerated, emissions are replayable, forbidden carriers are logged,
+and every row carries its closure or obligation status.
+
+_**(D)** formal claim._
+
+### Proof
+
+The dimension claim follows from `verify_lattice_code_chain`. The verifier
+passes every layer of the chain and returns the forced dimension set
+`{1,3,7,8,24,72}`. This proves that the game board dimensions used here are
+not arbitrary choices inside this kernel.
+
+The worked-board claim follows from `verify_extended_hamming_8`. The
+dimension-8 board has the expected extended Hamming parameters: 16 codewords,
+minimum weight 4, and weight distribution `{0:1, 4:14, 8:1}`.
+
+The move-orbit claim follows from `S3_PERMUTATIONS` and the trace-2 state map.
+Starting from `(1,0,1)`, the six S3 elements produce six receipt rows and three
+unique target states. The identity row is marked `forbidden_logged`; it remains
+in the receipt as a constraint. The other five rows are legal orbit moves.
+
+The emission claim follows from `rule30_bit` applied to every target state. The
+closure claim follows from `anneal_to_lie_conjugate`: the maximum anneal count
+in the worked receipt is three, and the global centroid closure verifier also
+passes over all eight chart states. Therefore the local-rule game lattice is
+closed as a finite receipt.
+
+Nothing in the receipt evaluates strategy, game termination, winning states,
+or arbitrary real-piece geometry. Those are therefore obligations, not hidden
+claims.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+The general N-dimensional game solver is not claimed. The receipt proves finite
+orbit closure, not arbitrary solvability.
+
+Non-code-tower dimensions remain open. Dimension 5 is explicitly rejected by
+the verifier as outside the inherited proof surface.
+
+Real game-piece geometry remains open. Each piece type needs its own map into
+the trace-2/S3 orbit.
+
+Complete game theory remains open. Legal move receipts do not prove strategy,
+termination, winning states, or fairness.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 9. References
 
 1. Chen, F. F. (1984). *Introduction to Plasma Physics.* Plenum.

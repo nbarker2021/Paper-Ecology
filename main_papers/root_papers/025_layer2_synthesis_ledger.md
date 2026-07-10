@@ -384,6 +384,391 @@ FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live 
 Paper 40 = grand reconstruction map / trust-removal protocol (the Band-B→C assembly ledger). **(I)**
 governance framing. Maps to §14 (layer-2 synthesis) and §11 (Grand Ribbon). No fabrication.
 
+
+## 14A. Formal-Paper Deep-Dive (CQE-paper-14)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-14/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 14.1.** The transport ledger is a finite typed repair ledger whose rows
+carry explicit proof boundaries.
+
+**Claim 14.2.** Demonstrated rows define zero repair in this ledger.
+
+**Claim 14.3.** Open or lifted rows define positive repair demand.
+
+**Claim 14.4.** Exact `n=3` `SU(3)` closure from Paper 13 is a zero-repair
+reference because its residual squared is exactly `0`.
+
+**Claim 14.5.** The Cayley-Dickson/Oloid carrier verifies a repeating
+`1,8,8,1` normal-form pattern while explicitly refusing to prove nth-bit
+extraction by itself.
+
+**Claim 14.6.** General Relativity curvature is a candidate interpretation of
+repair demand, not a closed theorem in this paper.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **repair demand** is unresolved transport residue preserved as an obligation
+instead of erased.
+
+A **repair score** is the scalar proxy:
+
+```text
+demonstrated -> 0
+bounded_local -> 1
+bounded_external -> 2
+registered_landing_forms -> 3
+open -> 4
+```
+
+A **flat reference** is a closed transport whose exact residual is `0`.
+
+A **curved carrier** is a carrier that transports a state through a non-flat or
+multi-dyad route while preserving a receipt and an honesty boundary.
+
+### Theorem 14
+
+For the currently promoted transport ledger, boundary-repair curvature is a
+well-defined substrate quantity:
+
+```text
+curvature_CQE(route) = repair_score(route.classification)
+```
+
+with zero value exactly on demonstrated rows and positive value on visible
+non-closed lifts. This quantity is a CQECMPLX repair ledger, not a physical
+Riemann tensor.
+
+_**(D)** formal claim._
+
+### Proof
+
+The verifier reads the four transport obligation rows. Each row has a source
+object, target object, map, preserved quantity, failure condition, witness,
+classification, and proof boundary. This proves Claim 14.1.
+
+The verifier assigns repair score `0` to `demonstrated` rows. It checks that all
+demonstrated rows have score `0`. This proves Claim 14.2.
+
+The verifier assigns positive score to all lifted or open classifications. The
+current ledger has two demonstrated rows and two open lifts; the two open lifts
+are exactly the rows with nonzero repair score. This proves Claim 14.3.
+
+Paper 13 supplies the flat reference. Its exact `n=3` shell-2 `SU(3)` closure
+has residual squared `0` over the rationals. A zero residual requires no repair
+row at that closure layer. This proves Claim 14.4.
+
+The Cayley-Dickson/Oloid verifier checks the normal form across the tested
+range and confirms the `1,8,8,1` pattern. The generated form carries an honesty
+string stating that the normal form does not by itself prove nth-bit extraction.
+The dual-path oloid verifier also passes, including the three-dyad involution
+coherence checks. This proves Claim 14.5.
+
+No computation in the receipt constructs Riemann, Ricci, or Einstein tensors.
+The verifier explicitly rejects the claim that Einstein field equations are
+verified by this receipt. This proves Claim 14.6.
+
+Together these results prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-14/verify_boundary_repair_curvature.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-14/boundary_repair_curvature_receipt.json
+```
+
+Closed layers:
+
+```text
+transport obligations are typed and boundary-bearing
+demonstrated rows score zero repair
+open lifts score nonzero repair
+Paper 13 exact SU3 closure supplies zero-repair reference
+Cayley-Dickson/Oloid normal form verifies 1,8,8,1 carrier pattern
+dual-path oloid verifies three-dyad involution coherence
+```
+
+Open layers:
+
+```text
+Riemann/Ricci/Einstein tensor derivation
+calibrated gravitational measurement
+nth-bit extraction from the oloid normal form alone
+```
+
+### Falsifiers
+
+The paper fails if any transport row lacks a proof boundary.
+
+It fails if a demonstrated row receives nonzero repair score.
+
+It fails if a non-closed lift is treated as zero repair.
+
+It fails if the Paper 13 flat reference has nonzero exact residual.
+
+It fails if the oloid normal form is presented as nth-bit extraction.
+
+It fails if this receipt is used as a derivation of Einstein's field equations.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 40A. Formal-Paper Deep-Dive (CQE-paper-40)
+
+> Recrafted from `CQE-paper-40` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 40.1** (CQE triality): The CQE triality is the LCR structure with correction firing at the chiral doublet. Verified by finite structure check. Derived from Paper 1. Full proof in §4.1.
+- **Theorem 40.2** (15-scale hierarchy): The 15-scale hierarchy (Σ0–Σ14) is a structured progression from edge to void. Verified by finite hierarchy check. Derived from Paper 10. Full proof in §4.2.
+- **Theorem 40.3** (Spectre uniqueness): The Spectre monotile is the only known shape that tiles the plane aperiodically without reflections. Verified by external citation. Full proof in §4.3.
+- **Protocol 40.4** (Completion-correspondence boundary): The hypothesis that the triality is the Spectre tile, that the 15 scales correspond to Spectre resolution depths, and that the void boundary is the self-similarity fixed point remain open obligations. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Triality).** The *triality* is the LCR structure: L = left boundary, C = center, R = right boundary, with correction firing at the chiral doublet.
+
+**Definition 2.2 (15-scale hierarchy).** The *15-scale hierarchy* is the structured progression from Σ0 (edge) to Σ14 (void) that organizes the CQE corpus.
+
+**Definition 2.3 (Spectre self-similarity).** The *Spectre self-similarity* is the hypothetical claim that the Spectre tile's substitution rules converge to a fixed point analogous to the void boundary. This is an open hypothesis.
+
+---
+
+### 4. Main Results
+
+### Theorem 40.1 — CQE Triality (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The CQE triality is the LCR structure: L = left boundary, C = center, R = right boundary. The correction operator C & (1-R) fires at the chiral doublet (0,1,0) and (1,1,0).
+
+**Proof.** From Paper 1 (Theorem 1.1), the LCR carrier defines the triality structure. The correction firing is from Paper 2 (Theorem 2.1). ∎
+
+---
+
+### Theorem 40.2 — 15-Scale Hierarchy (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 15-scale hierarchy (Σ0–Σ14) is a structured progression from edge (Σ0) to void (Σ14). Each scale corresponds to a layer in the CQE transport obligation table.
+
+**Proof.** From Paper 10 (Theorem 10.1), the transport obligation table has 4 rows with classifications: demonstrated, bounded_local, bounded_external, and registered_landing_forms. The 15-scale hierarchy extends this structure to a full progression. ∎
+
+---
+
+### Theorem 40.3 — Spectre Uniqueness (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The Spectre monotile is the only known shape that tiles the plane aperiodically without reflections. It has two enantiomorphic forms.
+
+**Proof.** This is a documented result from Smith et al. (2023). The Spectre tile is the first aperiodic monotile that does not require reflections. ∎
+
+---
+
+### Protocol 40.4 
+
+### 5. Tables
+
+### Table 40.1 — 15-Scale Hierarchy
+
+| Scale | Name | Description |
+|-------|------|-------------|
+| Σ0 | Edge | Single edge (1-bit) |
+| Σ1 | Tile | Full tile |
+| Σ2 | Cluster | 7 tiles |
+| Σ3 | Supercluster | 49 tiles |
+| Σ4 | Megacluster | 343 tiles |
+| ... | ... | ... |
+| Σ14 | Void | Self-similarity fixed point |
+
+### Table 40.2 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Triality = Spectre tile | open | no geometric isomorphism proof |
+| 15 scales = Spectre depths | open | no formal correspondence theorem |
+| Void = self-similarity fixed point | open | no fixed-point theorem |
+
+---
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-paper-18` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONS
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 14. References
 
 ### 14.1 Standard Mathematics

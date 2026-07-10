@@ -261,6 +261,329 @@ print(f"  = 10·ln(φ) = {10 * math.log(PHI):.6f}")
 
 *Proof.* The slot plan assigns positions 1-240 across 24 layers. Layers 1-16 cover positions 1-160. Layers 17-24 cover positions 161-240. The 2/3 ratio corresponds to the golden ratio φ ≈ 1.618, with 24/φ² ≈ 24/2.618 ≈ 9.2 ≈ 8 layers remaining (Layers 17-24). ∎
 
+
+## 15A. Formal-Paper Deep-Dive (CQE-paper-15)
+
+> Recrafted from `CQE-paper-15` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 15.1.** Rule 30 decomposes over `F2` as:
+
+```text
+Rule30(L,C,R) = (L xor C xor R) xor (C and R)
+```
+
+**Claim 15.2.** The bilinear obstruction has Arf invariant `0`, and Arf
+matching supplies a finite gluing rule.
+
+**Claim 15.3.** The VOA sector decomposition of the eight chart states is:
+
+```text
+Z(q) = 2q^0 + 6q^5
+```
+
+**Claim 15.4.** The local correction-residue states are exactly:
+
+```text
+(0,1,0), (1,1,0)
+```
+
+because those are the states where `C AND NOT R` fires.
+
+**Claim 15.5.** The nth-bit layer passes as a local/oracle-backed carrier
+check; McKay-Thompson correction parity remains the missing closed-form
+transport.
+
+**Claim 15.6.** The mass-residue carrier is the internal Higgs-adjacent physics
+map; measured Higgs and particle-mass predictions require external
+calibration.
+
+**Claim 15.7.** The chart carries eight states, not nine. The apparent `+1` is
+a dual reading of one state through the wrap (antipodal / Cayley-Dickson
+conjugation), not a separate ninth state: one gluon shows a color face or a
+white face depending on traversal. The wrap is a fixed-point-free involution,
+so the singlet axis is one state with two definite faces. This is the
+framework's confinement reading: there is no colorless ninth gluon because
+there is no ninth state.
+
+**Claim 15.8.** The ninth slot is the forced printout (parity/trace) of the
+completed eight. It is genuinely neutral/supe
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **carrier effect** is a quantity accepted only when it is witnessed by local
+readout and receipt.
+
+The **linear part** of the local Rule 30 formula is `L xor C xor R`.
+
+The **obstruction** is the bilinear term `C and R`.
+
+The **correction residue** is `C and not R`.
+
+A **mass-residue carrier** is the substrate object that survives cancellation,
+has a receipt, and carries a weight. It is the CQECMPLX internal mass-like
+carrier. A physical rest-mass value requires a later calibrated map into
+measured units.
+
+### Theorem 15
+
+The CQECMPLX mass-residue carrier is a finite substrate layer consisting of:
+
+```text
+F2 obstruction
+-> Arf gluing receipt
+-> correction-residue local states
+-> VOA weight split
+-> Higgs-adjacent mass-residue physics map
+-> external calibration obligation
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+Exhaust the eight local chart states. For every `(L,C,R)`, the verifier checks:
+
+```text
+Rule30(L,C,R) = (L xor C xor R) xor (C and R)
+```
+
+This proves Claim 15.1.
+
+The `f2_majorana` verifier reports:
+
+```text
+q_zero_arf = 0
+q_hyperbolic_arf = 0
+q_elliptic_arf = 1
+rule30_correction_arf = 0
+zero_vs_hyperbolic_can_glue = true
+zero_vs_elliptic_can_glue = false
+```
+
+Thus the obstruction has Arf invariant `0`; matching Arf classes glue, and
+mismatched classes reject. This proves Claim 15.2.
+
+The `centroid_voa` verifier reports exactly two true vacua of weight `0` and
+six excited states of weight `5`. Therefore the seed partition function is
+`Z(q) = 2q^0 + 6q^5`. This proves Claim 15.3.
+
+The correction-residue function is `C AND NOT R`. Exhausting the eight states
+shows that it fires only at `(0,1,0)` and `(1,1,0)`. This proves Claim 15.4.
+
+The nth-bit layer passes at the tested local/oracle level with `oracle_accuracy
+= 1.0`, while the receipt still names McKay-Thompson correction parity as an
+open step. Therefore the local residue evidence is admitted and the closed-form
+parity theorem remains open. This proves Claim 15.5.
+
+The verifier does not yet compute a measured Higgs mass, electroweak symmetry
+breaking, Yukawa couplings, or a particle mass spectrum. That is the external
+calibration bridge. The internal carrier itself is closed: residue survives,
+Arf-compatible gluing admits 
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-15/verify_mass_residue_carrier.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-15/mass_residue_carrier_receipt.json
+```
+
+Interpretive-refinement verifiers and receipts (this pass):
+
+```text
+verify_eight_states_one_dual_reading.py  -> eight_states_one_dual_reading_receipt.json   (7/7)
+verify_ninth_is_forced_printout.py       -> ninth_is_forced_printout_receipt.json        (6/6)
+verify_mass_framing_2x2x2_vs_3x3.py      -> mass_framing_2x2x2_vs_3x3_receipt.json        (7/7)
+```
+
+Closed layers:
+
+```text
+Rule 30 splits into linear part xor C*R obstruction over F2
+Rule 30 obstruction has Arf invariant 0
+Arf-matching gluing admits and Arf-mismatch gluing rejects
+VOA sector decomposition is 2q^0 + 6q^5
+correction residue C and not R identifies the local surviving-residue states
+nth-bit local/oracle layer passes while McKay-Thompson parity remains open
+```
+
+Open layers:
+
+```text
+calibration to the physical Higgs mechanism
+particle mass spectrum or numerical mass prediction in measured units
+electroweak symmetry breaking/Yukawa coupling calibration
+closed-form McKay-Thompson correction parity
+```
+
+### Falsifiers
+
+The paper fails if the Rule 30 split fails on any local state.
+
+It fails if Arf mismatch glues losslessly.
+
+It fails if the VOA split is not two weight-0 vacua and six weight-5 excited
+states.
+
+It fails if the correction residue fires anywhere other than `(0,1,0)` and
+`(1,1,0)`.
+
+It fails if the internal mass-residue carrier is presented as a measured
+Higgs-mass value without the calibration bridge.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. IRL Higgs/W/Z/top mass targets are recorded in NP-15; chart-to-mass calibration bridge remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 16A. Formal-Paper Deep-Dive (CQE-paper-16)
+
+> Recrafted from `CQE-paper-16` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 16.1.** Every local chart state closes to a Lie-conjugate rest state in
+at most three `S3` transposition steps.
+
+**Claim 16.2.** There are exactly four Lie-conjugate rest states.
+
+**Claim 16.3.** Edge residue is exactly `C AND NOT R`, so it fires only at
+`(0,1,0)` and `(1,1,0)`.
+
+**Claim 16.4.** Power-of-ten windows are valid local receipt windows.
+
+**Claim 16.5.** Local/oracle nth-bit checks pass with correction included, but
+the global correction collapse remains open.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **rollout** is the local process of reading a state until it reaches rest.
+
+A **Lie-conjugate rest state** is an `L=R` chart state.
+
+An **edge residual** is a carry in flight at a window boundary:
+
+```text
+edge_residue(L,C,R) = C AND NOT R
+```
+
+A **power-of-ten window** is a practical aperture at depths `10`, `100`,
+`1000`, and so on. It is a receipt window, not a continuum proof.
+
+### Theorem 16
+
+Continuum edge residuals are locally well-defined window receipts:
+
+```text
+local state -> <=3-step rest closure -> edge_residue = C AND NOT R
+```
+
+and every global continuum claim remains an obligation until the propagating
+correction sum is closed.
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid verifier checks all eight chart states and reports local closure.
+Every state anneals to a Lie-conjugate rest state in at most three `S3` steps.
+This proves Claim 16.1.
+
+The rest states are the four states satisfying `L=R`. The verifier reports the
+count as `4`. This proves Claim 16.2.
+
+The edge-residue formula is `C AND NOT R`. Exhausting all eight states gives
+exactly `(0,1,0)` and `(1,1,0)`. This proves Claim 16.3.
+
+The verifier samples windows at `10`, `100`, and `1000`. For each window it
+records the selected local state, edge-residue value, anneal step count, and
+final rest state. Each sampled window closes locally. This proves Claim 16.4 as
+a local receipt statement.
+
+The nth-bit layer passes with local/oracle correction included, but the receipt
+names McKay-Thompson correction parity as open. Therefore the local edge
+residual is admitted while global continuum collapse is not. This proves Claim
+16.5.
+
+Together these claims prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-16/verify_continuum_edge_residuals.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-16/continuum_edge_residuals_receipt.json
+```
+
+Closed layers:
+
+```text
+every local chart state anneals to a Lie-conjugate rest state in <=3 S3 steps
+there are four Lie-conjugate rest states
+edge residue is exactly C and not R
+sample decade windows carry local receipts
+local/oracle nth-bit layer passes with correction included
+```
+
+Open layers:
+
+```text
+global continuum closure
+O(N) to O(log N) propagating-correction collapse
+closed McKay-Thompson correction parity
+claim that adding digits terminates continuum depth
+```
+
+### Falsifiers
+
+The paper fails if any local chart state needs more than three anneal steps.
+
+It fails if edge residue fires outside `C=1, R=0`.
+
+It fails if power-of-ten windows are treated as a completed continuum limit.
+
+It fails if the McKay-Thompson parity obligation is hidden.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. IRL fine-structure constant target is recorded in NP-15; physical alpha calibration remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 11. References
 
 - Paper 150 — Layer 15 Closure

@@ -367,6 +367,398 @@ Paper 38 = observer / computation / AI-runtime translated into LCR (bounded obse
 **(I)** interpretation, consistent with `verify_observer_frame_selection`. Maps to §14 and §11. No
 fabrication.
 
+
+## 14A. Formal-Paper Deep-Dive (CQE-paper-14)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-14/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 14.1.** The transport ledger is a finite typed repair ledger whose rows
+carry explicit proof boundaries.
+
+**Claim 14.2.** Demonstrated rows define zero repair in this ledger.
+
+**Claim 14.3.** Open or lifted rows define positive repair demand.
+
+**Claim 14.4.** Exact `n=3` `SU(3)` closure from Paper 13 is a zero-repair
+reference because its residual squared is exactly `0`.
+
+**Claim 14.5.** The Cayley-Dickson/Oloid carrier verifies a repeating
+`1,8,8,1` normal-form pattern while explicitly refusing to prove nth-bit
+extraction by itself.
+
+**Claim 14.6.** General Relativity curvature is a candidate interpretation of
+repair demand, not a closed theorem in this paper.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **repair demand** is unresolved transport residue preserved as an obligation
+instead of erased.
+
+A **repair score** is the scalar proxy:
+
+```text
+demonstrated -> 0
+bounded_local -> 1
+bounded_external -> 2
+registered_landing_forms -> 3
+open -> 4
+```
+
+A **flat reference** is a closed transport whose exact residual is `0`.
+
+A **curved carrier** is a carrier that transports a state through a non-flat or
+multi-dyad route while preserving a receipt and an honesty boundary.
+
+### Theorem 14
+
+For the currently promoted transport ledger, boundary-repair curvature is a
+well-defined substrate quantity:
+
+```text
+curvature_CQE(route) = repair_score(route.classification)
+```
+
+with zero value exactly on demonstrated rows and positive value on visible
+non-closed lifts. This quantity is a CQECMPLX repair ledger, not a physical
+Riemann tensor.
+
+_**(D)** formal claim._
+
+### Proof
+
+The verifier reads the four transport obligation rows. Each row has a source
+object, target object, map, preserved quantity, failure condition, witness,
+classification, and proof boundary. This proves Claim 14.1.
+
+The verifier assigns repair score `0` to `demonstrated` rows. It checks that all
+demonstrated rows have score `0`. This proves Claim 14.2.
+
+The verifier assigns positive score to all lifted or open classifications. The
+current ledger has two demonstrated rows and two open lifts; the two open lifts
+are exactly the rows with nonzero repair score. This proves Claim 14.3.
+
+Paper 13 supplies the flat reference. Its exact `n=3` shell-2 `SU(3)` closure
+has residual squared `0` over the rationals. A zero residual requires no repair
+row at that closure layer. This proves Claim 14.4.
+
+The Cayley-Dickson/Oloid verifier checks the normal form across the tested
+range and confirms the `1,8,8,1` pattern. The generated form carries an honesty
+string stating that the normal form does not by itself prove nth-bit extraction.
+The dual-path oloid verifier also passes, including the three-dyad involution
+coherence checks. This proves Claim 14.5.
+
+No computation in the receipt constructs Riemann, Ricci, or Einstein tensors.
+The verifier explicitly rejects the claim that Einstein field equations are
+verified by this receipt. This proves Claim 14.6.
+
+Together these results prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-14/verify_boundary_repair_curvature.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-14/boundary_repair_curvature_receipt.json
+```
+
+Closed layers:
+
+```text
+transport obligations are typed and boundary-bearing
+demonstrated rows score zero repair
+open lifts score nonzero repair
+Paper 13 exact SU3 closure supplies zero-repair reference
+Cayley-Dickson/Oloid normal form verifies 1,8,8,1 carrier pattern
+dual-path oloid verifies three-dyad involution coherence
+```
+
+Open layers:
+
+```text
+Riemann/Ricci/Einstein tensor derivation
+calibrated gravitational measurement
+nth-bit extraction from the oloid normal form alone
+```
+
+### Falsifiers
+
+The paper fails if any transport row lacks a proof boundary.
+
+It fails if a demonstrated row receives nonzero repair score.
+
+It fails if a non-closed lift is treated as zero repair.
+
+It fails if the Paper 13 flat reference has nonzero exact residual.
+
+It fails if the oloid normal form is presented as nth-bit extraction.
+
+It fails if this receipt is used as a derivation of Einstein's field equations.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 38A. Formal-Paper Deep-Dive (CQE-paper-38)
+
+> Recrafted from `CQE-paper-38` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 38.1** (Static Z4 template): The static Z4 template has 2 fixed points and 6 period-4 states. Verified by finite Z4 check. Derived from Paper 27. Full proof in §4.1.
+- **Theorem 38.2** (Shared gluon C): All 64 observer rows share the same gluon C under opposite-boundary reads. Verified by 64-row observer check. Derived from Paper 27. Full proof in §4.2.
+- **Theorem 38.3** (Anneal delay bound): The anneal delay is bounded by 3 steps. Verified by finite anneal check. Derived from Paper 27. Full proof in §4.3.
+- **Protocol 38.4** (Observer-correspondence boundary): The hypothesis that the Z4 template corresponds to Spectre 4-fold symmetry, that 64 observer rows correspond to 64 Spectre positions, and that anneal delay corresponds to Spectre substitution depth remain open obligations. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Observer frame).** The *observer frame* is the finite chart structure used in Papers 6, 19, and 27 to model boundary reading and center selection.
+
+**Definition 2.2 (Spectre 4-fold symmetry).** The *Spectre 4-fold symmetry* is the hypothetical claim that the Spectre tile admits a Z4 action analogous to the static Z4 template. This is an open hypothesis.
+
+---
+
+### 4. Main Results
+
+### Theorem 38.1 — Static Z4 Template (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The static Z4 template has 2 fixed points and 6 period-4 states. There are no period-2 states.
+
+**Proof.** From Paper 27 (Theorem 27.1), the Z4 template verifier confirms exactly 2 fixed points, 0 period-2 states, and 6 period-4 states over the 8 chart states. ∎
+
+---
+
+### Theorem 38.2 — Shared Gluon C (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** All 64 observer rows share the same gluon C under opposite-boundary reads. The side-disagreement count is 37, showing that boundary data is preserved.
+
+**Proof.** From Paper 27 (Theorem 27.3), the 64-row observer receipt confirms that all rows share the same center. The side-disagreement count is 37, preserving boundary data. ∎
+
+---
+
+### Theorem 38.3 — Anneal Delay Bound (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The anneal delay is bounded by 3 steps. The distribution is 27 rows at delay 0, 20 at delay 2, and 17 at delay 3.
+
+**Proof.** From Paper 27 (Theorem 27.5), the anneal delay verifier confirms the bound of 3 steps. The S₃ diameter is 3, so any state reaches its attractor in at most 3 transpositions. ∎
+
+---
+
+### Protocol 38.4 — Observer-Correspondence Boundary (X)
+
+**Lane:** `falsifier_or_open_obligation`. **Tag:** X.
+
+**Statement.** The following claims a
+
+### 5. Tables
+
+### Table 38.1 — Z4 Template
+
+| Period | Count | States |
+|--------|-------|--------|
+| 1 (fixed) | 2 | (0,0,0), (1,1,1) |
+| 2 | 0 | — |
+| 4 | 6 | All other chart states |
+
+### Table 38.2 — Observer Rows
+
+| Metric | Value |
+|--------|-------|
+| Total rows | 64 |
+| All share center | True |
+| Side disagreement | 37 |
+| Max anneal delay | 3 |
+
+### Table 38.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Z4 template = Spectre 4-fold | open | no geometric proof |
+| 64 rows = 64 Spectre positions | open | no bijective mapping |
+| Anneal delay = substitution depth | open | no formal correspondence theorem |
+
+---
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-paper-18` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONS
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 14. References
 
 ### 14.1 Standard References

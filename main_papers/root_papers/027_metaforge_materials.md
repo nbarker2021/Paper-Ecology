@@ -348,6 +348,93 @@ Paper 36 = condensed matter / materials / metamaterials via the forge substrate.
 interpretation; analog workbook only. Maps to §15 (MetaForge) and §13 (material patterns). No
 fabrication.
 
+
+## 36A. Formal-Paper Deep-Dive (CQE-paper-36)
+
+> Recrafted from `CQE-paper-36` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 36.1** (Exceptional ladder dimensions): The verified code-tower dimensions are {1, 3, 7, 8, 24, 72}. Verified by finite lattice-code chain check. Derived from Paper 28. Full proof in §4.1.
+- **Theorem 36.2** (Extended Hamming code): The extended Hamming code [8,4,4] has 16 codewords, minimum weight 4, and weight distribution {0:1, 4:14, 8:1}. Verified by finite Hamming check. Derived from Paper 28. Full proof in §4.2.
+- **Theorem 36.3** (Leech lattice): The Leech lattice is a 24-dimensional even unimodular lattice with no vectors of norm 2. Verified by external citation. Full proof in §4.3.
+- **Protocol 36.4** (Ladder-correspondence boundary): The hypothesis that each rung corresponds to a Spectre tiling layer, that the 14-edge boundary encodes exceptional structures, and that 72 tiles correspond to Gamma72 remain open obligations. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Exceptional ladder).** The *exceptional ladder* is the sequence of dimensions {1, 3, 7, 8, 24, 72} that appear in the CQE code-tower chain. Each dimension corresponds to an exceptional algebraic or geometric structure.
+
+**Definition 2.2 (Spectre layer).** A *Spectre layer* is a hypothetical geometric arrangement of Spectre tiles at a given scale. The claim that each rung of the exceptional ladder corresponds to a Spectre layer is an open hypothesis.
+
+---
+
+### 4. Main Results
+
+### Theorem 36.1 — Exceptional Ladder Dimensions (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The verified code-tower dimensions are {1, 3, 7, 8, 24, 72}. The powered shortcut is {1, 9, 49, 72}.
+
+**Proof.** From Paper 28 (Theorem 28.1), the lattice-code chain verifier returns exactly these dimensions. ∎
+
+---
+
+### Theorem 36.2 — Extended Hamming Code (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The extended Hamming code [8,4,4] has 16 codewords, minimum weight 4, and weight distribution {0:1, 4:14, 8:1}.
+
+**Proof.** From Paper 28 (Theorem 28.2), the Hamming verifier confirms these parameters. ∎
+
+---
+
+### Theorem 36.3 — Leech Lattice (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The Leech lattice is a 24-dimensional even unimodular lattice with no vectors of norm 2. It is the unique such lattice in 24 dimensions.
+
+**Proof.** This is a documented result from Conway and Sloane (1999). The Leech lattice is the unique 24-dimensional even unimodular lattice with minimum norm 4. ∎
+
+---
+
+### Protocol 36.4 — Ladder-Correspondence Boundary (X)
+
+**Lane:** `falsifier_or_open_obligation`. **Tag:** X.
+
+**Statement.** The following claims are not closed by this paper:
+1. **Rung = Spectre layer:** The claim that each rung of the exceptional ladder corresponds to a layer of Spectre tiling require
+
+### 5. Tables
+
+### Table 36.1 — Exceptional Ladder
+
+| Rung | Dimension | Structure |
+|------|-----------|-----------|
+| 1 | 1 | Trivial |
+| 2 | 3 | S₃/Fano |
+| 3 | 7 | Octonion imaginaries |
+| 4 | 8 | E8 seed |
+| 5 | 24 | Leech lattice |
+| 6 | 72 | Gamma72 |
+
+### Table 36.2 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Rung = Spectre layer | open | no geometric proof |
+| 14-edge boundary encodes lattices | open | no formal encoding theorem |
+| 72 tiles = Gamma72 | open | no structural correspondence proof |
+
+---
+
+---
+
+
 ## 15. References
 
 ### 15.1 Standard References

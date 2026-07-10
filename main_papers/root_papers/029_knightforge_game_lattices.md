@@ -296,6 +296,115 @@ Paper 23 frames finite game lattices / local-rule automata on the LCR lattice. *
 {0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}. Maps to §14 (KnightForge) and
 `176_n_dim_game_lattices.md`. No fabrication here.
 
+
+## 23A. Formal-Paper Deep-Dive (CQE-paper-23)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-23/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+A residue chart is the sequence of overlapping local windows
+`(residue[n-1], residue[n], residue[n+1])`. `C` is the active residue. `L` and
+`R` are its two backbone neighbors. A contact map is a symmetric matrix recording
+which residue pairs satisfy the selected contact predicate. In this verifier the
+predicate is deliberately simple: separated hydrophobic residues form a
+candidate contact. A bifurcation mark is a side-change event in the local
+window, used as a candidate turn or topology marker.
+
+A winding trace is the bounded oloid/spinor trace supplied by the lattice
+substrate. It is a trace witness, not a depth-only theorem. A FoldForge descriptor
+is admitted only when it carries both its contact-map receipt and its open
+validation obligations.
+
+### Claims
+
+1. A residue chain can be read as local CQE windows.
+
+The verifier constructs one chart row per residue and confirms that the interior
+chain has complete left-center-right windows.
+
+2. A replayable contact-map receipt can be emitted.
+
+The example contact map is symmetric, has zero diagonal, has nonzero contacts,
+and has density strictly between 0 and 1. This proves the receipt format and
+replay rule, not biological correctness.
+
+3. Local side changes can be marked as candidate fold events.
+
+The local window sequence emits side-change marks. These marks are descriptors
+only; they become biological claims only after comparison to deposited or
+experimentally measured structures.
+
+4. The oloid winding substrate is bounded and honest about its gap.
+
+The winding model verifies as a bounded trace witness with a stable 8-state
+operator. It also carries the depth-only extractor gap, so the paper does not
+claim a closed all-`N` winding formula.
+
+5. FoldForge remains a candidate descriptor until validated.
+
+The direct oloid predictor and bifurcation detector both carry open gaps. Paper
+23 treats those gaps as part of the result.
+
+_**(D)** formal claim._
+
+### Theorem 23
+
+FoldForge is a valid CQE protein-fold descriptor kernel when it returns a
+replayable residue-window chart, contact-map receipt, candidate bifurcation list,
+bounded winding witness, and explicit validation obligations for a chosen
+protein-chain observation.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_foldforge_descriptor.py`. The first check builds the residue chart
+and verifies the local-window count. This imports the Paper 21 reader into a
+protein-chain setting without making any global structure claim.
+
+The second check builds the contact map. Symmetry and zero diagonal are required
+because a residue-residue contact is an unordered relation and a residue is not
+treated as contacting itself. Nonzero contact density proves that the example
+produces a reviewable receipt.
+
+The third check marks local side changes. These marks are the candidate
+bifurcations. They are useful precisely because they are not allowed to become
+turn, knot, or fold claims without a later PDB comparison.
+
+The fourth check verifies the bounded winding substrate. The accepted claim is
+the bounded trace witness and stable operator. The receipt also records
+`DEPTH_ONLY_WINDING_EXTRACTOR_PENDING`, so an all-depth shortcut is not silently
+claimed.
+
+The fifth and sixth checks confirm that the less-closed substrate components
+remain visible. The oloid predictor has defects in the tested window, and the
+bifurcation detector carries its parity-direction gap. Because the verifier
+passes only while those gaps remain explicit, the paper proves the descriptor
+kernel and not a biological structure theorem.
+
+Therefore Paper 23 closes FoldForge as a reproducible contact-map and topology
+descriptor surface with open biological validation obligations.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+The formal receipt is generated at:
+
+`production/formal-papers/CQE-paper-23/foldforge_descriptor_receipt.json`
+
+### Open Obligations
+
+PDB validation remains open. Native structure prediction is not claimed.
+Depth-only winding extraction remains open. The biological encoding remains a
+demonstration choice. Fold-rate and thermodynamic validation remain open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

@@ -265,6 +265,111 @@ def verify_lattice_code_chain_j3():
 
 ---
 
+
+## 41A. Formal-Paper Deep-Dive (CQE-paper-41)
+
+> Recrafted from `CQE-paper-41` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 41.1** (Canonical palindromic superpermutation): The string K = 123412314231243121342132413214321 has length 33, is a palindrome, contains all 24 permutations of {1,2,3,4}, and has mirror symmetry. Verified by finite string check. Full proof in §4.1.
+- **Theorem 41.2** (S₄ relabeling): The 24 relabelings of K correspond to the symmetric group S₄. Each relabeling provides a distinct observation frame. Verified by finite relabeling check. Full proof in §4.2.
+- **Theorem 41.3** (Uniqueness at n=4): There exists exactly one palindromic superpermutation structure at n=4, with 24 equivalent frames under S₄ relabeling. Verified by exhaustive search. Full proof in §4.3.
+- **Protocol 41.4** (AI kernel boundary): The claim that this palindromic structure serves as a universal hallucination-free generative kernel for compositional AI systems remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Palindromic superpermutation).** A *palindromic superpermutation* is a superpermutation string that reads the same forwards and backwards (K = reverse(K)).
+
+**Definition 2.2 (Canonical kernel).** The *canonical kernel* is the unique palindromic superpermutation at n=4, denoted K.
+
+**Definition 2.3 (Relabeling).** A *relabeling* is a permutation of the symbols {1,2,3,4} applied to the string K. There are 4! = 24 relabelings, corresponding to S₄.
+
+---
+
+### 4. Main Results
+
+### Theorem 41.1 — Canonical Palindromic Superpermutation (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The string K = 123412314231243121342132413214321 has:
+1. Length 33 (minimal for n=4).
+2. Palindrome property: K = reverse(K).
+3. Superpermutation property: contains all 24 permutations of {1,2,3,4} as contiguous substrings.
+4. Mirror symmetry: the permutation at position p has its reverse at position 29-p.
+
+**Proof.** The verifier checks:
+1. `len(K) == 33`.
+2. `K == K[::-1]`.
+3. All 24 permutations of {1,2,3,4} appear as contiguous substrings of length 4.
+4. Mirror symmetry: for each permutation at position p, its reverse appears at position 29-p.
+
+All checks pass by direct finite string inspection. ∎
+
+---
+
+### Theorem 41.2 — S₄ Relabeling (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 24 relabelings of K correspond to the symmetric group S₄. Each relabeling produces a distinct palindromic superpermutation of length 33.
+
+**Proof.** The verifier applies all 24 permutations of {1,2,3,4} to K. For each relabeling:
+1. The resulting string has length 33.
+2. The resulting string is a palindrome.
+3. The resulting string contains all 24 permutations.
+
+All 24 relabelings produce valid palindromic superpermutations. This is a finite exhaustive check. ∎
+
+---
+
+### Theorem 41.3 — Uniqueness at n=4 (D)
+
+**Lane:** `receipt_bound
+
+### 5. Tables
+
+### Table 41.1 — Canonical Kernel Properties
+
+| Property | Value |
+|----------|-------|
+| String | 123412314231243121342132413214321 |
+| Length | 33 |
+| Palindrome | Yes |
+| Permutations covered | 24 (all) |
+| Mirror symmetry | Yes |
+
+### Table 41.2 — S₄ Relabelings
+
+| Count | Property |
+|-------|----------|
+| 24 | Total relabelings |
+| 24 | Valid palindromic superpermutations |
+| 0 | Invalid relabelings |
+
+### Table 41.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Hallucination-free AI kernel | open | no AI system verification |
+
+---
+
+### 6. Bibliography
+
+- Houston, R. (2014). "Tackling the minimal superpermutation problem." *arXiv:1408.5108*.
+- Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+
+---
+
+*Paper 41 — Palindromic Superpermutation Kernel Theorem. Best-form revision. CQE-CMPLX-1T-Production.*
+
+---
+
+
 ## 6. Data vs. Interpretation
 
 ### Data-backed (D)

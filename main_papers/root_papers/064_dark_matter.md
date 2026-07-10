@@ -466,6 +466,84 @@ This is a research program, not a current claim.
 Paper 62 = dark matter (stable LCR carrier with unlit charge) as the bound-neutral state. **(I)**
 interpretation. Maps to §13 (`064_dark_matter.md`), §18, §13 (`062`). No fabrication.
 
+
+## 62A. Formal-Paper Deep-Dive (CQE-paper-62)
+
+> Recrafted from `CQE-paper-62` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 62.1** (Superpermutation graph definition): The superpermutation graph on n symbols has n! vertices and edges between permutations with overlap of length n−1. Verified by explicit construction. Derived from standard graph theory. Full proof in §4.1.
+- **Theorem 62.2** (Hamiltonian path ↔ superpermutation): A Hamiltonian path in the superpermutation graph corresponds to a superpermutation. Verified by path-to-string construction. Derived from Papers 32 and 61. Full proof in §4.2.
+- **Theorem 62.3** (Hamiltonian for n ≤ 5): The superpermutation graph is Hamiltonian for n ≤ 5. Verified by explicit Hamiltonian path construction. Derived from Paper 61. Full proof in §4.3.
+- **Protocol 62.4** (Hamiltonicity for n ≥ 6 boundary): The Hamiltonicity of the superpermutation graph for n ≥ 6 remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Superpermutation graph).** The *superpermutation graph* S(n) is the graph whose vertices are the n! permutations of n symbols, with an edge between two permutations if they overlap in n−1 consecutive symbols (i.e., one can be obtained from the other by removing the first symbol and appending a new symbol).
+
+**Definition 2.2 (Hamiltonian path).** A *Hamiltonian path* in a graph is a path that visits each vertex exactly once.
+
+**Definition 2.3 (Overlap).** The *overlap* of two permutations σ and τ is the length of the longest suffix of σ that is a prefix of τ.
+
+**Definition 2.4 (Hamiltonian graph).** A graph is *Hamiltonian* if it contains a Hamiltonian cycle (or path, for directed graphs).
+
+---
+
+### 4. Main Results
+
+### Theorem 62.1 — Superpermutation Graph Definition (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The superpermutation graph S(n) on n symbols has n! vertices. Two permutations σ and τ are adjacent if they overlap in n−1 symbols: the last n−1 symbols of σ equal the first n−1 symbols of τ.
+
+**Proof.** The vertices are the n! permutations. For adjacency: if σ = (a₁, a₂, ..., aₙ) and τ = (a₂, a₃, ..., aₙ, b) for some b ≠ a₁, then σ and τ overlap in n−1 symbols. The edge weight is 1 (the length of the new suffix). The graph is directed: edges go from σ to τ. The verifier constructs S(4) and checks it has 24 vertices and the correct edge structure. ∎
+
+---
+
+### Theorem 62.2 — Hamiltonian Path ↔ Superpermutation (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** A Hamiltonian path in the superpermutation graph S(n) corresponds to a superpermutation of length n + (n! − 1) · 1 = n! + n − 1 in the minimal case (maximum overlap). The superpermutation is obtained by concatenating the first permutation and then appending the new symbol from each subsequent permutation in the path.
+
+**Proof.** Given a Hamiltonian path σ₁ → σ₂ → ... → σₙ!, each consecutive pair overlaps in n−1 symbols. Concatenating the first permutation (length n) and then appending the new symbol from each subsequent permutation (1 symbol each) gives a string 
+
+### 5. Tables
+
+### Table 62.1 — Superpermutation Graph Properties
+
+| n | Vertices | Edges (approx) | Hamiltonian? | Path Length |
+|---|----------|---------------|--------------|-------------|
+| 1 | 1 | 0 | Yes | 1 |
+| 2 | 2 | 2 | Yes | 3 |
+| 3 | 6 | 18 | Yes | 9 |
+| 4 | 24 | 96 | Yes | 33 |
+| 5 | 120 | 600 | Yes | 173 |
+| 6 | 720 | 4320 | Unknown | ≤ 872 |
+
+### Table 62.2 — Path-to-Superpermutation Correspondence
+
+| Step | Graph Operation | String Operation |
+|------|-----------------|------------------|
+| Start | Select σ₁ | Append σ₁ |
+| Step i | Follow edge σᵢ → σᵢ₊₁ | Append new symbol |
+| End | Visit all n! vertices | Length = n + (n! − 1) |
+
+### Table 62.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Hamiltonicity for n ≥ 6 | open | no proof or counterexample |
+
+---
+
+---
+
+
 ## 13. References
 
 ### 13.1 Standard Physics

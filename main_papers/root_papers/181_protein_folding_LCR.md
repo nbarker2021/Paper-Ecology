@@ -109,6 +109,256 @@ extend the forge substrate. Per FLCR doctrine these are **(I)** interpretation o
 module base. Maps to §13 (material patterns LCR) and §6 (protein folding LCR). Honest, no
 fabrication.
 
+
+## 21A. Formal-Paper Deep-Dive (CQE-paper-21)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-21/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+An observation event begins when an observer chooses a centroid or object to
+enumerate. Paper 21 treats that choice as a ribbon source: a sequence of local
+windows that may be read as left, center, and right boundary states.
+
+A ribbon is a finite ordered list of such windows. A shell-2 ribbon is the
+subtrajectory selected by the local shell rule used by the included Rule-30 chart
+codec. A fold is a non-identity transition in the symmetric group S3. A morphon
+is a ledger row that records a source, transform, projection, accounting link,
+and claim status for a readable object. A terminal landing template is the
+24-dimensional composition tree used to place the reading into the lattice suite
+without treating the placement as a stronger construction than the receipt
+actually proves.
+
+### Claims
+
+1. The chart codec closes a lossless ribbon encoding.
+
+The verifier reports `status = pass`, `round_trip_mismatches = 0`, and
+`first_mismatch = null` for the Rule-30 shell-2 trajectory through depth 4096.
+The shell-2 ribbon has length 1569, and its S3 word has length 1568, exactly one
+transition per adjacent pair of shell states.
+
+2. Folds are observable as non-identity S3 steps.
+
+The receipt records 494 identity self-loops and 1074 non-identity transitions.
+The non-identity transitions observed in this run are transposition-class steps:
+197 `(1 2)`, 594 `(1 3)`, and 283 `(2 3)` events. The two 3-cycle counts are
+zero in this receipt. Paper 21 therefore proves a fold classifier for this
+ribbon, not a universal theorem that every future ribbon has the same element
+distribution.
+
+3. The morphonics model closes as an accounting substrate with carried gaps.
+
+The morphonics verifier returns `pass_with_open_gaps`. Schema status is `pass`;
+all five morphon closure tests pass; and the three open failure labels are
+explicit: `PENDING_IMPORT`, `MISSING_MORPHISM`, and `PENDING_MEASUREMENT`.
+
+4. The terminal landing form is a 24-dimensional template, not a Leech
+construction.
+
+The terminal tree is `Niemeier:E8^3`, with ambient dimension 24, root rank 24,
+three component-action branches, 24 compact involution slots, and residue closed
+by required index. This proves that the MorphForge reader can land its accounting
+in the 24-dimensional lattice package. It does not prove a Leech import unless
+the missing Golay or Construction-A data are supplied.
+
+5. Applied-domain claims inherit the su
+
+_**(D)** formal claim._
+
+### Theorem 21
+
+The MorphForge reader is a valid CQE applied-reader kernel exactly when it
+returns three artifacts for a chosen observation event:
+
+1. a lossless ribbon word,
+2. a morphon accounting ledger with explicit closure and failure statuses, and
+3. a terminal landing template whose strength is not overstated.
+
+**Theorem 21.2, AGRM Golden Sweep Reader.** The applied reader can sweep a
+finite set of 24D nodes in golden-ratio order to produce a deterministic,
+lossless, low-discrepancy ribbon. The three-gap theorem and Steinhaus relation
+hold over the tested range, the sweep order is independent of registration
+order, and the route cache is idempotent. Product routing heuristics remain
+outside the theorem.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_morphforge_ribbon.py`. The first check verifies that the chart codec
+round-trips the shell-2 trajectory with no mismatches. Because the encoded word
+has one element for every adjacent pair in the shell-2 ribbon, the word is not a
+summary or illustrative sketch; it is a reversible reading of the selected
+subtrajectory.
+
+The second and third checks classify the transition content of that word. The
+identity self-loops preserve local state. The 1074 non-identity steps are the
+fold events in this receipt. Since the verifier also reports the S3 element
+counts, a reviewer can falsify the fold claim by finding a mismatch between the
+word, the decoded ribbon, and the reported counts.
+
+The fourth through seventh checks examine the morphonics ledger. The model is
+accepted only as `pass_with_open_gaps`; it is not allowed to silently promote
+unresolved bridges into solved claims. Every morphon has a passing closure test,
+and the missing Leech import, expanded morphism witnesses, and TF1 measurement
+remain named failure records.
+
+The final check lands the reading in the `Niemeier:E8^3` terminal tree. The
+receipt confirms the 24-dimensional rank and residue condition needed for the
+suite-level placement. Because the receipt identifies the evidence level as a
+template, the proof does not smuggle in a completed Leech construction or a
+domain-specific experimental proof.
+
+Therefore Paper 21 proves the applied Forge reading and accounting kernel while
+preserving the exact boundary of what is not yet closed.
+
+For Theorem 21.2, `verify_agrm_golden_sweep.py` runs AGRMForge. It checks
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+The formal receipt is generated at:
+
+`production/formal-papers/CQE-paper-21/morphforge_ribbon_receipt.json`
+
+Additional applied-reader receipt:
+
+`production/formal-papers/CQE-paper-21/agrm_golden_sweep_receipt.json`
+
+Verifier:
+
+`production/formal-papers/CQE-paper-21/verify_agrm_golden_sweep.py`
+
+The paper passes when every listed check passes and the remaining obligations
+are carried in the receipt rather than omitted from it.
+
+### Open Obligations
+
+1. Cross-medium equivalence / unibeam bridge remains open until medium-invariant proof.
+1. Mandelbrot or fractal-boundary chart semiconjugacy remains open.
+1. Leech construction import from Golay/Construction A remains open.
+1. Expanded involution witnesses for action-orbit quotient remain open.
+1. TF1, biological, material, CAD, or product domain claims require separate domain verifiers.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 22A. Formal-Paper Deep-Dive (CQE-paper-22)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-22/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+A materials candidate is a ledger row, not a finished material. It contains a
+base material, a partner material, partner-selection scores, fold-evaluation
+fields, seam proposals, production estimates, and open obligations.
+
+A Pareto partner is a material selected by weighted lattice match, property
+synergy, gluon coherence, and oloid compatibility. A fold evaluation is the
+deterministic ten-step transform that carries the candidate through contexts
+such as E8-deep, twist, strain, field, vacancy, and final integration. A seam is
+a mitigation row introduced when the candidate encounters error walls or large
+interface mismatches. A production estimate is accounting metadata, not a
+fabrication proof.
+
+### Claims
+
+1. MetaForge has a finite replayable material inventory.
+
+The verifier requires at least 20 material records and confirms the canonical
+Graphene and hBN entries. The current promoted package contains 23 records.
+
+2. MetaForge partner selection is replayable.
+
+For the canonical Graphene example, hBN is ranked first by the Pareto scorer.
+The score is decomposed into readable components rather than hidden inside an
+opaque recommendation.
+
+3. MetaForge fold evaluation is a deterministic candidate transform.
+
+The Graphene/hBN pair produces exactly ten folds, positive tensile and composite
+estimates, and a bounded positive gluon mass. These values are candidate
+features, not measured material properties.
+
+4. MetaForge carries failures as design obligations.
+
+The error-wall counts are not thrown away. They drive seam proposals and remain
+available to a reviewer as reasons for mitigation, rejection, or later test.
+
+5. MetaForge production accounting is bounded but not experimental proof.
+
+The production plan has positive energy and cost, a nonzero step count, and a
+scalability score in `(0, 1]`. It proves that the candidate has a production
+ledger. It does not prove that the candidate can be manufactured at those
+numbers.
+
+_**(D)** formal claim._
+
+### Theorem 22
+
+MetaForge is a valid CQE applied-materials kernel when it maps an admitted
+MorphForge observation into a replayable candidate ledger containing material
+inventory evidence, partner-selection scores, fold-evaluation output, seam
+mitigation rows, production accounting, and explicit open obligations.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_metaforge_materials.py`. The first check verifies the finite
+database and canonical material availability. This establishes the domain over
+which the candidate generator is operating.
+
+The second check verifies the Graphene/hBN selection. Since the scorer reports
+lattice match, property synergy, gluon coherence, oloid compatibility, interface
+energy, and strain tolerance, the selection can be reviewed as a computed row
+instead of an asserted preference.
+
+The third check verifies the ten-fold candidate transform. Each fold preserves a
+ledgered context and contributes to the final estimates. The proof here is
+repeatability and bounded accounting, not measured strength.
+
+The fourth check verifies that error walls produce seam rows. This is the
+materials version of the CQE boundary rule: a failure is not deleted; it becomes
+an obligation, mitigation, or rejection datum.
+
+The fifth check verifies the production-estimate ledger. Positive energy, cost,
+time, step count, and bounded scalability show that the candidate can be carried
+into engineering review. The sixth check repeats the route over additional
+material pairs to show that this is a pipeline contract and not a single
+hard-coded example.
+
+Therefore Paper 22 proves a replayable applied-materials candidate kernel and
+keeps simulation, fabrication, and measurement as explicit obligations.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+Finite-element validation remains open. Fabrication and load testing remain
+open. Manufacturability constraints remain open. Relative-density and
+Poisson-ratio measurement remain open. A reviewer should reject any reading that
+promotes the current receipt into a completed metamaterials-performance theorem.
+
+_— honestly carried as guard / next-need._
+
+### Receipt
+
+The formal receipt is generated at:
+
+`production/formal-papers/CQE-paper-22/metaforge_materials_receipt.json`
+
+The paper passes when every verifier check passes and all listed engineering
+obligations remain visible.
+
+---
+
+
 ## 6. References
 
 1. Paper 002 — Rule 30 ANF, Lucas Carry

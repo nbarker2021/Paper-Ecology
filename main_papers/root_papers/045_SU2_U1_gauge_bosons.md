@@ -225,6 +225,276 @@ Paper 47 = V-A chiral weak coupling as the LCR observer-face asymmetry (left-han
 selected). **(I)** interpretation, consistent with `verify_observer_frame_selection`. Maps to §9.
 No fabrication.
 
+
+## 31A. Formal-Paper Deep-Dive (CQE-paper-31)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-31/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+The center `C` is the selected observer coordinate. In the eight-state chart it
+is the gluon coordinate fixed by LR reversal.
+
+The left boundary `L` is the inherited context: the prior paper, prior receipt,
+or prior obligation that the current center reads against.
+
+The right boundary `R` is the forward residue: the next paper, open
+obligation, or packaging target that receives the current result.
+
+The boundary rule `B` is the Rule 30 local readout law.
+
+The enacted LCR process is the act of walking a sequence by repeatedly
+selecting a center, reading its left and right boundary, emitting a receipt,
+and carrying residue forward.
+
+A retrospective readout is downstream metadata. It may describe the structure
+of the proof stack, but it cannot serve as a hidden premise for that stack.
+
+### Claims
+
+1. The chart center `C` is invariant under LR reversal for all eight local
+states.
+
+2. The boundary readout used by the corpus is the Rule 30 local truth table.
+
+3. Paper 30 supplies the ribbon object that Paper 31 reads.
+
+4. Paper 31 is not a premise of papers 00-30.
+
+5. The corpus can be retrospectively walked as an LCR chain: prior context,
+selected center, forward residue.
+
+6. Standing open obligations remain open and pass forward to Paper 32's
+packaging/deployment layer.
+
+_**(D)** formal claim._
+
+### Theorem 31
+
+The corpus through Paper 30 admits a valid retrospective LCR readout: the same
+center coordinate, boundary rule, residue discipline, and dependency direction
+used inside the papers also describe the presentation order of the papers
+themselves.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_meta_lcr_readout.py`.
+
+The center-invariance check passes because `verify_gluon_invariance` returns
+`pass`. The verifier also records every state and its LR-reversed antipode,
+confirming that `gluon(state) = C = gluon(swap_LR(state))`.
+
+The boundary-rule check passes because the verifier enumerates the eight local
+states and compares `rule30_bit(L,C,R)` to the algebraic normal form
+`L xor C xor R xor (C and R)`. Every row matches.
+
+The dependency-direction check passes because the Paper 30 receipt exists,
+passes, and contains the check that Paper 31 is readout rather than an upstream
+dependency. This prevents the meta-walkthrough from proving the papers that
+make it possible.
+
+The readout-chain check passes because the verifier builds a retrospective
+chain over `CQE-paper-00` through `CQE-paper-30`, then points the final right
+boundary to `CQE-paper-32`. Thus Paper 31 closes the readout of the proof
+stack while still preserving the package's next deployment paper.
+
+Therefore the corpus can be read as an enacted LCR process without changing
+any earlier proof claim. This proves Theorem 31.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+Earlier paper obligations remain open unless their own receipts close them.
+Paper 31 preserves them as forward boundary data.
+
+Paper 31 must remain downstream of Paper 30. If an earlier paper ever requires
+Paper 31 as a premise, that dependency must be removed or re-papered.
+
+Paper 32 must preserve the readout status when packaging the suite. It may use
+the LCR readout as navigation and metadata, not as hidden proof support.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 45A. Formal-Paper Deep-Dive (CQE-paper-45)
+
+> Recrafted from `CQE-paper-45` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 45.1** (Static Z4 period-4): The static Z4 template has exactly 2 fixed points, 0 period-2 states, and 6 period-4 states. Verified by finite Z4 check. Derived from Paper 27. Full proof in §4.1.
+- **Theorem 45.2** (Temporal refutation): The static Z4 template does not promote to a temporal Rule 30 period over the tested trace of 512 steps. Verified by temporal-scope check. Derived from Paper 27. Full proof in §4.2.
+- **Theorem 45.3** (Counterexample indices): The first counterexamples occur at indices 1, 2, and 6 for periods 1, 2, and 4 respectively. Verified by finite trace check. Derived from Paper 27. Full proof in §4.3.
+- **Protocol 45.4** (Period-4 boundary): The claim that the static period-4 structure implies a temporal period-4 in Rule 30 evolution is explicitly refuted. The period-4 theorem is a static chart theorem only. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Static period).** A *static period* is the period of the four-frame label under iteration of the label map on the 8 chart states. It is a property of the chart structure, not a time period.
+
+**Definition 2.2 (Temporal period).** A *temporal period* is the period of a sequence under time evolution (e.g., the Rule 30 center column repeating with a fixed period).
+
+**Definition 2.3 (Period promotion).** *Period promotion* is the erroneous claim that a static period automatically implies a temporal period in the evolution.
+
+---
+
+### 4. Main Results
+
+### Theorem 45.1 — Static Z4 Period-4 (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The static Z4 template has exactly 2 fixed points ((0,0,0) and (1,1,1)), 0 period-2 states, and 6 period-4 states.
+
+**Proof.** From Paper 27 (Theorem 27.1), the Z4 template verifier confirms this structure by exhaustive enumeration of the 8 chart states. ∎
+
+---
+
+### Theorem 45.2 — Temporal Refutation (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The static Z4 template does not promote to a temporal Rule 30 period over the tested trace of 512 steps. Neither the four-frame label trace nor the center column is periodic at periods 1, 2, or 4.
+
+**Proof.** From Paper 27 (Theorem 27.2), the temporal-scope verifier tests periods 1, 2, and 4 over the trace of 512 steps. All three tests fail, with explicit counterexamples. The status is `static_template_only`. ∎
+
+---
+
+### Theorem 45.3 — Counterexample Indices (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The first counterexamples occur at: index 1 for period 1, index 2 for period 2, and index 6 for period 4 in the label trace; index 1 for period 1, index 3 for period 2, and index 6 for period 4 in the center column.
+
+**Proof.** From Paper 27 (Theorem 27.2), the temporal verifier records the first counterexample index for each test. The indices are explicit and reprod
+
+### 5. Tables
+
+### Table 45.1 — Static Z4 Template
+
+| Period | Count | States |
+|--------|-------|--------|
+| 1 (fixed) | 2 | (0,0,0), (1,1,1) |
+| 2 | 0 | — |
+| 4 | 6 | All other chart states |
+
+### Table 45.2 — Temporal Refutation
+
+| Period | Label Trace Periodic? | Center Column Periodic? | First Label Counterexample | First Center Counterexample |
+|--------|----------------------|------------------------|---------------------------|------------------------------|
+| 1 | No | No | Index 1 | Index 1 |
+| 2 | No | No | Index 2 | Index 3 |
+| 4 | No | No | Index 6 | Index 6 |
+
+### Table 45.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Static period implies temporal period | refuted | temporal-scope checker fails |
+
+---
+
+### 6. Bibliography
+
+- Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+- Kopra, J. (2022). "Rapidly left expansive cellular automata." *arXiv:2205.08058*.
+
+---
+
+*Paper 45 — Templating Period in a Non-Periodic Setting: The Period-4 Theorem. Best-form revision. CQE-CMPLX-1T-Production.*
+
+---
+
+
+
+## 47A. Formal-Paper Deep-Dive (CQE-paper-47)
+
+> Recrafted from `CQE-paper-47` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 47.1** (Hamming-centroid universality): The Hamming-centroid annealing maps any of the 256 elementary cellular automata rules to a centroid attractor in at most 3 steps. Verified by finite anneal check. Derived from Paper 4. Full proof in §4.1.
+- **Theorem 47.2** (4 Lie-conjugate attractors): The 4 Lie-conjugate attractors are the universal fixed points of the annealing process. Verified by finite attractor check. Derived from Paper 4. Full proof in §4.2.
+- **Theorem 47.3** (Step distribution): The step distribution over 64 rows is: 27 at 0 steps, 20 at 2 steps, 17 at 3 steps. Verified by finite distribution check. Derived from Paper 27. Full proof in §4.3.
+- **Protocol 47.4** (Beyond-elementary boundary): The claim that the Hamming-centroid annealing proves universality for all possible cellular automata (beyond elementary rules) or that the geometric proof is stronger than state-machine approaches remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Hamming-centroid annealing).** The *Hamming-centroid annealing* is the geometric process that maps a local state to its Lie-conjugate attractor by applying S₃ transpositions.
+
+**Definition 2.2 (Lie-conjugate attractor).** A *Lie-conjugate attractor* is a fixed point of the annealing process where the state is invariant under the S₃ action.
+
+**Definition 2.3 (Elementary cellular automata).** The *elementary cellular automata* are the 256 rules with 1-dimensional 3-neighbor binary states.
+
+---
+
+### 4. Main Results
+
+### Theorem 47.1 — Hamming-Centroid Universality (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The Hamming-centroid annealing maps any of the 256 elementary cellular automata rules to a centroid attractor in at most 3 steps. Every state reaches a Lie-conjugate attractor within the S₃ diameter bound.
+
+**Proof.** From Paper 4 (Theorem 4.1), the Hamming-centroid annealing applies S₃ transpositions to map any state to its Lie-conjugate attractor. The S₃ diameter is 3, so the maximum number of steps is 3. The verifier checks all 256 elementary rules and confirms closure. ∎
+
+---
+
+### Theorem 47.2 — 4 Lie-Conjugate Attractors (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 4 Lie-conjugate attractors are the universal fixed points of the annealing process. They are the states that are invariant under the S₃ action.
+
+**Proof.** From Paper 4 (Theorem 4.3), the 4 Lie-conjugate attractors are identified by the centroid closure verifier. The verifier checks that all 8 chart states reach one of these 4 attractors in at most 3 steps. ∎
+
+---
+
+### Theorem 47.3 — Step Distribution (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The step distribution over 64 rows is: 27 rows at 0 steps, 20 at 2 steps, and 17 at 3 steps. The maximum delay is 3 steps.
+
+**Proof.** From Paper 27 (Theorem 27.5), the anneal delay 
+
+### 5. Tables
+
+### Table 47.1 — Step Distribution
+
+| Steps | Count |
+|-------|-------|
+| 0 | 27 |
+| 2 | 20 |
+| 3 | 17 |
+
+### Table 47.2 — Lie-Conjugate Attractors
+
+| Attractor | Invariant under S₃? |
+|-----------|---------------------|
+| 4 attractors | Yes |
+
+### Table 47.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| All possible CA | open | only 256 elementary rules tested |
+| Geometric proof stronger | open | comparative claim, not theorem |
+
+---
+
+---
+
+
 ## 9. Bibliography
 
 1. **Paper 005.** D4, J₃(𝕆), Octave Triality. Theorems 5.7 (D4 codec), 5.9 (F4 action, magic square).

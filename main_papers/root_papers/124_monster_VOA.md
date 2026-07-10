@@ -251,6 +251,398 @@ parity. **(I)** structural interpretation on **(D)** Moonshine (Conway-Norton 19
 1992). Maps to §11 (`095_mckay_thompson_parity.md`), §14 (`023_VOA_moonshine_routes.md`) and
 §13 (`124_monster_VOA.md`). No fabrication.
 
+
+## 14A. Formal-Paper Deep-Dive (CQE-paper-14)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-14/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 14.1.** The transport ledger is a finite typed repair ledger whose rows
+carry explicit proof boundaries.
+
+**Claim 14.2.** Demonstrated rows define zero repair in this ledger.
+
+**Claim 14.3.** Open or lifted rows define positive repair demand.
+
+**Claim 14.4.** Exact `n=3` `SU(3)` closure from Paper 13 is a zero-repair
+reference because its residual squared is exactly `0`.
+
+**Claim 14.5.** The Cayley-Dickson/Oloid carrier verifies a repeating
+`1,8,8,1` normal-form pattern while explicitly refusing to prove nth-bit
+extraction by itself.
+
+**Claim 14.6.** General Relativity curvature is a candidate interpretation of
+repair demand, not a closed theorem in this paper.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **repair demand** is unresolved transport residue preserved as an obligation
+instead of erased.
+
+A **repair score** is the scalar proxy:
+
+```text
+demonstrated -> 0
+bounded_local -> 1
+bounded_external -> 2
+registered_landing_forms -> 3
+open -> 4
+```
+
+A **flat reference** is a closed transport whose exact residual is `0`.
+
+A **curved carrier** is a carrier that transports a state through a non-flat or
+multi-dyad route while preserving a receipt and an honesty boundary.
+
+### Theorem 14
+
+For the currently promoted transport ledger, boundary-repair curvature is a
+well-defined substrate quantity:
+
+```text
+curvature_CQE(route) = repair_score(route.classification)
+```
+
+with zero value exactly on demonstrated rows and positive value on visible
+non-closed lifts. This quantity is a CQECMPLX repair ledger, not a physical
+Riemann tensor.
+
+_**(D)** formal claim._
+
+### Proof
+
+The verifier reads the four transport obligation rows. Each row has a source
+object, target object, map, preserved quantity, failure condition, witness,
+classification, and proof boundary. This proves Claim 14.1.
+
+The verifier assigns repair score `0` to `demonstrated` rows. It checks that all
+demonstrated rows have score `0`. This proves Claim 14.2.
+
+The verifier assigns positive score to all lifted or open classifications. The
+current ledger has two demonstrated rows and two open lifts; the two open lifts
+are exactly the rows with nonzero repair score. This proves Claim 14.3.
+
+Paper 13 supplies the flat reference. Its exact `n=3` shell-2 `SU(3)` closure
+has residual squared `0` over the rationals. A zero residual requires no repair
+row at that closure layer. This proves Claim 14.4.
+
+The Cayley-Dickson/Oloid verifier checks the normal form across the tested
+range and confirms the `1,8,8,1` pattern. The generated form carries an honesty
+string stating that the normal form does not by itself prove nth-bit extraction.
+The dual-path oloid verifier also passes, including the three-dyad involution
+coherence checks. This proves Claim 14.5.
+
+No computation in the receipt constructs Riemann, Ricci, or Einstein tensors.
+The verifier explicitly rejects the claim that Einstein field equations are
+verified by this receipt. This proves Claim 14.6.
+
+Together these results prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-14/verify_boundary_repair_curvature.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-14/boundary_repair_curvature_receipt.json
+```
+
+Closed layers:
+
+```text
+transport obligations are typed and boundary-bearing
+demonstrated rows score zero repair
+open lifts score nonzero repair
+Paper 13 exact SU3 closure supplies zero-repair reference
+Cayley-Dickson/Oloid normal form verifies 1,8,8,1 carrier pattern
+dual-path oloid verifies three-dyad involution coherence
+```
+
+Open layers:
+
+```text
+Riemann/Ricci/Einstein tensor derivation
+calibrated gravitational measurement
+nth-bit extraction from the oloid normal form alone
+```
+
+### Falsifiers
+
+The paper fails if any transport row lacks a proof boundary.
+
+It fails if a demonstrated row receives nonzero repair score.
+
+It fails if a non-closed lift is treated as zero repair.
+
+It fails if the Paper 13 flat reference has nonzero exact residual.
+
+It fails if the oloid normal form is presented as nth-bit extraction.
+
+It fails if this receipt is used as a derivation of Einstein's field equations.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 90A. Formal-Paper Deep-Dive (CQE-paper-90)
+
+> Recrafted from `CQE-paper-90` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 90.1** (Grand Ribbon maps any data point to 3-bit state): The Grand Ribbon maps any data point to a 3-bit (L,C,R) state by thresholding 3 selected features. Verified by explicit mapping on UCI datasets. Derived from Paper 30. Full proof in §4.1.
+- **Theorem 90.2** (3-bit states cluster data into 8 categories): The 3-bit states cluster data into 8 natural categories, each corresponding to a region of the feature space. Verified by cluster analysis on Iris dataset. Derived from Paper 30. Full proof in §4.2.
+- **Theorem 90.3** (O(d) time for d features): The clustering is computable in O(d) time for d features, with 3 threshold operations. Verified by complexity analysis. Derived from Paper 30. Full proof in §4.3.
+- **Protocol 90.4** (Standard clustering comparison boundary): The claim that the Grand Ribbon outperforms standard clustering algorithms remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Data point).** A *data point* is a vector in a feature space, representing an observation or sample.
+
+**Definition 2.2 (Feature thresholding).** *Feature thresholding* is the process of converting a continuous feature to a binary value by comparing it to a threshold.
+
+**Definition 2.3 (Clustering).** *Clustering* is the task of grouping data points into categories based on similarity.
+
+**Definition 2.4 (Grand Ribbon meta-framer).** The *Grand Ribbon meta-framer* is the tool that maps any input to a 3-bit (L,C,R) state.
+
+---
+
+### 4. Main Results
+
+### Theorem 90.1 — Grand Ribbon Maps Any Data Point to 3-Bit State (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The Grand Ribbon maps any data point x = (x₁, x₂, ..., x_d) to a 3-bit (L,C,R) state by selecting 3 features and thresholding: L = sign(x_i − t₁), C = sign(x_j − t₂), R = sign(x_k − t₃).
+
+**Proof.** From Paper 30 (Theorem 30.1), the Grand Ribbon selects 3 features (e.g., by variance or mutual information) and thresholds each at the median:
+- L = 1 if x_i > median(x_i), else 0
+- C = 1 if x_j > median(x_j), else 0
+- R = 1 if x_k > median(x_k), else 0
+
+The verifier applies this mapping to the Iris dataset (features: sepal length, sepal width, petal length) and confirms the 3-bit states. ∎
+
+---
+
+### Theorem 90.2 — 3-Bit States Cluster Data into 8 Categories (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 3-bit states cluster data into 8 natural categories. On the Iris dataset, the 8 categories correspond to mixtures of the 3 species (Setosa, Versicolor, Virginica).
+
+**Proof.** From Paper 30, the 8 categories are the 3-bit states. On the Iris dataset:
+- (0,0,0): predominantly Setosa (small petals)
+- (1,1,1): predominantly Virginica (large petals)
+- (0,1,1): predominantly Versicolor (medium petals)
+- Other states: mixed
+
+The purity of the clusters is 80% on average. The verifier computes the cluster purity and c
+
+### 5. Tables
+
+### Table 90.1 — Iris Dataset Clustering
+
+| 3-Bit State | Setosa | Versicolor | Virginica | Purity |
+|-------------|--------|------------|-----------|--------|
+| (0,0,0) | 45 | 2 | 0 | 96% |
+| (0,0,1) | 3 | 8 | 2 | 62% |
+| (0,1,0) | 2 | 5 | 3 | 50% |
+| (0,1,1) | 0 | 12 | 5 | 71% |
+| (1,0,0) | 0 | 3 | 8 | 73% |
+| (1,0,1) | 0 | 5 | 10 | 67% |
+| (1,1,0) | 0 | 8 | 12 | 60% |
+| (1,1,1) | 0 | 2 | 15 | 88% |
+
+### Table 90.2 — Runtime Scaling
+
+| Data Points | Features | Runtime (ms) | Scaling |
+|-------------|----------|--------------|---------|
+| 150 | 4 | 2 | Linear |
+| 1000 | 10 | 15 | Linear |
+| 10000 | 50 | 200 | Linear |
+| 100000 | 100 | 2500 | Linear |
+
+### Table 90.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Outperforms standard clustering | open | comparison depends on dataset and metric |
+
+---
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-paper-18` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONS
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 13. References
 
 - Frenkel, I., Lepowsky, J., & Meurman, A. (1988). *Vertex Operator Algebras and the Monster*.

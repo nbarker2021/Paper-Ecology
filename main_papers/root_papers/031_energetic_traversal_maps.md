@@ -730,6 +730,192 @@ GeV is the calibrated empirical anchor (Higgs mass). Maps to §18. No fabricatio
 Paper 37 = plasma / energy / traversal calibration. **(I)** interpretation on the energetic-traversal
 base (κ = ln(φ)/16). Maps to §18. No fabrication.
 
+
+## 24A. Formal-Paper Deep-Dive (CQE-paper-24)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-24/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+A placement state is a local triple `(L, C, R)`. `C` is the current cell's
+occupancy decision. `L` and `R` are opposed approach bits determined by whether
+earlier placed knights attack the current cell from the left-approach or
+right-approach L-move families. A rejection is a data row, not a deletion.
+
+An L-conjugate state is a state with `L = R`. A frame operator is a tuple of
+three-conjugate labels assigned to board axes or move axes. It is an operator
+definition, not a proof of a complete game.
+
+### Claims
+
+1. The L-conjugate attractor structure closes.
+
+The centroid substrate proves that all eight chart states reach the four
+`L = R` attractors in at most three S3 transposition steps.
+
+2. The chart sectors split as `2 + 6`.
+
+The VOA sector verifier returns `Z(q) = 2q^0 + 6q^5`: two true vacua and six
+excited states.
+
+3. A finite greedy knight board can be represented as a local-rule CA receipt.
+
+The verifier sweeps a finite numbered board, emits one row per cell, records
+occupied and rejected decisions, and verifies that the occupied set is
+non-attacking.
+
+4. The board receipt inherits L-conjugate closure.
+
+Every emitted row carries an `(L, C, R)` state and an annealing receipt. The
+maximum step count is at most three.
+
+5. The N-dimensional lift is a frame operator.
+
+The verifier constructs a finite frame-operator row for four axes. It does not
+claim that this row is a playable, terminating, or strategically meaningful
+N-dimensional chess game.
+
+_**(D)** formal claim._
+
+### Theorem 24
+
+KnightForge is a valid CQE board-automata kernel when it returns a replayable
+finite placement receipt whose local states close under L-conjugate centroid
+annealing and whose N-dimensional extension is explicitly labeled as a frame
+operator rather than a solved game.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_knightforge_ca.py`. The first three checks verify the substrate:
+the L-conjugate closure, the `2 + 6` sector split, and the centroid chain. These
+checks prove the chart structure used by the board receipt.
+
+The fourth check constructs the finite greedy knight board. The receipt is
+accepted only if the sweep covers all board cells, produces both occupied and
+rejected rows, and leaves no occupied pair connected by a knight attack. This
+establishes the local-rule CA shadow of the chess example.
+
+The fifth check applies the centroid closure to every board row. A failed
+anneal, or a row requiring more than three steps, would falsify the claim that
+the board receipt is carried by the L-conjugate chart structure.
+
+The final check builds the N-dimensional frame operator and verifies that it is
+not represented as a closed game claim. Thus the paper proves the finite CA and
+frame-lift receipt while carrying the game-theoretic obligations.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+The formal receipt is generated at:
+
+`production/formal-papers/CQE-paper-24/knightforge_ca_receipt.json`
+
+### Open Obligations
+
+OEIS identity remains open. N-dimensional playability remains open. The
+placement-class relation to the `2 + 6` sector split remains open beyond the
+local chart receipt. Combinatorial-game expert review remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 37A. Formal-Paper Deep-Dive (CQE-paper-37)
+
+> Recrafted from `CQE-paper-37` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 37.1** (Energy quantum): The energy quantum κ = ln(φ)/16 is the per-event emission in the CQE transport ledger. Verified by finite ledger check. Derived from Paper 9. Full proof in §4.1.
+- **Theorem 37.2** (VOA partition): The VOA partition Z(q) = 2q⁰ + 6q⁵ has weight distribution {0:2, 5:6}. Verified by finite chart check. Derived from Paper 15. Full proof in §4.2.
+- **Theorem 37.3** (Golden ratio): φ = (1+√5)/2 ≈ 1.618... is the golden ratio. Verified by direct computation. Full proof in §4.3.
+- **Protocol 37.4** (Energy-correspondence boundary): The hypothesis that each Spectre edge carries energy κ, that mass is Spectre tile area scaled by φ, and that the VOA partition is the Spectre energy spectrum remain open obligations. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Energy quantum κ).** The *energy quantum* is κ = ln(φ)/16 ≈ 0.030075739, where φ is the golden ratio. In the CQE transport ledger, it is the per-event emission.
+
+**Definition 2.2 (VOA partition).** The *VOA partition* is Z(q) = 2q⁰ + 6q⁵, derived from the eight-state chart weight distribution.
+
+**Definition 2.3 (Spectre edge energy).** The *Spectre edge energy* is the hypothetical claim that each of the 14 edges of the Spectre tile carries energy κ. This is an open hypothesis.
+
+---
+
+### 4. Main Results
+
+### Theorem 37.1 — Energy Quantum (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The energy quantum κ = ln(φ)/16 is the per-event emission in the CQE transport ledger. The event law is Δ = -κ per event.
+
+**Proof.** From Paper 9 (Theorem 9.1), the kappa conservation law states that each event emits -κ. The value κ = ln(φ)/16 is the per-event energy emission. ∎
+
+---
+
+### Theorem 37.2 — VOA Partition (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The VOA partition Z(q) = 2q⁰ + 6q⁵ has weight distribution {0:2, 5:6}. The two weight-0 states are the vacua (0,0,0) and (1,1,1). The six weight-5 states are the excited orbit.
+
+**Proof.** From Paper 15 (Theorem 15.3), the VOA sector verifier returns this partition. The weight distribution is verified by finite computation over the 8 chart states. ∎
+
+---
+
+### Theorem 37.3 — Golden Ratio (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** φ = (1+√5)/2 ≈ 1.6180339887... is the golden ratio. It satisfies φ² = φ + 1.
+
+**Proof.** This is a standard mathematical fact. The golden ratio is defined as the positive root of x² = x + 1. ∎
+
+---
+
+### Protocol 37.4 — Energy-Correspondence Boundary (X)
+
+**Lane:** `falsifier_or_open_obligation`. **Tag:** X.
+
+**Statement.** The following claims are not closed by this paper:
+1. **Spectre edge energy κ:** The claim tha
+
+### 5. Tables
+
+### Table 37.1 — VOA Partition
+
+| Weight | Count | States |
+|--------|-------|--------|
+| 0 | 2 | (0,0,0), (1,1,1) |
+| 5 | 6 | All other chart states |
+
+### Table 37.2 — Energy Quantum
+
+| Parameter | Value |
+|-----------|-------|
+| φ | (1+√5)/2 ≈ 1.61803 |
+| κ = ln(φ)/16 | ≈ 0.030075739 |
+
+### Table 37.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Spectre edge energy = κ | open | no geometric or physical measurement |
+| Mass = tile area × φ | open | no physical units map |
+| VOA partition = energy spectrum | open | no spectral correspondence theorem |
+
+---
+
+---
+
+
 ## 18. References
 
 ### 18.1 Source Papers

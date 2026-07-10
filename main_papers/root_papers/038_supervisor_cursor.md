@@ -253,6 +253,212 @@ Paper 30 = supervisor cursor / universal normal-form intake (the governance inta
 interpretation on the admission-gate base. Maps to `038_supervisor_cursor.md` and §15 (theory
 admission gate). Honest, no fabrication.
 
+
+## 28A. Formal-Paper Deep-Dive (CQE-paper-28)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-28/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+A local-rule game is a finite receipt `(lattice, neighborhood, move rule,
+obligation ledger)`. The move rule reads a local `(L, C, R)` chart state and
+emits an occupancy bit.
+
+An admissible dimension is one of the verified code-tower dimensions
+`{1,3,7,8,24,72}`. A game on another dimension may exist as a candidate, but it
+does not inherit this proof surface without its own verifier.
+
+A move orbit is the set of trace-2 states produced by the six S3 permutations.
+Repeated target states are retained in the receipt because they came from
+different group elements.
+
+A forbidden carrier is a move row that the game policy excludes. It is logged
+as a constraint, not deleted.
+
+A closed game solver claim is a claim about strategy, termination, winning
+states, fairness, or complete game solution. This paper does not make such a
+claim.
+
+### Claims
+
+1. The verified code-tower dimensions define admissible game-lattice surfaces.
+
+2. Dimension 8 is a valid worked board through the extended Hamming verifier.
+
+3. A trace-2 S3 orbit supplies a finite move surface for a local-rule piece.
+
+4. Rule 30 local emission gives each orbit row a replayable occupancy bit.
+
+5. Forbidden carriers can be logged without deleting the move receipt.
+
+6. Every chart row in the receipt closes to a Lie-conjugate attractor in at
+most three steps.
+
+7. General game solving and real-game strategy are open obligations.
+
+_**(D)** formal claim._
+
+### Theorem 28
+
+An N-dimensional game lattice is valid in the CQE kernel when it is presented
+as a finite local-rule receipt on an admissible code-tower dimension: the move
+orbit is enumerated, emissions are replayable, forbidden carriers are logged,
+and every row carries its closure or obligation status.
+
+_**(D)** formal claim._
+
+### Proof
+
+The dimension claim follows from `verify_lattice_code_chain`. The verifier
+passes every layer of the chain and returns the forced dimension set
+`{1,3,7,8,24,72}`. This proves that the game board dimensions used here are
+not arbitrary choices inside this kernel.
+
+The worked-board claim follows from `verify_extended_hamming_8`. The
+dimension-8 board has the expected extended Hamming parameters: 16 codewords,
+minimum weight 4, and weight distribution `{0:1, 4:14, 8:1}`.
+
+The move-orbit claim follows from `S3_PERMUTATIONS` and the trace-2 state map.
+Starting from `(1,0,1)`, the six S3 elements produce six receipt rows and three
+unique target states. The identity row is marked `forbidden_logged`; it remains
+in the receipt as a constraint. The other five rows are legal orbit moves.
+
+The emission claim follows from `rule30_bit` applied to every target state. The
+closure claim follows from `anneal_to_lie_conjugate`: the maximum anneal count
+in the worked receipt is three, and the global centroid closure verifier also
+passes over all eight chart states. Therefore the local-rule game lattice is
+closed as a finite receipt.
+
+Nothing in the receipt evaluates strategy, game termination, winning states,
+or arbitrary real-piece geometry. Those are therefore obligations, not hidden
+claims.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+The general N-dimensional game solver is not claimed. The receipt proves finite
+orbit closure, not arbitrary solvability.
+
+Non-code-tower dimensions remain open. Dimension 5 is explicitly rejected by
+the verifier as outside the inherited proof surface.
+
+Real game-piece geometry remains open. Each piece type needs its own map into
+the trace-2/S3 orbit.
+
+Complete game theory remains open. Legal move receipts do not prove strategy,
+termination, winning states, or fairness.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 30A. Formal-Paper Deep-Dive (CQE-paper-30)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-30/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+The active center `C` of a paper is the claim center selected by that paper's
+observer event. In this paper, all 30 centers are read as positions on one
+swept ribbon.
+
+The left and right boundaries `L` and `R` are the predecessor and successor
+positions in the production proof sweep.
+
+The boundary rule `B` is the local LCR/Rule 30 readout discipline inherited
+from the earlier papers.
+
+The tool transform `T` is the verifier, package surface, or formal receipt that
+the paper uses to make its claim replayable.
+
+The obligation slot `O` is the open-residue set. It is filled when obligations
+are named, not when they disappear.
+
+The workbook slot `W` is the analog or quarter-step supplement that exposes
+the same state without requiring a software stack.
+
+The anchor slot `A` records citation and provenance anchors.
+
+### Claims
+
+1. A valid paper ribbon has exactly eight slots in the order
+`C, L, R, B, T, O, W, A`.
+
+2. A slot is accepted only when both value and provenance are present.
+
+3. Papers 00-29 form a 30-position proof sweep under this slot discipline.
+
+4. The live terminal tree supplies a single canonical composition route for
+the tested terminal.
+
+5. The transport ledger is part of the ribbon boundary and must preserve open
+lifts as open.
+
+6. Paper 31 is a retrospective readout of the sweep, not a premise needed by
+papers 00-29.
+
+_**(D)** formal claim._
+
+### Theorem 30
+
+The production corpus through Paper 29 can be represented as one provenance
+filled eight-slot ribbon sweep. This representation is valid exactly when each
+position fills the eight slots with provenance, the sweep uses papers 00-29
+only, the terminal route is canonical, and the transport ledger preserves open
+lifts instead of hiding them.
+
+_**(D)** formal claim._
+
+### Proof
+
+Run `verify_grand_ribbon_meta_framer.py`.
+
+The slot-schema check passes because the verifier defines the ordered slot set
+`C, L, R, B, T, O, W, A` and rejects source kinds outside the bounded set
+`binary`, `vector`, and `binary+vector`.
+
+The sweep check passes because the verifier constructs one ribbon for each
+paper id from `CQE-paper-00` through `CQE-paper-29`. Each position fills all
+eight slots, and each slot carries a source path as provenance. This proves the
+paper's structural claim: the corpus can be read as one repeated local form.
+
+The terminal-route check passes because the live `lattice_forge` terminal tree
+returns a generated canonical composition tree and reports a single canonical
+route after component ordering and orbit quotient. This gives the paper a
+concrete spine rather than a purely narrative ordering.
+
+The transport-ledger check passes because `verify_transport_obligations`
+returns `pass_with_open_lifts`. The open lifts are not treated as failures of
+the ribbon; they are the named boundary residue that keeps later claims honest.
+
+Finally, the dependency check passes because `CQE-paper-31` is not included in
+the 00-29 sweep. Paper 31 may read the sweep after the fact, but the earlier
+proof stack does not depend on that readout. Therefore Theorem 30 holds.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+The reusable `cqe_engine.ribbon` module exists in neighboring kernel and
+production copies, but it is not yet packaged in this git-hosted production
+root. This paper's verifier mirrors the contract and records promotion of that
+module as a packaging obligation.
+
+Legacy workbook language sometimes says "31 beads." Production Paper 30 uses
+the 30-position proof sweep `00-29` plus Paper 31 as readout. Any future
+31-bead display must mark Paper 31 as readout, not as a backward dependency.
+
+The transport ledger still has open lifts. This paper requires those open
+lifts to remain visible until their own verifiers close them.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 9. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002.

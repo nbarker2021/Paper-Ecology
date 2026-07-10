@@ -215,6 +215,94 @@ QCD results. No A033996 / 343 / alpha_em fabrications.
 Paper 48 = EW phase diagram (T-evolving symmetry restoration) as LCR carrier-temperature map.
 **(I)** interpretation. Maps to §11 and `177_electroweak_higgs_mass_LCR.md`. No fabrication.
 
+
+## 48A. Formal-Paper Deep-Dive (CQE-paper-48)
+
+> Recrafted from `CQE-paper-48` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 48.1** (8 real assignments): The 8 chart states correspond to the 8 real octonion basis assignments. Verified by finite bijection check. Derived from Paper 1. Full proof in §4.1.
+- **Theorem 48.2** (Cayley-Dickson doubling): The Cayley-Dickson doubling lifts the 8 real assignments to the 16 imaginary sedenion basis elements. Verified by finite doubling check. Derived from Paper 3. Full proof in §4.2.
+- **Theorem 48.3** (1+8+8+1 structure): The doubling has a 1+8+8+1 structure: 1 real root, 8 first-level imaginary, 8 second-level imaginary, 1 real closure. Verified by finite structure check. Derived from Paper 3. Full proof in §4.3.
+- **Protocol 48.4** (Physical interpretation boundary): The claim that the imaginary lift has a physical interpretation or that the sedenion structure corresponds to physical phenomena remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (8 real assignments).** The *8 real assignments* are the mapping of the 8 chart states to the 8 octonion basis elements (1 real + 7 imaginary).
+
+**Definition 2.2 (Imaginary lift).** The *imaginary lift* is the Cayley-Dickson doubling that introduces a new imaginary unit to extend the octonions to the sedenions.
+
+**Definition 2.3 (1+8+8+1 structure).** The *1+8+8+1 structure* is the partition of the 18-node tree: 1 real root, 8 first-level imaginary, 8 second-level imaginary, 1 real closure.
+
+---
+
+### 4. Main Results
+
+### Theorem 48.1 — 8 Real Assignments (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 8 chart states correspond to the 8 real octonion basis assignments: 1 real unit (e₀ = 1) and 7 imaginary units (e₁, ..., e₇).
+
+**Proof.** From Paper 1 (Theorem 1.1), the 8 chart states are the complete set of local states. The bijection to the octonion basis is a direct mapping. The real unit corresponds to the vacuum state (0,0,0) or (1,1,1), and the 7 imaginary units correspond to the remaining 7 states. ∎
+
+---
+
+### Theorem 48.2 — Cayley-Dickson Doubling (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The Cayley-Dickson doubling lifts the 8 real assignments to the 16 imaginary sedenion basis elements. The doubling introduces a new imaginary unit e with e² = -1.
+
+**Proof.** From Paper 3 (Theorem 3.2), the Cayley-Dickson doubling is a standard algebraic construction. The 8 octonion basis elements are paired to form 16 sedenion basis elements. The construction is (a,b) → a + b·e. ∎
+
+---
+
+### Theorem 48.3 — 1+8+8+1 Structure (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The doubling has a 1+8+8+1 structure: 1 real root, 8 first-level imaginary, 8 second-level imaginary, 1 real closure. The total is 18 nodes.
+
+**Proof.** From Paper 3, the 1+8+8+1 structure is derived from the Cayley-Dickson doubling of the o
+
+### 5. Tables
+
+### Table 48.1 — 1+8+8+1 Structure
+
+| Level | Count | Description |
+|-------|-------|-------------|
+| Real root | 1 | Original real unit |
+| First-level imaginary | 8 | Octonion imaginaries + new imaginary unit |
+| Second-level imaginary | 8 | Products from doubling |
+| Real closure | 1 | Self-referential real unit |
+| Total | 18 | 1+8+8+1 |
+
+### Table 48.2 — Cayley-Dickson Doubling Chain
+
+| Step | Algebra | Dimension |
+|------|---------|-----------|
+| 0 | Reals | 1 |
+| 1 | Complex | 2 |
+| 2 | Quaternions | 4 |
+| 3 | Octonions | 8 |
+| 4 | Sedenions | 16 |
+
+### Table 48.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Physical interpretation of imaginary lift | open | no physical correspondence proof |
+| Sedenion structure in physics | open | no physics validation |
+
+---
+
+---
+
+
 ## 11. References
 
 1. **Paper 005** — D4, J3(O), Octave Triality. *Cited: Remark 12.5, Theorem 9.1.*

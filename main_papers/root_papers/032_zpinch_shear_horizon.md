@@ -345,6 +345,115 @@ is the CQECMPLX interpretation of chart collapse dynamics; not a MHD derivation.
 Paper 25 frames shear/plasma/carrier horizons as chart collapse/repair dynamics. **(I)**
 interpretation; not a MHD derivation. Maps to §11. No fabrication.
 
+
+## 25A. Formal-Paper Deep-Dive (CQE-paper-25)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-25/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+An active transport is the current move from a source object to a target object.
+Its center `C` is the preserved invariant the move claims to carry. Its opposed
+readouts `L` and `R` record what is preserved and what remains as boundary
+residue.
+
+An NSL boundary term is the tuple
+`(N, S, L, absorption, alpha, beta, gamma)`. `N` is the conservation mismatch,
+`S` is the information mismatch, `L` is the irreversible execution cost, and
+`absorption` is the declared capacity that may absorb the mismatch. The closed
+step gate is `theta <= 0`.
+
+An energetic traversal map is an ordered path of transport rows. Its path cost
+is the sum of the step costs after the rows have been normalized into compatible
+accounting units. A traversal is closed only when the path total closes and no
+step is marked uncalibrated.
+
+A unit policy is part of the receipt. The default paper policy is
+`normalized_analog_units`; this is a valid internal energy/action scale. A
+physical-energy reading in measured units requires domain calibration of the
+NSL terms.
+
+### Claims
+
+1. Every accepted CQE traversal can carry a replayable NSL row per step.
+
+2. The step gate is exactly the package gate:
+`theta = alpha*N + beta*S + gamma*L - absorption`, with closure iff
+`theta <= 0`.
+
+3. For normalized rows, traversal totals are additive:
+`theta_path = sum(theta_i)`.
+
+4. The package's four-layer transport-obligation spine is the canonical
+traversal surface for this paper, and its open lifts remain visible.
+
+5. The verified VOA sector split supplies a default analog cost: two vacuum
+states carry weight 0 and six excited states carry weight 5.
+
+6. A traversal receipt is the internal action/energy proof. A measured
+physical-energy value requires a later domain calibration proving the unit map.
+
+_**(D)** formal claim._
+
+### Theorem 25
+
+An energetic traversal is valid in the CQE kernel exactly when it emits a
+replayable NSL boundary row for each step, sums those rows into a path total,
+marks closure or obligation without deletion, and declares whether its units are
+analog-normalized or physically calibrated.
+
+_**(D)** formal claim._
+
+### Proof
+
+`NSLTerm` is a frozen data object whose `theta` property evaluates
+`alpha*N + beta*S + gamma*L - absorption`. Its `closes_internally` property is
+the Boolean `theta <= 0`. The verifier checks a weighted sample with
+`sample_theta = 2.4` and confirms that a positive term does not close while a
+negative term does.
+
+The verifier then calls `verify_transport_obligations`. The returned spine has
+four rows, all required fields present, and passing local witnesses. It reports
+`pass_with_open_lifts`, not a total closure. This is the needed boundary
+behavior: demonstrated rows can be used directly, while bounded and registered
+rows are still carried as named obligations.
+
+For traversal additivity, the verifier constructs two path receipts. Each path
+stores per-step NSL dictionaries, per-step `theta`, the unit policy, and the
+path total. The receipt recomputes each `theta_path` as the sum of its step
+rows. The normalized path closes with `theta_path = -0.35`. The second path has
+positive boundary residue and an uncalibrated domain unit policy, so it remains
+open with `theta_path = 0.8999999999999999`. No row is discarded.
+
+Finally, the verifier calls `verify_voa_sector_decomposition`, which passes
+with `Z(q) = 2q^0 + 6q^5`. This gives a package-native analog weight to chart
+states before any domain-specific physical calibration is attempted. Therefore
+the energetic traversal map is closed as the internal action/energy model and
+open only at the external unit-calibration bridge.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+Physical unit calibration remains open. The paper closes normalized internal
+action/energy accounting; it does not yet convert NSL rows to joules.
+
+Absorption measurement remains open. `absorption_capacity` must be supplied by
+a domain measurement or declared policy.
+
+Least-action, geodesic, or thermodynamic-optimum readings are valid exploratory
+readings only after the domain supplies the calibrated variational principle. A
+smaller analog `theta_path` is already meaningful inside the receipt ledger.
+
+Noether/Shannon/Landauer unification remains a calibration-level research
+claim. The paper already proves the combined NSL accounting row inside the CQE
+transport ledger.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

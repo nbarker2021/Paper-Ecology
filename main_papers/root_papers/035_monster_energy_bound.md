@@ -342,6 +342,105 @@ Paper 27 = Monster energy ceiling / large-invariant boundaries (depth-72 closure
 interpretation; κ calibrated at Higgs mass; Γ72 landing is a registered gap. Maps to §13. No
 fabrication.
 
+
+## 27A. Formal-Paper Deep-Dive (CQE-paper-27)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-27/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+An observer window is a local state `(L, C, R)` read from a Rule 30 predecessor
+row. The two boundary observers read the same center from opposite sides:
+`(L, C, R)` and `(R, C, L)`.
+
+The shared center is `gluon(s) = C`. It is invariant under the LR-podal
+reflection and is the only coordinate this paper promotes as a shared finite
+fact.
+
+The four-frame label is the tuple of wrap-step counts in the four centroid
+frames: C-centroid, R-centroid, C-flipped, and L-centroid. Its Z4 period is a
+static label period, not a time period.
+
+Observer delay is the finite chart lag between reading a window and committing
+the result of `anneal_to_lie_conjugate`. This paper measures delay in S3
+anneal steps. It does not measure human latency.
+
+Shared reality is an interpretive phrase for agreement on `C`. The formal
+object is only the shared-center receipt.
+
+### Claims
+
+1. The static four-frame Z4 template is exact over the eight chart states.
+
+2. The static Z4 template does not promote to a temporal Rule 30 period over
+the tested trace.
+
+3. Opposite-boundary observers agree on `C` for the same local window.
+
+4. Boundary disagreement remains visible as data; agreement on `C` does not
+delete `L/R` residue.
+
+5. Read-then-anneal delay is bounded by at most three finite chart steps.
+
+6. Consciousness, collapse, relativistic simultaneity, and human-latency
+readings are not closed claims of this paper.
+
+_**(D)** formal claim._
+
+### Theorem 27
+
+Observer delay and shared reality are admissible CQE terms only when reduced to
+finite receipts: static frame labels, shared-center equality, bounded anneal
+delay, and explicit temporal-period refutation. Any psychological, physical,
+or metaphysical observer reading remains an obligation.
+
+_**(D)** formal claim._
+
+### Proof
+
+The static frame result follows from `verify_z4_period_template`. The verifier
+reports exactly two fixed points, zero period-2 states, and six period-4
+states. Therefore the Z4 label template is a real finite chart object.
+
+The temporal boundary follows from `verify_temporal_z4_scope(max_depth=512)`.
+That function computes predecessor-state four-frame labels and center-column
+bits along the actual Rule 30 trace, then tests periods 1, 2, and 4. It returns
+`static_template_only`, with counterexamples for each tested period in both
+the label trace and the center column. Therefore the static Z4 template is not
+a temporal sampling period in the tested trace.
+
+The shared-center result follows from `verify_gluon_invariance` and the 64-row
+observer receipt. For every row, the opposite-boundary state swaps `L` and `R`
+while leaving `C` unchanged. The receipt confirms that all rows share the same
+center. It also records 37 side-disagreement rows, proving that the receipt
+preserves boundary residue rather than flattening the read.
+
+The delay bound follows from `anneal_to_lie_conjugate`. Every sampled row
+commits to a Lie-conjugate attractor in at most three S3 transposition steps.
+The observed distribution is 27 rows at delay 0, 20 at delay 2, and 17 at
+delay 3. This proves a bounded finite-chart delay and nothing stronger.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+Human latency is not claimed. Finite anneal steps are not measured response
+times.
+
+Shared reality is interpretive. The formal result is agreement on `C`, not a
+proof of physical simultaneity.
+
+Consciousness and measurement collapse are not claimed. Static frame labels
+and center invariance do not imply either one.
+
+Temporal Z4 period is refuted for the tested trace. Any future claim of a
+temporal period must overcome the recorded counterexamples.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 13. Bibliography
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. Monster group and Moonshine.

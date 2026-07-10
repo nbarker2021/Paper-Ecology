@@ -889,6 +889,1131 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## 15A. Formal-Paper Deep-Dive (CQE-paper-15)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-15/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 15.1.** Rule 30 decomposes over `F2` as:
+
+```text
+Rule30(L,C,R) = (L xor C xor R) xor (C and R)
+```
+
+**Claim 15.2.** The bilinear obstruction has Arf invariant `0`, and Arf
+matching supplies a finite gluing rule.
+
+**Claim 15.3.** The VOA sector decomposition of the eight chart states is:
+
+```text
+Z(q) = 2q^0 + 6q^5
+```
+
+**Claim 15.4.** The local correction-residue states are exactly:
+
+```text
+(0,1,0), (1,1,0)
+```
+
+because those are the states where `C AND NOT R` fires.
+
+**Claim 15.5.** The nth-bit layer passes as a local/oracle-backed carrier
+check; McKay-Thompson correction parity remains the missing closed-form
+transport.
+
+**Claim 15.6.** The mass-residue carrier is the internal Higgs-adjacent physics
+map; measured Higgs and particle-mass predictions require external
+calibration.
+
+**Claim 15.7.** The chart carries eight states, not nine. The apparent `+1` is
+a dual reading of one state through the wrap (antipodal / Cayley-Dickson
+conjugation), not a separate ninth state: one gluon shows a color face or a
+white face depending on traversal. The wrap is a fixed-point-free involution,
+so the singlet axis is one state with two definite faces. This is the
+framework's confinement reading: there is no colorless ninth gluon because
+there is no ninth state.
+
+**Claim 15.8.** The ninth slot is the forced printout (parity/trace) of the
+completed eight. It is genuinely neutral/superposed while the eighth slot is
+open, and is forced to exactly one of two values the instant the eighth slot
+fills. Superposition is therefore real but *transient*: the ninth is the
+Event-Law receipt 
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **carrier effect** is a quantity accepted only when it is witnessed by local
+readout and receipt.
+
+The **linear part** of the local Rule 30 formula is `L xor C xor R`.
+
+The **obstruction** is the bilinear term `C and R`.
+
+The **correction residue** is `C and not R`.
+
+A **mass-residue carrier** is the substrate object that survives cancellation,
+has a receipt, and carries a weight. It is the CQECMPLX internal mass-like
+carrier. A physical rest-mass value requires a later calibrated map into
+measured units.
+
+### Theorem 15
+
+The CQECMPLX mass-residue carrier is a finite substrate layer consisting of:
+
+```text
+F2 obstruction
+-> Arf gluing receipt
+-> correction-residue local states
+-> VOA weight split
+-> Higgs-adjacent mass-residue physics map
+-> external calibration obligation
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+Exhaust the eight local chart states. For every `(L,C,R)`, the verifier checks:
+
+```text
+Rule30(L,C,R) = (L xor C xor R) xor (C and R)
+```
+
+This proves Claim 15.1.
+
+The `f2_majorana` verifier reports:
+
+```text
+q_zero_arf = 0
+q_hyperbolic_arf = 0
+q_elliptic_arf = 1
+rule30_correction_arf = 0
+zero_vs_hyperbolic_can_glue = true
+zero_vs_elliptic_can_glue = false
+```
+
+Thus the obstruction has Arf invariant `0`; matching Arf classes glue, and
+mismatched classes reject. This proves Claim 15.2.
+
+The `centroid_voa` verifier reports exactly two true vacua of weight `0` and
+six excited states of weight `5`. Therefore the seed partition function is
+`Z(q) = 2q^0 + 6q^5`. This proves Claim 15.3.
+
+The correction-residue function is `C AND NOT R`. Exhausting the eight states
+shows that it fires only at `(0,1,0)` and `(1,1,0)`. This proves Claim 15.4.
+
+The nth-bit layer passes at the tested local/oracle level with `oracle_accuracy
+= 1.0`, while the receipt still names McKay-Thompson correction parity as an
+open step. Therefore the local residue evidence is admitted and the closed-form
+parity theorem remains open. This proves Claim 15.5.
+
+The verifier does not yet compute a measured Higgs mass, electroweak symmetry
+breaking, Yukawa couplings, or a particle mass spectrum. That is the external
+calibration bridge. The internal carrier itself is closed: residue survives,
+Arf-compatible gluing admits it, and VOA weight grades it. This proves Claim
+15.6.
+
+The `eight_states_one_dual_reading` verifier (7/7) confirms the wrap is a
+fixed-point-free involution, the singlet axis is one state with two fac
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-15/verify_mass_residue_carrier.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-15/mass_residue_carrier_receipt.json
+```
+
+Interpretive-refinement verifiers and receipts (this pass):
+
+```text
+verify_eight_states_one_dual_reading.py  -> eight_states_one_dual_reading_receipt.json   (7/7)
+verify_ninth_is_forced_printout.py       -> ninth_is_forced_printout_receipt.json        (6/6)
+verify_mass_framing_2x2x2_vs_3x3.py      -> mass_framing_2x2x2_vs_3x3_receipt.json        (7/7)
+```
+
+Closed layers:
+
+```text
+Rule 30 splits into linear part xor C*R obstruction over F2
+Rule 30 obstruction has Arf invariant 0
+Arf-matching gluing admits and Arf-mismatch gluing rejects
+VOA sector decomposition is 2q^0 + 6q^5
+correction residue C and not R identifies the local surviving-residue states
+nth-bit local/oracle layer passes while McKay-Thompson parity remains open
+```
+
+Open layers:
+
+```text
+calibration to the physical Higgs mechanism
+particle mass spectrum or numerical mass prediction in measured units
+electroweak symmetry breaking/Yukawa coupling calibration
+closed-form McKay-Thompson correction parity
+```
+
+### Falsifiers
+
+The paper fails if the Rule 30 split fails on any local state.
+
+It fails if Arf mismatch glues losslessly.
+
+It fails if the VOA split is not two weight-0 vacua and six weight-5 excited
+states.
+
+It fails if the correction residue fires anywhere other than `(0,1,0)` and
+`(1,1,0)`.
+
+It fails if the internal mass-residue carrier is presented as a measured
+Higgs-mass value without the calibration bridge.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. IRL Higgs/W/Z/top mass targets are recorded in NP-15; chart-to-mass calibration bridge remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 16A. Formal-Paper Deep-Dive (CQE-paper-16)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-16/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 16.1.** Every local chart state closes to a Lie-conjugate rest state in
+at most three `S3` transposition steps.
+
+**Claim 16.2.** There are exactly four Lie-conjugate rest states.
+
+**Claim 16.3.** Edge residue is exactly `C AND NOT R`, so it fires only at
+`(0,1,0)` and `(1,1,0)`.
+
+**Claim 16.4.** Power-of-ten windows are valid local receipt windows.
+
+**Claim 16.5.** Local/oracle nth-bit checks pass with correction included, but
+the global correction collapse remains open.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **rollout** is the local process of reading a state until it reaches rest.
+
+A **Lie-conjugate rest state** is an `L=R` chart state.
+
+An **edge residual** is a carry in flight at a window boundary:
+
+```text
+edge_residue(L,C,R) = C AND NOT R
+```
+
+A **power-of-ten window** is a practical aperture at depths `10`, `100`,
+`1000`, and so on. It is a receipt window, not a continuum proof.
+
+### Theorem 16
+
+Continuum edge residuals are locally well-defined window receipts:
+
+```text
+local state -> <=3-step rest closure -> edge_residue = C AND NOT R
+```
+
+and every global continuum claim remains an obligation until the propagating
+correction sum is closed.
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid verifier checks all eight chart states and reports local closure.
+Every state anneals to a Lie-conjugate rest state in at most three `S3` steps.
+This proves Claim 16.1.
+
+The rest states are the four states satisfying `L=R`. The verifier reports the
+count as `4`. This proves Claim 16.2.
+
+The edge-residue formula is `C AND NOT R`. Exhausting all eight states gives
+exactly `(0,1,0)` and `(1,1,0)`. This proves Claim 16.3.
+
+The verifier samples windows at `10`, `100`, and `1000`. For each window it
+records the selected local state, edge-residue value, anneal step count, and
+final rest state. Each sampled window closes locally. This proves Claim 16.4 as
+a local receipt statement.
+
+The nth-bit layer passes with local/oracle correction included, but the receipt
+names McKay-Thompson correction parity as open. Therefore the local edge
+residual is admitted while global continuum collapse is not. This proves Claim
+16.5.
+
+Together these claims prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-16/verify_continuum_edge_residuals.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-16/continuum_edge_residuals_receipt.json
+```
+
+Closed layers:
+
+```text
+every local chart state anneals to a Lie-conjugate rest state in <=3 S3 steps
+there are four Lie-conjugate rest states
+edge residue is exactly C and not R
+sample decade windows carry local receipts
+local/oracle nth-bit layer passes with correction included
+```
+
+Open layers:
+
+```text
+global continuum closure
+O(N) to O(log N) propagating-correction collapse
+closed McKay-Thompson correction parity
+claim that adding digits terminates continuum depth
+```
+
+### Falsifiers
+
+The paper fails if any local chart state needs more than three anneal steps.
+
+It fails if edge residue fires outside `C=1, R=0`.
+
+It fails if power-of-ten windows are treated as a completed continuum limit.
+
+It fails if the McKay-Thompson parity obligation is hidden.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. IRL fine-structure constant target is recorded in NP-15; physical alpha calibration remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 17A. Formal-Paper Deep-Dive (CQE-paper-17)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-17/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 17.1.** The parameter chain `1,3,7,8,24` passes as the local-to-global
+code backbone.
+
+**Claim 17.2.** The `n=7` rung is the `(7,4,3)` Hamming code whose seven
+weight-3 codewords are the seven Fano-plane lines.
+
+**Claim 17.3.** The `n=8` rung is the `(8,4,4)` extended Hamming code; it is
+self-dual, doubly-even, and supplies the E8 Construction-A seed used by the
+tower.
+
+**Claim 17.4.** The `n=24` rung verifies Golay-code ingredients and the `3 x 8`
+carrier geometry while explicitly not proving the Leech glue action.
+
+**Claim 17.5.** The powered chain `1^2=1`, `3^2=9`, `7^2=49`, and `8x9=72`
+passes, with the Nebe dimension-72 extremal minimum norm `8` setting the
+current sheet bound `K_max=9`.
+
+**Claim 17.6.** The `E8^3` Niemeier determinant-one direct-sum landing is
+verified at root-shell level, but no semantic map from arbitrary `N` to a
+terminal landing is proved here.
+
+**Claim 17.7.** The Golay-to-Leech tower is constructively verified at the
+finite vector level: the extended Golay code has 4096 words and the lifted
+24D even lattice has 196,560 constructed minimal vectors of norm 4.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **tower rung** is one accepted carrier size in the sequence
+`1,3,7,8,24,72`.
+
+A **closure frame** is the code or lattice object that receives the local state
+at a rung.
+
+A **forced parameter** is a rung value admitted only when its verifier closes
+the relevant code parameters, such as length, dimension, minimum weight,
+self-duality, or bounded extremality.
+
+A **root-shell landing** is a rank-24 ADE/Niemeier terminal profile admitted at
+profile level. It is not automatically a proved glue construction.
+
+An **open promotion** is a mathematically meaningful continuation that is not
+closed by this paper's receipt.
+
+### Theorem 17
+
+The CQE error-correction tower has a verified bounded backbone:
+
+```text
+local bit -> S3 neighborhood -> Hamming/Fano -> extended Hamming/E8
+-> Golay ingredients -> Nebe-72 sheet bound
+```
+
+and its exceptional `E6/E7/E8` interpretation is admissible only as a
+transport reading over verified code and root-shell receipts, not as a
+completed physical or Leech-glue theorem.
+
+**Theorem 17.2, Golay-to-Leech Vector Tower.** The extended binary Golay
+`[24,12,8]` code satisfies the Steiner `S(5,8,24)` octad property and lifts to
+a 24D even lattice with 196,560 constructed minimal vectors of norm 4. The
+constructed lattice supplies the finite Leech-facing tower layer. Identification
+with the unique Leech lattice, full unimodularity receipt, exhaustive pairwise
+closure, and 24D kissing optimality remain cited or future obligations.
+
+_**(D)** formal claim._
+
+### Proof
+
+The chain verifier reports `status=pass` and the parameter verifier reports
+the chain `[1,3,7,8,24]`. This proves Claim 17.1.
+
+For the `n=7` rung, the verifier reports sixteen codewords, minimum weight
+`3`, and weight distribution `{0:1, 3:7, 4:7, 7:1}`. The seven weight-3
+supports are exactly the Fano-plane lines. This proves Claim 17.2 and fixes the
+octonion/Fano transport layer as a checked code receipt rather than metaphor.
+
+For the `n=8` rung, the verifier reports sixteen codewords, minimum weight
+`4`, self-duality, and weight distribution `{0:1, 4:14, 8:1}`. This admits the
+extended Hamming E8 seed used by the tower. This proves Claim 17.3.
+
+For the `n=24` rung, the verifier reports twelve Golay generators,
+self-orthogonal ingredient behavior, and `24 = 3 x 8` carrier geometry. The
+same receipt reports `leech_construction_proved=false`. The verified
+ingredient layer is therefore closed, while the rootless Leech overlattice
+glue action is not. This proves Claim 17.4 with its boundary intact.
+
+For the powered layer, the verifier reports `{1^2:1, 3^2:9, 7^2:49, 8x9:72}`,
+Nebe dimension `72`, extremal minimum norm `8`, and sheet bound `K_max=9`.
+This proves Claim 17.5.
+
+For the rank-24 terminal profile layer, the direct-sum verifier reports
+`Niemeier:E8^3`, `exact_at_root_shell_level=true`, and
+`semantic_landing_from_n_proved=false`. The root-shell profile verifier reports
+twenty-three rootful terminal profiles, one rootless profile, integral indices,
+matching Coxeter numbers, and `exact_glue_cosets_proved=false`. This proves
+Claim 17.6 and prevents terminal registration 
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-17/verify_error_correction_tower.py
+production/formal-papers/CQE-paper-17/verify_golay_leech_tower.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-17/error_correction_tower_receipt.json
+production/formal-papers/CQE-paper-17/golay_leech_tower_receipt.json
+```
+
+Published-theory spot test (independent cross-check of the constructed count):
+
+```text
+verify_leech_kissing_published_decomposition.py -> leech_kissing_published_decomposition_receipt.json (9/9)
+```
+
+It derives the Leech kissing number from established Conway-Sloane (SPLAG 1988)
+constants — Steiner octads `C(24,5)/C(8,5) = 759`, Golay weight enumerator
+`1+759+2576+759+1 = 4096 = 2^12`, and the three minimal-vector shapes
+`759·128 + 4096·24 + 276·4 = 196560` — and confirms the suite's *constructed*
+196,560 norm-4 vectors equal that published value. Uniqueness/optimality of the
+Leech configuration remains the cited external theorem (open layer below). The
+24D unimodular record is cross-referenced to LMFDB `24.1.1.24.1` (Paper 29).
+
+Closed layers:
+
+```text
+parameter chain 1,3,7,8,24
+Hamming (7,4,3) Fano-plane rung
+extended Hamming (8,4,4) self-dual E8 seed
+Golay (24,12,8) ingredient layer and 3x8 carrier geometry
+powered chain 1,9,49,72 and Nebe-72 K-bound
+Niemeier E8^3 determinant-one direct-sum root-shell landing
+rank-24 root-shell profile registry at bounded profile level
+Golay [24,12,8] code with Steiner octads and 196,560 constructed norm-4 vectors
+```
+
+Open layers:
+
+```text
+rootless Leech overlattice glue action
+semantic map from arbitrary 
+
+### Falsifiers
+
+The paper fails if any code rung reports a failed status.
+
+It fails if the Hamming weight distribution is not `{0:1, 3:7, 4:7, 7:1}`.
+
+It fails if the extended Hamming rung is not self-dual or has minimum weight
+other than `4`.
+
+It fails if the Golay ingredient receipt is used to claim a completed Leech
+construction.
+
+It fails if the Niemeier registry is used to claim a proved semantic
+`N -> terminal` map.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. Niemeier lattice classification record is in NP-15; geometric seam bridge to physical units remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-18/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONSHINE-DEFERRED`. The direct call to
+`correction_via_voa` raises `NotImplementedError`. This proves Claim 18.5 and
+prevents the route from being promoted into a closed extractor.
+
+The Monster-D4 lift ha
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 19A. Formal-Paper Deep-Dive (CQE-paper-19)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-19/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 19.1.** The observer has four selectable frame faces:
+`C-centroid`, `R-centroid`, `C-flipped`, and `L-centroid`.
+
+**Claim 19.2.** Selecting one face retains exactly three latent faces.
+
+**Claim 19.3.** The gluon coordinate `C` is invariant under `L <-> R`
+antipodal reversal for all eight chart states.
+
+**Claim 19.4.** The static `Z4` face template has two fixed points, zero
+period-2 states, and six period-4 states.
+
+**Claim 19.5.** The bounded observer-route harness provides evidence after
+all eight chart states activate, but remains open-gap evidence.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **face** is one selectable reading of the local chart: a frame, chirality, or
+dyad side.
+
+**Face selection** is the act of committing one face as active.
+
+A **latent face** is an unselected face carried forward with a recovery rule.
+
+The **gluon** is the coordinate `C`, the locally invariant midpoint of the
+`L | C | R` window.
+
+An **open observer promotion** is any claim that turns this finite selection
+machinery into consciousness, physical collapse, or an unverified SPINOR
+signature.
+
+### Theorem 19
+
+Observation in the CQE paper suite is admissible as finite face selection with
+retained latent alternatives:
+
+```text
+select one face -> keep three latent faces -> preserve C -> record residue
+```
+
+and no stronger observer claim is closed here.
+
+_**(D)** formal claim._
+
+### Proof
+
+The verifier defines four frame faces. This proves Claim 19.1.
+
+For each face index `0..3`, the verifier selects one face and records the
+other three as latent. This proves Claim 19.2.
+
+The gluon-invariance verifier checks all eight chart states. For each state,
+`gluon(s) = C` and `gluon(swap_LR(s)) = C`. This proves Claim 19.3 and gives
+the reconstruction rule for antipodal unselected faces.
+
+The `Z4` template verifier reports two fixed points, no period-2 states, and
+six period-4 states. This proves Claim 19.4.
+
+The Monster-D4 lift harness reports `pass_with_open_gaps` with all eight chart
+states enumerated and D4 lift preserved after activation. Because the harness
+also carries open-gap status, it supports the observer-route reading without
+closing a global observer theorem. This proves Claim 19.5.
+
+Together these claims prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-19/verify_observer_face_selection.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-19/observer_face_selection_receipt.json
+```
+
+Closed layers:
+
+```text
+four selectable frame faces
+one selected face retains three latent faces
+gluon C invariant under LR antipodal reversal
+static Z4 face template: 2 fixed, 0 period-2, 6 period-4
+bounded observer-route evidence after eight-state activation
+```
+
+Open layers:
+
+```text
+SPINOR signature observation
+full frame-inversion Q(S) executable binding in the promoted layer
+consciousness or measurement-collapse interpretation
+global physical observer theorem
+```
+
+### Falsifiers
+
+The paper fails if selected faces delete latent faces.
+
+It fails if `C` changes under antipodal reversal.
+
+It fails if the `Z4` template contains period-2 states.
+
+It fails if open-gap observer evidence is promoted as a completed theorem.
+
+It fails if SPINOR is claimed observed without a receipt.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 17A. Formal-Paper Deep-Dive (CQE-paper-17)
+
+> Recrafted from `CQE-paper-17` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 17.1.** The parameter chain `1,3,7,8,24` passes as the local-to-global
+code backbone.
+
+**Claim 17.2.** The `n=7` rung is the `(7,4,3)` Hamming code whose seven
+weight-3 codewords are the seven Fano-plane lines.
+
+**Claim 17.3.** The `n=8` rung is the `(8,4,4)` extended Hamming code; it is
+self-dual, doubly-even, and supplies the E8 Construction-A seed used by the
+tower.
+
+**Claim 17.4.** The `n=24` rung verifies Golay-code ingredients and the `3 x 8`
+carrier geometry while explicitly not proving the Leech glue action.
+
+**Claim 17.5.** The powered chain `1^2=1`, `3^2=9`, `7^2=49`, and `8x9=72`
+passes, with the Nebe dimension-72 extremal minimum norm `8` setting the
+current sheet bound `K_max=9`.
+
+**Claim 17.6.** The `E8^3` Niemeier determinant-one direct-sum landing is
+verified at root-shell level, but no semantic map from arbitrary `N` to a
+terminal landing is proved here.
+
+**Claim 17.7.** The Golay-to-Leech tower is constructively verified at the
+finite vector level: the extended Golay code has 4096 words and the lifted
+24D even lattice has 196,560 constructed minimal vectors of norm 4.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **tower rung** is one accepted carrier size in the sequence
+`1,3,7,8,24,72`.
+
+A **closure frame** is the code or lattice object that receives the local state
+at a rung.
+
+A **forced parameter** is a rung value admitted only when its verifier closes
+the relevant code parameters, such as length, dimension, minimum weight,
+self-duality, or bounded extremality.
+
+A **root-shell landing** is a rank-24 ADE/Niemeier terminal profile admitted at
+profile level. It is not automatically a proved glue construction.
+
+An **open promotion** is a mathematically meaningful continuation that is not
+closed by this paper's receipt.
+
+### Theorem 17
+
+The CQE error-correction tower has a verified bounded backbone:
+
+```text
+local bit -> S3 neighborhood -> Hamming/Fano -> extended Hamming/E8
+-> Golay ingredients -> Nebe-72 sheet bound
+```
+
+and its exceptional `E6/E7/E8` interpretation is admissible only as a
+transport reading over verified code and root-shell receipts, not as a
+completed physical or Leech-glue theorem.
+
+**Theorem 17.2, Golay-to-Leech Vector Tower.** The extended binary Golay
+`[24,12,8]` code satisfies the Steiner `S(5,8,24)` octad property and lifts to
+a 24D even lattice with 196,560 constructed minimal vectors of norm 4. The
+constructed lattice supplies the finite Leech-facing tower layer. Identification
+with the unique Leech lattice, full unimodularity receipt, exhaustive pairwise
+closure, and 24D kissing optimality remain cited or future obligations.
+
+_**(D)** formal claim._
+
+### Proof
+
+The chain verifier reports `status=pass` and the parameter verifier reports
+the chain `[1,3,7,8,24]`. This proves Claim 17.1.
+
+For the `n=7` rung, the verifier reports sixteen codewords, minimum weight
+`3`, and weight distribution `{0:1, 3:7, 4:7, 7:1}`. The seven weight-3
+supports are exactly the Fano-plane lines. This proves Claim 17.2 and fixes the
+octonion/Fano transport layer as a checked code receipt rather than metaphor.
+
+For the `n=8` rung, the verifier reports sixteen codewords, minimum weight
+`4`, self-duality, and weight distribution `{0:1, 4:14, 8:1}`. This admits the
+extended Hamming E8 seed used by the tower. This proves Claim 17.3.
+
+For the `n=24` rung, the verifier reports twelve Golay generators,
+self-orthogonal ingredient behavior, and `24 = 3 x 8` carrier geometry. The
+same receipt reports `leech_construction_proved=false`. The verified
+ingredient layer is therefore closed, while the rootless Leech overlattice
+glue action is not. This proves Claim 17.4 with its boundary intact.
+
+For the powered layer, the verifier reports `{1^2:1, 3^2:9, 7^2:49, 8x9:72}`,
+Nebe dimension `72`, extremal minimum norm `8`, and sheet bound `K_max=9`.
+This proves Claim 17.5.
+
+For the rank-24 terminal profile layer, the direct-sum verifier reports
+`Niemeier:E8^3`, `exact_at_root_shell_level=true`, and
+`semantic_landing_from_n_proved=false`. The root-shell profile verifier reports
+tw
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-17/verify_error_correction_tower.py
+production/formal-papers/CQE-paper-17/verify_golay_leech_tower.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-17/error_correction_tower_receipt.json
+production/formal-papers/CQE-paper-17/golay_leech_tower_receipt.json
+```
+
+Published-theory spot test (independent cross-check of the constructed count):
+
+```text
+verify_leech_kissing_published_decomposition.py -> leech_kissing_published_decomposition_receipt.json (9/9)
+```
+
+It derives the Leech kissing number from established Conway-Sloane (SPLAG 1988)
+constants — Steiner octads `C(24,5)/C(8,5) = 759`, Golay weight enumerator
+`1+759+2576+759+1 = 4096 = 2^12`, and the three minimal-vector shapes
+`759·128 + 4096·24 + 276·4 = 196560` — and confirms the suite's *constructed*
+196,560 norm-4 vectors equal that published value. Uniqueness/optimality of the
+Leech configuration remains the cited external theorem (open layer below). The
+24D unimodular record is cross-referenced to LMFDB `24.1.1.24.1` (Paper 29).
+
+Closed layers:
+
+```text
+parameter chain 1,3,7,8,24
+Hamming (7,4,3) Fano-plane rung
+extended Hamming (8,4,4) self-dual E8 seed
+Golay (24,12,8) ingredient layer and 3x8 carrier geometry
+powered chain 1,9,49,72 and Nebe-72 K-bound
+Niemeier E8^3 determinant-one direct-sum root-shell landing
+rank-24 root-shell profile registry
+
+### Falsifiers
+
+The paper fails if any code rung reports a failed status.
+
+It fails if the Hamming weight distribution is not `{0:1, 3:7, 4:7, 7:1}`.
+
+It fails if the extended Hamming rung is not self-dual or has minimum weight
+other than `4`.
+
+It fails if the Golay ingredient receipt is used to claim a completed Leech
+construction.
+
+It fails if the Niemeier registry is used to claim a proved semantic
+`N -> terminal` map.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. Niemeier lattice classification record is in NP-15; geometric seam bridge to physical units remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-paper-18` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONS
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 6. References
 - Canonical: `CQECMPLX-Production/papers/CQE-paper-00/{01-CQE-formal/FORMAL.md,
   02-CQE-tool/run.py, 03-CQE-workbook/WORKBOOK.md}`.

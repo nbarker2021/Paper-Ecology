@@ -275,6 +275,298 @@ Paper 68 = Λ / dark energy as LCR carrier residual tension. **(I)** interpretat
 at Higgs mass; the "universal energy bound" framing is CQECMPLX. Maps to §10 (`071_cosmological_constant.md`),
 `067`, and `145_monster_energy_bound_kappa.md`. No fabrication.
 
+
+## 27A. Formal-Paper Deep-Dive (CQE-paper-27)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-27/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Definitions
+
+An observer window is a local state `(L, C, R)` read from a Rule 30 predecessor
+row. The two boundary observers read the same center from opposite sides:
+`(L, C, R)` and `(R, C, L)`.
+
+The shared center is `gluon(s) = C`. It is invariant under the LR-podal
+reflection and is the only coordinate this paper promotes as a shared finite
+fact.
+
+The four-frame label is the tuple of wrap-step counts in the four centroid
+frames: C-centroid, R-centroid, C-flipped, and L-centroid. Its Z4 period is a
+static label period, not a time period.
+
+Observer delay is the finite chart lag between reading a window and committing
+the result of `anneal_to_lie_conjugate`. This paper measures delay in S3
+anneal steps. It does not measure human latency.
+
+Shared reality is an interpretive phrase for agreement on `C`. The formal
+object is only the shared-center receipt.
+
+### Claims
+
+1. The static four-frame Z4 template is exact over the eight chart states.
+
+2. The static Z4 template does not promote to a temporal Rule 30 period over
+the tested trace.
+
+3. Opposite-boundary observers agree on `C` for the same local window.
+
+4. Boundary disagreement remains visible as data; agreement on `C` does not
+delete `L/R` residue.
+
+5. Read-then-anneal delay is bounded by at most three finite chart steps.
+
+6. Consciousness, collapse, relativistic simultaneity, and human-latency
+readings are not closed claims of this paper.
+
+_**(D)** formal claim._
+
+### Theorem 27
+
+Observer delay and shared reality are admissible CQE terms only when reduced to
+finite receipts: static frame labels, shared-center equality, bounded anneal
+delay, and explicit temporal-period refutation. Any psychological, physical,
+or metaphysical observer reading remains an obligation.
+
+_**(D)** formal claim._
+
+### Proof
+
+The static frame result follows from `verify_z4_period_template`. The verifier
+reports exactly two fixed points, zero period-2 states, and six period-4
+states. Therefore the Z4 label template is a real finite chart object.
+
+The temporal boundary follows from `verify_temporal_z4_scope(max_depth=512)`.
+That function computes predecessor-state four-frame labels and center-column
+bits along the actual Rule 30 trace, then tests periods 1, 2, and 4. It returns
+`static_template_only`, with counterexamples for each tested period in both
+the label trace and the center column. Therefore the static Z4 template is not
+a temporal sampling period in the tested trace.
+
+The shared-center result follows from `verify_gluon_invariance` and the 64-row
+observer receipt. For every row, the opposite-boundary state swaps `L` and `R`
+while leaving `C` unchanged. The receipt confirms that all rows share the same
+center. It also records 37 side-disagreement rows, proving that the receipt
+preserves boundary residue rather than flattening the read.
+
+The delay bound follows from `anneal_to_lie_conjugate`. Every sampled row
+commits to a Lie-conjugate attractor in at most three S3 transposition steps.
+The observed distribution is 27 rows at delay 0, 20 at delay 2, and 17 at
+delay 3. This proves a bounded finite-chart delay and nothing stronger.
+
+_**(D)** verified algebraic/structural proof._
+
+### Open Obligations
+
+Human latency is not claimed. Finite anneal steps are not measured response
+times.
+
+Shared reality is interpretive. The formal result is agreement on `C`, not a
+proof of physical simultaneity.
+
+Consciousness and measurement collapse are not claimed. Static frame labels
+and center invariance do not imply either one.
+
+Temporal Z4 period is refuted for the tested trace. Any future claim of a
+temporal period must overcome the recorded counterexamples.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 63A. Formal-Paper Deep-Dive (CQE-paper-63)
+
+> Recrafted from `CQE-paper-63` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 63.1** (4-symbol superpermutation length): The minimal superpermutation of 4 symbols has length 33. Verified by exhaustive search. Derived from Paper 61. Full proof in §4.1.
+- **Theorem 63.2** (Explicit 33-step construction): The explicit construction is: 123412314231243121342132413214321... (full string in verifier). Verified by explicit string check. Derived from Paper 61. Full proof in §4.2.
+- **Theorem 63.3** (Minimality by exhaustive search): No superpermutation of 4 symbols has length less than 33. Verified by exhaustive search. Derived from Paper 61. Full proof in §4.3.
+- **Protocol 63.4** (Generalization boundary): The claim that the 4-bit construction generalizes to an explicit formula for all n remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (4-symbol superpermutation).** A *4-symbol superpermutation* is a string over the alphabet {1,2,3,4} that contains every permutation of {1,2,3,4} as a contiguous substring.
+
+**Definition 2.2 (33-step construction).** The *33-step construction* is the explicit string of length 33 that contains all 24 permutations of {1,2,3,4}.
+
+**Definition 2.3 (Exhaustive search).** An *exhaustive search* over all strings of length less than 33 checks whether any string contains all 24 permutations.
+
+---
+
+### 4. Main Results
+
+### Theorem 63.1 — 4-Symbol Superpermutation Length (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The minimal superpermutation of 4 symbols has length 33. This is the sum 4! + 3! + 2! + 1! = 24 + 6 + 2 + 1 = 33.
+
+**Proof.** From Paper 61 (Theorem 61.3), L(4) = 33. The lower bound is 4! + 3! = 30, and the greedy construction achieves 33. Exhaustive search confirms that no shorter superpermutation exists. The verifier checks the length and the permutation coverage. ∎
+
+---
+
+### Theorem 63.2 — Explicit 33-Step Construction (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The explicit 33-step construction for the 4-symbol superpermutation is:
+
+123412314231243121342132413214321
+
+This string contains all 24 permutations of {1,2,3,4} as contiguous substrings.
+
+**Proof.** The construction follows the greedy algorithm: start with 1234, then append the minimal symbol to include a new permutation. The sequence of permutations is:
+1. 1234
+2. 2341
+3. 3412
+4. 4123
+5. 2314
+6. 3142
+7. 1423
+8. 4213
+9. 2134
+10. 1342
+11. 3421
+12. 4231
+13. 2314 (already seen, but new overlap)
+... and so on until all 24 are covered.
+
+The full string is 123412314231243121342132413214321. The verifier checks that all 24 permutations appear as contiguous substrings. ∎
+
+---
+
+### Theorem 63.3 — Minimality by Exhaustive Search (D)
+
+**Lane:** `receipt_bound_internal_
+
+### 5. Tables
+
+### Table 63.1 — 4-Symbol Superpermutation
+
+| Property | Value |
+|----------|-------|
+| Length | 33 |
+| Alphabet | {1,2,3,4} |
+| Permutations covered | 24 |
+| Greedy construction | Yes |
+| Minimal | Yes |
+
+### Table 63.2 — Permutation Coverage (First 12)
+
+| Position | Permutation |
+|----------|-------------|
+| 1 | 1234 |
+| 2 | 2341 |
+| 3 | 3412 |
+| 4 | 4123 |
+| 5 | 2314 |
+| 6 | 3142 |
+| 7 | 1423 |
+| 8 | 4213 |
+| 9 | 2134 |
+| 10 | 1342 |
+| 11 | 3421 |
+| 12 | 4231 |
+
+### Table 63.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Explicit formula for all n | open | greedy not optimal for n ≥ 6 |
+
+---
+
+---
+
+
+
+## 68A. Formal-Paper Deep-Dive (CQE-paper-68)
+
+> Recrafted from `CQE-paper-68` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 68.1** (Leech is densest 24D packing): The Leech lattice is the densest lattice packing in 24 dimensions. Verified by standard lattice theory. Derived from external sources. Full proof in §4.1.
+- **Theorem 68.2** (Leech has minimum norm 4): The Leech lattice has no vectors of norm 2; its minimum norm is 4. Verified by explicit lattice construction. Derived from standard lattice theory. Full proof in §4.2.
+- **Theorem 68.3** (Leech related to Monster group): The Leech lattice is related to the Monster group via the Monster vertex algebra (the "moonshine" connection). Verified by standard moonshine theory. Derived from Papers 6 and 29. Full proof in §4.3.
+- **Protocol 68.4** (Spectre encodes Leech boundary): The claim that the Spectre tile encodes the Leech lattice structure remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Leech lattice).** The *Leech lattice* Λ₂₄ is the 24-dimensional even unimodular lattice with no vectors of norm 2. It is the unique such lattice in 24 dimensions.
+
+**Definition 2.2 (Monster group).** The *Monster group* 𝔐 is the largest sporadic simple group, with order ≈ 8 × 10⁵³.
+
+**Definition 2.3 (Monster vertex algebra).** The *Monster vertex algebra* (or Moonshine module) V♮ is a vertex operator algebra whose automorphism group is the Monster group.
+
+**Definition 2.4 (Even unimodular lattice).** An *even unimodular lattice* is a lattice where all vectors have even norm and the determinant of the Gram matrix is 1.
+
+---
+
+### 4. Main Results
+
+### Theorem 68.1 — Leech Is Densest 24D Packing (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The Leech lattice is the densest lattice packing in 24 dimensions with center density 1 and packing density ≈ 0.00193.
+
+**Proof.** From Conway and Sloane (1999) and Cohn and Kumar (2009), the Leech lattice has a center density of 1 and a packing density of approximately 0.00193. Cohn and Kumar proved in 2009 that this is the densest sphere packing in 24 dimensions (the "kissing number" is 196,560). The verifier confirms the packing density computation. ∎
+
+---
+
+### Theorem 68.2 — Leech Has Minimum Norm 4 (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The Leech lattice has no vectors of norm 2. Its minimum norm is 4, and there are 196,560 vectors of norm 4 (the minimal vectors).
+
+**Proof.** From Conway (1969), the Leech lattice is constructed by lifting the binary Golay code to a lattice in 24 dimensions. The construction ensures that all vectors have even norm, and the absence of norm-2 vectors is a defining property. The 196,560 minimal vectors of norm 4 are the shortest non-zero vectors. These correspond to the 196,560 minimal vectors of the E₈ lattice under a certain construction. The verifier confirms the minimum norm and the count of minimal vectors. ∎
+
+---
+
+### Theorem 68.3 — Leech Related to Monster Grou
+
+### 5. Tables
+
+### Table 68.1 — Exceptional Structures
+
+| Structure | Dimension | Key Property | Group/Order |
+|-----------|-----------|--------------|-------------|
+| E₈ lattice | 8 | Densest 8D packing | Weyl group: 696,729,600 |
+| Leech lattice | 24 | Densest 24D packing | Conway group: Co₀ |
+| Monster group | — | Largest sporadic simple group | Order: ≈ 8 × 10⁵³ |
+
+### Table 68.2 — Leech Lattice Properties
+
+| Property | Value |
+|----------|-------|
+| Dimension | 24 |
+| Minimum norm | 4 |
+| Minimal vectors | 196,560 |
+| Kissing number | 196,560 |
+| Center density | 1 |
+| Packing density | ≈ 0.00193 |
+| Determinant | 1 |
+
+### Table 68.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Spectre encodes Leech | open | no geometric correspondence proof |
+
+---
+
+---
+
+
 ## 13. References
 
 - Paper 007 — Boundary Repair Operator ∂, ∂² = 0

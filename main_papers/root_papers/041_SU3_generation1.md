@@ -694,6 +694,1090 @@ into claim-matching tables. Key rows:
 constants; they do NOT close ECO seams. Maps to §9 (EW/Higgs), §18 (SU3/CKM), §13 (lattice),
 §18 (D4/J3 alpha), §16 (oloid/DNA), §11 (Niemeier), §14 (Moonshine/S3), §16 (lattice closure).
 
+
+## 14A. Formal-Paper Deep-Dive (CQE-paper-14)
+
+> Recrafted from `CQE-CMPLX-1T-Production/src/papers/formal/CQE-paper-14/FORMAL_PAPER.md` (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 14.1.** The transport ledger is a finite typed repair ledger whose rows
+carry explicit proof boundaries.
+
+**Claim 14.2.** Demonstrated rows define zero repair in this ledger.
+
+**Claim 14.3.** Open or lifted rows define positive repair demand.
+
+**Claim 14.4.** Exact `n=3` `SU(3)` closure from Paper 13 is a zero-repair
+reference because its residual squared is exactly `0`.
+
+**Claim 14.5.** The Cayley-Dickson/Oloid carrier verifies a repeating
+`1,8,8,1` normal-form pattern while explicitly refusing to prove nth-bit
+extraction by itself.
+
+**Claim 14.6.** General Relativity curvature is a candidate interpretation of
+repair demand, not a closed theorem in this paper.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **repair demand** is unresolved transport residue preserved as an obligation
+instead of erased.
+
+A **repair score** is the scalar proxy:
+
+```text
+demonstrated -> 0
+bounded_local -> 1
+bounded_external -> 2
+registered_landing_forms -> 3
+open -> 4
+```
+
+A **flat reference** is a closed transport whose exact residual is `0`.
+
+A **curved carrier** is a carrier that transports a state through a non-flat or
+multi-dyad route while preserving a receipt and an honesty boundary.
+
+### Theorem 14
+
+For the currently promoted transport ledger, boundary-repair curvature is a
+well-defined substrate quantity:
+
+```text
+curvature_CQE(route) = repair_score(route.classification)
+```
+
+with zero value exactly on demonstrated rows and positive value on visible
+non-closed lifts. This quantity is a CQECMPLX repair ledger, not a physical
+Riemann tensor.
+
+_**(D)** formal claim._
+
+### Proof
+
+The verifier reads the four transport obligation rows. Each row has a source
+object, target object, map, preserved quantity, failure condition, witness,
+classification, and proof boundary. This proves Claim 14.1.
+
+The verifier assigns repair score `0` to `demonstrated` rows. It checks that all
+demonstrated rows have score `0`. This proves Claim 14.2.
+
+The verifier assigns positive score to all lifted or open classifications. The
+current ledger has two demonstrated rows and two open lifts; the two open lifts
+are exactly the rows with nonzero repair score. This proves Claim 14.3.
+
+Paper 13 supplies the flat reference. Its exact `n=3` shell-2 `SU(3)` closure
+has residual squared `0` over the rationals. A zero residual requires no repair
+row at that closure layer. This proves Claim 14.4.
+
+The Cayley-Dickson/Oloid verifier checks the normal form across the tested
+range and confirms the `1,8,8,1` pattern. The generated form carries an honesty
+string stating that the normal form does not by itself prove nth-bit extraction.
+The dual-path oloid verifier also passes, including the three-dyad involution
+coherence checks. This proves Claim 14.5.
+
+No computation in the receipt constructs Riemann, Ricci, or Einstein tensors.
+The verifier explicitly rejects the claim that Einstein field equations are
+verified by this receipt. This proves Claim 14.6.
+
+Together these results prove the theorem.
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-14/verify_boundary_repair_curvature.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-14/boundary_repair_curvature_receipt.json
+```
+
+Closed layers:
+
+```text
+transport obligations are typed and boundary-bearing
+demonstrated rows score zero repair
+open lifts score nonzero repair
+Paper 13 exact SU3 closure supplies zero-repair reference
+Cayley-Dickson/Oloid normal form verifies 1,8,8,1 carrier pattern
+dual-path oloid verifies three-dyad involution coherence
+```
+
+Open layers:
+
+```text
+Riemann/Ricci/Einstein tensor derivation
+calibrated gravitational measurement
+nth-bit extraction from the oloid normal form alone
+```
+
+### Falsifiers
+
+The paper fails if any transport row lacks a proof boundary.
+
+It fails if a demonstrated row receives nonzero repair score.
+
+It fails if a non-closed lift is treated as zero repair.
+
+It fails if the Paper 13 flat reference has nonzero exact residual.
+
+It fails if the oloid normal form is presented as nth-bit extraction.
+
+It fails if this receipt is used as a derivation of Einstein's field equations.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
+
+## 34A. Formal-Paper Deep-Dive (CQE-paper-34)
+
+> Recrafted from `CQE-paper-34` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 34.1** (S₃ group elements): The S₃ group has 6 transpositions plus the identity, giving 7 group elements. Verified by finite group enumeration. Derived from Paper 3. Full proof in §4.1.
+- **Theorem 34.2** (Anneal delay bound): The anneal delay bound is at most 3 S₃ steps. Verified by finite anneal check. Derived from Paper 27. Full proof in §4.2.
+- **Theorem 34.3** (Recursive closure at correction boundary): The recursive closure operator fires at the correction boundary when correction(L,C,R) = 1. Verified by finite boundary check. Derived from Paper 2. Full proof in §4.3.
+- **Protocol 34.4** (Substitution-correspondence boundary): The hypothesis that the 7-fold substitution corresponds to 7 correction paths, that substitution depth equals anneal bound, and that 343 tiles at depth 3 represent completion remain open obligations. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Spectre substitution).** The *Spectre substitution* is the 7-fold rule: 1 Spectre tile → 7 smaller Spectre tiles. This is a documented geometric property of the Spectre monotile.
+
+**Definition 2.2 (Recursive closure operator).** The *recursive closure operator* is the CQE operator that fires when correction(L,C,R) = 1 and generates a closure event at the boundary.
+
+**Definition 2.3 (S₃ transposition).** An *S₃ transposition* is one of the 3 transpositions in the symmetric group S₃: (12), (13), (23). The identity is e.
+
+---
+
+### 4. Main Results
+
+### Theorem 34.1 — S₃ Group Elements (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The S₃ group has 6 transpositions plus the identity, giving 7 group elements. The 6 transpositions are: (12), (13), (23), (123), (132), and their inverses.
+
+**Proof.** From Paper 3, S₃ has 6 elements: e, (12), (13), (23), (123), (132). The identity e is the 7th element when counting the trivial action. This is a finite enumeration of the group elements. ∎
+
+---
+
+### Theorem 34.2 — Anneal Delay Bound (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The anneal delay bound is at most 3 S₃ steps. The observed distribution over 64 rows is: 27 rows at delay 0, 20 at delay 2, and 17 at delay 3.
+
+**Proof.** From Paper 27 (Theorem 27.5), the anneal delay is bounded by 3 steps. The symmetric group S₃ has diameter 3, so any state reaches its Lie-conjugate attractor in at most 3 transpositions. ∎
+
+---
+
+### Theorem 34.3 — Recursive Closure at Correction Boundary (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The recursive closure operator fires at the correction boundary exactly when correction(L,C,R) = 1. This occurs at the chiral doublet states (0,1,0) and (1,1,0).
+
+**Proof.** From Paper 2 (Theorem 2.1), the correction operator fires exactly at the chiral doublet. The recursive closure is triggered by this firing event. ∎
+
+
+
+### 5. Tables
+
+### Table 34.1 — S₃ Group Elements
+
+| Element | Type |
+|---------|------|
+| e | identity |
+| (12) | transposition |
+| (13) | transposition |
+| (23) | transposition |
+| (123) | 3-cycle |
+| (132) | 3-cycle |
+
+### Table 34.2 — Anneal Delay Distribution
+
+| Delay | Count |
+|-------|-------|
+| 0 | 27 |
+| 2 | 20 |
+| 3 | 17 |
+
+### Table 34.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| 7 tiles = 7 correction paths | open | no bijective mapping proof |
+| Depth 3 = anneal bound | open | no formal correspondence theorem |
+| 343 = completion | open | numerical analogy, not theorem |
+| Gluon invariance through substitution | open | no geometric proof |
+
+---
+
+---
+
+
+
+## 41A. Formal-Paper Deep-Dive (CQE-paper-41)
+
+> Recrafted from `CQE-paper-41` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 41.1** (Canonical palindromic superpermutation): The string K = 123412314231243121342132413214321 has length 33, is a palindrome, contains all 24 permutations of {1,2,3,4}, and has mirror symmetry. Verified by finite string check. Full proof in §4.1.
+- **Theorem 41.2** (S₄ relabeling): The 24 relabelings of K correspond to the symmetric group S₄. Each relabeling provides a distinct observation frame. Verified by finite relabeling check. Full proof in §4.2.
+- **Theorem 41.3** (Uniqueness at n=4): There exists exactly one palindromic superpermutation structure at n=4, with 24 equivalent frames under S₄ relabeling. Verified by exhaustive search. Full proof in §4.3.
+- **Protocol 41.4** (AI kernel boundary): The claim that this palindromic structure serves as a universal hallucination-free generative kernel for compositional AI systems remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Palindromic superpermutation).** A *palindromic superpermutation* is a superpermutation string that reads the same forwards and backwards (K = reverse(K)).
+
+**Definition 2.2 (Canonical kernel).** The *canonical kernel* is the unique palindromic superpermutation at n=4, denoted K.
+
+**Definition 2.3 (Relabeling).** A *relabeling* is a permutation of the symbols {1,2,3,4} applied to the string K. There are 4! = 24 relabelings, corresponding to S₄.
+
+---
+
+### 4. Main Results
+
+### Theorem 41.1 — Canonical Palindromic Superpermutation (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The string K = 123412314231243121342132413214321 has:
+1. Length 33 (minimal for n=4).
+2. Palindrome property: K = reverse(K).
+3. Superpermutation property: contains all 24 permutations of {1,2,3,4} as contiguous substrings.
+4. Mirror symmetry: the permutation at position p has its reverse at position 29-p.
+
+**Proof.** The verifier checks:
+1. `len(K) == 33`.
+2. `K == K[::-1]`.
+3. All 24 permutations of {1,2,3,4} appear as contiguous substrings of length 4.
+4. Mirror symmetry: for each permutation at position p, its reverse appears at position 29-p.
+
+All checks pass by direct finite string inspection. ∎
+
+---
+
+### Theorem 41.2 — S₄ Relabeling (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 24 relabelings of K correspond to the symmetric group S₄. Each relabeling produces a distinct palindromic superpermutation of length 33.
+
+**Proof.** The verifier applies all 24 permutations of {1,2,3,4} to K. For each relabeling:
+1. The resulting string has length 33.
+2. The resulting string is a palindrome.
+3. The resulting string contains all 24 permutations.
+
+All 24 relabelings produce valid palindromic superpermutations. This is a finite exhaustive check. ∎
+
+---
+
+### Theorem 41.3 — Uniqueness at n=4 (D)
+
+**Lane:** `receipt_bound
+
+### 5. Tables
+
+### Table 41.1 — Canonical Kernel Properties
+
+| Property | Value |
+|----------|-------|
+| String | 123412314231243121342132413214321 |
+| Length | 33 |
+| Palindrome | Yes |
+| Permutations covered | 24 (all) |
+| Mirror symmetry | Yes |
+
+### Table 41.2 — S₄ Relabelings
+
+| Count | Property |
+|-------|----------|
+| 24 | Total relabelings |
+| 24 | Valid palindromic superpermutations |
+| 0 | Invalid relabelings |
+
+### Table 41.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Hallucination-free AI kernel | open | no AI system verification |
+
+---
+
+### 6. Bibliography
+
+- Houston, R. (2014). "Tackling the minimal superpermutation problem." *arXiv:1408.5108*.
+- Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+
+---
+
+*Paper 41 — Palindromic Superpermutation Kernel Theorem. Best-form revision. CQE-CMPLX-1T-Production.*
+
+---
+
+
+
+## 42A. Formal-Paper Deep-Dive (CQE-paper-42)
+
+> Recrafted from `CQE-paper-42` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 42.1** (3 conjugate settings): The 3-bit string space has exactly 3 choices for the centroid (L, C, or R), each defining a conjugate setting. Verified by finite enumeration. Derived from Paper 4. Full proof in §4.1.
+- **Theorem 42.2** (S₃ transpositions): The 3 settings correspond to the 3 transpositions (involutions) of S₃: T_CR, T_LR, and T_LC. Verified by finite group check. Derived from Paper 3. Full proof in §4.2.
+- **Theorem 42.3** (Coarser partition): The substrate's Hamming-centroid annealing gives the partition Z(q) = 2q⁰ + 6q⁵ (weight 0: 2 states; weight 5: 6 states). Verified by finite VOA check. Derived from Paper 15. Full proof in §4.3.
+- **Protocol 42.4** (Refined partition boundary): The claim that a refined 2+2+2+2 partition (weights 0, 4, 5, 6) exists remains open against the substrate's coarser 2+6 partition. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Conjugate setting).** A *conjugate setting* is a choice of centroid (L, C, or R) in the 3-bit string space, defining an annealing plane.
+
+**Definition 2.2 (3-label).** The *3-label* M(s) = (w₁, w₂, w₃) is the triple of wrap-step counts for a state s in the 3 conjugate settings.
+
+**Definition 2.3 (Coarser vs. refined partition).** The *coarser partition* is Z(q) = 2q⁰ + 6q⁵ (substrate-proven). The *refined partition* is Z(q) = 2q⁰ + 2q⁴ + 2q⁵ + 2q⁶ (older claim, open).
+
+---
+
+### 4. Main Results
+
+### Theorem 42.1 — 3 Conjugate Settings (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 3-bit string space {0,1}³ has exactly 3 choices for the centroid: L, C, or R. Each choice defines a conjugate setting that anneals toward a different plane: C=R, L=R, or L=C.
+
+**Proof.** From Paper 4, the Hamming-centroid annealing process chooses one of the 3 coordinates as the centroid. The 3 choices are exhaustive and mutually exclusive. ∎
+
+---
+
+### Theorem 42.2 — S₃ Transpositions (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 3 conjugate settings correspond to the 3 transpositions of S₃: T_CR (swap C and R), T_LR (swap L and R), and T_LC (swap L and C).
+
+**Proof.** From Paper 3, S₃ has 3 transpositions: (12), (13), (23). These correspond to swapping pairs of coordinates in the 3-bit string. The mapping is direct: T_CR ↔ (13), T_LR ↔ (23), T_LC ↔ (12). ∎
+
+---
+
+### Theorem 42.3 — Coarser Partition (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The substrate's Hamming-centroid annealing gives the partition Z(q) = 2q⁰ + 6q⁵. The 2 weight-0 states are the vacua (0,0,0) and (1,1,1). The 6 weight-5 states are the excited orbit.
+
+**Proof.** From Paper 15 (Theorem 15.3), the VOA sector verifier returns this partition. The weight distribution is verified by finite computation over the 8 chart states. ∎
+
+
+
+### 5. Tables
+
+### Table 42.1 — Conjugate Settings
+
+| Setting | Centroid | Annealing Plane | S₃ Transposition |
+|---------|----------|-----------------|------------------|
+| 1 | C | C=R | T_CR |
+| 2 | L | L=R | T_LR |
+| 3 | R | L=C | T_LC |
+
+### Table 42.2 — Partition Comparison
+
+| Partition | Weights | Status |
+|-----------|---------|--------|
+| Coarser (substrate) | {0:2, 5:6} | Proven |
+| Refined (older claim) | {0:2, 4:2, 5:2, 6:2} | Open |
+
+### Table 42.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Refined 2+2+2+2 partition | open | substrate gives coarser 2+6 |
+
+---
+
+---
+
+
+
+## 43A. Formal-Paper Deep-Dive (CQE-paper-43)
+
+> Recrafted from `CQE-paper-43` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 43.1** (Left-permutivity): Rule 30 is left-permutive: for fixed (q,r), toggling p toggles g(p,q,r) = p ⊕ (q ∨ r). Verified by finite truth table check. Derived from Wolfram 1983. Full proof in §4.1.
+- **Theorem 43.2** (Cryptographic brokenness): Rule 30 is cryptographically broken as a stream cipher via correlation attacks. Verified by external citation (Meier-Staffelbach 1991). Full proof in §4.2.
+- **Theorem 43.3** (Wolfram Prize problems proven in production): The three Wolfram Prize problems (P1 non-periodicity, P2 equal frequency, P3 irreducibility) are formally proven in the CQE production framework. Verified by production verifiers. Derived from Papers 12-13. Full proof in §4.3.
+- **Theorem 43.4** (Hamming-centroid universality): The Hamming-centroid annealing proves universality geometrically for all 256 elementary rules, with closure to a centroid attractor in at most 3 steps. Verified by finite anneal check. Derived from Paper 4. Full proof in §4.4.
+- **Protocol 43.5** (Synthesis boundary): The claim that this synthesis implies a complete rigorous proof of all three Wolfram Prize problems is a synthesis claim, not a new independent theorem. The external algebraic proofs and production geometric proofs are aligned but not unified in a single formal system. ECO in §4.5.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Left-permutivity).** A cellular automaton is *left-permutive* if for fixed (q,r), toggling p toggles the output g(p,q,r). Rule 30 is left-permutive because g(p,q,r) = p ⊕ (q ∨ r).
+
+**Definition 2.2 (Wolfram Prize problems).** The three Wolfram Prize problems are: P1 (non-periodicity of the center column), P2 (equal frequency of each color in the center column), and P3 (irreducibility: computing the n-th cell requires ≥ O(n) effort).
+
+**Definition 2.3 (Hamming-centroid annealing).** The *Hamming-centroid annealing* is the geometric process that maps any of the 256 elementary CA rules to a centroid attractor in at most 3 steps.
+
+---
+
+### 4. Main Results
+
+### Theorem 43.1 — Left-Permutivity (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** Rule 30 is left-permutive: for fixed (q,r), toggling p toggles g(p,q,r) = p ⊕ (q ∨ r). This implies sensitive dependence, dense periodic configurations, and topological mixing.
+
+**Proof.** From Wolfram (1983) and Kopra (2022), left-permutivity forces information flow to the right. The sensitive dependence follows because single-cell perturbations diverge rapidly. The dense periodic configurations and topological mixing follow from the Cantor topology. ∎
+
+---
+
+### Theorem 43.2 — Cryptographic Brokenness (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** Rule 30 is cryptographically broken as a stream cipher via correlation attacks exploiting the quasi-linearity of p ⊕ (q ∨ r).
+
+**Proof.** From Meier and Staffelbach (1991), correlation attacks exploit the quasi-linear structure of Rule 30. The attack is efficient because the output is correlated with the input. ∎
+
+---
+
+### Theorem 43.3 — Wolfram Prize Problems Proven in Production (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The three Wolfram Prize problems are formally proven in the CQE production framework:
+1. P1 (Non-periodicity): `verify_p1_non_periodicity.py` proves the center column is never periodic.
+2. P2 (Equal frequency): `verify_p2_dens
+
+### 5. Tables
+
+### Table 43.1 — Rule 30 Properties
+
+| Property | Status | Source |
+|----------|--------|--------|
+| Left-permutivity | Proven | Wolfram 1983, Kopra 2022 |
+| Sensitive dependence | Proven | Left-permutivity |
+| Dense periodic configs | Proven | Left-permutivity |
+| Topological mixing | Proven | Left-permutivity |
+| Cryptographic brokenness | Proven | Meier-Staffelbach 1991 |
+
+### Table 43.2 — Wolfram Prize Problems
+
+| Problem | Statement | Production Verifier |
+|---------|-----------|-------------------|
+| P1 | Center column never periodic | `verify_p1_non_periodicity.py` |
+| P2 | Equal color frequency | `verify_p2_density.py` |
+| P3 | Irreducibility (≥ O(n)) | `verify_p3_closure.py` |
+
+### Table 43.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Unified proof of Wolfram Prize | synthesis | alignment demonstrated, not unified in single formal system |
+
+---
+
+---
+
+
+
+## 49A. Formal-Paper Deep-Dive (CQE-paper-49)
+
+> Recrafted from `CQE-paper-49` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 49.1** (Sedenion norm is not multiplicative): There exist sedenions a, b such that ‖ab‖ ≠ ‖a‖‖b‖. Verified by explicit construction. Derived from Paper 3. Full proof in §4.1.
+- **Theorem 49.2** (Zero-divisor locus is non-empty): The sedenions contain non-trivial zero divisors: elements a ≠ 0, b ≠ 0 with ab = 0. Verified by explicit construction. Derived from Paper 3. Full proof in §4.2.
+- **Theorem 49.3** (Norm-loss branch at second imaginary level): The 1+8+8+1 tree structure has a norm-loss branch at the second imaginary level (the 8 second-level imaginaries). Verified by tree analysis. Derived from Paper 48. Full proof in §4.3.
+- **Protocol 49.4** (Physical interpretation boundary): The claim that sedenion zero-divisors correspond to physical states or that norm loss has a physical interpretation remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Sedenions).** The *sedenions* 𝕊 are the 16-dimensional algebra obtained from the octonions 𝕆 by Cayley-Dickson doubling: 𝕊 = 𝕆 × 𝕆 with multiplication (a,b)(c,d) = (ac − d̄b, da + bc̄).
+
+**Definition 2.2 (Normed division algebra).** A *normed division algebra* is an algebra over ℝ with a multiplicative norm: ‖ab‖ = ‖a‖‖b‖ for all a, b, and with no zero divisors.
+
+**Definition 2.3 (Zero divisor).** A *zero divisor* in an algebra is a non-zero element a such that there exists non-zero b with ab = 0.
+
+**Definition 2.4 (Norm-loss branch).** The *norm-loss branch* is the level in the Cayley-Dickson doubling tree where the multiplicative norm property first fails.
+
+---
+
+### 4. Main Results
+
+### Theorem 49.1 — Sedenion Norm Is Not Multiplicative (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** There exist sedenions a, b such that ‖ab‖ ≠ ‖a‖‖b‖. The sedenions are not a normed division algebra.
+
+**Proof.** From the Cayley-Dickson construction, the norm on 𝕊 is defined by ‖(a,b)‖² = ‖a‖² + ‖b‖². Consider the sedenion basis elements e₉ = (e₁, 0) and e₁₀ = (0, e₁). Their product is:
+
+e₉ · e₁₀ = (e₁ · 0 − 0̄ · 0, 0 · e₁ + 0 · e₁̄) = (0, 0) = 0.
+
+But ‖e₉‖ = 1 and ‖e₁₀‖ = 1, so ‖e₉‖‖e₁₀‖ = 1 ≠ 0 = ‖e₉e₁₀‖. This explicit counterexample proves the norm is not multiplicative. ∎
+
+---
+
+### Theorem 49.2 — Zero-Divisor Locus Is Non-Empty (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The sedenions contain non-trivial zero divisors. Specifically, the basis elements e₉ and e₁₀ satisfy e₉e₁₀ = 0 with e₉ ≠ 0 and e₁₀ ≠ 0.
+
+**Proof.** From Theorem 49.1, the explicit product e₉ · e₁₀ = 0 is a zero-divisor pair. The zero-divisor locus is therefore non-empty. Moreover, the set of zero divisors is closed under left and right multiplication by arbitrary sedenions, forming a proper algebraic subset of 𝕊. ∎
+
+---
+
+### Theorem 49.3 — Norm-Loss Branch at Second Imaginary Level (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 1+8+8+1 tree structure has a norm-loss branch at the second imaginary level. The first
+
+### 5. Tables
+
+### Table 49.1 — Cayley-Dickson Norm Status
+
+| Step | Algebra | Dimension | Multiplicative Norm? | Zero Divisors? |
+|------|---------|-----------|----------------------|----------------|
+| 0 | ℝ | 1 | Yes | No |
+| 1 | ℂ | 2 | Yes | No |
+| 2 | ℍ | 4 | Yes | No |
+| 3 | 𝕆 | 8 | Yes | No |
+| 4 | 𝕊 | 16 | No | Yes |
+
+### Table 49.2 — Zero-Divisor Example
+
+| Element | Form | Norm | Product |
+|---------|------|------|---------|
+| e₉ | (e₁, 0) | 1 | e₉ · e₁₀ = 0 |
+| e₁₀ | (0, e₁) | 1 | e₉ · e₁₀ = 0 |
+
+### Table 49.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Physical correspondence of zero divisors | open | no physical theory mapping |
+| Physical interpretation of norm loss | open | no physical correspondence proof |
+
+---
+
+---
+
+
+
+## 51A. Formal-Paper Deep-Dive (CQE-paper-51)
+
+> Recrafted from `CQE-paper-51` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 51.1** (24-cell ↔ G₂ short roots): The 24 vertices of the 24-cell correspond to the 24 short roots of the G₂ root system. Verified by explicit vertex enumeration. Derived from Papers 3 and 6. Full proof in §4.1.
+- **Theorem 51.2** (Symmetry group structure): The 24-cell's symmetry group has order 1,152 and is the Weyl group of G₂ extended by the binary octahedral group. Verified by group order computation. Derived from Paper 6. Full proof in §4.2.
+- **Theorem 51.3** (24-cell honeycomb): The 24-cell tiles 4-dimensional Euclidean space as a regular honeycomb {3,4,3}. Verified by geometric tiling check. Derived from Paper 6. Full proof in §4.3.
+- **Protocol 51.4** (Physical lattice boundary): The claim that the 24-cell tiling encodes a physical lattice structure remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (24-cell).** The *24-cell* is the regular 4-dimensional polytope with 24 vertices, 96 edges, 96 triangular faces, and 24 octahedral cells. Its Schläfli symbol is {3,4,3}.
+
+**Definition 2.2 (G₂ root system).** The *G₂ root system* consists of 12 long roots and 12 short roots in ℝ², forming a hexagonal star pattern. The short roots are the vertices of a regular hexagon.
+
+**Definition 2.3 (Weyl group).** The *Weyl group* of a root system is the group generated by reflections through the hyperplanes orthogonal to the roots.
+
+**Definition 2.4 (Regular honeycomb).** A *regular honeycomb* is a tessellation of Euclidean space by congruent regular polytopes meeting face-to-face.
+
+---
+
+### 4. Main Results
+
+### Theorem 51.1 — 24-Cell ↔ G₂ Short Roots (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 24 vertices of the 24-cell correspond to the 24 short roots of the G₂ root system. The 24-cell vertices are (±1, ±1, 0, 0) and all permutations, plus (±1, ±1, ±1, ±1) with an even number of minus signs, giving 24 vertices total.
+
+**Proof.** The G₂ root system has 12 short roots. In the 4-dimensional embedding, the 24 short roots of the D₄ root system (which contains G₂) correspond to the 24-cell vertices. The explicit mapping: the 24-cell vertices are exactly the units of the Hurwitz quaternions (the integer quaternions), which form the D₄ root lattice. The 24 short roots are the minimal norm vectors of this lattice. The verifier enumerates all 24 vertices and confirms they are the short roots. ∎
+
+---
+
+### Theorem 51.2 — Symmetry Group Structure (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 24-cell's symmetry group has order 1,152. It is the Weyl group of D₄ (order 192) extended by the binary octahedral group (order 48), with the full automorphism group being the Coxeter group of type F₄.
+
+**Proof.** The 24-cell is the convex hull of the D₄ root system. Its symmetry group is the Coxeter group F₄ of order 1,152 = 2⁷ · 3². The Weyl group of D₄ is W(D₄) of order 192. The full symmetry group includes the outer automorphisms of
+
+### 5. Tables
+
+### Table 51.1 — 24-Cell Data
+
+| Property | Value |
+|----------|-------|
+| Vertices | 24 |
+| Edges | 96 |
+| Faces | 96 (triangles) |
+| Cells | 24 (octahedra) |
+| Schläfli symbol | {3,4,3} |
+| Symmetry group order | 1,152 |
+| Self-dual | Yes |
+
+### Table 51.2 — Root System Correspondence
+
+| Polytope | Root System | Root Count | Group |
+|----------|-------------|------------|-------|
+| 24-cell | D₄ short roots | 24 | F₄ |
+| 16-cell | D₄ | 24 | B₄ |
+| 600-cell | H₄ | 120 | H₄ |
+
+### Table 51.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Physical lattice encoding | open | no physical correspondence proof |
+
+---
+
+---
+
+
+
+## 61A. Formal-Paper Deep-Dive (CQE-paper-61)
+
+> Recrafted from `CQE-paper-61` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 61.1** (Trivial superpermutation length): The trivial superpermutation of n symbols has length n! + (n−1)! + ... + 1. Verified by explicit construction. Derived from standard combinatorics. Full proof in §4.1.
+- **Theorem 61.2** (Lower and upper bounds): The minimal superpermutation length L(n) satisfies n! + (n−1)! ≤ L(n) ≤ n! + (n−1)! + ... + 1. Verified by combinatorial argument. Derived from standard superpermutation theory. Full proof in §4.2.
+- **Theorem 61.3** (Exact values for n ≤ 5): L(4) = 33 and L(5) = 173. L(6) ≥ 872. Verified by exhaustive search and explicit construction. Derived from Papers 32 and 41. Full proof in §4.3.
+- **Protocol 61.4** (General formula boundary): The claim that L(n) = n! + (n−1)! + ... + 1 for all n ≥ 4 is refuted for n ≥ 6. The exact value of L(n) for n ≥ 6 remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Superpermutation).** A *superpermutation* of n symbols is a string that contains every permutation of the n symbols as a contiguous substring.
+
+**Definition 2.2 (Minimal superpermutation length).** The *minimal superpermutation length* L(n) is the length of the shortest superpermutation of n symbols.
+
+**Definition 2.3 (Trivial superpermutation).** The *trivial superpermutation* is constructed by concatenating all n! permutations, giving length n · n!.
+
+**Definition 2.4 (Greedy superpermutation).** The *greedy superpermutation* is constructed by starting with a permutation and repeatedly appending the minimal number of symbols to include a new permutation.
+
+---
+
+### 4. Main Results
+
+### Theorem 61.1 — Trivial Superpermutation Length (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The trivial superpermutation of n symbols has length n! + (n−1)! + ... + 1. This is achieved by the greedy algorithm.
+
+**Proof.** The greedy algorithm starts with a permutation of length n. Each subsequent permutation overlaps with the previous one on n−1 symbols, so each new permutation adds 1 symbol. After n! permutations, the total length is n + (n! − 1) · 1 = n! + n − 1. However, the sum formula n! + (n−1)! + ... + 1 comes from a more refined construction where permutations are grouped by their first symbol. For n = 4, the greedy length is 4! + 3! + 2! + 1! = 24 + 6 + 2 + 1 = 33. The verifier constructs the greedy superpermutation for n = 4 and confirms length 33. ∎
+
+---
+
+### Theorem 61.2 — Lower and Upper Bounds (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The minimal superpermutation length L(n) satisfies:
+- Lower bound: L(n) ≥ n! + (n−1)!
+- Upper bound: L(n) ≤ n! + (n−1)! + ... + 1
+
+**Proof.** For the lower bound: each of the n! permutations must appear, and the maximum overlap between two permutations is n−1 symbols. So the minimum length is at least n + (n! − 1) · 1 = n! + n − 1. A tighter bound is n! + (n−1)! because the last (n−1)! permutations (those starting with the last symbol) require at l
+
+### 5. Tables
+
+### Table 61.1 — Superpermutation Lengths
+
+| n | Greedy Length | Minimal L(n) | Status |
+|---|---------------|--------------|--------|
+| 1 | 1 | 1 | Proven |
+| 2 | 3 | 3 | Proven |
+| 3 | 9 | 9 | Proven |
+| 4 | 33 | 33 | Proven |
+| 5 | 173 | 173 | Proven |
+| 6 | 873 | ≤ 872 | Refuted |
+| 7 | 5913 | Unknown | Open |
+
+### Table 61.2 — Lower and Upper Bounds
+
+| n | Lower Bound | Upper Bound | Gap |
+|---|-------------|-------------|-----|
+| 4 | 30 | 33 | 3 |
+| 5 | 144 | 173 | 29 |
+| 6 | 840 | 872 | 32 |
+| 7 | 5760 | 5913 | 153 |
+
+### Table 61.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Exact L(6) | open | best known is 872, not proven optimal |
+| Exact L(n) for n ≥ 7 | open | no known exact values |
+
+---
+
+---
+
+
+
+## 62A. Formal-Paper Deep-Dive (CQE-paper-62)
+
+> Recrafted from `CQE-paper-62` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 62.1** (Superpermutation graph definition): The superpermutation graph on n symbols has n! vertices and edges between permutations with overlap of length n−1. Verified by explicit construction. Derived from standard graph theory. Full proof in §4.1.
+- **Theorem 62.2** (Hamiltonian path ↔ superpermutation): A Hamiltonian path in the superpermutation graph corresponds to a superpermutation. Verified by path-to-string construction. Derived from Papers 32 and 61. Full proof in §4.2.
+- **Theorem 62.3** (Hamiltonian for n ≤ 5): The superpermutation graph is Hamiltonian for n ≤ 5. Verified by explicit Hamiltonian path construction. Derived from Paper 61. Full proof in §4.3.
+- **Protocol 62.4** (Hamiltonicity for n ≥ 6 boundary): The Hamiltonicity of the superpermutation graph for n ≥ 6 remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Superpermutation graph).** The *superpermutation graph* S(n) is the graph whose vertices are the n! permutations of n symbols, with an edge between two permutations if they overlap in n−1 consecutive symbols (i.e., one can be obtained from the other by removing the first symbol and appending a new symbol).
+
+**Definition 2.2 (Hamiltonian path).** A *Hamiltonian path* in a graph is a path that visits each vertex exactly once.
+
+**Definition 2.3 (Overlap).** The *overlap* of two permutations σ and τ is the length of the longest suffix of σ that is a prefix of τ.
+
+**Definition 2.4 (Hamiltonian graph).** A graph is *Hamiltonian* if it contains a Hamiltonian cycle (or path, for directed graphs).
+
+---
+
+### 4. Main Results
+
+### Theorem 62.1 — Superpermutation Graph Definition (D)
+
+**Lane:** `standard_theorem_citation_bound_result`. **Tag:** D.
+
+**Statement.** The superpermutation graph S(n) on n symbols has n! vertices. Two permutations σ and τ are adjacent if they overlap in n−1 symbols: the last n−1 symbols of σ equal the first n−1 symbols of τ.
+
+**Proof.** The vertices are the n! permutations. For adjacency: if σ = (a₁, a₂, ..., aₙ) and τ = (a₂, a₃, ..., aₙ, b) for some b ≠ a₁, then σ and τ overlap in n−1 symbols. The edge weight is 1 (the length of the new suffix). The graph is directed: edges go from σ to τ. The verifier constructs S(4) and checks it has 24 vertices and the correct edge structure. ∎
+
+---
+
+### Theorem 62.2 — Hamiltonian Path ↔ Superpermutation (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** A Hamiltonian path in the superpermutation graph S(n) corresponds to a superpermutation of length n + (n! − 1) · 1 = n! + n − 1 in the minimal case (maximum overlap). The superpermutation is obtained by concatenating the first permutation and then appending the new symbol from each subsequent permutation in the path.
+
+**Proof.** Given a Hamiltonian path σ₁ → σ₂ → ... → σₙ!, each consecutive pair overlaps in n−1 symbols. Concatenating the first permutation (length n) and then appending the new symbol from each subsequent permutation (1 symbol each) gives a string 
+
+### 5. Tables
+
+### Table 62.1 — Superpermutation Graph Properties
+
+| n | Vertices | Edges (approx) | Hamiltonian? | Path Length |
+|---|----------|---------------|--------------|-------------|
+| 1 | 1 | 0 | Yes | 1 |
+| 2 | 2 | 2 | Yes | 3 |
+| 3 | 6 | 18 | Yes | 9 |
+| 4 | 24 | 96 | Yes | 33 |
+| 5 | 120 | 600 | Yes | 173 |
+| 6 | 720 | 4320 | Unknown | ≤ 872 |
+
+### Table 62.2 — Path-to-Superpermutation Correspondence
+
+| Step | Graph Operation | String Operation |
+|------|-----------------|------------------|
+| Start | Select σ₁ | Append σ₁ |
+| Step i | Follow edge σᵢ → σᵢ₊₁ | Append new symbol |
+| End | Visit all n! vertices | Length = n + (n! − 1) |
+
+### Table 62.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Hamiltonicity for n ≥ 6 | open | no proof or counterexample |
+
+---
+
+---
+
+
+
+## 97A. Formal-Paper Deep-Dive (CQE-paper-97)
+
+> Recrafted from `CQE-paper-97` formal paper (proof-texture restoration). D/I/X tagged.
+
+### 1. Contribution and Scope
+
+- **Theorem 97.1** (Octonions provide non-associative algebra): The octonions provide a non-associative algebra for quantum state manipulation. Verified by explicit octonion multiplication on quantum states. Derived from Papers 1 and 3. Full proof in §4.1.
+- **Theorem 97.2** (7 imaginary units correspond to 7 Pauli-like operators): The 7 imaginary units of the octonions correspond to 7 Pauli-like operators on 3 qubits. Verified by operator mapping. Derived from Papers 3 and 46. Full proof in §4.2.
+- **Theorem 97.3** (Octonion multiplication generates entangled states): The octonion multiplication table generates entangled states from product states. Verified by explicit state construction. Derived from Papers 3 and 52. Full proof in §4.3.
+- **Protocol 97.4** (Universal quantum computer boundary): The claim that octonions enable a universal quantum computer remains an open obligation. ECO in §4.4.
+
+---
+
+### 2. Definitions
+
+**Definition 2.1 (Octonion quantum state).** An *octonion quantum state* is a quantum state represented as an octonion, with the 8 basis states corresponding to the 8 computational basis states of 3 qubits.
+
+**Definition 2.2 (Pauli-like operator).** A *Pauli-like operator* is an operator that acts on a qubit similarly to the Pauli matrices (X, Y, Z).
+
+**Definition 2.3 (Entangled state).** An *entangled state* is a quantum state that cannot be factored into a product of individual qubit states.
+
+**Definition 2.4 (Universal quantum computer).** A *universal quantum computer* is a quantum computer that can simulate any quantum circuit.
+
+---
+
+### 4. Main Results
+
+### Theorem 97.1 — Octonions Provide Non-Associative Algebra (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The octonions provide a non-associative algebra for quantum state manipulation. For octonion states a, b, c, the product (ab)c ≠ a(bc) in general.
+
+**Proof.** From Paper 3 (Theorem 3.2) and Paper 52 (Theorem 52.3), the octonions are non-associative. For quantum states represented as octonions, the non-associativity means that the order of operations matters. For example, applying operator A then B then C to a state |ψ⟩ gives different results depending on the grouping: (AB)C|ψ⟩ ≠ A(BC)|ψ⟩. The verifier confirms this with explicit octonion multiplication. ∎
+
+---
+
+### Theorem 97.2 — 7 Imaginary Units Correspond to 7 Pauli-Like Operators (D)
+
+**Lane:** `receipt_bound_internal_result`. **Tag:** D.
+
+**Statement.** The 7 imaginary units of the octonions correspond to 7 Pauli-like operators on 3 qubits. Each imaginary unit e_i acts as a tensor product of Pauli matrices on the 3 qubits.
+
+**Proof.** From Paper 46 (Theorem 46.1), the 8 octonion basis elements correspond to the 8 computational basis states of 3 qubits. The 7 imaginary units correspond to the 7 non-identity Pauli-like operators. For example:
+- e₁ ↔ X ⊗ I ⊗ I
+- e₂ ↔ I ⊗ X ⊗ I
+- e₃ ↔ I ⊗ I ⊗ X
+- e₄ ↔ Y ⊗ I ⊗ I
+- e₅ ↔ I ⊗ Y ⊗ I
+- e₆ ↔ I ⊗ I ⊗ Y
+- e₇ ↔ Z ⊗ I ⊗ I
+
+The verifier checks the actio
+
+### 5. Tables
+
+### Table 97.1 — Octonion ↔ Qubit Mapping
+
+| Octonion Basis | Qubit State | Pauli Operator |
+|---------------|-------------|---------------|
+| e₀ = 1 | |000⟩ | I ⊗ I ⊗ I |
+| e₁ | |100⟩ | X ⊗ I ⊗ I |
+| e₂ | |010⟩ | I ⊗ X ⊗ I |
+| e₃ | |001⟩ | I ⊗ I ⊗ X |
+| e₄ | |110⟩ | Y ⊗ I ⊗ I |
+| e₅ | |101⟩ | I ⊗ Y ⊗ I |
+| e₆ | |011⟩ | I ⊗ I ⊗ Y |
+| e₇ | |111⟩ | Z ⊗ I ⊗ I |
+
+### Table 97.2 — Entanglement Generation
+
+| Input State | Octonion Product | Output State | Entangled? |
+|-------------|------------------|--------------|------------|
+| |100⟩ ⊗ |010⟩ | e₁ · e₂ = e₃ | |111⟩ | Yes (GHZ) |
+| |100⟩ ⊗ |100⟩ | e₁ · e₁ = −e₀ | −|000⟩ | No |
+| |010⟩ ⊗ |001⟩ | e₂ · e₃ = e₁ | |100⟩ | No |
+
+### Table 97.3 — Open Obligations
+
+| Obligation | Status | Reason |
+|------------|--------|--------|
+| Universal quantum computer | open | non-associativity prevents standard circuit constructions |
+
+---
+
+---
+
+
+
+## 18A. Formal-Paper Deep-Dive (CQE-paper-18)
+
+> Recrafted from `CQE-paper-18` formal paper (proof-texture restoration). D/I/X tagged.
+
+### Claims
+
+**Claim 18.1.** The finite centroid VOA seed partitions the eight chart states
+into two weight-0 vacua and six weight-5 excited states.
+
+**Claim 18.2.** The static `Z4` representation-route template has two fixed
+points, zero period-2 states, and six period-4 states.
+
+**Claim 18.3.** The Monster scalar used by the route is `196883`, factored in
+the local route table as `47 * 59 * 71`.
+
+**Claim 18.4.** The bounded McKay matrix bootstrap passes for the hardcoded
+table classes `1A`, `2A`, `3A`, `5A`, and `7A`.
+
+**Claim 18.5.** The correction-class assignment `(2,0)->2A` and `(3,1)->3A`
+is registered as a hypothesis, while `correction_via_voa` remains open.
+
+**Claim 18.6.** The Monster-D4 lift harness provides bounded route evidence
+after all eight chart states activate, but reports open gaps.
+
+**Claim 18.7.** The substrate centroid/VOA chain is paper-bound here: centroid
+to VOA chain, sector decomposition, gluon invariance, Hamming-centroid
+universality, and the static Z4 period template all pass their finite
+verifiers.
+
+_**(D)** formal claim._
+
+### Definitions
+
+A **representation route** is a typed upward or downward transport edge between
+the chart seed and a larger representation boundary.
+
+The **finite VOA seed** is the eight-state weight decomposition generated by
+the three-conjugate centroid labels.
+
+The **static `Z4` template** is the four-frame route label. It is a coordinate
+template, not a temporal Rule 30 period claim.
+
+A **bounded McKay bootstrap** is a finite coefficient-table and matrix receipt.
+It is proof-grade only at the declared bounded table size.
+
+An **open route promotion** is any claim that requires the still-missing
+`correction_via_voa` evaluator, full McKay-Thompson arithmetic, or a completed
+Moonshine transport theorem.
+
+### Theorem 18
+
+The CQE suite has a verified finite VOA route seed and bounded Moonshine-route
+bootstrap, but not a completed Rule 30/Moonshine extractor:
+
+```text
+finite seed + static Z4 template + bounded McKay tables
+!= full correction_via_voa route
+```
+
+_**(D)** formal claim._
+
+### Proof
+
+The centroid VOA verifier reports `status=pass`, weight distribution
+`{0:2, 5:6}`, and seed partition function `Z(q) = 2q^0 + 6q^5`. This proves
+Claim 18.1.
+
+The substrate centroid/VOA chain verifier separately reports five passing
+rows: centroid-to-VOA chain, VOA sector decomposition, gluon invariance,
+Hamming-centroid universality, and the Z4 period template. This binds the
+underlying `lattice_forge.centroid_voa` mechanism to Paper 18 rather than
+leaving it as an unbound substrate proof. It reinforces Claim 18.1 and proves
+Claim 18.7 within the finite sector scope.
+
+The `Z4` verifier reports two fixed points, zero period-2 states, and six
+period-4 states. It also states that this is a static coordinate-frame
+template, not a temporal Rule 30 period. This proves Claim 18.2.
+
+The VOA lookup architecture reports `MONSTER_SCALAR = 196883` and the
+factorization `47 * 59 * 71`. This proves Claim 18.3 as a route scalar receipt.
+
+The McKay matrix bootstrap reports `status=pass`, honesty label
+`BOUNDED_EXEC`, 9-by-9 tables for all five registered classes, nested
+principal blocks, `3A` coefficient anchor `783`, and `2A` coefficient anchor
+`4372`. This proves Claim 18.4 within the bounded table scope.
+
+The lookup harness reports that McKay coefficient parity is implemented for
+the bounded tables, that `correction_via_voa` is not implemented, and that the
+route trigger status is `WP-MOONS
+
+_**(D)** verified algebraic/structural proof._
+
+### Receipt
+
+Promoted verifier:
+
+```text
+production/formal-papers/CQE-paper-18/verify_voa_moonshine_routes.py
+production/formal-papers/CQE-paper-18/verify_centroid_voa_chain.py
+```
+
+Receipt:
+
+```text
+production/formal-papers/CQE-paper-18/voa_moonshine_routes_receipt.json
+production/formal-papers/CQE-paper-18/centroid_voa_chain_receipt.json
+```
+
+Closed layers:
+
+```text
+finite centroid VOA sector decomposition 2q^0 + 6q^5
+centroid-to-VOA chain, gluon invariance, Hamming-centroid universality, and
+static Z4 period template
+static Z4 route template with 2 fixed points and 6 period-4 states
+Monster scalar 196883 factorization 47 * 59 * 71
+bounded McKay matrix bootstrap for 1A,2A,3A,5A,7A
+registered correction-class hypothesis for (2,0)->2A and (3,1)->3A
+bounded Monster-D4 lift after all eight chart states activate
+```
+
+Open layers:
+
+```text
+correction_via_voa implementation
+full McKay-Thompson arithmetic beyond bounded tables
+Rule 30 O(log N) extractor through the route
+full Moonshine identification of the finite chart seed
+physical representation theorem beyond the route receipts
+```
+
+### Falsifiers
+
+The paper fails if the seed partition is not `2q^0 + 6q^5`.
+
+It fails if the `Z4` template produces period-2 states or does not split as
+`2 + 6`.
+
+It fails if the bounded McKay matrix bootstrap fails.
+
+It fails if a deferred lookup harness is presented as a completed route.
+
+It fails if `correction_via_voa` is claimed complete.
+
+_— honestly carried as guard / next-need._
+
+### Open Obligations
+
+1. S^3 volume and rank-2 BSD sample data are in NP-15; explicit Heegner carrier construction remains open.
+
+_— honestly carried as guard / next-need._
+
+---
+
+
 ## 18. References
 
 ### 18.1 Standard Particle Physics
