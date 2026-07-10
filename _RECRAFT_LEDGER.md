@@ -258,6 +258,17 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 88 | P vs NP | 093, 015 | DONE. (I) structural. |
 | 89 | Birch-Swinnerton-Dyer | 094, 054 | DONE. (I) structural. |
 | 90 | McKay-Thompson | 095, 023, 124 | DONE. (I) on (D) Moonshine. |
+| 91 | Niemeier glue / Gamma72 | 096, 146, 147 | DONE. DISCLOSURE: Gamma72 math (D); GLUE->Leech "landing" (I), NOT machine-verified (registered gap). |
+| 92 | F4 universality (corrected) | 078, 097 | DONE. (D) Lie theory; chain corrected. |
+| 93 | cold-start terminal | 098 | DONE. (I) bootstrap. |
+| 94 | encoder invariance (deep) | 079, 099 | DONE. (I) on (D) verify_chart/triality. |
+| 95 | SPINOR algebra/observer | 101, 117 | DONE. (I) on (D) Spin(8) triality. |
+| 96 | superpermutation bounds (deep) | 081, 102 | DONE. (I) combinatorics. |
+| 97 | electron-hole-exciton (deep) | 041 | DONE. (I) SU3 band. |
+| 98 | reasoned reapplication | 001 | DONE. (I) regression. |
+| 99 | applied forge validation | 163 | DONE. (I) on (D) forge.py. |
+| 100 | capstone unified ledger | 037, 036, 222, 223 | DONE. HONEST FLAG: "6 Millennium closed" FABRICATED (corrected P80). Gaps 222/223 survive. |
+
 
 
 

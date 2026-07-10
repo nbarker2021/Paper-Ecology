@@ -357,6 +357,12 @@ def verify_monster_voa_transitions():
 
 ---
 
+## 7B. UFT 0-100 Series (FLCR) — Paper 95: SPINOR algebra & observer (Capstone B-5)
+
+Paper 95 = SPINOR algebra (Clifford / Spin(8) triality) as the observer carrier. **(I)** structural
+interpretation on **(D)** Spin(8) triality (the O8 double-cover). Maps to §7
+(`101_SPINOR_observer.md`) and §12 (`117_O8_spinor_double_cover.md`). No fabrication.
+
 ## 7. Bibliography
 
 ### Standard Mathematics and Physics

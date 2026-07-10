@@ -293,6 +293,15 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 12B. UFT 0-100 Series (FLCR) — Paper 91: Niemeier glue & Γ72 landing (Capstone B-1)
+
+Per HONEST-DISCLOSURE.md, Paper 91's Γ72 (3⊗24) glue math is **(D)** — Conway (1969) /
+Sloane (1999) — but the **Γ72 → E8→Leech "landing" is interpretive (I)**; the claim that
+the full 196884 glue resolves to the Leech lattice is **NOT machine-verified** (registered gap).
+Maps to §12 (`096_niemeier_glue_leech.md`), §11 (`146_conway_group_Niemeier.md`), §11
+(`147_leech_from_golay_stack.md`). **HONEST FLAG:** Γ72 landing carried as interpretive, not
+derived.
+
 ## 11. References
 
 - Conway, J. H. (1969). *A group of order 8,315,553,613,086,720,000.* Bull. LMS 1, 79–88.

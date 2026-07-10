@@ -142,6 +142,12 @@ The key insight: the terminal is always the Higgs state (VOA weight 5), the firs
 
 ---
 
+## 9B. UFT 0-100 Series (FLCR) — Paper 93: cold-start terminal (bootstrap from minimal data)
+
+Paper 93 = cold-start: bootstrap the LCR carrier from minimal input (the terminal that seeds
+without pre-trained corpus). **(I)** protocol framing; consistent with `065_dark_energy_boundary_repair.md`
+boundary-repair bootstrap. Maps to §9 (`098_cold_start_terminal.md`). Honest, no fabrication.
+
 ## 9. References
 
 - Paper 002 — Rule 30 cold-start, Lucas carry.

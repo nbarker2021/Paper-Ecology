@@ -184,6 +184,12 @@ Paper 77 = superpermutation n!+(n-1)!+... lower bounds as LCR carrier-depth comb
 Maps to §10 (`081_superpermutation_minimality.md`) and §5 (`102_superpermutation_bounds.md`).
 Honest, no fabrication.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 96: superpermutation bounds — deep
+
+Paper 96 = deep superpermutation lower bounds as LCR carrier-depth combinatorics (n!+(n-1)!+...).
+**(I)** on **(D)** known bounds. Maps to §10 (`081_superpermutation_minimality.md`) and §5
+(`102_superpermutation_bounds.md`). Honest, no fabrication.
+
 ## 10. References
 
 - Houston, R. (2015). *Tackling the Minimal Superpermutation Problem.* arXiv:1408.5108.

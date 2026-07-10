@@ -302,6 +302,12 @@ Paper 36 = condensed matter / materials / metamaterials via the forge substrate.
 interpretation; analog workbook only. Maps to §15 (MetaForge) and §13 (material patterns). No
 fabrication.
 
+## 12C. UFT 0-100 Series (FLCR) — Paper 99: applied forge validation
+
+Paper 99 = applied forge validation (the 3-operation read/combine/route on the cumulative
+corpus). **(I)** on **(D)** forge.py. Maps to §12 (`163_material_patterns_LCR.md`). No
+fabrication.
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

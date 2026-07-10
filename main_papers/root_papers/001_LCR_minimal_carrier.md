@@ -595,6 +595,12 @@ Paper 31 = gauge groups (SU(3)×SU(2)×U(1)) translated into the LCR carrier lan
 interpretation; SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1) is **(D)** (corrected in
 Paper 92). Maps to §16 (LCR carrier) and `045_SU2_U1_gauge_bosons.md`. No fabrication.
 
+## 16C. UFT 0-100 Series (FLCR) — Paper 98: reasoned reapplication (LCR minimal carrier)
+
+Paper 98 = reasoned reapplication of the LCR minimal carrier across the full suite (the
+regression/self-consistency pass). **(I)** framing. Maps to §16 (`001_LCR_minimal_carrier.md`).
+No fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

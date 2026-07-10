@@ -394,6 +394,15 @@ this ecology's fabrication-flag discipline (A033996, etc.). Meta, no physics cla
 
 ---
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 100: capstone — the unified ledger
+
+Paper 100 = the capstone: the unified FLCR ledger tying all 100 papers to the single lattice
+(LCR→D4→J3(O)→E8→Leech). **(I)** governance/finale framing. **HONEST FLAG:** the "6 Millennium
+closed" claim (Paper 80) is FABRICATED and must not be repeated; the formalism only re-expresses
+them as structural identities. Two registered gaps survive (CKM-CP `222_gap1_ckm_cp.md`,
+Higgs-mass `223_gap2_higgs_mass.md`). Maps to §12 (`037_c_invariance_lr_reversal.md`),
+§13 (`036_grand_ribbon_meta_framer.md`), §5 (`222`), §4 (`223`).
+
 ## 13. Conclusion
 
 Paper 036 formalizes the CQE/CMPLX corpus as a single grand ribbon organized by the eight-slot meta-framer schema \(C, L, R, B, T, O, W, A\). The schema, provenance discipline, ribbon type system (corpus/synthesis/governance/capstone), and reusable lookup beads are the infrastructure that lets later papers position themselves without losing proof status. The energy tile edge quantum \(\kappa = \ln(\varphi)/16\) provides the fundamental quantization unit. The open lifts remain visible and are routed to new papers or supplements. All 21 claims are registered with 15 D backed by 7 CrystalLib receipts, 4 I, and 2 X honestly declared.

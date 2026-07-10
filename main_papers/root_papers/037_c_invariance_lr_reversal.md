@@ -266,6 +266,15 @@ invariance, orientation reversal) is the closing symmetry. **HONEST FLAG:** "6 M
 must NOT be repeated; carried only as the corrected interpretive claim. Maps to §12 and §11
 (`036_grand_ribbon_meta_framer.md`).
 
+## 12C. UFT 0-100 Series (FLCR) — Paper 100: capstone — the unified ledger
+
+Paper 100 = the capstone: the unified FLCR ledger tying all 100 papers to the single lattice
+(LCR→D4→J3(O)→E8→Leech). **(I)** governance/finale framing. **HONEST FLAG:** the "6 Millennium
+closed" claim (Paper 80) is FABRICATED and must not be repeated; the formalism only re-expresses
+them as structural identities. Two registered gaps survive (CKM-CP `222_gap1_ckm_cp.md`,
+Higgs-mass `223_gap2_higgs_mass.md`). Maps to §12 (`037_c_invariance_lr_reversal.md`), §13
+(`036_grand_ribon_meta_framer.md`), §5 (`222`), §4 (`223`).
+
 ## 12. Conclusion
 
 Paper 037 establishes C-invariance under LR reversal as the defining symmetry of the LCR carrier. The reversal involution \(\sigma\) preserves the center coordinate \(C\) for all 8 states, fixes exactly 4 states (\(L=R\)), and partitions the remaining 4 into 2 swap-pair orbits. The correction operator \(\partial = C \wedge \neg R\) is invariant on the fixed-point support. All higher exceptional structures — \(E_8\), \(F_4\), \(D_4\) — reduce to the LCR kernel through the verified reduction chain. The VOA partition \(Z(q) = 2q^0 + 6q^5\) classifies the 8 tile states into 2 true vacua (weight 0) and 6 excited states (weight 5), with mass \(m = n_b \cdot \kappa\). The 18 claims (13 D, 4 I, 1 X) are fully verified with 91 checks and 0 defects.

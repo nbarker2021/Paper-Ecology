@@ -306,6 +306,12 @@ None.
 
 ---
 
+## 7B. UFT 0-100 Series (FLCR) — Paper 95: SPINOR algebra & observer (Capstone B-5)
+
+Paper 95 = SPINOR algebra (Clifford / Spin(8) triality) as the observer carrier. **(I)** structural
+interpretation on **(D)** Spin(8) triality (the O8 double-cover). Maps to §7
+(`101_SPINOR_observer.md`) and §12 (`117_O8_spinor_double_cover.md`). No fabrication.
+
 ## 12. References
 
 - Paper 001 — LCR carrier, O8 spinor double-cover (Theorem 5.20).

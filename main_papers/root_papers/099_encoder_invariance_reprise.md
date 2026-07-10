@@ -171,6 +171,13 @@ codec). **(I)** interpretation on **(D)** `verify_chart_enumeration` /
 `verify_triality_operator`. Maps to §14 (`079_encoder_invariance.md`) and §10
 (`099_encoder_invariance_reprise.md`). No fabrication.
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 94: encoder invariance — deep (D4<->J3(O) stability)
+
+Paper 94 = deep encoder invariance: the D4<->J3(O) bijection is stable under the full lattice
+codec (the 192/196,580 Leech-vector map preserves the chart). **(I)** on **(D)**
+`verify_chart_enumeration` / `verify_triality_operator`. Maps to §14 (`079_encoder_invariance.md`)
+and §10 (`099_encoder_invariance_reprise.md`). No fabrication.
+
 ## 10. References
 
 - Conway, J. H., Curtis, R. T., Norton, S. P., Parker, R. A. & Wilson, R. A. (1985). *Atlas of Finite Groups.* OUP.

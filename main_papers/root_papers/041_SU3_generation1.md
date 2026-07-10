@@ -643,6 +643,11 @@ Maps to §13 (`063_neutrino_masses.md`) and §18. No fabrication.
 Paper 62 = dark matter (stable LCR carrier with unlit charge) as the bound-neutral state. **(I)**
 interpretation. Maps to §13 (`064_dark_matter.md`), §18, §13 (`062`). No fabrication.
 
+## 18C. UFT 0-100 Series (FLCR) — Paper 97: electron-hole-exciton — deep dive (SU3 band)
+
+Paper 97 = deep electron-hole-exciton accounting in the SU(3) band (condensed-matter sector
+expressed in LCR). **(I)** interpretation. Maps to §18 (`041_SU3_generation1.md`). No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Particle Physics

@@ -329,6 +329,13 @@ Baez-Magic). Maps to §14 (`078_f4_universality.md`) and §9
 (`097_f4_university_theorem_reprise.md`). This is the structural backbone corrected in Paper 92.
 No fabrication.
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 92: F4 universality — corrected chain
+
+Paper 92 = the **corrected** SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1)
+(resolving the earlier defective chain). **(D)** Lie theory (Baez magic, F4 root system).
+Maps to §14 (`078_f4_universality.md`) and §9 (`097_f4_university_theorem_reprise.md`).
+Honest, no fabrication.
+
 ## 14. References
 
 - Freudenthal (1954), "Lie groups in the foundations of geometry"

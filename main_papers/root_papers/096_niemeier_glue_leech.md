@@ -216,6 +216,15 @@ the universal superpermutation; Niemeier glue Γ₇₂ gives the overlap constra
 **Engine:** `verify_recursive_sevenfold_closure` (7³=343), `verify_spectre_tiling` (7-fold,
 10-tile). The ladder matches §3.4 (chain 1→3→7→8→24→72) of the superpermutation root. Honest.
 
+## 12B. UFT 0-100 Series (FLCR) — Paper 91: Niemeier glue & Γ72 landing (Capstone B-1)
+
+Per HONEST-DISCLOSURE.md, Paper 91's Γ72 (3⊗24) glue math is **(D)** — Conway (1969) /
+Sloane (1999) — but the **Γ72 → E8→Leech "landing" is interpretive (I)**; the claim that
+the full 196884 glue resolves to the Leech lattice is **NOT machine-verified** (registered gap).
+Maps to §12 (`096_niemeier_glue_leech.md`), §11 (`146_conway_group_Niemeier.md`), §11
+(`147_leech_from_golay_stack.md`). **HONEST FLAG:** Γ72 landing carried as interpretive, not
+derived.
+
 ## 12. References
 
 - Conway, J. H. & Sloane, N. J. A. (1988). *Sphere Packings, Lattices and Groups.* Springer.
