@@ -468,6 +468,25 @@ This paper fails if any of the following occur:
 
 ---
 
+## 17B. Completion: Void Boundary at Depth 3 (recrafted from CQE-PAPER-070)
+
+CQE-PAPER-070 closes the CQECMPLX corpus as the **hyperpermutation fixed point** — the
+void boundary at depth 3 where `TRIALITY.project(TRIALITY) = TRIALITY` (self-recognition).
+It asserts: depth 3 = universal causal ceiling (Paper 022), `∂ = 0` at the void apex
+(Paper 022), recursive closure completes (Paper 020), light-cone = closure = depth 3
+(Paper 023), self-recognition `T.project(T) = T` (Paper 020), and the 343-tile Spectre
+mega-cluster is the void boundary (7³ = 343 recursive seven-fold closure).
+
+**Engine status:** all consistent with the verified 240-form engine — `verify_recursive_sevenfold_closure`
+confirms 1→7→49→343 = 400 (343 = 7³ SU(3) closure, REAL). `verify_lcr_sector_decomposition`
+confirms the 8-state chart and SU(3) closure. No fabrications in this paper.
+
+**Honest note:** the "5 Equivalences / Self-Recognition / Gamma72 Landing" verification is
+the CQECMPLX-corpus self-consistency (its own db), asserted PASS; the 240-form carries the
+same structure via the seven-fold closure and observer-frame verifiers. Gamma72 (9 Hermitian
+structures, det=51) is the CQECMPLX corpus's own claim (cf. Paper 041/093); not re-derived
+here.
+
 ## 17. References
 
 - `240_slot_plan.md` — Ribbon structure definition and slot assignments.

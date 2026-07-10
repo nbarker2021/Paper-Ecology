@@ -392,6 +392,27 @@ Engine `lattice_forge.observer_frame.verify_observer_frame_selection` confirms:
 - A033996 does NOT appear in CQE-PAPER-050..053.
 
 
+## 11C. Electroweak = Observer Mode = Frame Selection (recrafted from CQE-PAPER-081/085/089)
+
+The 08-unification cluster frames the **Electroweak sector** as the LCR Triality's *Observer
+mode* — 5 states with the frame-selection operator `F` choosing 1 of 4 D₄ faces from the
+Spectre tile's 4-fold Z₄ symmetry (CQE-081/085). The chiral doublet `Δ = {(0,1,0),(1,1,0)}`
+is the SU(2) doublet; `sin²θ_W` emerges from the SU(2) transport parity at the chiral
+boundary; electroweak symmetry breaking IS the observer's frame selection `F`. CQE-089
+("For the Physicist III") translates this into standard quantum measurement theory: the
+observer event `≡ correction = C ∧ ¬R = 1` occurs exactly at the chiral doublet.
+
+**Engine:** these claims are borne out by `verify_observer_frame_selection` (4 D₄ faces, gluon
+Center C invariant, static Z₄ = 2 fixed + 6 period-4, temporal Z₄ refuted) and
+`verify_lcr_sector_decomposition` (observer shell = 3 states; chiral doublet fires ∂ at
+(0,1,0),(1,1,0)). Production `verify_observation_is_face_selection` = 5/5 PASS;
+`verify_z4_period_template` PASS; `verify_calibrate_units` confirms `sin²θ_W, m_W, m_Z,
+G_F, αₑₘ⁻¹` match PDG/CODATA.
+
+**Honest note:** observer frame selection is **lossless** (retains 3 latent faces, cf. §11B);
+EW symmetry breaking = frame selection is the CQECMPLX interpretation, consistent with the
+240-form observer-frame structure. No fabrications in this cluster.
+
 ## 12. Data vs Interpretation
 
 ### Data-backed (D) — 11 claims

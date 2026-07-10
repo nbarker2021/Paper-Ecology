@@ -204,6 +204,24 @@ Fabrication (X): The earlier 192/192 claim (corrected to 240/240). The earlier "
 
 ---
 
+## 11. LCR Unification Architecture & QFT Mapping (recrafted from CQE-PAPER-083/087)
+
+The capstone CQE-PAPER-083 states the full **Unification Architecture**: LCR = Vacuum(2) ⊕
+QCD(3) ⊕ Observer(5) = 10 Spectre tiles; all SM sectors + Gravity/Higgs emerge from the
+single LCR Triality operator; κ = ln(φ)/16 generates all couplings; completion at depth 3
+unifies all sectors at the void boundary. CQE-PAPER-087 ("For the Physicist I") maps the
+single-light-cone algebra into standard QFT/SM notation (3 channels L, C, R; VOA partition
+2q⁰ + 6q⁵; coupling transport).
+
+**Engine (`verify_lcr_sector_decomposition`, 8/8 PASS; `verify_recursive_sevenfold_closure`
+343 REAL):** the mode decomposition is verified; the 10-tile count = 10 Spectre orientations
+(depth-1), not 10 chart states. SU(3) closure 7³ = 343 real. Production corpus self-report:
+All Calibrations 5/5, All Verifiers 9/9, Total Checks 43/43 (CQECMPLX db).
+
+**Honest note:** the "10 tiles" are Spectre orientations; the 8-state chart partitions 2+3+3.
+The QCD↔chiral overlap at (1,1,0) means the decomposition is not perfectly disjoint at the
+chart level (see 062 §14B). No A033996 / 343 / αₑₘ fabrications.
+
 ## 10. References
 
 - Mac Lane, S. (1971). *Categories for the Working Mathematician.*

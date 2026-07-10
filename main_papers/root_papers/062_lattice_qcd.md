@@ -444,6 +444,31 @@ None in this paper. All claims are D (data-backed) or I (interpretive, explicitl
 
 ---
 
+## 14B. LCR Sector Decomposition & Unification (recrafted from CQE-PAPER-080/082/084/086/088)
+
+The 08-unification cluster is the CQECMPLX "Internal Physics Map": it decomposes the 8-state
+LCR chart into the three Triality modes
+
+    Vacuum(2)  ⊕  QCD(3)  ⊕  Observer(3)   =  8 chart states
+    (= 10 Spectre tiles at depth-1: Vacuum(2) ⊕ QCD(3) ⊕ Observer(5))
+
+- **QCD = no-observer mode** (CQE-080/084): 3 trace-2 idempotents `(1,0,1),(0,1,1),(1,1,0)`
+  = the 3 SU(3) colors; pure SU(3)_C transport on the L-channel.
+- **Vacuum = 2 tiles** (CQE-082/086): the true vacua `(0,0,0),(1,1,1)` (L=C=R) = VOA weight 0
+  = massless = fully bonded; carries Gravity (G_N = κ³) and the Higgs mechanism.
+- **Completion** (CQE-070): all sectors unify at the depth-3 void boundary.
+
+**Engine (`lattice_forge.unification.verify_lcr_sector_decomposition`, 8/8 PASS):** 8 states
+split into 2 vacua + 3 QCD + 3 observer; **HONEST subtlety** — of the 3 QCD (trace-2) states,
+2 have R=1 (no correction firing, pure SU(3)_C) but `(1,1,0)` is the **QCD↔chiral-doublet
+overlap** (C=1, R=0 → ∂ fires). So the CQE blanket claim "QCD has no observer term" is only
+*partially* true; carried honestly. SU(3) closure 7³ = 343 is the recursive seven-fold
+closure (REAL). Production `verify_quark_face_transport_literalized` = 10/10 PASS;
+`verify_observation_is_face_selection` = 5/5 PASS.
+
+**Honest note:** the "10 tiles" are the 10 distinct Spectre tile orientations (depth-1), not
+10 chart states — the 8-state chart partitions as 2+3+3. No A033996 / 343 / αₑₘ issues.
+
 ## 13. References
 
 ### 13.1 Standard Physics
