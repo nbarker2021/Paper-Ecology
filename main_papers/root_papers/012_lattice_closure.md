@@ -534,6 +534,21 @@ corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONE
 gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
 with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
 
+## 15B. UFT 0-100 Series (FLCR) — Paper 72: between-sample dynamics & systematic error
+
+Paper 72 = between-sample dynamics / systematic error propagation / traceability. **(I)** protocol
+framing. Maps to §15 (`074`) and §16 (lattice closure / continuum edge). No fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 73: closure-stability sampling
+
+Paper 73 = closure-stability sampling (reproducibility of the LCR carrier). **(I)** protocol. Maps
+to §15 (`074`) and §16 (`012`). No fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 74: between-sample dynamics tests
+
+Paper 74 = between-sample dynamics stress tests. **(I)** protocol. Maps to §15 (`074`) and §16
+(`012`). No fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

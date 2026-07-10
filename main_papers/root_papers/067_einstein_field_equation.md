@@ -575,6 +575,44 @@ Paper 64 = inflation as LCR carrier-depth expansion (rapid closure-depth growth)
 interpretation. Maps to §17 (`066_inflation.md`) and `067_einstein_field_equation.md`. No
 fabrication.
 
+## 18B. UFT 0-100 Series (FLCR) — Paper 65: GR Side 1 — Einstein Field Equation
+
+Per HONEST-DISCLOSURE.md, Paper 65's EFE G_uv = 8πG T_uv, Riemann/Ricci, geodesic (Thm 2.4
+Euler–Lagrange), Schwarzschild/Kerr are **(D)** standard GR (Einstein 1915, Weinberg 1972). The
+structural identifications (repair curvature ↔ Einstein tensor, EFE as continuum edge, stress-
+energy as carrier) are **(I)**; the Regge-calculus derivation of EFE (Thm 5.5) is **(I)** structural
+analogy on **(D)** standard math (Regge 1961). **HONEST FLAG:** EFE remains a registered
+irreducible gap at the chart level — the discrete-to-continuum identification is (I), not a
+closure. Maps to §18 and `018_GR_boundary_repair_curvature.md`. Obligations FLCR-65-OBL-001 (SM
+mapping) and -003 (E6 curvature projection) remain OPEN.
+
+## 17B. UFT 0-100 Series (FLCR) — Paper 66: black hole entropy
+
+Paper 66 = black-hole entropy (Bekenstein-Hawking A/4) as LCR carrier-boundary area-count.
+**(I)** interpretation on **(D)** standard GR (Hawking 1974). Maps to §17 and `067`. No fabrication.
+
+## 16B. UFT 0-100 Series (FLCR) — Paper 67: FLRW cosmology derivation
+
+Paper 67 = FLRW metric / Friedmann equations as LCR carrier-depth homogeneous expansion. **(I)**
+interpretation on **(D)** standard cosmology. Maps to §16 (`069_FLRW_derivation.md`) and `067`.
+No fabrication.
+
+## 10B. UFT 0-100 Series (FLCR) — Paper 68: cosmological constant & dark energy
+
+Paper 68 = Λ / dark energy as LCR carrier residual tension. **(I)** interpretation; κ calibrated
+at Higgs mass; the "universal energy bound" framing is CQECMPLX. Maps to §10 (`071_cosmological_constant.md`),
+`067`, and `145_monster_energy_bound_kappa.md`. No fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 69: cosmic microwave background
+
+Paper 69 = CMB (Planck spectrum / acoustic peaks) as LCR carrier thermal-history residue. **(I)**
+interpretation on **(D)** standard cosmology. Maps to §18. No fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 70: large-scale structure
+
+Paper 70 = LSS (matter power spectrum) as LCR carrier-depth clustering. **(I)** interpretation.
+Maps to §18. No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard GR

@@ -481,6 +481,12 @@ None. Original paper-67 X claim (SM mapping file) resolved.
 
 ---
 
+## 16B. UFT 0-100 Series (FLCR) — Paper 67: FLRW cosmology derivation
+
+Paper 67 = FLRW metric / Friedmann equations as LCR carrier-depth homogeneous expansion. **(I)**
+interpretation on **(D)** standard cosmology. Maps to §16 (`069_FLRW_derivation.md`) and `067`.
+No fabrication.
+
 ## 16. References
 
 ### 16.1 Standard Cosmology

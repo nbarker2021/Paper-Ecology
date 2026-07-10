@@ -282,6 +282,12 @@ The 70/2 E6 root decomposition gives a qualitative prediction (\(\Omega_\Lambda 
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 68: cosmological constant & dark energy
+
+Paper 68 = Λ / dark energy as LCR carrier residual tension. **(I)** interpretation; κ calibrated
+at Higgs mass; the "universal energy bound" framing is CQECMPLX. Maps to §10 (`071_cosmological_constant.md`),
+`067`, and `145_monster_energy_bound_kappa.md`. No fabrication.
+
 ## 10. References
 
 - PDG 2024, "Cosmological parameters"

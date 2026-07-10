@@ -269,6 +269,12 @@ interpretation; κ calibrated at Higgs mass; the "universal energy bound" framin
 Maps to §13 (`065_dark_energy_boundary_repair.md`) and `145_monster_energy_bound_kappa.md`. No
 fabrication.
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 68: cosmological constant & dark energy
+
+Paper 68 = Λ / dark energy as LCR carrier residual tension. **(I)** interpretation; κ calibrated
+at Higgs mass; the "universal energy bound" framing is CQECMPLX. Maps to §10 (`071_cosmological_constant.md`),
+`067`, and `145_monster_energy_bound_kappa.md`. No fabrication.
+
 ## 13. References
 
 - Paper 007 — Boundary Repair Operator ∂, ∂² = 0

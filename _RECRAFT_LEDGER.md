@@ -232,6 +232,17 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 62 | dark matter | 064, 041, 062 | DONE. (I) bound-neutral carrier. |
 | 63 | dark energy | 065, 145 | DONE. (I) residual tension. |
 | 64 | inflation | 066, 067 | DONE. (I) carrier-depth expansion. |
+| 65 | GR Side1 EFE | 067, 018 | DONE. DISCLOSURE: EFE (D) std GR; struct IDs (I); Regge EFE (I). EFE registered gap. FLCR-65-OBL-001/003 OPEN. |
+| 66 | black hole entropy | 068, 067 | DONE. (I) on (D) Hawking. |
+| 67 | FLRW | 069, 067 | DONE. (I) on (D) cosmology. |
+| 68 | cosmological constant/dark energy | 071, 067, 145 | DONE. (I) residual tension. |
+| 69 | CMB | 067 | DONE. (I) thermal residue. |
+| 70 | large-scale structure | 067 | DONE. (I) clustering. |
+| 71 | calibration 1 | 074, 054 | DONE. (D) calibrate_units (kappa~25.05, Higgs 125.25). |
+| 72 | calibration 2 | 074, 012 | DONE. (I) protocol. |
+| 73 | calibration 3 | 074, 012 | DONE. (I) protocol. |
+| 74 | calibration 4 | 074, 012 | DONE. (I) protocol. |
+
 
 
 

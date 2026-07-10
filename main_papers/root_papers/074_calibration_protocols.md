@@ -289,6 +289,27 @@ def calibration_suite():
 calibration_suite()
 ```
 
+## 15B. UFT 0-100 Series (FLCR) — Paper 71: empirical measurement & calibration protocols 1
+
+Paper 71 = empirical calibration (the calibrate_units.py anchor: κ = ln(φ)/16 × SCALE ≈ 25.05 GeV,
+Higgs = 5κ·SCALE = 125.25 GeV). **(D)** structural/numeric distinction explicit in source. Maps to
+§15 (`074_calibration_protocols.md`) and `054_Higgs_VOA_weight5.md`. No fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 72: between-sample dynamics & systematic error
+
+Paper 72 = between-sample dynamics / systematic error propagation / traceability. **(I)** protocol
+framing. Maps to §15 (`074`) and §16 (lattice closure / continuum edge). No fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 73: closure-stability sampling
+
+Paper 73 = closure-stability sampling (reproducibility of the LCR carrier). **(I)** protocol. Maps
+to §15 (`074`) and §16 (`012`). No fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 74: between-sample dynamics tests
+
+Paper 74 = between-sample dynamics stress tests. **(I)** protocol. Maps to §15 (`074`) and §16
+(`012`). No fabrication.
+
 ## 15. References
 
 - PDG 2024, "Experimental methods"

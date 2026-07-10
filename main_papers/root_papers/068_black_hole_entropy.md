@@ -499,6 +499,11 @@ None. Original paper-66 X claim (SM mapping file with 4 inferred rows) resolved.
 
 ---
 
+## 17B. UFT 0-100 Series (FLCR) — Paper 66: black hole entropy
+
+Paper 66 = black-hole entropy (Bekenstein-Hawking A/4) as LCR carrier-boundary area-count.
+**(I)** interpretation on **(D)** standard GR (Hawking 1974). Maps to §17 and `067`. No fabrication.
+
 ## 17. References
 
 ### 17.1 Standard BH Physics

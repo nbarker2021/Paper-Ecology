@@ -291,6 +291,12 @@ Paper 56 = Higgs couplings (g·m/v) as LCR carrier-strength (n_b·κ). **(I)** i
 NOTE:** root 057 documents unverified CrystalLib receipts for D claims and a λ deviation beyond SM
 — carried as stated, not independently verified. Maps to §11 and `054`. No new fabrication here.
 
+## 15B. UFT 0-100 Series (FLCR) — Paper 71: empirical measurement & calibration protocols 1
+
+Paper 71 = empirical calibration (the calibrate_units.py anchor: κ = ln(φ)/16 × SCALE ≈ 25.05 GeV,
+Higgs = 5κ·SCALE = 125.25 GeV). **(D)** structural/numeric distinction explicit in source. Maps to
+§15 (`074_calibration_protocols.md`) and `054_Higgs_VOA_weight5.md`. No fabrication.
+
 ## References
 
 1. **Paper 001** — LCR minimal carrier. VOA partition T5.15, shell grading, reversal involution.

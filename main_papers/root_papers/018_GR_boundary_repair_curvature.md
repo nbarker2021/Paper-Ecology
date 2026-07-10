@@ -489,6 +489,17 @@ Paper 35 = GR / curvature / continuum translated into LCR (curvature as repair d
 interpretation. **HONEST FLAG:** EFE is a registered irreducible gap; G_uv = κ T_uv interpretive,
 not derived. Maps to §15 and `067_einstein_field_equation.md`. No fabrication.
 
+## 18B. UFT 0-100 Series (FLCR) — Paper 65: GR Side 1 — Einstein Field Equation
+
+Per HONEST-DISCLOSURE.md, Paper 65's EFE G_uv = 8πG T_uv, Riemann/Ricci, geodesic (Thm 2.4
+Euler–Lagrange), Schwarzschild/Kerr are **(D)** standard GR (Einstein 1915, Weinberg 1972). The
+structural identifications (repair curvature ↔ Einstein tensor, EFE as continuum edge, stress-
+energy as carrier) are **(I)**; the Regge-calculus derivation of EFE (Thm 5.5) is **(I)** structural
+analogy on **(D)** standard math (Regge 1961). **HONEST FLAG:** EFE remains a registered
+irreducible gap at the chart level — the discrete-to-continuum identification is (I), not a
+closure. Maps to §18 and `018_GR_boundary_repair_curvature.md`. Obligations FLCR-65-OBL-001 (SM
+mapping) and -003 (E6 curvature projection) remain OPEN.
+
 ## 15. References
 
 ### 15.1 Standard Mathematics and Physics
