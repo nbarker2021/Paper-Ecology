@@ -350,6 +350,13 @@ print(f"Arf invariant of D4 codec: {arf} (even)")
 print("D12 action preserves Arf invariant: PASS")
 ```
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 76: encoder invariance (D4 <-> J3(O))
+
+Paper 76 = encoder invariance of the D4<->J3(O) map (the bijection carries through the lattice
+codec). **(I)** interpretation on **(D)** `verify_chart_enumeration` /
+`verify_triality_operator`. Maps to §14 (`079_encoder_invariance.md`) and §10
+(`099_encoder_invariance_reprise.md`). No fabrication.
+
 ## 14. References
 
 - Griess (1982), "The Friendly Giant," *Invent. Math.* 69, 1

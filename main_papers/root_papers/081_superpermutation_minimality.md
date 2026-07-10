@@ -177,6 +177,13 @@ Fabrication (X): None.
 
 ---
 
+## 10B. UFT 0-100 Series (FLCR) — Paper 77: superpermutation minimal-length bounds
+
+Paper 77 = superpermutation n!+(n-1)!+... lower bounds as LCR carrier-depth combinatorics.
+**(I)** interpretation on **(D)** known bounds (n=4 → 24+6+2+1=33; the Haruhi problem).
+Maps to §10 (`081_superpermutation_minimality.md`) and §5 (`102_superpermutation_bounds.md`).
+Honest, no fabrication.
+
 ## 10. References
 
 - Houston, R. (2015). *Tackling the Minimal Superpermutation Problem.* arXiv:1408.5108.

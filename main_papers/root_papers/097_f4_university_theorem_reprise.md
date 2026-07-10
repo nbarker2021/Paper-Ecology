@@ -151,6 +151,14 @@ The obstruction to proving F4 universality is the **layer-dependent correction o
 
 ---
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 75: F4 universality
+
+Paper 75 = F4 universality: F4 ⊃ SO(9); SU(3)xSU(3) ⊂ F4; the 52-dim adjoint as the
+exceptional glue. **(I)** interpretation on **(D)** standard Lie theory (F4 root system,
+Baez-Magic). Maps to §14 (`078_f4_universality.md`) and §9
+(`097_f4_university_theorem_reprise.md`). This is the structural backbone corrected in Paper 92.
+No fabrication.
+
 ## 9. References
 
 - Adams, J. F. (1996). *Lectures on Exceptional Lie Groups.* U. Chicago Press.

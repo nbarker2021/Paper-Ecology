@@ -164,6 +164,13 @@ The set of generators that preserve \(\partial\) forms the dihedral group D2 = \
 
 ---
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 76: encoder invariance (D4 <-> J3(O))
+
+Paper 76 = encoder invariance of the D4<->J3(O) map (the bijection carries through the lattice
+codec). **(I)** interpretation on **(D)** `verify_chart_enumeration` /
+`verify_triality_operator`. Maps to §14 (`079_encoder_invariance.md`) and §10
+(`099_encoder_invariance_reprise.md`). No fabrication.
+
 ## 10. References
 
 - Conway, J. H., Curtis, R. T., Norton, S. P., Parker, R. A. & Wilson, R. A. (1985). *Atlas of Finite Groups.* OUP.

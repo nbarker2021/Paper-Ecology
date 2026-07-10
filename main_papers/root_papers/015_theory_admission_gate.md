@@ -373,6 +373,17 @@ Paper 39 = falsifiers / comparators / standards-of-evidence governance (the clai
 **(I)** governance framing on **(D)** CLAIM_LANE_SCHEMA.json (8 lanes / 7 classes). Maps to §15. No
 fabrication.
 
+## 15B. UFT 0-100 Series (FLCR) — Paper 78: governance 1 (admission & claim lanes)
+
+Paper 78 = governance layer 1: theory-admission gates, claim-lane schema (8 lanes / 7 classes),
+D/I/X tagging. **(I)** governance framing on **(D)** CLAIM_LANE_SCHEMA.json. Maps to §15. No
+fabrication.
+
+## 15B. UFT 0-100 Series (FLCR) — Paper 79: governance 2 (provenance & falsifiers)
+
+Paper 79 = governance layer 2: provenance, falsifiers, comparators, evidence standards. **(I)**
+governance framing. Maps to §15. No fabrication.
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

@@ -295,6 +295,16 @@ interpretation; meta-structure. Maps to §11 (Grand Ribbon). No fabrication.
 Paper 40 = grand reconstruction map / trust-removal protocol (the Band-B→C assembly ledger). **(I)**
 governance framing. Maps to §14 (layer-2 synthesis) and §11 (Grand Ribbon). No fabrication.
 
+## 12B. UFT 0-100 Series (FLCR) — Paper 80: closed-form unification (capstone of the derivation)
+
+Per HONEST-DISCLOSURE.md, Paper 80's "6 Millennium Problems closed as corollaries" is a
+**FABRICATION** — the corrected statement is that the FLCR formalism *re-expresses* them as
+structural identities (Miller 2026), not proofs. The **(D)** content is: the machinery is the
+single unified lattice (LCR→D4→J3(O)→E8→Leech), and `037_c_invariance_lr_reversal.md` (C/T
+invariance, orientation reversal) is the closing symmetry. **HONEST FLAG:** "6 Millennium closed"
+must NOT be repeated; carried only as the corrected interpretive claim. Maps to §12 and §11
+(`036_grand_ribbon_meta_framer.md`).
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

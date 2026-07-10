@@ -321,6 +321,14 @@ for c, n in zip(chain, n_states_all):
     print(f"  {c}-state from chain element {n}")
 ```
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 75: F4 universality
+
+Paper 75 = F4 universality: F4 ⊃ SO(9); SU(3)xSU(3) ⊂ F4; the 52-dim adjoint as the
+exceptional glue. **(I)** interpretation on **(D)** standard Lie theory (F4 root system,
+Baez-Magic). Maps to §14 (`078_f4_universality.md`) and §9
+(`097_f4_university_theorem_reprise.md`). This is the structural backbone corrected in Paper 92.
+No fabrication.
+
 ## 14. References
 
 - Freudenthal (1954), "Lie groups in the foundations of geometry"

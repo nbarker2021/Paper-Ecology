@@ -242,6 +242,13 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 72 | calibration 2 | 074, 012 | DONE. (I) protocol. |
 | 73 | calibration 3 | 074, 012 | DONE. (I) protocol. |
 | 74 | calibration 4 | 074, 012 | DONE. (I) protocol. |
+| 75 | F4 universality | 078, 097 | DONE. (I) on (D) F4 root system. |
+| 76 | encoder invariance | 079, 099 | DONE. (I) on (D) verify_chart/triality. |
+| 77 | superpermutation bounds | 081, 102 | DONE. (I) combinatorics. |
+| 78 | governance 1 | 015 | DONE. (I) claim-lane schema (D). |
+| 79 | governance 2 | 015 | DONE. (I) provenance/falsifiers. |
+| 80 | closed-form unification | 037, 036 | DONE. HONEST FLAG: "6 Millennium closed" FABRICATED, corrected to structural re-expression. |
+
 
 
 
