@@ -307,6 +307,12 @@ The 16 claims (14 D + 2 I) are carried forward from old paper-56 without loss. T
 
 ---
 
+## 11C. UFT 0-100 Series (FLCR) — Paper 56: Higgs couplings to gauge bosons & fermions
+
+Paper 56 = Higgs couplings (g·m/v) as LCR carrier-strength (n_b·κ). **(I)** interpretation. **HONEST
+NOTE:** root 057 documents unverified CrystalLib receipts for D claims and a λ deviation beyond SM
+— carried as stated, not independently verified. Maps to §11 and `054`. No new fabrication here.
+
 ## 11. Falsifiers
 
 This paper fails if any of the following occur:

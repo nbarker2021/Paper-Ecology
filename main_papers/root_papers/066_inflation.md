@@ -523,6 +523,12 @@ None. All claims are either D or explicitly labeled I. No data is fabricated.
 
 ---
 
+## 17B. UFT 0-100 Series (FLCR) — Paper 64: inflation
+
+Paper 64 = inflation as LCR carrier-depth expansion (rapid closure-depth growth). **(I)**
+interpretation. Maps to §17 (`066_inflation.md`) and `067_einstein_field_equation.md`. No
+fabrication.
+
 ## 17. References
 
 ### 17.1 Standard Cosmology

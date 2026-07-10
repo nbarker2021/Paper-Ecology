@@ -267,6 +267,11 @@ This paper fails if any of the following hold:
 
 ---
 
+## 13B. UFT 0-100 Series (FLCR) — Paper 55: vacuum stability
+
+Paper 55 = vacuum stability (λ running) as LCR carrier-depth consistency. **(I)** interpretation.
+Maps to §13 (`056_vacuum_stability.md`) and `054_Higgs_VOA_weight5.md`. No fabrication.
+
 ## 13. References
 
 1. **Degrassi, S., et al. (2012).** "Higgs mass and vacuum stability in the Standard Model at NNLO." *Journal of High Energy Physics* 2012(8).

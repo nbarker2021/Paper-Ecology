@@ -304,6 +304,12 @@ def higgs_as_sheet_crossing(axis):
 
 ---
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 46: electroweak symmetry breaking
+
+Paper 46 = EWSB as the LCR shell=2 (SU2 doublet) lifting into the mass carrier. **(I)** interpretation.
+**HONEST FLAG:** Higgs mass derivation is a registered irreducible gap; κ = 5κ·SCALE = 125.25 GeV
+is the calibrated anchor. Maps to §11 and `054_Higgs_VOA_weight5.md`. No fabrication.
+
 ## 11. References
 
 ### 11.1 Standard Physics

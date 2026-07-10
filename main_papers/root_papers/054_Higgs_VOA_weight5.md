@@ -261,6 +261,36 @@ Paper 33 = electroweak / Higgs / mass-residue translated into LCR. **(I)** inter
 FLAG:** Higgs mass derivation is a registered irreducible gap; κ = 5κ·SCALE = 125.25 GeV is the
 calibrated anchor. Maps to §9 and `054_Higgs_VOA_weight5.md`. No fabrication.
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 46: electroweak symmetry breaking
+
+Paper 46 = EWSB as the LCR shell=2 (SU2 doublet) lifting into the mass carrier. **(I)** interpretation.
+**HONEST FLAG:** Higgs mass derivation is a registered irreducible gap; κ = 5κ·SCALE = 125.25 GeV
+is the calibrated anchor. Maps to §11 and `054_Higgs_VOA_weight5.md`. No fabrication.
+
+## 13B. UFT 0-100 Series (FLCR) — Paper 53: Higgs mechanism & vacuum 1
+
+Paper 53 = Higgs mechanism (VEV lift of shell=2) in LCR. **(I)** interpretation. **HONEST FLAG:**
+Higgs derivation registered irreducible gap; VEV = 246 GeV is the calibrated anchor. Maps to §13
+and §9. No fabrication.
+
+## 14B. UFT 0-100 Series (FLCR) — Paper 54: VOA excited weight-5 = Higgs
+
+Paper 54 = VOA weight-5 excited state identified with the Higgs (Z(q)=2q⁰+6q⁵; weight-5 = Higgs
+sector). **(I)** interpretation; consistent with `verify_lcr_sector_decomposition` (6 excited =
+weight 5). Maps to §14 (`126_weight5_Higgs_voa.md`) and §9. **HONEST FLAG:** Higgs identity is
+the CQECMPLX interpretation, not an independent derivation. No fabrication.
+
+## 13B. UFT 0-100 Series (FLCR) — Paper 55: vacuum stability
+
+Paper 55 = vacuum stability (λ running) as LCR carrier-depth consistency. **(I)** interpretation.
+Maps to §13 (`056_vacuum_stability.md`) and `054_Higgs_VOA_weight5.md`. No fabrication.
+
+## 11C. UFT 0-100 Series (FLCR) — Paper 56: Higgs couplings to gauge bosons & fermions
+
+Paper 56 = Higgs couplings (g·m/v) as LCR carrier-strength (n_b·κ). **(I)** interpretation. **HONEST
+NOTE:** root 057 documents unverified CrystalLib receipts for D claims and a λ deviation beyond SM
+— carried as stated, not independently verified. Maps to §11 and `054`. No new fabrication here.
+
 ## References
 
 1. **Paper 001** — LCR minimal carrier. VOA partition T5.15, shell grading, reversal involution.

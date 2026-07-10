@@ -210,5 +210,28 @@ HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabricati
 | 38 | observer/computation/AI | 024, 033 | DONE. (I) consistent. |
 | 39 | falsifiers/comparators/standards | 015 | DONE. (I) CLAIM_LANE_SCHEMA (D). |
 | 40 | grand reconstruction/trust-removal | 025, 036 | DONE. (I) governance. |
+| 41-43 | SU3 gen 1-3 | 041 | DONE. (I) 3 trace-2 idempotents (D). 1 gen shown. |
+| 44 | color confinement | 044, 062 | DONE. (I) confinement=closure. |
+| 45 | SU2xU1 gauge bosons | 045 | DONE. SM chain F4>C>C (D, corrected P92). |
+| 46 | EWSB | 046, 054 | DONE. Higgs derivation gap. |
+| 47 | V-A weak | 045 | DONE. (I) observer-face asymmetry. |
+| 48 | EW phase diagram | 048, 177 | DONE. (I) carrier-temperature. |
+| 49 | mass/Yukawa 1 | 041, 177 | DONE. (I) carrier-depth. |
+| 50 | CKM/PMNS | 051, 222 | DONE. (I) S3 rotation. |
+| 51 | BSM/flavor | 041 | DONE. (I) S3 lifting. |
+| 52 | neutrino/seesaw/PMNS | 053, 063 | DONE. (I) carrier-depth extension. |
+| 53 | Higgs/vacuum 1 | 054, 177 | DONE. Higgs derivation gap; VEV 246 GeV anchor. |
+| 54 | VOA weight5=Higgs | 054, 126, 177 | DONE. (I) Z=2q0+6q5. Higgs identity interpretive. |
+| 55 | vacuum stability | 056, 054 | DONE. (I) lambda running. |
+| 56 | Higgs couplings | 057, 054 | DONE. NOTE: root 057 unverified CrystalLib receipts / lambda deviation (carried). |
+| 57 | hadron spectroscopy | 058, 062 | DONE. NOTE: root 058 incomplete SM mapping (carried). |
+| 58 | parton distributions | 062 | DONE. (I) momentum share. |
+| 59 | jets/fragmentation | 061, 062 | DONE. (I) carrier cascade. |
+| 60 | lattice QCD | 062 | DONE. (I) Wilson fermion. |
+| 61 | BSM/dark 1 | 063, 041 | DONE. (I) sterile extension. |
+| 62 | dark matter | 064, 041, 062 | DONE. (I) bound-neutral carrier. |
+| 63 | dark energy | 065, 145 | DONE. (I) residual tension. |
+| 64 | inflation | 066, 067 | DONE. (I) carrier-depth expansion. |
+
 
 

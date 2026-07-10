@@ -463,6 +463,11 @@ None in this paper. The SM mapping file absence is honestly documented. All inte
 
 ---
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 59: jets & fragmentation
+
+Paper 59 = jets/fragmentation as LCR carrier cascade (depth-branching). **(I)** interpretation.
+Maps to §13 (`061_jets_fragmentation.md`) and `062`. No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

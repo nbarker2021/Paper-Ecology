@@ -422,6 +422,13 @@ This paper fails if any of the following occur:
 
 ---
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 63: dark energy
+
+Paper 63 = dark energy as the residual LCR carrier tension (vacuum energy bound). **(I)**
+interpretation; κ calibrated at Higgs mass; the "universal energy bound" framing is CQECMPLX.
+Maps to §13 (`065_dark_energy_boundary_repair.md`) and `145_monster_energy_bound_kappa.md`. No
+fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

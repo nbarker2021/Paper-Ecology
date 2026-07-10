@@ -635,6 +635,12 @@ From PaperLib source `paper-50__unified_Mass_and_Yukawa_2_CKM_PMNS.md`:
 
 ---
 
+## 11C. UFT 0-100 Series (FLCR) — Paper 50: CKM & PMNS matrices
+
+Paper 50 = CKM/PMNS as the rotation between flavor and mass bases in LCR (S3 generation
+permutation). **(I)** interpretation. Maps to §11 and `222_gap1_ckm_cp.md` (CKM CP gap). Honest,
+no fabrication.
+
 ## Forward References
 
 This paper is Layer 6, Position *1 — the first action of the SU(2)×U(1) sector. It activates the ribbon position by fixing the mixing matrices as the foundation for the electroweak sector. The CKM/PMNS matrices are the bridge between the SU(3) generation structure (Layer 5) and the electroweak gauge interactions (Layer 6). Layer 7 (Papers 061–070) will climb to the Higgs and Yukawa sector, using the mixing matrices as the rotation between flavor and mass bases.

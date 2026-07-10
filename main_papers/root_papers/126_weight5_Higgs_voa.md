@@ -262,6 +262,13 @@ All claims are (D) data-backed.
 
 ---
 
+## 14B. UFT 0-100 Series (FLCR) — Paper 54: VOA excited weight-5 = Higgs
+
+Paper 54 = VOA weight-5 excited state identified with the Higgs (Z(q)=2q⁰+6q⁵; weight-5 = Higgs
+sector). **(I)** interpretation; consistent with `verify_lcr_sector_decomposition` (6 excited =
+weight 5). Maps to §14 (`126_weight5_Higgs_voa.md`) and §9. **HONEST FLAG:** Higgs identity is
+the CQECMPLX interpretation, not an independent derivation. No fabrication.
+
 ## 14. References
 
 - Paper 054 — Higgs mechanism as VOA weight 5 (original)

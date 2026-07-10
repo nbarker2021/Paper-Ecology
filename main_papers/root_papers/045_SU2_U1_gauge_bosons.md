@@ -213,6 +213,18 @@ Paper 31 = gauge groups (SU(3)×SU(2)×U(1)) translated into the LCR carrier lan
 interpretation; SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1) is **(D)** (corrected in
 Paper 92). Maps to §16 (LCR carrier) and `045_SU2_U1_gauge_bosons.md`. No fabrication.
 
+## 9C. UFT 0-100 Series (FLCR) — Paper 45: SU(2)×U(1) gauge bosons
+
+Paper 45 = electroweak gauge bosons (W±, Z, γ) as LCR carrier excitations. **(I)** interpretation;
+SM embedding chain F4 ⊃ SU(3)×SU(3) ⊃ SU(3)×SU(2)×U(1) is **(D)** (corrected Paper 92). Maps to §9.
+No fabrication.
+
+## 9C. UFT 0-100 Series (FLCR) — Paper 47: V-A weak interaction
+
+Paper 47 = V-A chiral weak coupling as the LCR observer-face asymmetry (left-handed frame
+selected). **(I)** interpretation, consistent with `verify_observer_frame_selection`. Maps to §9.
+No fabrication.
+
 ## 9. Bibliography
 
 1. **Paper 005.** D4, J₃(𝕆), Octave Triality. Theorems 5.7 (D4 codec), 5.9 (F4 action, magic square).

@@ -256,6 +256,19 @@ gap). No fabrication.
 EXPOSE-29's depth-72 closure = universal energy bound; κ calibrated at Higgs mass. Honest note:
 energy bound is the CQECMPLX interpretation; Γ72 landing unproved (registered gap). No fabrication.
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 27: Monster ceiling & large-invariant boundaries
+
+Paper 27 = Monster energy ceiling / large-invariant boundaries (depth-72 closure). **(I)**
+interpretation; κ calibrated at Higgs mass; Γ72 landing is a registered gap. Maps to §13. No
+fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 63: dark energy
+
+Paper 63 = dark energy as the residual LCR carrier tension (vacuum energy bound). **(I)**
+interpretation; κ calibrated at Higgs mass; the "universal energy bound" framing is CQECMPLX.
+Maps to §13 (`065_dark_energy_boundary_repair.md`) and `145_monster_energy_bound_kappa.md`. No
+fabrication.
+
 ## 13. References
 
 - Paper 007 — Boundary Repair Operator ∂, ∂² = 0

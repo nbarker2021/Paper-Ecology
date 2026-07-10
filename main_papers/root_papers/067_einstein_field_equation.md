@@ -569,6 +569,12 @@ Paper 35 = GR / curvature / continuum translated into LCR (curvature as repair d
 interpretation. **HONEST FLAG:** EFE is a registered irreducible gap; G_uv = κ T_uv interpretive,
 not derived. Maps to §15 and `067_einstein_field_equation.md`. No fabrication.
 
+## 17B. UFT 0-100 Series (FLCR) — Paper 64: inflation
+
+Paper 64 = inflation as LCR carrier-depth expansion (rapid closure-depth growth). **(I)**
+interpretation. Maps to §17 (`066_inflation.md`) and `067_einstein_field_equation.md`. No
+fabrication.
+
 ## 18. References
 
 ### 18.1 Standard GR

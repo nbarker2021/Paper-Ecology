@@ -191,6 +191,29 @@ Paper 33 = electroweak / Higgs / mass-residue translated into LCR. **(I)** inter
 FLAG:** Higgs mass derivation is a registered irreducible gap; κ = 5κ·SCALE = 125.25 GeV is the
 calibrated anchor. Maps to §9 and `054_Higgs_VOA_weight5.md`. No fabrication.
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 48: electroweak phase diagram
+
+Paper 48 = EW phase diagram (T-evolving symmetry restoration) as LCR carrier-temperature map.
+**(I)** interpretation. Maps to §11 and `177_electroweak_higgs_mass_LCR.md`. No fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 49: mass & Yukawa 1 (mass hierarchy)
+
+Paper 49 = fermion mass hierarchy as LCR carrier-depth (n_b·κ) ordering. **(I)** interpretation;
+numeric calibration pending (structural complete). Maps to §18 and §9. No fabrication.
+
+## 13B. UFT 0-100 Series (FLCR) — Paper 53: Higgs mechanism & vacuum 1
+
+Paper 53 = Higgs mechanism (VEV lift of shell=2) in LCR. **(I)** interpretation. **HONEST FLAG:**
+Higgs derivation registered irreducible gap; VEV = 246 GeV is the calibrated anchor. Maps to §13
+and §9. No fabrication.
+
+## 14B. UFT 0-100 Series (FLCR) — Paper 54: VOA excited weight-5 = Higgs
+
+Paper 54 = VOA weight-5 excited state identified with the Higgs (Z(q)=2q⁰+6q⁵; weight-5 = Higgs
+sector). **(I)** interpretation; consistent with `verify_lcr_sector_decomposition` (6 excited =
+weight 5). Maps to §14 (`126_weight5_Higgs_voa.md`) and §9. **HONEST FLAG:** Higgs identity is
+the CQECMPLX interpretation, not an independent derivation. No fabrication.
+
 ## 9. References
 
 1. ATLAS Collaboration (2023). "Measurement of the Higgs boson mass in the H→4ℓ decay channel."

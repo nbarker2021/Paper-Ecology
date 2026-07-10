@@ -461,6 +461,11 @@ This is a research program, not a current claim.
 
 ---
 
+## 13C. UFT 0-100 Series (FLCR) — Paper 62: dark matter candidates & lattice charge constraints
+
+Paper 62 = dark matter (stable LCR carrier with unlit charge) as the bound-neutral state. **(I)**
+interpretation. Maps to §13 (`064_dark_matter.md`), §18, §13 (`062`). No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

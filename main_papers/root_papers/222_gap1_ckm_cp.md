@@ -86,6 +86,12 @@ The Cartan subalgebra of E8 is the maximal Abelian subalgebra of rank 8. The CQE
 
 ---
 
+## 11C. UFT 0-100 Series (FLCR) — Paper 50: CKM & PMNS matrices
+
+Paper 50 = CKM/PMNS as the rotation between flavor and mass bases in LCR (S3 generation
+permutation). **(I)** interpretation. Maps to §11 and `222_gap1_ckm_cp.md` (CKM CP gap). Honest,
+no fabrication.
+
 ## 5. References
 
 - C1–C8 (The Frame) — CQE frame documents

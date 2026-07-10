@@ -449,6 +449,17 @@ This paper fails if any of the following occur:
 
 ---
 
+## 13B. UFT 0-100 Series (FLCR) — Paper 52: neutrino masses, seesaw & PMNS
+
+Paper 52 = seesaw neutrino masses / PMNS as LCR carrier-depth extension (light + heavy states).
+**(I)** interpretation. Maps to §13 (`053_neutrino_seesaw.md`) and `063_neutrino_masses.md`. No
+fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 61: BSM & dark 1 (neutrino masses & mixing)
+
+Paper 61 = neutrino BSM (sterile states) as LCR carrier-depth extension. **(I)** interpretation.
+Maps to §13 (`063_neutrino_masses.md`) and §18. No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

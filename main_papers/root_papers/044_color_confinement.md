@@ -178,6 +178,12 @@ The D4 lattice provides the confining geometry through three structural features
 
 ---
 
+## 10C. UFT 0-100 Series (FLCR) — Paper 44: SU(3) color confinement
+
+Paper 44 = color confinement as the LCR closure of the 3-color state (shell=2 trace-2 idempotent
+locked by S3). **(I)** interpretation; confinement = bounded local closure. Maps to §10 and
+`062_lattice_qcd.md`. Honest, no fabrication.
+
 ## 10. Bibliography
 
 1. **Paper 004:** D4, J3(O), Octave Triality. D4 lattice → J3(O) projection and F4 adjoint decomposition.

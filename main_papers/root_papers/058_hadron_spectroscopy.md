@@ -265,6 +265,13 @@ Perturbative QCD is the expansion in the repair curvature κ_repair(Q) = α_s(Q)
 
 ---
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 57: hadron spectroscopy
+
+Paper 57 = hadron spectroscopy (meson/baryon towers) as LCR closure of color states. **(I)**
+interpretation. **HONEST NOTE:** root 058 documents incomplete SM mapping (6 rows inferred,
+incomplete per Theorem 57.15) — carried as stated. Maps to §11 and `062_lattice_qcd.md`. No new
+fabrication.
+
 ## 10. Data vs Interpretation
 
 - **Data (PDG 2024, Papers 001, 004):** Hadron masses (137–3097 MeV), LCR 8-state space with shell grading (1,3,3,1), D4 root system (24 roots), SU(3) representation theory (3, 3̄, 8, 10). These are established facts.

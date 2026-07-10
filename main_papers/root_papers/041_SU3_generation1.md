@@ -616,6 +616,33 @@ FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live 
 Paper 34 = electron-hole-exciton accounting (condensed-matter sector expressed in the SU(3)
 band). **(I)** interpretation. Maps to §18 (SU3 generation). Honest, no fabrication.
 
+## 18C. UFT 0-100 Series (FLCR) — Papers 41-43: SU(3) sector, Generations 1-3
+
+Papers 41-43 develop the SU(3) generation structure (1 charcoal / 3 generation rows) in LCR.
+**(I)** interpretation; the 3 trace-2 idempotents of J3(O) are **(D)** standard math; the
+3-generation identification is **(D)** FLCR doctrine. 1 generation explicitly shown. Maps to §18.
+Honest, no fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 49: mass & Yukawa 1 (mass hierarchy)
+
+Paper 49 = fermion mass hierarchy as LCR carrier-depth (n_b·κ) ordering. **(I)** interpretation;
+numeric calibration pending (structural complete). Maps to §18 and §9. No fabrication.
+
+## 18C. UFT 0-100 Series (FLCR) — Paper 51: BSM constraints & flavor-symmetry breaking
+
+Paper 51 = BSM / flavor-symmetry breaking as S3 axis-permutation lifting. **(I)** interpretation.
+Maps to §18. No fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 61: BSM & dark 1 (neutrino masses & mixing)
+
+Paper 61 = neutrino BSM (sterile states) as LCR carrier-depth extension. **(I)** interpretation.
+Maps to §13 (`063_neutrino_masses.md`) and §18. No fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 62: dark matter candidates & lattice charge constraints
+
+Paper 62 = dark matter (stable LCR carrier with unlit charge) as the bound-neutral state. **(I)**
+interpretation. Maps to §13 (`064_dark_matter.md`), §18, §13 (`062`). No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Particle Physics

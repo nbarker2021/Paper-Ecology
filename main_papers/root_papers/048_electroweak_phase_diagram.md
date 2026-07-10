@@ -210,6 +210,11 @@ is the established 2D Ising constant (real), applied interpretively to the Spect
 the crystallographic/lattice-zoo assignments are the CQECMPLX interpretation, not derived
 QCD results. No A033996 / 343 / alpha_em fabrications.
 
+## 11B. UFT 0-100 Series (FLCR) — Paper 48: electroweak phase diagram
+
+Paper 48 = EW phase diagram (T-evolving symmetry restoration) as LCR carrier-temperature map.
+**(I)** interpretation. Maps to §11 and `177_electroweak_higgs_mass_LCR.md`. No fabrication.
+
 ## 11. References
 
 1. **Paper 005** — D4, J3(O), Octave Triality. *Cited: Remark 12.5, Theorem 9.1.*

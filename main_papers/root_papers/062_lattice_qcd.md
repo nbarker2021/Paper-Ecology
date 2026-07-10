@@ -502,6 +502,39 @@ FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live 
 Paper 32 = QCD / color transport in LCR (6 quark faces = 6 non-vacuum shell=2 states). **(I)**
 interpretation; 1 generation shown, not 3. Maps to §13. No fabrication.
 
+## 10C. UFT 0-100 Series (FLCR) — Paper 44: SU(3) color confinement
+
+Paper 44 = color confinement as the LCR closure of the 3-color state (shell=2 trace-2 idempotent
+locked by S3). **(I)** interpretation; confinement = bounded local closure. Maps to §10 and
+`062_lattice_qcd.md`. Honest, no fabrication.
+
+## 11B. UFT 0-100 Series (FLCR) — Paper 57: hadron spectroscopy
+
+Paper 57 = hadron spectroscopy (meson/baryon towers) as LCR closure of color states. **(I)**
+interpretation. **HONEST NOTE:** root 058 documents incomplete SM mapping (6 rows inferred,
+incomplete per Theorem 57.15) — carried as stated. Maps to §11 and `062_lattice_qcd.md`. No new
+fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 58: parton distribution functions
+
+Paper 58 = PDFs as LCR carrier-momentum share (depth-weighted). **(I)** interpretation. Maps to §13.
+No fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 59: jets & fragmentation
+
+Paper 59 = jets/fragmentation as LCR carrier cascade (depth-branching). **(I)** interpretation.
+Maps to §13 (`061_jets_fragmentation.md`) and `062`. No fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 60: lattice QCD
+
+Paper 60 = lattice QCD as the finite-LCR carrier (Wilson fermion = shell=2 state discretization).
+**(I)** interpretation. Maps to §13. No fabrication.
+
+## 13C. UFT 0-100 Series (FLCR) — Paper 62: dark matter candidates & lattice charge constraints
+
+Paper 62 = dark matter (stable LCR carrier with unlit charge) as the bound-neutral state. **(I)**
+interpretation. Maps to §13 (`064_dark_matter.md`), §18, §13 (`062`). No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics
