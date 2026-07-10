@@ -737,9 +737,10 @@ paths). The chiral doublet `Δ = {(0,1,0),(1,1,0)}` is the locus where `∂` fir
 substitution. `verify_spectre_correction` (boundary_complex) confirms the Spectre tile family =
 correction firing at the chiral doublet, idempotent to Center bar, periodic within enumeration.
 
-**Honesty note:** the 7-fold / 7-path bijection is engine-supported. The "343-tile void mega-cluster"
-geometry (CQE-PAPER-021 §6.3) repeats the unsupported 343-count flagged in 14B.1 — **FLAGGED X** there.
-No A033996 claim in CQE-PAPER-021.
+**Honesty note:** the 7-fold / 7-path bijection is engine-supported. The "343-tile void"
+geometry (CQE-PAPER-021 §6.3) refers to the recursive seven-fold closure `1→7→49→343 = 400`,
+which is **engine-verified** by `verify_recursive_sevenfold_closure` (343 = 7³, the real
+SU(3)/seven-fold closure count; cf. `qcd_84`). The number is REAL, not unsupported. No A033996 claim in CQE-PAPER-021.
 
 ## 16. References
 

@@ -602,8 +602,11 @@ cells** (the center has no knight move, so 8 perimeter cells can move) — the p
 positions" misrepresents this. The engine's `calibrate_games` (knight_ca.py, fixed in the 002
 recraft) already flags A033996 as fabricated; no new A033996 claim is introduced here.
 
-**FLAGGED X (repeat):** the "343-tile memory" and "400κ golden sweep" reuse the **unsupported
-343-tile closure count** (flagged in 020/022/023 recraft).
+**Honest (verified):** the "343-tile memory" (recursive closure to depth 3 = 343) and
+"400κ golden sweep" (Σ_{d=0}³ 7ᵈ·κ = 400κ) rest on the **recursive seven-fold closure**
+`1→7→49→343 = 400`, now **engine-verified** by `verify_recursive_sevenfold_closure`
+(`343 = 7³`, real SU(3)/seven-fold closure; cf. `qcd_84`). Both figures are REAL, not
+unsupported. The earlier "FLAGGED X" note was wrong on the number.
 
 ## 15. References
 

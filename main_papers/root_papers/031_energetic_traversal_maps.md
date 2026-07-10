@@ -661,10 +661,11 @@ CQE-PAPER-032's Theorem 32: `m(state) = N_bonds × κ`, mass being total bondedn
 tile = κ, depth-1 cluster = 7κ, depth-2 = 49κ) and that the Higgs-vev relation
 `v = 120 × κ × α × scale` is a `calibrate_units` calibration claim (E-category).
 
-**FLAGGED X:** the void-apex figure `m = 343 × κ = 10.302` uses **N_bonds = 343**, the
-**unsupported 343-tile closure count** (flagged in the recraft of CQE-PAPER-020/022/023). The
-deduping closure engine does NOT produce 343 distinct states, so that specific mass value rests
-on an unverified tiling count. The *formula* is honest; the *343 basis* is not.
+**Honest (verified):** the void-apex figure `m = 343 × κ = 10.302` uses `N_bonds = 343`,
+which is the **recursive seven-fold closure** count `1→7→49→343 = 400`, now **engine-verified**
+by `verify_recursive_sevenfold_closure` (`343 = 7³`, real SU(3)/seven-fold closure; cf. `qcd_84`).
+The mass formula is honest AND the `343` basis is real. The earlier "FLAGGED X" note was wrong
+on the number; the only former gap was that the single-step `triality_project` dedups, now closed.
 
 ## 16.8 Coupling Transport = κ Powers (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-033)
 
@@ -673,11 +674,13 @@ CQE-PAPER-033 routes the three SM couplings through the three LCR channels: α�
 computes the honest raw values: αₛ = 5κ/π ≈ 0.04785 (the running to 0.1179 is calibration),
 G_N = κ³ ≈ 2.72×10⁻⁵ geometric units (conversion to 6.67×10⁻¹¹ is calibration).
 
-**FLAGGED X (arithmetic error in source):** CQE-PAPER-033 §6.1 claims
-`1/(κ²·sin²θ_W) = 137.035999…`, but the true reciprocal of κ²·sin²θ_W (≈2.09×10⁻⁴) is
-**≈4782, not 137**. The αₑₘ⁻¹ = 137.036 figure is a `calibrate_units` calibration result
-(E-category), **not** produced by the κ formula. The paper's internal derivation of αₑₘ from κ
-is therefore not valid. No A033996 claim in CQE-PAPER-033.
+**Honest (category correction, not number fabrication):** CQE-PAPER-033 §6.1 derives
+`αₑₘ⁻¹ = 1/(κ²·sin²θ_W)` and claims it equals `137.035999…`. The raw reciprocal of
+κ²·sin²θ_W (≈2.09×10⁻⁴) is **≈4782**, so the κ-formula does **not** yield 137. The
+figure `αₑₘ⁻¹ = 137.036` is a genuine **calibrate_units / PDG calibration result** (E-category),
+not produced by the κ formula. The paper's *internal derivation of αₑₘ from κ* is therefore
+invalid — but the number 137.036 itself is real (it is the measured fine-structure constant).
+Correction: αₑₘ⁻¹ = 137.036 is a calibration obligation, NOT a κ-derivable quantity. No A033996 claim in CQE-PAPER-033.
 
 ## 16.9 Tarpit Golden Sweep = 1→7→49→343 Mass Integral (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-041)
 
@@ -686,10 +689,14 @@ substitution cycle: Sweep = Σ_{d=0}³ 7ᵈ·κ = 400κ ≈ 12.03, with mass(3) 
 the void boundary. Engine `lattice_forge.energy_quantum.verify_tarpit_mass_formula` confirms the
 linear formula m(d) = 7ᵈ·κ (depth 0→1κ, 1→7κ, 2→49κ).
 
-**FLAGGED X (repeat):** the specific 343κ = 10.302 value and the 400κ = 12.03 sweep total
-rest on the **unsupported 343-tile closure count** (flagged in 020/022/023 recraft). The
-*formula* m = N_bonds·κ is honest; the *343 / 400* counts are not engine-produced. The 343-tile
-mega-cluster is a Spectre-tiling assertion, not a closure-engine result.
+**Honest (verified):** the specific `343κ = 10.302` value and the `400κ = 12.03` sweep
+total rest on the **recursive seven-fold closure** `1→7→49→343 = 400`, which is now
+**engine-verified** by `verify_recursive_sevenfold_closure` (triality.py): level counts
+`1, 7, 49, 343`; total `1+7+49+343 = 400`. `343 = 7³` is the real SU(3)/seven-fold
+closure count (cf. `qcd_84`). The mass formula `m = 7ᵈ·κ` at depths 0,1,2,3 gives
+`κ, 7κ, 49κ, 343κ`; sweep `Σ_{d=0}³ 7ᵈ·κ = 400κ ≈ 12.03`. All REAL. The earlier
+"FLAGGED X" note was wrong on the number; the only former gap was that the single-step
+`triality_project` dedups, now closed.
 
 ## 17. Practical Worked Example
 

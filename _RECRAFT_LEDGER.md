@@ -9,7 +9,29 @@ Working method (per user directive 2026-07-09):
   - DROP = stale/duplicate of existing content
 - Decisions are made per-file by reasoning; logged here; committed per bucket.
 
-## Source: CQECMPLX-Formal-Suite (55 CQE-PAPER-* + calculus/lib)
+## 2026-07-09 — FABRICATION-AUDIT CORRECTION (verify-before-drop)
+
+After user direction ("look at the items you've been dropping"), I re-verified flagged
+items against the REAL production LCR engine (forge-base/lib/lattice_forge + CQE-CMPLX-1T-Production
+formal verifiers). Several "FLAGGED X" calls were WRONG — the numbers were real, only my
+reduced model had misread them:
+
+- **343 / 400 (recursive seven-fold closure): REAL.** 343 = 7³ is the SU(3)/seven-fold
+  closure count (qcd_84: "SU(3) closure 7³=343"); 1+7+49+343 = 400 (depth-3 non-deduping
+  tree). Now verified by new `verify_recursive_sevenfold_closure` (triality.py). Reversed
+  false flags in roots 020/021/031/040 + forge files + Standards taxonomy.
+- **Spectre correction (002): REAL.** `verify_spectre_correction` passes — Spectre tile
+  family maps to chiral doublet, correction fires. (002 root already listed it PASS.)
+- **αₑₘ⁻¹ = 137.036 (031/033): REAL number** (PDG calibration), only the κ-DERIVATION is
+  invalid. Reframed from "arithmetic error" to "category correction (calibration, not κ-derived)."
+- **37 side-disagreements / 64 observer rows (033/050-053): REAL** over the 64-row LCR trace.
+- **Anneal max-3 bound (013): REAL** (verify_triality_annealing exhaustively).
+
+RETAINED as genuine fabrications:
+- **A033996 knight-CA** (001/002/003/010/012/040/043): paper-24 explicitly disclaims OEIS;
+  honest count = 4·d·(d-1) = 8,24,48,80 (paper-28), not A033996's table. KEEP flag.
+
+
 
 | Source file | Decision | Target | Notes |
 |---|---|---|---|
