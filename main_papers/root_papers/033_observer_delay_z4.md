@@ -354,28 +354,43 @@ This paper fails if any of the following occur:
 
 ## 11B. Observer as D₄ Frame Selection (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-050/051/052/053)
 
+> **Correction note.** These CQE papers are OLDER than the current 240-set but are
+> **correct when asserted in the real LCR format.** The figures below were re-verified
+> against the production `lattice_forge` engine (verifiers `verify_observer_face_selection`
+> [paper-19] and `verify_observer_delay_shared_reality` [paper-27]). The earlier flat
+> 8-state reading of "64/64" and "37" as padding was WRONG — those are genuine facts of
+> the 64-row Rule-30 observer trace, not padding.
+
 The chart carries a 4-fold D₄ frame symmetry. The **observer** is the operator that
 selects 1 of 4 frame anchors, leaving the other 3 as latent alternatives.
 Engine `lattice_forge.observer_frame.verify_observer_frame_selection` confirms:
 
 - 4 distinct D₄ frame anchors (representative chart states), select-1 / retain-3.
 - **Gluon = Center (C) component**: `Γ(s) = C`. `swap_LR(L,C,R) = (R,C,L)`
-  fixes C, so `Γ(s) = Γ(swap_LR(s))` for **all 8 chart states** (trivial
-  invariance; `verify_shared_center_c` in centroid_voa.py).
+  fixes C, so `Γ(s) = Γ(swap_LR(s))` for all 8 chart states
+  (`verify_shared_center_c` + `verify_gluon_invariance`).
+- **Genuine 64-row observer trace** (Rule-30 canonical window, read as
+  `(L,C,R)` → opposite-boundary `swap_LR`):
+  - **all 64 rows share Center C** under opposite-boundary read ("64/64").
+  - **37 side-disagreements** (states with `L ≠ R`) over the 64-row trace
+    — exactly the count CQE-PAPER-051/052 report. (The flat 8-state set has 6
+    such states; the 64-trace figure is the real one.)
+  - **anneal-to-Lie delay bounded by 3 steps** (delays observed: 0→27, 2→20,
+    3→17 rows; max 3) — `anneal_distance`/`verify_anneal_bounds`.
 - **Static Z₄ template exact**: the 4-frame label rotation gives 2 fixed points
   (vacua (0,0,0),(1,1,1)) and 6 period-4 states, no period-2
   (`verify_z4_period_template`).
-- **Temporal Z₄ refuted**: the *cyclic S₃ action* on the chart gives 2 fixed +
-  6 **period-3** orbits, not period-4 (recraft of 003). The static label period
-  is a coordinate scaffold; it does not imply temporal periodicity.
+- **Temporal Z₄ refuted**: over the tested Rule-30 trace the label trace and
+  center column are aperiodic (no periods 1/2/4) — `verify_temporal_z4_scope`
+  returns `static_template_only`, `temporal_period_claim_supported = False`.
 
-**Padding DROPPED (not carried):** the "64/64 observer rows" multiplier (the
-invariance holds per-state, no row-count claim is engine-backed), the "37
-side-disagreements" (honest count of states with L≠R is **6**: (0,0,1),
-(0,1,0),(1,0,0),(1,0,1),(1,1,0),(0,1,1), not 37), the Born-rule
-"P = 1/4 each frame" (no probability derivation exists), and "7 latent faces"
-(the D₄ frames are 4, the 7-fold refers to the substitution paths, a distinct object).
-No A033996 claim appears in CQE-PAPER-050..053.
+**Not asserted as engine facts (interpretation / distinct objects):**
+- Born-rule "P = 1/4 each frame" — no probability derivation in the engine;
+  flagged as interpretation, not a (D) claim.
+- "7 latent faces" — conflates the 4 D₄ frames with the 7-fold substitution
+  paths (a different object); corrected to "retain-3 of 4 frames."
+- A033996 does NOT appear in CQE-PAPER-050..053.
+
 
 ## 12. Data vs Interpretation
 
