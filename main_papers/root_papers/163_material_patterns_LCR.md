@@ -276,6 +276,13 @@ substrate (PolyForge polyhedral generation, MorphoniX morphogenesis). **No run.p
 "needs creation"). Maps to §12 (material patterns LCR). Honest note: forge material patterns
 are the CQECMPLX interpretation of chart→geometry; analog workbook only.
 
+## 12C. ProofValidatedSuite Exposition — EXPOSE-21 (MorphForge / PolyForge / MorphoniX)
+
+EXPOSE-21: morphing Gluon — geometric/form generation from the chart via the forge substrate
+(PolyForge polyhedral generation, MorphoniX morphogenesis). **Gluon invariant** = morph. Maps
+to §12 (material patterns LCR). Honest note: forge material patterns are the CQECMPLX
+interpretation; analog workbook only.
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

@@ -280,6 +280,15 @@ CQECMPLX interpretation; see fabrication audit — the OEIS A033996 knight-CA ed
 FABRICATED and must NOT be cited. Real knight-CA directed edges for n=2..8 = {0,16,48,96,160,
 240,336}; cells-with-move = {0,8,16,25,36,49,64}; 3×3 board = 9 cells.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-24 (KnightForge / N-Dimensional Chess Automata)
+
+EXPOSE-24: game Gluon — KnightForge knight-move CA and N-dimensional chess automata as
+chart-state games on the LCR lattice. **Gluon invariant** = game state. Maps to §14
+(KnightForge game lattices) and `176_n_dim_game_lattices.md`. **HONEST FLAG:** the OEIS
+A033996 knight-CA edge count is FABRICATED — real knight-CA directed edges for n=2..8 =
+{0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}; 3×3 board = 9 cells. Do NOT
+cite A033996.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

@@ -167,6 +167,14 @@ RETAINED as genuine fabrications:
 | EXPOSE-18 (VOA-moonshine) | P18 | 023_VOA_moonshine_routes (§14C), 124_monster_VOA (§13C) | DONE. j(tau)=1+196883 TRUE (standard). HONEST FLAG: full moonshine ID registered irreducible gap. |
 | EXPOSE-19 (Observer) | P19 | 024_observer_face_selection (§14C), 033_observer_delay_z4 (§11G) | DONE. Consistent w/ verify_observer_frame_selection. No fabrication. |
 | EXPOSE-20 (Synthesis) | P20 | 025_layer2_synthesis_ledger (§14C) | DONE. Ledger bookkeeping. |
+| EXPOSE-21 (MorphForge) | P21 | 163_material_patterns_LCR (§12C) | DONE. No run.py. Interpretive. |
+| EXPOSE-22 (MetaForge) | P22 | 027_metaforge_materials (§15C) | DONE. Analog metamaterial. |
+| EXPOSE-23 (FoldForge) | P23 | 181_protein_folding_LCR (§6C) | DONE. Chart->fold interpretive. No fabrication. |
+| EXPOSE-24 (KnightForge/Chess) | P24 | 029_knightforge_game_lattices (§14C), 176_n_dim_game_lattices (§9C) | DONE. HONEST FLAG: OEIS A033996 knight-CA FABRICATED; real edges n=2..8={0,16,48,96,160,240,336}. |
+| EXPOSE-25 (Traversal) | P25 | 031_energetic_traversal_maps (§18C) | DONE. kappa~25.05 GeV calibrated. No fabrication. |
+| EXPOSE-26 (ZPinch) | P26 | 032_zpinch_shear_horizon (§11C) | DONE. Chart collapse interpretive. |
+| EXPOSE-27 (Observer-delay) | P27 | 033_observer_delay_z4 (§11H) | DONE. Consistent w/ verify_observer_frame_selection. No fabrication. |
+
 
 
 

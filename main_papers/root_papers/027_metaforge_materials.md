@@ -336,6 +336,12 @@ P22's C-Form: the material Gluon — MetaForge applied materials (metamaterial u
 the chart). **No run.py** (index: "needs creation"). Maps to §15 (MetaForge applied materials).
 Honest note: metamaterial synthesis is the CQECMPLX interpretation; workbook analog only.
 
+## 15C. ProofValidatedSuite Exposition — EXPOSE-22 (MetaForge Applied Materials)
+
+EXPOSE-22: material Gluon — MetaForge applied materials (metamaterial unit cells from the
+chart). **Gluon invariant** = metamaterial cell. Maps to §15 (MetaForge applied materials).
+Honest note: metamaterial synthesis is the CQECMPLX interpretation; workbook analog only.
+
 ## 15. References
 
 ### 15.1 Standard References

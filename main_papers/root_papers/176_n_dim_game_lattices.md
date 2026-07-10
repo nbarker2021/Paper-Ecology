@@ -187,6 +187,11 @@ P28 generalizes KnightForge (P24) to N-dimensional game lattices. **No run.py** 
 Honest note: N-dim lattices are the CQECMPLX interpretation; A033996 knight-CA is FABRICATED
 (real edges above). No fabrication here.
 
+## 9C. ProofValidatedSuite Exposition — EXPOSE-24 (KnightForge / N-Dim Chess)
+
+EXPOSE-24's N-dimensional chess automata = chart-state games on LCR lattices. **HONEST FLAG:**
+OEIS A033996 knight-CA count is FABRICATED (use real counts in §9B/§14C). No fabrication here.
+
 ## 9. References
 
 1. Paper 005 — D12 Axis/Sheet Symmetries (lattice group)

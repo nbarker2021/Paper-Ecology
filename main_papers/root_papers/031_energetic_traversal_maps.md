@@ -713,6 +713,13 @@ the chart. **No run.py** (index: "needs creation"). Maps to §18 (energetic trav
 Honest note: κ = ln(φ)/16 × SCALE ≈ 25.05 GeV is the calibrated empirical anchor (Higgs mass);
 traversal maps are the CQECMPLX interpretation. No fabrication.
 
+## 18C. ProofValidatedSuite Exposition — EXPOSE-25 (Energetic Traversal Maps)
+
+EXPOSE-25: energy Gluon — energetic traversal maps (κ = ln(φ)/16 edge energy) across the chart.
+**Gluon invariant** = traversal energy. Maps to §18 (energetic traversal maps). Honest note:
+κ = ln(φ)/16 × SCALE ≈ 25.05 GeV is the calibrated empirical anchor (Higgs mass); traversal
+maps are the CQECMPLX interpretation. No fabrication.
+
 ## 18. References
 
 ### 18.1 Source Papers

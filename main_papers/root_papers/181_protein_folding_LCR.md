@@ -95,6 +95,13 @@ P23's C-Form: the fold Gluon — FoldForge protein folding as chart-state trajec
 folding LCR). Honest note: protein folding is the CQECMPLX interpretation (chart→fold
 trajectory); not a biophysics computation. No fabrication.
 
+## 6C. ProofValidatedSuite Exposition — EXPOSE-23 (FoldForge Protein Folding)
+
+EXPOSE-23: fold Gluon — FoldForge protein folding as chart-state trajectory through the
+8-state space to a native fold. **Gluon invariant** = fold. Maps to §6 (protein folding LCR).
+Honest note: protein folding is the CQECMPLX interpretation (chart→fold trajectory); not a
+biophysics computation. No fabrication.
+
 ## 6. References
 
 1. Paper 002 — Rule 30 ANF, Lucas Carry

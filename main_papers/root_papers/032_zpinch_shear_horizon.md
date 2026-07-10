@@ -334,6 +334,12 @@ dynamics. **No run.py** (index: "needs creation"). Maps to §11 (Z-pinch shear h
 Honest note: Z-pinch/shear is the CQECMPLX interpretation of chart collapse dynamics; not a
 MHD derivation. No fabrication.
 
+## 11C. ProofValidatedSuite Exposition — EXPOSE-26 (Z-Pinch and Shear Horizon)
+
+EXPOSE-26: pinch Gluon — Z-pinch and shear horizon as the chart's collapse/repair dynamics.
+**Gluon invariant** = pinch. Maps to §11 (Z-pinch shear horizon). Honest note: Z-pinch/shear
+is the CQECMPLX interpretation of chart collapse dynamics; not a MHD derivation. No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.
