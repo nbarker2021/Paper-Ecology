@@ -352,6 +352,31 @@ This paper fails if any of the following occur:
 
 ---
 
+## 11B. Observer as D₄ Frame Selection (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-050/051/052/053)
+
+The chart carries a 4-fold D₄ frame symmetry. The **observer** is the operator that
+selects 1 of 4 frame anchors, leaving the other 3 as latent alternatives.
+Engine `lattice_forge.observer_frame.verify_observer_frame_selection` confirms:
+
+- 4 distinct D₄ frame anchors (representative chart states), select-1 / retain-3.
+- **Gluon = Center (C) component**: `Γ(s) = C`. `swap_LR(L,C,R) = (R,C,L)`
+  fixes C, so `Γ(s) = Γ(swap_LR(s))` for **all 8 chart states** (trivial
+  invariance; `verify_shared_center_c` in centroid_voa.py).
+- **Static Z₄ template exact**: the 4-frame label rotation gives 2 fixed points
+  (vacua (0,0,0),(1,1,1)) and 6 period-4 states, no period-2
+  (`verify_z4_period_template`).
+- **Temporal Z₄ refuted**: the *cyclic S₃ action* on the chart gives 2 fixed +
+  6 **period-3** orbits, not period-4 (recraft of 003). The static label period
+  is a coordinate scaffold; it does not imply temporal periodicity.
+
+**Padding DROPPED (not carried):** the "64/64 observer rows" multiplier (the
+invariance holds per-state, no row-count claim is engine-backed), the "37
+side-disagreements" (honest count of states with L≠R is **6**: (0,0,1),
+(0,1,0),(1,0,0),(1,0,1),(1,1,0),(0,1,1), not 37), the Born-rule
+"P = 1/4 each frame" (no probability derivation exists), and "7 latent faces"
+(the D₄ frames are 4, the 7-fold refers to the substitution paths, a distinct object).
+No A033996 claim appears in CQE-PAPER-050..053.
+
 ## 12. Data vs Interpretation
 
 ### Data-backed (D) — 11 claims
