@@ -287,6 +287,35 @@ No external computation is required beyond basic arithmetic and enumeration.
 
 ---
 
+## 11B. CQECMPLX Meta-Corpus Ribbon (recrafted from CQE-PAPER-060..063)
+
+The CQECMPLX-Formal-Suite carries a **meta-corpus** layer (Papers 060-063) describing the
+CQECMPLX corpus reading itself. These are META papers about the corpus's own database
+(`cqecmplx_corpus.db`: 31 papers, 9 verifiers, 5 calibrations) — they are NOT physics, so
+they route into this 240-form meta-framer, not into the physics roots 060-063 (which are
+Layer-6 physics). Content routing (not number-match):
+
+- **CQE-PAPER-060** (corpus as self-reading engine) → this root: the 240-form 8-slot ribbon
+  (`C,L,R,B,T,O,W,A`) is the generalization of the CQE corpus self-reading architecture.
+- **CQE-PAPER-061** (supervisor cursor = 100% coverage map) → this root: production
+  `verify_supervisor_cursor_schedule.py` validates coverage of the chart walk (real, PASS).
+- **CQE-PAPER-062** (Grand Ribbon = 6-precondition next-state ribbon) → this root by exact
+  name; the 240-form 8-slot schema absorbs the 6-precondition ribbon
+  (verifiers_pass, calibrations_pass, coverage_100, atlas_current, lib_stable, schema_match).
+- **CQE-PAPER-063** (hyperpermutation = context-bounded superpermutation of the ribbon) →
+  `081_superpermutation_minimality` (see §3.x there).
+
+**Engine:** `lattice_forge.meta_corpus.verify_grand_ribbon_preconditions` (7/7 PASS) confirms
+the 6-precondition ribbon is a valid chain DAG (6 nodes, 5 edges), with exactly **1 strict
+topological order** (the chain). CQE-PAPER-063's "5 valid orders" = 1 strict + relaxed
+prefix-sequences (the paper lists a truncated set; the full 6-node chain yields 6 prefix
+variants) — carried honestly, not as 5 distinct topological sorts.
+
+**Honest notes:**
+- The CQE corpus described (31 papers, 9 verifiers) is the CQECMPLX database, smaller than
+  the 240-paper E8 framework. The structural claims transfer; the counts do not.
+- No A033996 / 343 / αₑₘ issues in this cluster — these are governance/meta claims.
+
 ## 12. Data vs Interpretation
 
 ### Data-backed (D) — 15 claims

@@ -75,6 +75,26 @@ Axioms 2.1–2.4 from Paper 001 govern all claims herein: Locality, Receipt Pres
 
 ---
 
+**Theorem 6 (Context-Bounded Ribbon Superpermutation — CQE-PAPER-063).** The Grand
+Ribbon's 6-precondition next-state ribbon (`verifiers_pass → calibrations_pass →
+coverage_100 → atlas_current → lib_stable → schema_match`) forms a linear dependency
+chain. Its strict topological order is unique (the chain); the CQECMPLX corpus describes
+a *context-bounded superpermutation* that enumerates valid precondition-check sequences
+(1 strict + relaxed prefix variants) as the corpus's self-reading hypervisor.
+
+*Proof.* The dependency DAG is a chain of 6 nodes / 5 edges (acyclic), so exactly one
+strict topological sort exists. The hyperpermutation is the context-bounded set of prefix
+sequences of that chain, supervised per self-reading cycle. `lattice_forge.meta_corpus.
+verify_grand_ribbon_preconditions` confirms: 6 preconditions, 5-edge chain, 1 strict order,
+and that CQE-PAPER-063's "5 valid orders" = 1 strict + relaxed prefix-sequences (the full
+6-node chain yields 6 prefix variants) — an honest re-statement, not 5 distinct topological
+sorts. ∎
+
+*Recraft note.* CQE-PAPER-063 is META (corpus self-governance), not physics; it routes here
+because the 240-form superpermutation substrate (Theorem 2, D4 codec as permutation substrate)
+is the natural home for "superpermutation of the ribbon." The CQE corpus (31 papers, 9
+verifiers) is the CQECMPLX database; the structural claim transfers.
+
 ## 4. Verification
 
 | Verification | Checks | Defects | Status |
