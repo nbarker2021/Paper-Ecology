@@ -2728,6 +2728,87 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-12__Theory_Admission_Gates. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-12__Theory_Admission_Gates__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-12 Companion - Theory Admission Gates
+## What This Paper Is Doing
+This paper formalizes admission control for theories and candidate claims. The operative object is admission gate. The core result is that a candidate theory is admissible only when its object, lane, evidence class, residue, and falsifier are declared before promotion. The paper also defines how this result routes forward: later Standard Model translations must pass through this gate before appearing as FLCR claims. Its main residue is explicit: sporadic-boundary and encoder-invariance examples remain import routes, not blanket admission.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 12.1: a candidate theory is admissible only when its object, lane, evidence class, residue, and falsifier are declared before promotion
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines admission gate as a first-class FLCR object.
+- States the local result: a candidate theory is admissible only when its object, lane, evidence class, residue, and falsifier are declared before promotion.
+- Routes downstream use through claim lanes rather than inherited prose: later Standard Model translations must pass through this gate before appearing as FLCR claims.
+- Preserves the residue boundary: sporadic-boundary and encoder-invariance examples remain import routes, not blanket admission.
+## What It Does Not Claim Yet
+- sporadic-boundary and encoder-invariance examples remain import routes, not blanket admission
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+
+---
+
+
+
+## X.FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-30 Companion - Supervisor Cursor And Universal Normal-Form Intake
+## What This Paper Is Doing
+This paper formalizes supervisor cursor scheduling and universal normal-form intake. The operative object is supervisor cursor. The core result is that a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely. The paper also defines how this result routes forward: FLCR-28 through FLCR-40 use this as the normal-form intake gate. Its main residue is explicit: the incoming universal normal form remains required evidence before final unification closure.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 30.1: a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines supervisor cursor as a first-class FLCR object.
+- States the local result: a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-28 through FLCR-40 use this as the normal-form intake gate.
+- Preserves the residue boundary: the incoming universal normal form remains required evidence before final unification closure.
+## What It Does Not Claim Yet
+- the incoming universal normal form remains required evidence before final unification closure
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper a
+
+---
+
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

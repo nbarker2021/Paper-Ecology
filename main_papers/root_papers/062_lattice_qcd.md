@@ -1548,6 +1548,126 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-14 Companion - Quark-Face Algebra Before Standard-Model Translation
+## What This Paper Is Doing
+This paper formalizes face transport in the finite LCR/J3(O) chart without Standard Model identity language. The operative object is quark-face algebra. The core result is that six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts. The paper also defines how this result routes forward: FLCR-31 and FLCR-32 may translate the structure into gauge/QCD language only after citing this LCR-native base. Its main residue is explicit: measured quark identity, CKM data, and physical color calibration are deferred to translation papers.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 14.1: six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines quark-face algebra as a first-class FLCR object.
+- States the local result: six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-31 and FLCR-32 may translate the structure into gauge/QCD language only after citing this LCR-native base.
+- Preserves the residue boundary: measured quark identity, CKM data, and physical color calibration are deferred to translation papers.
+## What It Does Not Claim Yet
+- measured quark identity, CKM data, and physical color calibration are deferred to translation papers
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is s
+
+---
+
+
+
+## X.FLCR-31__Gauge_Groups_Translated_Into_LCR. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-31__Gauge_Groups_Translated_Into_LCR__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+﻿# FLCR-31 Companion - Gauge Groups Translated Into LCR
+## What This Paper Is Doing
+This paper formalizes gauge-group translation from mature LCR-native results. The operative object is gauge translation. The core result is that gauge-like structures may be stated as translations only after the LCR-native carrier, atlas, face, and receipt dependencies are cited. The paper also defines how this result routes forward: this paper opens the Standard Model translation band and depends on FLCR-01 through FLCR-14. Its main residue is explicit: measured gauge coupling values and physical identity require citation/calibration lanes.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 31.1: gauge-like structures may be stated as translations only after the LCR-native carrier, atlas, face, and receipt dependencies are cited
+Lane: `standard_theorem_citation_bound_result`.
+## Why It Matters
+- Defines gauge translation as a first-class FLCR object.
+- States the local result: gauge-like structures may be stated as translations only after the LCR-native carrier, atlas, face, and receipt dependencies are cited.
+- Routes downstream use through claim lanes rather than inherited prose: this paper opens the Standard Model translation band and depends on FLCR-01 through FLCR-14.
+- Preserves the residue boundary: measured gauge coupling values and physical identity require citation/calibration lanes.
+## What It Does Not Claim Yet
+- measured gauge coupling values and physical identity require citation/calibration lanes
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why T
+
+---
+
+
+
+## X.FLCR-32__QCD_And_Color_Transport_In_LCR. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-32__QCD_And_Color_Transport_In_LCR__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+﻿# FLCR-32 Companion - QCD And Color Transport In LCR
+## What This Paper Is Doing
+This paper formalizes QCD/color language as a translation of finite face transport. The operative object is QCD color translation. The core result is that finite six-face transport can support a QCD-facing translation only with explicit scope separating structural color from measured QCD. The paper also defines how this result routes forward: FLCR-32 cites FLCR-14 before making any color-transport claim. Its main residue is explicit: physical quark confinement, CKM, and measured QCD parameters remain external calibration.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 32.1: finite six-face transport can support a QCD-facing translation only with explicit scope separating structural color from measured QCD
+Lane: `standard_theorem_citation_bound_result`.
+## Why It Matters
+- Defines QCD color translation as a first-class FLCR object.
+- States the local result: finite six-face transport can support a QCD-facing translation only with explicit scope separating structural color from measured QCD.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-32 cites FLCR-14 before making any color-transport claim.
+- Preserves the residue boundary: physical quark confinement, CKM, and measured QCD parameters remain external calibration.
+## What It Does Not Claim Yet
+- physical quark confinement, CKM, and measured QCD parameters remain external calibration
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carr
+
+---
+
+
 ## 13. References
 
 ### 13.1 Standard Physics

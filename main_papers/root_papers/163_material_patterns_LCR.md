@@ -1756,6 +1756,45 @@ The verifier script checks the older source presence, the title in the paper, an
 ---
 
 
+
+## X.FLCR-21__Materials_Candidate_Generation. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-21__Materials_Candidate_Generation__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-21 Companion - Materials Candidate Generation
+## What This Paper Is Doing
+This paper formalizes materials candidate generation through forge descriptors and CAM addresses. The operative object is materials forge. The core result is that the internal representation and candidate-generation path can be receipt-bound before fabrication or finite-element validation. The paper also defines how this result routes forward: FLCR-36 may translate this into condensed-matter/materials language with external datasets. Its main residue is explicit: fabrication, finite-element performance, measured band data, and material claims require external calibration.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 21.1: the internal representation and candidate-generation path can be receipt-bound before fabrication or finite-element validation
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Defines materials forge as a first-class FLCR object.
+- States the local result: the internal representation and candidate-generation path can be receipt-bound before fabrication or finite-element validation.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-36 may translate this into condensed-matter/materials language with external datasets.
+- Preserves the residue boundary: fabrication, finite-element performance, measured band data, and material claims require external calibration.
+## What It Does Not Claim Yet
+- fabrication, finite-element performance, measured band data, and material claims require external calibration
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What resi
+
+---
+
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

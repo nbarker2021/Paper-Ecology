@@ -533,6 +533,124 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-19__Layer_2_Synthesis_Ledger. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-19__Layer_2_Synthesis_Ledger__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-19 Companion - Layer-2 Synthesis Ledger
+## What This Paper Is Doing
+This paper formalizes the first higher-layer synthesis ledger over prior papers. The operative object is layer-2 synthesis ledger. The core result is that prior receipt-bearing claims can be assembled into a monotone ledger when edge type and claim lane are preserved. The paper also defines how this result routes forward: this ledger becomes the bridge from base formalization to applied forge papers. Its main residue is explicit: unknown and forbidden reachability must remain explicit rather than hidden in summary prose.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 19.1: prior receipt-bearing claims can be assembled into a monotone ledger when edge type and claim lane are preserved
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines layer-2 synthesis ledger as a first-class FLCR object.
+- States the local result: prior receipt-bearing claims can be assembled into a monotone ledger when edge type and claim lane are preserved.
+- Routes downstream use through claim lanes rather than inherited prose: this ledger becomes the bridge from base formalization to applied forge papers.
+- Preserves the residue boundary: unknown and forbidden reachability must remain explicit rather than hidden in summary prose.
+## What It Does Not Claim Yet
+- unknown and forbidden reachability must remain explicit rather than hidden in summary prose
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this 
+
+---
+
+
+
+## X.FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-20 Companion - Applied Forge Reader And Descriptor Kernel
+## What This Paper Is Doing
+This paper formalizes the applied forge reader as a descriptor kernel over LCR receipts. The operative object is forge descriptor kernel. The core result is that applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state. The paper also defines how this result routes forward: materials, proteins, games, and energy papers consume this as the applied reader interface. Its main residue is explicit: domain performance, external benchmarks, and real-world utility remain external validation tasks.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 20.1: applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines forge descriptor kernel as a first-class FLCR object.
+- States the local result: applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state.
+- Routes downstream use through claim lanes rather than inherited prose: materials, proteins, games, and energy papers consume this as the applied reader interface.
+- Preserves the residue boundary: domain performance, external benchmarks, and real-world utility remain external validation tasks.
+## What It Does Not Claim Yet
+- domain performance, external benchmarks, and real-world utility remain external validation tasks
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from p
+
+---
+
+
+
+## X.FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-22 Companion - Protein Descriptor And Fold-Facing Kernel
+## What This Paper Is Doing
+This paper formalizes protein fold descriptors as an applied LCR-facing kernel. The operative object is fold descriptor kernel. The core result is that contact, homology, and winding descriptors can be staged as internal addressable features before biological validation. The paper also defines how this result routes forward: applied biology workbooks may consume descriptors only with PDB/parser and benchmark receipts. Its main residue is explicit: native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 22.1: contact, homology, and winding descriptors can be staged as internal addressable features before biological validation
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines fold descriptor kernel as a first-class FLCR object.
+- States the local result: contact, homology, and winding descriptors can be staged as internal addressable features before biological validation.
+- Routes downstream use through claim lanes rather than inherited prose: applied biology workbooks may consume descriptors only with PDB/parser and benchmark receipts.
+- Preserves the residue boundary: native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind.
+## What It Does Not Claim Yet
+- native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with
+
+---
+
+
 ## 5. Data vs. Interpretation
 
 ### Data-backed (D)

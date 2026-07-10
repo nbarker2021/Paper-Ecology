@@ -3097,6 +3097,53 @@ The S19 verifier runs the lattice_forge import, counts the public API, and check
 ---
 
 
+
+## X.FLCR-09__Lattice_Closure_And_Terminal_Addresses. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-09__Lattice_Closure_And_Terminal_Addresses__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-09 Companion - Lattice Closure And Terminal Addresses
+## What This Paper Is Doing
+This paper installs the lattice and code ladder as an addressable terminal surface. It distinguishes construction claims, lookup claims, invariant claims, glue claims, and physical-mapping claims. The strongest local result is that lattice-forge and CAM surfaces can provide no-cost lookup routes for E8, Niemeier, Leech-facing, and related terminal addresses once receipts are attached.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 9.1: The FLCR lattice ladder supports receipt-bound terminal lookup across the declared code/lattice chain.
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Places the finite LCR stack on a code/lattice ladder.
+- Separates lookup capability from full invariant proof.
+- Defines terminal lattice addresses as CAM-queryable objects.
+- Routes nontrivial glue cosets, Gamma72, and physical maps to explicit downstream receipts.
+## What It Does Not Claim Yet
+- Lookup capability is not identical to proof of all automorphism, orbit, or invariant data.
+- Identity glue evidence must not be promoted as nontrivial glue evidence.
+- Lattice addresses do not supply physical units or empirical identity by themselves.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `08`/terminal_action.
+The interpretive move in this paper must be presented as label management over
+an already-addressed state. Where the paper cha
+
+---
+
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

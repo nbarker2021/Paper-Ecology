@@ -2524,6 +2524,89 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-15__Curvature_As_Boundary_Repair_Demand. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-15__Curvature_As_Boundary_Repair_Demand__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-15 Companion - Curvature As Boundary-Repair Demand
+## What This Paper Is Doing
+This paper formalizes curvature-like behavior as accumulated repair demand. The operative object is repair-curvature map. The core result is that boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions. The paper also defines how this result routes forward: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain. Its main residue is explicit: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 15.1: boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines repair-curvature map as a first-class FLCR object.
+- States the local result: boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain.
+- Preserves the residue boundary: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.
+## What It Does Not Claim Yet
+- Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion l
+
+---
+
+
+
+## X.FLCR-17__Continuum_Edge_Residuals. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-17__Continuum_Edge_Residuals__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-17 Companion - Continuum Edge Residuals
+## What This Paper Is Doing
+This paper formalizes residual behavior at discrete-continuous edges. The operative object is continuum-edge residual. The core result is that edge residuals can be tracked as finite bridge artifacts without asserting a global continuum limit. The paper also defines how this result routes forward: later GR, condensed-matter, and calibration papers may consume the edge rows with explicit error budgets. Its main residue is explicit: global continuum collapse and unbounded McKay/O2-prime closure remain separated residues.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 17.1: edge residuals can be tracked as finite bridge artifacts without asserting a global continuum limit
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines continuum-edge residual as a first-class FLCR object.
+- States the local result: edge residuals can be tracked as finite bridge artifacts without asserting a global continuum limit.
+- Routes downstream use through claim lanes rather than inherited prose: later GR, condensed-matter, and calibration papers may consume the edge rows with explicit error budgets.
+- Preserves the residue boundary: global continuum collapse and unbounded McKay/O2-prime closure remain separated residues.
+## What It Does Not Claim Yet
+- global continuum collapse and unbounded McKay/O2-prime closure remain separated residues
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+
+
+---
+
+
 ## 15. References
 
 ### 15.1 Standard Mathematics and Physics

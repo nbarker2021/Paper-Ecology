@@ -1213,6 +1213,86 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-16__Mass_Residue_And_Carrier_Accounting. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-16__Mass_Residue_And_Carrier_Accounting__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-16 Companion - Mass Residue And Carrier Accounting
+## What This Paper Is Doing
+This paper formalizes mass-like residue as carrier accounting before QFT translation. The operative object is mass-residue carrier. The core result is that finite sector residues can be carried as internal accounting quantities with explicit source and sector labels. The paper also defines how this result routes forward: FLCR-33 may translate the accounting into Higgs/QFT language only with citation and calibration boundaries. Its main residue is explicit: measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 16.1: finite sector residues can be carried as internal accounting quantities with explicit source and sector labels
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines mass-residue carrier as a first-class FLCR object.
+- States the local result: finite sector residues can be carried as internal accounting quantities with explicit source and sector labels.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-33 may translate the accounting into Higgs/QFT language only with citation and calibration boundaries.
+- Preserves the residue boundary: measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally.
+## What It Does Not Claim Yet
+- measured Higgs mass, QFT field identity, and physical mass calibration are not closed locally
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens
+
+---
+
+
+
+## X.FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-33__Electroweak_Higgs_And_Mass_Residue_Translation__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+﻿# FLCR-33 Companion - Electroweak, Higgs, And Mass Residue Translation
+## What This Paper Is Doing
+This paper formalizes electroweak/Higgs language as translation of mass-residue accounting. The operative object is Higgs residue translation. The core result is that mass-residue carrier accounting can be translated into electroweak/Higgs-facing terms only when sector, units, and calibration are declared. The paper also defines how this result routes forward: FLCR-33 cites FLCR-16 and standard references before physical mass claims. Its main residue is explicit: Higgs VEV, measured masses, and QFT field identity require external data binding.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 33.1: mass-residue carrier accounting can be translated into electroweak/Higgs-facing terms only when sector, units, and calibration are declared
+Lane: `external_calibration_result`.
+## Why It Matters
+- Defines Higgs residue translation as a first-class FLCR object.
+- States the local result: mass-residue carrier accounting can be translated into electroweak/Higgs-facing terms only when sector, units, and calibration are declared.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-33 cites FLCR-16 and standard references before physical mass claims.
+- Preserves the residue boundary: Higgs VEV, measured masses, and QFT field identity require external data binding.
+## What It Does Not Claim Yet
+- Higgs VEV, measured masses, and QFT field identity require external data binding
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This Sta
+
+---
+
+
 ## 9. References
 
 1. ATLAS Collaboration (2023). "Measurement of the Higgs boson mass in the H→4ℓ decay channel."

@@ -2530,6 +2530,46 @@ The Spectre tile is the **Depth 3 exceptional realization** of this template. Al
 ---
 
 
+
+## X.FLCR-26__Observer_Delay_And_Shared_State_Protocols. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-26__Observer_Delay_And_Shared_State_Protocols__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-26 Companion - Observer Delay And Shared-State Protocols
+## What This Paper Is Doing
+This paper formalizes observer delay as a finite shared-state synchronization protocol. The operative object is observer-delay protocol. The core result is that finite observer buffers can synchronize shared center state without implying consciousness or physical collapse. The paper also defines how this result routes forward: FLCR-38 may translate this into AI/computation/observer language with explicit measurement boundaries. Its main residue is explicit: human latency, consciousness, and physical collapse claims require external empirical evidence.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 26.1: finite observer buffers can synchronize shared center state without implying consciousness or physical collapse
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines observer-delay protocol as a first-class FLCR object.
+- States the local result: finite observer buffers can synchronize shared center state without implying consciousness or physical collapse.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-38 may translate this into AI/computation/observer language with explicit measurement boundaries.
+- Preserves the residue boundary: human latency, consciousness, and physical collapse claims require external empirical evidence.
+## What It Does Not Claim Yet
+- human latency, consciousness, and physical collapse claims require external empirical evidence
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This Sta
+
+---
+
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

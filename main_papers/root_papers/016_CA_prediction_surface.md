@@ -3015,6 +3015,46 @@ The S28 verifier checks the 4 windows, the S15 HCA substrate, and the cross-refe
 ---
 
 
+
+## X.FLCR-13__Cellular_Automata_Prediction_Surfaces. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-13__Cellular_Automata_Prediction_Surfaces__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-13 Companion - Cellular Automata Prediction Surfaces
+## What This Paper Is Doing
+This paper formalizes bounded prediction surfaces for elementary cellular automata. The operative object is CA prediction surface. The core result is that finite and bounded CA readouts can be receipt-closed without claiming unbounded Rule 30 future-bit extraction. The paper also defines how this result routes forward: finite surfaces feed admission, window, and falsifier papers as testable local machines. Its main residue is explicit: unbounded nonperiodicity, cold nth-bit extraction, and full prediction remain separate mathematical obligations.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 13.1: finite and bounded CA readouts can be receipt-closed without claiming unbounded Rule 30 future-bit extraction
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines CA prediction surface as a first-class FLCR object.
+- States the local result: finite and bounded CA readouts can be receipt-closed without claiming unbounded Rule 30 future-bit extraction.
+- Routes downstream use through claim lanes rather than inherited prose: finite surfaces feed admission, window, and falsifier papers as testable local machines.
+- Preserves the residue boundary: unbounded nonperiodicity, cold nth-bit extraction, and full prediction remain separate mathematical obligations.
+## What It Does Not Claim Yet
+- unbounded nonperiodicity, cold nth-bit extraction, and full prediction remain separate mathematical obligations
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why Thi
+
+---
+
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 definition and prize problems (Problems 1–3).

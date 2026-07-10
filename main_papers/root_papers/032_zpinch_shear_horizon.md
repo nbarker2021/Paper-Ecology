@@ -454,6 +454,90 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-24__Energetic_Traversal_Maps. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-24__Energetic_Traversal_Maps__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-24 Companion - Energetic Traversal Maps
+## What This Paper Is Doing
+This paper formalizes energy-like traversal accounting over LCR paths. The operative object is energetic traversal map. The core result is that internal traversal ledgers can order and compare path costs under declared scalar rules. The paper also defines how this result routes forward: FLCR-37 may translate this into energy/plasma language only with units and measurement lanes. Its main residue is explicit: joule conversion, thermodynamic identity, and physical energy claims require calibration.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 24.1: internal traversal ledgers can order and compare path costs under declared scalar rules
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines energetic traversal map as a first-class FLCR object.
+- States the local result: internal traversal ledgers can order and compare path costs under declared scalar rules.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-37 may translate this into energy/plasma language only with units and measurement lanes.
+- Preserves the residue boundary: joule conversion, thermodynamic identity, and physical energy claims require calibration.
+## What It Does Not Claim Yet
+- joule conversion, thermodynamic identity, and physical energy claims require calibration
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how
+
+---
+
+
+
+## X.FLCR-25__Shear_Plasma_And_Carrier_Horizons. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-25__Shear_Plasma_And_Carrier_Horizons__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-25 Companion - Shear, Plasma, And Carrier Horizons
+## What This Paper Is Doing
+This paper formalizes shear and horizon events as carrier-level thresholds. The operative object is carrier horizon. The core result is that pinch, shear, and horizon conditions can be represented as internal carrier threshold events. The paper also defines how this result routes forward: FLCR-37 may use these thresholds for plasma/energy translation after measurement binding. Its main residue is explicit: measured Z-pinch observables, plasma identity, and laboratory calibration remain external.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 25.1: pinch, shear, and horizon conditions can be represented as internal carrier threshold events
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Defines carrier horizon as a first-class FLCR object.
+- States the local result: pinch, shear, and horizon conditions can be represented as internal carrier threshold events.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-37 may use these thresholds for plasma/energy translation after measurement binding.
+- Preserves the residue boundary: measured Z-pinch observables, plasma identity, and laboratory calibration remain external.
+## What It Does Not Claim Yet
+- measured Z-pinch observables, plasma identity, and laboratory calibration remain external
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this 
+
+---
+
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

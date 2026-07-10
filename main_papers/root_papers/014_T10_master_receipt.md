@@ -2159,6 +2159,44 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-11__Master_Receipt_And_Stack_Replay. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-11__Master_Receipt_And_Stack_Replay__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-11 Companion - Master Receipt And Stack Replay
+## What This Paper Is Doing
+This paper formalizes the first ten papers as one replayable causal unit. The operative object is T10 master receipt. The core result is that Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields. The paper also defines how this result routes forward: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis. Its main residue is explicit: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 11.1: Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines T10 master receipt as a first-class FLCR object.
+- States the local result: Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis.
+- Preserves the residue boundary: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.
+## What It Does Not Claim Yet
+- exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, o
+
+---
+
+
 ## 12. References
 
 [1] N. Barker, *Paper 001 — The LCR Minimal Carrier*, `D:\Paper Ecology\main_papers\root_papers\001_LCR_minimal_carrier.md`, 2026. Layer 1 foundation paper; carrier minimality theorem.

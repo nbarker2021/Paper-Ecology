@@ -319,3 +319,16 @@ Rule: route by CONTENT to 240-form roots; restore proof texture flattened in UFT
 machine-verified proof texture. Engine unchanged (33 verifiers / 163 checks / 0 defects / PASS) —
 formal papers carry proof cores as cited deep-dives, no new verifiers added.
 
+## Wave: Companion + Handbook + Kimi-Rule30 + lib-forge Granularity
+
+Genuine gap layers confirmed ABSENT from roots (content-probe, not name-guess). Ported in one wave.
+
+| Layer | Count | Routing | Status |
+|---|---|---|---|
+| FLCR companion papers (01-33) | 33 | content-routed to matching roots (incl 172 CAM-crystal for FLCR-28) | DONE. Plain-language twin of workbook layer. |
+| Handbooks (Formal/Technical/Layman) | 3 | NEW roots 242/243/244 | DONE. Whole-suite reader guides. |
+| Kimi Rule-30 invariant proof / prize submission | 1 bundle (69 md, core ported) | roots 002, 007 | DONE. External-facing invariant proof + proven theorems + IRL. |
+| lib-forge granularity (cqe-paper-00 axiom/lemma units) | 21 units | root 000 | DONE. Atomic proof-unit layer. (Other lib-forge subdirs = code/runtime trees, excluded as non-paper.) |
+
+**Root total: 241 -> 244.** Engine unchanged (33/163/0/PASS).
+

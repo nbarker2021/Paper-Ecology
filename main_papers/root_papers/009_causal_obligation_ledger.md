@@ -2275,6 +2275,94 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-07__Causal_Links_And_Obligation_Ledgers. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-07__Causal_Links_And_Obligation_Ledgers__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-07 Companion - Causal Links And Obligation Ledgers
+## What This Paper Is Doing
+This paper turns the FLCR corpus into an auditable dependency graph. It distinguishes proof-support edges, obligation edges, negative verdicts, receipt edges, and workflow routes. This prevents open obligations from being consumed as proofs while still allowing them to act as springboards for later reapplication.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 7.1: A valid FLCR causal graph must type its edges before they can be consumed by paper claims.
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines typed edges for support, obligation, receipt, and negative verdicts.
+- Treats failed extraction attempts as reusable search-pruning data.
+- Frames the paper corpus as a content-addressed provenance graph.
+- Prepares the T10 master receipt and later layer-2 synthesis ledgers.
+## What It Does Not Claim Yet
+- A graph edge is not automatically proof; its edge type controls consumption.
+- A failed route remains failed only for its tested scope.
+- Full 32-paper graph population remains a later lockfile task.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `06`/ledger_action.
+The interpretive move in this paper must be presented as label management over
+an already-addressed state. Where the paper changes language, it must say what
+object remains invariant and what access path, label, or analogy changed.
+## Narrative State Contract
+The s
+
+---
+
+
+
+## X.FLCR-11__Master_Receipt_And_Stack_Replay. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-11__Master_Receipt_And_Stack_Replay__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-11 Companion - Master Receipt And Stack Replay
+## What This Paper Is Doing
+This paper formalizes the first ten papers as one replayable causal unit. The operative object is T10 master receipt. The core result is that Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields. The paper also defines how this result routes forward: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis. Its main residue is explicit: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 11.1: Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines T10 master receipt as a first-class FLCR object.
+- States the local result: Papers 00-09 can be composed into an inspectable receipt stack when every imported claim preserves source, edge, receipt, and obligation fields.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-11 becomes the intake gate for aggregate proof replay and later layer-2 synthesis.
+- Preserves the residue boundary: exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached.
+## What It Does Not Claim Yet
+- exceptional-to-Niemeier terminal routes and cold extraction claims remain scoped until their own receipts are attached
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, o
+
+---
+
+
 ## 17. References
 
 [1] N. Barker, *Paper 0 — The Transport Contract and Foreword*, PaperLib, 2026. Defines the finite state space and D/I/X claim taxonomy.

@@ -2608,6 +2608,94 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-10__Temporal_Windows_And_Hamiltonian_Readouts__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-10 Companion - Temporal Windows And Hamiltonian Readouts
+## What This Paper Is Doing
+This paper turns static carried centers into ordered window objects. A Hamiltonian readout is a finite sliding-window transform with source indices, source centers, forward receipts, backward receipts, and emitted composite centers. The paper closes finite window emergence and kappa-ledger ordering while keeping physical time and unbounded McKay/O2-prime exactness in later claim lanes.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 10.1: A finite sequence of n center states has exactly n - w + 1 width-w Hamiltonian windows when w <= n.
+Lane: `standard_theorem_citation_bound_result`.
+## Why It Matters
+- Defines Hamiltonian windows as provenance-preserving finite sliding-window transforms.
+- Proves the count n - w + 1 for finite ordered center sequences.
+- Separates receipt-level backward reconstruction from physical time reversal.
+- Routes McKay threshold bands and unbounded parity to later bounded-to-unbounded evidence.
+## What It Does Not Claim Yet
+- Audit reversibility is not physical time reversal.
+- Window exactness does not imply unbounded arithmetic extraction.
+- Kappa ledger ordering is not physical energy calibration without later units and measurements.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `09`/window_action.
+The interpretive move in this paper must be presented as label management over
+an already-addressed 
+
+---
+
+
+
+## X.FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-30__Supervisor_Cursor_And_Universal_Normal_Form_Intake__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-30 Companion - Supervisor Cursor And Universal Normal-Form Intake
+## What This Paper Is Doing
+This paper formalizes supervisor cursor scheduling and universal normal-form intake. The operative object is supervisor cursor. The core result is that a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely. The paper also defines how this result routes forward: FLCR-28 through FLCR-40 use this as the normal-form intake gate. Its main residue is explicit: the incoming universal normal form remains required evidence before final unification closure.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 30.1: a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines supervisor cursor as a first-class FLCR object.
+- States the local result: a scheduler can traverse paper windows and reserve universal normal-form slots without finalizing claims prematurely.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-28 through FLCR-40 use this as the normal-form intake gate.
+- Preserves the residue boundary: the incoming universal normal form remains required evidence before final unification closure.
+## What It Does Not Claim Yet
+- the incoming universal normal form remains required evidence before final unification closure
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper a
+
+---
+
+
 ## 15. References
 
 ### 15.1 Paper Series

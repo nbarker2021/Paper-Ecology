@@ -1520,6 +1520,91 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-04__D4_J3_O_Triality_And_Representation_Transport. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-04__D4_J3_O_Triality_And_Representation_Transport__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-04 Companion - D4, J3(O), Triality, And Representation Transport
+## What This Paper Is Doing
+This paper registers the eight-state LCR carrier across multiple lossless local presentations: LCR triples, an axis/sheet codec, and a diagonal J3(O)-style carrier. The result is a finite coordinate atlas, not a claim that full exceptional dynamics have been solved. Later papers may import representation transport only by preserving the registered readouts or declaring the dropped readout.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 4.1: The eight binary LCR states admit a lossless finite atlas across LCR, axis/sheet, and diagonal carrier coordinates.
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines the finite atlas connecting LCR, axis/sheet, and diagonal carrier readings.
+- Separates diagonal J3(O) registration from full off-diagonal exceptional algebra.
+- Introduces representation-invariance as a corpus import rule.
+- Routes full D4/F4/off-diagonal claims to later evidence packages.
+## What It Does Not Claim Yet
+- Diagonal registration does not prove full exceptional dynamics.
+- A codec migration must preserve round-trip bijection over the eight states.
+- Later Standard Model translation papers cannot consume this as physical transport without calibration.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `03`/fold_action.
+The interpretive move in this paper must be presented as label management ov
+
+---
+
+
+
+## X.FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-14__Quark_Face_Algebra_Before_Standard_Model_Translation__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-14 Companion - Quark-Face Algebra Before Standard-Model Translation
+## What This Paper Is Doing
+This paper formalizes face transport in the finite LCR/J3(O) chart without Standard Model identity language. The operative object is quark-face algebra. The core result is that six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts. The paper also defines how this result routes forward: FLCR-31 and FLCR-32 may translate the structure into gauge/QCD language only after citing this LCR-native base. Its main residue is explicit: measured quark identity, CKM data, and physical color calibration are deferred to translation papers.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 14.1: six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines quark-face algebra as a first-class FLCR object.
+- States the local result: six excited chart faces admit exact internal transport under the declared finite atlas and closure receipts.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-31 and FLCR-32 may translate the structure into gauge/QCD language only after citing this LCR-native base.
+- Preserves the residue boundary: measured quark identity, CKM data, and physical color calibration are deferred to translation papers.
+## What It Does Not Claim Yet
+- measured quark identity, CKM data, and physical color calibration are deferred to translation papers
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is s
+
+---
+
+
 ## 18. References
 
 ### 18.1 Standard Mathematics

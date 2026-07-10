@@ -9310,6 +9310,567 @@ split_T(L,C,R) = (C_1^*, C_2^*, …, C_T^*) ∈ {0,1}^T
 ---
 
 
+
+## X.FLCR-01__Grounding_Contract_And_Axiom_Discipline. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-01__Grounding_Contract_And_Axiom_Discipline__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-01 Companion - Grounding Contract And Axiom Discipline
+## What This Paper Is Doing
+This paper establishes the publication contract for the FLCR series. The core contribution is a conservative-extension discipline: imported mathematics remains external mathematics, while LCR contributes only declared bridges, receipt-bearing finite constructions, and typed claim lanes. The result is a burden system that allows maximal claims to be stated without silently changing their evidentiary type.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 1.1: The FLCR corpus is admissible only as a typed extension stack: every promoted claim must declare its lane, source, evidence, and boundary.
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines the FLCR burden contract and makes claim lanes mandatory.
+- Separates imported theorem, internal finite proof, CAM/crystal reapplication, calibration, and falsifier lanes.
+- Treats the paper corpus as proof-carrying text: claim, evidence, boundary, and falsifier travel together.
+- Installs the rule that finite exhaustive enumeration is proof only for its stated finite domain.
+## What It Does Not Claim Yet
+- This paper does not prove later physics-facing claims; it defines how those claims must be admitted.
+- A high CAM score does not replace the need for attached receipts in the final publication package.
+- Imported mathematics must be cited as imported mathematics, not rebranded as internally derived.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## How To Read The Guardrails
+The guardrails in this series are mainly for AI automation and publication
+workflow. They stop agents, scripts, validators, and generated prose from
+turning a hypothesis into a proved claim by accident. They are not meant to
+make the human research imagination smaller.
+The intended posture is: state the grand claim clearly, show which parts are
+already proved or source-bound, then name the open obligations that connect the
+proved state to the larger claim. Those obligations are research channels.
+
+---
+
+
+
+## X.FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-20__Applied_Forge_Reader_And_Descriptor_Kernel__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-20 Companion - Applied Forge Reader And Descriptor Kernel
+## What This Paper Is Doing
+This paper formalizes the applied forge reader as a descriptor kernel over LCR receipts. The operative object is forge descriptor kernel. The core result is that applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state. The paper also defines how this result routes forward: materials, proteins, games, and energy papers consume this as the applied reader interface. Its main residue is explicit: domain performance, external benchmarks, and real-world utility remain external validation tasks.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 20.1: applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines forge descriptor kernel as a first-class FLCR object.
+- States the local result: applied forge descriptors can read, combine, and route LCR-addressed objects without changing the underlying CAM claim state.
+- Routes downstream use through claim lanes rather than inherited prose: materials, proteins, games, and energy papers consume this as the applied reader interface.
+- Preserves the residue boundary: domain performance, external benchmarks, and real-world utility remain external validation tasks.
+## What It Does Not Claim Yet
+- domain performance, external benchmarks, and real-world utility remain external validation tasks
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from p
+
+---
+
+
+
+## X.FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-22__Protein_Descriptor_And_Fold_Facing_Kernel__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-22 Companion - Protein Descriptor And Fold-Facing Kernel
+## What This Paper Is Doing
+This paper formalizes protein fold descriptors as an applied LCR-facing kernel. The operative object is fold descriptor kernel. The core result is that contact, homology, and winding descriptors can be staged as internal addressable features before biological validation. The paper also defines how this result routes forward: applied biology workbooks may consume descriptors only with PDB/parser and benchmark receipts. Its main residue is explicit: native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 22.1: contact, homology, and winding descriptors can be staged as internal addressable features before biological validation
+Lane: `normal_form_result`.
+## Why It Matters
+- Defines fold descriptor kernel as a first-class FLCR object.
+- States the local result: contact, homology, and winding descriptors can be staged as internal addressable features before biological validation.
+- Routes downstream use through claim lanes rather than inherited prose: applied biology workbooks may consume descriptors only with PDB/parser and benchmark receipts.
+- Preserves the residue boundary: native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind.
+## What It Does Not Claim Yet
+- native-structure prediction, fold-rate validation, and biological performance remain below full closure until datasets bind
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with
+
+---
+
+
+
+## X.LIBFORGE. Paper-00 Granular Decomposition (axiom/lemma units)
+
+> Recrafted from `CQECMPLX-Production/lib-forge/cqe-paper-00__*` (atomic proof-unit layer). D/I/X tagged.
+
+### cqe-paper-00__axiom_00_1/FORMAL.md
+
+# Axiom 00.1 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Axiom 00.1 - Locality: every accepted claim must be readable through a local window before it is lifted to a larger frame.
+
+## Axiom / Lemma / Theorem header
+
+**Axiom 00.1** (axiom). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cite at least one IRL anchor.
+
+
+### cqe-paper-00__axiom_00_1/INTENT.md
+
+# Sub-formalization intent — Axiom 00.1
+
+Parent paper: CQE-paper-00
+Kind: axiom
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Axiom 00.1 - Locality: every accepted claim must be readable through a local window before it is lifted to a larger frame.
+
+## Why this needs its own whitepaper
+
+This claim is a axiom used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__axiom_00_1` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__axiom_00_1/WORKBOOK.md
+
+# Axiom 00.1 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__axiom_00_2/FORMAL.md
+
+# Axiom 00.2 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Axiom 00.2 - Receipt Preservation: no transform is accepted unless its inputs, output, and unresolved residue can be logged.
+
+## Axiom / Lemma / Theorem header
+
+**Axiom 00.2** (axiom). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cite at least one IRL anchor
+
+### cqe-paper-00__axiom_00_2/INTENT.md
+
+# Sub-formalization intent — Axiom 00.2
+
+Parent paper: CQE-paper-00
+Kind: axiom
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Axiom 00.2 - Receipt Preservation: no transform is accepted unless its inputs, output, and unresolved residue can be logged.
+
+## Why this needs its own whitepaper
+
+This claim is a axiom used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__axiom_00_2` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__axiom_00_2/WORKBOOK.md
+
+# Axiom 00.2 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__axiom_00_3/FORMAL.md
+
+# Axiom 00.3 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Axiom 00.3 - Boundary Positivity: failed, partial, or mismatched routes are data. They become obligations or correction surfaces.
+
+## Axiom / Lemma / Theorem header
+
+**Axiom 00.3** (axiom). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cite at least one IRL a
+
+### cqe-paper-00__axiom_00_3/INTENT.md
+
+# Sub-formalization intent — Axiom 00.3
+
+Parent paper: CQE-paper-00
+Kind: axiom
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Axiom 00.3 - Boundary Positivity: failed, partial, or mismatched routes are data. They become obligations or correction surfaces.
+
+## Why this needs its own whitepaper
+
+This claim is a axiom used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__axiom_00_3` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__axiom_00_3/WORKBOOK.md
+
+# Axiom 00.3 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__axiom_00_4/FORMAL.md
+
+# Axiom 00.4 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Axiom 00.4 - Analog Equivalence: if the claim is part of the main corpus, it must have a physical workbook analogue.
+
+## Axiom / Lemma / Theorem header
+
+**Axiom 00.4** (axiom). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cite at least one IRL anchor.
+- [ ] 
+
+### cqe-paper-00__axiom_00_4/INTENT.md
+
+# Sub-formalization intent — Axiom 00.4
+
+Parent paper: CQE-paper-00
+Kind: axiom
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Axiom 00.4 - Analog Equivalence: if the claim is part of the main corpus, it must have a physical workbook analogue.
+
+## Why this needs its own whitepaper
+
+This claim is a axiom used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__axiom_00_4` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__axiom_00_4/WORKBOOK.md
+
+# Axiom 00.4 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__lemma_00_1/FORMAL.md
+
+# Lemma 00.1 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Lemma 00.1 - If a local state preserves C and records L/R residue, it can be transported into a proof ledger without erasing unresolved alternatives.
+
+## Axiom / Lemma / Theorem header
+
+**Lemma 00.1** (lemma). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cit
+
+### cqe-paper-00__lemma_00_1/INTENT.md
+
+# Sub-formalization intent — Lemma 00.1
+
+Parent paper: CQE-paper-00
+Kind: lemma
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Lemma 00.1 - If a local state preserves C and records L/R residue, it can be transported into a proof ledger without erasing unresolved alternatives.
+
+## Why this needs its own whitepaper
+
+This claim is a lemma used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__lemma_00_1` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__lemma_00_1/WORKBOOK.md
+
+# Lemma 00.1 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__lemma_00_2/FORMAL.md
+
+# Lemma 00.2 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Lemma 00.2 - If a tool output and workbook sheet encode the same center, boundary, and obligation state, they are equivalent receipts at different media layers.
+
+## Axiom / Lemma / Theorem header
+
+**Lemma 00.2** (lemma). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer
+
+### cqe-paper-00__lemma_00_2/INTENT.md
+
+# Sub-formalization intent — Lemma 00.2
+
+Parent paper: CQE-paper-00
+Kind: lemma
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Lemma 00.2 - If a tool output and workbook sheet encode the same center, boundary, and obligation state, they are equivalent receipts at different media layers.
+
+## Why this needs its own whitepaper
+
+This claim is a lemma used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__lemma_00_2` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent r
+
+### cqe-paper-00__lemma_00_2/WORKBOOK.md
+
+# Lemma 00.2 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+### cqe-paper-00__lemma_00_3/FORMAL.md
+
+# Lemma 00.3 — formal block (sub-formalization)
+
+Parent paper: **CQE-paper-00**
+
+## Statement (verbatim)
+
+> Lemma 00.3 - A practical example is valid for this paper only when it demonstrates the same operation in a non-toy domain.
+
+## Axiom / Lemma / Theorem header
+
+**Lemma 00.3** (lemma). *To be filled by the formalization agent.*
+
+## Proof tree (skeleton)
+
+```text
+claim
+  -> local window
+  -> boundary read
+  -> tool transform
+  -> receipt
+  -> proof / obligation split
+```
+
+## Open obligations
+
+- [ ] Produce a falsifier case the claim must reject or defer.
+- [ ] Cite at least one IRL anchor.
+
+
+### cqe-paper-00__lemma_00_3/INTENT.md
+
+# Sub-formalization intent — Lemma 00.3
+
+Parent paper: CQE-paper-00
+Kind: lemma
+Author: CQE-spawner v0.1
+
+## Captured claim (verbatim)
+
+> Lemma 00.3 - A practical example is valid for this paper only when it demonstrates the same operation in a non-toy domain.
+
+## Why this needs its own whitepaper
+
+This claim is a lemma used by the parent paper but is currently
+only labeled, not formalized. The sub-hierarchy under
+`lib-forge\cqe-paper-00__lemma_00_3` is the place to grow that
+formalization — and the place where Stream B (patent/legal) writes
+its adjacent record.
+
+
+### cqe-paper-00__lemma_00_3/WORKBOOK.md
+
+# Lemma 00.3 — workbook analogue
+
+Parent paper: **CQE-paper-00**
+
+Place this sub-sheet in the same color notebook as the parent paper.
+Mark the C token at the local center; L/R at the boundary; bind the
+main route with string. Use white for proof, black for obligation.
+
+
+---
+
+
 ## 6. References
 - Canonical: `CQECMPLX-Production/papers/CQE-paper-00/{01-CQE-formal/FORMAL.md,
   02-CQE-tool/run.py, 03-CQE-workbook/WORKBOOK.md}`.

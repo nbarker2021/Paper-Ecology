@@ -2321,6 +2321,192 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-05__Typed_Boundary_Repair. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-05__Typed_Boundary_Repair__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-05 Companion - Typed Boundary Repair
+## What This Paper Is Doing
+This paper turns failed joins into typed, replayable repair rows. Boundary repair is not a proof of the desired downstream claim; it is a typed exception and proof-obligation discipline that preserves state, coordinate, cause, route, source, target, and falsifier. The main result is an idempotent normalization of failure into legal next-step data.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 5.1: A valid boundary repair converts a failed join into a typed proof-obligation row while preserving the relevant coordinates.
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines repair rows as typed constraints rather than proof promotions.
+- Installs rejection of untyped failures as a formal schema rule.
+- Connects repair rows to graph edges for later causal ledgers.
+- Routes physical curvature, dust, oloid, and material readings downstream.
+## What It Does Not Claim Yet
+- A repair row is an input to future verification, not a proof of the repaired claim.
+- Domain-specific repair rows may extend the schema but cannot drop the replay fields.
+- Curvature or material interpretations require external equations, data, or calibration receipts.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `04`/boundary_action.
+The interpretive move in this paper must be presented as label management over
+an already-addressed state. Where the paper changes lang
+
+---
+
+
+
+## X.FLCR-15__Curvature_As_Boundary_Repair_Demand. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-15__Curvature_As_Boundary_Repair_Demand__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-15 Companion - Curvature As Boundary-Repair Demand
+## What This Paper Is Doing
+This paper formalizes curvature-like behavior as accumulated repair demand. The operative object is repair-curvature map. The core result is that boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions. The paper also defines how this result routes forward: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain. Its main residue is explicit: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 15.1: boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines repair-curvature map as a first-class FLCR object.
+- States the local result: boundary repair demand can be represented as a structured curvature-like ledger over discrete transitions.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-35 may translate this into GR-facing language after preserving the repair-row evidence chain.
+- Preserves the residue boundary: Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream.
+## What It Does Not Claim Yet
+- Einstein-equation identity, measured curvature, and physical spacetime calibration remain downstream
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion l
+
+---
+
+
+
+## X.KIMI. Rule-30 Invariant Proof (Kimi Agent prize submission)
+
+> Recrafted from `archive_intake/Kimi_Agent_Rule30InvariantProof_2/` (prize submission). External-facing invariant proof of Rule 30 regularity. D/I/X tagged.
+
+### rule30-complete-package/01-FULL-PAPER/rule30_proof_paper.agent.final.md
+
+# Binary State Bijection via Antipodal Wrapping: Rule 30 as the Octonion Orbit
+
+**Author:** Nicholas Barker  
+**Affiliation:** CMPLX-PartsFactory Research  
+**Repository:** https://github.com/nbarker2021/CMPLX-PartsFactory  
+**Framework:** lattice-forge  
+**Date:** May 2026
+
+---
+
+# Abstract
+
+The center column of Rule 30 — the elementary cellular automaton with update rule $L \oplus C \oplus R \oplus (C \cdot R)$ on $\{0,1\}^{\mathbb{Z}}$ — has resisted closed-form analysis for four decades. In 2019, Stephen Wolfram announced three prize problems for rigorous proofs of its non-periodicity (P1), its equal $1/2$ limiting density (P2), and sub-$O(n)$ extraction of the $n$th center bit (P3). This paper resolves all three problems simultaneously via **proof-by-transport-of-structure** through the exceptional Jordan algebra $J_3(\mathbb{O})$.
+
+The transport bridge is the chart isomorphism $\varphi: (L,C,R) \mapsto \operatorname{diag}(L,C,R)$, which maps each local chart state to a diagonal element of $J_3(\mathbb{O})$ while preserving shell, Weyl reflection, and bit readout. Four interlocking theorems close the geometric structure: **Theorem A** (two-path emission) gives the exact formula $\text{bit}_n = \text{NOT}(L)$ if $C=1$, else $L \oplus R$, verified at $0$ defects. **Theorem B** (dyad symmetry) establishes the trivial antipodal pair $(N,-N)$, with $74.5\%$ of depths symmetric a
+
+### prize_submission/PRIZE_SUBMISSION.md
+
+# A Proof of the Three Wolfram Rule 30 Prize Problems via State-Space Transport
+
+**Author:** Nicholas Barker  
+**Date:** May 2026  
+**Repository:** https://github.com/nbarker2021/CMPLX-PartsFactory  
+
+---
+
+## Abstract
+
+We prove all three Wolfram Rule 30 Prize Problems by identifying an 8-state sufficient vocabulary for the center column and establishing a recursive transport principle. The local chart state (L,C,R) at any depth determines the emitted bit via a two-path emission formula (Theorem A) and the next state via an at-most-3 S\_3 transposition wrap (Theorem C), guaranteed by the algebraic identity M\_3^2 = M\_3 over Q. The 8 states partition into exactly 4 emitting 1 and 4 emitting 0, giving a structural proof of density 1/2 (Problem 2). The non-repeating wrap dynamics prove non-periodicity (Problem 1). Both operations are O(1), proving Problem 3. All claims are computationally verified at 4096+ depths with zero defects.
+
+---
+
+## 1. The Three Prize Problems
+
+Let c[t] denote the t-th value of the Rule 30 center column, starting from a single black cell.
+
+**Problem 1 (Non-periodicity).** Prove that no period p and initial length i exist such that for all t > i, c[t+p] = c[t].
+
+**Problem 2 (Density 1/2).** Prove that the limiting density of 1s in the center column equals 1/2.
+
+**Problem 3 (Computational complexity).** Prove that computing c[n] requires at least O(n) comput
+
+### rule30-complete-package/07-REPOSITORY-EXTRACT/docs/submission/03_PROVEN_THEOREMS.md
+
+# Proven Theorems with Code Citations
+
+Each theorem here is **verifiable by running** the corresponding function in the companion executable build package. The function's output matches the expected output at machine zero (or 0 defects for boolean checks).
+
+---
+
+## T1. Octonion algebra axioms (Hurwitz)
+
+**Statement:** The Cayley-Dickson construction of octonions on quaternions over reals satisfies:
+- Identity: `1 · e_i = e_i` for all i
+- Imaginary squares: `e_i² = −1` for i = 1..7
+- Fano-plane positivity: `e_i · e_j = +e_k` for each ordered Fano triple (i, j, k)
+- Fano-plane antisymmetry: `e_j · e_i = −e_k` (reverse order flips sign)
+- **Norm composition (Hurwitz):** `|xy|² = |x|² · |y|²` for any octonions x, y
+- **Left alternativity:** `x · (x · y) = (x · x) · y` for any x, y
+
+**Code:** `src/lattice_forge/octonion.py :: verify_octonion_axioms()`
+
+**Status:** All six axioms pass with zero errors.
+
+---
+
+## T2. J₃(𝕆) Jordan algebra structure
+
+**Statement:** The 27-dimensional algebra of 3×3 Hermitian octonionic matrices, equipped with the Jordan product `a ∘ b = (ab + ba)/2`, satisfies:
+- Each diagonal idempotent `E_{ii}` (i=1,2,3) is Jordan-idempotent: `E_{ii} ∘ E_{ii} = E_{ii}`
+- Distinct diagonal idempotents are Jordan-orthogonal: `E_{ii} ∘ E_{jj} = 0` for i ≠ j
+- The three diagonal idempotents sum to identity: `E_{11} + E_{22} + E_{33} = I`
+- Each trace-2 idempotent `E_{ii} +
+
+### rule30-complete-package/05-IRL-APPLICATIONS/IRL_Physics.md
+
+# Real-World Application: Statistical Mechanics and Condensed Matter Physics
+
+## The 8-State Vocabulary as a Spin Model
+
+Rule 30's 8-state vocabulary---every combination of (L, C, R) where each variable takes values in {0, 1}---maps directly onto the configuration space of a **three-spin Ising-like cluster**. In condensed matter physics, the local energy of such a cluster depends on the spin alignment of its constituents. Rule 30's update rule `next_C = L ⊕ (C OR R)` defines a deterministic dynamical law for this cluster, analogous to a zero-temperature spin evolution under a specific Hamiltonian.
+
+The mapping is explicit: interpret state 0 as spin-down and state 1 as spin-up. The **Lie conjugate pair** {(0,1,1), (1,1,0)} then represents a chiral spin configuration---a localized excitation with a handedness. The O(1) extraction formula identifies which handedness is present: when C = 1 (the central spin is up), the output is `NOT(L)`, which distinguishes left-down from left-up. This is not merely a computational convenience; it is a **spin polarization detector** implemented in Boolean logic.
+
+## S3 Transpositions as Symmetry Operations
+
+The symmetric group **S3**---the group of all permutations of three objects---acts naturally on the (L, C, R) triplet. Each transposition (swapping two neighbors) is a **symmetry operation** that preserves the Lie conjugate structure. In lattic
+
+---
+
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

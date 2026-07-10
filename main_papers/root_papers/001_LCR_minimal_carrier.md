@@ -1426,6 +1426,136 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-02__The_LCR_Carrier. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-02__The_LCR_Carrier__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-02 Companion - The LCR Carrier
+## What This Paper Is Doing
+This paper defines the LCR carrier as the canonical radius-1 local readout with a distinguished center and two ordered boundary slots. The carrier is finite, inspectable, and minimal: any smaller carrier collapses either the center or one boundary address. The paper proves the binary eight-state surface, reversal action, shell grading, and shell-2 doublet-plus-pivot structure used by later papers.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 2.1: The LCR carrier is the minimal address-preserving carrier for one center and two distinguishable boundary slots.
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines LCR as the primitive local address surface for the series.
+- Proves the three-slot arity lower bound for center-plus-two-boundary data.
+- Registers the binary shell profile 1,3,3,1 and the reversal action.
+- Separates internal spinor-like local semantics from physical spin transport.
+## What It Does Not Claim Yet
+- The shell-2 doublet is an internal interface, not a measured particle claim.
+- SU(2)-style language may be used as standard analogy only where explicitly lane-tagged.
+- Later observer or physics papers must attach calibration or observer receipts before consuming this as physical spin.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `01`/enumeration_action.
+The interpretive move in this paper must be presented as label ma
+
+---
+
+
+
+## X.FLCR-04__D4_J3_O_Triality_And_Representation_Transport. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-04__D4_J3_O_Triality_And_Representation_Transport__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-04 Companion - D4, J3(O), Triality, And Representation Transport
+## What This Paper Is Doing
+This paper registers the eight-state LCR carrier across multiple lossless local presentations: LCR triples, an axis/sheet codec, and a diagonal J3(O)-style carrier. The result is a finite coordinate atlas, not a claim that full exceptional dynamics have been solved. Later papers may import representation transport only by preserving the registered readouts or declaring the dropped readout.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 4.1: The eight binary LCR states admit a lossless finite atlas across LCR, axis/sheet, and diagonal carrier coordinates.
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines the finite atlas connecting LCR, axis/sheet, and diagonal carrier readings.
+- Separates diagonal J3(O) registration from full off-diagonal exceptional algebra.
+- Introduces representation-invariance as a corpus import rule.
+- Routes full D4/F4/off-diagonal claims to later evidence packages.
+## What It Does Not Claim Yet
+- Diagonal registration does not prove full exceptional dynamics.
+- A codec migration must preserve round-trip bijection over the eight states.
+- Later Standard Model translation papers cannot consume this as physical transport without calibration.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `03`/fold_action.
+The interpretive move in this paper must be presented as label management ov
+
+---
+
+
+
+## X.FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-18 Companion - Exceptional Towers, VOA Routes, And Observer Face Selection
+## What This Paper Is Doing
+This paper formalizes exceptional tower, VOA, Moonshine, and observer-face routes as bounded LCR machinery. The operative object is exceptional observer route. The core result is that bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier. The paper also defines how this result routes forward: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status. Its main residue is explicit: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 18.1: bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Defines exceptional observer route as a first-class FLCR object.
+- States the local result: bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status.
+- Preserves the residue boundary: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.
+## What It Does Not Claim Yet
+- full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, t
+
+---
+
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

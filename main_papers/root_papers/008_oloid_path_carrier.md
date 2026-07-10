@@ -2543,6 +2543,54 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-06__Oloid_Path_Carrier_And_Transport_Geometry__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-06 Companion - Oloid Path Carrier And Transport Geometry
+## What This Paper Is Doing
+This paper defines the path carrier as a deterministic finite-state transducer. A repair row can travel as side-channel metadata while the carrier transition remains unchanged. The path theorem closes graph-continuous finite transport and payload noninterference; it does not by itself assert real oloid kinematics, gauge holonomy, or physical motion.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 6.1: The path carrier is a deterministic finite-state transducer over its declared state space.
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Models the path carrier as a finite-state transducer driven by legal input bits.
+- Defines graph continuity as adjacency-preserving legal transition.
+- Proves payload noninterference for repair metadata.
+- Separates symbolic oloid/path geometry from measured geometry.
+## What It Does Not Claim Yet
+- Graph continuity is not physical continuity unless a geometry model is attached.
+- Payload transport does not solve unbounded Rule 30 prediction.
+- Holonomy-like language remains analogical until a gauge connection and observable are defined.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from promotion?
+## Why This State Happens Next
+This companion layer carries the semantic story: why this paper appears here,
+why the preceding state needs this move, and how the next paper is allowed to
+consume it. Its job is not to weaken the formal claim; its job is to make the
+state transition legible.
+Assigned original ribbon role(s): `05`/carrier_action.
+The interpretive move in this paper must be presented as label management over
+an already-addressed state. Where the paper changes language, it must say what
+object remains invariant
+
+---
+
+
 ## 16. References
 
 ### 16.1 Standard Mathematics and Kinematics

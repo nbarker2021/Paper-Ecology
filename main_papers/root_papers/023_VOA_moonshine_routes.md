@@ -2289,6 +2289,83 @@ The S18 verifier computes the 3-label M(s) for all 8 chart states and reports th
 ---
 
 
+
+## X.FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-18__Exceptional_Towers_VOA_Routes_And_Observer_Face_Selection__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-18 Companion - Exceptional Towers, VOA Routes, And Observer Face Selection
+## What This Paper Is Doing
+This paper formalizes exceptional tower, VOA, Moonshine, and observer-face routes as bounded LCR machinery. The operative object is exceptional observer route. The core result is that bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier. The paper also defines how this result routes forward: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status. Its main residue is explicit: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 18.1: bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Defines exceptional observer route as a first-class FLCR object.
+- States the local result: bounded exceptional, VOA, and observer-face readouts can be staged as receipt-bearing routes over the prior LCR carrier.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-38 and FLCR-40 may use these routes only after preserving bounded-vs-unbounded status.
+- Preserves the residue boundary: full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations.
+## What It Does Not Claim Yet
+- full Moonshine identification, measured observer physics, and unbounded exceptional closure remain separate obligations
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, t
+
+---
+
+
+
+## X.FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-27__Monster_Ceiling_And_Large_Invariant_Boundaries__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-27 Companion - Monster Ceiling And Large-Invariant Boundaries
+## What This Paper Is Doing
+This paper formalizes large invariant ceilings and Monster-facing boundary routes. The operative object is Monster ceiling. The core result is that bounded Monster/McKay invariant facts can function as upper-bound and routing data without closing universal physical energy. The paper also defines how this result routes forward: FLCR-40 may use the ceiling only with explicit dependency and falsifier chains. Its main residue is explicit: measured universal energy bounds, encoder invariance, and full Moonshine identity remain separate obligations.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 27.1: bounded Monster/McKay invariant facts can function as upper-bound and routing data without closing universal physical energy
+Lane: `cam_crystal_reapplication_result`.
+## Why It Matters
+- Defines Monster ceiling as a first-class FLCR object.
+- States the local result: bounded Monster/McKay invariant facts can function as upper-bound and routing data without closing universal physical energy.
+- Routes downstream use through claim lanes rather than inherited prose: FLCR-40 may use the ceiling only with explicit dependency and falsifier chains.
+- Preserves the residue boundary: measured universal energy bounds, encoder invariance, and full Moonshine identity remain separate obligations.
+## What It Does Not Claim Yet
+- measured universal energy bounds, encoder invariance, and full Moonshine identity remain separate obligations
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden from p
+
+---
+
+
 ## 14. References
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. McKay-Thompson series.

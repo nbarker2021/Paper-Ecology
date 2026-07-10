@@ -405,6 +405,45 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-23__Finite_Game_Lattices_And_Local_Rule_Automata__companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-23 Companion - Finite Game Lattices And Local Rule Automata
+## What This Paper Is Doing
+This paper formalizes finite game lattices as local rule automata. The operative object is game lattice automaton. The core result is that finite move rules and n-dimensional count surfaces can be closed internally where the board, dimension, and local rule are declared. The paper also defines how this result routes forward: game and combinatorics papers may consume finite counts as receipt-bound local automata. Its main residue is explicit: complete game theory, playability, OEIS review, and real-piece geometry remain external review lanes.
+In plainer terms: this paper defines one reliable piece of the LCR stack and
+states exactly how later papers are allowed to use it. It is not trying to win
+every downstream claim locally. It is making the local result strong enough
+that later papers can build on it without changing what was proved.
+## Strongest Claim
+Theorem 23.1: finite move rules and n-dimensional count surfaces can be closed internally where the board, dimension, and local rule are declared
+Lane: `receipt_bound_internal_result`.
+## Why It Matters
+- Defines game lattice automaton as a first-class FLCR object.
+- States the local result: finite move rules and n-dimensional count surfaces can be closed internally where the board, dimension, and local rule are declared.
+- Routes downstream use through claim lanes rather than inherited prose: game and combinatorics papers may consume finite counts as receipt-bound local automata.
+- Preserves the residue boundary: complete game theory, playability, OEIS review, and real-piece geometry remain external review lanes.
+## What It Does Not Claim Yet
+- complete game theory, playability, OEIS review, and real-piece geometry remain external review lanes
+- External calibration claims require units, datasets, citations, and reproducible data binding.
+- A later translation paper may strengthen this result only by adding the missing lane evidence.
+## How Later Papers Should Use It
+Later papers cite this paper by claim and lane. If a later paper needs a
+stronger statement, it must add the missing receipt, standard theorem citation,
+CAM/crystal reapplication, normal-form proof, calibration datum, or falsifier
+boundary. It does not inherit stronger language from older drafts.
+## Reader Check
+Before accepting a downstream use of this paper, ask:
+1. Which exact claim is being consumed?
+2. Which lane admits that claim?
+3. What receipt, theorem, CAM route, or calibration source travels with it?
+4. What residue is still forbidden f
+
+---
+
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

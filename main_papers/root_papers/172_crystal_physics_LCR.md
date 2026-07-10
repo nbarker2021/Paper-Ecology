@@ -273,6 +273,56 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.FLCR-28. Companion (plain-language)
+
+> Recrafted from `archive_intake/.../FINAL_FLAT/FLCR-28...companion.md`. Exposition twin of the workbook layer. D/I/X tagged.
+
+# FLCR-28 Companion - CAM, Crystal Projectors, And MannyAI Runtime
+## What This Paper Is Doing
+FLCR-28 makes the CAM/crystal runtime a first-class scientific object in the
+series. The paper says that CAM is not just archive memory and "crystal" is not
+just a metaphor. CAM is the addressable memory contract; the crystal projector
+is the procedure that loads an addressed object, exposes it through multiple
+faces, reads the vignettes produced by those faces, and routes the resulting
+reasoning data into the next staged algorithm.
+In plainer language: this is the paper that explains how prior work, Claude and
+Kimi crystals, NotebookLM bundles, MannyAI runtime data, forge outputs, NSIT
+reports, and future crystal work become usable evidence without losing their
+source identity. It is the orbital intake layer for the whole corpus.
+## Strongest Claim
+**Theorem 28.1.** CAM-addressed objects can be projected through multiple
+representational faces while remaining addressable by the same memory contract.
+**Lane:** `cam_crystal_reapplication_result`.
+The claim is strong because it allows the same object to appear as prose,
+receipt, validator row, source route, forge lookup, analog exercise, or runtime
+event while remaining one addressable object. It is bounded because the paper
+does not assume private vault data, missing crystals, or unverified source
+paths. Those remain named residues.
+## The Crystal Projector In Human Terms
+The projector has five moves:
+1. **Create or locate the crystal.** Identify the source object and assign a
+   stable CAM address.
+2. **Load the crystal.** Bring in its faces: formal text, receipts, validators,
+   source cards, workbook exercises, forge APIs, and agent memories.
+3. **Shine light through the faces.** Query each face from a different angle:
+   claim lane, dependency, residue, falsifier, downstream use, analog replay.
+4. **Collect vignettes.** Store the readouts as small evidence scenes that say
+   what the face contributes and what it refuses to promote.
+5. **Route the reasoning data.** Send the useful readout to the next algorithm:
+   source placement, claim binding, normal-form intake, tarpit comparison,
+   forge lookup, publication rewrite, or falsifier review.
+The paper's important move is that the vignette is not allowed to replace the
+source. A vignette is an indexed readout. The CAM address keeps the original
+object available.
+## Why It Matters
+- It gives the corpus a memory model that can survive many representations.
+- It explains how Claude, Kimi, MannyAI, NotebookLM, and local repo harvests can
+  all contribute without 
+
+---
+
+
 ## 9. References
 
 1. Chen, F. F. (1984). *Introduction to Plasma Physics.* Plenum.
