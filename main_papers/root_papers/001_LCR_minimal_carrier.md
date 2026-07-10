@@ -580,6 +580,15 @@ EXPOSE-2 frames the side-flip bijection (L,C,R)→(R,C,L) as the SU(2) doublet o
 **Gluon invariant C₁ = fixed point** (the center bit is LR-reversal-invariant). Maps to §16
 (LCR chain carrier). Consistent with `verify_triality_operator`. Honest, no fabrication.
 
+## 8. UFT 0-100 Series (FLCR) — Papers 1-4: LCR kernel, Rule 30 ANF/Lucas, correction/F2-Arf, D4/J3/triality
+
+FLCR derivation-tutorial papers (D:/CQE_CMPLX/papers/UFT0-100). Per HONEST-DISCLOSURE.md these
+are **(D)** data-backed: chart J3(O) bijection, r30=r90+correction, F2 quadratic Q=C+CR, Arf=0,
+D4 codec, triality, magic square — all backed by cqekernel / lattice_forge source. The "FLCR
+lattice ladder" naming (LCR→D4→J3(O)→D12→F4→E8→Leech) is **(I)** framing. Maps to §1-§4.
+Consistent with `verify_chart_enumeration`, `verify_triality_operator`, `verify_correction_boundary`.
+No fabrication (these 4 are the "safe" data-heavy papers).
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

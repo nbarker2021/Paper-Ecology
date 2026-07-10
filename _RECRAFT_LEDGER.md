@@ -181,6 +181,14 @@ RETAINED as genuine fabrications:
 
 **CQECMPLX-ProofValidatedSuite EXPOSE-PAPERS: ALL 32 EXPOSITIONS RECRAFTED (EXPOSE-1 … EXPOSE-31).** Gluon invariants (C0..C9, CT10, C_T10) carried into roots. Honest flags: EXPOSE-12 "64/256 silent-boundary ECAs" INACCURATE (true = 16/256); EXPOSE-7 "32 vert/12544 edges" NOT re-verified; EXPOSE-16 "skip frac 0.849" NOT re-verified; EFE/Higgs/moonshine/Gamma72 registered irreducible gaps; A033996 knight-CA FABRICATED (real counts cited on EXPOSE-24/28).
 
+## CQECMPLX UFT0-100 (FLCR 0-100 series, 101 papers + 101-103)
 
+Source: D:/CQE_CMPLX/papers/UFT0-100 (mirror of active-rework/UFT_paper_series). Honesty authority:
+HONEST-DISCLOSURE.md (D/I/X audit of papers 0-20, 65, 91-95; corrected fabrications listed).
 
+| UFT papers | Topic | Target root(s) | Status / honest notes |
+|---|---|---|---|
+| 1-4 | LCR kernel, Rule30 ANF/Lucas, correction/F2-Arf, D4/J3/triality | 000/001/002/115/005/116 | DONE. (D) data-backed. No fabrication. |
+| 5-13,15,17,20 | typed repair, oloid, causal, bridge, closure, temporal, gates, CA, curvature, edge-residuals, forge | 007/008/009/011/146/147/013/014/015/016/018/012/163 | DONE. (I) interpretation. HONEST FLAG P11 (8/8,TarPit 0.507457 FABRICATED, corrected); P13 "64/256 silent ECA" asserted (D) in UFT but my enum=16/256 (discrepancy noted). |
+| 14,16,18,19 | quark-face, mass-residue/Higgs, exceptional towers/VOA/observer, layer-2 ledger | 062/041/177/054/023/124/024/033/025 | DONE. (D) data-backed. HONEST FLAG P18 (Pariah=Ω CORRECTED to open); P19 (320 rows/TarPit 0.510236 FABRICATED, corrected to 1105+ rows). |
 

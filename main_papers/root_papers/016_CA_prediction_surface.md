@@ -434,6 +434,20 @@ prediction. **HONEST FLAG:** the claim "64/256 silent-boundary ECAs" is **inaccu
 = 2⁴=16 rules). The "64" likely conflates with a different boundary property; do NOT repeat it.
 The correction-field-as-prediction framing is the CQECMPLX interpretation. Maps to §14.
 
+## 17. UFT 0-100 Series (FLCR) — Papers 5-13,15,17,20: interpretation-heavy, defensible
+
+Per HONEST-DISCLOSURE.md these are **(I)** interpretation following FLCR doctrine (typed boundary
+repair, oloid LCR parameterization, causal links/obligation ledgers, discrete-continuous bridge,
+lattice closure/lattice ladder, temporal windows, theory admission gates, CA prediction surfaces,
+curvature-as-repair-demand, continuum edge residuals, applied forge reader). The substrate they
+rest on is **(D)**: OBLIGATION_ROWS.json (1,105 rows), 192/196,580 Leech vectors, 4 receipt_bound
+obligation rows, CLAIM_LANE_SCHEMA.json (8 lanes/7 classes), quark-face 10/10 receipt. **HONEST
+FLAG (Paper 11):** earlier "8/8 success, 0 error walls, TarPit mass 0.507457" were FABRICATIONS,
+corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONEST FLAG (Paper
+13):** "64/256 silent-boundary ECAs" is asserted **(D)** in UFT but my independent enumeration
+gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
+with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 definition and prize problems (Problems 1–3).

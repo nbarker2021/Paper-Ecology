@@ -283,6 +283,12 @@ EXPOSE-21: morphing Gluon — geometric/form generation from the chart via the f
 to §12 (material patterns LCR). Honest note: forge material patterns are the CQECMPLX
 interpretation; analog workbook only.
 
+## 13B. UFT 0-100 Series (FLCR) — Paper 20: applied forge reader + descriptor kernel
+
+Per HONEST-DISCLOSURE.md **(I)** framing (read/combine/route 3 operations; REROUTE status) on a
+**(D)** `forge.py` module (`Forge.open()`, `verify_seed()`, `leech_lookup()`). Maps to §13 (material
+patterns LCR). Honest, no fabrication.
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

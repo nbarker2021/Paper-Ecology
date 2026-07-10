@@ -485,6 +485,18 @@ gluon midpoint. **Gluon invariant** = quark-face color. Maps to §13 (lattice QC
 `041_SU3_generation1.md`. Consistent with `verify_lcr_sector_decomposition`. Honest note: 1
 generation shown, not 3; SM mapping is interpretive. No fabrication.
 
+## 19. UFT 0-100 Series (FLCR) — Papers 14,16,18,19: data-heavy, mostly safe
+
+Per HONEST-DISCLOSURE.md these are **(D)** data-backed: quark-face algebra (6 chart faces,
+10/10 receipt, S3 perm, 3-generation ID), mass residue + Higgs anchor 125.25 GeV = 5κ·SCALE
+(structural complete / numeric calibration pending), exceptional towers (Monster triple
+[47,59,71]·=196883, McKay 196884, VOA/McKay-Thompson 89% bijective at depth 256),
+layer-2 synthesis ledger (1,105+ obligation rows, 39/446 assemble). **HONEST FLAG (Paper 18):**
+the Pariah asymmetry [33,37,39,44,53,65] is a real named constant but its Ω-value interpretation
+was a CORRECTED fabrication; the paper now states the interpretation is OPEN. **HONEST FLAG
+(Paper 19):** earlier "320 enumeration rows, success 1.0, TarPit mass 0.510236/0.505916" were
+FABRICATIONS, corrected to 1,105+ rows / 39/446 assemble. Maps to §19. No live fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

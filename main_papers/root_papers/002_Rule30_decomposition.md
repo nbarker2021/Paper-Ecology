@@ -717,6 +717,15 @@ the correction tower (root 115). Honest, no fabrication.
 EXPOSE-3's correction bit C∧¬R is the classifier centroid (Gluon C₂). Consistent with §18
 (ANF) and `verify_correction_boundary`. Honest, no fabrication.
 
+## 8. UFT 0-100 Series (FLCR) — Papers 1-4: LCR kernel, Rule 30 ANF/Lucas, correction/F2-Arf, D4/J3/triality
+
+FLCR derivation-tutorial papers (D:/CQE_CMPLX/papers/UFT0-100). Per HONEST-DISCLOSURE.md these
+are **(D)** data-backed: chart J3(O) bijection, r30=r90+correction, F2 quadratic Q=C+CR, Arf=0,
+D4 codec, triality, magic square — all backed by cqekernel / lattice_forge source. The "FLCR
+lattice ladder" naming (LCR→D4→J3(O)→D12→F4→E8→Leech) is **(I)** framing. Maps to §1-§4.
+Consistent with `verify_chart_enumeration`, `verify_triality_operator`, `verify_correction_boundary`.
+No fabrication (these 4 are the "safe" data-heavy papers).
+
 ## 18. References
 
 ### 19.1 Standard Mathematics

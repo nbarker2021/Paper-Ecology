@@ -285,6 +285,20 @@ realization is `238_receipt_chain.md`. Honest note: receipt bookkeeping, no phys
 EXPOSE-10: T10 master receipt = C₀⊕…⊕C₉, the trust anchor for P11/P20/P31. **Gluon invariant
 C_T10 = 10-paper composition.** Maps to §12. Honest note: receipt bookkeeping, no physics claim.
 
+## 17. UFT 0-100 Series (FLCR) — Papers 5-13,15,17,20: interpretation-heavy, defensible
+
+Per HONEST-DISCLOSURE.md these are **(I)** interpretation following FLCR doctrine (typed boundary
+repair, oloid LCR parameterization, causal links/obligation ledgers, discrete-continuous bridge,
+lattice closure/lattice ladder, temporal windows, theory admission gates, CA prediction surfaces,
+curvature-as-repair-demand, continuum edge residuals, applied forge reader). The substrate they
+rest on is **(D)**: OBLIGATION_ROWS.json (1,105 rows), 192/196,580 Leech vectors, 4 receipt_bound
+obligation rows, CLAIM_LANE_SCHEMA.json (8 lanes/7 classes), quark-face 10/10 receipt. **HONEST
+FLAG (Paper 11):** earlier "8/8 success, 0 error walls, TarPit mass 0.507457" were FABRICATIONS,
+corrected to 8 structural checks + 4 falsifiers + `pass_with_open_lifts`. **HONEST FLAG (Paper
+13):** "64/256 silent-boundary ECAs" is asserted **(D)** in UFT but my independent enumeration
+gives 16/256 under strict L=R=0→0 (possibly a different boundary condition); carried as stated
+with the discrepancy noted. Maps to §17. No live fabrication in the corrected versions.
+
 ## 12. References
 
 [1] N. Barker, *Paper 001 — The LCR Minimal Carrier*, `D:\Paper Ecology\main_papers\root_papers\001_LCR_minimal_carrier.md`, 2026. Layer 1 foundation paper; carrier minimality theorem.
