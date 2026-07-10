@@ -341,6 +341,12 @@ P11 gates theory admission: a claim is admitted iff its tool, proof tree, and tr
 spectrum match. **No run.py** (index: "needs creation") — the admission contract for §15.
 Honest note: meta-governance, no physics claim.
 
+## 15C. ProofValidatedSuite Exposition — EXPOSE-11 (Theory Admission Gate)
+
+EXPOSE-11: admission gate, Gluon-mass filter at K=9, 3 outcomes (admitted/boundary/rejected).
+**Gluon invariant** = mass-filter gate. Maps to §15. Honest note: meta-governance, no physics
+claim.
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

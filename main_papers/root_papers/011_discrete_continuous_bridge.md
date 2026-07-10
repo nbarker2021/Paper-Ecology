@@ -552,6 +552,12 @@ universality before local derivation. **No run.py** (index: "needs creation") �
 framing only, no independent machine check. Honest note: interpretive bridge, not a
 continuum derivation.
 
+## 20C. ProofValidatedSuite Exposition — EXPOSE-8 (Compositional Forward Walk / Discrete-Continuous Bridge)
+
+EXPOSE-8: discrete-continuous bridge = lucas_bit ⊕ correction, exact decomposition; **Gluon
+invariant C₇ = interpolation kernel.** Maps to §20. Honest note: bridge is interpretive, not a
+continuum derivation. No fabrication.
+
 ## 20. References
 
 ### 20.1 Standard Mathematics

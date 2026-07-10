@@ -461,6 +461,14 @@ field equation is a registered **irreducible gap** (per paper_00 foreword: "the 
 field equation ... will not be silently promoted") — P14 gives the CQECMPLX torsion
 interpretation, NOT a derivation of the EFE. No fabrication.
 
+## 15C. ProofValidatedSuite Exposition — EXPOSE-14 (GR Boundary-Repair Curvature)
+
+EXPOSE-14: Einstein from ErrorWalls, R = dT + T∧T, G_μν = κT_μν with κ = Higgs mass. **Gluon
+invariant** = holonomy. Maps to §15 (GR boundary repair) and `067_einstein_field_equation.md`.
+**HONEST FLAG:** the Einstein field equation is a registered **irreducible gap** (per paper_00
+foreword) — EXPOSE-14 gives the CQECMPLX torsion interpretation, NOT a derivation of the EFE.
+No fabrication.
+
 ## 15. References
 
 ### 15.1 Standard Mathematics and Physics

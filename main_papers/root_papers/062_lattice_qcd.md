@@ -478,6 +478,13 @@ vacua = the lepton pair (e, ν_e). **No run.py** for P13. Consistent with §13 (
 Honest note: SM quark-face mapping is the CQECMPLX interpretation, not a lattice-QCD
 computation; color-triality surface = shell=2 stratum. No fabrication.
 
+## 13C. ProofValidatedSuite Exposition — EXPOSE-13 (Standard-Model Quark-Face Transport)
+
+EXPOSE-13: 6 excited VOA states = 6 quark faces (R,G,B,anti); 2 vacua = leptons; oloid =
+gluon midpoint. **Gluon invariant** = quark-face color. Maps to §13 (lattice QCD) and
+`041_SU3_generation1.md`. Consistent with `verify_lcr_sector_decomposition`. Honest note: 1
+generation shown, not 3; SM mapping is interpretive. No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

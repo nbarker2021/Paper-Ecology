@@ -594,6 +594,11 @@ triality surface. **No run.py** for P13. Consistent with §18 (SU3 generation). 
 generation structure is the CQECMPLX interpretation; one generation (the 6 faces) is shown,
 not the 3 SM generations. No fabrication.
 
+## 18C. ProofValidatedSuite Exposition — EXPOSE-13 (Quark-Face Transport)
+
+EXPOSE-13's 6 quark faces = 6 non-vacuum shell=2 states; oloid = gluon midpoint. Consistent
+with §18 (SU3 generation). Honest note: 1 generation shown, not 3. No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Particle Physics

@@ -426,6 +426,14 @@ P12 frames cellular-automaton prediction surfaces as the forward-read of the cha
 **No run.py** (index: "needs creation") — transport framing of §14 (CA prediction). Honest
 note: prediction surface is the CQECMPLX interpretation, not a CA-completeness result.
 
+## 14C. ProofValidatedSuite Exposition — EXPOSE-12 (CA Prediction Surface)
+
+EXPOSE-12 frames 64/256 silent-boundary ECAs + vignette algebra + correction field as
+prediction. **HONEST FLAG:** the claim "64/256 silent-boundary ECAs" is **inaccurate** — only
+**16/256** ECA rules have a truly silent boundary (L=R=0 → 0 for all C; that fixes bits 0,1,2,3
+= 2⁴=16 rules). The "64" likely conflates with a different boundary property; do NOT repeat it.
+The correction-field-as-prediction framing is the CQECMPLX interpretation. Maps to §14.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 definition and prize problems (Problems 1–3).

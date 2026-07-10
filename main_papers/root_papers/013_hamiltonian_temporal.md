@@ -378,6 +378,12 @@ P09 casts Hamiltonian windows / spectral transport as temporal emergence of the 
 **No run.py** (index: "needs creation") — transport framing only. Maps to §15 (Hamiltonian
 temporal). Honest note: temporal emergence is interpretive, not a Schrödinger derivation.
 
+## 15C. ProofValidatedSuite Exposition — EXPOSE-9 (Hamiltonian Time)
+
+EXPOSE-9: Hamiltonian time = C_accumulated; MORSR Z4 cycle; 1-3/1-5/1-7 bar windows. **Gluon
+invariant C₉ = Hamiltonian parameter.** Maps to §15. Honest note: temporal emergence is
+interpretive. No fabrication.
+
 ## 15. References
 
 ### 15.1 Paper Series

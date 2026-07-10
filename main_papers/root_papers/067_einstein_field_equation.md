@@ -558,6 +558,11 @@ None in this paper. The original paper-65 X claim (SM mapping file with 6 inferr
 P14 frames GR curvature as the holonomy of the color Gluon (Einstein-Cartan torsion). **No
 run.py** for P14. Honest note: EFE is a registered irreducible gap; interpretive, not derived.
 
+## 18C. ProofValidatedSuite Exposition — EXPOSE-14 (GR Curvature)
+
+EXPOSE-14's G_μν = κT_μν (κ = Higgs mass) is the CQECMPLX gravity interpretation. **HONEST
+FLAG:** EFE is a registered irreducible gap; interpretive, not derived.
+
 ## 18. References
 
 ### 18.1 Standard GR

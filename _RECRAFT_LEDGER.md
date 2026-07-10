@@ -154,4 +154,12 @@ RETAINED as genuine fabrications:
 | EXPOSE-5 (SU3-closure/boundary) | P04 | 007_boundary_repair (§16C) | DONE. C4=oloid midpoint; 3 shell=2=SU3 fund. No fabrication. |
 | EXPOSE-6 (Lattice-code/oloid) | P05 | 008_oloid_path_carrier (§16C) | DONE. C5=accumulated mass. Interpretive. No fabrication. |
 | EXPOSE-7 (Workbook/causal) | P06 | 009_causal_obligation_ledger (§17C) | DONE. C6=causal edge. "32 vert/12544 edges" NOT independently re-verified (stated EXPOSE claim). |
+| EXPOSE-8 (Compositional/bridge) | P07 | 011_discrete_continuous_bridge (§20C) | DONE. C7=interpolation kernel. Interpretive. |
+| EXPOSE-9 (Hamiltonian) | P09 | 013_hamiltonian_temporal (§15C) | DONE. C9=Hamiltonian param. Interpretive. |
+| EXPOSE-10 (T10) | P10 | 014_T10_master_receipt (§12C) | DONE. CT10=10-paper composition. Bookkeeping. |
+| EXPOSE-11 (Admission) | P11 | 015_theory_admission_gate (§15C) | DONE. Mass-filter gate. Meta-governance. |
+| EXPOSE-12 (CA-prediction) | P12 | 016_CA_prediction_surface (§14C) | DONE. HONEST FLAG: "64/256 silent-boundary ECAs" INACCURATE — true count = 16/256 (L=R=0->0 fixes bits 0-3). Do NOT repeat 64. |
+| EXPOSE-13 (Quark-face) | P13 | 062_lattice_qcd (§13C), 041_SU3_generation1 (§18C) | DONE. 6 quark faces=6 non-vacuum shell=2. 1 generation shown (not 3). No fabrication. |
+| EXPOSE-14 (GR) | P14 | 018_GR_boundary_repair_curvature (§15C), 067_einstein_field_equation (§18C) | DONE. HONEST FLAG: EFE registered irreducible gap; G_uv=kappa T_uv interpretive, not derived. |
+
 
