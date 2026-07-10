@@ -506,6 +506,12 @@ Honest knight-graph counts: n=2..8 → **0, 8, 16, 25, 36, 49, 64** (not A033996
 CQE-PAPER-013 Table 2.2 claims `(0,0,1)→d=2` and `(1,1,0)→d=2`. Honest BFS (engine `anneal_distance`)
 gives **d=3 for every non-vacuum** — only the two vacua are at d=0. That delay table is **FALSE — FLAGGED X.**
 
+## 16B. Canonical Production Source — CQECMPLX-Production P16 (Continuum Edge Residuals)
+
+P16 treats continuum edge residuals as the leftover transport residue at lattice boundaries.
+**No run.py** (index: "needs creation") — transport framing of §16 (lattice closure / continuum
+edge). Honest note: continuum limit is interpretive, not a rigorous lattice→continuum proof.
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

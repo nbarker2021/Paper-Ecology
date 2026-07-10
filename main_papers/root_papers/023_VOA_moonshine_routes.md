@@ -305,6 +305,14 @@ dual lattice.
 **Engine:** `verify_lcr_sector_decomposition` (8=2+3+3), `verify_spectre_tiling` (7-fold,
 10-tile, Z4). Honest, no fabrication.
 
+## 14B. Canonical Production Source — CQECMPLX-Production P18 (VOA/Moonshine Representation Routes)
+
+P18's C-Form: the closure Gluon at D24 = the Moonshine module's transport operator; VOA
+representation routes map chart states to Monster VOA characters. **No run.py** for P18. Maps
+to §14 (VOA moonshine routes) and `124_monster_VOA.md`. Honest note: **full Monstrous
+Moonshine identification is a registered irreducible gap** (chart-level only) — P18 gives the
+CQECMPLX routing interpretation, NOT a complete moonshine proof. No fabrication.
+
 ## 14. References
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. McKay-Thompson series.

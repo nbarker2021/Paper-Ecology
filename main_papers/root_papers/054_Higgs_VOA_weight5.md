@@ -232,6 +232,12 @@ This paper fails if any of the following hold:
 
 ---
 
+## ReferencesB. Canonical Production Source — CQECMPLX-Production P15 (QFT/Higgs Mass-Residue)
+
+P15 carries the Higgs mass-residue as the color-Gluon mass; weight-5 VOA state = Higgs.
+**No run.py** for P15. Honest note: Higgs mass derivation is a registered irreducible gap;
+interpretive.
+
 ## References
 
 1. **Paper 001** — LCR minimal carrier. VOA partition T5.15, shell grading, reversal involution.

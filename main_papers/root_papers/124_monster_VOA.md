@@ -221,6 +221,12 @@ All claims are (D) data-backed. The central charge computation, generator verifi
 
 ---
 
+## 13B. Canonical Production Source — CQECMPLX-Production P18 (VOA/Moonshine Representation Routes)
+
+P18 routes chart states to Monster VOA characters via the closure Gluon at D24. **No run.py**
+for P18. Honest note: full moonshine identification is a registered irreducible gap; chart-level
+routing only.
+
 ## 13. References
 
 - Frenkel, I., Lepowsky, J., & Meurman, A. (1988). *Vertex Operator Algebras and the Monster*.

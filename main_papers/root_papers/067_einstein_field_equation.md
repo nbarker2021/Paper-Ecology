@@ -553,6 +553,11 @@ None in this paper. The original paper-65 X claim (SM mapping file with 6 inferr
 
 ---
 
+## 18B. Canonical Production Source — CQECMPLX-Production P14 (GR Boundary-Repair Curvature)
+
+P14 frames GR curvature as the holonomy of the color Gluon (Einstein-Cartan torsion). **No
+run.py** for P14. Honest note: EFE is a registered irreducible gap; interpretive, not derived.
+
 ## 18. References
 
 ### 18.1 Standard GR

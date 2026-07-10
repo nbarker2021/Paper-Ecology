@@ -122,5 +122,13 @@ RETAINED as genuine fabrications:
 | CQE-paper-11 (Theory Admission Gate) | EXTEND 015 + STD + MNY | 015_theory_admission_gate.md (§15B) | DONE. No run.py; meta-governance. |
 | CQE-paper-12 (CA Prediction Surface) | EXTEND 016 + STD + MNY | 016_CA_prediction_surface.md (§14B) | DONE. No run.py; prediction surface interpretive. |
 | CQE-paper-13 (SM Quark-Face Transport) | EXTEND 062 + 041 + STD + MNY | 062_lattice_qcd.md (§13B), 041_SU3_generation1.md (§18B) | DONE. C=quark-face color Gluon; 6 faces=6 non-vacuum shell=2. 1 gen shown, not 3. No fabrication. |
+| CQE-paper-14 (GR Boundary Curvature) | EXTEND 018 + 067 + STD + MNY | 018_GR_boundary_repair_curvature.md (§15B), 067_einstein_field_equation.md (§18B) | DONE. C=color Gluon holonomy=Einstein-Cartan torsion. EFE registered irreducible gap. No fabrication. |
+| CQE-paper-15 (QFT/Higgs Mass) | EXTEND 177 + 054 + STD + MNY | 177_electroweak_higgs_mass_LCR.md (§9B), 054_Higgs_VOA_weight5.md (§RefB) | DONE. C=color Gluon mass=Higgs residue. Higgs derivation registered irreducible gap. No fabrication. |
+| CQE-paper-16 (Continuum Edge Residuals) | EXTEND 012 + STD + MNY | 012_lattice_closure.md (§16B) | DONE. No run.py; edge residual interpretive. |
+| CQE-paper-17 (E6-E8 Tower) | EXTEND 022 + STD + MNY | 022_E6_E8_error_correction_tower.md (§14B) | DONE. C=tower Gluon; E6/E7/E8 extension. Consistent w/ 096/146. No fabrication. |
+| CQE-paper-18 (VOA/Moonshine) | EXTEND 023 + 124 + STD + MNY | 023_VOA_moonshine_routes.md (§14B), 124_monster_VOA.md (§13B) | DONE. Closure Gluon@D24=moonshine transport. Full moonshine ID registered irreducible gap. No fabrication. |
+| CQE-paper-19 (Observer Face-Selection) | EXTEND 024 + 033 + STD + MNY | 024_observer_face_selection.md (§15B), 033_observer_delay_z4.md (§11E) | DONE. D4 frame min-residual. Consistent w/ verify_observer_frame_selection. No fabrication. |
+| CQE-paper-20 (Layer-2 Synthesis) | EXTEND 025 + STD + MNY | 025_layer2_synthesis_ledger.md (§14B) | DONE. No run.py; synthesis ledger. |
+
 
 

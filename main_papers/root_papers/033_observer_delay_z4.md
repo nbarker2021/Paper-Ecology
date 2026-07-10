@@ -337,6 +337,12 @@ This paper fails if any of the following occur:
 
 ---
 
+## 11E. Canonical Production Source — CQECMPLX-Production P19 (Observer Face-Selection)
+
+P19 = observer frame selection as the D4 face minimizing residual (lossless F = 3 latent).
+**No run.py** for P19. Consistent with §11B/11C/11D and `verify_observer_frame_selection`.
+Honest, no fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

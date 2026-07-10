@@ -274,6 +274,14 @@ The open obligations (glue action, semantic terminal map, W(E8) extraction, uniq
 
 ---
 
+## 14B. Canonical Production Source — CQECMPLX-Production P17 (E6-E8 Error-Correction Tower)
+
+P17's C-Form: the closure Gluon becomes the **tower Gluon** — each E6/E7/E8 level is a lattice
+extension with C = the glue vector; the error-correction tower is the lattice-code chain.
+**No run.py** for P17. Maps to §14 (E6-E8 tower). Honest note: the E6/E7/E8 tower is the
+CQECMPLX error-correction interpretation of the lattice chain; consistent with root 096/146
+(D1→D4→D24→D72). No A033996 / 343 / alpha_em issues.
+
 ## 14. References
 
 ### 14.1 Standard Mathematics

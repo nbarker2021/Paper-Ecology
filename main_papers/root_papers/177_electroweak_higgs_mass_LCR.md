@@ -157,6 +157,14 @@ The Higgs sector provides the mass shell for the FLCR energy ladder. The Higgs m
 
 ---
 
+## 9B. Canonical Production Source — CQECMPLX-Production P15 (QFT/Higgs Mass-Residue Carrier)
+
+P15's C-Form: the color Gluon's mass = the Higgs mass-residue carrier; the Higgs mechanism =
+mass-residue lift. **No run.py** (index: "needs creation"). Maps to §9 (electroweak Higgs mass
+LCR). Honest note: the **Higgs mass derivation is a registered irreducible gap** (per
+paper_00 foreword) — P15 gives the CQECMPLX mass-residue interpretation, NOT a derivation.
+No fabrication.
+
 ## 9. References
 
 1. ATLAS Collaboration (2023). "Measurement of the Higgs boson mass in the H→4ℓ decay channel."

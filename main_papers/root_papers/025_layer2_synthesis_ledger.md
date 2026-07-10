@@ -355,6 +355,12 @@ The synthesis ledger is the layer-2 culminator at the *5 VOA rotation position o
 
 ---
 
+## 14B. Canonical Production Source — CQECMPLX-Production P20 (Layer-2 Synthesis Ledger)
+
+P20 is the layer-2 synthesis ledger — the assembled record of all layer-1 transports into the
+layer-2 closure. **No run.py** (index: "needs creation") — the synthesis ledger for §14
+(layer-2 synthesis). Honest note: ledger bookkeeping, no new physics claim.
+
 ## 14. References
 
 ### 14.1 Standard Mathematics

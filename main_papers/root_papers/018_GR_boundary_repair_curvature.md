@@ -452,6 +452,15 @@ Paper 018 closes the substrate theorem for boundary-repair curvature: repair is 
 
 ---
 
+## 15B. Canonical Production Source — CQECMPLX-Production P14 (GR Boundary-Repair Curvature)
+
+P14's C-Form: the color Gluon's holonomy = the Einstein-Cartan torsion tensor; boundary
+repair curvature = torsion-induced curvature. **No run.py** (index: "needs creation"). Maps to
+§15 (GR boundary repair) and `067_einstein_field_equation.md`. Honest note: the Einstein
+field equation is a registered **irreducible gap** (per paper_00 foreword: "the Einstein
+field equation ... will not be silently promoted") — P14 gives the CQECMPLX torsion
+interpretation, NOT a derivation of the EFE. No fabrication.
+
 ## 15. References
 
 ### 15.1 Standard Mathematics and Physics
