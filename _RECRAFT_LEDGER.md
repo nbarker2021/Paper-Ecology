@@ -303,3 +303,19 @@ papers/active-rework/NEW_PAPER_NEEDS.md (163 lines, NP-01..NP-13 proposed).
 | NP-14 | Accumulator closure of 13 receipts (IPMC/ECO/IPMC ledger) | 012, 016, 022, 023, 013, 054 | DONE. 13 receipts closed; ECO items routed to NP-01/02/06/09/11 |
 | NP-15 | IRL data addressing (CODATA/PDG/OEIS/LMFDB CAM receipts) | 177, 041, 062, 005, 008, 146, 147, 023, 012 | DONE. Published values vs CQE predictions; calibration constants exposed |
 
+## Formal-Tree Port (CQE-CMPLX-1T-Production/src/papers/formal)
+
+Source: 176 `CQE-paper-*` dirs = 101 numbered papers (0-100) + BESTFORM dupes (1-9) + 66 `CQE-paper-formal-*` supplements.
+Rule: route by CONTENT to 240-form roots; restore proof texture flattened in UFT skeletons (MISSED_CONTENT_REVIEW); D/I/X tagged; NOT_PORTED carried verbatim.
+
+| Wave | Papers | Roots hit | Status |
+|---|---|---|---|
+| F1 | formal 00-08 (developed set) | 000,001,002,005,007,008,009,011,012,013,014,015,016,018,115,116,146,147 | DONE. Proof/Theorem/Receipt/Falsifiers deep-dives. |
+| F2 | formal 09-32 | 12+ per paper via routing map | DONE. |
+| F2b | formal 33-100 + 15/16/17/18 re-route | rich root cluster (incl 150/160/222/103-109) | DONE. Numbered-section BESTFORM format handled. |
+| Wave2 | 66 `formal-*` supplements (S1-S40, B1/B2, O1-O3, PH1-PH3, U1-U3, UF, CHEM, CLAIM, GLOSSARY, OC, SPECTRE) | 000,023,102,095,163,033,024,016,012 | DONE. Moonshine/superperm/Riemann(honest NOT_PORTED)/Barker-market/chem routed. |
+
+**Result:** ALL 101 numbered formal papers + 66 supplements now folded into 240-form roots with
+machine-verified proof texture. Engine unchanged (33 verifiers / 163 checks / 0 defects / PASS) —
+formal papers carry proof cores as cited deep-dives, no new verifiers added.
+
