@@ -174,6 +174,12 @@ RETAINED as genuine fabrications:
 | EXPOSE-25 (Traversal) | P25 | 031_energetic_traversal_maps (§18C) | DONE. kappa~25.05 GeV calibrated. No fabrication. |
 | EXPOSE-26 (ZPinch) | P26 | 032_zpinch_shear_horizon (§11C) | DONE. Chart collapse interpretive. |
 | EXPOSE-27 (Observer-delay) | P27 | 033_observer_delay_z4 (§11H) | DONE. Consistent w/ verify_observer_frame_selection. No fabrication. |
+| EXPOSE-28 (N-dim games) | P28 | 034_nd_game_lattices (§11C), 176_n_dim_game_lattices (§9C) | DONE. HONEST FLAG: A033996 knight-CA FABRICATED (real counts cited). |
+| EXPOSE-29 (Monster-bound) | P29 | 035_monster_energy_bound (§13C), 145_monster_energy_bound_kappa (§13C) | DONE. kappa~25.05 GeV calibrated; Gamma72 landing registered gap. No fabrication. |
+| EXPOSE-30 (Grand-ribbon) | P30 | 036_grand_ribbon_meta_framer (§11C) | DONE. 240-form meta-structure. |
+| EXPOSE-31 (Meta-LCR) | P31 | 037_c_invariance_lr_reversal (§14) | DONE. Root 037 self-verified (91 checks, 0 defects). ALL 32 EXPOSE PAPERS RECRAFTED. |
+
+**CQECMPLX-ProofValidatedSuite EXPOSE-PAPERS: ALL 32 EXPOSITIONS RECRAFTED (EXPOSE-1 … EXPOSE-31).** Gluon invariants (C0..C9, CT10, C_T10) carried into roots. Honest flags: EXPOSE-12 "64/256 silent-boundary ECAs" INACCURATE (true = 16/256); EXPOSE-7 "32 vert/12544 edges" NOT re-verified; EXPOSE-16 "skip frac 0.849" NOT re-verified; EFE/Higgs/moonshine/Gamma72 registered irreducible gaps; A033996 knight-CA FABRICATED (real counts cited on EXPOSE-24/28).
 
 
 

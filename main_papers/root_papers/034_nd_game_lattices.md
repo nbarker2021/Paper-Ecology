@@ -300,6 +300,14 @@ KnightForge (P24) to arbitrary dimension. **No run.py** (index: "needs creation"
 are the CQECMPLX interpretation; OEIS A033996 knight-CA count remains FABRICATED (use real
 counts: edges n=2..8={0,16,48,96,160,240,336}). No fabrication in this recraft.
 
+## 11C. ProofValidatedSuite Exposition — EXPOSE-28 (N-Dimensional Game Lattices)
+
+EXPOSE-28: lattice Gluon — N-dimensional game lattices generalizing KnightForge (EXPOSE-24) to
+arbitrary dimension. **Gluon invariant** = game lattice. Maps to §11 (N-dim game lattices) and
+`176_n_dim_game_lattices.md`. **HONEST FLAG:** OEIS A033996 knight-CA count is FABRICATED — real
+directed edges n=2..8 = {0,16,48,96,160,240,336}; cells-with-move = {0,8,16,25,36,49,64}. No
+fabrication in this recraft.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

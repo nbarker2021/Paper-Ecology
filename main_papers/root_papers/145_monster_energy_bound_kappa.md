@@ -251,6 +251,11 @@ P29's depth-72 closure = universal energy bound; κ calibrated at Higgs mass. **
 P29. Honest note: energy bound is the CQECMPLX interpretation; Γ72 landing unproved (registered
 gap). No fabrication.
 
+## 13C. ProofValidatedSuite Exposition — EXPOSE-29 (Monster / Universal Energy-Bound)
+
+EXPOSE-29's depth-72 closure = universal energy bound; κ calibrated at Higgs mass. Honest note:
+energy bound is the CQECMPLX interpretation; Γ72 landing unproved (registered gap). No fabrication.
+
 ## 13. References
 
 - Paper 007 — Boundary Repair Operator ∂, ∂² = 0

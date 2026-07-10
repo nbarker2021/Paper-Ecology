@@ -278,6 +278,13 @@ meta-framer enumerates the 240-form proof stack. **No run.py** (index: "needs cr
 to §11 (Grand Ribbon meta-framer). Honest note: the 240-form ribbon is the CQECMPLX
 meta-structure; the meta-framer is the audit/enumerate layer. No fabrication.
 
+## 11C. ProofValidatedSuite Exposition — EXPOSE-30 (Grand Ribbon Meta-Framer)
+
+EXPOSE-30: ribbon Gluon — the Grand Ribbon as the meta-frame linking all layers; the meta-framer
+enumerates the 240-form proof stack. **Gluon invariant** = ribbon. Maps to §11 (Grand Ribbon
+meta-framer). Honest note: the 240-form ribbon is the CQECMPLX meta-structure; the meta-framer
+is the audit/enumerate layer. No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.
