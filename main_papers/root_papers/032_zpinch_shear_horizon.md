@@ -344,6 +344,20 @@ The `horizon_type` CHECK constraint enforces the three-type taxonomy: `shear_ban
 
 ---
 
+## 12B. Shear & Pinch Moduli as Tarpit Deformation (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-042)
+
+CQE-PAPER-042 gives the two fundamental deformation modes of Tarpit mass: shear (asymmetric
+correction firing, G_shear = 2κ) and pinch (symmetric boundary compression, G_pinch = 4κ),
+with the 7-fold substitution mapping to a Z-pinch plasma of 7 current channels. Engine
+`lattice_forge.tarpit_ecology.verify_shear_pinch_moduli` confirms: the chiral doublet
+{(0,1,0),(1,1,0)} exists (asymmetry source), G_shear = 2κ, G_pinch = 4κ, and the 4
+antipodal (bit-complement) dyads of the 8-state cube exist (symmetric-compression source).
+The 7 Z-pinch channels = the 7-fold substitution sequences (verified in §15B/§16.6).
+
+The shear/pinch moduli are **definitional** (chiral-doublet asymmetry, 4 symmetric dyads);
+they are chart facts, not external calibrations. The Z-pinch analogy and 7-channel map are sound.
+No A033996 claim in CQE-PAPER-042.
+
 ## 12. Conclusion
 
 Paper 032 establishes the Z-pinch/shear horizon as a carrier-level kernel: the integer Oloid period-4 rolling algebra, octonion carrier with \(e_4, e_5\) generators, reproducible shear diagnostic via XOR divergence, pinch as ledger reclassification, Z-pinch configurations mapped to LCR carrier states (8 classes in SQLLib), shear horizons as typed boundaries with repair curvature (3 types in SQLLib), and a minimal period-4 shear cycle. All 11 D claims are receipt-bound and hand-reconstructible. The 5 X claims are honestly marked as open obligations for empirical calibration. The paper is honest, bounded, and ready for Layer 4 closure.

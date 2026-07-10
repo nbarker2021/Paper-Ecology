@@ -679,6 +679,18 @@ G_N = κ³ ≈ 2.72×10⁻⁵ geometric units (conversion to 6.67×10⁻¹¹ is 
 (E-category), **not** produced by the κ formula. The paper's internal derivation of αₑₘ from κ
 is therefore not valid. No A033996 claim in CQE-PAPER-033.
 
+## 16.9 Tarpit Golden Sweep = 1→7→49→343 Mass Integral (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-041)
+
+CQE-PAPER-041 defines the Tarpit golden sweep as the cumulative mass-energy through the
+substitution cycle: Sweep = Σ_{d=0}³ 7ᵈ·κ = 400κ ≈ 12.03, with mass(3) = 343κ = 10.302 at
+the void boundary. Engine `lattice_forge.energy_quantum.verify_tarpit_mass_formula` confirms the
+linear formula m(d) = 7ᵈ·κ (depth 0→1κ, 1→7κ, 2→49κ).
+
+**FLAGGED X (repeat):** the specific 343κ = 10.302 value and the 400κ = 12.03 sweep total
+rest on the **unsupported 343-tile closure count** (flagged in 020/022/023 recraft). The
+*formula* m = N_bonds·κ is honest; the *343 / 400* counts are not engine-produced. The 343-tile
+mega-cluster is a Spectre-tiling assertion, not a closure-engine result.
+
 ## 17. Practical Worked Example
 
 **Domain:** Water molecule transport across a crystal lattice defect at a silicon vacancy.

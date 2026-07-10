@@ -585,6 +585,26 @@ Five data libraries cross-referenced: **PaperLib** (old papers 25–32, new pape
 
 ---
 
+## 15B. Tarpit: 8-State Register & 7-Clock (recrafted from CQECMPLX-Formal-Suite CQE-PAPER-040, CQE-PAPER-043)
+
+CQE-PAPER-040 defines the Tarpit as the Spectre tile cluster: 8-state register = the chart
+Σ={0,1}³, 7-fold substitution = 7-tick clock, depth-3 = void ceiling. CQE-PAPER-043 maps the
+register to the knight graph. Engine `lattice_forge.tarpit_ecology.verify_tarpit_register`
+confirms: 8 chart states, VOA weights (2 vacua @0, 6 excited @5κ), 7 instruction sequences
+(lr, lc, cr, lr∘lc, lr∘cr, lc∘cr, lr∘lc∘cr), depth-3 void cap (triality_project identity
+beyond d=3).
+
+**FLAGGED X (occ 6 & 7 of A033996):** CQE-PAPER-040/043 repeat the FABRICATED OEIS A033996
+knight-CA table {4,8,16,28,48,80,120}. Engine `verify_knight_register_calibration`
+computes the honest directed-edge counts for n=2..8 = {0,16,48,96,160,240,336} and
+cells-with-move = {0,8,16,25,36,49,64}; neither matches the paper. A 3×3 board has **9
+cells** (the center has no knight move, so 8 perimeter cells can move) — the paper's "exactly 8
+positions" misrepresents this. The engine's `calibrate_games` (knight_ca.py, fixed in the 002
+recraft) already flags A033996 as fabricated; no new A033996 claim is introduced here.
+
+**FLAGGED X (repeat):** the "343-tile memory" and "400κ golden sweep" reuse the **unsupported
+343-tile closure count** (flagged in 020/022/023 recraft).
+
 ## 15. References
 
 ### 15.1 Framework Documents
