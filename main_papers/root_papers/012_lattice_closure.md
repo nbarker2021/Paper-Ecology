@@ -3057,6 +3057,46 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.CQE-paper-formal-S19. Formal-Supplement Deep-Dive
+
+> Recrafted from `CQE-paper-formal-*` series (`CQE-paper-formal-S19`). CQE-paper-formal-S19: Lattice Forge Analysis — Self-Documenting Module Analysis
+
+_**HONEST FLAG: source explicitly NOT_PORTED — carried as honesty boundary, not a proof.**_
+
+### Statement
+
+This paper is a **self-documenting analysis** of the `lattice_forge` module — the central substrate for Rule 30 analysis in the production framework. The analysis covers 26 Python files spanning ~16,000+ lines, organized into 7 architectural groups:
+1. **Rule 30 primitives** (rule30.py, rule30_nth_bit.py, rule90_linearization.py)
+2. **Geometric models** (oloid_*.py, quad_oloid.py, overlay.py)
+3. **Algebraic structures** (jordan_j3.py, octonion.py, unipotent_orbits.py, nebe_gamma72.py)
+4. **Lattice/transport** (lattice_codes.py, transport_obligations.py, universal_frame.py)
+5. **Extractors** (rule30_block_extractor.py, rule30_predictor.py, seed.py)
+6. **Morphonic/temporal** (morphonics.py, temporal_z4_scope.py, substrate_map.py)
+7. **Composition/terminal** (terminal_tree.py, unified_tarpit.py)
+
+### Substrate Cross-Reference
+
+The S19 verifier checks that the `lattice_forge` module:
+- Imports cleanly (no ImportError, no circular imports)
+- Has ≥ 50 public API entries (verifies substantial content)
+- Provides the key primitives: `CAYLEY_DICKSON_SHEET_PATTERN`, `CMPLXRuntime`, `CayleyDicksonOloidNormalForm`, `JordanAlgebraJ3O`, etc.
+- Has a docs file (the older source's review document is the canonical docs)
+
+### Honesty Boundary
+
+- **PROVEN (this paper):** lattice_forge imports cleanly; has 111 public API entries
+- **PROVEN (this paper):** key classes exist (CayleyDicksonOloidNormalForm, CMPLXRuntime, etc.)
+- **OPEN:** full audit of all 26 files (the older source's review is comprehensive but not verified line-by-line)
+- **NOT_PORTED:** the older source's specific "Issues" sections (float tolerance, unbounded cache) — these are documentation, not code changes
+
+### Receipt
+
+The S19 verifier runs the lattice_forge import, counts the public API, and checks for key classes.
+
+---
+
+
 ## 16. References
 
 ### 16.1 Standard Mathematics

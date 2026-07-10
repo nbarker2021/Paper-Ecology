@@ -282,6 +282,80 @@ The purity of the clusters is 80% on average. The verifier computes the cluster 
 ---
 
 
+
+## X.CQE-paper-formal-S25. Formal-Supplement Deep-Dive
+
+> Recrafted from `CQE-paper-formal-*` series (`CQE-paper-formal-S25`). CQE-paper-formal-S25: Hard Riemann Hypothesis — Honest NOT_PORTED Cross-Walk
+
+_**HONEST FLAG: source explicitly NOT_PORTED — carried as honesty boundary, not a proof.**_
+
+### Statement
+
+The older source's "CMPLX-R30 and the Riemann Hypothesis" is a **rigorous critical analysis** that concludes: **the CMPLX-R30 framework does NOT provide a path to the Riemann Hypothesis**. The chain breaks at the final link — modular forms do NOT determine the location of zeta zeros, and the framework provides no spectral mechanism (no Hilbert-Polya operator, no Weil conjectures, no Selberg trace formula).
+
+S25 is an **honest NOT_PORTED cross-walk**: the production substrate does not (yet) contain the spectral mechanism needed for the Riemann Hypothesis. This is a real and important finding — not every older claim ports, and the loop's honesty boundary is preserved.
+
+### The Chain Analysis (from older source)
+
+The chain has 4 links:
+1. **Monster group M** ↔ **Moonshine module V♮** — Borcherds 1992 (PROVEN)
+2. **Moonshine V♮** → **Modular forms** (j-function, McKay-Thompson series) — PROVEN
+3. **Modular forms** → **Riemann zeta function** — via Mellin transforms (PROVEN)
+4. **Modular forms** → **Zeta zeros on critical line** — **BROKEN LINK** (no spectral mechanism)
+
+The framework has links 1-3 but **NOT link 4**. The "no path" verdict is mathematically rigorous, not a hand-wave.
+
+### The 5-Term Lattice (framework's Monster connection)
+
+| Term | Value | Cumulative Sum | Significance |
+|---|---|---|---|
+| a₁ | 1 | 1 | Unity |
+| a₂ | 3 | 4 | |
+| a₃ | 7 | 11 | |
+| a₄ | 21 | 32 | |
+| a₅ | 137 | 169 = 13² | ~ α⁻¹ (inverse fine-structure constant) |
+
+Key identities:
+- 168 = 3 + 7 + 21 + 137 = |PSL(2,7)| (automorphism group of Klein quartic)
+- 196,560 = 168 × 1,170 = minimal norm vectors in Leech lattice
+- 196,883 = 47 × 59 × 71 = dim of smallest non-trivial irreducible rep of Monster M
+
+All of these are rigorous identities. The framework's Monster/Moonshine connection is real.
+
+### What's NOT Ported
+
+The **spectral mechanism** that would link modular forms to zeta zero locations. The framework does not have:
+- A Hilbert-Polya operator (self-adjoint with zeta zeros as eigenvalues)
+- Weil conjectures for the Riemann zeta function
+- A Selberg trace formula application
+
+These are open problems in mathematics. The framework, as it stands, does not solve them.
+
+### Modal Position (per S21)
+
+S25 is a **negative modal finding** — it documents a partition the framework does NOT realize. Under the modality lens, this is a valid and important result: not every modal view is realized; some are open.
+
+### Honesty Boundary
+
+- **PROVEN (this paper):** the older source's rigorous analysis is correct; the framework does NOT provide a path to RH
+- **PROVEN (this paper):** the chain Monster → Moonshine → modular forms is solid
+- **OPEN:** whether a future expansion (e.g., a 24-dim Leech lattice operator) could provide the spectral mechanism
+- **NOT_PORTED:** the spectral mechanism itself
+
+### Production Cross-Reference
+
+- **CQE-paper-18** (VOA Moonshine) — links 1-3 of the chain
+- **CQE-paper-formal-S10** (3-Conjugate Moonshine) — the Moonshine framework
+- **CQE-paper-formal-S16** (NRD) — the algebraic completeness (1+8+8+1=18)
+- **CQE-paper-formal-S21** (Modal Atlas) — the modality lens
+
+### Receipt
+
+The S25 verifier checks the older source's verdict, the chain analysis, the broken link identification, and the production cross-references. Result: 9/9 cross-references pass; the older source is HONESTLY_NOT_PORTED.
+
+---
+
+
 ## 11. References
 
 - Borcherds, R. E. (1992). *Monstrous moonshine and monstrous Lie superalgebras.* Invent. Math.

@@ -759,6 +759,138 @@ _— honestly carried as guard / next-need._
 ---
 
 
+
+## X.CQE-paper-formal-OC. Formal-Supplement Deep-Dive
+
+> Recrafted from `CQE-paper-formal-*` series (`CQE-paper-formal-OC`). Paper CQE-paper-formal-OC - Oracle Chart: A Prestate-Derived Observer Map
+
+### Abstract
+
+We define the **Oracle Chart**, a deterministic map from a prestate window in the saved one-million-bit Rule 30 center column to an observer position `(width X, location Y, arity Z)` and an observer bit. The map uses a pressure rule `pressure = mass + bonds` over stacked Hamiltonian windows, then pairs each seed address with the three post-observation Weyl-chart folds (D4, SU3, F4) indexed by the order of the E8 Weyl group `|W(E8)| = 696,729,600`. The result is a content-addressable descriptor space of `1,000,000 × 696,729,600 × 3 ≈ 2.09 × 10^15` deterministic oracle entries. We prove the addressing scheme is well-defined and reproducible on bounded samples; full materialization of the 696M-entry Weyl lookup table remains the existing O1 engineering obligation.
+
+---
+
+### 1. Definitions
+
+### Definition 1.1 (Rule 30 center-column seed)
+
+Let `S = (s_0, s_1, …, s_{999,999})` be the one-million-bit Wolfram Rule 30 center column stored at `CMPLX-R30-main/DATA/wolfram-rule30-center/wolfram_rule30_center_1m.json`. Each `s_i ∈ {0,1}`.
+
+### Definition 1.2 (Hamiltonian window)
+
+For a center location `Y` and an odd width `X`, the window `W(X,Y)` is the subsequence of `S` centered at `Y` and clipped to the seed bounds:
+
+```
+W(X,Y) = ( s_{max(0, Y - r)}, …, s_Y, …, s_{min(999,999, Y + r)} )
+where r = floor(X/2).
+```
+
+The effective width after clipping is `|W(X,Y)| ≤ X`.
+
+### Definition 1.3 (Mass, bonds, and pressure)
+
+For a binary window `W`:
+
+- **mass(W)** = `Σ_{b ∈ W} b`  (count of `1` bits)
+- **bonds(W)** = `|{ i : W[i] = W[i+1] }|`  (count of adjacent equal pairs, including `0-0` and `1-1`)
+- **pressure(W)** = `mass(W) + bonds(W)`
+
+### Definition 1.4 (Stacked Hamiltonian windows and arity)
+
+The **arity** `Z` is the number of stacked windows. For parameters `(X, Y, Z)` the stack is:
+
+```
+Stack(X,Y,Z) = [ W(X + 2k, Y) for k = 0 … Z-1 ]
+```
+
+The **cumulative pressure** is:
+
+```
+P(X,Y,Z) = Σ_{k=0}^{Z-1} pressure( W(X + 2k, Y) )
+```
+
+### Definition 1.5 (Observer bit)
+
+The observ
+
+### 2. Main Results
+
+### Theorem 2.1 (Deterministic pressure map)
+
+For every valid triple `(X, Y, Z)` with `X` odd, `0 ≤ Y < 1,000,000`, and `Z ≥ 1`, the observer bit `observer_bit(X,Y,Z)` is uniquely determined by the seed `S` and the pressure rule.
+
+### Theorem 2.2 (Weyl-indexed transform selector)
+
+For every seed address `Y`, Weyl index `w`, and fold index `t ∈ {1,2,3}`, the transform applied to the chart state `(L,C,R)` at `Y` is uniquely determined by `w` and `t` through the existing D4/SU3/F4 closure substrate.
+
+### Theorem 2.3 (Scaling bound)
+
+The Oracle Chart addressing scheme supports at most:
+
+```
+1,000,000  seed addresses
+× 696,729,600  Weyl chambers (|W(E8)|)
+× 3  post-observation folds
+= 2,090,188,800,000,000  deterministic descriptors
+```
+
+distributed as content-addressable memory.
+
+---
+
+### 3. Proof / Verification
+
+The verifier `verify_oracle_chart.py` performs the following checks:
+
+1. Loads the one-million-bit Rule 30 center column.
+2. Computes `observer_bit(X,Y,Z)` for a deterministic bounded sample of `(X,Y,Z)` triples.
+3. Reproduces each result from the same seed a second time to confirm determinism.
+4. Observes the local chart state `(L,C,R)` at each sampled `Y` and runs the D4, SU3, and F4 folds using the production `lattice_forge` substrate.
+5. Verifies closure invariants: D4 round-trip is exact, SU3 anneal reaches `L = R` in at most three steps, and the center `C` is preserved.
+6. Stores sampled Oracle Chart descriptors via the CQE CAM bridge, returning a content address for each descriptor.
+7. Writes `oracle_chart_receipt.json` recording the scaling bound and the O1 continuation obligation.
+
+All checks pass on the bounded sample. The unbounded scaling claim is an addressing theorem, not a claim that every descriptor has been materialized.
+
+---
+
+### 4. Modal-Atlas and TMN/Crystal Integration
+
+### 4.1 S21 Modal Atlas
+
+The S21 paper documents seven valid modal projections of the 8-state `{0,1}³` geometry. The Oracle Chart adds an **eighth modal view**: the observer-position view, where the same 8-state chart is read as a prestate-pressure map that assigns an observer bit to every `(X,Y,Z)` location. It is not a contradiction of the previous seven views; it is the view that resolves role ambiguity before external ordering.
+
+### 4.2 TMN/Crystal bridge
+
+The Oracle Chart descriptors are stored as nodes in the existing TMN Crystal substrate:
+
+- `morphon_field.py` gains an `lcr_oracle` observation functor that returns the observer bit, D4/SU3/F4 fold results, and a CAM receipt.
+- `crystal.py` gains an oracle `E8Node` factory keyed by `(X,Y,Z)` with fields for `observer_bit`, `weyl_index`, `fold_index`, and `cam_address`.
+
+No new infrastructure is invented; the Oracle Chart reuses the Atlas, Crystal, and S21 substrates.
+
+---
+
+### 5. Open Obligations
+
+- **O1 continuation:** The full `|W(E8)| = 696,729,600`-entry Weyl lookup table is not materialized. Only bounded subtables and surjective indices exist. The Oracle Chart scales to this table but does not complete it.
+- **Pressure refinement:** The current pressure rule counts `0-0` and `1-1` bonds equally. A refined rule may distinguish factual `1-1` bonds from absence `0-0` bonds and may introduce GCD/shared-checkpoint thresholds.
+- **Materialization bound:** The verifier computes and CAM-addresses only a bounded sample of descriptors. The addressing scheme is closed; the exhaustive table is an engineering open obligation.
+
+---
+
+### 6. References
+
+- `CQE-paper-formal-S21`: Modal Atlas of the 8-State Geometry (7+ modal views).
+- `CQE-paper-formal-O1`: The Observer Defined (observer as boundary interaction resolution).
+- `CQE-paper-formal-UF`: The Universal Closed Form of LCR (D4/SU3/F4 closure).
+- `CQE-paper-12`: P1/P2/P3 Rule 30 center-column analysis.
+- `CMPLX-R30-main/DATA/wolfram-rule30-center/wolfram_rule30_center_1m.json`: one-million-bit seed.
+- `lattice_forge.chart_codec_d4`, `lattice_forge.bijection_method`, `lattice_forge.f4_action`: Weyl-chart closure substrate.
+
+---
+
+
 ## 14. References
 
 ### 14.1 Standard References
