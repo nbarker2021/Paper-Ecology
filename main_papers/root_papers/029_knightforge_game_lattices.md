@@ -271,6 +271,15 @@ This paper is Layer 3, Position 9 — the ninth action of the third layer. It dr
 
 ---
 
+## 14B. Canonical Production Source — CQECMPLX-Production P24 (KnightForge / N-Dimensional Chess Automata)
+
+P24's C-Form: the game Gluon — KnightForge knight-move CA and N-dimensional chess automata as
+chart-state games on the LCR lattice. **No run.py** (index: "needs creation"). Maps to §14
+(KnightForge game lattices) and `176_n_dim_game_lattices.md`. Honest note: knight-CA is the
+CQECMPLX interpretation; see fabrication audit — the OEIS A033996 knight-CA edge count is
+FABRICATED and must NOT be cited. Real knight-CA directed edges for n=2..8 = {0,16,48,96,160,
+240,336}; cells-with-move = {0,8,16,25,36,49,64}; 3×3 board = 9 cells.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

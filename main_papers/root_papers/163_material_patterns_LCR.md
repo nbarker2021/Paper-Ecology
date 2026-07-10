@@ -269,6 +269,13 @@ The oloid winding substrate is bounded (max_depth=512, max_order=4) and gap-awar
 
 ---
 
+## 12B. Canonical Production Source — CQECMPLX-Production P21 (MorphForge / PolyForge / MorphoniX)
+
+P21's C-Form: the morphing Gluon — geometric/form generation from the chart via the forge
+substrate (PolyForge polyhedral generation, MorphoniX morphogenesis). **No run.py** (index:
+"needs creation"). Maps to §12 (material patterns LCR). Honest note: forge material patterns
+are the CQECMPLX interpretation of chart→geometry; analog workbook only.
+
 ## 12. References
 
 1. Paper 161 — MorphForge (reader discipline base)

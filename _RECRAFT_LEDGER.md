@@ -129,6 +129,14 @@ RETAINED as genuine fabrications:
 | CQE-paper-18 (VOA/Moonshine) | EXTEND 023 + 124 + STD + MNY | 023_VOA_moonshine_routes.md (§14B), 124_monster_VOA.md (§13B) | DONE. Closure Gluon@D24=moonshine transport. Full moonshine ID registered irreducible gap. No fabrication. |
 | CQE-paper-19 (Observer Face-Selection) | EXTEND 024 + 033 + STD + MNY | 024_observer_face_selection.md (§15B), 033_observer_delay_z4.md (§11E) | DONE. D4 frame min-residual. Consistent w/ verify_observer_frame_selection. No fabrication. |
 | CQE-paper-20 (Layer-2 Synthesis) | EXTEND 025 + STD + MNY | 025_layer2_synthesis_ledger.md (§14B) | DONE. No run.py; synthesis ledger. |
+| CQE-paper-21 (MorphForge) | EXTEND 163 + STD + MNY | 163_material_patterns_LCR.md (§12B) | DONE. No run.py; forge material patterns interpretive. |
+| CQE-paper-22 (MetaForge Materials) | EXTEND 027 + STD + MNY | 027_metaforge_materials.md (§15B) | DONE. No run.py; metamaterial analog. |
+| CQE-paper-23 (FoldForge Protein) | EXTEND 181 + STD + MNY | 181_protein_folding_LCR.md (§6B) | DONE. No run.py; chart->fold interpretive. No fabrication. |
+| CQE-paper-24 (KnightForge/Chess) | EXTEND 029 + 176 + STD + MNY | 029_knightforge_game_lattices.md (§14B), 176_n_dim_game_lattices.md (§9B) | DONE. No run.py. HONEST FLAG: OEIS A033996 knight-CA is FABRICATED; real edges n=2..8={0,16,48,96,160,240,336}, cells={0,8,16,25,36,49,64}. |
+| CQE-paper-25 (Energetic Traversal) | EXTEND 031 + STD + MNY | 031_energetic_traversal_maps.md (§18B) | DONE. No run.py. kappa=ln(phi)/16~25.05 GeV calibrated anchor. No fabrication. |
+| CQE-paper-26 (Z-Pinch/Shear) | EXTEND 032 + STD + MNY | 032_zpinch_shear_horizon.md (§11B) | DONE. No run.py; chart collapse interpretive. |
+| CQE-paper-27 (Observer Delay) | EXTEND 033 + STD + MNY | 033_observer_delay_z4.md (§11F) | DONE. No run.py. Consistent w/ verify_observer_frame_selection. No fabrication. |
+
 
 
 

@@ -327,6 +327,13 @@ The `horizon_type` CHECK constraint enforces the three-type taxonomy: `shear_ban
 
 ---
 
+## 11B. Canonical Production Source — CQECMPLX-Production P26 (Z-Pinch and Shear Horizon)
+
+P26's C-Form: the pinch Gluon — Z-pinch and shear horizon as the chart's collapse/repair
+dynamics. **No run.py** (index: "needs creation"). Maps to §11 (Z-pinch shear horizon).
+Honest note: Z-pinch/shear is the CQECMPLX interpretation of chart collapse dynamics; not a
+MHD derivation. No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

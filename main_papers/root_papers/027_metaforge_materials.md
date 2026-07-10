@@ -330,6 +330,12 @@ The pipeline does not prove material performance — it proves that the forge sy
 
 ---
 
+## 15B. Canonical Production Source — CQECMPLX-Production P22 (MetaForge Applied Materials)
+
+P22's C-Form: the material Gluon — MetaForge applied materials (metamaterial unit cells from
+the chart). **No run.py** (index: "needs creation"). Maps to §15 (MetaForge applied materials).
+Honest note: metamaterial synthesis is the CQECMPLX interpretation; workbook analog only.
+
 ## 15. References
 
 ### 15.1 Standard References

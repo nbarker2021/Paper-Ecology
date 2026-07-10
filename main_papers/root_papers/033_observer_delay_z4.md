@@ -343,6 +343,13 @@ P19 = observer frame selection as the D4 face minimizing residual (lossless F = 
 **No run.py** for P19. Consistent with §11B/11C/11D and `verify_observer_frame_selection`.
 Honest, no fabrication.
 
+## 11F. Canonical Production Source — CQECMPLX-Production P27 (Observer Delay and Shared Reality)
+
+P27's C-Form: the delay Gluon — observer delay (τ) as the frame-selection latency; shared
+reality = synchronized observer frames. **No run.py** (index: "needs creation"). Maps to
+`033_observer_delay_z4.md` (§11B/11C/11D/11E). Consistent with `verify_observer_frame_selection`
+(static Z4 = 2 fixed + 6 period-4; temporal Z4 refuted). Honest, no fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.

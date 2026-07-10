@@ -706,6 +706,13 @@ closure count (cf. `qcd_84`). The mass formula `m = 7ᵈ·κ` at depths 0,1,2,3 
 
 ---
 
+## 18B. Canonical Production Source — CQECMPLX-Production P25 (Energetic Traversal Maps)
+
+P25's C-Form: the energy Gluon — energetic traversal maps (κ = ln(φ)/16 edge energy) across
+the chart. **No run.py** (index: "needs creation"). Maps to §18 (energetic traversal maps).
+Honest note: κ = ln(φ)/16 × SCALE ≈ 25.05 GeV is the calibrated empirical anchor (Higgs mass);
+traversal maps are the CQECMPLX interpretation. No fabrication.
+
 ## 18. References
 
 ### 18.1 Source Papers

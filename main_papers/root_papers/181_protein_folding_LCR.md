@@ -88,6 +88,13 @@ The fingerprint map is the receipt (Paper 011) of the terminal selection: a veri
 
 ---
 
+## 6B. Canonical Production Source — CQECMPLX-Production P23 (FoldForge Protein Folding)
+
+P23's C-Form: the fold Gluon — FoldForge protein folding as chart-state trajectory through the
+8-state space to a native fold. **No run.py** (index: "needs creation"). Maps to §6 (protein
+folding LCR). Honest note: protein folding is the CQECMPLX interpretation (chart→fold
+trajectory); not a biophysics computation. No fabrication.
+
 ## 6. References
 
 1. Paper 002 — Rule 30 ANF, Lucas Carry

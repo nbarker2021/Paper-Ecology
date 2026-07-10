@@ -175,6 +175,12 @@ The confinement spectrum Σ_n for each dimension n is derived from the game latt
 
 ---
 
+## 9B. Canonical Production Source — CQECMPLX-Production P24 (KnightForge / N-Dim Chess)
+
+P24's N-dimensional chess automata = chart-state games on LCR lattices. **No run.py** for P24.
+Honest note: N-dim game lattices are the CQECMPLX interpretation; OEIS A033996 knight-CA
+claim is FABRICATED (use real counts above). No fabrication in this recraft.
+
 ## 9. References
 
 1. Paper 005 — D12 Axis/Sheet Symmetries (lattice group)
