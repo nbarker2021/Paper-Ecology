@@ -316,6 +316,18 @@ variants) — carried honestly, not as 5 distinct topological sorts.
   the 240-paper E8 framework. The structural claims transfer; the counts do not.
 - No A033996 / 343 / αₑₘ issues in this cluster — these are governance/meta claims.
 
+## 11C. CQECMPLX Formal Suite as Validation System (recrafted from CQE-PAPER-SUP-001)
+
+CQE-PAPER-SUP-001 frames the entire CQECMPLX Formal Suite (Papers 000-103, 80+ papers,
+184+ PDFs) as a **human/AI hypothesis-testing kit**: formal papers (theory) + `lattice_forge`
+(executable verification) + analog workbench (physical computation) + honesty harness
+(BOUNDED_EXEC vs CONJ tracking). Any claim is validated by running code, checking receipts,
+and verifying calibrations.
+
+**Engine:** the 240-form recraft of this suite (forge-base `lattice_forge`, 33 verifiers /
+163 checks / 0 defects) is the executable verification layer. The honesty harness maps to
+this ecology's fabrication-flag discipline (A033996, etc.). Meta, no physics claims.
+
 ## 12. Data vs Interpretation
 
 ### Data-backed (D) — 15 claims

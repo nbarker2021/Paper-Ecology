@@ -194,6 +194,22 @@ def verify_lattice_code_chain():
 
 ---
 
+## X. Spectre Crystallization: Ising, Lattice Zoo & Phase Transitions (recrafted from CQE-PAPER-100/102/103)
+
+The 10-crystallization cluster treats the closed Spectre cluster as a crystalline object:
+- **CQE-100**: depth-3 343-tile cluster = finite crystal (space group P1); Ising model
+  `J = κ`, `Tc = 2.27` (the 2D Ising critical temperature), `ξ = 0`, `Cv = 0` for the
+  finite cluster (honest finite-size statement).
+- **CQE-102**: the crystal zoo — square / hex / FCC / diamond / graphene / kagome — arises
+  from distinct tile formations (the Spectre tiling's local coordination).
+- **CQE-103**: phase-transition signatures `Tc, ξ, M, Cv` read off the tile data; finite
+  vs infinite crystal distinguished by correlation length.
+
+**Engine:** `verify_recursive_sevenfold_closure` (343 real). **Honest note:** `Tc = 2.27`
+is the established 2D Ising constant (real), applied interpretively to the Spectre void;
+the crystallographic/lattice-zoo assignments are the CQECMPLX interpretation, not derived
+QCD results. No A033996 / 343 / alpha_em fabrications.
+
 ## 11. References
 
 1. **Paper 005** — D4, J3(O), Octave Triality. *Cited: Remark 12.5, Theorem 9.1.*

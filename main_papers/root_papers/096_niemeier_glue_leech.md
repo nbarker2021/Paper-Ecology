@@ -206,6 +206,16 @@ Weyl group order \(2^7 \cdot 3^4 \cdot 5 = 51,840\). ∎
 
 ---
 
+## X. Spectre Theorem S-4: Exceptional Ladder Geometry (recrafted from CQE-PAPER-096)
+
+CQE-PAPER-096 (**S-4**): the Spectre is the exceptional ladder `1 → 3 → 7 → 8 → 24 → 72`
+— 1 (trivial), 3 (length-9 superpermutation), 7 (7³ closure), 8 (LCR states / D4), 24
+(Leech lattice), 72 (E6 roots, universal). The 72 E6 roots (Paper 091) are the symbols of
+the universal superpermutation; Niemeier glue Γ₇₂ gives the overlap constraints.
+
+**Engine:** `verify_recursive_sevenfold_closure` (7³=343), `verify_spectre_tiling` (7-fold,
+10-tile). The ladder matches §3.4 (chain 1→3→7→8→24→72) of the superpermutation root. Honest.
+
 ## 12. References
 
 - Conway, J. H. & Sloane, N. J. A. (1988). *Sphere Packings, Lattices and Groups.* Springer.

@@ -222,6 +222,30 @@ All Calibrations 5/5, All Verifiers 9/9, Total Checks 43/43 (CQECMPLX db).
 The QCD↔chiral overlap at (1,1,0) means the decomposition is not perfectly disjoint at the
 chart level (see 062 §14B). No A033996 / 343 / αₑₘ fabrications.
 
+## 12. Spectre as Tile Field Theory & Unification (recrafted from CQE-PAPER-092/099)
+
+CQE-PAPER-092 states **Tile Field Theory**: tiling theory ≅ U(1) → SU(2) → correction
+state resolution — the gauge-group flow is the spectre substitution hierarchy. CQE-PAPER-099
+(S-7) states the Spectre as the **unification architecture**: SM = 10 Spectre tiles
+`Vacuum(2) ⊕ QCD(3) ⊕ Electroweak(5)`, the same 10-tile decomposition as §11.
+
+**Engine (`verify_spectre_tiling`, `verify_lcr_sector_decomposition`):** 10-tile decomposition
+verified (10 Spectre orientations = Vacuum(2)+QCD(3)+Observer(5)); 7-fold substitution = 7
+S3 paths; depth-3 = 343 tiles. The U(1)→SU(2)→correction flow is the CQECMPLX interpretation
+of the triality substitution; consistent with the 240-form. No fabrications.
+
+## 12. Spectre as Tile Field Theory & Unification (recrafted from CQE-PAPER-092/099)
+
+CQE-PAPER-092 states **Tile Field Theory**: tiling theory ≅ U(1) → SU(2) → correction
+state resolution — the gauge-group flow is the spectre substitution hierarchy. CQE-PAPER-099
+(S-7) states the Spectre as the **unification architecture**: SM = 10 Spectre tiles
+`Vacuum(2) ⊕ QCD(3) ⊕ Electroweak(5)`, the same 10-tile decomposition as §11.
+
+**Engine (`verify_spectre_tiling`, `verify_lcr_sector_decomposition`):** 10-tile decomposition
+verified (10 Spectre orientations = Vacuum(2)+QCD(3)+Observer(5)); 7-fold substitution = 7
+S3 paths; depth-3 = 343 tiles. The U(1)→SU(2)→correction flow is the CQECMPLX interpretation
+of the triality substitution; consistent with the 240-form. No fabrications.
+
 ## 10. References
 
 - Mac Lane, S. (1971). *Categories for the Working Mathematician.*

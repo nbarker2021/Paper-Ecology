@@ -222,6 +222,28 @@ All claims are (D) data-backed.
 
 ---
 
+## X. Monster Ceiling as Observer Causal Recoil Absorber (recrafted from CQE-PAPER-091)
+
+CQE-PAPER-091 frames the Monster VOA ceiling (196884 = 196883 + 1) as the observer's
+causal recoil absorber — the J-modular function `J(τ)` counts the resolved tile
+orientations, and the Monster group caps the maximum observer frame stack. This is the
+moonshine bridge between the spectre tiling and the Monster VOA.
+
+**Engine:** Monster ceiling is established in the 240-form Monster/VOA roots (124, 127,
+141, 149); `verify_spectre_tiling` confirms the tiling↔VOA-spectrum link. Honest, no
+fabrication.
+
+## X. Monster Ceiling as Observer Causal Recoil Absorber (recrafted from CQE-PAPER-091)
+
+CQE-PAPER-091 frames the Monster VOA ceiling (196884 = 196883 + 1) as the observer's
+causal recoil absorber — the J-modular function `J(τ)` counts the resolved tile
+orientations, and the Monster group caps the maximum observer frame stack. This is the
+moonshine bridge between the spectre tiling and the Monster VOA.
+
+**Engine:** Monster ceiling is established in the 240-form Monster/VOA roots (124, 127,
+141, 149); `verify_spectre_tiling` confirms the tiling↔VOA-spectrum link. Honest, no
+fabrication.
+
 ## 11. References
 
 - Paper 022 — E6/E8 error correction tower

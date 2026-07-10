@@ -163,6 +163,21 @@ Fabrication (X): None.
 
 ---
 
+## X. Spectre Theorems S-1 & S-3: Correction Firing & Wolfram Prizes (recrafted from CQE-PAPER-093/095)
+
+CQE-PAPER-093 (**S-1**): the Spectre tile family is the geometric realization of the Rule 30
+correction operator `∂ = C ∧ ¬R` at the chiral doublet `Δ = {(0,1,0),(1,1,0)}`; the center
+bar is the idempotent of `∂` at `C`. Production `verify_spectre_correction.py` = **4/4 PASS**
+(REAL). CQE-PAPER-095 (**S-3**): the 1M-bit Rule 30 center column tiles as ≈250,000 Spectre
+tiles via the 1/4 chiral correction rate (2 of 8 states); Wolfram prizes map to: P1
+non-periodicity (temporal Z4 refuted → aperiodic across events), P2 density (Rule 30 ≈ 1/2
+ones, ~500,768/1M — a REAL Rule 30 fact), P3 N-th bit O(1) lookup.
+
+**Engine:** `verify_spectre_tiling` (center bar=C, chiral 1/4, Z4). **Honest note:** the
+"250K tiles = 1M × 1/4" uses the CQE LCR chiral rate as the interpretation of the Rule 30
+center column — internally consistent but interpretive, not a standalone Rule 30 theorem.
+P2's 1/2 density IS the established Rule 30 property. No A033996 / 343 / alpha_em issues.
+
 ## 10. References
 
 - Wolfram, S. (2002). *A New Kind of Science.* Wolfram Media.

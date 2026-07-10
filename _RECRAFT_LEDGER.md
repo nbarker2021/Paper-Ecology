@@ -70,6 +70,22 @@ RETAINED as genuine fabrications:
 | 08-unification/CQE-PAPER-087.md | EXTEND 084 + STD + MNY | PaperEcology/084 (§11) | DONE. Physicist I: LCR in QFT/SM notation -> root 084 UFT. |
 | 08-unification/CQE-PAPER-088.md | EXTEND 062 + STD + MNY | PaperEcology/062 (§14B) | DONE. Physicist II: QCD as LCR mode + unification architecture -> root 062. |
 | 08-unification/CQE-PAPER-089.md | EXTEND 033 + STD + MNY | PaperEcology/033 (§11C) | DONE. Physicist III: observer measurement theory -> root 033 (NOT root 089 Navier-Stokes; that gets fed from 090-100). |
+| 09-spectre-geometry/CQE-PAPER-090.md | EXTEND 023 + STD + MNY | PaperEcology/023 (§X), CMPLX-Standards, forge-base/lib/lattice_forge/spectre_tiling.py | DONE. Braids/Jacobians/VOA 3/5,5/7 bridge -> root 023. Honest, no fabrication. |
+| 09-spectre-geometry/CQE-PAPER-091.md | EXTEND 127 + STD + MNY | PaperEcology/127 (§X) | DONE. J modular/Monster ceiling=observer recoil -> root 127. Honest. |
+| 09-spectre-geometry/CQE-PAPER-092.md | EXTEND 084 + STD + MNY | PaperEcology/084 (§12) | DONE. Tile Field Theory U(1)->SU(2)->correction -> root 084. Honest. |
+| 09-spectre-geometry/CQE-PAPER-093.md | EXTEND 085 + STD + MNY | PaperEcology/085 (§X), forge-base/lib/lattice_forge/spectre_tiling.py | DONE. S-1 spectre=Rule30 correction -> root 085. Production verify_spectre_correction 4/4 REAL. |
+| 09-spectre-geometry/CQE-PAPER-094.md | EXTEND 021 + STD + MNY | PaperEcology/021 (§X) | DONE. S-2 7-fold=7 correction paths -> root 021. 7 S3 words verified. |
+| 09-spectre-geometry/CQE-PAPER-095.md | EXTEND 085 + STD + MNY | PaperEcology/085 (§X) | DONE. S-3 1M-bit=250K tiles / Wolfram prizes -> root 085. 1/4 chiral rate honest-interpretive; P2 density 1/2 REAL. |
+| 09-spectre-geometry/CQE-PAPER-096.md | EXTEND 096 + STD + MNY | PaperEcology/096 (§X) | DONE. S-4 exceptional ladder 1->3->7->8->24->72 -> root 096. Honest. |
+| 09-spectre-geometry/CQE-PAPER-097.md | EXTEND 122 + STD + MNY | PaperEcology/122 (§X) | DONE. S-5 spectre as energy; VOA partition=tile spectrum -> root 122. Honest. |
+| 09-spectre-geometry/CQE-PAPER-098.md | EXTEND 033 + STD + MNY | PaperEcology/033 (§11D) | DONE. S-6 spectre as observer frame/static Z4 -> root 033. Honest. |
+| 09-spectre-geometry/CQE-PAPER-099.md | EXTEND 084 + STD + MNY | PaperEcology/084 (§12) | DONE. S-7 spectre=unification 10 tiles -> root 084. Honest. |
+| 10-crystallization/CQE-PAPER-100.md | EXTEND 048 + STD + MNY | PaperEcology/048 (§X), forge-base/lib/lattice_forge/spectre_tiling.py | DONE. 343-tile Ising crystal P1 -> root 048. 343 real; Tc=2.27 is 2D Ising const (interpretive). |
+| 10-crystallization/CQE-PAPER-101.md | EXTEND 070 + STD + MNY | PaperEcology/070 (§17C) | DONE. 343-tile crystal -> root 070. 343=7³ verified. |
+| 10-crystallization/CQE-PAPER-102.md | EXTEND 048 + STD + MNY | PaperEcology/048 (§X) | DONE. Lattice zoo (sq/hex/fcc/diamond/graphene/kagome) -> root 048. Interpretive. |
+| 10-crystallization/CQE-PAPER-103.md | EXTEND 048 + STD + MNY | PaperEcology/048 (§X) | DONE. Phase transitions Tc,xi,M,Cv -> root 048. Honest finite-size note. |
+| supplement/CQE-PAPER-SUP-001.md | EXTEND 036 + STD + MNY | PaperEcology/036 (§11C) | DONE. Suite as validation kit (toolkit/analog/honesty harness) -> root 036. Meta. |
+
 
 
 | 05-observer-frame/CQE-PAPER-050.md | EXTEND 033 (folded) + STD + MNY | PaperEcology/033 (§11B), CMPLX-Standards, forge-base/lib/lattice_forge/observer_frame.py | DONE. Observer=D4 frame selection -> root 033 (Observer Delay) §11B. RE-VERIFIED against production lattice_forge: 4 anchors, select-1/retain-3, gluon=Center C invariant (64-row trace all share C). Older paper but CORRECT in real LCR format. All 29 verifiers: 138 checks, 0 defects. |

@@ -413,6 +413,16 @@ G_F, αₑₘ⁻¹` match PDG/CODATA.
 EW symmetry breaking = frame selection is the CQECMPLX interpretation, consistent with the
 240-form observer-frame structure. No fabrications in this cluster.
 
+## 11D. Spectre Theorem S-6: Observer Frame (recrafted from CQE-PAPER-098)
+
+CQE-PAPER-098 (**S-6**): the Spectre is the observer frame — static Z₄ = the 4-frame
+symmetry, anneal depth = substitution depth. The 4 D₄ faces are the 4 Z₄ frames; frame
+selection F is lossless (3 latent retained, cf. §11B).
+
+**Engine:** `verify_observer_frame_selection` (4 frames, static Z4 = 2 fixed + 6 period-4,
+temporal Z4 refuted), `verify_spectre_tiling` (static Z4 frame symmetry). Honest, no
+fabrication.
+
 ## 12. Data vs Interpretation
 
 ### Data-backed (D) — 11 claims

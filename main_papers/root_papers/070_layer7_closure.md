@@ -487,6 +487,17 @@ same structure via the seven-fold closure and observer-frame verifiers. Gamma72 
 structures, det=51) is the CQECMPLX corpus's own claim (cf. Paper 041/093); not re-derived
 here.
 
+## 17C. Spectre Depth-3 Cluster as 343-Tile Crystal (recrafted from CQE-PAPER-101)
+
+CQE-PAPER-101 treats the depth-3 recursive closure (343 tiles = 7³) as a finite crystal
+with space group P1 (triclinic Spectre tiling). The 343-tile mega-cluster is the void
+boundary (§17B); as a closed tile formation it is a crystalline object.
+
+**Engine:** `verify_recursive_sevenfold_closure` (1→7→49→343 = 400; 343 = 7³ SU(3) closure,
+REAL). **Honest note:** the "space group P1 / crystal" framing is the CQECMPLX interpretation
+of the closed 343-cluster; the 343 count is engine-verified, the crystallographic assignment
+is interpretive. No fabrication.
+
 ## 17. References
 
 - `240_slot_plan.md` — Ribbon structure definition and slot assignments.

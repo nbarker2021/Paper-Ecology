@@ -283,6 +283,28 @@ The application to later papers follows the 240-paper slot plan: Paper 029 (Mons
 
 ---
 
+## X. Spectre Bridge: Braids, Knots, Jacobians & VOA Partition (recrafted from CQE-PAPER-090)
+
+CQE-PAPER-090 bridges the LCR chart to knot/Jacobian/modular data: the **3/5 conjugation**
+(3 trace-2 idempotents, 5 observer states) and **5/7 adjudication** (5 observer, 7-fold
+substitution) structure, with the VOA partition `Z(q) = 2q⁰ + 6q⁵` as the tiling spectrum.
+Braids/knots arise from the S3 Weyl action on the chart; Jacobians from the moduli of the
+dual lattice.
+
+**Engine:** `verify_lcr_sector_decomposition` (8=2+3+3), `verify_spectre_tiling` (7-fold,
+10-tile, Z4). Honest, no fabrication.
+
+## X. Spectre Bridge: Braids, Knots, Jacobians & VOA Partition (recrafted from CQE-PAPER-090)
+
+CQE-PAPER-090 bridges the LCR chart to knot/Jacobian/modular data: the **3/5 conjugation**
+(3 trace-2 idempotents, 5 observer states) and **5/7 adjudication** (5 observer, 7-fold
+substitution) structure, with the VOA partition `Z(q) = 2q⁰ + 6q⁵` as the tiling spectrum.
+Braids/knots arise from the S3 Weyl action on the chart; Jacobians from the moduli of the
+dual lattice.
+
+**Engine:** `verify_lcr_sector_decomposition` (8=2+3+3), `verify_spectre_tiling` (7-fold,
+10-tile, Z4). Honest, no fabrication.
+
 ## 14. References
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. McKay-Thompson series.

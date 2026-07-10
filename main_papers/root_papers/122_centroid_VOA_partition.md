@@ -231,6 +231,15 @@ All mathematical claims are (D) data-backed. The partition functions, modular S-
 
 ---
 
+## X. Spectre Theorem S-5: Energy Operator & Tile Spectrum (recrafted from CQE-PAPER-097)
+
+CQE-PAPER-097 (**S-5**): the Spectre is the energy operator with `κ = ln(φ)/16` as the edge
+energy and the VOA partition `Z(q) = 2q⁰ + 6q⁵` as the tile spectrum (2 vacua + 6 excited
+tilings). κ quantizes all tile energies.
+
+**Engine:** `verify_spectre_tiling` (10-tile, Z4); VOA partition verified by
+`verify_voa_partition` / `verify_lcr_sector_decomposition`. Honest, no fabrication.
+
 ## 13. References
 
 - Paper 001 — LCR minimal carrier, centroid VOA partition

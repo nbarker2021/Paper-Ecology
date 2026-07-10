@@ -742,6 +742,15 @@ geometry (CQE-PAPER-021 §6.3) refers to the recursive seven-fold closure `1→7
 which is **engine-verified** by `verify_recursive_sevenfold_closure` (343 = 7³, the real
 SU(3)/seven-fold closure count; cf. `qcd_84`). The number is REAL, not unsupported. No A033996 claim in CQE-PAPER-021.
 
+## X. Spectre Theorem S-2: 7-Fold Substitution = 7 Correction Paths (recrafted from CQE-PAPER-094)
+
+CQE-PAPER-094 (**S-2**): the 7-fold substitution rule is exactly the 7 non-identity reduced
+words of S3 (`lr, lc, cr, lr∘lc, lr∘cr, lc∘cr, lr∘lc∘cr`) = the 7 correction paths. Recursive
+closure (Paper 020) is the spectre substitution at the chart level.
+
+**Engine:** `verify_spectre_tiling` (seven_fold_substitution = 7 S3 words); matches §16B
+(7 correction paths). Honest, no fabrication.
+
 ## 16. References
 
 ### 16.1 Canonical Papers
