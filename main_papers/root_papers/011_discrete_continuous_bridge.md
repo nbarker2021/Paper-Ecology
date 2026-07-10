@@ -545,6 +545,13 @@ The 6 CAMLib-harvested claims (7.1–7.6) extend the original PaperLib claims (0
 
 ---
 
+## 20B. Canonical Production Source — CQECMPLX-Production P07 (Discrete-Continuous Bridge)
+
+P07 bridges discrete chart transport and continuous analogs without claiming global
+universality before local derivation. **No run.py** (index: "needs creation") — transport
+framing only, no independent machine check. Honest note: interpretive bridge, not a
+continuum derivation.
+
 ## 20. References
 
 ### 20.1 Standard Mathematics

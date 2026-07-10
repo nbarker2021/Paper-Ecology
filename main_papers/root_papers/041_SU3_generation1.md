@@ -587,6 +587,13 @@ The 18 CrystalLib claims split 9/9/0 (D/I/X). The 9 I claims are defensible stru
 
 ---
 
+## 18B. Canonical Production Source — CQECMPLX-Production P13 (SM Quark-Face Transport)
+
+P13's 6 quark faces = the 6 non-vacuum shell=2 states; color Gluon = SU(3) charge across the
+triality surface. **No run.py** for P13. Consistent with §18 (SU3 generation). Honest note:
+generation structure is the CQECMPLX interpretation; one generation (the 6 faces) is shown,
+not the 3 SM generations. No fabrication.
+
 ## 18. References
 
 ### 18.1 Standard Particle Physics

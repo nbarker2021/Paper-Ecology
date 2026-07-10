@@ -261,6 +261,13 @@ The correct classification: minimal vectors (norm 4) are only types 0, 1, and a 
 
 This resolves the counting discrepancy: type 3 vectors with norm 4 are those where exactly 16 of the 24 coordinates are zero (a subset of the (±1)^24 vectors). These have norm 16·1² = 16? No, this is still not matching. Let me defer to the standard Conway-Sloane enumeration. ∎
 
+## 11B. Canonical Production Source — CQECMPLX-Production P08 (E8/Niemeier/Leech Closure)
+
+P08 frames the Leech lattice as the D6 Golay(24) Construction-A closure and the Γ72 boundary
+as the K=9 closure target. **No run.py** for P08. Consistent with §11 (Leech from Golay stack).
+Honest note: Γ72 landing unproved (registered gap); lattice-code chain is the CQECMPLX
+interpretation.
+
 ## 11. References
 
 - Conway, J. H. & Sloane, N. J. A. (1988). *Sphere Packings, Lattices and Groups.* Springer.

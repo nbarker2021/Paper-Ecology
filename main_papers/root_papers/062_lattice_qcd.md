@@ -469,6 +469,15 @@ closure (REAL). Production `verify_quark_face_transport_literalized` = 10/10 PAS
 **Honest note:** the "10 tiles" are the 10 distinct Spectre tile orientations (depth-1), not
 10 chart states — the 8-state chart partitions as 2+3+3. No A033996 / 343 / αₑₘ issues.
 
+## 13B. Canonical Production Source — CQECMPLX-Production P13 (SM Quark-Face Transport)
+
+P13's C-Form: **C = the quark-face color Gluon** — SU(3) color charge transporting the 6
+excited VOA states (weight-5) to the 6 quark faces (R,G,B,anti-R,anti-G,anti-B); the 2 true
+vacua = the lepton pair (e, ν_e). **No run.py** for P13. Consistent with §13 (lattice QCD) and
+`verify_lcr_sector_decomposition` (6 observer + 3 QCD = 9 non-vacuum; 2 vacua = leptons).
+Honest note: SM quark-face mapping is the CQECMPLX interpretation, not a lattice-QCD
+computation; color-triality surface = shell=2 stratum. No fabrication.
+
 ## 13. References
 
 ### 13.1 Standard Physics

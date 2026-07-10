@@ -115,4 +115,12 @@ RETAINED as genuine fabrications:
 | CQE-paper-04 (Boundary Repair) | EXTEND 007 + STD + MNY | 007_boundary_repair.md (§16B) | DONE. No run.py (needs creation); transport framing only. |
 | CQE-paper-05 (Oloid Path Carrier) | EXTEND 008 + STD + MNY | 008_oloid_path_carrier.md (§16B) | DONE. No run.py; transport framing only. |
 | CQE-paper-06 (Causal Code) | EXTEND 009 + STD + MNY | 009_causal_obligation_ledger.md (§17B) | DONE. No run.py; transport framing only. |
+| CQE-paper-07 (Discrete-Continuous Bridge) | EXTEND 011 + STD + MNY | 011_discrete_continuous_bridge.md (§20B) | DONE. No run.py; interpretive bridge. |
+| CQE-paper-08 (E8/Niemeier/Leech Closure) | EXTEND 146 + 147 + STD + MNY | 146_conway_group_Niemeier.md (§11B), 147_leech_from_golay_stack.md (§11B) | DONE. C=lattice closure Gluon; D1→D4→D24→D72 tower. Γ72 unproved (registered gap). No fabrication. |
+| CQE-paper-09 (Hamiltonian Temporal) | EXTEND 013 + STD + MNY | 013_hamiltonian_temporal.md (§15B) | DONE. No run.py; temporal emergence interpretive. |
+| CQE-paper-10 (T10 Master Receipt) | EXTEND 014 + STD + MNY | 014_T10_master_receipt.md (§12B) | DONE. No run.py; receipt ledger. |
+| CQE-paper-11 (Theory Admission Gate) | EXTEND 015 + STD + MNY | 015_theory_admission_gate.md (§15B) | DONE. No run.py; meta-governance. |
+| CQE-paper-12 (CA Prediction Surface) | EXTEND 016 + STD + MNY | 016_CA_prediction_surface.md (§14B) | DONE. No run.py; prediction surface interpretive. |
+| CQE-paper-13 (SM Quark-Face Transport) | EXTEND 062 + 041 + STD + MNY | 062_lattice_qcd.md (§13B), 041_SU3_generation1.md (§18B) | DONE. C=quark-face color Gluon; 6 faces=6 non-vacuum shell=2. 1 gen shown, not 3. No fabrication. |
+
 

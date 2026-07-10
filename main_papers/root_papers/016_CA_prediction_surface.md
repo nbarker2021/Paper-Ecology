@@ -420,6 +420,12 @@ The 64/256 silent-boundary rules form the subset of ECAs that vanish on both uni
 
 ---
 
+## 14B. Canonical Production Source — CQECMPLX-Production P12 (CA Prediction Surface)
+
+P12 frames cellular-automaton prediction surfaces as the forward-read of the chart.
+**No run.py** (index: "needs creation") — transport framing of §14 (CA prediction). Honest
+note: prediction surface is the CQECMPLX interpretation, not a CA-completeness result.
+
 ## 14. References
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 definition and prize problems (Problems 1–3).

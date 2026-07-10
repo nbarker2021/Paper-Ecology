@@ -372,6 +372,12 @@ per-state delay column are inconsistent with the honest BFS. The *bound* (≤3) 
 (max = 3) are correct; the *distribution* and per-state depths in that table are **FALSE — FLAGGED X.**
 No A033996 claim appears in CQE-PAPER-013.
 
+## 15B. Canonical Production Source — CQECMPLX-Production P09 (Hamiltonian Temporal Emergence)
+
+P09 casts Hamiltonian windows / spectral transport as temporal emergence of the chart.
+**No run.py** (index: "needs creation") — transport framing only. Maps to §15 (Hamiltonian
+temporal). Honest note: temporal emergence is interpretive, not a Schrödinger derivation.
+
 ## 15. References
 
 ### 15.1 Paper Series

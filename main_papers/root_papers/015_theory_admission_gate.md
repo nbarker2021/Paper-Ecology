@@ -335,6 +335,12 @@ The theory admission gate is the formal filter that prevents ungrounded claims f
 
 ---
 
+## 15B. Canonical Production Source — CQECMPLX-Production P11 (Theory Admission Gate)
+
+P11 gates theory admission: a claim is admitted iff its tool, proof tree, and trusted
+spectrum match. **No run.py** (index: "needs creation") — the admission contract for §15.
+Honest note: meta-governance, no physics claim.
+
 ## 15. References
 
 ### 15.1 Workspace Libraries

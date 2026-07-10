@@ -269,6 +269,16 @@ type1, type2, type3 = 1104, 97152, 98304
 print(f"Minimal vectors: {type1}+{type2}+{type3} = {type1+type2+type3}")
 ```
 
+## 11B. Canonical Production Source — CQECMPLX-Production P08 (E8/Niemeier/Leech Closure)
+
+P08's C-Form: **C = the lattice closure Gluon** — the lattice code chain (`verify_lattice_code_chain`)
+transporting the correction surface through the D1→D4→D24→D72 tower to the Nebe Γ72 boundary
+(D1 parity, D3 Hamming(7,4)=Fano/octonion, D4 Extended-Hamming(8)=E8 via Construction A,
+D6 Golay(24)=Leech, D72 Γ72). **No run.py** for P08 itself. The D1→D4→D24→D72 ladder matches
+§11.4 of root 096 (and `verify_spectre_tiling` S-4). Honest note: Γ72 remains a registered
+landing form (`gamma72_landing_proved: False`) — NOT proved here; tower transport is the
+CQECMPLX interpretation. No A033996 / 343 / alpha_em issues.
+
 ## 11. References
 
 - Conway, J. H. (1969). *A group of order 8,315,553,613,086,720,000.* Bull. LMS 1, 79–88.

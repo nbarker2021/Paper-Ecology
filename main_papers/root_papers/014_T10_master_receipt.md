@@ -274,6 +274,12 @@ The T10 receipt is the trust anchor for Paper 015 (theory admission gate). Every
 
 ---
 
+## 12B. Canonical Production Source — CQECMPLX-Production P10 (T10 Master Receipt)
+
+P10 is the master receipt ledger — the replayable record of all 10 transported claims with
+their receipts/obligations. **No run.py** (index: "needs creation") — the receipt-chain
+realization is `238_receipt_chain.md`. Honest note: receipt bookkeeping, no physics claim.
+
 ## 12. References
 
 [1] N. Barker, *Paper 001 — The LCR Minimal Carrier*, `D:\Paper Ecology\main_papers\root_papers\001_LCR_minimal_carrier.md`, 2026. Layer 1 foundation paper; carrier minimality theorem.
