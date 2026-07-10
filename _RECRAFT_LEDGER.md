@@ -136,6 +136,12 @@ RETAINED as genuine fabrications:
 | CQE-paper-25 (Energetic Traversal) | EXTEND 031 + STD + MNY | 031_energetic_traversal_maps.md (§18B) | DONE. No run.py. kappa=ln(phi)/16~25.05 GeV calibrated anchor. No fabrication. |
 | CQE-paper-26 (Z-Pinch/Shear) | EXTEND 032 + STD + MNY | 032_zpinch_shear_horizon.md (§11B) | DONE. No run.py; chart collapse interpretive. |
 | CQE-paper-27 (Observer Delay) | EXTEND 033 + STD + MNY | 033_observer_delay_z4.md (§11F) | DONE. No run.py. Consistent w/ verify_observer_frame_selection. No fabrication. |
+| CQE-paper-28 (N-Dim Game Lattices) | EXTEND 034 + 176 + STD + MNY | 034_nd_game_lattices.md (§11B), 176_n_dim_game_lattices.md (§9B) | DONE. No run.py. A033996 knight-CA FABRICATED flag retained. |
+| CQE-paper-29 (Monster/Universal Energy) | EXTEND 035 + 145 + STD + MNY | 035_monster_energy_bound.md (§13B), 145_monster_energy_bound_kappa.md (§13B) | DONE. No run.py. kappa~25.05 GeV calibrated; Gamma72 landing registered gap. No fabrication. |
+| CQE-paper-30 (Grand Ribbon Meta) | EXTEND 036 + STD + MNY | 036_grand_ribbon_meta_framer.md (§11B) | DONE. No run.py; 240-form meta-structure. |
+| CQE-paper-31 (It Was Still Just LCR) | EXTEND 037 + STD + MNY | 037_c_invariance_lr_reversal.md (§13) | DONE. Root 037 self-verified (91 checks, 0 defects). P31 thesis borne out by engine. No fabrication. |
+
+**CQECMPLX-Production P00-P31: ALL 32 CANONICAL PAPERS RECRAFTED.** Created root 000 (was missing). P00-P06 verifiers PASS (run.py, T3-T7). P07-P31 carried as transport-contract / C-form Gluon sections with honest interpretive/irreducible-gap notes. Knight-CA A033996 fabrication flagged (real counts cited). EFE, Higgs derivation, full moonshine, Gamma72 registered as irreducible gaps (not promoted).
 
 
 

@@ -236,6 +236,16 @@ All 13 D claims are machine-verified. The 4 I claims are structural readings con
 
 ---
 
+## 13. Canonical Production Source — CQECMPLX-Production P31 (It Was Still Just LCR)
+
+P31 is the meta-walkthrough: every exceptional structure (E8, F4, D4, Monster VOA) reduces to
+the LCR kernel via the verified reduction chain; the VOA partition Z(q)=2q⁰+6q⁵ classifies the
+8 states into 2 true vacua + 6 excited. **No run.py** for P31, but root 037 is itself the
+C-invariance/LR-reversal proof (13 D, 4 I, 1 X; 91 checks, 0 defects — fully verified). P31's
+"it was still just LCR" thesis is borne out by `verify_lcr_sector_decomposition`,
+`verify_chiral_doublet`, `verify_observer_frame_selection`, `verify_spectre_tiling`. Honest,
+no fabrication.
+
 ## 12. Conclusion
 
 Paper 037 establishes C-invariance under LR reversal as the defining symmetry of the LCR carrier. The reversal involution \(\sigma\) preserves the center coordinate \(C\) for all 8 states, fixes exactly 4 states (\(L=R\)), and partitions the remaining 4 into 2 swap-pair orbits. The correction operator \(\partial = C \wedge \neg R\) is invariant on the fixed-point support. All higher exceptional structures — \(E_8\), \(F_4\), \(D_4\) — reduce to the LCR kernel through the verified reduction chain. The VOA partition \(Z(q) = 2q^0 + 6q^5\) classifies the 8 tile states into 2 true vacua (weight 0) and 6 excited states (weight 5), with mass \(m = n_b \cdot \kappa\). The 18 claims (13 D, 4 I, 1 X) are fully verified with 91 checks and 0 defects.

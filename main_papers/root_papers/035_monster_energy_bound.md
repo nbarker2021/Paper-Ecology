@@ -319,6 +319,15 @@ The source (PaperLib paper-29) contains one interpretive claim (29.5: "Prime-tow
 
 ---
 
+## 13B. Canonical Production Source — CQECMPLX-Production P29 (Monster / Universal Energy-Bound Hypotheses)
+
+P29's C-Form: the energy Gluon at D72 = the universal (Monster) energy bound; depth-72 closure
+= the energy ceiling. **No run.py** (index: "needs creation"). Maps to §13 (Monster energy
+bound) and `145_monster_energy_bound_kappa.md`. Honest note: the Monster energy bound κ =
+ln(φ)/16 × SCALE ≈ 25.05 GeV is the calibrated empirical anchor (Higgs mass); the "universal
+energy bound" framing is the CQECMPLX interpretation. Γ72 landing remains a registered gap.
+No fabrication.
+
 ## 13. Bibliography
 
 1. J. H. Conway and S. P. Norton, "Monstrous Moonshine," *Bull. London Math. Soc.* 11 (1979), 308–339. Monster group and Moonshine.

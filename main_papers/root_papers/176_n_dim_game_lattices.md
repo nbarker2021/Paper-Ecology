@@ -181,6 +181,12 @@ P24's N-dimensional chess automata = chart-state games on LCR lattices. **No run
 Honest note: N-dim game lattices are the CQECMPLX interpretation; OEIS A033996 knight-CA
 claim is FABRICATED (use real counts above). No fabrication in this recraft.
 
+## 9B. Canonical Production Source — CQECMPLX-Production P28 (N-Dim Game Lattices)
+
+P28 generalizes KnightForge (P24) to N-dimensional game lattices. **No run.py** for P28.
+Honest note: N-dim lattices are the CQECMPLX interpretation; A033996 knight-CA is FABRICATED
+(real edges above). No fabrication here.
+
 ## 9. References
 
 1. Paper 005 — D12 Axis/Sheet Symmetries (lattice group)

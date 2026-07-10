@@ -245,6 +245,12 @@ The formula κ = ln(φ)/16 is D (data-backed by the correction operator analysis
 
 ---
 
+## 13B. Canonical Production Source — CQECMPLX-Production P29 (Monster / Universal Energy-Bound)
+
+P29's depth-72 closure = universal energy bound; κ calibrated at Higgs mass. **No run.py** for
+P29. Honest note: energy bound is the CQECMPLX interpretation; Γ72 landing unproved (registered
+gap). No fabrication.
+
 ## 13. References
 
 - Paper 007 — Boundary Repair Operator ∂, ∂² = 0

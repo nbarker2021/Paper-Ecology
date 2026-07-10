@@ -271,6 +271,13 @@ No external computation is required beyond basic arithmetic and enumeration.
 
 ---
 
+## 11B. Canonical Production Source — CQECMPLX-Production P30 (Grand Ribbon Meta-Framer)
+
+P30's C-Form: the ribbon Gluon — the Grand Ribbon as the meta-frame linking all layers; the
+meta-framer enumerates the 240-form proof stack. **No run.py** (index: "needs creation"). Maps
+to §11 (Grand Ribbon meta-framer). Honest note: the 240-form ribbon is the CQECMPLX
+meta-structure; the meta-framer is the audit/enumerate layer. No fabrication.
+
 ## 11. Bibliography
 
 1. S. Wolfram, *A New Kind of Science*, Wolfram Media, 2002. Rule 30 and cellular automata.
